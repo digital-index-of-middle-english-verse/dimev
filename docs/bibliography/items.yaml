@@ -1,0 +1,318 @@
+---
+references:
+- id: BenskinElectronicVersionLinguistic2013
+  author:
+    - family: Benskin
+      given: M.
+    - family: Laing
+      given: M.
+    - family: Karaiskos
+      given: V.
+    - family: Williamson
+      given: K.
+  citation-key: BenskinElectronicVersionLinguistic2013
+  edition: version 1.1
+  event-place: Edinburgh
+  issued:
+    - year: 2013
+    - year: 0
+  publisher: The Authors and The University of Edinburgh
+  publisher-place: Edinburgh
+  title: An electronic version of A Linguistic Atlas of Late Mediaeval English
+  type: book
+  URL: http://www.lel.ed.ac.uk/ihd/elalme/elalme.html
+
+- id: BoffeyNewIndexMiddle2005
+  author:
+    - family: Boffey
+      given: Julia
+    - family: Edwards
+      given: A. S. G.
+  call-number: Z2014.P7 B655 2005
+  citation-key: BoffeyNewIndexMiddle2005
+  event-place: London
+  ISBN: 0-7123-4831-X
+  issued:
+    - year: 2005
+  number-of-pages: '344'
+  publisher: British Library
+  publisher-place: London
+  source: www.franklin.library.upenn.edu Library Catalog
+  title: A new index of Middle English verse
+  type: book
+
+- id: BrownIndexMiddleEnglish1943
+  citation-key: BrownIndexMiddleEnglish1943
+  editor:
+    - family: Brown
+      given: Carleton
+    - family: Robbins
+      given: Rossell Hope
+  event-place: New York
+  issued:
+    - year: 1943
+  number-of-pages: '785'
+  publisher: Columbia University Press
+  publisher-place: New York
+  source: orbis.library.yale.edu Library Catalog
+  title: The index of Middle English verse
+  type: book
+
+- id: BrownRegisterMiddleEnglish1916
+  author:
+    - family: Brown
+      given: Carleton
+  citation-key: BrownRegisterMiddleEnglish1916
+  event-place: Oxford
+  issued:
+    - year: 1916
+    - year: 1920
+  number-of-volumes: '2'
+  publisher: Oxford University Press
+  publisher-place: Oxford
+  title: A register of Middle English religious & didactic verse
+  type: book
+
+- id: DeanAngloNormanLiteratureGuide1999
+  author:
+    - family: Dean
+      given: Ruth J.
+    - family: Boulton
+      given: Maureen B. M.
+  call-number: PC2942 .D43 1999
+  citation-key: DeanAngloNormanLiteratureGuide1999
+  event-place: London
+  ISBN: 0-905474-38-4
+  issued:
+    - year: 1999
+  number-of-pages: '553'
+  publisher: Anglo-Norman Text Society
+  publisher-place: London
+  source: www.franklin.library.upenn.edu Library Catalog
+  title: 'Anglo-Norman literature: a guide to texts and manuscripts'
+  title-short: Anglo-Norman Literature
+  type: book
+
+- id: HamerManuscriptIndexIndex1995
+  call-number: PR1203 H33X 1995
+  citation-key: HamerManuscriptIndexIndex1995
+  editor:
+    - family: Hamer
+      given: R. F. S.
+  event-place: London
+  ISBN: 0-7123-0387-1
+  issued:
+    - year: 1995
+  number-of-pages: '62'
+  publisher: British Library
+  publisher-place: London
+  source: orbis.library.yale.edu Library Catalog
+  title: A manuscript index to the "Index of Middle English Verse"
+  type: book
+
+- id: HealeyDictionaryOldEnglish2009
+  citation-key: HealeyDictionaryOldEnglish2009
+  editor:
+    - family: Healey
+      given: Antonette
+      dropping-particle: diPaulo
+    - family: Wilkin
+      given: John Price
+    - family: Xiang
+      given: Xin
+  event-place: Toronto
+  issued:
+    - year: 2009
+  publisher: Dictionary of Old English Project
+  publisher-place: Toronto
+  title: Dictionary of Old English web corpus
+  type: book
+  URL: http://tapor.library.utoronto.ca/doecorpus/
+
+- id: LaingLinguisticAtlasEarly2013
+  author:
+    - family: Laing
+      given: Margaret
+  citation-key: LaingLinguisticAtlasEarly2013
+  edition: version 3.2
+  event-place: Edinburgh
+  issued:
+    - year: 2013
+    - year: 0
+  publisher: The University of Edinburgh
+  publisher-place: Edinburgh
+  title: A linguistic atlas of early Middle English, 1150–1325
+  type: book
+  URL: http://www.lel.ed.ac.uk/ihd/laeme2/laeme2.html
+
+- id: LewisIndexPrintedMiddle1985
+  author:
+    - family: Lewis
+      given: Robert E.
+    - family: Blake
+      given: N. F.
+    - family: Edwards
+      given: A. S. G.
+  call-number: Z2014 P795 L49 1985 (LC)
+  citation-key: LewisIndexPrintedMiddle1985
+  event-place: New York
+  ISBN: 0-8240-8839-5
+  issued:
+    - year: 1985
+  number-of-pages: '362'
+  publisher: Garland
+  publisher-place: New York
+  source: orbis.library.yale.edu Library Catalog
+  title: Index of printed Middle English prose
+  type: book
+
+- id: MayElizabethanPoetryBibliography2004
+  author:
+    - family: May
+      given: Steven W.
+    - family: Ringler
+      given: William A.
+  citation-key: MayElizabethanPoetryBibliography2004
+  event-place: London
+  ISBN: 978-0-8264-7278-6
+  issued:
+    - year: 2004
+  language: eng
+  number-of-pages: xx+2337
+  publisher: Thoemmes Continuum
+  publisher-place: London
+  source: i-share-nby.primo.exlibrisgroup.com
+  title: >-
+    Elizabethan poetry: a bibliography and first-line index of English verse,
+    1559-1603
+  title-short: Elizabethan poetry
+  type: book
+
+- id: PollardShorttitleCatalogueBooks1950
+  author:
+    - family: Pollard
+      given: Alfred W.
+    - family: Redgrave
+      given: G. R.
+    - family: Haller
+      given: William
+  call-number: Z2002 .P7 1950 copy1
+  citation-key: PollardShorttitleCatalogueBooks1950
+  event-place: London
+  issued:
+    - year: 1950
+  number-of-pages: '609'
+  publisher: Bibliographical Society
+  publisher-place: London
+  source: Catalog of the Folger Shakespeare Library
+  title: >-
+    A short-title catalogue of books printed in England, Scotland, & Ireland and
+    of English books printed abroad, 1475-1640
+  type: book
+
+- id: RandIndexMiddleEnglish2014
+  author:
+    - family: Rand
+      given: Kari Anne
+  call-number: PR281 .I52 Index 1-20
+  citation-key: RandIndexMiddleEnglish2014
+  event-place: Woodbridge
+  ISBN: 978-1-84384-383-2
+  issued:
+    - year: 2014
+  note: 'OCLC: ocn903949216'
+  number-of-pages: '603'
+  publisher: D.S. Brewer
+  publisher-place: Woodbridge
+  source: orbis.library.yale.edu Library Catalog
+  title: 'The index of Middle English prose: index to volumes I-XX'
+  type: book
+
+- id: RinglerBibliographyIndexEnglish1988
+  author:
+    - family: Ringler
+      given: William A.
+  call-number: Reference ; PR531 .R56 1988
+  citation-key: RinglerBibliographyIndexEnglish1988
+  event-place: London
+  ISBN: 978-0-7201-1892-6
+  issued:
+    - year: 1988
+  language: en
+  number-of-pages: viii+440
+  publisher: Mansell
+  publisher-place: London
+  source: luc.primo.exlibrisgroup.com
+  title: Bibliography and index of English verse printed 1476-1558
+  type: book
+
+- id: RinglerBibliographyIndexEnglish1992
+  author:
+    - family: Ringler
+      given: William A.
+    - family: Rudick
+      given: Michael
+    - family: Ringler
+      given: Susan J.
+  citation-key: RinglerBibliographyIndexEnglish1992
+  event-place: London
+  ISBN: 978-0-7201-2099-8
+  issued:
+    - year: 1992
+  language: en
+  note: 'OCLC: 26162572'
+  number-of-pages: '315'
+  publisher: Mansell
+  publisher-place: London
+  source: Open WorldCat
+  title: Bibliography and index of English verse in manuscript, 1501-1558
+  type: book
+
+- id: RobbinsSupplementIndexMiddle1965
+  author:
+    - family: Robbins
+      given: Rossell Hope
+    - family: Cutler
+      given: John L.
+  citation-key: RobbinsSupplementIndexMiddle1965
+  event-place: Lexington
+  issued:
+    - year: 1965
+  number-of-pages: '551'
+  publisher: University of Kentucky Press
+  publisher-place: Lexington
+  source: orbis.library.yale.edu Library Catalog
+  title: Supplement to the "Index of Middle English Verse"
+  type: book
+
+- id: SharpeHandlistLatinWriters1997
+  author:
+    - family: Sharpe
+      given: Richard
+  call-number: Z6605.L3
+  citation-key: SharpeHandlistLatinWriters1997
+  collection-number: '1'
+  collection-title: Publications of the Journal of medieval Latin
+  event-place: Turnhout
+  ISBN: 2-503-50575-9
+  issued:
+    - year: 1997
+  number-of-pages: '912'
+  publisher: Brepols
+  publisher-place: Turnhout
+  source: orbis.library.yale.edu Library Catalog
+  title: A handlist of the Latin writers of Great Britain and Ireland before 1540
+  type: book
+
+- id: TEIConsortiumTEIP5Guidelines2024
+  citation-key: TEIConsortiumTEIP5Guidelines2024
+  edition: Version 4.8.0. Last updated on 2nd September 2024
+  editor:
+    - literal: TEI Consortium
+  issued:
+    - year: 2024
+  title: 'TEI P5: Guidelines for Electronic Text Encoding and Interchange'
+  title-short: TEI P5
+  type: book
+  URL: http://www.tei-c.org/Guidelines/P5/
+...

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
+  <xs:element name="mss">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="item" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+	      <xs:element name="loc" type="textfield"/>
+	      <xs:element name="repos" type="textfield"/>
+	      <xs:element name="desc">
+		<xs:complexType mixed="true">
+		  <xs:choice minOccurs="0" maxOccurs="unbounded">
+		    <xs:element name="i"/>
+		    <xs:element name="sup"/>
+		    <xs:element name="mss">
+		      <xs:complexType>
+			<xs:attribute name="key" type="xs:string" use="required"/>
+		      </xs:complexType>
+		    </xs:element>
+		    <xs:element name="biblio">
+		      <xs:complexType>
+			<xs:attribute name="key" type="xs:string" use="required"/>
+		      </xs:complexType>
+		    </xs:element>
+		  </xs:choice>
+		</xs:complexType>
+	      </xs:element>
+	      <xs:element name="lang" minOccurs="0">
+		<xs:complexType mixed="true">
+		  <xs:choice minOccurs="1" maxOccurs="unbounded">
+		    <xs:element name="langGrid" type="xs:string"/>
+		    <xs:element name="i" type="xs:string"/>
+		    <xs:element name="mss">
+		      <xs:complexType>
+			<xs:attribute name="key" type="xs:string" use="required"/>
+		      </xs:complexType>
+		    </xs:element>
+		    <xs:element name="biblio">
+		      <xs:complexType>
+			<xs:simpleContent>
+			  <xs:extension base="xs:string">
+			    <xs:attribute name="key"/>
+			  </xs:extension>
+			</xs:simpleContent>
+		      </xs:complexType>
+		    </xs:element>
+		    <xs:element name="place">
+		      <xs:complexType>
+			<xs:simpleContent>
+			  <xs:extension base="xs:string">
+			    <xs:attribute name="country"/>
+			    <xs:attribute name="county"/>
+			    <xs:attribute name="town"/>
+			  </xs:extension>
+			</xs:simpleContent>
+		      </xs:complexType>
+		    </xs:element>
+		  </xs:choice>
+                </xs:complexType>
+	      </xs:element>
+            </xs:sequence>
+            <xs:attribute ref="xml:id" use="required"/>
+	  </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="textfield" mixed="true">
+    <xs:choice minOccurs="0">
+      <xs:element name="i"/>
+    </xs:choice>
+  </xs:complexType>
+</xs:schema>

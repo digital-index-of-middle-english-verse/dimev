@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
+  <xs:element name="books">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="bibl" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+	      <xs:element name="loc" type="textfield"/>
+	      <xs:element name="DIMEVCount" type="xs:string"/>
+	      <xs:element name="authorstmt">
+		<xs:complexType>
+		  <xs:sequence>
+		    <xs:element name="author" type="xs:string"/>
+		  </xs:sequence>
+		</xs:complexType>
+	      </xs:element>
+	      <xs:element name="titlestmt">
+		<xs:complexType>
+		  <xs:sequence>
+		    <xs:element name="title">
+		      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="level" type="xs:string"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+		      </xs:complexType>
+		    </xs:element>
+		  </xs:sequence>
+		</xs:complexType>
+	      </xs:element>
+	      <xs:element name="pubstmt">
+		<xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="date" type="xs:string"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+		</xs:complexType>
+	      </xs:element>
+	      <xs:element name="repos" type="xs:string"/>
+	      <xs:element name="desc">
+		<xs:complexType mixed="true">
+		  <xs:choice minOccurs="0" maxOccurs="2">
+		    <xs:element name="name" type="xs:string"/>
+		    <xs:element name="i" type="textfield"/>
+		  </xs:choice>
+		</xs:complexType>
+	      </xs:element>
+            </xs:sequence>
+            <xs:attribute ref="xml:id" use="required"/>
+            <xs:attribute name="n" use="required"/>
+	  </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="textfield" mixed="true">
+    <xs:choice minOccurs="0">
+      <xs:element name="i"/>
+      <xs:element name="sup"/>
+    </xs:choice>
+  </xs:complexType>
+</xs:schema>

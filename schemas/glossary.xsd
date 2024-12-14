@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
+  <xs:element name="glossary">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="item" maxOccurs="unbounded">
+	  <xs:complexType>
+	    <xs:sequence>
+	      <xs:element name="lemma" type="xs:string"/>
+	      <xs:element name="source">
+		<xs:complexType>
+		  <xs:choice minOccurs="0">
+		    <xs:element name="ref">
+		      <xs:complexType>
+			<xs:simpleContent>
+			  <xs:extension base="xs:string">
+			    <xs:attribute name="type"/>
+			    <xs:attribute name="n"/>
+			  </xs:extension>
+			</xs:simpleContent>
+		      </xs:complexType>
+		    </xs:element>
+		    <xs:element name="biblio">
+		      <xs:complexType>
+			<xs:simpleContent>
+			  <xs:extension base="xs:string">
+			    <xs:attribute name="key"/>
+			  </xs:extension>
+			</xs:simpleContent>
+		      </xs:complexType>
+		    </xs:element>
+		  </xs:choice>
+		</xs:complexType>
+	      </xs:element>
+	      <xs:element name="partOfSpeech" type="textfield"/>
+	      <xs:element name="def" type="textfield"/>
+	    </xs:sequence>
+            <xs:attribute ref="xml:id" use="required"/>
+	  </xs:complexType>
+	</xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="textfield" mixed="true">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="i"/>
+      <xs:element name="sup"/>
+    </xs:choice>
+  </xs:complexType>
+</xs:schema>

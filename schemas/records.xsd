@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
+  <xs:element name="records">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="record" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name">
+                <xs:complexType mixed="true">
+          	  <xs:choice minOccurs="0" maxOccurs="unbounded">
+          	    <xs:element name="i"/>
+          	    <xs:element name="gloss" type="bibkey"/>
+          	  </xs:choice>
+          	</xs:complexType>
+              </xs:element>
+              <xs:element name="alpha" type="xs:string"/>
+              <xs:element name="description" minOccurs="0">
+                <xs:complexType mixed="true">
+          	  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="ref" type="crossref" minOccurs="0" maxOccurs="unbounded"/>
+          	    <xs:element name="mss" type="bibkey" minOccurs="0" maxOccurs="unbounded"/>
+		    <xs:element name="biblio" type="bibkey" minOccurs="0" maxOccurs="unbounded"/>
+                    <xs:element name="insc" type="bibkey"/>
+          	    <xs:element name="i" type="italic"/>
+          	    <xs:element name="lb"/>
+          	  </xs:choice>
+          	</xs:complexType>
+              </xs:element>
+              <xs:element name="descNote" minOccurs="0">
+                <xs:complexType mixed="true">
+		  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="ref" type="crossref" minOccurs="0" maxOccurs="unbounded"/>
+		    <xs:element name="biblio" type="bibkey" minOccurs="0" maxOccurs="unbounded"/>
+		    <xs:element name="mss" type="bibkey" minOccurs="0" maxOccurs="unbounded"/>
+          	    <xs:element name="sup" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+          	    <xs:element name="i" type="xs:string"/>
+		  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="authors" minOccurs="0">
+                <xs:complexType>
+		  <xs:sequence>
+                    <xs:element name="author" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="last" type="xs:string" minOccurs="0"/>
+                          <xs:element name="first" type="xs:string" minOccurs="0"/>
+                          <xs:element name="suffix" type="xs:string" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+		  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+	      <xs:choice>
+	      <!--this choice should not be necessary: fix the XML-->
+                <xs:element name="titles" minOccurs="0">
+                  <xs:complexType>
+	            <xs:sequence>
+                      <xs:element name="title" maxOccurs="unbounded">
+                        <xs:complexType mixed="true">
+          	          <xs:choice minOccurs="0" maxOccurs="2">
+          	            <xs:element name="i"/>
+		          </xs:choice>
+		        </xs:complexType>
+		      </xs:element>
+	            </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+		<xs:element name="title"/>
+	      </xs:choice>
+              <xs:element name="subjects" minOccurs="0">
+                <xs:complexType>
+		  <xs:sequence>
+                    <xs:element name="subject" maxOccurs="unbounded">
+                      <xs:complexType mixed="true">
+          	        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          	          <xs:element name="i"/>
+			</xs:choice>
+		      </xs:complexType>
+		    </xs:element>
+		  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="verseForms" minOccurs="0">
+                <xs:complexType>
+		  <xs:sequence>
+                    <xs:element name="verseForm" maxOccurs="unbounded" type="xs:string"/>
+		  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="versePatterns" minOccurs="0">
+                <xs:complexType>
+		  <xs:sequence>
+                    <xs:element name="versePattern" maxOccurs="unbounded" type="xs:string"/>
+		  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="languages" minOccurs="0">
+                <xs:complexType>
+		  <xs:sequence>
+                    <xs:element name="language" maxOccurs="unbounded" type="xs:string"/>
+		  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ghosts" minOccurs="0">
+                <xs:complexType>
+		  <xs:sequence>
+                    <xs:element name="ghost" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+                          <xs:element name="ref" type="crossref"/>
+			  <xs:element name="mss" type="bibkey"/>
+			  <xs:element name="insc" type="bibkey"/>
+			  <xs:element name="biblio" type="bibkey"/>
+			  <xs:element name="i"/>
+			  <xs:element name="sup"/>
+			</xs:choice>
+                      </xs:complexType>
+                    </xs:element>
+		  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="witnesses" minOccurs="0">
+                <xs:complexType>
+		  <xs:sequence>
+                    <xs:element name="witness" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+		        <xs:sequence>
+			  <xs:element name="allLines" minOccurs="0" type="transcription"/>
+			  <xs:element name="firstLines" minOccurs="0" type="transcription"/>
+			  <xs:element name="lastLines" minOccurs="0" type="transcription"/>
+          	          <xs:element name="source">
+          	            <xs:complexType>
+			      <xs:choice minOccurs="0" maxOccurs="10">
+          	                <xs:sequence>
+          	                  <xs:element name="start" type="xs:string"/>
+          	                  <xs:element name="end" type="xs:string" minOccurs="0"/>
+          	                </xs:sequence>
+			      </xs:choice>
+          	              <xs:attribute name="key" type="xs:string"/>
+          	              <xs:attribute name="prefix" type="xs:string"/>
+          	            </xs:complexType>
+          	          </xs:element>
+			  <xs:element name="sourceNote" type="freeMix" minOccurs="0" maxOccurs="2"/><!--but this element should not repeat. Fix the XML-->
+			  <xs:element name="MSAuthor" type="freeMix" minOccurs="0"/>
+			  <xs:element name="MSTitle" type="freeMix" minOccurs="0"/>
+          	          <xs:element name="facsimiles" minOccurs="0">
+          	            <xs:complexType>
+		              <xs:sequence>
+          	                <xs:element name="facsimile" type="bibkey" minOccurs="0" maxOccurs="unbounded"/>
+		              </xs:sequence>
+          	            </xs:complexType>
+          	          </xs:element>
+          	          <xs:element name="editions" minOccurs="0">
+          	            <xs:complexType>
+		              <xs:sequence>
+          	                <xs:element name="edition" type="bibkey" minOccurs="0" maxOccurs="unbounded"/>
+		              </xs:sequence>
+          	            </xs:complexType>
+          	          </xs:element>
+                        </xs:sequence>
+          	        <xs:attribute ref="xml:id" use="required"/>
+                        <xs:attribute name="illust" type="xs:string"/>
+                        <xs:attribute name="music" type="xs:string"/>
+                      </xs:complexType>
+                    </xs:element>
+		  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute ref="xml:id" use="optional"/>
+            <xs:attribute name="imev" type="xs:string"/>
+            <xs:attribute name="nimev" type="xs:string"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="crossref">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+	<xs:anyAttribute namespace="##any" processContents="lax"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="bibkey" mixed="true">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="mss" type="bibkey"/>
+      <xs:element name="biblio" type="bibkey"/>
+      <xs:element name="ref" type="crossref"/>
+      <xs:element name="sup"/>
+      <xs:element name="i"/>
+    </xs:choice>
+    <xs:attribute name="key" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="transcription" mixed="true">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="lb"/>
+      <xs:element name="i"/>
+      <xs:element name="del"/>
+      <xs:element name="sup"/>
+      <xs:element name="add"/>
+      <xs:element name="sic"/>
+    </xs:choice>
+  </xs:complexType>
+  <xs:complexType name="inlinePerson">
+    <xs:sequence>
+      <xs:element name="first" type="xs:string" minOccurs="0"/>
+      <xs:element name="last" type="xs:string" minOccurs="0"/>
+      <xs:element name="suffix" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="freeMix" mixed="true">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="i" type="italic"/>
+      <xs:element name="biblio" type="bibkey"/>
+      <xs:element name="insc" type="bibkey"/>
+      <xs:element name="scribe" type="inlinePerson"/>
+      <xs:element name="ref" type="crossref"/>
+      <xs:element name="mss" type="bibkey"/>
+      <xs:element name="sup" type="xs:string"/>
+      <xs:element name="add" type="xs:string"/>
+      <xs:element name="del" type="xs:string"/>
+      <xs:element name="lb" type="xs:string"/>
+    </xs:choice>
+  </xs:complexType>
+  <xs:complexType name="italic" mixed="true">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="scribe" type="inlinePerson"/>
+      <xs:element name="sup" type="xs:string"/>
+      <xs:element name="lb"/>
+    </xs:choice>
+  </xs:complexType>
+</xs:schema>
