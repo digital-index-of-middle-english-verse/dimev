@@ -15,12 +15,11 @@ references:
   event-place: Edinburgh
   issued:
     - year: 2013
-    - year: 0
   publisher: The Authors and The University of Edinburgh
   publisher-place: Edinburgh
-  title: An electronic version of A Linguistic Atlas of Late Mediaeval English
+  title: 'eLALME: A Linguistic Atlas of Late Medieval English'
   type: book
-  URL: http://www.lel.ed.ac.uk/ihd/elalme/elalme.html
+  URL: http://amc.ppls.ed.ac.uk/elalme/
 
 - id: BoffeyNewIndexMiddle2005
   author:
@@ -94,11 +93,11 @@ references:
   type: book
 
 - id: HamerManuscriptIndexIndex1995
-  call-number: PR1203 H33X 1995
-  citation-key: HamerManuscriptIndexIndex1995
-  editor:
+  author:
     - family: Hamer
       given: R. F. S.
+  call-number: PR1203 H33X 1995
+  citation-key: HamerManuscriptIndexIndex1995
   event-place: London
   ISBN: 0-7123-0387-1
   issued:
@@ -138,7 +137,6 @@ references:
   event-place: Edinburgh
   issued:
     - year: 2013
-    - year: 0
   publisher: The University of Edinburgh
   publisher-place: Edinburgh
   title: A linguistic atlas of early Middle English, 1150–1325
