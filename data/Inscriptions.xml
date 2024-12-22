@@ -1,13 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE inscriptions [ 
-<!ELEMENT item (#PCDATA | loc | repos | desc)*>
-<!ATTLIST item xml:id ID #IMPLIED>
-<!ELEMENT i (#PCDATA)>
-<!ELEMENT repos (#PCDATA | i)*>
-<!ELEMENT loc (#PCDATA | i)*>
-<!ELEMENT inscriptions (#PCDATA | item)*>
-<!ELEMENT desc (#PCDATA | i)*>
-]>
 <inscriptions>
      <item xml:id="SaffWald">
         <loc>Saffron Waldon, Essex</loc>

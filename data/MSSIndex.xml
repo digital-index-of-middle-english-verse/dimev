@@ -465,7 +465,7 @@
       </repos>
    </loc>
    <loc key="Amsterdam, Netherlands">
-      <repos key="Bibliotheca Philosophica Hermetica,">
+      <repos key="Bibliotheca Philosophica Hermetica">
          <item xml:id="AmsterdamBPHM199">
             <desc>MS M 199 [<i>olim</i> Christie’s catalogue 26 June 1991]</desc>
             <count>1</count>
@@ -473,7 +473,7 @@
       </repos>
    </loc>
    <loc key="The Hague, Netherlands">
-      <repos key="Nationale Bibliotheek,">
+      <repos key="Nationale Bibliotheek">
          <item xml:id="HagueKB135G18">
             <desc>135.G.18</desc>
             <count>1</count>
@@ -670,7 +670,7 @@
       </repos>
    </loc>
    <loc key="Birmingham, UK">
-      <repos key="Birmingham City Archives,">
+      <repos key="Birmingham City Archives">
          <item xml:id="Halesowen">
             <desc>Halesowen Court Forlls, Hagley Hall collection, No. 346333</desc>
             <count>1</count>
@@ -798,7 +798,7 @@
       </repos>
    </loc>
    <loc key="Cambridge">
-      <repos key="University Library,">
+      <repos key="University Library">
          <item xml:id="CULInc5J12">
             <desc>Inc. 5. J. 1. 2. (3569) (printed <mss key="STC17032a"/>)</desc>
             <count>0</count>
@@ -806,7 +806,7 @@
       </repos>
    </loc>
    <loc key="Cambridge MA">
-      <repos key="Harvard University, Houghton Library,">
+      <repos key="Harvard University, Houghton Library">
          <item xml:id="HarEng515">
             <desc>Eng. 515 [<i>olim</i> Halliwell; Sotheby’s Sale, 1920, Lot 515; Hope Allen
             Addit. MS. IV]</desc>
@@ -3264,7 +3264,7 @@
             <count>1</count>
          </item>
       </repos>
-      <repos key="Trinity College,">
+      <repos key="Trinity College">
          <item xml:id="CamTCCfrag">
             <desc>uncatalogued, binding fragments</desc>
             <count>1</count>
@@ -4195,7 +4195,7 @@
             <count>1</count>
          </item>
       </repos>
-      <repos key="National Library of Scotland,">
+      <repos key="National Library of Scotland">
          <item xml:id="NLSACC10225">
             <desc>Sutherland Estates Papers, Acc. 10225, Box I, File 4 (fragment)</desc>
             <count>1</count>
@@ -4207,7 +4207,7 @@
             <count>1</count>
          </item>
       </repos>
-      <repos key="University Library,">
+      <repos key="University Library">
          <item xml:id="EDULaiii318">
             <desc>Laing II.318</desc>
             <count>1</count>
@@ -4278,7 +4278,7 @@
             <count>1</count>
          </item>
       </repos>
-      <repos key="Corporation Archives,">
+      <repos key="Corporation Archives">
          <item xml:id="Shillingford">
             <desc>Letters</desc>
             <count>2</count>
@@ -4490,7 +4490,7 @@
       </repos>
    </loc>
    <loc key="Grand Haven, Michigan">
-      <repos key="The Scriptorium: Center for Biblical Antiquities, Van Kampen Collection,">
+      <repos key="The Scriptorium: Center for Biblical Antiquities, Van Kampen Collection">
          <item xml:id="VanKampen">
             <desc>VK MS 678</desc>
             <count>1</count>
@@ -4652,7 +4652,7 @@
       </repos>
    </loc>
    <loc key="Kendal">
-      <repos key="Kendal Grammar School.">
+      <repos key="Kendal Grammar School">
          <item xml:id="Kendal">
             <desc>A. de Clavasio, <i>Summa de casibus conscientiae</i>, Nuremberg, 1498 (on Deposit at Newcastle University Library)</desc>
             <count>2</count>
@@ -4910,7 +4910,6 @@
          </item>
       </repos>
    </loc>
-   <loc key="Location Unknown"/>
    <loc key="London">
       <repos key="British Library">
          <item xml:id="BLAdd113">
@@ -9720,7 +9719,7 @@
             <count>7</count>
          </item>
       </repos>
-      <repos key="London, Public Record Office,">
+      <repos key="London, Public Record Office">
          <item xml:id="PROLancA23">
             <desc>Duchy of Lancaster Records A.23</desc>
             <count>0</count>
@@ -9920,7 +9919,7 @@
      
    </loc>
    <loc key="Madrid">
-      <repos key="Escorial Bibl.">
+      <repos key="Escorial Biblioteca">
          <item xml:id="EscorIVa24">
             <desc>iv.a.24</desc>
             <count>1</count>
@@ -9950,7 +9949,7 @@
             <count>7</count>
          </item>
       </repos>
-      <repos key="County Archives Office,">
+      <repos key="County Archives Office">
          <item xml:id="MaidstKAOU182">
             <desc>K.A.O. U 182 Z1 (a rent roll)</desc>
             <count>1</count>
@@ -10793,7 +10792,7 @@
       </repos>
    </loc>
    <loc key="Notre Dame, Indiana">
-      <repos key="St Mary’s College, Cushwa-Leighton Library,">
+      <repos key="St Mary’s College, Cushwa-Leighton Library">
          <item xml:id="Cushwa-Leighton">
             <desc>copy of Avenzohar, <i>Liber Teisir, sive rectificatio medicationis et regiminis</i>
             (Venice: Johannes and Gregorius Forlivio, 4 January 1490/91) (shelfmark qR 128 A95
@@ -14337,7 +14336,6 @@
          </item>
          <item xml:id="OxfTri86">
             <desc>86</desc>
-            <lang/>
             <count>1</count>
          </item>
       </repos>
@@ -15116,7 +15114,7 @@
       </repos>
    </loc>
    <loc key="Sankt Florian">
-      <repos key="Stiftsbibl.">
+      <repos key="Stiftsbibliothek">
          <item xml:id="SanFlorXI57">
             <desc>XI 57</desc>
             <lang>
@@ -15294,7 +15292,7 @@
       </repos>
    </loc>
    <loc key="Temple Sowerby, Cumbria">
-      <repos key="olim Mrs Atkinson of Temple Sowerby,">
+      <repos key="olim Mrs Atkinson of Temple Sowerby">
          <item xml:id="Atkinson">
             <desc>(present location unknown)</desc>
             <count>1</count>
@@ -15326,7 +15324,7 @@
       
    </loc>
    <loc key="Trento, Italy">
-      <repos key="Chapter-Library of the Cathedral at Trent,">
+      <repos key="Chapter-Library of the Cathedral at Trent">
          <item xml:id="Trento">
             <desc>Codex 88</desc>
             <count>1</count>
@@ -15640,6 +15638,7 @@
             <desc>7 [<i>olim</i> Marquess of Bute MS 85; sold Sotheby’s 13 June 1983, lot 10]</desc>
             <count>1</count>
          </item>
+      </repos>
          <repos key="olim Ely Cathedral">
             <item xml:id="ElyFrag">
                <desc>fragment</desc>
@@ -15653,13 +15652,12 @@
                <count>1</count>
             </item>
          </repos>
-         <repos key="olim Edward Peacock,">
+         <repos key="olim Edward Peacock">
             <item xml:id="Peacock">
                <desc>MS Calendar, ca. 1400</desc>
                <count>0</count>
             </item>
          </repos>
-      </repos>
    </loc>
    <loc key="Uppington">
       <repos key="Uppington School archives">
@@ -16065,7 +16063,7 @@
       </repos>
    </loc>
    <loc key="Wakefield, West Yorkshire">
-      <repos key="private owner,">
+      <repos key="private owner">
          <item xml:id="Wakefield">
             <desc>John Goodchild, Northern Homily Cycle</desc>
             <count>5</count>

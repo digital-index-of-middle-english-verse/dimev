@@ -1,34 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mss [ 
-<!ELEMENT item (#PCDATA | loc | repos | desc | i | lang | langGrid)*>
-<!ELEMENT lang (#PCDATA | i | biblio | place | langGrid | mss)*>
-<!ELEMENT place (#PCDATA | country | county | town)*>
-<!ATTLIST place country CDATA #IMPLIED>
-<!ELEMENT langGrid (#PCDATA)>
-<!ATTLIST place county CDATA #IMPLIED>
-<!ATTLIST place town CDATA #IMPLIED>
-<!ATTLIST item xml:id ID #IMPLIED>
-<!ELEMENT biblio (#PCDATA)>
-<!ATTLIST biblio key CDATA #IMPLIED>
-<!ELEMENT sup (#PCDATA)>
-<!ELEMENT i (#PCDATA)>
-<!ELEMENT repos (#PCDATA | i)*>
-<!ELEMENT mss (#PCDATA | item | loc | repos)*>
-<!ATTLIST mss key CDATA #IMPLIED>
-<!ELEMENT loc (#PCDATA)>
-<!ELEMENT desc (#PCDATA | i | SUP | mss | sup | biblio)*>
-]>
 <mss>
-    <!-- SGML: check these abbreviations I have used:
-        
-    <sup> and </sup>
-
-    o-umlaut;
-    slashed-o; in Skøyen
-    
-    NOTE: all Bodleian and Oxford College newly added from 'Changes-and-Additions files A-F
-
-    MSS -->
     <item xml:id="Bod80G40Med">
         <loc>Oxford</loc>
         <repos>Bodleian Library</repos>
@@ -5443,13 +5414,11 @@
         <loc>Cambridge UK</loc>
         <repos>Corpus Christi College</repos>
         <desc>7</desc>
-        <lang/>
     </item>
     <item xml:id="CamCCC167">
         <loc>Cambridge UK</loc>
         <repos>Corpus Christi College</repos>
         <desc>167</desc>
-        <lang/>
     </item>
     <item xml:id="CamCCC8">
         <loc>Cambridge UK</loc>
@@ -7172,7 +7141,7 @@
     </item>
     <item xml:id="CamTCCfrag">
         <loc>Cambridge UK</loc>
-        <repos>Trinity College,</repos>
+        <repos>Trinity College</repos>
         <desc>uncatalogued, binding fragments</desc>
     </item>
     <item xml:id="CamTCCVI182">
@@ -13202,7 +13171,7 @@
     </item>
     <item xml:id="NLSACC10225">
         <loc>Edinburgh</loc>
-        <repos>National Library of Scotland,</repos>
+        <repos>National Library of Scotland</repos>
         <desc>Sutherland Estates Papers, Acc. 10225, Box I, File 4 (fragment)</desc>
     </item>
     <item xml:id="NLSGaelic37">
@@ -13548,7 +13517,7 @@
     </item>
     <item xml:id="Kendal">
         <loc>Kendal</loc>
-        <repos>Kendal Grammar School.</repos>
+        <repos>Kendal Grammar School</repos>
         <desc>A. de Clavasio, <i>Summa de casibus conscientiae</i>, Nuremberg, 1498 (on Deposit at Newcastle University Library)</desc>
     </item>
     <item xml:id="LeedsBro10">
@@ -13835,7 +13804,7 @@
     </item>
     <item xml:id="CollArmsI7">
         <loc>London</loc>
-        <repos>College of Arms,</repos>
+        <repos>College of Arms</repos>
         <desc>MS I.7</desc>
     </item>
     <item xml:id="CollArms316">
@@ -14755,7 +14724,7 @@
     </item>
     <item xml:id="MaidstKAOU182">
         <loc>Maidstone, Kent</loc>
-        <repos>County Archives Office,</repos>
+        <repos>County Archives Office</repos>
         <desc>K.A.O. U 182 Z1 (a rent roll)</desc>
     </item>
     <item xml:id="ManCent82211">
@@ -15495,80 +15464,80 @@
     </item>
     <item xml:id="HarEng515">
         <loc>Cambridge MA</loc>
-        <repos>Harvard University, Houghton Library,</repos>
+        <repos>Harvard University, Houghton Library</repos>
         <desc>Eng. 515 [<i>olim</i> Halliwell; Sotheby&#8217;s Sale, 1920, Lot 515; Hope Allen
             Addit. MS. IV]</desc>
     </item>
     <item xml:id="HarEng530">
         <loc>Cambridge MA</loc>
-        <repos>Harvard University, Houghton Library,</repos>
+        <repos>Harvard University, Houghton Library</repos>
         <desc>Eng. 530</desc>
     </item>
     <item xml:id="HarEng532">
         <loc>Cambridge MA</loc>
-        <repos>Harvard University, Houghton Library,</repos>
+        <repos>Harvard University, Houghton Library</repos>
         <desc>Eng. 532F</desc>
     </item>
     <item xml:id="HarEng587">
         <loc>Cambridge MA</loc>
-        <repos>Harvard University, Houghton Library,</repos>
+        <repos>Harvard University, Houghton Library</repos>
         <desc>Eng. 587</desc>
     </item>
     <item xml:id="HarEng590">
         <loc>Cambridge MA</loc>
-        <repos>Harvard University, Houghton Library,</repos>
+        <repos>Harvard University, Houghton Library</repos>
         <desc>Eng. 590</desc>
     </item>
     <item xml:id="HarEng752">
         <loc>Cambridge MA</loc>
-        <repos>Harvard University, Houghton Library,</repos>
+        <repos>Harvard University, Houghton Library</repos>
         <desc>Eng. 752 [<i>olim</i> Ashburnham 131]</desc>
     </item>
     <item xml:id="HarEng766">
         <loc>Cambridge MA</loc>
-        <repos>Harvard University, Houghton Library,</repos>
+        <repos>Harvard University, Houghton Library</repos>
         <desc>Eng. 766</desc>
     </item>
     <item xml:id="HarEng1031">
         <loc>Cambridge MA</loc>
-        <repos>Harvard University, Houghton Library,</repos>
+        <repos>Harvard University, Houghton Library</repos>
         <desc>Eng. 1031</desc>
     </item>
     <item xml:id="HarEng1032">
         <loc>Cambridge MA</loc>
-        <repos>Harvard University, Houghton Library,</repos>
+        <repos>Harvard University, Houghton Library</repos>
         <desc>Eng. 1032</desc>
         <lang><biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.90
                 (<place country="England" county="Northern">NME</place>).</lang>
     </item>
     <item xml:id="HarEng1054">
         <loc>Cambridge MA</loc>
-        <repos>Harvard University, Houghton Library,</repos>
+        <repos>Harvard University, Houghton Library</repos>
         <desc>Eng. 1054</desc>
     </item>
     <item xml:id="HarLat394">
         <loc>Cambridge MA</loc>
-        <repos>Harvard University, Houghton Library,</repos>
+        <repos>Harvard University, Houghton Library</repos>
         <desc>Lat. 394</desc>
     </item>
     <item xml:id="HarRich22">
         <loc>Cambridge MA</loc>
-        <repos>Harvard University, Houghton Library,</repos>
+        <repos>Harvard University, Houghton Library</repos>
         <desc>Richardson 22</desc>
     </item>
     <item xml:id="HarRich35">
         <loc>Cambridge MA</loc>
-        <repos>Harvard University, Houghton Library,</repos>
+        <repos>Harvard University, Houghton Library</repos>
         <desc>Richardson 35</desc>
     </item>
     <item xml:id="HarRich44">
         <loc>Cambridge MA</loc>
-        <repos>Harvard University, Houghton Library,</repos>
+        <repos>Harvard University, Houghton Library</repos>
         <desc>Richardson 44</desc>
     </item>
     <item xml:id="HarTYP193">
         <loc>Cambridge MA</loc>
-        <repos>Harvard University, Houghton Library,</repos>
+        <repos>Harvard University, Houghton Library</repos>
         <desc>TYP 193</desc>
     </item>
     <item xml:id="HarLaw6">
@@ -17050,7 +17019,7 @@
     </item>
     <item xml:id="SanFlorXI57">
         <loc>Sankt Florian</loc>
-        <repos>Stiftsbibl.</repos>
+        <repos>Stiftsbibliothek</repos>
         <desc>XI 57</desc>
         <lang><biblio key="LAEME">LAEME</biblio> Index # 292 (Entry 1, Hand A: &#8216;text language
             not placed &#8212; too little to go on&#8217;); Index # 293 (Entry 2, Hand B:
@@ -17387,7 +17356,7 @@
     </item>
     <item xml:id="Trento">
         <loc>Trento, Italy</loc>
-        <repos>Chapter-Library of the Cathedral at Trent,</repos>
+        <repos>Chapter-Library of the Cathedral at Trent</repos>
         <desc>Codex 88</desc>
     </item>
     <item xml:id="TokyoAsahata">
@@ -17661,7 +17630,7 @@
     </item>
     <item xml:id="EscorIVa24">
         <loc>Madrid</loc>
-        <repos>Escorial Bibl.</repos>
+        <repos>Escorial Biblioteca</repos>
         <desc>iv.a.24</desc>
     </item>
     <item xml:id="EscorGII19">
@@ -17686,7 +17655,7 @@
     </item>
     <item xml:id="Bodmer48">
         <loc>Geneva</loc>
-        <repos>Fondation Martin Bodmer,</repos>
+        <repos>Fondation Martin Bodmer</repos>
         <desc>Cod. Bodmer 48 [<i>olim</i> Rosenbach 156, <i>prior</i> Phillipps 8136]</desc>
         <lang>Very similar to <mss key="Bod414"/> (and possibly the same scribe). Although this
             manuscript has associations with <place country="England" county="Kent">Kent</place>,
@@ -17696,12 +17665,12 @@
     </item>
     <item xml:id="Bodmer110">
         <loc>Geneva</loc>
-        <repos>Fondation Martin Bodmer,</repos>
+        <repos>Fondation Martin Bodmer</repos>
         <desc>Cod. Bodmer 110 [<i>olim</i> Harmsworth; Sotheby&#8217;s Sale, Oct. 1945, lot 1963]</desc>
     </item>
     <item xml:id="Bodmer178">
         <loc>Geneva</loc>
-        <repos>Private owner,</repos>
+        <repos>Private owner</repos>
         <desc>Martin Bodmer MS CB 178 [<i>olim</i> Gurney 121]</desc>
     </item>
     <item xml:id="VaticanBorg">
@@ -18095,59 +18064,59 @@
     </item>
     <item xml:id="PROLancA23">
         <loc>London</loc>
-        <repos>London, Public Record Office,</repos>
+        <repos>London, Public Record Office</repos>
         <desc>Duchy of Lancaster Records A.23</desc>
     </item>
     <item xml:id="Peacock">
         <loc>Present location unknown</loc>
-        <repos><i>olim</i> Edward Peacock,</repos>
+        <repos><i>olim</i> Edward Peacock</repos>
         <desc>MS Calendar, ca. 1400</desc>
     </item>
     <item xml:id="StaffordRODW1734">
         <loc>Stafford, Staffordshire</loc>
-        <repos>Staffordshire Record Office,</repos>
+        <repos>Staffordshire Record Office</repos>
         <desc>D(W) 1734/4/1/6-11</desc>
     </item>
     <item xml:id="EDULaiii318">
         <loc>Edinburgh</loc>
-        <repos>University Library,</repos>
+        <repos>University Library</repos>
         <desc>Laing II.318</desc>
     </item>
     <item xml:id="Shillingford">
         <loc>Exeter</loc>
-        <repos>Corporation Archives,</repos>
+        <repos>Corporation Archives</repos>
         <desc>Letters</desc>
     </item>
     <item xml:id="CULInc5J12">
         <loc>Cambridge</loc>
-        <repos>University Library,</repos>
+        <repos>University Library</repos>
         <desc>Inc. 5. J. 1. 2. (3569) (printed <mss key="STC17032a"/>)</desc>
     </item>
     <item xml:id="Atkinson">
         <loc>Temple Sowerby, Cumbria</loc>
-        <repos><i>olim</i> Mrs Atkinson of Temple Sowerby,</repos>
+        <repos><i>olim</i> Mrs Atkinson of Temple Sowerby</repos>
         <desc>(present location unknown)</desc>
     </item>
     <!--See following <item xml:id="AmsterdamDek">
         <loc>Amsterdam, Netherlands</loc>
-        <repos>Bibliotheca Philosophica Hermetica,</repos>
+        <repos>Bibliotheca Philosophica Hermetica</repos>
         <desc>&#8216;Dekyngston&#8217;</desc>
     </item>-->
     <item xml:id="AmsterdamBPHM199">
         <loc>Amsterdam, Netherlands</loc>
-        <repos>Bibliotheca Philosophica Hermetica,</repos>
+        <repos>Bibliotheca Philosophica Hermetica</repos>
         <desc>MS M 199 [<i>olim</i> Christie&#8217;s catalogue 26 June 1991]</desc>
     </item>
     <item xml:id="Cushwa-Leighton">
         <loc>Notre Dame, Indiana</loc>
-        <repos>St Mary&#8217;s College, Cushwa-Leighton Library,</repos>
+        <repos>St Mary&#8217;s College, Cushwa-Leighton Library</repos>
         <desc>copy of Avenzohar, <i>Liber Teisir, sive rectificatio medicationis et regiminis</i>
             (Venice: Johannes and Gregorius Forlivio, 4 January 1490/91) (shelfmark qR 128 A95
             1490)</desc>
     </item>
     <item xml:id="Halesowen">
         <loc>Birmingham, UK</loc>
-        <repos>Birmingham City Archives,</repos>
+        <repos>Birmingham City Archives</repos>
         <desc>Halesowen Court Forlls, Hagley Hall collection, No. 346333</desc>
     </item>
     <item xml:id="TakamiyaBible">
@@ -18168,7 +18137,7 @@
     </item>
     <item xml:id="VanKampen">
         <loc>Grand Haven, Michigan</loc>
-        <repos>The Scriptorium: Center for Biblical Antiquities, Van Kampen Collection,</repos>
+        <repos>The Scriptorium: Center for Biblical Antiquities, Van Kampen Collection</repos>
         <desc>VK MS 678</desc>
     </item>
     <item xml:id="ChesRecOffddx123">

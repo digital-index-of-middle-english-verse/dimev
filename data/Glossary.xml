@@ -1,21 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE glossary [
-<!ELEMENT ref (#PCDATA)>
-<!ATTLIST ref type CDATA #IMPLIED>
-<!ATTLIST ref n CDATA #IMPLIED>
-<!ELEMENT lemma (#PCDATA)>
-<!ELEMENT glossary (#PCDATA | item)*>
-<!ELEMENT def (#PCDATA | i | sup)*>
-<!ELEMENT source (#PCDATA | ref | lemma | biblio | i | sup)*>
-<!ELEMENT biblio (#PCDATA | key)*>
-<!ATTLIST biblio key CDATA #IMPLIED>
-<!ELEMENT item (#PCDATA | lemma | source | partOfSpeech | def)*>
-<!ATTLIST item xml:id ID #IMPLIED>
-<!ELEMENT i (#PCDATA)>
-<!ELEMENT partOfSpeech (#PCDATA | i | sup)*>
-<!ELEMENT sup (#PCDATA)>
-]>
-
 <glossary>
     <item xml:id="adawe">
         <lemma>adawe</lemma>
@@ -47,8 +30,8 @@
         <def> Back; wenden on ~, pervert</def>
     </item>
     <item xml:id="aknow">
+        <lemma>aknow</lemma>
         <source>
-            <lemma>aknow</lemma>
             <ref type="url" n="http://www.dsl.ac.uk/">Dictionary of the Scots Language</ref>
         </source>
         <partOfSpeech><i>verb</i> (1.)</partOfSpeech>
@@ -56,8 +39,8 @@
             recognize; to come to know, understand.</def>
     </item>
     <item xml:id="aland">
+        <lemma>aland</lemma>
         <source>
-            <lemma>aland</lemma>
             <ref type="url" n="http://www.dsl.ac.uk/">Dictionary of the Scots Language</ref>
         </source>
         <partOfSpeech><i>noun</i> (1.)</partOfSpeech>
@@ -886,8 +869,8 @@
         <def> a. A cry of anger or chiding addressed to a horse</def>
     </item>
     <item xml:id="hale">
+        <lemma>hale</lemma>
         <source>
-            <lemma>hale</lemma>
             <ref type="url" n="http://www.dsl.ac.uk/">Dictionary of the Scots Language</ref>
         </source>
         <partOfSpeech><i>noun</i></partOfSpeech>
@@ -1105,7 +1088,7 @@
     <item xml:id="layk">
         <lemma>layk</lemma>
         <source>
-            <ref type="Tolkien1967">Tolkien 1967, 193</ref>
+            <biblio key="Tolkien1967">193</biblio>
         </source>
         <partOfSpeech>
             <i>noun</i>
@@ -2088,9 +2071,8 @@
     <item xml:id="wale">
         <lemma>wale</lemma>
         <source>
-            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref> (see also <ref type="url"
-                n="http://www.oed.com/">OED</ref>
-            <i>wale</i><sup>2</sup>) </source>
+	  <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED<!--see also OED wale (2)--></ref>
+        </source>
         <partOfSpeech>
             <i>noun</i> (1.b) </partOfSpeech>
         <def> a paragon of beauty or excellence, someone chosen for virtue</def>
