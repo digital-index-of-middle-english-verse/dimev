@@ -136,8 +136,8 @@
           	            <xs:complexType>
 			      <xs:choice minOccurs="0" maxOccurs="10">
           	                <xs:sequence>
-          	                  <xs:element name="start" type="xs:string"/>
-          	                  <xs:element name="end" type="xs:string" minOccurs="0"/>
+          	                  <xs:element name="start" type="point-locator"/>
+          	                  <xs:element name="end" type="point-locator" minOccurs="0"/>
           	                </xs:sequence>
 			      </xs:choice>
           	              <xs:attribute name="key" type="xs:string"/>
@@ -183,6 +183,15 @@
     <xs:simpleContent>
       <xs:extension base="xs:string">
 	<xs:anyAttribute namespace="##any" processContents="lax"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="point-locator">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+	<xs:attribute name="loc" type="xs:string" use="optional"/>
+	<xs:attribute name="col" type="xs:string" use="optional"/>
+	<xs:attribute name="pre" type="xs:string" use="optional"/>
       </xs:extension>
     </xs:simpleContent>
   </xs:complexType>
