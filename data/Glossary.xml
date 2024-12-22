@@ -1,0 +1,2259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossary [
+<!ELEMENT ref (#PCDATA)>
+<!ATTLIST ref type CDATA #IMPLIED>
+<!ATTLIST ref n CDATA #IMPLIED>
+<!ELEMENT lemma (#PCDATA)>
+<!ELEMENT glossary (#PCDATA | item)*>
+<!ELEMENT def (#PCDATA | i | sup)*>
+<!ELEMENT source (#PCDATA | ref | lemma | biblio | i | sup)*>
+<!ELEMENT biblio (#PCDATA | key)*>
+<!ATTLIST biblio key CDATA #IMPLIED>
+<!ELEMENT item (#PCDATA | lemma | source | partOfSpeech | def)*>
+<!ATTLIST item xml:id ID #IMPLIED>
+<!ELEMENT i (#PCDATA)>
+<!ELEMENT partOfSpeech (#PCDATA | i | sup)*>
+<!ELEMENT sup (#PCDATA)>
+]>
+
+<glossary>
+    <item xml:id="adawe">
+        <lemma>adawe</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adverb</i></partOfSpeech>
+        <def> Out of existence. Only in <i>to do</i> (also <i>bring</i>) (a person) <i>adawe</i>: to
+            put (a person) to death; to do away with, kill</def>
+    </item>
+    <item xml:id="afald">
+        <lemma>afald</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i> (1) </partOfSpeech>
+        <def> Single, singular, sole, only. <i>Obs</i>.</def>
+    </item>
+    <item xml:id="afte">
+        <lemma>afte</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adverb</i>
+        </partOfSpeech>
+        <def> Back; wenden on ~, pervert</def>
+    </item>
+    <item xml:id="aknow">
+        <source>
+            <lemma>aknow</lemma>
+            <ref type="url" n="http://www.dsl.ac.uk/">Dictionary of the Scots Language</ref>
+        </source>
+        <partOfSpeech><i>verb</i> (1.)</partOfSpeech>
+        <def><i>Obs</i>. (<i>Eng. regional</i> (<i>north</i>.) in later use). <i>trans</i>. To know,
+            recognize; to come to know, understand.</def>
+    </item>
+    <item xml:id="aland">
+        <source>
+            <lemma>aland</lemma>
+            <ref type="url" n="http://www.dsl.ac.uk/">Dictionary of the Scots Language</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (1.)</partOfSpeech>
+        <def>A draught-horse, a cart-horse: an old horse or one of little value</def>
+    </item>
+    <item xml:id="aport">
+        <lemma>aport</lemma>
+        <source>
+            <ref type="url" n="http://www.dsl.ac.uk/">Dictionary of the Scots Language</ref>
+        </source>
+        <partOfSpeech><i>noun</i></partOfSpeech>
+        <def> Bearing, demeanour</def>
+    </item>
+    <item xml:id="an-inne">
+        <lemma>an-inne</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>preposition</i></partOfSpeech>
+        <def> Within</def>
+    </item>
+    <item xml:id="appeal">
+        <lemma>appeal</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i> (1c) </partOfSpeech>
+        <def> To accuse of a heinous crime whereby the accuser has received personal injury or
+            wrong, for which he demands reparation</def>
+    </item>
+    <item xml:id="avale">
+        <lemma>avale</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def>
+            <i>intr</i>. Of persons: To defend; to come, go, or get down; to dismount, alight</def>
+    </item>
+    <item xml:id="aver">
+        <lemma>aver</lemma>
+        <source>
+            <ref type="url" n="http://www.dsl.ac.uk/">Dictionary of the Scots Language</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (1.)</partOfSpeech>
+        <def>A draught-horse, a cart-horse: an old horse or one of little value</def>
+    </item>
+    <item xml:id="awenande">
+        <lemma>awenande</lemma>
+        <source>
+            <ref type="url" n="http://www.dsl.ac.uk/">Dictionary of the Scots Language</ref>
+        </source>
+        <partOfSpeech>
+            <i>a</i>
+        </partOfSpeech>
+        <def>
+            suitable, convenient, appropriate, agreeable.</def>
+    </item>
+    <item xml:id="awreak">
+        <lemma>awreak</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def>
+            <i>trans</i>. To punish or take vengeance upon (an offence, misdeed)</def>
+    </item>
+    <item xml:id="bach">
+        <lemma>bach</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (1) </partOfSpeech>
+        <def> A stream or its valley; vale, dale, hollow; cou ~, cow pasture</def>
+    </item>
+    <item xml:id="bedene">
+        <lemma>bedene</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adverb</i>
+        </partOfSpeech>
+        <def>In one body or company, together</def>
+    </item>
+    <item xml:id="bee">
+        <lemma>bee</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (2) </partOfSpeech>
+        <def>1. A ring or torque of metal, usually meant for the arm or neck; but in one case at
+            least used of a finger-ring. <i>Obs</i>.</def>
+    </item>
+    <item xml:id="beetle">
+        <lemma>beetle</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i><sup>1</sup>
+        </partOfSpeech>
+        <def> 1. a. An implement consisting of a heavy weight or &#8216;head,&#8217; usually of
+            wood, with a handle or stock, used for driving wedges or pegs, ramming down paving
+            stones, or for crushing, bruising, beating, flattening, or smoothing, in various
+            industrial and domestic operations, and having various shapes according to the purpose
+            for which it is used; a mall</def>
+    </item>
+    <item xml:id="begouth">
+        <lemma>begouth</lemma>
+        <source>
+            <ref type="url" n="http://www.dsl.ac.uk/">Dictionary of the Scots Language</ref>
+        </source>
+        <partOfSpeech><i>verb</i> (1.)</partOfSpeech>
+        <def><i>pa</i>.<i>t</i>. of <i>begin</i>, also used as <i>pa</i>.<i>p</i>. Gen.Sc. for Eng.
+                <i>began</i></def>
+    </item>
+    <item xml:id="behoten">
+        <lemma>behoten</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def> To promise</def>
+    </item>
+    <item xml:id="bemoan">
+        <lemma>bemoan</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i></partOfSpeech>
+        <def> 2. <i>refl</i>. To lament or bewail one&#8217;s lot</def>
+    </item>
+    <item xml:id="bern">
+        <lemma>bern</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (1) </partOfSpeech>
+        <def>2. (a) Soldier; esp., a knight; ~ of armes, man-at-arms; breneid ~, a mailed warrior;
+            (b) a nobleman, a lord; &#8212; often equated with baroun baron</def>
+    </item>
+    <item xml:id="boist">
+        <lemma>boist</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def><i>Obs</i>. 1. a. A box, a casket; chiefly used of a box for ointment, a vase or flask
+            for oil, etc. (= BOX n.2 1.)</def>
+    </item>
+    <item xml:id="breme">
+        <lemma>breme</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i> and <i>adverb</i>
+        </partOfSpeech>
+        <def><i>Obs</i>. exc. <i>poet</i>. and <i>dial</i>. (brim) in sense A. 6. A. adj. I.
+            Celebrated, brilliant, clear, loud, distinct</def>
+    </item>
+    <item xml:id="betony">
+        <lemma>betony</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def><i>prop</i>. A plant (<i>Stachys betonica</i>) of the Labiate order, having spiked
+            purple flowers and ovate crenate leaves. In former days medicinal and magical virtues
+            were attributed to it</def>
+    </item>
+    <item xml:id="belimp">
+        <lemma>belimp</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i> (2.) </partOfSpeech>
+        <def>To happen, occur, befall. Freq. with person as indirect object. (In Old English with
+            dative of person). Also with <i>to</i>.</def>
+    </item>
+    <item xml:id="bemean">
+        <lemma>bemean</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def><i>Obs</i>. 1. <i>trans</i>. To mean, signify, import; 2. <i>Obs</i>. rare.
+            <i>intr</i>. To mediate, intercede</def>
+    </item>
+    <item xml:id="belive">
+        <lemma>belive</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adverb</i> and <i>adjective</i>
+        </partOfSpeech>
+        <def>With speed, with haste, quickly, eagerly</def>
+    </item>
+    <item xml:id="beset">
+        <lemma>besetten</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>, 6 (a) </partOfSpeech>
+        <def>To allocate or employ (funds, property); spend, expend; (b) ~ time (night), to spend (one&#8217;s) time (night).</def>
+    </item>
+    <item xml:id="bespit">
+        <lemma>bespit</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def><i>trans</i>. To spit upon, cover or defile with spitting. Rarely <i>intr</i>. with
+                <i>upon</i>. (Cf. BESPETE<i> v</i>.)</def>
+    </item>
+    <item xml:id="bield">
+        <lemma>bield</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (3b) </partOfSpeech>
+        <def>A means of help or succour</def>
+    </item>
+    <item xml:id="bill">
+        <lemma>bill</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (1) </partOfSpeech>
+        <def>A weapon of war mentioned in Old English poetry, a kind of broadsword, a falchion</def>
+    </item>
+    <item xml:id="bin">
+        <lemma>bin / binne</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adverb</i> and <i>preposition</i>
+        </partOfSpeech>
+        <def> Within, inside of; in, into</def>
+    </item>
+    <item xml:id="bird">
+        <lemma>bird</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (1c.) </partOfSpeech>
+        <def><i>transf</i>. A young man, youngster, child, son</def>
+    </item>
+    <item xml:id="biren">
+        <lemma>biren</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def>[OE ge)byrian, &amp; cp. OI byrja. In ME this verb, a synonym of biho&#333;ven, occurs
+            almost exclusively in the NM and the N, and only in the 3rd person.] 1b. With personal
+            subj.: (a) to be under obligation, be in duty bound (to do sth.), ought (to do)</def>
+    </item>
+    <item xml:id="biwilen">
+        <lemma>biwilen</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i></partOfSpeech>
+        <def>To trick or delude (sb.), as by witchcraft, cunning, or insincerity.</def>
+    </item>
+    <item xml:id="bloke">
+        <lemma>bloke</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i></partOfSpeech>
+        <def><i>Obs</i>. <i>intr</i>. To turn pale</def>
+    </item>
+    <item xml:id="bolen">
+        <lemma>b&#333;len</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def>To serve (a cow) with a bull</def>
+    </item>
+    <item xml:id="bolning">
+        <lemma>bolning</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i></partOfSpeech>
+        <def>Swelling, state of being swollen; <i>concr</i>. a swelling, a tumour</def>
+    </item>
+    <item xml:id="bolts-head">
+        <lemma>bolts-head</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (2.) </partOfSpeech>
+        <def><i>Chem</i>. A globular flask with a long cylindrical neck, used in distillation</def>
+    </item>
+    <item xml:id="bout">
+        <lemma>bout</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adverb</i> and <i>preposition</i>
+        </partOfSpeech>
+        <def><i>Obs</i>. or <i>dial</i>. A. <i>adv</i>.<sup>1</sup> Outside, without; out</def>
+    </item>
+    <item xml:id="britnen">
+        <lemma>britnen</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def>3. (a) To tear or cut (sb.) to pieces; rend, slash; slay; ~ <i>to dethe</i>, ~ <i>to
+                no&#541;t</i>, kill; destroy (the soul); (b) to go to pieces, be annihilated</def>
+    </item>
+    <item xml:id="busk">
+        <lemma>busk</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (1a) </partOfSpeech>
+        <def> =BUSH: A woods, grove; thicket, underbrush; bank and ~, hill and (wooded) dale; under
+            the ~, in (the shelter of) the woods; (b) rank growth</def>
+    </item>
+    <item xml:id="busk1">
+        <lemma>busk</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i> (1) </partOfSpeech>
+        <def>Now rare (<i>Sc</i>., <i>Irish English</i>, and <i>Eng. regional</i> (<i>north</i>.) in
+            later use). I. To prepare, and related senses. 1. a. <i>trans</i>. (<i>refl</i>.). To
+            prepare or equip oneself; to make oneself ready.</def>
+    </item>
+    <item xml:id="buten">
+        <lemma>buten</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adverb</i>and <i>preposition</i>
+        </partOfSpeech>
+        <def>BOUT <i>adv</i>., Outside, without; out; <i>prep</i>., Outside of, without</def>
+    </item>
+    <item xml:id="chalker">
+        <lemma>chalker</lemma>
+        <source>
+            <ref type="url" n="http://www.dsl.ac.uk/">Dictionary of the Scots Language</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def> A long, white night-shirt</def>
+    </item>
+    <item xml:id="Clent">
+        <lemma>Clent</lemma>
+        <source/>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def> Clent Hills, south of Birmingham, where Kenhelm was murdered</def>
+    </item>
+    <item xml:id="con">
+        <lemma>con</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i> (1a)</partOfSpeech>
+        <def> To know. <i>Obs</i>. = CAN v.1 1 – 2 (pa. tense and pple. rarely <i>cunde</i>,
+                <i>conde</i>.)</def>
+    </item>
+    <item xml:id="corse">
+        <lemma>corse</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i></partOfSpeech>
+        <def>†1. a. A living body; = CORPSE n. 1. <i>Obs</i>.</def>
+    </item>
+    <item xml:id="depe">
+        <lemma>depe</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i></partOfSpeech>
+        <def> To immerse as a religious rite, to baptize</def>
+    </item>
+    <item xml:id="derken">
+        <lemma>derken</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i> (5, 6) </partOfSpeech>
+        <def> 5 (a) Of eyes: to become blurred or blind; also fig.; (b) of a person, the mind: to
+            grow confused or befuddled; 6 (a) To keep or lie still (as if in darkness or hiding);
+            linger apprehensively; (b) to lie in wait, lurk</def>
+    </item>
+    <item xml:id="drechen">
+        <lemma>drechen</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i> (1) </partOfSpeech>
+        <def> To injure (sb.), wrong, kill; damage (sth.), destroy; oppress (people, a country);
+            afflict, torment, torture; ~ abrod, to scatter (an army) in defeat; (b) to disturb
+            (sb.), trouble, annoy; grieve (sb.), frighten; of care, disease, love, sin, etc.:
+            distress (sb.); (c) to lower (oneself), debase; (d) to delude (sb.), fool; (e) to
+            speculate, ?worry about something</def>
+    </item>
+    <item xml:id="dree">
+        <lemma>dree</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def>2. a. To endure, undergo, suffer, bear (something burdensome, grievous, or
+            painful)</def>
+    </item>
+    <item xml:id="drublie">
+        <lemma>drublie</lemma>
+        <source>
+            <ref type="url" n="http://www.dsl.ac.uk/">Dictionary of the Scots Language</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i>
+        </partOfSpeech>
+        <def> Turbid; clouded</def>
+    </item>
+    <item xml:id="drut">
+        <lemma>drut</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def> Darling, love, friend</def>
+    </item>
+    <item xml:id="dule">
+        <lemma>dole | dool | dule</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (2) </partOfSpeech>
+        <def> Grief, sorrow, mental distress</def>
+    </item>
+    <item xml:id="eadi">
+        <lemma>eadi</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i> (2) </partOfSpeech>
+        <def> Happy, fortunate, well-omened. Also, Blessed, saintly; said of persons and their
+            actions</def>
+    </item>
+    <item xml:id="ei">
+        <lemma>ei</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i></partOfSpeech>
+        <def> =EGG</def>
+    </item>
+    <item xml:id="ender">
+        <lemma>ender</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i>
+        </partOfSpeech>
+        <def> Only in phrase, <i>this ender day</i>, <i>night</i>, <i>year</i>, indicating a day,
+            etc. recently past</def>
+    </item>
+    <item xml:id="ennoy">
+        <lemma>ennoy</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def> A troubled state of mind, grief, vexation; also <i>concr</i>. a cause of trouble</def>
+    </item>
+    <item xml:id="envire">
+        <lemma>envire</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def> = ENVIRON v. 1. trans. a. To form a ring round, surround, encircle</def>
+    </item>
+    <item xml:id="erd">
+        <lemma>erd</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def> The land where one dwells; native land, home; a region, country</def>
+    </item>
+    <item xml:id="eterminable">
+        <lemma>eterminable</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i>
+        </partOfSpeech>
+        <def> That cannot be terminated; without termination or end; eternal</def>
+    </item>
+    <item xml:id="eath">
+        <lemma>eath</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adverb</i>
+        </partOfSpeech>
+        <def> Easily, without difficulty</def>
+    </item>
+    <item xml:id="egleche">
+        <lemma>egleche</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i>
+        </partOfSpeech>
+        <def> ? Valiant</def>
+    </item>
+    <item xml:id="enhaste">
+        <lemma>enhaste</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def><i>Obs</i>. <i>trans</i>. To hasten, hurry; also <i>refl</i>.</def>
+    </item>
+    <item xml:id="erendrake">
+        <lemma>erendrake</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def><i>Obs</i>. A messenger, ambassador</def>
+    </item>
+    <item xml:id="fallow">
+        <lemma>fallow</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>adjective</i><sup>1</sup></partOfSpeech>
+           <def>1. Of a pale brownish or reddish yellow colour, as withered grass or leaves.
+               <i>Obs</i>. <i>exc</i>. of the coat of an animal; now chiefly in FALLOW-DEER
+               <i>n</i>.</def>
+    </item>
+    <item xml:id="fele">
+        <lemma>fele</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>adjective</i> and <i>adverb</i></partOfSpeech>
+        <def> In predicative use: Much, many, numerous. Also in compar.: More in number, more
+            numerous</def>
+    </item>
+    <item xml:id="fere">
+        <lemma>fere</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i></partOfSpeech>
+        <def> A companion, comrade, mate, partner; whether male or female</def>
+    </item>
+    <item xml:id="fere2">
+        <lemma>fere</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i></partOfSpeech>
+        <def> 3. An equal. a. Of a person: Peer; also in phrase, <i>without (peer or) fere</i></def>
+    </item>
+    <item xml:id="ferly">
+        <lemma>ferly</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i> and <i>noun</i>
+        </partOfSpeech>
+        <def> 3a. Strange, wonderful, wondrous, marvellous</def>
+    </item>
+    <item xml:id="ferlies">
+        <lemma>ferly</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i> 1a </partOfSpeech>
+        <def>
+            <i>intr</i>. To wonder</def>
+    </item>
+    <item xml:id="fester">
+        <lemma>fester</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def> In early use = FISTULA n.; subsequently, a rankling sore, an ulcer. In mod. use:
+            &#8216;A superficial suppuration resulting from irritation of the skin&#8217; (Quain
+                <i>Dict. Med.</i> 1882)</def>
+    </item>
+    <item xml:id="fold">
+        <lemma>fold</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> 1.</partOfSpeech>
+        <def>Obs. 1.a. The surface of the earth; the ground</def>
+    </item>
+    <item xml:id="fond">
+        <lemma>fond</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>verb</i> [FAND | FOND]</partOfSpeech>
+        <def>
+            <i>trans</i>. To put to the proof, try, test (a person or thing); to make trial of
+            (one&#8217;s strength, skill); to taste (food, etc.); in early use with
+            <i>gen</i>.</def>
+    </item>
+    <item xml:id="found">
+        <lemma>found</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>verb</i> 2</partOfSpeech>
+        <def> 4.a. To set or establish (something immaterial) on a firm basis; to give a basis or
+            firm support to</def>
+    </item>
+    <item xml:id="forcy">
+        <lemma>forcy</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>adjective</i></partOfSpeech>
+        <def>
+            <i>Obs</i>. Chiefly <i>north</i>. Full of force, powerful, strong</def>
+    </item>
+    <item xml:id="fraist">
+        <lemma>fraist</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def>
+            <i>Obs</i>. 1. trans. To try, put to the proof, test</def>
+    </item>
+    <item xml:id="friar">
+        <lemma>friar</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i></partOfSpeech>
+        <def>†1. = BROTHER <i>n</i>., in fig. applications; esp. in Old French phrase <i>beu
+                frere</i> &#8216;fair brother&#8217;. <i>Obs</i>.</def>
+    </item>
+    <item xml:id="frith">
+        <lemma>frith</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (2)</partOfSpeech>
+        <def> With uncertain meaning, denoting a wood of some kind, or wooded country collectively,
+            esp. in poet. phrases associated with <i>fell</i>, <i>field</i></def>
+    </item>
+    <item xml:id="gestening">
+        <lemma>gestening</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def> Entertainment as a guest, lodging, hospitality. Also, a banquet, feast.</def>
+    </item>
+    <item xml:id="gend">
+        <lemma>gend</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i>
+        </partOfSpeech>
+        <def> Foolish, simple</def>
+    </item>
+    <item xml:id="genitors">
+        <lemma>genitor</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (1a) </partOfSpeech>
+        <def> A testicle; <i>pl</i>. the testicles, but in later use = geni<i/>tals. (Cf. GENITURE
+                <i>n</i>.)</def>
+    </item>
+    <item xml:id="gradely">
+        <lemma>gradely</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>adverb</i></partOfSpeech>
+        <def>2. Carefully, exactly; properly; quite, really; well</def>
+    </item>
+    <item xml:id="graith">
+        <lemma>graith</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>verb</i></partOfSpeech>
+        <def>
+            <i>trans</i>. To make ready, prepare, put in order, repair; also, to procure</def>
+    </item>
+    <item xml:id="grede">
+        <lemma>grede</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i></partOfSpeech>
+        <def> A cry; outcry; noise</def>
+    </item>
+    <item xml:id="grill">
+        <lemma>grill</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>adjective</i> (2.)</partOfSpeech>
+        <def> Cruel, painful, bitter, severe, terrible, dreadful</def>
+    </item>
+    <item xml:id="grutching">
+        <lemma>grutching</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (1)</partOfSpeech>
+        <def> a. The action of the verb GRUTCH <i>v</i>.; murmuring, complaining; murmur, complaint,
+            reluctance</def>
+    </item>
+    <item xml:id="guk">
+        <lemma>guk</lemma>
+        <source>
+            <ref type="url" n="http://www.dsl.ac.uk/">Dictionary of the Scots Language</ref>
+        </source>
+        <partOfSpeech><i>interjection</i></partOfSpeech>
+        <def> [Imitative or fanciful.] a. An imitative sound or mocking term</def>
+    </item>
+    <item xml:id="gup">
+        <lemma>gup</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>interjection</i></partOfSpeech>
+        <def> a. A cry of anger or chiding addressed to a horse</def>
+    </item>
+    <item xml:id="hale">
+        <source>
+            <lemma>hale</lemma>
+            <ref type="url" n="http://www.dsl.ac.uk/">Dictionary of the Scots Language</ref>
+        </source>
+        <partOfSpeech><i>noun</i></partOfSpeech>
+        <def>A halo</def>
+    </item>
+    <item xml:id="halke">
+        <lemma>halke</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i></partOfSpeech>
+        <def> A corner, recess, hiding-place</def>
+    </item>
+    <item xml:id="hance">
+        <lemma>hance</lemma>
+        <source>
+            <biblio key="Erb1971">82</biblio>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def> reward&#9001;OE hanse</def>
+    </item>
+    <item xml:id="hayward">
+        <lemma>hayward</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i></partOfSpeech>
+        <def> An officer of a manor, township, or parish, having charge of the fences and
+            enclosures, esp. to keep cattle from breaking through from the common into enclosed
+            fields; sometimes, the herdsman of the cattle feeding on the common</def>
+    </item>
+    <item xml:id="heild">
+        <lemma>heild</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def><i>Sc</i>. <i>Obs</i>. 1. <i>trans</i>. To cover; to shield, protect; to hide</def>
+    </item>
+    <item xml:id="hen">
+        <lemma>hen</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (2) </partOfSpeech>
+        <def> (a) A poor man; (b) a rascal; ?a niggard; (c) as personal name</def>
+    </item>
+    <item xml:id="henne">
+        <lemma>hen, henne</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adverb</i></partOfSpeech>
+        <def> = HENCE <i>adv</i>. : of place, time, or inference</def>
+    </item>
+    <item xml:id="hend">
+        <lemma>hend</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i> and <i>adverb</i>
+        </partOfSpeech>
+        <def> Near, at hand</def>
+    </item>
+    <item xml:id="hery">
+        <lemma>hery</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def>
+            <i>trans</i>. To praise, glorify, exalt, honour, worship</def>
+    </item>
+    <item xml:id="hidels">
+        <lemma>hidels</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i></partOfSpeech>
+        <def> (a) A secret place, hiding place; refuge; also, a hollow in a stalk of grain; (b)
+                <i>in</i> (<i>on</i>) ~, in secrecy, in private, secretly; <i>putten into</i> ~, to
+            conceal (sb.); (c) ~ <i>place</i>, hidden place</def>
+    </item>
+    <item xml:id="hiems">
+        <lemma>hiems</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i><sup>2</sup>
+        </partOfSpeech>
+        <def><i>Obs</i>. Winter; esp. in poet. personification</def>
+    </item>
+    <item xml:id="hinder">
+        <lemma>hinder</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adj</i>.<sup>1</sup> and <i>noun</i>.<sup>2</sup>
+        </partOfSpeech>
+        <def> A. <i>adj</i>.<sup>1</sup> 1. Situated behind, at the back, or in the rear; posterior.
+            (Notwithstanding its comparative form, it does not differ in sense from <i>hind</i>, but
+            is more frequently used. Cf. YON adv., YONDER <i>adv</i>., <i>adj</i>., <i>pron</i>.,
+            and <i>n</i>.) <i>hinder gate</i>, postern gate. 2. Of time. a. Last past,
+            &#8216;last&#8217;; as in this <i>hinder day</i> yesterday, this <i>hinder night</i>
+            last night, yesternight.</def>
+    </item>
+    <item xml:id="hore">
+        <lemma>hore</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i></partOfSpeech>
+        <def><i>Obs</i>. Dirt, filth, defilement, foulness</def>
+    </item>
+    <!-- <item xml:id="hinder2">
+        <lemma>hinder</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adj</i>.<sup>1</sup> and <i>n</i>.<sup>2</sup>
+        </partOfSpeech>
+        <def>
+            <i>trans</i>. To praise, glorify, exalt, honour, worship</def>
+    </item>-->
+    <item xml:id="horien">
+        <lemma>h&#333;rien</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech><i>verb</i> (2)</partOfSpeech>
+        <def>(a) To defile (sb. or sth.), defoul, pollute; (b) to be or become physically corrupted
+            or rancid; also <i>fig</i>. [quot.: c1390]; (c) <i>ppl</i>. horied, of a person:
+            defiled, corrupted; of an animal: ceremonially unclean.</def>
+    </item>
+    <item xml:id="i-long">
+        <lemma>i-long</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i>
+        </partOfSpeech>
+        <def>
+            <i>adj</i>., Situated behind, at the back, or in the rear; posterior. (Notwithstanding
+            its comparative form, it does not differ in sense from hind, but is more frequently
+            used)</def>
+    </item>
+    <item xml:id="keach">
+        <lemma>keach</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def>
+            <i>trans</i>. To take up (water, etc.) with a shallow vessel; to scoop up, ladle out: =
+            CLEACH <i>v</i>. 3</def>
+    </item>
+    <item xml:id="kenned">
+        <lemma>kenned</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i>
+        </partOfSpeech>
+        <def> Known</def>
+    </item>
+    <item xml:id="kinrick">
+        <lemma>kinrick</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def> = kingdom <i>n</i>., in various senses</def>
+    </item>
+    <item xml:id="knape">
+        <lemma>knape</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def><i>Obs</i>. exc. <i>dial</i>. †1. A male child, a boy (= KNAVE <i>n</i>. 1); a lad,
+            young man, youth, fellow. <i>Obs</i></def>
+    </item>
+    <item xml:id="lardiner">
+        <lemma>lardiner</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def>2. An official who has charge of a larder</def>
+    </item>
+    <item xml:id="layk">
+        <lemma>layk</lemma>
+        <source>
+            <ref type="Tolkien1967">Tolkien 1967, 193</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def> Sport, entertainment [ON <i>leikr</i>]</def>
+    </item>
+    <item xml:id="lay">
+        <lemma>lay</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (3.)</partOfSpeech>
+        <def> Law; <i>esp</i>. religious law; hence, a religion, a faith</def>
+    </item>
+    <item xml:id="leally">
+        <lemma>leally</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>adverb</i></partOfSpeech>
+        <def> Loyally, faithfully, truly</def>
+    </item>
+    <item xml:id="lease">
+        <lemma>lease</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>verb</i> (1)</partOfSpeech>
+        <def>
+            <i>trans</i>. and <i>intr</i>. To glean. †Also with <i>up</i>. (In Old English used in
+            wider sense: to gather, collect.)</def>
+    </item>
+    <item xml:id="lede">
+        <lemma>lede</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i></partOfSpeech>
+        <def><i>Obs</i>. 3. a. <i>sing</i>. A man, person; esp. one of the ‘men’ or subjects of a
+            king or chief; a subject. Also <i>poet</i>. in Old English, a king</def>
+    </item>
+    <item xml:id="lemman">
+        <lemma>lemman</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech><i>noun</i></partOfSpeech>
+        <def>A loved one of the opposite sex: (a) a paramour, lover.</def>
+    </item>
+    <item xml:id="Lenten">
+        <lemma>Lenten</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> and <i>adjective</i></partOfSpeech>
+        <def> Spring; = LENT noun 1</def>
+    </item>
+    <item xml:id="leam">
+        <lemma>leam</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i></partOfSpeech>
+        <def> Now <i>Sc</i>. and <i>north. dial</i>. Light, flame; a flash, ray, or gleam of light;
+            brightness, gleam</def>
+    </item>
+    <item xml:id="lend">
+        <lemma>lend</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>verb</i> (1a)</partOfSpeech>
+        <def> To arrive, come. Also <i>refl</i>.</def>
+    </item>
+    <item xml:id="leoden">
+        <lemma>leoden</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (1a)</partOfSpeech>
+        <def> A people, nation, race. Also, persons collectively, &#8216;people&#8217;</def>
+    </item>
+    <item xml:id="licham">
+        <lemma>licham</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (a.)</partOfSpeech>
+        <def> The body; the living body; also, the body as the seat of desire and appetite</def>
+    </item>
+    <item xml:id="liss">
+        <lemma>liss</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (2)</partOfSpeech>
+        <def> Tranquillity, peace, rest; joy, delight</def>
+    </item>
+    <item xml:id="lithe2">
+        <lemma>lithe</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (1)</partOfSpeech>
+        <def>
+            <i>Obs</i>. A calm, lull; <i>fig</i>. respite</def>
+    </item>
+    <item xml:id="lithe">
+        <lemma>lithe</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>verb</i> (3)</partOfSpeech>
+        <def> To hearken, listen. Const. <i>dat</i>., or <i>to</i>, <i>unto</i> (<i>at</i>,
+                <i>till</i>). Also, to hear <i>of</i> (a thing)</def>
+    </item>
+    <item xml:id="lither">
+        <lemma>lither</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>adjective</i> (1a)</partOfSpeech>
+        <def> Of persons, their actions, dispositions, etc.: Bad, wicked; base, rascally
+            unjust</def>
+    </item>
+    <item xml:id="lose">
+        <lemma>lose</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (1.)</partOfSpeech>
+        <def> Praise; renown, fame. Also in neutral sense, (good or bad) reputation</def>
+    </item>
+    <item xml:id="maintour">
+        <lemma>maintour</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def> A supporter, helper; (b) a supporter of evil or of evil-doers; ? = maintenour 1.
+            (maintainer)</def>
+    </item>
+    <item xml:id="monge">
+        <lemma>monge</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i></partOfSpeech>
+        <def> (a) A mingling, an intermixture; confusion</def>
+    </item>
+    <item xml:id="mavis">
+        <lemma>mavis</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (1.)</partOfSpeech>
+        <def> The song thrush, <i>Turdus philomelos</i>. Also in extended use. Now <i>poet</i>. and
+            Brit. regional</def>
+    </item>
+    <item xml:id="mend">
+        <lemma>mend</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (I.1a)</partOfSpeech>
+        <def> Recompense, reparation; penance</def>
+    </item>
+    <item xml:id="menskful">
+        <lemma>menskful</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>adjective</i> (and <i>noun</i>)</partOfSpeech>
+        <def> Worshipful, honourable; gracious, beautiful. Of a building: stately</def>
+    </item>
+    <item xml:id="mind">
+        <lemma>mind</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i><sup>1</sup></partOfSpeech>
+        <def> I. Senses relating to memory.
+            1. The state of being remembered; remembrance, recollection. Chiefly in phrases</def>
+    </item>
+    <item xml:id="mum">
+        <lemma>mum</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i></partOfSpeech>
+        <def>(a) Mouth; maugre his ~, in spite of himself; ~ pin, a tooth; (b) mouth of a river,
+            only in place names [see Smith <i>PNElem</i>. 2.45]; (c)?as surname</def>
+    </item>
+    <item xml:id="nere">
+        <lemma>n&#275;re</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i></partOfSpeech>
+        <def>(a) A rawhide shoe or boot; (b) as a derogatory nickname for a Scot</def>
+    </item>
+    <item xml:id="neven">
+        <lemma>neven</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i></partOfSpeech>
+        <def>(a) The kidney of a human being or animal</def>
+    </item>
+    <item xml:id="night">
+        <lemma>nist</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i></partOfSpeech>
+        <def> = NIGHT</def>
+    </item>
+    <item xml:id="nithing">
+        <lemma>nithing</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> and <i>adjective</i></partOfSpeech>
+        <def>Now <i>arch</i>. and <i>hist</i>. 1. A coward, a villain; a person who breaks the law
+            or a code of honour; an outlaw. †2. A mean or niggardly person; a miser.
+            <i>Obs</i>.</def>
+    </item>
+    <item xml:id="noyous">
+        <lemma>noyous</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>adjective</i></partOfSpeech>
+        <def> Causing annoyance; vexatious, troublesome; (also) †causing harm or injury
+            (<i>obs</i>.)</def>
+    </item>
+    <item xml:id="ocker">
+        <lemma>ocker</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i></partOfSpeech>
+        <def>Usu. <i>derogatory</i>. <i>Obs</i>. Chiefly <i>Sc</i>. in later use. The lending of
+            money at (excessive) interest, usury; interest gained from this</def>
+    </item>
+    <item xml:id="onde">
+        <lemma>onde</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (1.)</partOfSpeech>
+        <def> Strong feeling against a person, animus; spite, hatred, envy. In early use also: fear,
+            terror</def>
+    </item>
+    <item xml:id="ore">
+        <lemma>ore</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (2.)</partOfSpeech>
+        <def>Mercy, pardon, forgiveness; source of pardon</def>
+    </item>
+    <item xml:id="overfret">
+        <lemma>overfret</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def>Chiefly <i>Sc</i>. <i>Obs</i>. To adorn richly all over. Chiefly in <i>pass</i>. Also
+                <i>fig</i>.</def>
+    </item>
+    <item xml:id="overgart">
+        <lemma>overgart</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i>
+        </partOfSpeech>
+        <def> Immoderate; excessive; presumptuous</def>
+    </item>
+    <item xml:id="palatine">
+        <lemma>palatine</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i>
+        </partOfSpeech>
+        <def> Originally: designating a county or other territory in England (and later other
+            countries) as having a ruler with royal privileges and judicial authority (within the
+            territory) which elsewhere belong to the sovereign alone (now hist.). Later: designating
+            a modern administrative area corresponding to this</def>
+    </item>
+    <item xml:id="pase">
+        <lemma>pase</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (2.) </partOfSpeech>
+        <def> Easter; (formerly also) †Passover (<i>obs</i>.); = PASCH n.</def>
+    </item>
+    <item xml:id="pay">
+        <lemma>pay</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (1.) </partOfSpeech>
+        <def> Satisfaction, pleasure, liking. <i>Obs</i>.</def>
+    </item>
+    <item xml:id="pease">
+        <lemma>pease</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i> (1a.) </partOfSpeech>
+        <def>
+            <i>trans</i>. To make peace between or reconcile (two or more persons); to reconcile
+            (one person) with another</def>
+    </item>
+    <item xml:id="pine">
+        <lemma>pine</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (1.) </partOfSpeech>
+        <def> Punishment; torment, torture, suffering or loss inflicted as punishment; persecution;
+            spec. a punishment suffered in hell or purgatory; = PAIN n.1 1, 2. <i>Obs</i>.
+                (<i>Sc</i>. in later use.)</def>
+    </item>
+    <item xml:id="prest">
+        <lemma>prest</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (1.) </partOfSpeech>
+        <def> A payment or wages in advance; money paid on account to enable a person to proceed
+            with an undertaking</def>
+    </item>
+    <item xml:id="priven">
+        <lemma>priven</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i></partOfSpeech>
+        <def> To deprive (sb.) of (sth.), deny (sb. sth.); <i>ppl</i>. prived, bereaved, bereft of,
+            deprived of; without; (b) ~ of (from), to deprive (sb. of sth.), deny (sth. to sb.),
+            exclude (sb. from sth.); prived of (from), deprived of (sth.), bereft of; lacking,
+            without; ben of god priving, be a robber of goods; (c) to depose (sb.), dismiss; ~ of
+            (from), deprive (sb.) of (power, kingdom, etc.), remove or dismiss (sb.) from (office or
+            position); (d) to take (sth.) away; prevent (sth.), deny, oppose; weaken (the body); --
+            also without obj.</def>
+    </item><item xml:id="pured">
+        <lemma>pured</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i>
+        </partOfSpeech>
+        <def> That has been made pure</def>
+    </item>
+    <item xml:id="quede">
+        <lemma>quede</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> and <i>adjective</i>
+        </partOfSpeech>
+        <def><i>Obs</i>. A. <i>n</i>. 1. Dung, excrement, filth; 2. Evil, wickedness; mischief; harm. Also: an
+            evil thing, an evil deed</def>
+    </item>
+    <item xml:id="queem">
+        <lemma>queem</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i> (3.) </partOfSpeech>
+        <def> To placate, appease (a person, esp. God). <i>Obs</i>.</def>
+    </item> 
+    <item xml:id="queue">
+            <lemma>queue</lemma>
+            <source>
+                <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+            </source>
+            <partOfSpeech>
+                <i>noun</i> (1.) </partOfSpeech>
+            <def>(a) ?A line of dancers</def>
+        </item>
+    <item xml:id="quhirl">
+        <lemma>quhirl</lemma>
+        <source>
+            <ref type="url" n="http://www.dsl.ac.uk/">Dictionary of the Scots Language</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i></partOfSpeech>
+        <def>a. <i>lit</i>. and <i>fig</i>. A (rapid) turn, revolution or rotatory motion, as of a
+            wheel; b. A swift or violent whirling motion, as of wind or water</def>
+    </item>
+    <item xml:id="rax">
+        <lemma>rax</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def>
+            <i>intr</i>. To stretch oneself, esp. on waking from sleep or as a preliminary to
+            further action; to rouse, stir oneself. Also: to yawn (obs.)</def>
+    </item>
+    <item xml:id="reave">
+        <lemma>reave</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i> (2) </partOfSpeech>
+        <def>
+            <i>trans</i>. To tear; to split, cleave</def>
+    </item>
+    <item xml:id="recent">
+        <lemma>recent</lemma>
+        <source>
+            <ref type="url" n="http://www.dsl.ac.uk/">Dictionary of the Scots Language</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i></partOfSpeech>
+        <def> Of the mind or its powers, esp. memory: Undiminished; not weakened by the passage of
+            time; in full vigour</def>
+    </item>
+    <item xml:id="resplendishant">
+        <lemma>resplendishant</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i></partOfSpeech>
+        <def><i>Obs</i>. Resplendent; brilliant</def>
+    </item>
+    <item xml:id="reusing">
+        <lemma>reusing</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def><i>Obs</i>. Sorrow, penitence, repentance; an instance of this. Also: pity; mercy</def>
+    </item>
+    <item xml:id="rice">
+        <lemma>rice</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i><sup>1</sup>
+        </partOfSpeech>
+        <def>Now chiefly <i>Brit</i>. <i>regional</i> and <i>Irish English (north.)</i>. 1.
+                <i>collect</i>. Twigs or small branches growing on trees or bushes; dense growth of
+            bushes; brushwood, thicket. Now <i>Sc</i>. (chiefly <i>Orkney</i>) and rare</def>
+    </item>
+    <item xml:id="rifler">
+        <lemma>rifler</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (1.)</partOfSpeech>
+        <def> A robber, a plunderer, a looter</def>
+    </item>
+    <item xml:id="rime">
+        <lemma>rime</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>verb</i> (1.)</partOfSpeech>
+        <def>
+            <i>trans</i>. To count, reckon, enumerate. Also occas. <i>intr</i>. Now only with up.
+            Formerly also: †to recount (<i>obs</i>.)</def>
+    </item>
+    <item xml:id="ripe">
+        <lemma>ripe</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (3.)</partOfSpeech>
+        <def>The bank of a river</def>
+    </item>
+    <item xml:id="riveling">
+        <lemma>riveling</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i></partOfSpeech>
+        <def>(a) A rawhide shoe or boot; (b) as a derogatory nickname for a Scot</def>
+    </item>
+    <item xml:id="rock">
+        <lemma>rock</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (2.)</partOfSpeech>
+        <def> A distaff. Occas. also: a spindle</def>
+    </item>
+    <item xml:id="ron">
+        <lemma>ron</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i></partOfSpeech>
+        <def><i>Obs</i>. A short poem or song, esp. a love song</def>
+    </item>
+    <item xml:id="sand">
+        <lemma>sand</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i></partOfSpeech>
+        <def><i>Obs</i>. 1. a. The action of sending; that which is sent, a message, present;
+            (God&#8217;s) dispensation or ordinance</def>
+    </item>
+    <item xml:id="sarai">
+        <lemma>Sarai</lemma>
+        <source>
+            <ref type="url" n="http://www.britannica.com/EBchecked/topic/513251/Russia/38503/Tatar-rule">Encylopedia Britannica</ref>
+        </source>
+        <partOfSpeech><i>noun</i></partOfSpeech>
+        <def>Formerly Tsarev; now New Sarai, Mongolia.</def>
+    </item>
+    <item xml:id="saught">
+        <lemma>saught</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i></partOfSpeech>
+        <def><i>Obs</i>. (since 14th c. only <i>Sc</i>. and <i>north</i>.). 1. An agreement,
+            covenant; 2. Agreement, freedom from strife, peace</def>
+    </item>
+    <item xml:id="secre">
+        <lemma>secre</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>adjective</i> and <i>noun</i></partOfSpeech>
+        <def> Not allowed to be revealed, hidden, occult</def>
+    </item>
+    <item xml:id="seely">
+        <lemma>seely</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (2.)</partOfSpeech>
+        <def> Happy, blissful; fortunate, lucky, well-omened, auspicious</def>
+    </item>
+    <item xml:id="selly">
+        <lemma>selly</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>adverb</i></partOfSpeech>
+        <def> B. <i>adv</i>. Wonderfully, marvellously, strangely</def>
+    </item>
+    <item xml:id="semenaunt">
+        <lemma>semenaunt</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def> Appearance, &#8216;false semblant&#8217;</def>
+    </item>
+    <item xml:id="sen">
+        <lemma>sen</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>conjunction</i>
+        </partOfSpeech>
+        <def> 2. Seeing or considering (<i>that</i>)</def>
+    </item>
+    <item xml:id="sere">
+        <lemma>sere</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i>
+        </partOfSpeech>
+        <def> B. 2.  Divers, various, sundry</def>
+    </item>
+ 
+    <item xml:id="shamble">
+        <lemma>shamble</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def> In Old English, a table or counter for exposing goods for sale, counting money, etc.
+                <i>Obs</i>.</def>
+    </item>
+    <item xml:id="shavaldour">
+        <lemma>shavaldour</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def> [Aberrant form of <i>chevale</i> macronr n., perh. influenced by a local var. or
+            surname in the north of England, which may also have produced AL <i>schavaldor</i>.] A
+            wanderer, vagabond; also, a gentleman robber near the Scottish border; ?also, a minstrel
+            or entertainer; (b) as surname</def>
+    </item>
+    <item xml:id="sheer">
+        <lemma>Sheer Thursday</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def> The Thursday in Holy Week, Maundy Thursday</def>
+    </item>
+    <item xml:id="shill">
+        <lemma>shill</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i> and <i>adverb</i>
+        </partOfSpeech>
+        <def> A. Sonorous, resonant, shrill</def>
+    </item>
+    <item xml:id="sibred">
+        <lemma>sibred</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def><i>Obs</i>. exc. <i>dial</i>. 1. Relationship, kinship, consanguinity</def>
+    </item>
+    <item xml:id="sicker">
+        <lemma>sicker</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i> and <i>adverb</i>
+        </partOfSpeech>
+        <def> Free from danger or harm; secure, safe</def>
+    </item>
+    <item xml:id="simnel">
+        <lemma>simnel</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (1.)</partOfSpeech>
+        <def> A loaf or bun made of fine flour, usu. lighter than wastel; bread of this kind; ~
+            horn, ~ with the horn, ?a loaf of this bread made with pointed ends or corners; ferthing
+            ~, a loaf of this bread worth one farthing; (b) ~ silver, ?money paid for transporting
+            bread of this kind; (c) in surnames</def>
+    </item>
+    <item xml:id="sithe">
+        <lemma>sithe</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i></partOfSpeech>
+        <def><i>Obs</i>.1. A going, journey, path, way.This sense is very common in Old English
+            poetry; 2.a. Fortune on a journey; also generally, fortune, hap, luck; 3. One&#8217;s
+            pilgrimage on earth; life-time; the course <i>of</i> one&#8217;s life</def>
+    </item>
+    <item xml:id="sleight">
+        <lemma>sleight</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def> †2. Prudence; wisdom, knowledge. <i>Obs</i>.</def>
+    </item>
+    <item xml:id="souse">
+        <lemma>souse</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (1a) </partOfSpeech>
+        <def> Various parts of a pig or other animal, esp. the feet and ears, prepared or preserved
+            for food by means of pickling</def>
+    </item>
+    <item xml:id="spelen">
+        <lemma>spelen</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i></partOfSpeech>
+        <def> (a) To save, hoard; save (sth.), refrain from using or consuming; ~ stounde, fail to
+            use (an opportunity); ~ wrecche men, save (sth.) for the poor; (b) to refrain from
+            inflicting injury or punishment (on sb.); spare (sb.) pain or suffering; save (sb. from
+            death or pain); also, give (sb.) respite or reprieve; ~ to, spare (sb. from sins); (c)
+            to relieve (a disagreeable situation)</def>
+    </item>
+    <item xml:id="steek">
+        <lemma>steek</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i> (1c) </partOfSpeech>
+        <def> ? To keep back (the truth). <i>Obs</i>.</def>
+    </item>
+    <item xml:id="stern">
+        <lemma>stern | starn</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (2) </partOfSpeech>
+        <def>Now only <i>Sc</i>. a. = STAR n.1</def>
+    </item>
+    <item xml:id="stound">
+        <lemma>stound</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def>
+            <i>trans</i>. To stun as with a blow; to stupefy, benumb; to stupefy with astonishment,
+            bewilder</def>
+    </item>
+    <item xml:id="sty">
+        <lemma>sty</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i> (1) </partOfSpeech>
+        <def>
+            <i>intr</i>. To ascend, mount up, rise or climb to a higher level. Said of persons and
+            things</def>
+    </item>
+    <item xml:id="swines_bread">
+        <lemma>swines bread</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (sw&#299;ne)</partOfSpeech>
+        <def>1. a roast of pork</def>
+    </item>
+    <item xml:id="swing">
+        <lemma>swing</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i> (1c) </partOfSpeech>
+        <def>
+            <i>Cookery</i>. To beat up, &#8216;whip&#8217; (milk, eggs, etc.). <i>Obs</i>.</def>
+    </item>
+    <item xml:id="syne">
+        <lemma>syne</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adv</i>. and <i>conj</i>. </partOfSpeech>
+        <def> Directly or next after that; at the next moment; immediately afterwards; then,
+            thereupon; = SINCE <i>adv</i>. 1 </def>
+    </item>
+    <item xml:id="tache">
+        <lemma>tache</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (1a.)</partOfSpeech>
+        <def> A spot, blotch, blot</def>
+    </item>
+    <item xml:id="tapet">
+        <lemma>tapet</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (a.)</partOfSpeech>
+        <def> A piece of figured cloth used as a hanging, table-cover, carpet, or the like</def>
+    </item>
+    <item xml:id="tent">
+        <lemma>tent</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (2.)</partOfSpeech>
+        <def> Attention, heed, care; nearly always in the phrases give tent, to give heed, pay
+            attention (<i>obs</i>.), and take tent, to take heed, take care; with to, to pay
+            attention to, take heed to</def>
+    </item>
+    <item xml:id="thester">
+        <lemma>thester</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>adjective</i></partOfSpeech>
+        <def><i>Obs</i>. Dark. <i>lit</i>. and <i>fig</i>.</def>
+    </item>
+    <item xml:id="thir">
+        <lemma>thir</lemma>
+        <source>
+            <ref type="url" n="http://www.dsl.ac.uk/">Dictionary of the Scots Language</ref>
+        </source>
+        <partOfSpeech><i>demonstrative adjective</i> (1.)</partOfSpeech>
+        <def> Qualifying a plural noun or singular nouns indicating something physically present or
+            near or something which has already been or is about to be mentioned: THESE</def>
+    </item>
+    <item xml:id="tholemodely">
+        <lemma>tholemodely</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>adverb</i></partOfSpeech>
+        <def> Patiently, submissively, meekly</def>
+    </item>
+    <item xml:id="tire">
+        <lemma>tear</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i><sup>3</sup></partOfSpeech>
+        <def>b. The finest fibre of flax or hemp</def>
+    </item>
+    <item xml:id="tout">
+        <lemma>tout</lemma>
+        <source>
+            <ref type="url" n="http://www.dsl.ac.uk/">Dictionary of the Scots Language</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (2.) </partOfSpeech>
+        <def> [?] A drinking vessel of some sort. — Len me thy batty towt [<i>Ch</i>. that batye
+            tout]</def>
+    </item>
+    <item xml:id="tprot">
+        <lemma>tprot</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def><i>Obs</i>. An expression of contempt</def>
+    </item>
+    <item xml:id="traist">
+        <lemma>traist</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def><i>Sc</i>. and <i>north</i>. <i>Obs</i>. 1. <i>trans</i>. To make secure or safe, to
+            commit in trust; hence refl. to commit oneself with security or confidence, to trust, =
+            sense 2</def>
+    </item>
+    <item xml:id="trendel">
+        <lemma>trendel</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def>
+            <i>Obs</i>. 1. trans. To cause to roll or revolve; to roll: = TRUNDLE <i>v</i>.
+            1a.</def>
+    </item>
+    <item xml:id="trichard">
+        <lemma>trichard</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def> A deceiver, a cheat</def>
+    </item>
+    <item xml:id="tricline">
+        <lemma>tricline</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def>A dining room</def>
+    </item>
+    <item xml:id="unlated">
+        <lemma>unlated</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i>
+        </partOfSpeech>
+        <def><i>Sc</i>. <i>Obs</i>. Undisciplined</def>
+    </item>
+    <item xml:id="unseely">
+        <lemma>unseely</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i>
+        </partOfSpeech>
+        <def> Unfortunate, unhappy, miserable, wretched; deserving pity</def>
+    </item>
+    <item xml:id="uprist">
+        <lemma>uprist</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def> Rising from the dead; resurrection</def>
+    </item>
+    <item xml:id="ure">
+        <lemma>ure</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (1)</partOfSpeech>
+        <def>
+            <i>in ure</i>: In or into use, practice, or performance. Often with vbs., as bring,
+            come, have, and esp. put (freq. c1510–1630)</def>
+    </item>
+    <item xml:id="vere">
+        <lemma>vere</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (1)</partOfSpeech>
+        <def> The season of spring; springtime</def>
+    </item>
+    <item xml:id="vouter">
+        <lemma>vouter</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def> An adulterer</def>
+    </item>
+    <item xml:id="wale">
+        <lemma>wale</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref> (see also <ref type="url"
+                n="http://www.oed.com/">OED</ref>
+            <i>wale</i><sup>2</sup>) </source>
+        <partOfSpeech>
+            <i>noun</i> (1.b) </partOfSpeech>
+        <def> a paragon of beauty or excellence, someone chosen for virtue</def>
+    </item>
+    <item xml:id="wandreth">
+        <lemma>wandreth</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i></partOfSpeech>
+        <def> Misery, distress, hardship; adversity, poverty</def>
+    </item>
+    <item xml:id="wang">
+        <lemma>wang</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i></partOfSpeech>
+        <def><i>Obs</i>. exc. <i>dial</i>. †1. The cheek. <i>Obs</i>.</def>
+    </item>
+    <item xml:id="wastern">
+        <lemma>wastern</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i></partOfSpeech>
+        <def> A wilderness</def>
+    </item>
+    <item xml:id="way">
+        <lemma>way</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (1) </partOfSpeech>
+        <def>
+            <i>gen</i>. A track prepared or available for travelling along; a road, street, lane, or
+            path</def>
+    </item>
+    <item xml:id="we">
+        <lemma>we</lemma>
+        <source>
+            <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
+        </source>
+        <partOfSpeech>
+            <i>pronoun</i></partOfSpeech>
+        <def> In indefinite usages, often in statements relating to the human condition generally:
+            (2a) we, one, people, everybody; also used conventionally in prayers, carols, etc.</def>
+    </item>
+    <item xml:id="ween">
+        <lemma>ween</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i></partOfSpeech>
+        <def>
+            <i>Obs</i>. exc. <i>arch</i>. 1. <i>trans</i>. In regard to what is present or past: To
+            think, surmise, suppose, conceive, believe, consider. In Middle English often with
+                <i>well</i></def>
+    </item>
+    <item xml:id="weir">
+        <lemma>weir</lemma>
+        <source>
+            <ref type="url" n="http://www.dsl.ac.uk/">Dictionary of the Scots Language</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i></partOfSpeech>
+        <def> 1. Warfare. a. A state or period of hostilities and combat existing between political
+            groups, esp. realms or nations; also, specif. the warlike activity appropriate to
+            knights, and also sometimes applied to the skills involved (see (3) below and cf. some
+            quots. in 2 (1)). b. Hostilities, strife, etc. between (groups of) individuals pursuing
+            private enmities.</def>
+    </item>
+    <item xml:id="welkin">
+        <lemma>welkin</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i></partOfSpeech>
+        <def>†1. A cloud. <i>Obs</i>.</def>
+    </item>
+    <item xml:id="wothe">
+        <lemma>wothe</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> and <i>adjective</i></partOfSpeech>
+        <def><i>Obs</i>. A. <i>n</i>. The condition of being exposed to or liable to injury or harm;
+            danger, peril; hurt or harm; a cause of harm or injury</def>
+    </item>
+    <item xml:id="wray">
+        <lemma>wray</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i><sup>1</sup></partOfSpeech>
+        <def><i>Obs</i>. 1. a. To accuse, denounce, or inform on (a person); to expose (one) by
+            revealing or divulging information, etc., to one&#8217;s harm, prejudice, or discredit;
+            to charge with a crime, offence, fault, etc.; = BEWRAY <i>v</i>. 2.</def>
+    </item>
+    <item xml:id="wreche">
+        <lemma>wreche</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i> (1) </partOfSpeech>
+        <def> Retributive punishment; vengeance; = WREAK n. 1.</def>
+    </item>
+    <item xml:id="wrecheful">
+        <lemma>wrecheful</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>adjective</i>
+        </partOfSpeech>
+        <def> Vengeful; revengeful.</def>
+    </item>
+    <item xml:id="wrother-heal">
+        <lemma>wrother-heal</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>noun</i>
+        </partOfSpeech>
+        <def>unfortunately, disastrously. Cf. HAIL <i>n</i>.2 2, hale <i>n</i>.1 b.</def>
+    </item>
+    <item xml:id="yaud">
+        <lemma>yaud</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech><i>noun</i> (1b)</partOfSpeech>
+        <def>(attrib. or adj.) Of a horse: Worn out</def>
+    </item>
+    <item xml:id="yelp">
+        <lemma>yelp</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def><i>intr</i>. To boast, speak vaingloriously</def>
+    </item>
+    <item xml:id="yisse">
+        <lemma>yisse</lemma>
+        <source>
+            <ref type="url" n="http://www.oed.com/">OED</ref>
+        </source>
+        <partOfSpeech>
+            <i>verb</i>
+        </partOfSpeech>
+        <def><i>Obs</i>. <i>trans</i>. (in Old English const. gen. or dat.) and <i>intr</i>. To
+            covet [fom which: yissing <i>n</i>. coveting, covetousness]</def>
+    </item>
+</glossary>

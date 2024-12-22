@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inscriptions [ 
+<!ELEMENT item (#PCDATA | loc | repos | desc)*>
+<!ATTLIST item xml:id ID #IMPLIED>
+<!ELEMENT i (#PCDATA)>
+<!ELEMENT repos (#PCDATA | i)*>
+<!ELEMENT loc (#PCDATA | i)*>
+<!ELEMENT inscriptions (#PCDATA | item)*>
+<!ELEMENT desc (#PCDATA | i)*>
+]>
+<inscriptions>
+     <item xml:id="SaffWald">
+        <loc>Saffron Waldon, Essex</loc>
+        <repos/>
+        <desc>Tombstone Inscription</desc>
+    </item>
+    <item xml:id="GuildChapel">
+        <loc>Stratford-on-Avon</loc>
+        <repos>Guild Chapel, Chapel Lane [NB: not Holy Trinity as in <i>IMEV</i>]</repos>
+        <desc>Mural Inscription on west wall</desc>
+    </item>
+    <item xml:id="DissNorf">
+        <loc>Diss, Norfolk</loc>
+        <repos/>
+        <desc>Tombstone Inscription</desc>
+    </item>
+    <item xml:id="Barrett">
+        <loc>Manchester, UK</loc>
+        <repos>Chetham&#8217;s Library</repos>
+        <desc>MS Barrett, <i>olim</i> fortune cards</desc>
+    </item>
+    <item xml:id="StAndrew">
+        <loc>Old [or &#8216;Wold&#8217;], Northamptonshire</loc>
+        <repos>Church of St Andrew</repos>
+        <desc>small window in south aisle</desc>
+    </item>
+    <item xml:id="Heydon">
+        <loc>Heydon, Norfolk</loc>
+        <repos>Church of Saints Peter and Paul,</repos>
+        <desc><i>olim</i> &#8216;Blasphemy Window&#8217; in north aisle</desc>
+    </item>
+    <item xml:id="BrownTomb">
+        <loc>Canterbury, Kent</loc>
+        <repos>Church of All Saints, Military Road</repos>
+        <desc>brass tomb of Ralph Brown (d. 1522), mounted on north wall</desc>
+    </item>
+    <item xml:id="Bawburgh">
+        <loc><i>olim</i> Bawburgh, Norfolk</loc>
+        <repos/>
+        <desc>triptych, formerly owned by Mr Clark of Beauthorp, Norfolk</desc>
+    </item>
+    <item xml:id="BeverleyMinster">
+        <loc>Beverley, Yorkshire</loc>
+        <repos>Beverley Minster</repos>
+        <desc>painting on wall in south transcept</desc>
+    </item>
+    <item xml:id="Wensley">
+        <loc>Wensley, Yorkshire</loc>
+        <repos>Church of the Holy Trinity</repos>
+        <desc>painting on north wall of nave</desc>
+    </item>
+    <item xml:id="GreatBardfield">
+        <loc>Great Bardfield, Essex</loc>
+        <repos>Church of St. Mary the Virgin</repos>
+        <desc>graffito on northwest face of middle pillar on north aisle</desc>
+    </item>
+    <item xml:id="Heydon2">
+        <loc>Heydon, Norfolk</loc>
+        <repos>Church of Saints Peter and Paul</repos>
+        <desc><i>olim</i> &#8216;Blasphemy Window&#8217; in north aisle</desc>
+    </item>
+    <item xml:id="BMMLA96727">
+        <loc>London</loc>
+        <repos>British Museum</repos>
+        <desc>item BM MLA 96, 7-27, 1 (Bronze ewer, temp. Richard II), verses inscribed around neck
+            of ewer</desc>
+    </item>
+    <item xml:id="StratfordGuild">
+        <loc>Stratford-on-Avon, Warwickshire</loc>
+        <repos>Guild Chapel, Chapel Lane</repos>
+        <desc>mural on west wall</desc>
+    </item>
+    <item xml:id="Landwade">
+        <loc>Landwade, Cambridgeshire</loc>
+        <repos>Church of St. Nicholas</repos>
+        <desc>graffito</desc>
+    </item>
+    <item xml:id="Duxford">
+        <loc>Duxford, Cambridgeshire</loc>
+        <repos>St. John&#8217;s Church</repos>
+        <desc>graffito</desc>
+    </item>
+    <item xml:id="Baldock">
+        <loc><i>olim</i> Baldok, Hertfordshire</loc>
+        <repos>Church of St. Mary the Virgin</repos>
+        <desc>tomb of William Crane (d. 1483) and his wives Jane and Margaret Crane</desc>
+    </item>
+    <item xml:id="Shrow">
+        <loc>London</loc>
+        <repos>St. Michael&#8217;s Church, Crooked Lane,</repos>
+        <desc>brass tomb of John Shrow, stockfishmonger (d. 1487)</desc>
+    </item>
+    <item xml:id="Benson">
+        <loc><i>olim</i> London</loc>
+        <repos>St. Martin&#8217;s Church, Ludgate Hill</repos>
+        <desc>tomb of John and Anne Benson</desc>
+    </item>
+    <item xml:id="Midwinter">
+        <loc>Northleach, Gloucestershire</loc>
+        <repos>Church of Saints Peter and Paul</repos>
+        <desc>tomb of William and Elizabeth Midwinter (d. 1501 and 1502), brass tomb on floor,
+            northeast corner of nave (east end of north aisle), in brass border</desc>
+    </item>
+    <item xml:id="Hannys">
+        <loc><i>olim</i> Romford, Essex</loc>
+        <repos>Church of St Edward the Confessor</repos>
+        <desc>tomb of Elizabeth Hannys and Avery Cornburgh</desc>
+    </item>
+    <item xml:id="MaldonAllSaints">
+        <loc><i>olim</i> Maldon, Essex</loc>
+        <repos>Church of All Saints</repos>
+        <desc>brass tomb</desc>
+    </item>
+    <item xml:id="Chichele">
+        <loc>Higham Ferrars, Northamptonshire</loc>
+        <repos>Church of St. Mary the Virgin</repos>
+        <desc>tomb of William and Beatrice Chichele on floor at west end of south aisle, to right of
+            Lady Chapel altar</desc>
+    </item>
+    <item xml:id="Barton">
+        <loc><i>olim</i> London</loc>
+        <repos>St. Michael&#8217;s Church, Basinghall</repos>
+        <desc>tomb of John Barton, Mercer (d. 1460)</desc>
+    </item>
+    <item xml:id="Jannys">
+        <loc>Norwich, Norfolk</loc>
+        <repos>Norwich City Council, Blackfriar&#8217;s Hall</repos>
+        <desc>portrait of Robert Jannys, Mayor of Norwich, 1517 and 1524</desc>
+    </item>
+    <item xml:id="Lammas">
+        <loc><i>olim</i> Lammas, Norfolk</loc>
+        <repos>Church of St. Andrew</repos>
+        <desc>North window, painted glass of Last Judgement, showing Virgin Mary performing seven
+            works of mercy</desc>
+    </item>
+    <item xml:id="Combs">
+        <loc><i>olim</i> Combs, Suffolk</loc>
+        <repos>Church of St. Mary</repos>
+        <desc>glass in windows of side chapel, southeast corner of nave, farthest window to east,
+            facing south</desc>
+    </item>
+    <item xml:id="Brandeston">
+        <loc><i>olim</i> Brandeston, Suffolk</loc>
+        <repos>Church of All Saints</repos>
+        <desc>painted glass in south window next to porch, depicting corporal works of mercy</desc>
+    </item>
+    <item xml:id="Cawston">
+        <loc>Cawston, Norfolk</loc>
+        <repos>Church of St. Agnes</repos>
+        <desc>gallery at north end, in tower</desc>
+    </item>
+    <item xml:id="LondonStreet">
+        <loc><i>olim</i> Norwich, Norfolk</loc>
+        <repos>London Street, private house</repos>
+        <desc>painted glass</desc>
+    </item>
+    <item xml:id="Thurton">
+        <loc>Thurton, Norfolk</loc>
+        <repos>Church of St Ethelbert</repos>
+        <desc>painted glass, scrolls in roundels of left and right panels of the 4th window from the
+            east on south wall</desc>
+    </item>
+    <item xml:id="Notingham">
+        <loc>Holme-next-the-Sea, Norfolk</loc>
+        <repos>Church of St. Mary</repos>
+        <desc>brass tomb of Henry Nottingham (d. 1405) on wall on south side of chancel arch</desc>
+    </item>
+    <item xml:id="BMMLA96727b">
+        <loc>London</loc>
+        <repos>British Museum</repos>
+        <desc>item BM MLA 96, 7-27, 1 (Bronze ewer, temp. Richard II), verses inscribed around neck
+            of ewer</desc>
+    </item>
+    <item xml:id="BMFrank683">
+        <loc>London</loc>
+        <repos>British Museum</repos>
+        <desc>Franks bequest (no. 683)</desc>
+    </item>
+    <item xml:id="Amys">
+        <loc>Barton Turf, Norfolk</loc>
+        <repos>Church of St Michael &amp; All Angels</repos>
+        <desc>Brass tomb of Thomas and Margery Amys (d. 1445), on floor of south chapel, beside
+            chancel (south-east corner of church)</desc>
+    </item>
+    <item xml:id="CarlisleChoir">
+        <loc>Carlisle, Cumbria</loc>
+        <repos>Carlisle Cathedral</repos>
+        <desc>backs of choir stalls, painted</desc>
+    </item>
+    <item xml:id="CarlisleChoir2">
+        <loc>Carlisle, Cumbria</loc>
+        <repos>Carlisle Cathedral</repos>
+        <desc>backs of choir stalls, painted</desc>
+    </item>
+    <item xml:id="CarlisleCeiling">
+        <loc>Carlisle, Cumbria</loc>
+        <repos>Carlisle Cathedral</repos>
+        <desc>Prior&#8217;s Tower, ceiling beams</desc>
+    </item>
+    <item xml:id="Arreton">
+        <loc>Isle of Wight</loc>
+        <repos>Arreton Church</repos>
+        <desc>brass</desc>
+    </item>
+    <item xml:id="Knowles">
+        <loc><i>olim</i> London</loc>
+        <repos>St Anthony&#8217;s [Antlins] Church, Budge Row</repos>
+        <desc>brass tomb of Thomas and Joan Knowles</desc>
+    </item>
+    <item xml:id="Savage">
+        <loc>Buxted, Sussex</loc>
+        <repos>Church of St. Margaret the Queen</repos>
+        <desc>brass plaque marking tomb of Christine Savage (ca. 1450), chancel, underneath
+            carpet</desc>
+    </item>
+    <item xml:id="Constable">
+        <loc>Flamborough, N. Yorkshire</loc>
+        <repos>Church of St Oswald</repos>
+        <desc>tomb of Marmaduke Constable (d. 1520)</desc>
+    </item>
+    <item xml:id="Kelshall">
+        <loc>Kelshall, Hertfordshire</loc>
+        <repos>Church of St Faith</repos>
+        <desc>brass tomb on floor at eastern end of nave in centre, at entrance to chancel</desc>
+    </item>
+    <item xml:id="Amys2">
+        <loc>Barton Turf, Norfolk</loc>
+        <repos>Church of St Michael &amp; All Angels</repos>
+        <desc>brass tomb of Thomas and Margery Amys (d. 1445), on floor of south chapel, beside
+            chancel (south-east corner of church)</desc>
+    </item>
+    <item xml:id="Spycer">
+        <loc>Burford, Oxfordshire</loc>
+        <repos>Church of St John the Baptist</repos>
+        <desc>tomb of John and Alys Spycer (d. 1437), center aisle at east end, brass tomb, beneath
+            kneeling figures</desc>
+    </item>
+    <item xml:id="Lawnder">
+        <loc>Northleach, Gloucestershire</loc>
+        <repos>Church of Saints Peter and Paul</repos>
+        <desc>tomb of William Lawnder, vicar of Northleach (d. 1530), on floor at base of south wall
+            of chancel, before communion rail, in brass border</desc>
+    </item>
+    <item xml:id="Spycer2">
+        <loc>Burford, Oxfordshire</loc>
+        <repos>Church of St John the Baptist</repos>
+        <desc>tomb of John and Alys Spycer (d. 1437), center aisle at east end, brass tomb, scrolls
+            from mouths of figures</desc>
+    </item>
+    <item xml:id="Quartermain">
+        <loc>Thame, Oxfordshire</loc>
+        <repos>Church of the Blessed Virgin Mary, St. Christopher&#8217;s Chapel</repos>
+        <desc>south-east corner of nave, tomb of Richard and Sibyl Quartermain, brass around edge of
+            lid of elevated tomb</desc>
+    </item>
+    <item xml:id="Thorndon">
+        <loc>Frettenham, Norfolk</loc>
+        <repos>St. Swithin&#8217;s Church</repos>
+        <desc>brass tomb of Alice Thorndon (d. 1420) on floor at base of north wall of
+            chancel</desc>
+    </item>
+    <item xml:id="StPaulsCloister">
+        <loc><i>olim</i> London</loc>
+        <repos>St. Paul&#8217;s Cathedral</repos>
+        <desc>cloister walls</desc>
+    </item>
+    <item xml:id="HighEaster">
+        <loc><i>olim</i> High Easter, Essex</loc>
+        <repos>St Marys Church [?]</repos>
+        <desc>North Aisle, brass plaque on wall above tomb</desc>
+    </item>
+    <item xml:id="CarlislePriorsTower">
+        <loc>Carlisle, Cumbria</loc>
+        <repos>Carlisle Cathedral</repos>
+        <desc>Prior&#8217;s Tower, ceiling beams</desc>
+    </item>
+    <item xml:id="Fortey">
+        <loc>Northleach, Gloucestershire</loc>
+        <repos>Church of Saints Peter and Paul</repos>
+        <desc>tomb of John Fortey (d. 1458), set in floor of north aisle between 2nd and 3rd pillars
+            of nave, in brass border</desc>
+    </item>
+    <item xml:id="Colwell">
+        <loc>Faversham, Kent</loc>
+        <repos>Church of ***</repos>
+        <desc>tomb of Richard Colwell</desc>
+    </item>
+    <item xml:id="Idley">
+        <loc>Dorchester, Oxford</loc>
+        <repos>Abbey Church</repos>
+        <desc>memorial brass for Peter Idley, A.D. 1473, now destroyed</desc>
+    </item>
+    <item xml:id="Baret">
+        <loc>Bury St. Edmunds, Suffolk</loc>
+        <repos>St. Mary&#8217;s Church, SE corner of the nave,</repos>
+        <desc>tomb of John Baret, A.D. 1463</desc>
+    </item>
+    <item xml:id="GoldenCross">
+        <loc>Oxford</loc>
+        <repos>Golden Cross Inn,</repos>
+        <desc>walls in &#8216;painted chamber&#8217;</desc>
+    </item>
+    <item xml:id="Crawley">
+        <loc>Sussex</loc>
+        <repos>Crawley Church,</repos>
+        <desc>inscription in pew</desc>
+    </item>
+    <item xml:id="Nordell">
+        <loc>Lombard Street, London</loc>
+        <repos>St. Edmund&#8217;s Church,</repos>
+        <desc>epitaph, tomb of Richard Nordell and wife (A.D. 1500)</desc>
+    </item>
+    <item xml:id="Ridgewell">
+        <loc>Ridgewell, Essex</loc>
+        <repos>Church of St Lawrence,</repos>
+        <desc>graffito</desc>
+    </item>
+    <item xml:id="StOlave">
+        <loc>Hart Street, London</loc>
+        <repos>St. Olave&#8217;s Church,</repos>
+        <desc>epitaph</desc>
+    </item>
+    <item xml:id="Hexham">
+        <loc>Hexham, Northumb.</loc>
+        <repos>Gilesgate,</repos>
+        <desc>inscription over door of house</desc>
+    </item>
+    <item xml:id="Victor">
+        <loc>St Albans, Hertfordshire, UK</loc>
+        <repos>St. Albans Abbey,</repos>
+        <desc>tomb of William and Grace Victor, A.D. 1486</desc>
+    </item>
+    <item xml:id="Launceston">
+        <loc>Cornwall</loc>
+        <repos><i>olim</i> Launceston Priory, </repos>
+        <desc>a wall inscription, no longer visible</desc>
+    </item>
+    <item xml:id="Melford">
+        <loc>Long Melford, Suffolk</loc>
+        <repos>Church of the Holy Trinity, Clopton Chapel</repos>
+        <desc/>
+    </item>
+    <item xml:id="Melford2">
+        <loc>Long Melford, Suffolk</loc>
+        <repos>Church of the Holy Trinity, Clopton Chapel, </repos>
+        <desc>wall paintings around edge of ceiling and on ceiling</desc>
+    </item>
+    <item xml:id="Colney">
+        <loc>Norfolk</loc>
+        <repos>Colney Church, </repos>
+        <desc>Tomb of Sir Thomas Bettys, A.D. 1481, no longer extant.</desc>
+    </item>
+    <item xml:id="Garboldesham">
+        <loc>Garboldesham, Norfolk</loc>
+        <repos>Church of St. John the Baptist</repos>
+        <desc/>
+    </item>
+    <item xml:id="None">
+        <loc>No surviving witness.</loc>
+        <repos/>
+        <desc/>
+    </item>
+    <item xml:id="Horley">
+        <loc>Horley, Oxon</loc>
+        <repos>parish church</repos>
+        <desc>mural on north wall, two scrolls.</desc>
+    </item>
+    <item xml:id="Evans">
+        <loc/>
+        <repos/>
+        <desc>Sir Arthur Evans, a ring: Exhibition of Eng. Med. Art, London, 1930, Item 862.</desc>
+    </item>
+    <item xml:id="StBride">
+        <loc>London</loc>
+        <repos>St. Bride&#8217;s Church</repos>
+        <desc>Tomb of William Wever, A.D. 1409.</desc>
+    </item>
+    <item xml:id="Wever">
+        <loc>London (demolished in 1634)</loc>
+        <repos>St. Alban&#8217;s, Wood Street</repos>
+        <desc>tomb epitaph of Sir Harry Wever and his wife Joan, ca. 1405.</desc>
+    </item>
+    <item xml:id="Mercer">
+        <loc>London</loc>
+        <repos>Mercer&#8217;s Chapel</repos>
+        <desc>Epitaph for Ambrose Cresacre, A.D. 1477<!--Check this-->.</desc>
+    </item>
+    <item xml:id="Atkinson">
+        <loc/>
+        <repos>Atkinson(?)</repos>
+        <desc>Inscription on a brooch<!--Check this-->.</desc>
+    </item>
+    <item xml:id="Mercers">
+        <loc>London</loc>
+        <repos>Mercer&#8217;s Company</repos>
+        <desc>cup.</desc>
+    </item>
+    <item xml:id="Almondbury">
+        <loc>Yorkshire</loc>
+        <repos>Almondbury Church,</repos>
+        <desc>running around nave at tops of walls, below roof.</desc>
+    </item>
+    <item xml:id="MagdaleneMalvern">
+        <loc>Bath, Somerset</loc>
+        <repos>Chapel of St Mary Magdalene in parish of Widcombe and Lyncombe,</repos>
+        <desc>dedicatory lines inscribed in east side of the porch.</desc>
+    </item>
+    <item xml:id="GreatMalvern">
+        <loc>Malvern, Worcestershire</loc>
+        <repos>Great Malvern Priory, St. Anne&#8217;s Chapel,</repos>
+        <desc>a tile fixed in a pillar near the west end of the nave.</desc>
+    </item>
+    <item xml:id="Grafton">
+        <loc>Grafton Manor, Worcestershire</loc>
+        <repos>Inscription over parlor window</repos>
+        <desc/>
+    </item>
+    <item xml:id="SalisburyMuseum">
+        <loc>Salisbury, Wiltshire</loc>
+        <repos>Salisbury and South Wiltshire Museum,</repos>
+        <desc>a tile.</desc>
+    </item>
+    <item xml:id="Broughton">
+        <loc>Broghton, Oxfordshire</loc>
+        <repos>Broughton Church,</repos>
+        <desc>wall paintings of Life of Virgin on chancel wall.</desc>
+    </item>
+    <item xml:id="Pickering">
+        <loc>London</loc>
+        <repos>St Lawrence-in-Jewry Church,</repos>
+        <desc>tomb of Jon Pickering.</desc>
+    </item>
+    <item xml:id="Drury">
+        <loc>Wooburn, Buckinghamshire</loc>
+        <repos>Church of St Paul&#8217;s,</repos>
+        <desc>tomb of Sir Robert Drury.</desc>
+    </item>
+    <item xml:id="Emberton">
+        <loc>Emberton, Buckinghamshire</loc>
+        <repos>Emberton Church</repos>
+        <desc>epitaph</desc>
+    </item>
+    <item xml:id="Woode">
+        <loc>?</loc>
+        <repos/>
+        <desc>tomb of John Woode.</desc>
+    </item>
+    <item xml:id="Notextant">
+        <loc>No longer extant.</loc>
+        <repos/>
+        <desc/>
+    </item>
+    <item xml:id="Royston">
+        <loc>Royston, Hertfordshire</loc>
+        <repos>Church of St John the Baptist,</repos>
+        <desc>small rectangular brass on east wall of north aisle</desc>
+    </item>
+    <item xml:id="Street">
+        <loc><i>olim</i> London</loc>
+        <repos>St Anthony&#8217;s [Antlins] Church, Budge Row,</repos>
+        <desc>epitaph of Simon and Agnes Street (d. 1440)</desc>
+    </item>
+    <item xml:id="Marsham">
+        <loc>Norwich</loc>
+        <repos>house on corner of St John Maddermarket and Charing Cross,</repos>
+        <desc>No longer extant?</desc>
+    </item>
+    <item xml:id="Jug">
+        <loc>London</loc>
+        <repos>British Museum,</repos>
+        <desc>copper jug, temp. Richard II</desc>
+    </item>
+    <item xml:id="Lakenheath">
+        <loc><i>olim</i> Lakenheath Grove, Norwich</loc>
+        <repos>summerhouse,</repos>
+        <desc>fifteenth-century glass fitted to eighteenth-century building, surviving in 1932;
+            possibly (?)originally from Duke of Norfolk&#8217;s house in Newgate, Norwich</desc>
+    </item>
+    <item xml:id="Vaux">
+        <loc><i>olim</i> Cumberland</loc>
+        <repos>Lanercost Church,</repos>
+        <desc>epitaph</desc>
+    </item>
+    <item xml:id="Gunwalloe">
+        <loc>Gunwalloe (south of Helston), Cornwall</loc>
+        <repos>Gunwalloe Church,</repos>
+        <desc>epitaph</desc>
+    </item>
+    <item xml:id="Pembroke">
+        <loc>Cambridge</loc>
+        <repos>Pembroke College,</repos>
+        <desc>drinking cup</desc>
+    </item>
+    <item xml:id="Melrose">
+        <loc>Melrose, Scotland</loc>
+        <repos>Melrose Abbey,</repos>
+        <desc>transept, well wall</desc>
+    </item>
+    <item xml:id="Brasyer">
+        <loc>Norwich</loc>
+        <repos>Guildhall Chapel,</repos>
+        <desc>lectern inscription</desc>
+    </item>
+    <item xml:id="Thorold">
+        <loc>New York, NY</loc>
+        <repos>Metropolitan Museum of Art, Cloister Collections, 55.25,</repos>
+        <desc>inscription on a mazer [formerly belonging (in 1930) to Major Thorold]</desc>
+    </item>
+    <item xml:id="CantCathMazer">
+        <loc>Present location unknown</loc>
+        <repos><i>olim</i> Canterbury Cathedral,</repos>
+        <desc>inscription on a mazer</desc>
+    </item>
+    <item xml:id="CantCathMazer2">
+        <loc>Present location unknown</loc>
+        <repos><i>olim</i> Canterbury Cathedral,</repos>
+        <desc>inscription on a mazer</desc>
+    </item>
+    <item xml:id="Bontfant">
+        <loc>Stone, Kent</loc>
+        <repos>[Minster Church?]</repos>
+        <desc>Epitaph of Richard Bontfant (1459)</desc>
+    </item>
+    <item xml:id="JCaxton">
+        <loc>Canterbury, Kent</loc>
+        <repos>St. Alphege Church,</repos>
+        <desc>Epitaph of John and Joane Caxton (1485)</desc>
+    </item>
+    <item xml:id="Palmer">
+        <loc>Snodland, Kent</loc>
+        <repos>church of Snodland,</repos>
+        <desc>Epitaph of Thomas and Mary Palmer (1407)</desc>
+    </item>
+    <item xml:id="Flint">
+        <loc>Norwich</loc>
+        <repos>St. Peter Maddermarket,</repos>
+        <desc>tomb of Ann Flint, d. 1525 (no longer extant)</desc>
+    </item>
+    <item xml:id="Brigge">
+        <loc>Salle, Norfolk</loc>
+        <repos>Church of SS Peter and Paul,</repos>
+        <desc>Brass of John Brigge (d. 1454) (&#8216;an emaciated figure in a shroud&#8217;)</desc>
+    </item>
+    <item xml:id="Barber">
+        <loc>Abingdon, Berkshire</loc>
+        <repos>Christ&#8217;s Hospital, Governor&#8217;s Archives,</repos>
+        <desc>Object 13 (MS), &#8216;Forman&#8217;s Monument&#8217; </desc>
+    </item>
+    <item xml:id="Payne">
+        <loc>London</loc>
+        <repos>St. Nicholas Acons Church,</repos>
+        <desc>epitaph of Richard Payne (1463)</desc>
+    </item>
+    <item xml:id="Burlton">
+        <loc>Dartford, Kent</loc>
+        <repos>Church of the Holy Trinity,</repos>
+        <desc>epitaph (brass) on the tomb of Catherine Burlton and Richard, her husband
+            (1496)</desc>
+    </item>
+    <item xml:id="Stokys">
+        <loc>Hampton-in-Arden, Warwickshire</loc>
+        <repos>church,</repos>
+        <desc>epitaph tomb of R. Stokys</desc>
+    </item>
+    <item xml:id="Acworth">
+        <loc>Luton, Bedfordshire</loc>
+        <repos>church,</repos>
+        <desc>Acworth brass (1513)</desc>
+    </item>
+    <item xml:id="Witney">
+        <loc>Witney, Oxfordshire</loc>
+        <repos>church,</repos>
+        <desc>epitaph on the tomb of Richard Waynman</desc>
+    </item>
+    <item xml:id="Busby">
+        <loc>Great Tew, Oxfordshire</loc>
+        <repos>church,</repos>
+        <desc>Brass epitaph for William Bosby (1513)</desc>
+    </item>
+    <item xml:id="Brightwell">
+        <loc>Brightwell, Oxfordshire</loc>
+        <repos>Brightwell Church,</repos>
+        <desc>Brass epitaph for John the Smith, mounted on the wall</desc>
+    </item>
+    <item xml:id="Yarnton">
+        <loc>Yarnton, Oxfordshire</loc>
+        <repos>Church. stained glass window (no longer extant)</repos>
+        <desc/>
+    </item>
+    <item xml:id="Barrington">
+        <loc>Barrington, Cambridgeshire</loc>
+        <repos>Barrington Church,</repos>
+        <desc>a graffito</desc>
+    </item>
+    <item xml:id="Campsall">
+        <loc>Campsall, Yorkshire</loc>
+        <repos>church,</repos>
+        <desc>wall inscription</desc>
+    </item>
+    <item xml:id="Cowling">
+        <loc>nr. Cobham, Kent</loc>
+        <repos>Cowling Castle,</repos>
+        <desc>inscription on the eastern tower of the gateway</desc>
+    </item>
+    <item xml:id="Bristol">
+        <loc>Bristol, England</loc>
+        <repos>Bristol Mansion House,</repos>
+        <desc>The Pearl Sword, late fourteenth century</desc>
+    </item>
+    <item xml:id="Chamberleyn">
+        <loc>London, England</loc>
+        <repos>All-Hallows-the-Less Church (no longer extant),</repos>
+        <desc>tomb of John Chamberleyn</desc>
+    </item>
+    <item xml:id="Taplow">
+        <loc>Taplow, Buckinghamshire</loc>
+        <repos>St. Nicholas Church, south-east corner or south chapel of chancel,</repos>
+        <desc>brass tomb of Richard Manfeld, Isabelle Manfeld, and John Manfeld, A.D. 1455</desc>
+    </item>
+    <item xml:id="Wenlock">
+        <loc>Luton, Bedforshire</loc>
+        <repos>St. Mary&#8217;s Church,</repos>
+        <desc>tomb of William (Wyvell) Wenlock (d. 1391)</desc>
+    </item>
+    <item xml:id="Skipwith">
+        <loc>St Alban&#8217;s, Hertfordshire</loc>
+        <repos>St.Peter&#8217;s Church,</repos>
+        <desc>tomb of Richard Skipwith (d. 1416)</desc>
+    </item>
+    <item xml:id="Smarmore">
+        <loc>Dublin, Ireland</loc>
+        <repos>National Museum</repos>
+        <desc> No. 1961.8: slate discovered at Smarmore, Co. Louth</desc>
+    </item>
+    <item xml:id="Sittingbourne">
+        <loc>Sittingbourne, Kent</loc>
+        <repos>parish church,</repos>
+        <desc>epitaph, A.D. 1458</desc>
+    </item>
+    <item xml:id="Coventry">
+        <loc>Coventry, Warwickshire</loc>
+        <repos>Trinity Church,</repos>
+        <desc>stained glass window</desc>
+    </item>
+    <item xml:id="Gaunt">
+        <loc>Bedford, Bedfordshire</loc>
+        <repos>Doctor&#8217;s Commons,</repos>
+        <desc>inscription over arches</desc>
+    </item>
+    <item xml:id="Romford">
+        <loc>Romford, Essex</loc>
+        <repos>St Edward the Confessor, Romford Church,</repos>
+        <desc>Tomb of Piers and Elizabeth Jon</desc>
+    </item>
+    <item xml:id="Spenser">
+        <loc><i>olim</i> London</loc>
+        <repos>St Anthony&#8217;s [Antlins] Church, Budge Row,</repos>
+        <desc>epitaph of Joan Spenser (d. 1407)</desc>
+    </item>
+    <item xml:id="Wentworth">
+        <loc>London</loc>
+        <repos><i>olim</i> St Michael, Crooked Lane,</repos>
+        <desc>tomb of William Wentworth, mayor of London, d. 1383</desc>
+    </item>
+    <item xml:id="Banknot">
+        <loc>Stone, Kent</loc>
+        <repos>Church of St Mary the Virgin,</repos>
+        <desc>tomb of William and Anne Banknot, d. 1400</desc>
+    </item>
+    <item xml:id="Stubbe">
+        <loc>Buxton, Norfolk</loc>
+        <repos>Church,</repos>
+        <desc>tomb of Walter Stubbe, d. 1528, no longer extant</desc>
+    </item>
+    <item xml:id="Hunt">
+        <loc>Great Linford, Buckinghamshire</loc>
+        <repos>St Andrews Church,</repos>
+        <desc>brass tomb of Roger and Johanne Hunt, d. 1473</desc>
+    </item>
+    <item xml:id="Wilton">
+        <loc>Norwich, Norfolk</loc>
+        <repos>Church St Peter Mancroft,</repos>
+        <desc>tomb of Henry and Margaret Wilton, d. 1507 and 1500, no longer extant</desc>
+    </item>
+    <item xml:id="Willoughby">
+        <loc>Raveningham, Norfolk</loc>
+        <repos>St Andrew, Raveningham,</repos>
+        <desc>epitaph for Margaret Willoughby, A.D. 1483</desc>
+    </item>
+    <item xml:id="deHem">
+        <loc>Norwich, Norfolk</loc>
+        <repos>Church of St Miles,</repos>
+        <desc>tomb of Anna de Hem, d. 1503, no longer extant</desc>
+    </item>
+    <item xml:id="Sheef">
+        <loc>Norwich, Norfolk</loc>
+        <repos>St. George, Tombland,</repos>
+        <desc>tomb of Thomas and Marion Sheef, 1483, no longer extant</desc>
+    </item>
+    <item xml:id="Robinson">
+        <loc>London</loc>
+        <repos>Victoria and Albert Museum, 217-1879,</repos>
+        <desc>inscription on a fourteenth-century jug (<i>olim</i> manor house in Norfolk; Robinson
+            Collection)</desc>
+    </item>
+    <item xml:id="Maners">
+        <loc><i>olim</i> Warwick</loc>
+        <repos>Collegiate Church of St Mary,</repos>
+        <desc>floor of nave, tomb of John Maners, d. 1492</desc>
+    </item>
+    <item xml:id="Ormsby">
+        <loc>Great Ormsby, Norfolk</loc>
+        <repos/>
+        <desc>brass tomb, A. D. 1440</desc>
+    </item>
+    <item xml:id="Edmonton">
+        <loc>London</loc>
+        <repos>Edmonton church</repos>
+        <desc>[a Mandevill or Dacier tomb?]</desc>
+    </item>
+    <item xml:id="Foster">
+        <loc><i>olim</i> London</loc>
+        <repos>Ludgate Chapel,</repos>
+        <desc>copper plate</desc>
+    </item>
+    <item xml:id="Middleton">
+        <loc>Middleton, Suffolk</loc>
+        <repos>Church of the Holy Trinity,</repos>
+        <desc>baptismal font</desc>
+    </item>
+    <item xml:id="Streatham">
+        <loc>Streatham, Surrey</loc>
+        <repos>[Saint Leonard&#8217;s?] Church,</repos>
+        <desc>tomb of Margaret Cantelowe</desc>
+    </item>
+    <item xml:id="Hedon">
+        <loc>Hedon, Yorkshire</loc>
+        <repos>St Austin&#8217;s Church,</repos>
+        <desc>picture once hanging on wall</desc>
+    </item>
+    <item xml:id="Dalusse">
+        <loc>London</loc>
+        <repos>St Martin&#8217;s Church,</repos>
+        <desc>Epitaph, A.D. 1469, for Robert Dalusse</desc>
+    </item>
+    <item xml:id="Bowf">
+        <loc>Pakefield, Norfolk</loc>
+        <repos>Church of All Saints and St Margaret</repos>
+        <desc>brass tomb of John Bowf mounted on north wall</desc>
+    </item>
+    <item xml:id="Pickering2">
+        <loc>Pickering, North Yorkshire</loc>
+        <repos>Church of Sts Peter and Paul,</repos>
+        <desc>wall painting of martyrdom of St Edmund on eastern end of northern wall of nave</desc>
+    </item>
+    <item xml:id="Knolles">
+        <loc>London</loc>
+        <repos>St. Antholin&#8217;s(?), Budge Row (demolished 1874)</repos>
+        <desc>Tomb of Thomas Knolles</desc>
+    </item>
+    <item xml:id="Hereford">
+        <loc>Hereford</loc>
+        <repos>Hereford Cathedral.</repos>
+        <desc>Not extant; formerly at entrance to great west door</desc>
+    </item>
+    <item xml:id="Higham">
+        <loc>Higham, Kent.</loc>
+        <repos/>
+        <desc>Monumental brass for Robert Hylton, yeoman of guard to Henry VIII, 1523.</desc>
+    </item>
+    <item xml:id="StokeDAbernon">
+        <loc>Stoke D&#8217;Abernon, Surrey.</loc>
+        <repos/>
+        <desc>Monumental brass inscription in 8 English black letter verses for John Pynnoke, first priest of the chantry founded by Sir John Norbury, 1521.</desc>
+    </item>
+    <item xml:id="Puddletown">
+        <loc>Puddletown, Dorset.</loc>
+        <repos/>
+        <desc>Monumental brass inscription for Sir William Martyn, 1524.</desc>
+    </item>
+    <item xml:id="Hornsey">
+        <loc>Hornsey, Middlesex.</loc>
+        <repos/>
+        <desc>A chrysom brass inscribed with 2 English verses.</desc>
+    </item>
+    <item xml:id="Weare">
+        <loc>Weare, Somerset.</loc>
+        <repos/>
+        <desc>Monumental brass effigy in civilian dress with foot inscription in three lines of English verse, not dated but <i>c</i>. 1505.</desc>
+    </item>
+    <item xml:id="Quorndon">
+        <loc>Quorndon, Leicestershire.</loc>
+        <repos/>
+        <desc>Incised slab to William Farnham (d. 1548).</desc>
+    </item>
+    <item xml:id="Wodford">
+        <loc>Ashby Folville, Leicestershire.</loc>
+        <repos/>
+        <desc>Alabaster slab for Ralph Wodford esq (d. 1498).</desc>
+    </item>
+    <item xml:id="Were">
+        <loc>Milbrook, Bedfordshire.</loc>
+        <repos/>
+        <desc>Not extant; monumental brass for priest in mass vestments with inscription in 4 English verses; <i>c</i>. 1430.</desc>
+    </item>
+    <item xml:id="Norwich1535">
+        <loc>Norwich</loc>
+        <repos>Guildhall, Mayoral Council Chamber.</repos>
+        <desc>1535; 1. Window glazed at expense of Robert Ferrour, mayor of Norwich in 1526 and 1536, and Robert Jannys, mayor of Norwich in 1517 and 1524.</desc>
+    </item>
+    <item xml:id="Axbridge">
+        <loc><i>Olim</i> Axbridge, Somerset.</loc>
+        <repos>Formerly in townhall (now in Axbridge Museum).</repos>
+        <desc>Stained glass roundel with nimbed dove descending in a glory with a scroll; (early sixteenth century?).</desc>
+    </item>
+    <item xml:id="Tickhill">
+        <loc>Tickhill, Yorkshire.</loc>
+        <repos/>
+        <desc>Not extant; dedicatory inscription in east window of south (Lady) chapel; n.d. (probably fifteenth century).</desc>
+    </item>
+    <item xml:id="Criston">
+        <loc>Titchmarsh, Northamptonshire.</loc>
+        <repos/>
+        <desc>Eastern window of south aisle over  the portrait of a person praying.</desc>
+    </item>
+    <item xml:id="Thornhill">
+        <loc>Thornhill, Yorkshire.</loc>
+        <repos/>
+        <desc>Carved inscription around wooden tomb of Sir John Savile, (d. 1505), and his two wives Alice (Vernon) (d. 1493) and Elizabeth (Paston), who was a second cousin of King Henry VII; 1529.</desc>
+    </item>
+    <item xml:id="Barnborough">
+        <loc>Barnborough, Yorkshire</loc>
+        <repos>Barnborough Church,</repos>
+        <desc>Tomb of Alice Cresacre</desc>
+    </item>
+    <item xml:id="Bexley">
+        <loc>Bexley, Kent.</loc>
+        <repos/>
+        <desc>Palimpsest monumental brass appropriated for Thomas Sparrow, d. 1513; effigy of man in civilian dress with 3-line Latin foot inscription; English couplet in prayer scroll</desc>
+    </item>
+    <item xml:id="Rouclyff">
+        <loc>Cowthorpe, Yorkshire.</loc>
+        <repos/>
+        <desc>Monumental brass for Brian Rouclyff (d. 1494) &#38; Joanne his wife.</desc>
+    </item>
+    <item xml:id="Wryght">
+        <loc>Ketteringham, Norfolk.</loc>
+        <repos/>
+        <desc>Monumental brass for Sir Richard Wryght (1515).</desc>
+    </item>
+    <item xml:id="Clarrell">
+        <loc>Rawmarsh, Yorkshire.</loc>
+        <repos/>
+        <desc>Probably a monumental brass for William Clarrell and wife Margaret; 1460.</desc>
+    </item>
+    <item xml:id="Middletone">
+        <loc>Spofforth, Yorkshire.</loc>
+        <repos/>
+        <desc>Monumental brass for Thomas Middleton of Kirkby Overblow, brother of Nicholas Midleton  and wife Joan, (daughter of Sir William Plumpton).</desc>
+    </item>
+    <item xml:id="Marshall">
+        <loc>Fishlake, Yorkshire.</loc>
+        <repos/>
+        <desc>Probably a monumental brass (1505).</desc>
+    </item>
+    <item xml:id="Godstow">
+        <loc>Godstow Oxfordshire (excavated at the Benedictine nunnery at Godstow, Oxfordshire, before 1868).</loc>
+        <repos>British Museum (MME AF 1075).</repos>
+        <desc>A broad hoop engraved on the outer side with flowers and leaves. Within this are lozenge-shaped panels, engraved with the Trinity, the Virgin and Child, and a bearded male saint.</desc>
+    </item>
+    <item xml:id="EvansJ">
+        <loc>Unknown</loc>
+        <repos/>
+        <desc>Black letter inscription on the inner surface. From the uncatalogued collection of Joan Evans.</desc>
+    </item>
+    <item xml:id="Godard">
+        <loc>Addlethorpe, Lincolnshire</loc>
+        <repos/>
+        <desc>Carved memorial in church porch; late fifteenth century.</desc>
+    </item>
+    <item xml:id="Shavelocke">
+        <loc><i>olim</i> Boston, Lincolnshire.</loc>
+        <repos/>
+        <desc>Transcription in BL, MS Add. 36295, f.17r [MS owned by John Anstis, antiquarian (1669 –1744)].</desc>
+    </item>
+    <item xml:id="Tylney">
+        <loc><i>olim</i> Lincoln Cathedral.</loc>
+        <repos/>
+        <desc>Not extant; monumental brass for Sir Philip Tilney, husband of Isabel, daughter and coheiress of Sir Edmund Thorp of Ashwellthorpe, Norfolk.  After her death he became a secular canon and was admitted to St Botolph&#8217;s prebend in Lincoln Cathedral where he was buried in 1453.</desc>
+    </item>
+    <item xml:id="Ballotts">
+        <loc>Strubby, Lincolnshire.</loc>
+        <repos/>
+        <desc>Small incised slab.</desc>
+    </item>
+    <item xml:id="Todenham">
+        <loc>St John Maddermarket, Norwich.</loc>
+        <repos/>
+        <desc>Monumental brass for John Toddenham, <i>c</i>. 1450.</desc>
+    </item>
+    <item xml:id="Liverpool">
+        <loc>Liverpool</loc>
+        <repos>Walker Gallery.</repos>
+        <desc>Stained glass panel; provenance unknown; probably early sixteenth century.</desc>
+    </item>
+    <item xml:id="Liverpool2">
+        <loc>Liverpool</loc>
+        <repos>Walker Gallery.</repos>
+        <desc>Stained glass panel; provenance unknown; probably early sixteenth century.</desc>
+    </item>
+    <item xml:id="Liverpool3">
+        <loc>Liverpool</loc>
+        <repos>Walker Gallery.</repos>
+        <desc>Stained glass panel; provenance unknown; probably early sixteenth century.</desc>
+    </item>
+    <item xml:id="Liverpool4">
+        <loc>Liverpool</loc>
+        <repos>Walker Gallery.</repos>
+        <desc>Stained glass panel; provenance unknown; probably early sixteenth century.</desc>
+    </item>
+    <item xml:id="SteepleBumpstead">
+        <loc>Essex</loc>
+        <repos>Steeple Bumpstead church.</repos>
+        <desc>On the third pier of the south arcade.</desc>
+    </item>
+    <item xml:id="Warkworth">
+        <loc>Banbury</loc>
+        <repos>St. Mary&#8217;s Church, Warkworth</repos>
+        <desc>Inscription in wood on the south side of the chancel.</desc>
+    </item>
+  
+    
+</inscriptions>
