@@ -12,29 +12,31 @@
 		  <xs:choice minOccurs="0" maxOccurs="unbounded">
 		    <xs:element name="author" type="person"/>
 		    <xs:element name="editor" type="person"/>
+		    <xs:element name="translator" type="person"/>
 		  </xs:choice>
 		</xs:complexType>
 	      </xs:element>
 	      <xs:element name="titlestmt">
 		<xs:complexType>
-		  <xs:choice maxOccurs="3">
+		  <xs:choice maxOccurs="4">
 		    <xs:element name="title" type="title-parent"/>
 		    <xs:element name="vols" type="xs:string"/>
 		  </xs:choice>
 		</xs:complexType>
 	      </xs:element>
 	      <xs:element name="pubstmt">
-		<xs:complexType mixed="true">
-                  <xs:choice minOccurs="0">
-		    <xs:element name="title" type="inset-title"/>
-                  </xs:choice>
-                  <xs:attribute name="date" type="xs:string"/>
+		<xs:complexType>
+		  <xs:simpleContent>
+		    <xs:extension base="xs:string">
+                      <xs:attribute name="date" type="xs:string" use="required"/>
+		    </xs:extension>
+		  </xs:simpleContent>
 		</xs:complexType>
 	      </xs:element>
-	      <xs:element name="index">
+	      <xs:element name="index" minOccurs="0">
 		<xs:complexType>
 		  <xs:sequence>
-		    <xs:element name="topic" type="xs:string"/>
+		    <xs:element name="topic" type="xs:string" maxOccurs="2"/>
 		    <xs:element name="person" type="xs:string"/>
 		  </xs:sequence>
 		</xs:complexType>
@@ -55,15 +57,17 @@
   </xs:complexType>
   <xs:complexType name="title-parent" mixed="true">
     <xs:choice minOccurs="0">
-      <xs:element name="title" type="inset-title"/>
+      <xs:element name="i" type="xs:string" maxOccurs="2"/>
+      <xs:element name="ref" type="ref"/>
     </xs:choice>
     <xs:attribute name="level" type="xs:string" use="required"/>
   </xs:complexType>
-  <xs:complexType name="inset-title">
-    <xs:simpleContent>
-      <xs:extension base="xs:string">
-        <xs:attribute name="level" type="xs:string" use="required"/>
-      </xs:extension>
-    </xs:simpleContent>
+  <xs:complexType name="ref" mixed="true">
+    <xs:choice minOccurs="0">
+      <xs:element name="sup" type="xs:string"/>
+      <xs:element name="i" type="xs:string"/>
+    </xs:choice>
+    <xs:attribute name="type" type="xs:string" use="required"/>
+    <xs:attribute name="n" type="xs:string" use="required"/>
   </xs:complexType>
 </xs:schema>
