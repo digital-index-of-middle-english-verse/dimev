@@ -132,11 +132,20 @@ references:
   author:
     - family: Laing
       given: Margaret
+    - family: Lass
+      given: Roger
+    - family: Williamson
+      given: Keith
+    - family: Karaiskos
+      given: Vasilis
+    - family: Branchaw
+      given: Sherrylyn
   citation-key: LaingLinguisticAtlasEarly2013
   edition: version 3.2
   event-place: Edinburgh
   issued:
     - year: 2013
+    - year: 0
   publisher: The University of Edinburgh
   publisher-place: Edinburgh
   title: A linguistic atlas of early Middle English, 1150–1325
