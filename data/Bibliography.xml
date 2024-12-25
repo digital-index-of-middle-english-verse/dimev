@@ -155,9 +155,10 @@
         </authorstmt>
         <titlestmt>
             <title level="m">Secchs trienter Codices geistliche un weltliche Kompositionen des
-                XV.Jhs. II. Auswahl. Denkm&#228;ler der Tonkunst in Osterreich</title>
+                XV.Jhs. Zweite Auswahl</title>
+            <title level="s">Denkm&#228;ler der Tonkunst in Osterreich</title>
         </titlestmt>
-        <pubstmt date="1904">11 (1) (1904)</pubstmt>
+        <pubstmt date="1904">22, anno 11. Vienna: Artaria, 1904</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -735,7 +736,7 @@
             <title level="m">The Institution, Laws &#38; Ceremonies of the Most Noble Order of the
                 Garter</title>
         </titlestmt>
-        <pubstmt date="1672">London: 1672</pubstmt>
+        <pubstmt date="1672">London, 1672</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -838,7 +839,7 @@
         <titlestmt>
             <title level="m">The Owl and Nightingale</title>
         </titlestmt>
-        <pubstmt date="1922">Cambridge: UP, 1922</pubstmt>
+        <pubstmt date="1922">Cambridge: Cambridge University Press, 1922</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -958,7 +959,7 @@
         </authorstmt>
         <titlestmt>
             <title level="a">The Symbolism of the &#8216;Five Wounds of Christ&#8217;</title>
-            <title level="s">Transactions of the Lancashire and Chesire Antiquarian Society</title>
+            <title level="j">Transactions of the Lancashire and Chesire Antiquarian Society</title>
         </titlestmt>
         <pubstmt date="1892">10 (1892): 67-77</pubstmt>
         <index>
@@ -985,7 +986,7 @@
             <title level="a">Interpretations of Judas in Middle English Literature</title>
             <title level="m">Religion in the Poetry and Drama of the Late Middle Ages</title>
         </titlestmt>
-        <pubstmt date="1990">Cambridge: University Press, 1990, 179-97</pubstmt>
+        <pubstmt date="1990">Cambridge: Cambridge University Press, 1990, 179-97</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -1078,7 +1079,7 @@
             <title level="a">Catalogue of the pre-Reformation monuments of St Botolph&#8217;s, Boston</title>
             <title level="m">&#8216;The beste and fayrest of al Lincolnshire&#8217;: the Church of St Botolph, Boston, Lincolnshire, and its medieval monuments</title>
         </titlestmt>
-        <pubstmt date="2012">Oxford, England : Archaeopress, 2012, 170-225 (188)</pubstmt>
+        <pubstmt date="2012">Oxford: Archaeopress, 2012, 170-225 (188)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -1095,7 +1096,7 @@
         <titlestmt>
             <title level="m">&#8216;The beste and fayrest of al Lincolnshire&#8217;: the Church of St Botolph, Boston, Lincolnshire, and its medieval monuments</title>
         </titlestmt>
-        <pubstmt date="2012">Oxford, England : Archaeopress, 2012</pubstmt>
+        <pubstmt date="2012">Oxford: Archaeopress, 2012</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -1111,7 +1112,7 @@
         <titlestmt>
             <title level="m">The Poems of William Dunbar</title>
         </titlestmt>
-        <pubstmt date="1907">Cambridge: University Press, 1907</pubstmt>
+        <pubstmt date="1907">Cambridge: Cambridge University Press, 1907</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -1302,12 +1303,14 @@
         </index>
     </bibl>
     <bibl xml:id="Bannatyne1834">
+	    <!-- untraced reference -->
         <authorstmt/>
         <titlestmt>
             <title level="m">Extracts from the Buike of King Alexander the Conquerour, a MS. in the
-                Library of Taymouth Castle, 1831</title>
+                Library of Taymouth Castle</title>
+	    <title level="s">Bannatyne Club</title>
         </titlestmt>
-        <pubstmt date="1934">Bannatyne Club, 1834</pubstmt>
+        <pubstmt date="1831">1831</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -1591,7 +1594,7 @@
         </authorstmt>
         <titlestmt>
             <title level="a">A Fraternity of Drinkers</title>
-            <title level="s">Philologica: The Malone Anniversary Studies</title>
+            <title level="m">Philologica: The Malone Anniversary Studies</title>
         </titlestmt>
         <pubstmt date="1949">Baltimore: Johns Hopkins, 1949: 200-07</pubstmt>
         <index>
@@ -1699,7 +1702,7 @@
         <titlestmt>
             <title level="m">Selected Poems of Henryson and Dunbar</title>
         </titlestmt>
-        <pubstmt date="1992">Edinburgh: 1992</pubstmt>
+        <pubstmt date="1992">Edinburgh, 1992</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -1767,7 +1770,7 @@
         <titlestmt>
             <title level="a">&#8216;Mercy and justice&#8217;: the Additional MS 31042
                 version</title>
-            <title level="s">Leeds Studies in English</title>
+            <title level="j">Leeds Studies in English</title>
         </titlestmt>
         <pubstmt date="1985">n.s. 16 (1985): 259-71</pubstmt>
         <index>
@@ -2075,7 +2078,7 @@
         <titlestmt>
             <title level="m">English Literature from Widsith to the death of Chaucer</title>
         </titlestmt>
-        <pubstmt date="1916">New Haven: Yale UP, 1916; repr. New York: Phaeton, 1968</pubstmt>
+        <pubstmt date="1916">New Haven: Yale University Press, 1916; repr. New York: Phaeton, 1968</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -2325,7 +2328,7 @@
             <title level="m">The History and Antiquities of the Conventual and Cathedral Church of
                 Ely</title>
         </titlestmt>
-        <pubstmt date="1772">Cambridge: at the UP, 1771; 2nd ed. 1812</pubstmt>
+        <pubstmt date="1772">Cambridge: Cambridge University Press, 1771; 2nd ed. 1812</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -2583,7 +2586,7 @@
         </authorstmt>
         <titlestmt>
             <title level="a">On Two Anglo-Saxon Manuscripts in the British Museum</title>
-            <title level="s">Transactions of the Royal Society of Literature</title>
+            <title level="j">Transactions of the Royal Society of Literature</title>
         </titlestmt>
         <pubstmt date="1878">2nd ser. 11 (1878): 463-512</pubstmt>
         <index>
@@ -2723,7 +2726,7 @@
             <title level="m">Catalogue of the Arundel Manuscripts in the Library of the College of
                 Arms</title>
         </titlestmt>
-        <pubstmt date="1829">Unpublished, 1829</pubstmt>
+	<pubstmt date="1829"><!--Unpublished-->1829</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -2754,10 +2757,12 @@
             </author>
         </authorstmt>
         <titlestmt>
-            <title level="a">A Paraphrase on the Seven Penitential Psalms</title>
+            <title level="m">A Paraphrase on the Seven Penitential Psalms</title>
             <title level="s">Percy Society</title>
         </titlestmt>
-        <pubstmt date="1842">7. London: Richards, 1842</pubstmt>
+	<pubstmt date="1842">7. London, 1842</pubstmt>
+	<!-- No publisher or volume number in the UMich copy digitized by Google -->
+	<!-- https://www.google.com/books/edition/A_Paraphrase_on_the_Seven_Penitential_Ps/LQwEX_bdbOwC -->
         <index>
             <topic/>
             <person/>
@@ -2788,7 +2793,7 @@
             </author>
         </authorstmt>
         <titlestmt>
-            <title level="a">The Life and Martyrdom of Thomas a Becket</title>
+            <title level="m">The Life and Martyrdom of Thomas a Becket</title>
             <title level="s">Percy Society</title>
         </titlestmt>
         <pubstmt date="1946">19. London: Richards, 1846</pubstmt>
@@ -2904,7 +2909,7 @@
         <titlestmt>
             <title level="m">Middle English Religious Prose</title>
         </titlestmt>
-        <pubstmt date="1972">Evanston, IL: Northwestern UP, 1972</pubstmt>
+        <pubstmt date="1972">Evanston, IL: Northwestern University Press, 1972</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -2993,7 +2998,7 @@
             <person/>
         </index>
     </bibl>
-    <bibl xml:id="BlissAJ1965-66">
+    <bibl xml:id="BlissAJ1965">
         <authorstmt>
             <author>
                 <last>Bliss</last>
@@ -3002,9 +3007,9 @@
         </authorstmt>
         <titlestmt>
             <title level="a">The Inscribed Slates at Smarmore</title>
-            <title level="s">Proc. Royal Irish Academy</title>
+            <title level="j">Proc. Royal Irish Academy, Section C</title>
         </titlestmt>
-        <pubstmt date="1965">Sect. C, vol. 64 (1965-66): 33-60 plus plates I-IV</pubstmt>
+        <pubstmt date="1965">64 (1965-66): 33-60 plus plates I-IV</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -3037,23 +3042,6 @@
             <title level="m">Sir Launfal</title>
         </titlestmt>
         <pubstmt date="1960">London: T. Nelson, 1960</pubstmt>
-        <index>
-            <topic/>
-            <person/>
-        </index>
-    </bibl>
-    <bibl xml:id="BlissAJ1965">
-        <authorstmt>
-            <author>
-                <last>Bliss</last>
-                <first>Alan Joseph</first>
-            </author>
-        </authorstmt>
-        <titlestmt>
-            <title level="a">The Inscribed Slates at Smarmore</title>
-            <title level="s">Proc. Royal Irish Academy</title>
-        </titlestmt>
-        <pubstmt date="1965">64(c) (1965-66): 33-60 plus four plates</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -3340,7 +3328,7 @@
         <authorstmt/>
         <titlestmt>
             <title level="a">J. O. Halliwell and the Bodleian</title>
-            <title level="s">Bodleian Library Record</title>
+            <title level="j">Bodleian Library Record</title>
         </titlestmt>
         <pubstmt date="1949">2 (1946): 237-8</pubstmt>
         <index>
@@ -3518,7 +3506,7 @@
         <titlestmt>
             <title level="m">The Year Books: Lectures delivered in the University of London</title>
         </titlestmt>
-        <pubstmt date="1921">Cambridge: 1921</pubstmt>
+        <pubstmt date="1921">Cambridge, 1921</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -3551,7 +3539,7 @@
         <titlestmt>
             <title level="a">The Middle English and Latin Poems of St. Guthlac</title>
         </titlestmt>
-        <pubstmt date="1952">Diss. Princeton, 1952; DA 15/11: 2201</pubstmt>
+        <pubstmt date="1952">Diss. Princeton, 1952 (DA 15/11: 2201)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -3618,10 +3606,10 @@
         </authorstmt>
         <titlestmt>
             <title level="a">The Sepulchral Brasses of Buckinghamshire</title>
-            <title level="s">Records of Buckinghamshire. Aylesbury: de Fraine, for the
-                Buckinghamshire Architectural and Archaeological Society</title>
+            <title level="m">Records of Buckinghamshire, Volume 3</title>
         </titlestmt>
-        <pubstmt date="1870">3 (1870): 106-19</pubstmt>
+        <pubstmt date="1870">Aylesbury: de Fraine for the Architectural and Archaeological Society for the County of Buckingham (1870), 106-19</pubstmt>
+	<!-- https://www.google.com/books/edition/Records_of_Buckinghamshire/GNFCAAAAYAAJ -->
         <index>
             <topic/>
             <person/>
@@ -4250,7 +4238,7 @@
         <titlestmt>
             <title level="m">Middle English Miracles of the Virgin</title>
         </titlestmt>
-        <pubstmt date="1955">New York: Columbia UP, 1955; San Marino, CA: Huntington Library,
+        <pubstmt date="1955">New York: Columbia University Press, 1955; San Marino, CA: Huntington Library,
             1964</pubstmt>
         <index>
             <topic/>
@@ -4267,7 +4255,7 @@
         <titlestmt>
             <title level="m">Middle English Miracles of the Virgin</title>
         </titlestmt>
-        <pubstmt date="1964">New York: Columbia UP, 1955; San Marino, CA: Huntington Library,
+        <pubstmt date="1964">New York: Columbia University Press, 1955; San Marino, CA: Huntington Library,
             1964</pubstmt>
         <index>
             <topic/>
@@ -4499,7 +4487,7 @@
             <title level="m">Observations on the Popular Antiquities of Great Britain</title>
 	    <vols>3</vols>
         </titlestmt>
-        <pubstmt date="1849">rev. ed., London: 1849</pubstmt>
+        <pubstmt date="1849">rev. ed., London, 1849</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -4789,7 +4777,7 @@
             <vols>6</vols>
             <title level="s">Public Record Office Texts and Calendars</title>
         </titlestmt>
-        <pubstmt date="1867">London: 1867-73</pubstmt>
+        <pubstmt date="1867">London, 1867-73</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -5122,7 +5110,7 @@
         <titlestmt>
             <title level="m">The Harley Lyrics</title>
         </titlestmt>
-        <pubstmt date="1948">Manchester: Manchester UP, 1948; rev. ed. 1956; 3rd ed. 1964</pubstmt>
+        <pubstmt date="1948">Manchester: Manchester University Press, 1948; rev. ed. 1956; 3rd ed. 1964</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -5734,6 +5722,7 @@
         </index>
     </bibl>
     <bibl xml:id="BrownJTT1897">
+	<!-- uncited in DIMEV files -->
         <authorstmt>
             <author>
                 <last>Brown</last>
@@ -5743,9 +5732,11 @@
         <titlestmt>
             <title level="a">The poems of David Rate, confessor of King James the First of
                 Scotland</title>
-            <title level="s">Scottish Antiquary, or Northern Notes and Queries</title>
+            <title level="j">Scottish Antiquary, or Northern Notes and Queries</title>
         </titlestmt>
-        <pubstmt date="1897">2 parts, nos. 44-45. [Edinburgh: G. P. Johnston, 1897]</pubstmt>
+	<pubstmt date="1897">12 (1897): 5-12</pubstmt>
+	<!-- https://www.google.com/books/edition/The_Scottish_Antiquary_Or_Northern_Notes/0d5ZAAAAIAAJ -->
+	<!-- this is a sequel to an article published by Brown in vol. 11-->
         <index>
             <topic/>
             <person/>
@@ -6294,7 +6285,7 @@
             <title level="m">The Oxford History of Music</title>
 	    <vols>7</vols>
         </titlestmt>
-        <pubstmt date="1929">rev. ed. London: Oxford UP, 1929-38</pubstmt>
+        <pubstmt date="1929">rev. ed. London: Oxford University Press, 1929-38</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -7120,7 +7111,7 @@
         <titlestmt>
             <title level="m">English Verse 1300-1500</title>
         </titlestmt>
-        <pubstmt date="1971">London and NY: Longman, 1971</pubstmt>
+        <pubstmt date="1971">London and New York: Longman, 1971</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -7136,7 +7127,7 @@
         <titlestmt>
             <title level="m">Sir Gawain and the Green Knight</title>
         </titlestmt>
-        <pubstmt date="1982">New Haven: Yale UP, 1982</pubstmt>
+        <pubstmt date="1982">New Haven: Yale University Press, 1982</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -7156,9 +7147,9 @@
         <titlestmt>
             <title level="m">Thomas Hoccleve: A Facsimile of the Autograph Verse
                 Manuscripts</title>
-            <title level="s">EETS</title>
+            <title level="s">EETS s.s.</title>
         </titlestmt>
-        <pubstmt date="2002">s.s. 19 (2002)</pubstmt>
+        <pubstmt date="2002">19 (2002)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -7273,7 +7264,7 @@
                 Huntington-Laing versions of the romance</title>
              <title level="s">Harvard Studies in Comparative Literature</title>
         </titlestmt>
-        <pubstmt date="1933">9. Cambridge, MA: Harvard UP, 1933</pubstmt>
+        <pubstmt date="1933">9. Cambridge, MA: Harvard University Press, 1933</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -7679,7 +7670,7 @@
         <titlestmt>
             <title level="m">The Wakefield Pageants in the Towneley Cycle</title>
         </titlestmt>
-        <pubstmt date="1958">Manchester: Manchester UP, 1958</pubstmt>
+        <pubstmt date="1958">Manchester: Manchester University Press, 1958</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -7830,7 +7821,7 @@
         <titlestmt>
             <title level="m">The Poetic Remains of Some of the Scotish Kings</title>
         </titlestmt>
-        <pubstmt date="1824">London: 1824</pubstmt>
+        <pubstmt date="1824">London, 1824</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -7974,7 +7965,7 @@
         <titlestmt>
             <title level="m">The Medieval Stage</title>
         </titlestmt>
-        <pubstmt date="1948">London: Oxford UP, 1948</pubstmt>
+        <pubstmt date="1948">London: Oxford University Press, 1948</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -8330,7 +8321,7 @@
         <titlestmt>
             <title level="m">The Troubadours and England</title>
         </titlestmt>
-        <pubstmt date="1923">Cambridge: University Press, 1923</pubstmt>
+        <pubstmt date="1923">Cambridge: Cambridge University Press, 1923</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -8472,9 +8463,10 @@
         </authorstmt>
         <titlestmt>
             <title level="a">English Verses in a Fifteenth Century Manuscript</title>
-            <title level="s">Cambridge Antiquarian Society, Communications</title>
+            <title level="j">Proceedings of the Cambridge Antiquarian Society</title>
         </titlestmt>
-        <pubstmt date="1903">11 (or. n.s. 5) (1903-6): 75-101</pubstmt>
+        <pubstmt date="1905">11.1 (1905): 75-78</pubstmt>
+	<!-- https://babel.hathitrust.org/cgi/pt?id=pst.000021480157&seq=81 -->
         <index>
             <topic/>
             <person/>
@@ -8645,7 +8637,7 @@
         <titlestmt>
             <title level="m">The Ballade</title>
         </titlestmt>
-        <pubstmt date="1915">New York: Columbia UP, 1915</pubstmt>
+        <pubstmt date="1915">New York: Columbia University Press, 1915</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -8895,7 +8887,7 @@
             <title level="m">Spiritual Songs from English Manuscripts of Fourteenth to Sixteenth
                 Centuries</title>
         </titlestmt>
-        <pubstmt date="1936">London and NY: Macmillan, 1936</pubstmt>
+        <pubstmt date="1936">London and New York: Macmillan, 1936</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -9435,7 +9427,7 @@
         <titlestmt>
             <title level="m">Social Life in Britain from the Conquest to the Reformation</title>
         </titlestmt>
-        <pubstmt date="1914">Cambridge: at the UP, 1914</pubstmt>
+        <pubstmt date="1914">Cambridge: Cambridge University Press, 1914</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -9484,7 +9476,7 @@
         <titlestmt>
             <title level="m">Life in the Middle Ages</title>
         </titlestmt>
-        <pubstmt date="1931">Cambridge: at the UP, 1931, and New York: Macmillan, 1931</pubstmt>
+        <pubstmt date="1931">Cambridge: Cambridge University Press, 1931, and New York: Macmillan, 1931</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -10112,7 +10104,7 @@
         <titlestmt>
             <title level="m">Medieval English Lyrics: a critical anthology</title>
         </titlestmt>
-        <pubstmt date="1964">London, 1963; Evanston, IL: Northwestern UP, 1964</pubstmt>
+        <pubstmt date="1964">London, 1963; Evanston, IL: Northwestern University Press, 1964</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -10197,9 +10189,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">Non-Cycle Plays and Fragments</title>
-            <title level="s">EETS</title>
+            <title level="s">EETS s.s.</title>
         </titlestmt>
-        <pubstmt date="1970">s.s. 1 (1970)</pubstmt>
+        <pubstmt date="1970">1 (1970)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -10251,9 +10243,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">Paston Letters and Papers of the Fifteenth Century</title>
-            <title level="s">EETS</title>
+            <title level="s">EETS s.s.</title>
         </titlestmt>
-        <pubstmt date="2004">s.s. 20 and 21 (2004)</pubstmt>
+        <pubstmt date="2004">20, 21 (2004)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -10427,7 +10419,7 @@
         <titlestmt>
             <title level="m">The Oxford Book of Carols</title>
         </titlestmt>
-        <pubstmt date="1928">London: Oxford UP, 1928</pubstmt>
+        <pubstmt date="1928">London: Oxford University Press, 1928</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -10590,7 +10582,7 @@
         <titlestmt>
             <title level="m">Peter Idley&#8217;s Instructions to His Son</title>
         </titlestmt>
-        <pubstmt date="1935">Boston: Modern Language Association of America; and London: Oxford UP,
+        <pubstmt date="1935">Boston: Modern Language Association of America; and London: Oxford University Press,
             1935</pubstmt>
         <index>
             <topic/>
@@ -10819,7 +10811,7 @@
         <titlestmt>
             <title level="m">Early Middle English Texts</title>
         </titlestmt>
-        <pubstmt date="1951">Cambridge: at the University Press, 1951</pubstmt>
+        <pubstmt date="1951">Cambridge: Cambridge University Press, 1951</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -10835,7 +10827,7 @@
         <titlestmt>
             <title level="m">The Shrine of Our Lady of Walsingham</title>
         </titlestmt>
-        <pubstmt date="1956">Cambridge: at the University Press, 1956</pubstmt>
+        <pubstmt date="1956">Cambridge: Cambridge University Press, 1956</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -10953,7 +10945,7 @@
             <title level="m">The English Text of the Ancren Riwle</title>
             <title level="s">EETS o.s.</title>
         </titlestmt>
-        <pubstmt date="1972">267. London: Oxford UP, 1972</pubstmt>
+        <pubstmt date="1972">267. London: Oxford University Press, 1972</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -10973,7 +10965,7 @@
         <titlestmt>
             <title level="m">Medieval English Songs</title>
         </titlestmt>
-        <pubstmt date="1979">New York: Cambridge UP, 1979</pubstmt>
+        <pubstmt date="1979">New York: Cambridge University Press, 1979</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -11227,7 +11219,7 @@
             <title level="m">Catalogue of the Printed Books and Manuscripts bequeathed by Francis
                 Douce, Esq., to the Bodleian Library</title>
         </titlestmt>
-        <pubstmt date="1840">Oxford: UP, 1840</pubstmt>
+        <pubstmt date="1840">Oxford: Oxford University Press, 1840</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -11509,7 +11501,7 @@
                 Marcolphus. Facs. ed. of The Dyalogus&#8230;betwxt&#8230;Salomon and Marcolphus (STC
                 22905)</title>
         </titlestmt>
-        <pubstmt date="1892">London: Lawrence and Butler, Aberdeen UP, 1892</pubstmt>
+        <pubstmt date="1892">London: Lawrence and Butler, Aberdeen University Press, 1892</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -11558,8 +11550,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">Fifteenth Century English Books</title>
+            <title level="s">Bibliographical Society Illustrated Monographs</title>
         </titlestmt>
-        <pubstmt date="1917">Bibliographical Society, London: Oxford UP, 1917</pubstmt>
+        <pubstmt date="1917">18. Oxford: Oxford University Press, 1917</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -11650,9 +11643,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">The Wars of Alexander</title>
-            <title level="s">EETS</title>
+            <title level="s">EETS s.s.</title>
         </titlestmt>
-        <pubstmt date="1989">s.s. 10. London: Oxford UP, 1989</pubstmt>
+        <pubstmt date="1989">10. Oxford: Oxford University Press, 1989</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -11774,9 +11767,11 @@
         </authorstmt>
         <titlestmt>
             <title level="a">The Newcastle Noah&#8217;s Ark</title>
-            <title level="s">Allahabad University Studies</title>
+            <title level="j">Allahabad University Studies</title>
         </titlestmt>
-        <pubstmt date="1031">8, pt. 1 (1931)</pubstmt>
+        <pubstmt date="1031">8, Part 1 [Arts Section] (1932): 1ff</pubstmt>
+	<!-- missing terminus ad quem for page range -->
+	<!-- https://www.ideasofindia.org/#database -->
         <index>
             <topic/>
             <person/>
@@ -11808,7 +11803,7 @@
         </authorstmt>
         <titlestmt>
             <title level="a">Englisch-franz&#246;sisches aus einem MS des 16 Jarhunderts</title>
-            <title level="s">Bausteine: Zeitschrift f&#252;r neuenglische Wortforschung</title>
+            <title level="j">Bausteine: Zeitschrift f&#252;r neuenglische Wortforschung</title>
         </titlestmt>
         <pubstmt date="1905">1 (1905-6): 329-52</pubstmt>
         <index>
@@ -13707,7 +13702,7 @@
         <titlestmt>
             <title level="m">John Skelton&#8217;s Poetry</title>
         </titlestmt>
-        <pubstmt date="1967">New Haven, CT: Yale UP, 1967</pubstmt>
+        <pubstmt date="1967">New Haven, CT: Yale University Press, 1967</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -13975,7 +13970,7 @@
         <titlestmt>
             <title level="m">Early Tudor Composers</title>
         </titlestmt>
-        <pubstmt date="1925">Oxford: University Press, 1925</pubstmt>
+        <pubstmt date="1925">Oxford: Oxford University Press, 1925</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -14762,7 +14757,7 @@
         <titlestmt>
             <title level="m">A Literary History of the Popular Ballad</title>
         </titlestmt>
-        <pubstmt date="1968">Durham, NC: Duke UP, 1968</pubstmt>
+        <pubstmt date="1968">Durham, NC: Duke University Press, 1968</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -16100,7 +16095,7 @@
             </editor>
         </authorstmt>
         <titlestmt>
-            <title level="a">Hoccleve&#8217;s Works: The Regement of Princes and fourteen minor
+            <title level="m">Hoccleve&#8217;s Works: The Regement of Princes and fourteen minor
                 poems</title>
             <title level="s">EETS e.s.</title>
         </titlestmt>
@@ -17251,7 +17246,7 @@
         <titlestmt>
             <title level="m">A Good Debate between Winner and Waster</title>
         </titlestmt>
-        <pubstmt date="1930">2nd ed. London: Oxford UP, 1930</pubstmt>
+        <pubstmt date="1930">2nd ed. London: Oxford University Press, 1930</pubstmt>
 	<!--orig. pub. 1900, and also as an appendix to the orig. ed. of <biblio key="Gollancz1915"/>, and as vol. 3 in <biblio key="Gollancz1913-33"/> -->
         <index>
             <topic/>
@@ -17269,7 +17264,7 @@
             <title level="m">Select Early English Poems</title>
             <vols>9</vols>
         </titlestmt>
-        <pubstmt date="1913">London: Oxford UP, 1913, 1933</pubstmt>
+        <pubstmt date="1913">London: Oxford University Press, 1913, 1933</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -18134,7 +18129,7 @@
             <title level="m">Blackfriars Records</title>
             <title level="s">Malone Society Collections</title>
         </titlestmt>
-        <pubstmt date="1913">2, pt. 1. Oxford: OUP, 1913</pubstmt>
+        <pubstmt date="1913">2, pt. 1. Oxford: Oxford University Press, 1913</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -19920,7 +19915,7 @@
         <titlestmt>
             <title level="m">English Verse between Chaucer and Surrey</title>
         </titlestmt>
-        <pubstmt date="1927">Durham, NC: Duke UP, 1927</pubstmt>
+        <pubstmt date="1927">Durham, NC: Duke University Press, 1927</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -20005,7 +20000,7 @@
             <title level="a">Introduction</title>
             <title level="m">English Hawking and Hunting in The Boke of St Albans</title>
         </titlestmt>
-        <pubstmt date="1975">Oxford: University Press, 1975</pubstmt>
+        <pubstmt date="1975">Oxford: Oxford University Press, 1975</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -20603,7 +20598,7 @@
         <titlestmt>
             <title level="m">A Middle English Anthology</title>
         </titlestmt>
-        <pubstmt date="1969">Garden City, NY: Anchor, 1969; 2nd ed. Detroit: Wayne State UP,
+        <pubstmt date="1969">Garden City, NY: Anchor, 1969; 2nd ed. Detroit: Wayne State University Press,
             1985</pubstmt>
         <index>
             <topic/>
@@ -21076,7 +21071,7 @@
                 Robert of Brunne, from the death of Cadwalader to the end of K. Edward the
                 First&#8217;s reign</title>
         </titlestmt>
-        <pubstmt date="1810">Oxford : Printed at the Theater, [London: Reprinted for S. Bagster, in
+        <pubstmt date="1810">Oxford: Printed at the Theater, [London: Reprinted for S. Bagster, in
             the Strand], 1810</pubstmt>
         <index>
             <topic/>
@@ -21904,7 +21899,7 @@
             <title level="m">Jack Upland, Friar Daw&#8217;s Reply, and Upland&#8217;s
                 Rejoinder</title>
         </titlestmt>
-        <pubstmt date="1968">Oxford: OUP, 1968</pubstmt>
+        <pubstmt date="1968">Oxford: Oxford University Press, 1968</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -22089,7 +22084,7 @@
             <title level="m">The Pearl</title>
         </titlestmt>
         <pubstmt date="1961">Convent Station, NJ: College of St. Elizabeth Press, 1961; repr. Notre
-            Dame, IN: Notre Dame UP, 1967</pubstmt>
+            Dame, IN: Notre Dame University Press, 1967</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -22517,7 +22512,7 @@
         <titlestmt>
             <title level="a">The Turnament of Tottenham and the Feest: A Critical Edition</title>
         </titlestmt>
-        <pubstmt date="1984">Diss. SUNY-Stony Brook, 1984; DAI 45 (1985):2520A</pubstmt>
+        <pubstmt date="1984">Diss. SUNY-Stony Brook, 1984 (DAI 45 (1985):2520A)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -22549,7 +22544,7 @@
         <titlestmt>
             <title level="m">The Untuning of the Sky</title>
         </titlestmt>
-        <pubstmt date="1961">Princeton, NJ: Princeton UP, 1961; repr. 1983; Norton, 1970</pubstmt>
+        <pubstmt date="1961">Princeton, NJ: Princeton University Press, 1961; repr. 1983; Norton, 1970</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -22584,7 +22579,7 @@
             <title level="m">The Ordinall of Alchimy written by Thomas Norton of Bristol. Facsimile
                 ed. of Ashmole 1652 version of Ripley&#8217;s Compendium</title>
         </titlestmt>
-        <pubstmt date="1928">London: 1928; Baltimore: Williams and Wilkins, 1929</pubstmt>
+        <pubstmt date="1928">London, 1928; Baltimore: Williams and Wilkins, 1929</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -24132,7 +24127,7 @@
             <title level="m">The New Oxford History of Music. Volume 3: Ars Nova and the
                 Renaissance</title>
         </titlestmt>
-        <pubstmt date="1960">London, New York: Oxford UP, 1960</pubstmt>
+        <pubstmt date="1960">London, New York: Oxford University Press, 1960</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -24644,7 +24639,7 @@
             <title level="m">A Descriptive Catalogue of manuscripts in the Library of Jesus College,
                 Cambridge</title>
         </titlestmt>
-        <pubstmt date="1895">Cambridge: at the UP, 1895</pubstmt>
+        <pubstmt date="1895">Cambridge: Cambridge University Press, 1895</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -24661,7 +24656,7 @@
             <title level="m">A Descriptive Catalogue of Manuscripts in the Fitzwilliam
                 Museum</title>
         </titlestmt>
-        <pubstmt date="1895">Cambridge: at the UP, 1895</pubstmt>
+        <pubstmt date="1895">Cambridge: Cambridge University Press, 1895</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -24678,7 +24673,7 @@
             <title level="m">A Descriptive Catalogue of manuscripts in the Library of Sidney Sussex
                 College, Cambridge</title>
         </titlestmt>
-        <pubstmt date="1895">Cambridge: at the UP, 1895</pubstmt>
+        <pubstmt date="1895">Cambridge: Cambridge University Press, 1895</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -24712,7 +24707,7 @@
             <title level="m">A Descriptive Catalogue of the Manuscripts in the Library of Peterhouse
                 College, Cambridge</title>
         </titlestmt>
-        <pubstmt date="1899">Cambridge: at the UP, 1899</pubstmt>
+        <pubstmt date="1899">Cambridge: Cambridge University Press, 1899</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -24746,7 +24741,7 @@
             <title level="m">The Western Manuscripts in the library of Emmanuel College: A
                 Descriptive Catalogue</title>
         </titlestmt>
-        <pubstmt date="1904">Cambridge: at the UP, 1904</pubstmt>
+        <pubstmt date="1904">Cambridge: Cambridge University Press, 1904</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -24763,7 +24758,7 @@
             <title level="m">A Descriptive Catalogue of the Manuscripts in the Library of Pembroke
                 College, Cambridge</title>
         </titlestmt>
-        <pubstmt date="1905">Cambridge: at the UP, 1905</pubstmt>
+        <pubstmt date="1905">Cambridge: Cambridge University Press, 1905</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -24780,7 +24775,7 @@
             <title level="m">A Descriptive Catalogue of the Western Manuscripts in the Library of
                 Clare College, Cambridge</title>
         </titlestmt>
-        <pubstmt date="1905">Cambridge: at the UP, 1905</pubstmt>
+        <pubstmt date="1905">Cambridge: Cambridge University Press, 1905</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -24797,7 +24792,7 @@
             <title level="m">A Descriptive Catalogue of the Manuscripts in the Library of Trinity
                 Hall, Cambridge</title>
         </titlestmt>
-        <pubstmt date="1907">Cambridge: at the UP, 1907</pubstmt>
+        <pubstmt date="1907">Cambridge: Cambridge University Press, 1907</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -24831,7 +24826,7 @@
             <title level="m">A Descriptive Catalogue of the Manuscripts in the College Library of
                 Magdalene College Cambridge</title>
         </titlestmt>
-        <pubstmt date="1909">Cambridge: at the UP, 1909</pubstmt>
+        <pubstmt date="1909">Cambridge: Cambridge University Press, 1909</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -24848,7 +24843,7 @@
             <title level="m">A Descriptive Catalogue of the Manuscripts in the Library of Corpus
                 Christi College, Cambridge</title>
         </titlestmt>
-        <pubstmt date="1912">Cambridge: at the UP, 1912</pubstmt>
+        <pubstmt date="1912">Cambridge: Cambridge University Press, 1912</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -24865,7 +24860,7 @@
             <title level="m">A Descriptive Catalogue of the McClean Collection of Manuscripts in the
                 Fitzwilliam Museum</title>
         </titlestmt>
-        <pubstmt date="1912">Cambridge: at the UP, 1912</pubstmt>
+        <pubstmt date="1912">Cambridge: Cambridge University Press, 1912</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -24882,7 +24877,7 @@
             <title level="m">A Descriptive Catalogue of the Manuscripts in the Library of St.
                 John&#8217;s College, Cambridge</title>
         </titlestmt>
-        <pubstmt date="1913">Cambridge: at the UP, 1913</pubstmt>
+        <pubstmt date="1913">Cambridge: Cambridge University Press, 1913</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -24932,11 +24927,15 @@
                 <last>James</last>
                 <first>Montague Rhodes</first>
             </editor>
+            <translator>
+                <last>James</last>
+                <first>Montague Rhodes</first>
+            </translator>
         </authorstmt>
         <titlestmt>
             <title level="m">Henry the Sixth, a reprint of John Blacman&#8217;s Memoir</title>
         </titlestmt>
-        <pubstmt date="1919">Cambridge: at the UP, 1919; trans. James</pubstmt>
+        <pubstmt date="1919">Cambridge: Cambridge University Press, 1919</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -24953,7 +24952,7 @@
             <title level="m">A Descriptive Catalogue of the Latin Manuscripts in the John Rylands
                 Library at Manchester</title>
         </titlestmt>
-        <pubstmt date="1921">Manchester: at the UP, 1921</pubstmt>
+        <pubstmt date="1921">Manchester: University Press, 1921</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -25025,7 +25024,7 @@
             <title level="m">A Catalogue of the medieval manuscripts in the University Library,
                 Aberdeen</title>
         </titlestmt>
-        <pubstmt date="1932">Cambridge: at the UP, 1932</pubstmt>
+        <pubstmt date="1932">Cambridge: Cambridge University Press, 1932</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -25167,7 +25166,7 @@
         <titlestmt>
             <title level="m">Collected Papers of Henry Bradshaw</title>
         </titlestmt>
-        <pubstmt date="1889">Cambridge: at the UP, 1889</pubstmt>
+        <pubstmt date="1889">Cambridge: Cambridge University Press, 1889</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -25184,7 +25183,7 @@
             <title level="a">Introduction</title>
             <title level="m">The story of Queen Anelida and the false Arcite</title>
         </titlestmt>
-        <pubstmt date="1905">Cambridge: University Press, 1905</pubstmt>
+        <pubstmt date="1905">Cambridge: Cambridge University Press, 1905</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -25205,8 +25204,7 @@
             <title level="m">Lytell Treatyse of the Horse, the Sheep, and the Ghoos, Westminster: de
                 Worde, 1495</title>
         </titlestmt>
-        <pubstmt date="1906">Cambridge: University Press, 1906; facsimile of John Lydgate (STC
-            17020)</pubstmt>
+	<pubstmt date="1906">Cambridge: Cambridge University Press, 1906<!-- facsimile of John Lydgate (STC 17020)--></pubstmt>
         <index>
             <topic/>
             <person/>
@@ -25244,8 +25242,7 @@
             <title level="a">Introduction</title>
             <title level="m">Book of Curtesye</title>
         </titlestmt>
-        <pubstmt date="1907">Cambridge: University Press, 1907; facsimile of Caxton (STC
-            3303)</pubstmt>
+	<pubstmt date="1907">Cambridge: Cambridge University Press, 1907<!-- facsimile of Caxton (STC 3303)--></pubstmt>
         <index>
             <topic/>
             <person/>
@@ -25262,7 +25259,7 @@
             <title level="m">A Mery Geste of the Frere and the Boye, de Worde, London
                 [1510-1513]</title>
         </titlestmt>
-        <pubstmt date="1907">Cambridge: University Press, 1907; facsimile (STC 14522)</pubstmt>
+	<pubstmt date="1907">Cambridge: Cambridge University Press, 1907<!-- facsimile (STC 14522)--></pubstmt>
         <index>
             <topic/>
             <person/>
@@ -26054,7 +26051,7 @@
             <title level="m">Medieval Manuscripts in British Libraries</title>
 	    <vols>4</vols>
         </titlestmt>
-        <pubstmt date="1969">London: Oxford UP, 1969-92</pubstmt>
+        <pubstmt date="1969">London: Oxford University Press, 1969-92</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -26219,7 +26216,7 @@
         <titlestmt>
             <title level="m">The Middle Scots Poets</title>
         </titlestmt>
-        <pubstmt date="1970">London: Arnold, and Evanston, IL: Northwestern UP, 1970</pubstmt>
+        <pubstmt date="1970">London: Arnold, and Evanston, IL: Northwestern University Press, 1970</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -26454,7 +26451,7 @@
         <titlestmt>
             <title level="m">Witchcraft in Old and New England</title>
         </titlestmt>
-        <pubstmt date="1929">Cambridge, MA: Harvard UP, 1929</pubstmt>
+        <pubstmt date="1929">Cambridge, MA: Harvard University Press, 1929</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -26538,7 +26535,7 @@
             <title level="a">Liber Pouerbium: An Edition of Middle English Proverbs Formerly
                 Attributed to John Lydgate</title>
         </titlestmt>
-        <pubstmt date="1954">Diss. University of Florida 1954 (DA 22.3185)</pubstmt>
+        <pubstmt date="1954">Diss. University of Florida, 1954 (DA 22.3185)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -26578,7 +26575,7 @@
         <titlestmt>
             <title level="m">The Mediaeval Mason</title>
         </titlestmt>
-        <pubstmt date="1933">Manchester: at the UP, 1933; repr. 1949; 3rd ed. 1967</pubstmt>
+        <pubstmt date="1933">Manchester: University Press, 1933; repr. 1949; 3rd ed. 1967</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -27093,7 +27090,7 @@
             <title level="m">The Anglo-Saxon Poetic Records: a collective edition</title>
 	    <vols>6</vols>
         </titlestmt>
-        <pubstmt date="1931">New York: Columbia UP, 1931-53</pubstmt>
+        <pubstmt date="1931">New York: Columbia University Press, 1931-53</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -27304,16 +27301,17 @@
     </bibl>
     <bibl xml:id="Kuriyagawa1974">
         <authorstmt>
-            <author>
+            <editor>
                 <last>Kuriyagawa</last>
                 <first>Fumio</first>
-            </author>
+            </editor>
         </authorstmt>
         <titlestmt>
-            <title level="a">Paruus Cato Magnus Cato</title>
+            <title level="m">Paruus Cato, Magnus Cato</title>
             <title level="s">Seijo English Monograph</title>
         </titlestmt>
-        <pubstmt date="1974">13. Tokyo: Seijo University, 1974: 1-78</pubstmt>
+        <pubstmt date="1974">13. Tokyo: Seijo University, 1974</pubstmt>
+	<!-- Ed. of the 1477 Caxton print -->
         <index>
             <topic/>
             <person/>
@@ -27379,7 +27377,7 @@
             <title level="m">K&#246;nig Eduard und der einsiedler: eine mittelenglische
                 ballade</title>
         </titlestmt>
-        <pubstmt date="1905">Diss. Friederich-Alexanders-Universit&#228;t. Erlangen-N&#252;nberg.
+        <pubstmt date="1905">Diss. Friederich-Alexanders-Universit&#228;t. Erlangen-N&#252;nberg,
             1905</pubstmt>
         <index>
             <topic/>
@@ -27430,7 +27428,7 @@
         <titlestmt>
             <title level="m">Select Remains of the Ancient Popular and Romance Poetry of Scotland</title>
         </titlestmt>
-	<pubstmt date="1822">Edinburgh: 1822</pubstmt>
+	<pubstmt date="1822">Edinburgh, 1822</pubstmt>
         <!--Subsequent ed. as Laing1885, 1895-->
         <index>
             <topic/>
@@ -27793,7 +27791,7 @@
             <title level="m">Catalogue of sources for a Linguistic Atlas of Early Medieval
                 English</title>
         </titlestmt>
-        <pubstmt date="1993">Cambridge: UP, 1993</pubstmt>
+        <pubstmt date="1993">Cambridge: Cambridge University Press, 1993</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -28015,7 +28013,7 @@
             <title level="m">The Processional of the Nuns of Chester</title>
         </titlestmt>
         <!-- Note: no place -->
-        <pubstmt date="1899">Henry Bradshaw Society, 1899</pubstmt>
+        <pubstmt date="1899">Henry Bradshaw Society: 1899</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -28457,7 +28455,7 @@
         <titlestmt>
             <title level="m">Studies in English Franciscan History</title>
         </titlestmt>
-        <pubstmt date="1917">Manchester: Manchester UP; London: Longman&#8217;s, 1917</pubstmt>
+        <pubstmt date="1917">Manchester: Manchester University Press; London: Longman&#8217;s, 1917</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -28490,7 +28488,7 @@
         <titlestmt>
             <title level="m">Franciscan Papers, Lists, and Documents</title>
         </titlestmt>
-        <pubstmt date="1943">Manchester: Manchester UP, 1943</pubstmt>
+        <pubstmt date="1943">Manchester: Manchester University Press, 1943</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -28984,9 +28982,9 @@
         <titlestmt>
             <title level="m">The Chester Mystery Cycle</title>
             <vols>2</vols>
-            <title level="s">EETS</title>
+            <title level="s">EETS s.s.</title>
         </titlestmt>
-        <pubstmt date="1974">s.s. 3, 9 (1974, 1986)</pubstmt>
+        <pubstmt date="1974">3, 9 (1974, 1986)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -29698,7 +29696,7 @@
             <title level="m">A Book of Scottish Verse</title>
             <title level="s">The World&#8217;s Classics</title>
         </titlestmt>
-        <pubstmt date="1934">no. 417. London: Oxford UP, 1934; 2nd ed., 1967, 1971</pubstmt>
+        <pubstmt date="1934">417. London: Oxford University Press, 1934; 2nd ed., 1967, 1971</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -29789,7 +29787,7 @@
         <titlestmt>
             <title level="m">Ballattis of Luve</title>
         </titlestmt>
-        <pubstmt date="1970">Edinburgh: Edinburgh UP, 1970</pubstmt>
+        <pubstmt date="1970">Edinburgh: Edinburgh University Press, 1970</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -30029,7 +30027,7 @@
         <titlestmt>
             <title level="m">The Gests of King Alexander of Macedon</title>
         </titlestmt>
-        <pubstmt date="1929">Cambridge, MA: Harvard UP, 1929; repr. 1973</pubstmt>
+        <pubstmt date="1929">Cambridge, MA: Harvard University Press, 1929; repr. 1973</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -31094,7 +31092,7 @@
         <titlestmt>
             <title level="m">Purity: A Middle English Poem</title>
         </titlestmt>
-        <pubstmt date="1920">London: Oxford UP; and New Haven: Yale UP, 1920</pubstmt>
+        <pubstmt date="1920">London: Oxford University Press; and New Haven: Yale University Press, 1920</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -31576,7 +31574,7 @@
         <titlestmt>
             <title level="m">Fragments of an early fourteenth-century Guy of Warwick</title>
         </titlestmt>
-        <pubstmt date="1974">Oxford : Blackwell for the Society for the Study of Mediaeval Languages and Literature, 1974</pubstmt>
+        <pubstmt date="1974">Oxford: Blackwell for the Society for the Study of Mediaeval Languages and Literature, 1974</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -32096,7 +32094,7 @@
         <titlestmt>
             <title level="m">Black-Letter Text</title>
         </titlestmt>
-        <pubstmt date="1942">Cambridge: University Press, 1942; by "S. M."</pubstmt>
+	<pubstmt date="1942">Cambridge: Cambridge University Press, 1942<!-- by "S. M."--></pubstmt>
         <index>
             <topic/>
             <person/>
@@ -32635,7 +32633,7 @@
         <titlestmt>
             <title level="m">Collected Poems [Sir Thomas Wyatt]</title>
         </titlestmt>
-        <pubstmt date="1950">Cambridge, MA: Harvard UP, 1950</pubstmt>
+        <pubstmt date="1950">Cambridge, MA: Harvard University Press, 1950</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -32652,7 +32650,7 @@
             <title level="m">Unpublished Poems [by] Sir Thomas Wyatt and His Circle</title>
             <title level="s">English Reprints Series</title>
         </titlestmt>
-        <pubstmt date="1961">18. Liverpool: Liverpool UP, 1961</pubstmt>
+        <pubstmt date="1961">18. Liverpool: Liverpool University Press, 1961</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -32672,7 +32670,7 @@
         <titlestmt>
             <title level="m">Collected Poems of Sir Thomas Wyatt</title>
         </titlestmt>
-        <pubstmt date="1969">Liverpool: Liverpool UP, 1969</pubstmt>
+        <pubstmt date="1969">Liverpool: Liverpool University Press, 1969</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -32819,7 +32817,7 @@
         <titlestmt>
             <title level="m">The Muses Mercury, or, The monthly miscellany</title>
         </titlestmt>
-        <pubstmt date="1707">London : Andrew Bell, 1707</pubstmt>
+        <pubstmt date="1707">London: Andrew Bell, 1707</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -33442,7 +33440,7 @@
         <titlestmt>
             <title level="a">Sidrak and Bokkus Now First Edited from MS Lansdowne 793</title>
         </titlestmt>
-        <pubstmt date="1966">Diss. University of Washington, 1966. DAI 27.185A</pubstmt>
+        <pubstmt date="1966">Diss. University of Washington, 1966 (DAI 27.185A)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -33573,7 +33571,7 @@
         <titlestmt>
             <title level="m">The Ancient Cornish Drama</title>
         </titlestmt>
-        <pubstmt date="1859">Oxford: UP, 1859; repr. New York: Blom, 1968</pubstmt>
+        <pubstmt date="1859">Oxford: Oxford University Press, 1859; repr. New York: Blom, 1968</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -33723,13 +33721,13 @@
         <authorstmt>
             <editor>
                 <last>Nuck</last>
-                <first>Robert</first>
+                <first>Richard</first>
             </editor>
         </authorstmt>
         <titlestmt>
             <title level="a">Roberd of Cisyle, von Richard Nuck</title>
         </titlestmt>
-        <pubstmt date="1887">Diss. Berlin: Bernstein, 1887</pubstmt>
+        <pubstmt date="1887">Diss. Friedrich-Wilhelms Universität. Berlin: Bernstein, 1887</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -33822,7 +33820,7 @@
             <title level="m">The Art of Dying Well: the Development of the &#8216;Ars
                 moriendi&#8217;</title>
         </titlestmt>
-        <pubstmt date="1942">New York: Columbia UP, 1942; repr. 1967</pubstmt>
+        <pubstmt date="1942">New York: Columbia University Press, 1942; repr. 1967</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -34268,7 +34266,7 @@
         <titlestmt>
             <title level="m">Preaching in Medieval England</title>
         </titlestmt>
-        <pubstmt date="1926">Cambridge: UP, 1926; rev. ed. New York, 1961</pubstmt>
+        <pubstmt date="1926">Cambridge: Cambridge University Press, 1926; rev. ed. New York, 1961</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -34284,7 +34282,7 @@
         <titlestmt>
             <title level="m">Literature and Pulpit in Medieval England</title>
         </titlestmt>
-        <pubstmt date="1933">Cambridge: UP, 1933</pubstmt>
+        <pubstmt date="1933">Cambridge: Cambridge University Press, 1933</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -34491,7 +34489,7 @@
             <title level="a">University of London Library MS. 278: Robert of Glouchester&#8217;s Chronicle</title>
 	    <title level="m">Studies Presented to Sir Hilary Jenkinson</title>
         </titlestmt>
-        <pubstmt date="1957">London: Oxford UP, 1957: 304-19</pubstmt>
+        <pubstmt date="1957">London: Oxford University Press, 1957: 304-19</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -34940,7 +34938,7 @@
             <title level="a">Hymnal from MS. Additional 34193, British Museum</title>
             <title level="m">Medieval Studies in Memory of Gertrude Schoepperle Loomis</title>
         </titlestmt>
-        <pubstmt date="1927">New York: Columbia UP, 1927: 443-88</pubstmt>
+        <pubstmt date="1927">New York: Columbia University Press, 1927: 443-88</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -35008,7 +35006,7 @@
             <title level="m">Confessio Amantis of John Gower</title>
 	    <vols>3</vols>
         </titlestmt>
-        <pubstmt date="1857">London: Bell and Daldy, 1857; repr. Cambridge: at the UP, 1927</pubstmt>
+        <pubstmt date="1857">London: Bell and Daldy, 1857; repr. Cambridge: Cambridge University Press, 1927</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -35060,7 +35058,7 @@
             <title level="m">The Floure and Leafe and the Assembly of Ladies</title>
         </titlestmt>
         <pubstmt date="1962">New York: Barnes &#38; Noble, 1962; repr. Kalamazoo, MI: Western
-            Michigan UP, 1990</pubstmt>
+            Michigan University Press, 1990</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -36615,8 +36613,8 @@
         <titlestmt>
             <title level="m">The Arte of English Poesie [1589]</title>
         </titlestmt>
-        <pubstmt date="1936">Cambridge: at the UP, 1936; ed. Edward Arber. Birmingham, 1869; repr.
-            London: Constable, 1906</pubstmt>
+	<pubstmt date="1936">Cambridge: Cambridge University Press, 1936<!-- prev. editions: ed. Edward Arber. Birmingham, 1869;
+		London: Constable, 1906--></pubstmt>
         <index>
             <topic/>
             <person/>
@@ -36969,7 +36967,7 @@
             <title level="m">Of the Imitation of Christ. Richard Whitford&#8217;s Translation of
                 Thomas &#224; Kempis &#8216;Imitatio Christi&#8217;</title>
         </titlestmt>
-        <pubstmt date="1872">London and NY: Chatto and Windus, 1872; 2nd ed. 1908</pubstmt>
+        <pubstmt date="1872">London and New York: Chatto and Windus, 1872; 2nd ed. 1908</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -37020,7 +37018,7 @@
             <title level="m">Christmas Carols Printed in the Sixteenth Century</title>
             <title level="s">Huntington Library Publications</title>
         </titlestmt>
-        <pubstmt date="1932">Cambridge, MA: Harvard UP, 1932 [= Kele, ca. 1550]</pubstmt>
+        <pubstmt date="1932">Cambridge, MA: Harvard University Press, 1932 [= Kele, ca. 1550]</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -37343,7 +37341,7 @@
             <title level="m">A Handlist of a Collection of Books and Manuscripts Belonging
                 to&#8230;Lord Amherst of Hackney</title>
         </titlestmt>
-        <pubstmt date="1906">Cambridge: University Press, 1906</pubstmt>
+        <pubstmt date="1906">Cambridge: Cambridge University Press, 1906</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -37378,7 +37376,7 @@
                 Holkham Hall</title>
             <title level="s">Bibliographical Society</title>
         </titlestmt>
-        <pubstmt date="1932">Oxford: University Press, 1932</pubstmt>
+        <pubstmt date="1932">Oxford: Oxford University Press, 1932</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -37494,7 +37492,7 @@
         <titlestmt>
             <title level="m">Chaucer&#8217;s World</title>
         </titlestmt>
-        <pubstmt date="1948">New York: Columbia UP, 1948</pubstmt>
+        <pubstmt date="1948">New York: Columbia University Press, 1948</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -38382,7 +38380,7 @@
             <title level="a">Two New Carols (Hunterian MS. 83)</title>
             <title level="j">Modern Language Notes</title>
         </titlestmt>
-        <pubstmt date="1943">58 (1943) 39-42</pubstmt>
+        <pubstmt date="1943">58 (1943): 39-42</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -38772,7 +38770,7 @@
         <titlestmt>
             <title level="m">Historical Poems of the XIV and XV Centuries</title>
         </titlestmt>
-        <pubstmt date="1959">New York: Columbia UP, 1959</pubstmt>
+        <pubstmt date="1959">New York: Columbia University Press, 1959</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -38856,7 +38854,7 @@
         <titlestmt>
             <title level="m">Early English Christmas Carols</title>
         </titlestmt>
-        <pubstmt date="1961">New York and London: Columbia UP, 1961</pubstmt>
+        <pubstmt date="1961">New York and London: Columbia University Press, 1961</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -40089,7 +40087,7 @@
                 Cycle</title>
             <title level="s">Malone Society Studies</title>
         </titlestmt>
-        <pubstmt date="1935">76. London: Oxford UP, 1935</pubstmt>
+        <pubstmt date="1935">76. London: Oxford University Press, 1935</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -40138,7 +40136,7 @@
         <titlestmt>
             <title level="m">The Cambridge Book of Prose and Verse</title>
         </titlestmt>
-        <pubstmt date="1924">Cambridge: at the UP, 1924</pubstmt>
+        <pubstmt date="1924">Cambridge: Cambridge University Press, 1924</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -40377,7 +40375,7 @@
             <title level="m">St. Erkenwald</title>
             <title level="s">Yales Studies in English</title>
         </titlestmt>
-        <pubstmt date="1926">72. New Haven: Yale UP; London: Oxford UP, 1926</pubstmt>
+        <pubstmt date="1926">72. New Haven: Yale University Press; London: Oxford University Press, 1926</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -41683,7 +41681,7 @@
         <titlestmt>
             <title level="m">Anglo-Irish Literature, 1200-1582</title>
         </titlestmt>
-        <pubstmt date="1929">Cambridge: at the UP, 1929; and several repr</pubstmt>
+        <pubstmt date="1929">Cambridge: Cambridge University Press, 1929; and several repr</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -42024,7 +42022,7 @@
         <titlestmt>
             <title level="m">Ballads and Poems Illustrating English History</title>
         </titlestmt>
-        <pubstmt date="1907">Cambridge: at the UP, 1907</pubstmt>
+        <pubstmt date="1907">Cambridge: Cambridge University Press, 1907</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -42870,7 +42868,7 @@
             <title level="m">The Vision of William concerning Piers the Plowman</title>
 	    <vols>2</vols>
         </titlestmt>
-        <pubstmt date="1954">London: Oxford UP, 1954</pubstmt>
+        <pubstmt date="1954">London: Oxford University Press, 1954</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -43101,7 +43099,7 @@
         </authorstmt>
         <titlestmt>
             <title level="a">A York Pageant, 1486</title>
-            <title level="s">London Medieval Studies</title>
+            <title level="j">London Medieval Studies</title>
         </titlestmt>
         <pubstmt date="1937">1 (1937-39): 382-98</pubstmt>
         <index>
@@ -43118,9 +43116,9 @@
         </authorstmt>
         <titlestmt>
             <title level="a">The Middle English Lyrics in Additional MS 45896</title>
-            <title level="s">London Medieval Studies</title>
+            <title level="j">London Medieval Studies</title>
         </titlestmt>
-        <pubstmt date="1951">2, Part (1951): 33-49</pubstmt>
+        <pubstmt date="1951">2 (1951): 33-49</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -43330,7 +43328,7 @@
             <title level="m">The Itinerary of John Leland in or about the years 1535-1543</title>
 	    <vols>3</vols>
         </titlestmt>
-        <pubstmt date="1907">London: 1907-10</pubstmt>
+        <pubstmt date="1907">London, 1907-10</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -43362,7 +43360,7 @@
         <titlestmt>
             <title level="m">Canterbury Cathedral Priory</title>
         </titlestmt>
-        <pubstmt date="1943">Cambridge: at the UP, 1943</pubstmt>
+        <pubstmt date="1943">Cambridge: Cambridge University Press, 1943</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -43691,7 +43689,7 @@
         </authorstmt>
         <titlestmt>
             <title level="m">The N-Town Play: Cotton MS Vespasian D.8</title>
-            <title level="">EETS s.s.</title>
+            <title level="s">EETS s.s.</title>
 	    <vols>2</vols>
         </titlestmt>
         <pubstmt date="1991">11-12. Oxford: Oxford University Press, 1991</pubstmt>
@@ -44540,7 +44538,7 @@
             <title level="m">The Moral Fables of Robert Henryson</title>
             <title level="s">Maitland Club</title>
         </titlestmt>
-        <pubstmt date="1832">15. Edinburgh: 1832</pubstmt>
+        <pubstmt date="1832">15. Edinburgh, 1832</pubstmt>
 	<!--repr. of The Morall Fables of Esope; by Henrisoun. Edinburgh: A. Hart, 1621 (STC 186) -->
         <index>
             <topic/>
@@ -44574,7 +44572,7 @@
             <title level="a">The Metrical Life of Christ: Edited from MS BM Additional
                 39996</title>
         </titlestmt>
-        <pubstmt date="1962">Diss. University of Pennsylvania, 1962 [DA 23.1010]</pubstmt>
+        <pubstmt date="1962">Diss. University of Pennsylvania, 1962 (DA 23.1010)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -44818,7 +44816,7 @@
         <titlestmt>
             <title level="m">The Sports and Pastimes of the People of England &#8230;</title>
         </titlestmt>
-        <pubstmt date="1801">London: 1801, 1845; rev. ed. London, 1903</pubstmt>
+        <pubstmt date="1801">London, 1801, 1845; rev. ed. London, 1903</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -44834,7 +44832,7 @@
         <titlestmt>
             <title level="m">The Sports and Pastimes of the People of England &#8230;</title>
         </titlestmt>
-        <pubstmt date="1845">London: 1801, 1845; rev. ed. London, 1903</pubstmt>
+        <pubstmt date="1845">London, 1801, 1845; rev. ed. London, 1903</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -44850,7 +44848,7 @@
         <titlestmt>
             <title level="m">The Sports and Pastimes of the People of England &#8230;</title>
         </titlestmt>
-        <pubstmt date="1903">London: 1801, 1845; rev. ed. London, 1903</pubstmt>
+        <pubstmt date="1903">London, 1801, 1845; rev. ed. London, 1903</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -45263,7 +45261,7 @@
             <title level="a">The Tale of Beryn: An Edition with Introductory Notes and
                 Glossary</title>
         </titlestmt>
-        <pubstmt date="1970">Diss. NYU, 1969; DAI 30 (1970) DAI 3437A</pubstmt>
+        <pubstmt date="1970">Diss. New York University, 1969 (DAI 30 (1970) DAI 3437A)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -45382,7 +45380,7 @@
         <titlestmt>
             <title level="m">The Political Prophecy in England</title>
         </titlestmt>
-        <pubstmt date="1911">New York: Columbia UP, 1911</pubstmt>
+        <pubstmt date="1911">New York: Columbia University Press, 1911</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -45641,7 +45639,7 @@
             <title level="m">Robert Thornton and the London Thornton Manuscript: British Library MS
                 Additional 31042</title>
         </titlestmt>
-        <pubstmt date="1987">Cambridge: at the University Press, 1987</pubstmt>
+        <pubstmt date="1987">Cambridge: Cambridge University Press, 1987</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -45729,7 +45727,7 @@
             <title level="m">Fourteenth and Fifteenth Centuries. A History of Magic and Experimental
                 Science</title>
         </titlestmt>
-        <pubstmt date="1934">4. New York: Columbia UP, 1934</pubstmt>
+        <pubstmt date="1934">4. New York: Columbia University Press, 1934</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -45814,7 +45812,8 @@
         <titlestmt>
             <title level="a">Untersuchungen &#252;ber die mittelenglische fromme erzaelung, &#8216;A Tale of an Incestuous Daughter&#8217;</title>
         </titlestmt>
-        <pubstmt date="1892">Diss. Rostock. Berlin, 1892</pubstmt>
+        <pubstmt date="1892">Diss. Universität zu Rostock. Berlin: Vogt, 1892</pubstmt>
+	<!-- https://www.google.com/books/edition/Untersuchungen_%C3%BCber_die_mittelenglische/FP0CnMp2k6gC -->
         <index>
             <topic/>
             <person/>
@@ -46256,9 +46255,9 @@
         <titlestmt>
             <title level="a">Introduction</title>
             <title level="m">Facsimile of Oxford, Bodleian Library, MS Digby 86</title>
-            <title level="s">EETS</title>
+            <title level="s">EETS s.s.</title>
         </titlestmt>
-        <pubstmt date="1996">s.s. 16 (1996)</pubstmt>
+        <pubstmt date="1996">16 (1996)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -46753,7 +46752,7 @@
             <title level="m">The Crooked Rib</title>
             <title level="s">Ohio State Contributions in Language and Literature</title>
         </titlestmt>
-        <pubstmt date="1944">10. Columbus, OH: Ohio State UP, 1944</pubstmt>
+        <pubstmt date="1944">10. Columbus, OH: Ohio State University Press, 1944</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -46935,13 +46934,14 @@
         <authorstmt>
             <editor>
                 <last>Vanderschaaf</last>
-                <first>B. M.</first>
+                <first>Betty Marie</first>
             </editor>
         </authorstmt>
         <titlestmt>
             <title level="a">An Edition of Robert Mannyng&#8217;s Handlyng Synne</title>
         </titlestmt>
-        <pubstmt date="1978">Diss. University of Iowa, 1978 [Bodley 415]</pubstmt>
+        <pubstmt date="1978">Diss. University of Iowa, 1978</pubstmt>
+	<!-- DAI-A 39/06 thesis number 7822459 -->
         <index>
             <topic/>
             <person/>
@@ -47341,8 +47341,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">John Trevisa&#8217;s Translation of the Polchronichon of Ranulph Higden, Book VI: An Edition based on British Library MS Cotton Tiberius D.VII</title>
+            <title level="s">Middle English Texts series</title>
         </titlestmt>
-        <pubstmt date="2004">Middle English Texts series 35 .Heidelberg: Universitatsverlag Winter, 2004</pubstmt>
+        <pubstmt date="2004">35. Heidelberg: Universitatsverlag Winter, 2004</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -47444,7 +47445,7 @@
             <title level="m">A Catalogue of the Harleian Manuscripts in the British Museum</title>
 	    <vols>4</vols>
         </titlestmt>
-        <pubstmt date="1808">London: Eyre and Strahan, 1808-12; ed. Wanley et al</pubstmt>
+        <pubstmt date="1808-1812">London: Eyre and Strahan, 1808-12</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -47464,7 +47465,7 @@
         <titlestmt>
             <title level="m">The Cambridge History of English Literature</title>
         </titlestmt>
-        <pubstmt date="1907">Vols 1, 2. London and NY: G.P. Putnam,1 907, 1908; repr. New York,
+        <pubstmt date="1907">1, 2. London and New York: G.P. Putnam, 1907, 1908; repr. New York,
             1933</pubstmt>
         <index>
             <topic/>
@@ -47499,7 +47500,7 @@
             <title level="m">Descriptive Catalogue of Illuminated Manuscripts in the Library of C.
                 W. Dyson Perrins</title>
         </titlestmt>
-        <pubstmt date="1920">Oxford: 1920</pubstmt>
+        <pubstmt date="1920">Oxford, 1920</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -47830,7 +47831,7 @@
         <titlestmt>
             <title level="m">The Macaronic Hymn Tradition in Medieval English Literature</title>
         </titlestmt>
-        <pubstmt date="1933">Washington, D.C.: Catholic UP, 1933</pubstmt>
+        <pubstmt date="1933">Washington, D.C.: Catholic University Press, 1933</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -48308,12 +48309,19 @@
                 <last>Whatley</last>
                 <first>Gordon E.</first>
             </editor>
+            <editor>
+                <last>Thompson</last>
+                <first>Anne B.</first>
+            </editor>
+            <editor>
+                <last>Upchurch</last>
+                <first>Robert K.</first>
+            </editor>
         </authorstmt>
         <titlestmt>
             <title level="m">Saints&#8217; Lives in Middle English Collections</title>
         </titlestmt>
-        <pubstmt date="2004">With Anne B. Thompson and Robert K. Upchurch. MI: Western Michigan
-            University for TEAMS, 2004</pubstmt>
+        <pubstmt date="2004">Kalamazoo, MI: Western Michigan University for TEAMS, 2004</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -48416,7 +48424,7 @@
             <title level="m">Ormulum</title>
 	    <vols>2</vols>
         </titlestmt>
-        <pubstmt date="1852">Oxford: UP, 1852; rev. ed. Robert Holt, 1878</pubstmt>
+        <pubstmt date="1852">Oxford: Oxford University Press, 1852; rev. ed. Robert Holt, 1878</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -48916,7 +48924,7 @@
             <title level="m">Architectural History of the University of Cambridge and of the Colleges of Cambridge and Eton</title>
 	    <vols>2</vols>
         </titlestmt>
-        <pubstmt date="1886">Cambridge: University Press, 1886</pubstmt>
+        <pubstmt date="1886">Cambridge: Cambridge University Press, 1886</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -49687,7 +49695,7 @@
         <titlestmt>
             <title level="m">The Old Service Books of the English Church</title>
         </titlestmt>
-        <pubstmt date="1904">London: 1904</pubstmt>
+        <pubstmt date="1904">London, 1904</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -49770,7 +49778,7 @@
         <titlestmt>
             <title level="m">English Vernacular Hands from the 12th to the 15th centuries</title>
         </titlestmt>
-        <pubstmt date="1959">Oxford: UP, 1959</pubstmt>
+        <pubstmt date="1959">Oxford: Oxford University Press, 1959</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -50570,8 +50578,7 @@
         <titlestmt>
             <title level="m">Works of Geoffrey Chaucer</title>
         </titlestmt>
-        <pubstmt date="1880">New York: Crowell, 1880 [listed in IMEV as
-            &#8216;Crowell&#8217;]</pubstmt>
+	<pubstmt date="1880">New York: Crowell, 1880<!--listed in IMEV as 'Crowell'--></pubstmt>
         <index>
             <topic/>
             <person/>
@@ -51460,7 +51467,7 @@
                 n="https://sites.trinity.edu/akraebel/lament">The Middle English Lament of St. Anselm
                 A Digital Edition by Trinity University English Students</ref></title>
         </titlestmt>
-        <pubstmt date="2017">https://sites.trinity.edu/akraebel/lament</pubstmt>
+        <pubstmt date="2017">Trinity University</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -51913,7 +51920,7 @@
         <titlestmt>
             <title level="m"><ref type="url" n="https://discovery.ucl.ac.uk/id/eprint/10054615/1/Wellesley_10054615_thesis.pdf">John Lydgate&#8217;s <i>Life of our Lady</i>: Form and Transmission</ref></title>
         </titlestmt>
-        <pubstmt date="2018">Diss. University College, London, 2018</pubstmt>
+        <pubstmt date="2018">Diss. University College London, 2018</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -51989,8 +51996,9 @@
         <authorstmt><author><last>Bibliotheca hagiographica latina</last><first/></author></authorstmt>
         <titlestmt>
             <title level="m">Bibliotheca hagiographica latina antiquae et mediae aetatis, ed. Soci&#225;t&#225; des Bollandistes</title>
+	    <vols>2</vols>
         </titlestmt>
-        <pubstmt date="1898">2 vols. Brussels, 1898-1901</pubstmt>
+        <pubstmt date="1898">Brussels, 1898-1901</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -52058,8 +52066,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">The Middle English Text of &#8220;The Art of Hunting&#8221; by William Twiti</title>
+            <title level="s">Middle English Texts</title>
         </titlestmt>
-        <pubstmt date="2009">Middle English Texts 40 (Heidelberg, 2009)</pubstmt>
+        <pubstmt date="2009">40. Heidelberg: Winter, 2009</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -52074,8 +52083,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">A History Book for Scots: Selections from the Scotichronicon</title>
+	    <vols>9</vols>
         </titlestmt>
-        <pubstmt date="1987-1998">9 vols. Edinburgh:  Edinburgh University Press 1987-1998</pubstmt>
+        <pubstmt date="1987-1998">Edinburgh: Edinburgh University Press, 1987-1998</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -52109,10 +52119,10 @@
             </editor>
         </authorstmt>
         <titlestmt>
-            <title level="m"><ref type="url"
-                n="https://piers.chass.ncsu.edu/texts/F">The Piers Plowman Electronic Archive, Vol. 1: Oxford, Corpus Christi College, MS 201 (F).</ref></title>
+            <title level="m"><ref type="url" n="https://piers.chass.ncsu.edu/texts/F">The Piers Plowman Electronic Archive, Vol. 1: Oxford, Corpus Christi College, MS 201 (F).</ref></title>
+	    <title level="s">SEENET Series A</title>
         </titlestmt>
-        <pubstmt date="2014">SEENET Series A.1  William Langland (2014)</pubstmt>
+        <pubstmt date="2014">1. The Society for Early English and Norse Electronic Texts: 2024</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -52128,8 +52138,9 @@
         <titlestmt>
             <title level="m"><ref type="url"
                 n="https://piers.chass.ncsu.edu/texts/G">The Piers Plowman Electronic Archive, Vol. 8: Cambridge, Cambridge University Library, MS Gg.4.31 (G).</ref></title>
+	    <title level="s">SEENET Series A</title>
         </titlestmt>
-        <pubstmt date="2014">SEENET Series A.11  William Langland (2014)</pubstmt>
+        <pubstmt date="2014">11. The Society for Early English and Norse Electronic Texts: 2024</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -52153,8 +52164,9 @@
         <titlestmt>
             <title level="m"><ref type="url"
                 n="https://piers.chass.ncsu.edu/texts/G">The Piers Plowman Electronic Archive, Vol. 6: San Marino, Huntington Library, MS Hm 128 (Hm and Hm2).</ref></title>
+	    <title level="s">SEENET Series A</title>
         </titlestmt>
-        <pubstmt date="2014">SEENET Series A.9  William Langland (2014)</pubstmt>
+        <pubstmt date="2014">9. The Society for Early English and Norse Electronic Texts: 2024</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -52174,8 +52186,9 @@
         <titlestmt>
             <title level="m"><ref type="url"
                 n="https://piers.chass.ncsu.edu/texts/L">The Piers Plowman Electronic Archive, Vol. 4: Oxford, Bodleian Library MS Laud misc. 581 (S. C. 987) (L).</ref></title>
+	    <title level="s">SEENET Series A</title>
         </titlestmt>
-        <pubstmt date="2014">SEENET Series A.6  William Langland (2014)</pubstmt>
+        <pubstmt date="2014">6. The Society for Early English and Norse Electronic Texts: 2024</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -52199,8 +52212,9 @@
         <titlestmt>
             <title level="m"><ref type="url"
                 n="https://piers.chass.ncsu.edu/texts/M">The Piers Plowman Electronic Archive, Vol. 5: London, British Library, MS Additional 35287 (M).</ref></title>
+	    <title level="s">SEENET Series A</title>
         </titlestmt>
-        <pubstmt date="2014">SEENET Series A.7  William Langland (2014)</pubstmt>
+        <pubstmt date="2014">7. The Society for Early English and Norse Electronic Texts: 2024</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -52216,8 +52230,9 @@
         <titlestmt>
             <title level="m"><ref type="url"
                 n="https://piers.chass.ncsu.edu/texts/O">The Piers Plowman Electronic Archive, Vol. 3: Oxford, Oriel College, MS 79 (O).</ref></title>
+	    <title level="s">SEENET Series A</title>
         </titlestmt>
-        <pubstmt date="2014">SEENET Series A.5  William Langland (2014)</pubstmt>
+        <pubstmt date="2014">5. The Society for Early English and Norse Electronic Texts: 2024</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -52233,8 +52248,9 @@
         <titlestmt>
             <title level="m"><ref type="url"
                 n="https://piers.chass.ncsu.edu/texts/R">The Piers Plowman Electronic Archive, Vol. 7: London, British Library, MS Lansdowne 398 and Oxford, Bodleian Library, MS Rawlinson Poetry 38.</ref></title>
+	    <title level="s">SEENET Series A</title>
         </titlestmt>
-        <pubstmt date="2014">SEENET Series A.10  William Langland (2014)</pubstmt>
+        <pubstmt date="2014">10. The Society for Early English and Norse Electronic Texts: 2024</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -52254,8 +52270,9 @@
         <titlestmt>
             <title level="m"><ref type="url"
                 n="https://piers.chass.ncsu.edu/texts/W">The Piers Plowman Electronic Archive, Vol. 2: Cambridge, Trinity College, MS B.15.17 (W).</ref></title>
+	    <title level="s">SEENET Series A</title>
         </titlestmt>
-        <pubstmt date="2014">SEENET Series A.2  William Langland (2014)</pubstmt>
+        <pubstmt date="2014">2. The Society for Early English and Norse Electronic Texts: 2024</pubstmt>
         <index>
             <topic/>
             <person/>
