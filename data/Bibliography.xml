@@ -1571,7 +1571,7 @@
             <title level="a">Richard Sellyng</title>
             <title level="m">Essays and Studies in Honor of Carleton Brown</title>
         </titlestmt>
-        <pubstmt date="1940">Long New York: NYU Press, 1940: 167-81</pubstmt>
+        <pubstmt date="1940">New York: New York University Press, 1940: 167-81</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -8136,9 +8136,9 @@
         <titlestmt>
             <title level="m">A Parallel-Text Edition of Chaucer&#8217;s Minor Poems</title>
             <vols>3</vols>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1967">1st. ser. 21, 57, 58. London: Tr&#252;bner, n.d. repr. New York and
+        <pubstmt date="1967">21, 57, 58. London: Tr&#252;bner, n.d. repr. New York and
             London: Johnson, 1967</pubstmt>
         <index>
             <topic/>
@@ -8291,9 +8291,9 @@
         <authorstmt/>
         <titlestmt>
             <title level="m">Essays on Chaucer</title>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 2nd ser.</title>
         </titlestmt>
-        <pubstmt date="1900">2nd ser. 2, 9, 16, 18-19, 29. London: the Society, 1900</pubstmt>
+        <pubstmt date="1900">2, 9, 16, 18, 19, 29. London: the Society, 1900</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -8971,7 +8971,7 @@
         <titlestmt>
             <title level="m">The Romance of Octavian</title>
         </titlestmt>
-        <pubstmt date="1809">Oxford: Collingwood,1809</pubstmt>
+        <pubstmt date="1809">Oxford: Collingwood, 1809</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -9500,7 +9500,7 @@
             <title level="a">The Felon Sew: A Mock-Heroic Poem of the Fifteenth Century</title>
             <title level="m">Essays and Studies by Members of the English Association: Volume 8</title>
         </titlestmt>
-        <pubstmt date="1922">Oxford, Clarendon Press: 1922, 70-89</pubstmt>
+        <pubstmt date="1922">Oxford: Clarendon Press, 1922, 70-89</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -9677,9 +9677,9 @@
             <title level="m">The Maitland Folio Manuscript, Containing Poems by Sir Richard
                 Maitland, Dunbar, Douglas, Henryson, and others</title>
             <vols>2</vols>
-            <title level="s">Scottish Text Society</title>
+            <title level="s">Scottish Text Society, n.s.</title>
         </titlestmt>
-        <pubstmt date="1919">n.s. 7 (1919), 20 (1927); Edinburgh and London: Blackwood, 1919,
+        <pubstmt date="1919">7, 20. Edinburgh and London: Blackwood, 1919,
             1927</pubstmt>
         <index>
             <topic/>
@@ -9695,9 +9695,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">The Maitland Quarto Manuscript</title>
-            <title level="s">Scottish Text Society</title>
+            <title level="s">Scottish Text Society, n.s.</title>
         </titlestmt>
-        <pubstmt date="1920">n.s. 9. Edinburgh and London: Blackwood, 1920</pubstmt>
+        <pubstmt date="1920">9. Edinburgh and London: Blackwood, 1920</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -9729,9 +9729,9 @@
         <titlestmt>
             <title level="m">The Asloan Manuscript: A Miscellany in Prose and Verse</title>
             <vols>2</vols>
-            <title level="s">Scottish Text Society</title>
+            <title level="s">Scottish Text Society, n.s.</title>
         </titlestmt>
-        <pubstmt date="1923-1925">n.s. 14, 16. Edinburgh, London: Blackwood, 1923, 1925</pubstmt>
+        <pubstmt date="1923-1925">14, 16. Edinburgh, London: Blackwood, 1923, 1925</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -11083,8 +11083,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">Yorkshire church notes, 1619-1631</title>
+            <title level="s">Record Series</title>
         </titlestmt>
-        <pubstmt date="1904">[Leeds]: The Yorkshire Archaeological Society Record Society Series 34, 1904</pubstmt>
+        <pubstmt date="1904">34. [Leeds]: The Yorkshire Archaeological Society, 1904</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -14145,7 +14146,7 @@
         <titlestmt>
             <title level="m">Neuenglisches Lesebuch</title>
         </titlestmt>
-        <pubstmt date="1895">1 Bd. Halle: Niemayer, 1895</pubstmt>
+        <pubstmt date="1895">Vol. 1. Halle: Niemayer, 1895</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -17448,9 +17449,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">The Textual Tradition of the South English Legendary</title>
-            <title level="s">Leeds Texts and Monographs</title>
+            <title level="s">Leeds Texts and Monographs, n.s.</title>
         </titlestmt>
-        <pubstmt date="1974">n.s. 6. Leeds: University of Leeds, 1974</pubstmt>
+        <pubstmt date="1974">6. Leeds: University of Leeds, 1974</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -20347,9 +20348,9 @@
         <titlestmt>
             <title level="m">The Heege Manuscript: A Facsimile of National Library of Scotland MS
                 Advocates 19.3.1</title>
+            <title level="s">Leeds Texts and Monographs, n.s.</title>
         </titlestmt>
-        <pubstmt date="2000">Leeds Texts and Monographs, n.s. 16. Leeds: School of English,
-            2000</pubstmt>
+        <pubstmt date="2000">16. Leeds: School of English, 2000</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -24178,7 +24179,7 @@
         <titlestmt>
             <title level="m">Poetry of the Stewart Court</title>
         </titlestmt>
-        <pubstmt date="1982">Canberra, London, and Miami, Fla., USA: Australian National University
+        <pubstmt date="1982">Canberra, London, and Miami, FL: Australian National University
             Press, 1982</pubstmt>
         <index>
             <topic/>
@@ -28890,7 +28891,7 @@
             <title level="m">The Erl of Tolous and the Emperes of Almayn</title>
             <title level="s">Sammlung Englischer Denkm&#228;ler</title>
         </titlestmt>
-        <pubstmt date="1970">3\. Berlin: Weidmann, 1881; repr. Zurich: Weidmann, 1970</pubstmt>
+        <pubstmt date="1970">3. Berlin: Weidmann, 1881; repr. Zurich: Weidmann, 1970</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -35191,7 +35192,7 @@
             <title level="a">The Manuscripts and Illustrations of Gower&#8217;s Works</title>
             <title level="m">A Companion to Gower</title>
         </titlestmt>
-        <pubstmt date="2004">Cambridge: D.S.Brewer, 2004. 73-99</pubstmt>
+        <pubstmt date="2004">Cambridge: D.S. Brewer, 2004. 73-99</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -36699,7 +36700,7 @@
             <title level="m">A Catalogue of Illuminated and Other Manuscripts together with Some
                 Works on Paleography</title>
         </titlestmt>
-        <pubstmt date="1931">London: Bernard Quaritch Ltd. 1931</pubstmt>
+        <pubstmt date="1931">London: Bernard Quaritch Ltd., 1931</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -42706,7 +42707,7 @@
             <vols>2</vols>
             <title level="s">Scottish Text Society</title>
         </titlestmt>
-        <pubstmt date="1894">31-33. Edinburgh, London: Blackwood, 1894</pubstmt>
+        <pubstmt date="1894">31, 32, 33. Edinburgh, London: Blackwood, 1894</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -43780,7 +43781,7 @@
             <title level="s">EETS s.s.</title>
 	    <vols>2</vols>
         </titlestmt>
-        <pubstmt date="1991">11-12. Oxford: Oxford University Press, 1991</pubstmt>
+        <pubstmt date="1991">11, 12. Oxford: Oxford University Press, 1991</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -46624,8 +46625,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">Pearl</title>
+            <title level="s">Exeter Medieval Texts and Studies</title>
         </titlestmt>
-        <pubstmt date="2022">Exeter Medieval Texts and Studies. Liverpool: Liverpool University Press, 2022</pubstmt>
+        <pubstmt date="2022">Liverpool: Liverpool University Press, 2022</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -48032,7 +48034,7 @@
             <title level="a">Alliterative Meter after 1450: <i>The Vision of William Banastre</i></title>
             <title level="m">Early English Poetic Culture and Metre: The Influence of G. R. Russom</title>
         </titlestmt>
-        <pubstmt date="2016">Kalamazoo, MI: Medieval Institute. 149-79</pubstmt>
+        <pubstmt date="2016">Kalamazoo, MI: Medieval Institute, 2016. 149-79</pubstmt>
         <index>
             <topic/>
             <person/>
