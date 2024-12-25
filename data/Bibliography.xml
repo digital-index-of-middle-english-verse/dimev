@@ -1643,9 +1643,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">The Shorter Poems of Gavin Douglas</title>
-            <title level="s">Scottish Text Society</title>
+            <title level="s">Scottish Text Society, 4th ser.</title>
         </titlestmt>
-        <pubstmt date="1967">4th ser. 3. Edinburgh and London, 1967</pubstmt>
+        <pubstmt date="1967">3. Edinburgh and London, 1967</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -1890,9 +1890,9 @@
         <titlestmt>
             <title level="m">New Ploughman&#8217;s Tale: Thomas Hoccleve&#8217;s Legend of the
                 Virgin and her sleeveless garment</title>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 2nd ser.</title>
         </titlestmt>
-        <pubstmt date="1902">2nd ser. 34. London: Trench, Tr&#252;bner, 1902</pubstmt>
+        <pubstmt date="1902">34. London: Trench, Tr&#252;bner, 1902</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -1923,9 +1923,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">Thomas Castleford of Bek&#8217;s Chronicle of England</title>
+            <title level="s">G&#246;tesborgs H&#246;gskolas Arsskrift</title>
         </titlestmt>
-        <pubstmt date="1940">G&#246;tesborgs H&#246;gskolas Arsskrift 46, G&#246;teborg: Elanders,
-            1940</pubstmt>
+        <pubstmt date="1940">46. G&#246;teborg: Elanders, 1940</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -2178,9 +2178,9 @@
         <titlestmt>
             <title level="m">Devotional Pieces in Verse and Prose from Ms. Arundel 285 and Ms.
                 Harleian 6919</title>
-            <title level="s">Scottish Text Society</title>
+            <title level="s">Scottish Text Society, 3rd ser.</title>
         </titlestmt>
-        <pubstmt date="1955">3rd ser. 23. Edinburgh: Blackwood, 1955</pubstmt>
+        <pubstmt date="1955">23. Edinburgh: Blackwood, 1955</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -5786,10 +5786,12 @@
             </editor>
         </authorstmt>
         <titlestmt>
-            <title level="m">The Quare of Jelousy</title>
-            <title level="s">Scottish Text Society</title>
+            <title level="a">The Quare of Jelousy</title>
+            <title level="m">Miscellany Volume</title>
+            <title level="s">Scottish Text Society, 3rd ser.</title>
         </titlestmt>
-        <pubstmt date="1933">Miscellany Volume. 3rd ser. 4 (1933)</pubstmt>
+        <pubstmt date="1933">4 (1933): 189-212</pubstmt>
+	<!-- https://digital.nls.uk/106934293 -->
         <index>
             <topic/>
             <person/>
@@ -8154,9 +8156,9 @@
             <title level="m">A Supplementary Parallel-Text Edition of Chaucer&#8217;s Minor
                 Poems</title>
             <vols>2</vols>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1967">1st ser. 22, 59. London: Tr&#252;bner, n.d.; repr. New York and London:
+        <pubstmt date="1967">22, 59. London: Tr&#252;bner, n.d.; repr. New York and London:
             Johnson, 1967</pubstmt>
         <index>
             <topic/>
@@ -8173,9 +8175,9 @@
         <titlestmt>
             <title level="m">Odd Texts of the Minor Poems</title>
             <vols>2</vols>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1868">1st ser. 23, 60. London: Tr&#252;bner, 1868, 1880; repr. New York and
+        <pubstmt date="1868">23, 60. London: Tr&#252;bner, 1868, 1880; repr. New York and
             London: Johnson, 1967</pubstmt>
         <index>
             <topic/>
@@ -8204,9 +8206,9 @@
         <titlestmt>
             <title level="m">Troilus and Crisyede</title>
             <vols>2</vols>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1973">1st ser. 44, 65. London: Tr&#252;bner, 1873; repr. New York and London:
+        <pubstmt date="1973">44, 65. London: Tr&#252;bner, 1873; repr. New York and London:
             Johnson, 1967</pubstmt>
         <index>
             <topic/>
@@ -8223,9 +8225,9 @@
         <titlestmt>
             <title level="m">A Parallel Text Print of Troilus and Criseyde</title>
             <vols>2</vols>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1881">1st ser. 63, 64. London: Tr&#252;bner, 1881; repr. New York and London:
+        <pubstmt date="1881">63, 64. London: Tr&#252;bner, 1881; repr. New York and London:
             Johnson, 1967</pubstmt>
         <index>
             <topic/>
@@ -8241,9 +8243,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">More Odd Texts</title>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1886">1st ser. 77. London: Tr&#252;bner, 1886; repr. New York and London:
+        <pubstmt date="1886">77. London: Tr&#252;bner, 1886; repr. New York and London:
             Johnson, 1967</pubstmt>
         <index>
             <topic/>
@@ -8259,9 +8261,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">A Six-Text Print of Chaucer&#8217;s Canterbury Tales</title>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1868">1st ser. 8-10, 13. London: Tr&#252;bner, 1868-77</pubstmt>
+        <pubstmt date="1868">8, 9, 10, 13. London: Tr&#252;bner, 1868-77</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -8277,9 +8279,9 @@
         <titlestmt>
             <title level="m">Originals and Analogues of some of Chaucer&#8217;s Canterbury
                 Tales</title>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 2nd ser.</title>
         </titlestmt>
-        <pubstmt date="1872">2nd ser. 7, 10, 15, 20, 22. London: Tr&#252;bner, 1872-87</pubstmt>
+        <pubstmt date="1872">7, 10, 15, 20, 22. London: Tr&#252;bner, 1872-87</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -8445,9 +8447,9 @@
         <titlestmt>
             <title level="m">The English Register of Godstow Nunnery&#8230; c. 1450</title>
             <vols>3</vols>
-            <title level="s">EETS</title>
+            <title level="s">EETS, o.s.</title>
         </titlestmt>
-        <pubstmt date="1905">o. s. 129 (1905; repr. 1971); 130 (1906; repr. with 142, 1971); 142
+        <pubstmt date="1905">129 (1905; repr. 1971); 130 (1906; repr. with 142, 1971); 142
             (1911; repr. 1971)</pubstmt>
         <index>
             <topic/>
@@ -8515,7 +8517,7 @@
         <titlestmt>
             <title level="m">The Gest of Robin Hood</title>
         </titlestmt>
-        <pubstmt date="1909">[Toronto] University of Toronto Library, 1909</pubstmt>
+        <pubstmt date="1909">[Toronto]: University of Toronto Library, 1909</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -8688,9 +8690,9 @@
             <title level="m">Virgil&#8217;s Aeneid Translated into Scottish Verse by Gavin
                 Douglas</title>
             <vols>4</vols>
-            <title level="s">Scottish Text Society</title>
+            <title level="s">Scottish Text Society, 3rd ser.</title>
         </titlestmt>
-        <pubstmt date="1957">3rd ser. 25, 27-8, 30 Edinburgh and London: Blackwood,
+        <pubstmt date="1957">25, 27, 28, 30. Edinburgh and London: Blackwood,
             1957-64</pubstmt>
         <index>
             <topic/>
@@ -8746,7 +8748,7 @@
         <titlestmt>
             <title level="m">Five Miracle Plays or Scriptural Dramas</title>
         </titlestmt>
-        <pubstmt date="1836">London, 183</pubstmt>
+        <pubstmt date="1836">London, 1836</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -9458,9 +9460,10 @@
             </author>
         </authorstmt>
         <titlestmt>
-            <title level="m">Ten Medieval Studies</title>
+            <title level="m">Medieval Studies (First Series)</title>
+	    <!-- https://www.google.com/books/edition/Medieval_Studies_first_Series/PPQGAQAAIAAJ -->
         </titlestmt>
-        <pubstmt date="1915">1st ser., 2nd ed. London: Simkin, Marshall, 1915</pubstmt>
+        <pubstmt date="1915">2nd ed. London: Simkin, Marshall, Hamilton, Kent &amp; Co., 1915</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -10433,11 +10436,10 @@
             </editor>
         </authorstmt>
         <titlestmt>
-            <title level="m">Lydgate&#8217;s Horse, Goose and Sheep: Mit Einleitung und
-                Anmerkungen</title>
+            <title level="m">Lydgate&#8217;s Horse, Goose and Sheep: Mit Einleitung und Anmerkungen</title>
+            <title level="s">M&#252;nchener Beitr&#228;ge</title>
         </titlestmt>
-        <pubstmt date="1900">M&#252;nchener Beitr&#228;ge&#8230;19; Erlangen, Leipzig: Deichert,
-            1900</pubstmt>
+        <pubstmt date="1900">19. Erlangen, Leipzig: Deichert, 1900</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -10634,9 +10636,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">The Sermons of Thomas Brinton, Bishop of Rochester, 1373-1389</title>
-            <title level="s">Camden Society</title>
+            <title level="s">Camden Society, 3rd ser.</title>
         </titlestmt>
-        <pubstmt date="1954">3rd ser. 85, 86 (1954)</pubstmt>
+        <pubstmt date="1954">85, 86 (1954)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -11413,7 +11415,7 @@
                 Nicodemus</title>
             <title level="s">Middle English Texts</title>
         </titlestmt>
-        <pubstmt date="1987">19 (Heidelberg, 1987)</pubstmt>
+        <pubstmt date="1987">19. Heidelberg, 1987</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -12831,10 +12833,11 @@
 	       <first>Elizabeth</first>
            </editor>
         </authorstmt>
-        <titlestmt><title level="m">The Simonie: A Parallel Text Edition ed. from MSS Advocates
-                19.2.1, Bodley 48, and Peterhouse College 104</title></titlestmt>
-        <pubstmt date="1991">Middle English Texts 24. Heidelberg: Carl Winter
-            Universit&#228;tsverlag: Hedelberg, 1991</pubstmt>
+	<titlestmt>
+		<title level="m">The Simonie: A Parallel Text Edition ed. from MSS Advocates 19.2.1, Bodley 48, and Peterhouse College 104</title>
+		<title level="s">Middle English Texts</title>
+	</titlestmt>
+        <pubstmt date="1991">24. Heidelberg: Carl Winter Universit&#228;tsverlag, 1991</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -12964,9 +12967,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">Lydgate&#8217;s Siege of Thebes</title>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 2nd ser.</title>
         </titlestmt>
-        <pubstmt date="1911">2nd ser. 46. London: Tr&#252;bner, 1911</pubstmt>
+        <pubstmt date="1911">46. London: Tr&#252;bner, 1911</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -15452,9 +15455,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">The Petworth MS of Chaucer&#8217;s Canterbury Tales</title>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1868">Series 1, nos. 6, 12, 19, 35, 42, 54, 68. London: Tr&#252;bner,
+        <pubstmt date="1868">6, 12, 19, 35, 42, 54, 68. London: Tr&#252;bner,
             1868-79</pubstmt>
         <index>
             <topic/>
@@ -15470,9 +15473,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">The Ellesmere Manuscript of Chaucer&#8217;s Canterbury Tales</title>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1868">Series 1, nos. 2, 8, 16, 26, 32, 38, 50, 70. London: Tr&#252;bner,
+        <pubstmt date="1868">2, 8, 16, 26, 32, 38, 50, 70. London: Tr&#252;bner,
             1868-79</pubstmt>
         <index>
             <topic/>
@@ -15488,9 +15491,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">The Lansdowne Manuscript of Chaucer&#8217;s Canterbury Tales</title>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1868">Series 1, nos. 7, 13, 20, 36, 43, 55, 69. London: Tr&#252;bner,
+        <pubstmt date="1868">7, 13, 20, 36, 43, 55, 69. London: Tr&#252;bner,
             1868-79</pubstmt>
         <index>
             <topic/>
@@ -15506,9 +15509,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">The Hengwrt Manuscript of Chaucer&#8217;s Canterbury Tales</title>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1868">Series 1, nos. 3, 9, 27, 39, 51, 71. London: Tr&#252;bner,
+        <pubstmt date="1868">3, 9, 27, 39, 51, 71. London: Tr&#252;bner,
             1868-79</pubstmt>
         <index>
             <topic/>
@@ -15611,9 +15614,9 @@
         <titlestmt>
             <title level="m">The Cambridge MS (University Library, Gg.4.27) of Chaucer&#8217;s
                 Canterbury Tales</title>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1868">Series 1, nos. 4, 10, 17, 28, 33, 40, 52, 66. London: Trübner,
+        <pubstmt date="1868">4, 10, 17, 28, 33, 40, 52, 66. London: Trübner,
             1868-79</pubstmt>
         <index>
             <topic/>
@@ -15629,9 +15632,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">The Hengwrt Manuscript of Chaucer&#8217;s Canterbury Tales</title>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1868">Series 1, nos. 3, 9, 27, 39, 51, 71. London: Trübner,
+        <pubstmt date="1868">3, 9, 27, 39, 51, 71. London: Trübner,
             1868-1879</pubstmt>
         <index>
             <topic/>
@@ -15731,9 +15734,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">Trial Forwards</title>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 2nd ser.</title>
         </titlestmt>
-        <pubstmt date="1871">2nd ser. 18 (1871)</pubstmt>
+        <pubstmt date="1871">18 (1871)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -15765,9 +15768,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">Autotype Specimens of the Chief Chaucer MSS, Part II</title>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1876">Series 1, no. 56. London: Tr&#252;bner, 1876</pubstmt>
+        <pubstmt date="1876">56. London: Tr&#252;bner, 1876</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -15877,7 +15880,7 @@
             <title level="m">An English Hymn to the Virgin (Fifteenth Century) and a Welshman's Phonetic Copy of it soon after</title>
             <title level="s">English Dialect Society Miscellanies</title>
         </titlestmt>
-        <pubstmt date="1880">3 London, Tr&#252;bner, 1880</pubstmt>
+        <pubstmt date="1880">3. London, Tr&#252;bner, 1880</pubstmt>
 	<!--repr. from Archaeologia Cambrensis 4th ser. 44 -->
 	<!-- https://www.google.com/books/edition/An_Early_English_Hymn_to_the_Virgin_and/VgtrMj-dXdIC -->
         <index>
@@ -15912,9 +15915,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">The Digby Mysteries</title>
-            <title level="s">New Shakespeare Society</title>
+            <title level="s">New Shakespeare Society, 7th ser.</title>
         </titlestmt>
-        <pubstmt date="1882">ser. 7, 1. London: Tr&#252;bner, 1882</pubstmt>
+        <pubstmt date="1882">1. London: Tr&#252;bner, 1882</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -15970,9 +15973,9 @@
         <titlestmt>
             <title level="m">The Tale of Beryn</title>
             <vols>2 vols. in 1</vols>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-	<pubstmt date="1887">1st ser. 17, 24. London: Tr&#252;bner, 1887<!--repr. EETS e.s. 105 (1909); repr. 1981--></pubstmt>
+	<pubstmt date="1887">17, 24. London: Tr&#252;bner, 1887<!--repr. EETS e.s. 105 (1909); repr. 1981--></pubstmt>
         <index>
             <topic/>
             <person/>
@@ -16151,9 +16154,9 @@
         <titlestmt>
             <title level="m">The Clerk&#8217;s Tale, a Six-Text Print from 6 MSS not containing the
                 Pardoner&#8217;s Tale</title>
-            <title level="s">The Chaucer Society</title>
+            <title level="s">The Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1889">Series 1, no. 92. London: Tr&#252;bner, 1899</pubstmt>
+        <pubstmt date="1889">92. London: Tr&#252;bner, 1899</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -16191,9 +16194,9 @@
         <titlestmt>
             <title level="m">The Clerk&#8217;s Tale from the Phillipps MS 8299 and the Longleat
                 MS</title>
-            <title level="s">The Chaucer Society</title>
+            <title level="s">The Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1889">Series 1, no. 93. London: Tr&#252;bner, 1900</pubstmt>
+        <pubstmt date="1889">93. London: Tr&#252;bner, 1900</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -16225,9 +16228,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">The Pardoner&#8217;s Prolog and Tale from the Hodson MS 39</title>
-            <title level="s">The Chaucer Society</title>
+            <title level="s">The Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1901">Series 1, no. 94. London: Tr&#252;bner, 1900-1</pubstmt>
+        <pubstmt date="1901">94. London: Tr&#252;bner, 1900-1</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -16243,9 +16246,9 @@
         <titlestmt>
             <title level="m">The Cambridge MS. Dd.4.24 of Chaucer&#8217;s Canterbury Tales,
                 Completed by the Egerton MS. 2726 (The Haistwell MS)</title>
-            <title level="s">The Chaucer Society</title>
+            <title level="s">The Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1901">1st Series, no. 95 (Part 1, issue for 1901) and 96 (Part 2, issue for
+        <pubstmt date="1901">95 (Part 1, issue for 1901) and 96 (Part 2, issue for
             1902)</pubstmt>
         <index>
             <topic/>
@@ -16280,9 +16283,9 @@
         <titlestmt>
             <title level="m">The Cambridge MS. D. 4. 24 of Chaucer&#8217;s &#8216;Canterbury
                 Tales&#8217;</title>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1902">1st ser. 95-96. London: Tr&#252;bner, 1902</pubstmt>
+        <pubstmt date="1902">95, 96. London: Tr&#252;bner, 1902</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -16341,9 +16344,9 @@
         <titlestmt>
             <title level="m">The Romaunt of the Rose, from Thynne&#8217;s edition of 1532</title>
             <vols>2</vols>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1911">1st ser. 82. London: Tr&#252;bner, 1911</pubstmt>
+        <pubstmt date="1911">82. London: Tr&#252;bner, 1911</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -16442,9 +16445,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">Historical Collections of a Citizen of London</title>
-            <title level="s">Camden Society</title>
+            <title level="s">Camden Society, n.s.</title>
         </titlestmt>
-        <pubstmt date="1876">n.s. 17 (1876)</pubstmt>
+        <pubstmt date="1876">17 (1876)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -16459,9 +16462,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">Three Fifteenth-Century Chronicles</title>
-            <title level="s">Camden Society</title>
+            <title level="s">Camden Society, n.s.</title>
         </titlestmt>
-        <pubstmt date="1880">n.s. 28 (1880)</pubstmt>
+        <pubstmt date="1880">28 (1880)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -18010,9 +18013,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">The Lyrics of the Red Book of Ossory</title>
-            <title level="s">Medium &#198;vum Monographs</title>
+            <title level="s">Medium &#198;vum Monographs, n.s.</title>
         </titlestmt>
-        <pubstmt date="1974">n.s. 5. Oxford, 1974</pubstmt>
+        <pubstmt date="1974">5. Oxford, 1974</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -25289,11 +25292,10 @@
             </editor>
         </authorstmt>
         <titlestmt>
-            <title level="m">The &#8216;Exhortacion&#8217; from Disce Mori: Edited from Oxford,
-                Jesus College, MS 39</title>
+            <title level="m">The &#8216;Exhortacion&#8217; from Disce Mori: Edited from Oxford, Jesus College, MS 39</title>
+            <title level="s">Middle English Texts</title>
         </titlestmt>
-        <pubstmt date="2006">Middle English Texts 36. Heidelberg: Carl Winter
-            Universit&#228;tsverlag: Hedelberg, 2006</pubstmt>
+        <pubstmt date="2006">36. Heidelberg: Carl Winter Universit&#228;tsverlag Heidelberg, 2006</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -28518,13 +28520,16 @@
                 <last>Little</last>
                 <first>Francis</first>
             </author>
+            <editor>
+                <last>Cobham</last>
+                <first>Claude Delaval</first>
+            </editor>
         </authorstmt>
         <titlestmt>
             <title level="m">A Monument of Christian Munificence; or an Account of the Brotherhoos
                 of the Holy Cross, and of the Hospital of Christ in Abingdon</title>
         </titlestmt>
-        <pubstmt date="1871">Ed. Claude Delaval Cobham. Oxford: James Parker and Co., 1871; 2nd ed.
-            1872</pubstmt>
+        <pubstmt date="1871">Oxford: James Parker and Co., 1871; 2nd ed. 1872</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -30365,9 +30370,9 @@
         <titlestmt>
             <title level="m">Ryme-Index to the manuscript texts of Chaucer&#8217;s Minor
                 Poems</title>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1888">1st ser. 80 (1889)</pubstmt>
+        <pubstmt date="1888">80 (1889)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -31977,9 +31982,9 @@
         <titlestmt>
             <title level="m">Letters and Papers of John Shillingford, Mayor of Exeter
                 1447-50</title>
-            <title level="s">Camden Society</title>
+            <title level="s">Camden Society, n.s.</title>
         </titlestmt>
-        <pubstmt date="1871">n. s. 11. 1871</pubstmt>
+        <pubstmt date="1871">11. [Westminster], 1871</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -34468,7 +34473,7 @@
         <titlestmt>
             <title level="m">The Cambridge History of English Literature</title>
         </titlestmt>
-        <pubstmt date="1927">Vol. 2 Cambridge, 1927</pubstmt>
+        <pubstmt date="1927">Vol. 2. Cambridge, 1927</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -34627,9 +34632,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">The Gest Hystoriale of the Destruction of Troy</title>
-            <title level="s">EETS</title>
+            <title level="s">EETS o.s.</title>
         </titlestmt>
-        <pubstmt date="1869">o.s 39 (1869), 56 (1874); repr. in one vol. 1968</pubstmt>
+        <pubstmt date="1869">39 (1869), 56 (1874); repr. in one vol. 1968</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -37086,7 +37091,7 @@
             <title level="s">Philosophische Fakult&#228;t, Texte und Untersuchung zur Englischen
                 Philologie</title>
         </titlestmt>
-        <pubstmt date="1973">Band 1. M&#252;nchen, 1973</pubstmt>
+        <pubstmt date="1973">Vol. 1. M&#252;nchen, 1973</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -39543,9 +39548,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">The Mansucripts of Chaucer&#8217;s Troilus&#8230;</title>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1914">1st ser. 98. London: Tr&#252;bner, 1914</pubstmt>
+        <pubstmt date="1914">98. London: Tr&#252;bner, 1914</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -39678,7 +39683,7 @@
             <title level="a">An Edition of Part of the Edinburgh Fragment of the Cursor
                 Mundi</title>
         </titlestmt>
-        <pubstmt date="1971">Thesis. Oxford 1971</pubstmt>
+        <pubstmt date="1971">B.Litt. thesis. Oxford, 1971</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -39763,9 +39768,9 @@
         <titlestmt>
             <title level="m">The Chronicle Of Walter Of Guisborough, Previously Edited As The
                 Chronicle Of Walter of Hemingford Or Hemingburgh</title>
-            <title level="s">Camden Society</title>
+            <title level="s">Camden Society, 3rd ser.</title>
         </titlestmt>
-        <pubstmt date="1956">3rd ser. 89 (1956)</pubstmt>
+        <pubstmt date="1956">89 (1956)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -39810,7 +39815,7 @@
             <title level="m">Th Complaint of a lover&#8217;s life. Controyersy between a lover and a
                 jay</title>
             <title level="s">Roxburghe Club</title></titlestmt>
-        <pubstmt date="1818">18. 1818</pubstmt>
+        <pubstmt date="1818">18. London, 1818</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -40618,8 +40623,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">Christine de Pizan&#8217;s Advice for Princes in Middle English Translation: Stephen Scrope&#8217;s The Epistle of Othea and the Anonymous Lytle Bibell of Knyghthod</title>
+	    <title level="s">Middle English Texts Series</title>
         </titlestmt>
-        <pubstmt date="2020">Middle English Texts Series. Kalamazoo: Medieval Institute Publications, 2020</pubstmt>
+        <pubstmt date="2020">Kalamazoo: Medieval Institute Publications, 2020</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -41865,9 +41871,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">Christ Church Letters</title>
-            <title level="s">Camden Society</title>
+            <title level="s">Camden Society, n.s.</title>
         </titlestmt>
-        <pubstmt date="1877">n.s. 19 (1877)</pubstmt>
+        <pubstmt date="1877">19 (1877)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -42054,8 +42060,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">Medieval English Lyrics</title>
+            <title level="s">York Medieval Texts</title>
         </titlestmt>
-        <pubstmt date="1971">York Medieval Texts. London: Edw. Arnold, 1971</pubstmt>
+        <pubstmt date="1971">London: Edw. Arnold, 1971</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -45413,9 +45420,9 @@
             <title level="m">Essays on Chaucer: His words and works. Part II: Specimen of a critical
                 edition of Chaucer&#8217;s Compleynte to pite, with the genealogy of its
                 manuscripts</title>
-            <title level="s">Chaucer Society</title>
+            <title level="s">Chaucer Society, 2nd ser.</title>
         </titlestmt>
-        <pubstmt date="1874">2nd ser. 9. London: Kegan Paul, Trench, Tr&#252;bner and Co.,
+        <pubstmt date="1874">9. London: Kegan Paul, Trench, Tr&#252;bner and Co.,
             1874</pubstmt>
         <index>
             <topic/>
@@ -46515,9 +46522,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">Poems from BL MS Harley 913 &#8216;The Kildare Manuscript&#8217;</title>
-            <title level="s">EETS</title>
+            <title level="s">EETS o.s.</title>
         </titlestmt>
-        <pubstmt date="2015">OS 345 (2015)</pubstmt>
+        <pubstmt date="2015">345 (2015)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -46650,7 +46657,7 @@
                 Weltliterature</title>
             <title level="s">Litterarhistorische Forschungen</title>
         </titlestmt>
-        <pubstmt date="1912">51 (Berlin, 1912)</pubstmt>
+        <pubstmt date="1912">51. Berlin, 1912</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -50032,7 +50039,7 @@
             <title level="m">The Vision and the Creed of Piers Ploughman</title>
 	    <vols>2</vols>
         </titlestmt>
-        <pubstmt date="1842">London; Pickering, 1842; 2nd ed., rev. 1856</pubstmt>
+        <pubstmt date="1842">London: Pickering, 1842; 2nd ed., rev. 1856</pubstmt>
         <index>
             <topic/>
             <person/>
