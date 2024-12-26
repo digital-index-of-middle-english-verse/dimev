@@ -14,6 +14,7 @@ date: \today
 [dimev.net]: http://www.dimev.net
 [manuscript description module]: https://tei-c.org/release/doc/tei-p5-doc/en/html/MS.html
 [git]: https://git-scm.com/
+[sandbox repository]: https://github.com/digital-index-of-middle-english-verse/sandbox
 
 # General Introduction
 
@@ -105,7 +106,7 @@ The attributes are:
 #### Child elements of `record`
 
 Each full `record` element may have the following child elements.
-Except `name` and `alpha`, which are required, all child elements (and their children, recursively) are optional.
+Except `name` and `alpha`, which are required, all child elements are optional.
 
 - `name`. The *incipit*, or first line of the verse item, employed for purposes of identification in a textual tradition in which most items are anonymous and untitled.
   Spellings are standardized.
@@ -115,7 +116,7 @@ Except `name` and `alpha`, which are required, all child elements (and their chi
   Data type: string
 - `description`. Descriptive commentary on the item.
   Data type: free text with mixed content (recursively mixed where allowed), including inline formatting and references to witnesses, scholarly publications, and other item records.
-- `descNote`. More descriptive commentary on the item, more limited in scope or importance.
+- `descNote`. Descriptive commentary on the item, similar to the content of `description` but usually more limited in scope or importance.
   Data type: free text with mixed content like `description`.
 - `authors`. Any generally accepted author attributions for the item.
   Dubious attributions may be flagged with a question mark in the child element `suffix` (see below).
@@ -127,7 +128,7 @@ Except `name` and `alpha`, which are required, all child elements (and their chi
 - `titles`. Any titles generally assigned to the item in modern scholarship.
   Titles given by documentary witnesses are transcribed within the element `MSTitle`, a child of `witness`.
   See [Child elements of `witness`].
-  Data type: an array of one or more child elements with the tag `title`; alternatively, a single `title` element may appear as the direct child of `record`.<!--fix this in the xml-->
+  Data type: an array of one or more child elements with the tag `title`.
   Content of the element `title` is ordinary string but may contain inline formatting.
 - `subjects`. Descriptive keywords for content.
   Data type: an array of one or more child elements with the tag `subject`.
@@ -167,8 +168,10 @@ Scholars are advised to reference witnesses by manuscript shelfmarks, not the nu
 
 #### Child elements of `witness`
 
-Each `witness` element may have the following child elements.
-All child elements are optional.
+Each `witness` element must have *either* (1) the child element `allLines` *or* (2) one or more sequences of the child elements `firstLines` and `lastLines`.
+(These options are exclusive.)
+The child element `source` is also obligatory.
+All other child elements are optional.
 
 - `allLines`. A full transcription of the item as transmitted in the document.
   Data type: text with inline formatting.
@@ -177,7 +180,7 @@ All child elements are optional.
 - `lastLines`. A transcription of the last lines of the item as transmitted in the document.
   Data type: text with inline formatting.
   The elements `firstLines` and `lastLines` may repeat in alternation.
-  This is employed when a witness comprises two or more discontinuous fragments or excerpts of the item.<!--fix the xml-->
+  This is employed when a witness comprises two or more discontinuous fragments or excerpts of the item.
 - `source`. Bibliographic citation for the witness.
   Data type: a complex element containing attributes and child elements.
   See [Attributes of `source`] and [Child elements of `source`].
@@ -215,10 +218,11 @@ Each `source` element may have the following child elements:
 - `end`. The location at which the text of the witness ends.
   Data type: optional attributes and string.
 
-The elements `start` and `end` may each carry the attributes `loc` and `col`.
+The elements `start` and `end` may each carry the attributes `loc`, `col`, and `pre`.
 For books with leaf-based navigation systems, the attribute `loc` is employed to record the side of a leaf (recto or verso, abbreviated "r" and "v").
 For books with multi-columnar page designs, the attribute `col` is employed to record the column in which the item begins or ends.
 Columns are designated by sequential lower-case letters ("a", "b", "c").
+The attribute `pre` is used to record irregularities in foliation (or pagination).
 
 Note:
 
@@ -235,8 +239,7 @@ Note:
   (Cite Ringler's bibliography directly, as an independent authority)
 - Supply references to the [Middle English Compendium Bibliography](https://quod.lib.umich.edu/m/middle-english-dictionary/bibliography), where available
   (This is part of a general expansion of bibliographical reference, beyond the linear tradition of indexes of Middle English verse)
-- Restructure repeated `firstLine` and `lastLine` elements to allow for narrower validation by the XSD file
-- In the element `name`, disaggregate name suffixes and query marks indicating dubious attributions
+- In the element `author` (child of `authors`), disaggregate name suffixes and query marks indicating dubious attributions
 - Allow for critical editions to be attached to the `record` element, rather than only the `witness` sub-element
 - Supply controlled vocabularies for the content of `subject`, `verseForm`, `verseElement`, and `language`
 
@@ -434,6 +437,7 @@ Each bibliographic entry is contained within a uniquely identified `bibl` elemen
 
 ### Technical direction {#tech-dir-bibliography}
 
+- Regularize the content of `pubstmt` (this is done with help of the Python script `transform-Bibl.py`, in DIMEV's [sandbox repository])
 - Migrate to a standard format for bibliographic data
 - Supply, as content keywords for items in `Bibliography.xml`, the DIMEV item `id`s by which they are cited (i.e., backlink from modern bibliographic items to the verse item records that cite them)
 - Extract links to on-line facsimiles of manuscripts for separate treatment, probably within the data structure for manuscripts
@@ -526,9 +530,10 @@ The survey of British Library manuscripts was completed by Mooney in 2024, suppo
 
 In fall 2024 Ian Cornelius wrote XSD files to replace machine-generated DTDs as the mechanism for validation of XML.
 The XSD files are constructed iteratively, from ground up.
-XML syntax errors discovered in this process are corrected one by one, by Cornelius and Mosser.
-This is a first step toward modernization of DIMEV data.
-Subsequent steps are projected within the section [Data Files], above (see the subsections headed "Technical direction").
+XML syntax errors discovered in this process were corrected one by one or else with regular expressions.
+The overall size of `Records.xml` was reduced by about a third, by removing optional empty elements.
+This was a first step toward modernization of DIMEV data.
+Subsequent steps are projected within the subsections headed "Technical direction" and in DIMEV's [sandbox repository].
 
 Since 2007 Mooney and Mosser have served as co-editors of DIMEV, sharing responsibility for content.
 Mosser has served as technical editor, maintaining data files and pushing updates to [dimev.net].
