@@ -1,13 +1,12 @@
 #!/bin/bash
 
 # This script builds the documentation as a PDF from components in the
-# directory `doc/`. The script is intended to test local builds; it is
+# directory `docs/`. The script is intended to test local builds; it is
 # equivalent to the build performed in the GitHub Action. Dependencies are
 # those provided in the GitHub Action.
 #
-# Run the script from a child directory of root.
+# Run the script from the `docs/` directory.
 
-pushd ../docs/
-echo "Building the PDF..."
+echo "Building the PDF as documentation.pdf..."
 pandoc --metadata-file ./config/default.yaml --citeproc --number-sections --toc --pdf-engine xelatex documentation.md -o documentation.pdf
-popd
+echo "Done"
