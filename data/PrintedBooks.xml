@@ -2,7 +2,6 @@
 <books>
     <!-- INCUNABLES AND EARLY PRINTED BOOKS: listed by STC number  -->
     <bibl xml:id="STC78" n="STC 78">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -16,7 +15,6 @@
             <i>A mery jest of the Mylner of Abyngton with his wyfe and doughter</i>, De Worde, [1532-34?] </desc>
     </bibl>
     <bibl xml:id="STC79" n="STC 79">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -33,7 +31,6 @@
             1575] </desc>
     </bibl>
     <bibl xml:id="STC185" n="STC 185">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Aesop</author>
@@ -53,7 +50,6 @@
             on the north syde of the gait, abone [sic] the throne., Anno. Do. M. D. LXX [1570] </desc>
     </bibl>
     <bibl xml:id="STC1855" n="STC 185.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Henryson, Robert</author>
@@ -71,7 +67,6 @@
             Jnprinted att Edinburgh be me Thomas Bassandyne, dwelland at the nether Bow, Anno. 1571 </desc>
     </bibl>
     <bibl xml:id="STC1865" n="STC 186.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Aesop</author>
@@ -90,7 +85,6 @@
             1577 </desc>
     </bibl>
     <bibl xml:id="STC186" n="STC 186">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Aesop</author>
@@ -107,7 +101,6 @@
             1621 </desc>
     </bibl>
     <bibl xml:id="STC198" n="STC 198">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -121,7 +114,6 @@
             <i>The Batayll of Egyngecourte</i>, Scot, [1536?] </desc>
     </bibl>
     <bibl xml:id="STC256" n="STC 256">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -141,7 +133,6 @@
             our lorde God. M.D.xxx.iiii.], [1534] </desc>
     </bibl>
     <bibl xml:id="STC321" n="STC 321">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -155,7 +146,6 @@
             <i>[Romance of King Alexander]</i>, [R. Faques, 1525?] </desc>
     </bibl>
     <bibl xml:id="STC3215" n="STC 321.5">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -169,7 +159,6 @@
             <i>[The Book of Alexander the Great]</i>, [Arbuthnet, c. 1580] </desc>
     </bibl>
     <bibl xml:id="STC770" n="STC 770">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -183,7 +172,6 @@
             <i>The Secrete of Secretes of Arystotle</i>, Copland, 1528 </desc>
     </bibl>
     <bibl xml:id="STC782" n="STC 782">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author>Arnold, Richard</author>
@@ -197,7 +185,6 @@
             <name>Arnold, Richard</name>, <i>Arnold’s Chronicle</i>, [Antwerp, van Berghen, 1503?] </desc>
     </bibl>
     <bibl xml:id="STC783" n="STC 783">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author>Arnold, Richard</author>
@@ -211,7 +198,6 @@
             <name>Arnold, Richard</name>, <i>Arnold’s Chronicle</i>, [Southwark, Treveris, 1525?] </desc>
     </bibl>
     <bibl xml:id="STC786" n="STC 786">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -227,7 +213,6 @@
                 craft for to deye for the helthe of mannes sowle</i>, [Westminster: W. Caxton, 1491] </desc>
     </bibl>
     <bibl xml:id="STC792" n="STC 792">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -241,7 +226,6 @@
             <i>The crafte to lyue well and to dye well</i>, de Worde, 1505 (xylographic) </desc>
     </bibl>
     <bibl xml:id="STC803" n="STC 803">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Malory, Thomas</author>
@@ -255,7 +239,6 @@
             <name>Malory, Thomas</name>, <i>Le morte Darthur</i>, de Worde, 1529 </desc>
     </bibl>
     <bibl xml:id="STC13775" n="STC 1377.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Barbour, John</author>
@@ -271,7 +254,6 @@
             Lekpreuik, at the expensis of Henrie Charteris, anno Do. M.D.LXXI. [1571]] </desc>
     </bibl>
     <bibl xml:id="STC1378" n="STC 1378">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Barbour, John</author>
@@ -290,7 +272,6 @@
             by Andro Hart, 1616 </desc>
     </bibl>
     <bibl xml:id="STC1536" n="STC 1536">
-        <loc>Printed book</loc>
         <DIMEVCount>5</DIMEVCount>
         <authorstmt>
             <author>Bartholomeus Anglicus</author>
@@ -305,7 +286,6 @@
         </desc>
     </bibl>
     <bibl xml:id="STC1537" n="STC 1537">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Bartholomeus Anglicus</author>
@@ -321,7 +301,6 @@
             aedibus Thomae Bertheleti regii impressrois [sic] Cum priuilegio a Rege indulto, [1535] </desc>
     </bibl>
     <bibl xml:id="STC1538" n="STC 1538">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Bartholomeus Anglicus, a.k.a. Glanville</author>
@@ -342,7 +321,6 @@
                 bodie. 1582</i>, London: Imprinted by Thomas East, dwelling by Paules wharfe, [1582] </desc>
     </bibl>
     <bibl xml:id="STC1978" n="STC 1978">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Betson, Thomas</author>
@@ -360,7 +338,6 @@
                 myndes [and] prayers</i>, [Westminster: Wynkyn de Worde, 1500] </desc>
     </bibl>
     <bibl xml:id="STC1987" n="STC 1987">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -374,7 +351,6 @@
             <i>[Bevis of Hampton]</i>, [Westminster: W. de Worde, 1500] </desc>
     </bibl>
     <bibl xml:id="STC19875" n="STC 1987.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -388,7 +364,6 @@
             <i>[Bevis of Hampton]</i>, [S.l.: W. de Worde, ca. 1500] </desc>
     </bibl>
     <bibl xml:id="STC1988" n="STC 1988">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -404,7 +379,6 @@
             George, [1503?]] </desc>
     </bibl>
     <bibl xml:id="STC19882" n="STC 1988.2">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -418,7 +392,6 @@
             <i>[Sir Bevis of Hampton]</i>, [S.l.: J. Notary, ca. 1510] </desc>
     </bibl>
     <bibl xml:id="STC19886" n="STC 1988.6">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -432,7 +405,6 @@
             <i>[Sir Bevis of Hampton]</i>, [S.l.: W. de Worde, ca. 1500] </desc>
     </bibl>
     <bibl xml:id="STC19888" n="STC 1988.8">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author/>
@@ -448,7 +420,6 @@
             William Coplande, [1560?] </desc>
     </bibl>
     <bibl xml:id="STC1989" n="STC 1989">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author/>
@@ -462,7 +433,6 @@
             <i>Syr Beuys of Hampton</i>, [Imprented at London: In Lothburye by Wyllyam Copland, [1565?]] </desc>
     </bibl>
     <bibl xml:id="STC1990" n="STC 1990">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author/>
@@ -477,7 +447,6 @@
         </desc>
     </bibl>
     <bibl xml:id="STC29967" n="STC 2996.7">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>[Wedderburn, John]</author>
@@ -495,7 +464,6 @@
                 contenit in th[e] first editioun</i>, [1578] </desc>
     </bibl>
    <!-- <bibl xml:id="STC2998" n="STC 2998">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -515,7 +483,6 @@
                 edition</i>, Edinburgh: Printed by Andro Hart., 1621 </desc>
     </bibl>-->
     <bibl xml:id="STC3055" n="STC 3055">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Bieston, Roger</author>
@@ -531,7 +498,6 @@
             Wayland, at the signe of the Sunne ouer against the Conduite in Fletestrete, [1556?] </desc>
     </bibl>
     <bibl xml:id="STC30555" n="STC 3055.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Bieston, Roger</author>
@@ -547,7 +513,6 @@
             Wayland, at the signe of the Sunne ouer against the Conduite in Fletestrete, [1556?] </desc>
     </bibl>
     <bibl xml:id="STC3124" n="STC 3124">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -563,7 +528,6 @@
                 Queene of Tormaday, (surnamed) the proud ladye in love</i>, [Westminster: W. Caxton, 1490] </desc>
     </bibl>
     <bibl xml:id="STC3152" n="STC 3152">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Blundeville, Thomas</author>
@@ -598,7 +562,6 @@
             priuilegio ad imprimendum solum, [1566] </desc>
     </bibl>
     <bibl xml:id="STC3153" n="STC 3153">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Blundeville, Thomas</author>
@@ -633,7 +596,6 @@
             priuilegio ad imprimendum solum, [ca. 1570] </desc>
     </bibl>
     <bibl xml:id="STC3175" n="STC 3175">
-        <loc>Printed book</loc>
         <DIMEVCount>3</DIMEVCount>
         <authorstmt>
             <author/>
@@ -651,7 +613,6 @@
                 edmu[n]des Bury…,</i> [London: Printed by Richard Pynson, 1494 (27 Jan.)] </desc>
     </bibl>
     <bibl xml:id="STC3177" n="STC 3177">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -672,7 +633,6 @@
         </desc>
     </bibl>
     <bibl xml:id="STC3186" n="STC 3186">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -698,7 +658,6 @@
             at Cantorbury, [1530?]] </desc>
     </bibl>
     <bibl xml:id="STC3199" n="STC 3199">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Boethius</author>
@@ -713,7 +672,6 @@
             Caxton, 1478] </desc>
     </bibl>
     <bibl xml:id="STC3200" n="STC 3200">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author>Boethius, trans J. Walton, Tavestock</author>
@@ -728,7 +686,6 @@
             1525 </desc>
     </bibl>
     <bibl xml:id="STC3259" n="STC 3259">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Bonaventura, trans Nicholas Love</author>
@@ -742,7 +699,6 @@
             <name>Bonaventura, trans Nicholas Love</name>, <i>[Speculum Vitae Christi]</i>, Caxton, 1484 </desc>
     </bibl>
     <bibl xml:id="STC3275" n="STC 3275">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Bonde, William</author>
@@ -764,7 +720,6 @@
                 sowle Jesu haue marcy</i>, [London: Printed by M. Fawkes, 1534?] </desc>
     </bibl>
     <bibl xml:id="STC3303" n="STC 3303">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -778,7 +733,6 @@
             <i>[Explicit the book of curtesye]</i>, [Westminster: By William Caxton, 1477-1478] </desc>
     </bibl>
     <bibl xml:id="STC3304" n="STC 3304">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -793,7 +747,6 @@
             Westmoster: [Wynkyn de Worde, 1492]] </desc>
     </bibl>
     <bibl xml:id="STC3307" n="STC 3307">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -807,7 +760,6 @@
             <i> [Book of good counsel to the Scots king]</i>, [Edinburgh: W. Chepman and A. Myllar, 1508?] </desc>
     </bibl>
     <bibl xml:id="STC3308" n="STC 3308">
-        <loc>Printed book</loc>
         <DIMEVCount>10</DIMEVCount>
         <authorstmt>
             <author/>
@@ -821,7 +773,6 @@
             <i>Boke of Hawking, Hunting, and Blasing of Arms</i>, [St Albans, 1486] </desc>
     </bibl>
     <bibl xml:id="STC3309" n="STC 3309">
-        <loc>Printed book</loc>
         <DIMEVCount>12</DIMEVCount>
         <authorstmt>
             <author/>
@@ -837,7 +788,6 @@
                 treatyse of fysshynge wyth an angle</i>, de Worde, 1496 </desc>
     </bibl>
     <bibl xml:id="STC33095" n="STC 3309.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -851,7 +801,6 @@
             <i>The Boke of Hawkynge, and Huntynge, and Fysshynge</i>, de Worde, [1518?] </desc>
     </bibl>
     <bibl xml:id="STC3543" n="STC 3543">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Brandon, Charles, Duke of Suffolk</author>
@@ -865,7 +814,6 @@
             <name>Brandon, Charles, Duke of Suffolk</name>, <i>The Justes of Maye</i>, [de Worde, 1507?] </desc>
     </bibl>
     <bibl xml:id="STC4115" n="STC 4115">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Borough, John</author>
@@ -898,7 +846,6 @@
             trinitatis [by H. Jacobi, 24 June 1510] </desc>
     </bibl>
     <bibl xml:id="STC4850" n="STC 4850">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -912,7 +859,6 @@
             <i>Paruus Catho [et] Magnus Catho</i>, [Caxton, 1477] </desc>
     </bibl>
     <bibl xml:id="STC4851" n="STC 4851">
-        <loc>Printed book</loc>
         <DIMEVCount>6</DIMEVCount>
         <authorstmt>
             <author/>
@@ -926,7 +872,6 @@
             <i>Paruus Catho [et] Magnus Catho</i>, [Caxton, 1476] </desc>
     </bibl>
     <bibl xml:id="STC4852" n="(STC 4852">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -940,7 +885,6 @@
             <i>Paruus Catho [et] Magnus Catho</i>, [Caxton, 1483] </desc>
     </bibl>
    <!-- <bibl xml:id="STC4853" n="STC 4853">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>PROSE
             <author/>
@@ -954,7 +898,6 @@
             <i>The Book callid Caton</i>, [Caxton, 1483?] </desc>
     </bibl>-->
     <bibl xml:id="STC4921" n="STC 4921">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Jacobus de Cessolis</author>
@@ -969,7 +912,6 @@
             1483] </desc>
     </bibl>
     <bibl xml:id="STC5057" n="STC 5057">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Chartier, Alain</author>
@@ -986,7 +928,6 @@
             1483] </desc>
     </bibl>
     <bibl xml:id="STC50605" n="STC 5060.5">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1000,7 +941,6 @@
             STC 5060.5)</desc>
     </bibl>
     <bibl xml:id="STC5065" n="STC 5065">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1018,7 +958,6 @@
             [Westminster: Wynkyn de Worde, about 1494] </desc>
     </bibl>
     <bibl xml:id="STC5068" n="">
-        <loc>Printed book</loc>
         <DIMEVCount>46</DIMEVCount>
         <authorstmt>
             <author>Chaucer, Geoffrey</author>
@@ -1031,7 +970,6 @@
         <desc> Geoffrey Chaucer, <i>Workes</i>, Thynne, 1532 </desc>
     </bibl>
     <bibl xml:id="STC5069" n="STC 5069">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author>Chaucer, Geoffrey</author>
@@ -1045,7 +983,6 @@
             <name>Chaucer, Geoffrey</name>, <i>Workes</i>, [R. Grafton f.], W. Bonham 1542 </desc>
     </bibl>
     <bibl xml:id="STC5075" n="STC 5075">
-        <loc>Printed book</loc>
         <DIMEVCount>25</DIMEVCount>
         <authorstmt>
             <author>Chaucer, Geoffrey</author>
@@ -1065,7 +1002,6 @@
             [Imprinted at London: By Ihon Kyngston, for Ihon Wight, dwellyng in Poules Churchyarde], 1561 </desc>
     </bibl>
     <bibl xml:id="STC5077" n="STC 5077">
-        <loc>Printed book</loc>
         <DIMEVCount>8</DIMEVCount>
         <authorstmt>
             <author>Chaucer, Geoffrey</author>
@@ -1079,7 +1015,6 @@
             <name>Chaucer, Geoffrey</name>, <i>Workes</i>, Speght, 1598 </desc>
     </bibl>
     <bibl xml:id="STC5082" n="STC 5082">
-        <loc>Printed book</loc>
         <DIMEVCount>49</DIMEVCount>
         <authorstmt>
             <author>Chaucer, Geoffrey</author>
@@ -1093,7 +1028,6 @@
             <name>Chaucer, Geoffrey</name>, <i>Canterbury Tales</i>, [Westminster, William Caxton, 1476] </desc>
     </bibl>
     <bibl xml:id="STC5083" n="STC 5083">
-        <loc>Printed book</loc>
         <DIMEVCount>50</DIMEVCount>
         <authorstmt>
             <author>Chaucer, Geoffrey</author>
@@ -1107,7 +1041,6 @@
             <name>Chaucer, Geoffrey</name>, <i>Canterbury Tales</i>, [Westminster], W. Caxton, [1483] </desc>
     </bibl>
     <bibl xml:id="STC5084" n="STC 5084">
-        <loc>Printed book</loc>
         <DIMEVCount>51</DIMEVCount>
         <authorstmt>
             <author>Chaucer, Geoffrey</author>
@@ -1121,7 +1054,6 @@
             <name>Chaucer, Geoffrey</name>, <i>Canterbury Tales</i>, R. Pynson, [1492] </desc>
     </bibl>
     <bibl xml:id="STC5085" n="STC 5085">
-        <loc>Printed book</loc>
         <DIMEVCount>50</DIMEVCount>
         <authorstmt>
             <author>Chaucer, Geoffrey</author>
@@ -1135,7 +1067,6 @@
             <name>Chaucer, Geoffrey</name>, <i>Canterbury Tales</i>, Westminster, W. de Worde, 1498 </desc>
     </bibl>
     <bibl xml:id="STC5086" n="STC 5085">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Chaucer, Geoffrey</author>
@@ -1155,7 +1086,6 @@
             and xxvi. the fourth day of Iune. [1526]] </desc>
     </bibl>
     <bibl xml:id="STC5087" n="STC 5087">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author>Chaucer, Geoffrey</author>
@@ -1169,7 +1099,6 @@
             <name>Chaucer, Geoffrey</name>, <i>The Book of Fame</i>, Caxton, [1483] </desc>
     </bibl>
     <bibl xml:id="STC5088" n="STC 5088">
-        <loc>Printed book</loc>
         <DIMEVCount>8</DIMEVCount>
         <authorstmt>
             <author>Chaucer, Geoffrey</author>
@@ -1184,7 +1113,6 @@
             [1526?] </desc>
     </bibl>
     <bibl xml:id="STC5089" n="STC 5089">
-        <loc>Printed book</loc>
         <DIMEVCount>4</DIMEVCount>
         <authorstmt>
             <author>Chaucer, Geoffrey</author>
@@ -1198,7 +1126,6 @@
             <name>Chaucer, Geoffrey</name>, <i>Mars and Venus</i>, J. Notarii, [1500?] </desc>
     </bibl>
     <bibl xml:id="STC5090" n="STC 5090">
-        <loc>Printed book</loc>
         <DIMEVCount>5</DIMEVCount>
         <authorstmt>
             <author>Chaucer, Geoffrey</author>
@@ -1213,7 +1140,6 @@
             Caxton, 1477?] </desc>
     </bibl>
     <bibl xml:id="STC5091" n="STC 5091">
-        <loc>Printed book</loc>
         <DIMEVCount>7</DIMEVCount>
         <authorstmt>
             <author>Chaucer, Geoffrey</author>
@@ -1228,7 +1154,6 @@
             1477? </desc>
     </bibl>
     <bibl xml:id="STC50915" n="STC 5091.5">
-        <loc>Printed book</loc>
         <DIMEVCount>STC 5091.5</DIMEVCount>
         <authorstmt>
             <author>Chaucer, Geoffrey</author>
@@ -1245,7 +1170,6 @@
             I. Rastell, 1525?] </desc>
     </bibl>
     <bibl xml:id="STC5092" n="STC 5092">
-        <loc>Printed book</loc>
         <DIMEVCount>3</DIMEVCount>
         <authorstmt>
             <author>Chaucer, Geoffrey</author>
@@ -1266,7 +1190,6 @@
             (1530)] </desc>
     </bibl>
     <bibl xml:id="STC5094" n="STC 5094">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1280,7 +1203,6 @@
             <i>[Troilus and Criseyde]</i>, [Westminster: W. Caxton, 1483] </desc>
     </bibl>
     <bibl xml:id="STC5095" n="STC 5095">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1296,7 +1218,6 @@
             Worde, [London] 1517 </desc>
     </bibl>
     <bibl xml:id="STC5096" n="STC 5096">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1312,7 +1233,6 @@
             London: In Fletestrete by Rycharde Pynson printer vnto the kynges noble grace, [1526?]] </desc>
     </bibl>
     <bibl xml:id="STC5098" n="STC 5098">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1327,7 +1247,6 @@
             for Ihon Gough, [1536?]] </desc>
     </bibl>
     <bibl xml:id="STC5100" n="STC 5100">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1343,7 +1262,6 @@
             churche yarde at the sygne of the Hyll by Wyllyam Hyll, [1548?]] </desc>
     </bibl>
     <bibl xml:id="STC5198" n="STC 5198">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author>Chertsey, Andrew</author>
@@ -1362,7 +1280,6 @@
             M.CCCCC.ij. [1502]]</desc>
     </bibl>
     <bibl xml:id="STC5199" n="STC 5199">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author>Chertsey, Andrew</author>
@@ -1379,7 +1296,6 @@
         </desc>
     </bibl>
     <bibl xml:id="STC5204" n="STC 5204">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1393,7 +1309,6 @@
             <i>Christmasse carolles</i>, de Worde, 1521 </desc>
     </bibl>
     <bibl xml:id="STC52043" n="STC 5204.3">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1407,7 +1322,6 @@
             <i>[Christmasse Carolles]</i>, Treveris, [1528?] </desc>
     </bibl>
     <bibl xml:id="STC52045" n="STC 5204.5">
-        <loc>Printed book</loc>
         <DIMEVCount>25</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1421,7 +1335,6 @@
             <i>Christmas Carolles</i>, [R. Copland f.] R. Kele, [1545?] </desc>
     </bibl>
     <bibl xml:id="STC5205" n="STC 5205">
-        <loc>Printed book</loc>
         <DIMEVCount>4</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1435,7 +1348,6 @@
             <i>Christmas Carolles</i>, [W. Middleton?, 1547?] </desc>
     </bibl>
     <bibl xml:id="STC5487" n="STC 5487">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1449,7 +1361,6 @@
             <i>The Taill of Rauf Coilzear how he harbreit King charlis</i>, Lekpreuik, 1572 </desc>
     </bibl>
     <bibl xml:id="STC5572" n="STC 5572">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1463,7 +1374,6 @@
             <i>Thre kynges of Coleyn</i>, de Worde, [1496?] </desc>
     </bibl>
     <bibl xml:id="STC5579" n="STC 5579">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1477,7 +1387,6 @@
             <i>The historie, sege and dystrucyon of Troye</i>, R. Pynson, 1513 </desc>
     </bibl>
     <bibl xml:id="STC5580" n="STC 5580">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1495,7 +1404,6 @@
                 imprinted</i>, R. Braham, 1555 </desc>
     </bibl>
     <bibl xml:id="STC5643" n="STC 5643">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1511,7 +1419,6 @@
             the yere of our lorde .M. CCCC. lxxxxix.] [1499] </desc>
     </bibl>
     <bibl xml:id="STC5728" n="STC 5728">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Copland, Robert</author>
@@ -1526,7 +1433,6 @@
             [1505?] </desc>
     </bibl>
     <bibl xml:id="STC5732" n="STC 5732">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Copland, Robert</author>
@@ -1544,7 +1450,6 @@
             by Robert Copland, [1536?]] </desc>
     </bibl>
     <bibl xml:id="STC57325" n="STC 5732.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Copland, Robert</author>
@@ -1559,7 +1464,6 @@
             1522] </desc>
     </bibl>
     <bibl xml:id="STC5733" n="STC 5733">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1575,7 +1479,6 @@
             wynkyn de worde, [c. 1527]] </desc>
     </bibl>
     <bibl xml:id="STC57285" n="STC 5728.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Copland, Robert</author>
@@ -1590,7 +1493,6 @@
             [1518?] </desc>
     </bibl>
     <bibl xml:id="STC5758" n="STC 5758">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Gerard of Vliederhoven</author>
@@ -1605,7 +1507,6 @@
             Caxton], 24 March 1479 </desc>
     </bibl>
     <bibl xml:id="STC5759" n="STC 5759">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Denis, the Carthusian</author>
@@ -1620,7 +1521,6 @@
             [Enprynted atte westmystre]: [Wynkyn de Worde, 1496?] </desc>
     </bibl>
     <bibl xml:id="STC5759a" n="STC 5759a">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Gerard of Vliederhoven</author>
@@ -1635,7 +1535,6 @@
             Mielot), [Bruges: William Caxton, 1476] </desc>
     </bibl>
     <bibl xml:id="STC6470" n="STC 6470">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1651,7 +1550,6 @@
             [1512-13]] </desc>
     </bibl>
     <bibl xml:id="STC6472" n="STC 6472">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1665,7 +1563,6 @@
             <i>Syr Degore</i>, [Imprinted at London: By Iohn king], Anno Domini. M.D.LX. [1560] </desc>
     </bibl>
     <bibl xml:id="STC64725" n="STC 6472.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1679,7 +1576,6 @@
             <i>Syr Degore</i>, [[London]: Imprynted by Wyllyam Copland, [1565?]] </desc>
     </bibl>
     <bibl xml:id="STC6473" n="STC 6473">
-        <loc>Printed book</loc>
         <DIMEVCount>13</DIMEVCount>
         <authorstmt>
             <author>Guillaume de Deguileville</author>
@@ -1693,7 +1589,6 @@
             <name>Guillaume de Deguileville</name>, <i>Pylgremage of the Sowle</i>, Caxton, 1483 </desc>
     </bibl>
     <bibl xml:id="STC6808" n="STC 6808">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Gosynhyll, Edward</author>
@@ -1710,7 +1605,6 @@
         </desc>
     </bibl>
     <bibl xml:id="STC6826" n="STC 6826">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1724,7 +1618,6 @@
             <i>The Dictes or Sayengis of the Philosophres</i>, Caxton, 1477 </desc>
     </bibl>
     <bibl xml:id="STC6915" n="STC 6915">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1740,7 +1633,6 @@
                 lokyng of the eye</i>, de Worde, [1516?] </desc>
     </bibl>
     <bibl xml:id="STC7073" n="STC 7073">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Douglas, Gawin</author>
@@ -1757,7 +1649,6 @@
             [1553?] </desc>
     </bibl>
     <bibl xml:id="STC7347" n="STC 7347">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Dunbar, William</author>
@@ -1774,7 +1665,6 @@
             and A. Myllar, 1508] </desc>
     </bibl>
     <bibl xml:id="STC7348" n="STC 7348">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author>Dunbar, William</author>
@@ -1789,7 +1679,6 @@
             Myllar, 1508] </desc>
     </bibl>
     <bibl xml:id="STC7349" n="STC 7349">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Dunbar, William</author>
@@ -1803,7 +1692,6 @@
             <name>Dunbar, William</name>, <i>The Goldyn Targe</i>, Chepman and Myllar, 1508 </desc>
     </bibl>
     <bibl xml:id="STC73495" n="STC 7349.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1818,7 +1706,6 @@
         </desc>
     </bibl>
     <bibl xml:id="STC7350" n="STC 7350">
-        <loc>Printed book</loc>
         <DIMEVCount>4</DIMEVCount>
         <authorstmt>
             <author>Dunbar, William</author>
@@ -1833,7 +1720,6 @@
             printer of The tua mariit wemen, 1507?] </desc>
     </bibl>
     <bibl xml:id="STC7541" n="STC 7541">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1847,7 +1733,6 @@
             <i>[Sir Eglamour]</i>, [de Worde, 1500] </desc>
     </bibl>
     <bibl xml:id="STC7542" n="STC 7542">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1861,7 +1746,6 @@
             <i>[Sir Eglamour]</i>, [Chepman and Myllar, 1508?] </desc>
     </bibl>
     <bibl xml:id="STC7273" n="STC 7273">
-        <loc>Printed book</loc>
         <DIMEVCount>3</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1876,7 +1760,6 @@
             Enprinted by Caxton, [1478] </desc>
     </bibl>
     <bibl xml:id="STC9983" n="STC 9983">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -1895,7 +1778,6 @@
             Robert Wyer, ca. 1552] </desc>
     </bibl>
     <bibl xml:id="STC99837" n="STC 9983.7">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -1916,7 +1798,6 @@
             .xxv. of Iune]] [1530] </desc>
     </bibl>
     <bibl xml:id="STC99833" n="STC 9983.3">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -1940,7 +1821,6 @@
                 yeres</i>, [S.l.]: Imprinted by Rychard Pynson…, [1518?] </desc>
     </bibl>
     <bibl xml:id="STC9991" n="STC 9991">
-        <loc>Printed book</loc>
         <DIMEVCount>3</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1954,7 +1834,6 @@
             <i>Chronicles of England</i>, Caxton, 1480 </desc>
     </bibl>
     <bibl xml:id="STC9992" n="STC 9992">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1972,7 +1851,6 @@
             God, M,CCCC,lxxxij and in the xxii yere of the regne of Kyng Edward the fourth [1482]] </desc>
     </bibl>
     <bibl xml:id="STC9993" n="STC 9993">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -1986,7 +1864,6 @@
             <i>And for he myght nought spede of his enemies so as…</i>, [London: W. de Machlinia, 1486] </desc>
     </bibl>
     <bibl xml:id="STC9994" n="STC 9994">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2005,7 +1882,6 @@
             poure man, [1493]] </desc>
     </bibl>
     <bibl xml:id="STC10604" n="STC 10604">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2019,7 +1895,6 @@
             <i>Everyman</i>, Pynson, [c. 1515] </desc>
     </bibl>
     <bibl xml:id="STC106045" n="STC 10604.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2033,7 +1908,6 @@
             <i>Everymen</i>, Pynson, [1526-28?] (STC 10604.5, formerly 10603) </desc>
     </bibl>
     <bibl xml:id="STC10606" n="STC 10606">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2049,7 +1923,6 @@
             [1528?] </desc>
     </bibl>
     <bibl xml:id="STC10608" n="STC 10608">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2063,7 +1936,6 @@
             <i>The example of euyll tongues</i>, [London: Wynkyn de Worde, 1525?] </desc>
     </bibl>
     <bibl xml:id="STC106065" n="STC 10606.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2079,7 +1951,6 @@
             1535?] (STC 10606.5, formerly 10605) </desc>
     </bibl>
     <bibl xml:id="STC10659" n="STC 10659">
-        <loc>Printed book</loc>
         <DIMEVCount>63</DIMEVCount>
         <authorstmt>
             <author>Fabyan, Robert</author>
@@ -2093,7 +1964,6 @@
             <name>Fabyan, Robert </name>, <i>New Chronicles of Englande and of Fraunce</i>, Pynson, 1533 </desc>
     </bibl>
     <bibl xml:id="STC10660" n="STC 10660">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author>Fabyan, Robert</author>
@@ -2114,7 +1984,6 @@
             amene</i>, Prentyd at London: by wyllyam Rastell, 1533 [31 Dec.] </desc>
     </bibl>
     <bibl xml:id="STC10661" n="STC 10661">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Fabyan, Robert</author>
@@ -2134,7 +2003,6 @@
             Bonham dwellyng at ye sygne of the kyng his armes in Paules churcheyarde, [1542] </desc>
     </bibl>
     <bibl xml:id="STC10662" n="STC 10662">
-        <loc>Printed book</loc>
         <DIMEVCount>42</DIMEVCount>
         <authorstmt>
             <author>Fabyan, Robert</author>
@@ -2154,7 +2022,6 @@
             at the sygne of saynte George in Pauls churcheyarde, [1542] </desc>
     </bibl>
     <bibl xml:id="STC10663" n="STC 10663">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Fabyan, Robert</author>
@@ -2173,7 +2040,6 @@
             (April)] </desc>
     </bibl>
     <bibl xml:id="STC10664" n="STC 10664">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Fabyan, Robert</author>
@@ -2191,7 +2057,6 @@
             (April)] </desc>
     </bibl>
     <bibl xml:id="STC11691a3" n="STC 11691a.3">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2205,7 +2070,6 @@
             <i>The Jest of Sir Gawaine</i>, John Skot for Johan Butler [1528?] </desc>
     </bibl>
     <bibl xml:id="STC11984" n="STC 11984">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2219,7 +2083,6 @@
             <i>The Knightly tale of Golagros and Gawane</i>, Chepman and Myllar, 1508 </desc>
     </bibl>
     <bibl xml:id="STC120928" n="STC 12092.8">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2239,7 +2102,6 @@
             of the Hors-shoo in Smithfield, [1635?] </desc>
     </bibl>
     <bibl xml:id="STC12138" n="STC 12138">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2253,7 +2115,6 @@
             <i>Gouernayle of Helthe</i>, [Caxton, 1490?] </desc>
     </bibl>
     <bibl xml:id="STC12139" n="STC 12139">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2267,7 +2128,6 @@
             <i>Gouernall of Helthe with the medecyne of the stomacke</i>, de Worde, [1506?] </desc>
     </bibl>
     <bibl xml:id="STC121395" n="STC 12139.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2281,7 +2141,6 @@
             <i>The gouernall of helth</i>, [London: Printed by Wynkyn de Worde, 1530?] </desc>
     </bibl>
     <bibl xml:id="STC12142" n="STC 121342">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2300,7 +2159,6 @@
             our lord a thousand, CCCC, lxxxxiij] </desc>
     </bibl>
     <bibl xml:id="STC12143" n="STC 12143">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2316,7 +2174,6 @@
             printer to the kingis grace, an. M.D.XXXII. [1532] Cum priuilegio </desc>
     </bibl>
     <bibl xml:id="STC12144" n="STC 12144">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2332,7 +2189,6 @@
             the. XII. daie of Marche. An. M.D.LIIII. [1554] </desc>
     </bibl>
     <bibl xml:id="STC12352" n="STC 12352">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2346,7 +2202,6 @@
             <i>[Lyfe of saynt Gregoryes mo[ther]]</i>, [London: [Wynkyn de Worde], [1515]]. </desc>
     </bibl>
     <bibl xml:id="STC12353" n="STC 12353">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2361,7 +2216,6 @@
             [ca. 1536?]]. </desc>
     </bibl>
     <bibl xml:id="STC12540" n="STC 12540">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2375,7 +2229,6 @@
             <i>[The history of Guy of Warwick]</i>, [London?: [R. Pynson, 1500?]]. </desc>
     </bibl>
     <bibl xml:id="STC125415" n="STC 12541.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2389,7 +2242,6 @@
             <i>[The history of Guy of Warwick]</i>, [In Lothbury w. Copland: s.n., ca. 1565]. </desc>
     </bibl>
     <bibl xml:id="STC12542" n="STC 12542">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2404,7 +2256,6 @@
             1553. </desc>
     </bibl>
     <bibl xml:id="STC12477" n="STC 12477">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2418,7 +2269,6 @@
             <i>[The Ghost of Guy]</i>, [Pynson, 1492] </desc>
     </bibl>
     <bibl xml:id="STC127667" n="STC 12766">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Hardyng, John</author>
@@ -2432,7 +2282,6 @@
             <name>Hardyng, John</name>, <i>The Chronicle</i>, R. Grafton, 1543 </desc>
     </bibl>
     <bibl xml:id="STC12767" n="STC 12767">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Hardyng, John</author>
@@ -2446,7 +2295,6 @@
             <name>Hardyng, John</name>, <i>The Chronicle, revised with continuation</i>, R. Grafton, 1543 </desc>
     </bibl>
     <bibl xml:id="STC12943" n="STC 12943">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Hawes, Stephen</author>
@@ -2462,7 +2310,6 @@
             Fletestrete, at the sygne of the Sonne, by Wynken de Worde…, MCCCCCIX [1509] </desc>
     </bibl>
     <bibl xml:id="STC129435" n="STC 12943.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Hawes, Stephen</author>
@@ -2478,7 +2325,6 @@
             Fletestrete, at the sygne of the Sonne, by Wynken de Worde…, MCCCCCIX [1509] </desc>
     </bibl>
     <bibl xml:id="STC129425" n="STC 12942.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Hawes, Stephen</author>
@@ -2498,7 +2344,6 @@
                 souerayne lorder ky[n]ge Henry the eyght…</i>, [London?]: Enprynted by me Wynkyn de Worde </desc>
     </bibl>
     <bibl xml:id="STC12944" n="STC 12944">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Hawes, Stephen</author>
@@ -2514,7 +2359,6 @@
             the sygne of saynt Iohan eua[n]gelyste, by me (J. Skot for) Iohan Butler, (1531?)] </desc>
     </bibl>
     <bibl xml:id="STC129445" n="STC 12944.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Hawes, Stephen</author>
@@ -2530,7 +2374,6 @@
             for Robert Toye, In the yere of our lorde. M.D.LI. [1551] </desc>
     </bibl>
     <bibl xml:id="STC12945" n="STC 12945">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author>Hawes, Stephen</author>
@@ -2544,7 +2387,6 @@
             <name>Hawes, Stephen</name>, <i>The Example of Vertu</i>, [de Worde, 1504?] </desc>
     </bibl>
     <bibl xml:id="STC12946" n="STC 12946">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Hawes, Stephen</author>
@@ -2558,7 +2400,6 @@
             <name>Hawes, Stephen</name>, <i>The Example of Vertu</i>, de Worde, [1520?] </desc>
     </bibl>
     <bibl xml:id="STC12947" n="STC 12947">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Hawes, Stephen</author>
@@ -2572,7 +2413,6 @@
             <name>Hawes, Stephen</name>, <i>The Example of Vertu</i>, de Worde, 1530 </desc>
     </bibl>
     <bibl xml:id="STC12948" n="STC 12948">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Hawes, Stephen</author>
@@ -2586,7 +2426,6 @@
             <name>Hawes, Stephen</name>, <i>[The pastime of pleasure]</i>, [London: W. de Worde, 1509] </desc>
     </bibl>
     <bibl xml:id="STC12949" n="STC 12949">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Hawes, Stephen</author>
@@ -2601,7 +2440,6 @@
             1517 </desc>
     </bibl>
     <bibl xml:id="STC12950" n="STC 12950">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Hawes, Stephen</author>
@@ -2622,7 +2460,6 @@
             gracious letters patentes, [1554] </desc>
     </bibl>
     <bibl xml:id="STC12951" n="STC 12951">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Hawes, Stephen</author>
@@ -2643,7 +2480,6 @@
             Anno domini. 1555 </desc>
     </bibl>
     <bibl xml:id="STC12952" n="STC 12952">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Hawes, Stephen</author>
@@ -2663,7 +2499,6 @@
             London: In forster lane, by (W. Copland for) Ihon Waley], Anno domini. 1555 </desc>
     </bibl>
     <bibl xml:id="STC12953" n="STC 12953">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Hawes, Stephen</author>
@@ -2681,7 +2516,6 @@
             sygne of the sonne by Wynkyn de Worde, [1509]] </desc>
     </bibl>
     <bibl xml:id="STC129735" n="STC 12973.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2697,7 +2531,6 @@
             Pynson, ca. 1515 </desc>
     </bibl>
     <bibl xml:id="STC13075" n="STC 13075">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2711,7 +2544,6 @@
             <i>[Elegy on the Death of Henry VII]</i>, [de Worde, 1509] </desc>
     </bibl>
     <bibl xml:id="STC13148" n="STC 13148">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2727,7 +2559,6 @@
                 work by J. Blair]</i>, [Edinburgh: W. Chepman and A. Myllar, 1508?] </desc>
     </bibl>
     <bibl xml:id="STC13149" n="STC 13149">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2747,7 +2578,6 @@
             LXX. [1570]] </desc>
     </bibl>
     <bibl xml:id="STC13165" n="STC 13165">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Henryson, Robert</author>
@@ -2761,7 +2591,6 @@
             <name>Henryson, Robert</name>, <i>The Testament of Cresseid</i>, H. Charteris, 1593 </desc>
     </bibl>
     <bibl xml:id="STC13166" n="STC 13166">
-        <loc>Printed book</loc>
         <DIMEVCount>3</DIMEVCount>
         <authorstmt>
             <author>Henryson, Robert</author>
@@ -2778,7 +2607,6 @@
             Myllar, 1508?] </desc>
     </bibl>
     <bibl xml:id="STC13179" n="STC 13179">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2792,7 +2620,6 @@
             <i>The Greate Herball</i>, J. Kynge, 1561 </desc>
     </bibl>
     <bibl xml:id="STC13438" n="STC 13438">
-        <loc>Printed book</loc>
         <DIMEVCount>6</DIMEVCount>
         <authorstmt>
             <author>Higden, Ranulphus (trans. John Trevisa)</author>
@@ -2806,7 +2633,6 @@
             <name>Higden, Ranulphus (trans. John Trevisa)</name>, <i>Polychronicon</i>, Caxton, [1482] </desc>
     </bibl>
     <bibl xml:id="STC13439" n="STC 13439">
-        <loc>Printed book</loc>
         <DIMEVCount>6</DIMEVCount>
         <authorstmt>
             <author>Higden, Ranulphus (trans. John Trevisa)</author>
@@ -2820,7 +2646,6 @@
             <name>Higden, Ranulphus (trans. John Trevisa)</name>, <i>Polychronicon</i>, de Worde, 1495 </desc>
     </bibl>
     <bibl xml:id="STC13440" n="STC 13440">
-        <loc>Printed book</loc>
         <DIMEVCount>6</DIMEVCount>
         <authorstmt>
             <author>Higden, Ranulphus (trans. John Trevisa)</author>
@@ -2835,7 +2660,6 @@
             1527 </desc>
     </bibl>
     <bibl xml:id="STC13440a" n="STC 13440a">
-        <loc>Printed book</loc>
         <DIMEVCount>9</DIMEVCount>
         <authorstmt>
             <author>Higden, Ranulphus (trans. John Trevisa)</author>
@@ -2850,7 +2674,6 @@
                 Irlonde</i>, Caxton, 1480 </desc>
     </bibl>
     <bibl xml:id="STC13440b" n="STC 13440b">
-        <loc>Printed book</loc>
         <DIMEVCount>6</DIMEVCount>
         <authorstmt>
             <author>Higden, Ranulphus (trans. John Trevisa)</author>
@@ -2865,7 +2688,6 @@
                 Irlonde</i>, de Worde, 1498 </desc>
     </bibl>
     <bibl xml:id="STC13445" n="STC 13445">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author>Higgins, John</author>
@@ -2879,7 +2701,6 @@
             <name>Higgins, John</name>, <i>The mirour for m[a]gistrates</i>, H. Marsh, 1587 </desc>
     </bibl>
     <bibl xml:id="STC13568" n="STC 13568">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Holinshed, Raphael</author>
@@ -2894,7 +2715,6 @@
         </desc>
     </bibl>
     <bibl xml:id="STC13594" n="STC 13594">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Holinshed, Raphael</author>
@@ -2908,7 +2728,6 @@
             <name>Holinshed, Raphael</name>, <i>[Buke of the Howlat]</i>, [Chepman and Myllar, 1508] </desc>
     </bibl>
     <bibl xml:id="STC13688" n="STC 13688">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2922,7 +2741,6 @@
             <i>A little gest of Robin Hood</i>, [R. Pynson, 1500?] </desc>
     </bibl>
     <bibl xml:id="STC13689" n="STC 13689">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2936,7 +2754,6 @@
             <i>A Lytell Gest of Robyn Hode</i>, de Worde, c. 1519 </desc>
     </bibl>
     <bibl xml:id="STC136893" n="STC 13689.3">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2950,7 +2767,6 @@
             <i>[Here begynneth a lytell geste of Robyn hode]</i>, [York: Hugh Goes, not after 1509] </desc>
     </bibl>
     <bibl xml:id="STC136895" n="STC 13689.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2964,7 +2780,6 @@
             <i>[Here begynneth a gest of Robyn hode] </i>, [S.l: s.n., between 1510-1515] </desc>
     </bibl>
     <bibl xml:id="STC13690" n="STC 13690">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2978,7 +2793,6 @@
             <i>[Here begynneth a gest of Robyn hode]</i>, [London: Julian Notary, ca. 1515?] </desc>
     </bibl>
     <bibl xml:id="STC14042" n="STC 14042">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -2991,7 +2805,6 @@
         <desc> Walter Hylton, <i>Scala Perfeccionis</i>, [de Worde], 1494 </desc>
     </bibl>
     <bibl xml:id="STC14077c9" n="STC 14077c.9">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3006,7 +2819,6 @@
             1490.] </desc>
     </bibl>
     <bibl xml:id="STC14045" n="STC 14045">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Hylton, Walter</author>
@@ -3023,7 +2835,6 @@
             M.CCCCC.xxxiij. [1533] the. xxvij. daye of Maye. </desc>
     </bibl>
     <bibl xml:id="STC142805" n="STC 14280.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3037,7 +2848,6 @@
             <i>The hystory of Syr Isembras</i>, [J. Skot, c. 1530] </desc>
     </bibl>
     <bibl xml:id="STC142807" n="STC 14280.7">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3051,7 +2861,6 @@
             <i>The hystory of Syr Isembras</i>, [P. Treveris, c. 1530] </desc>
     </bibl>
     <bibl xml:id="STC14281" n="STC 14281">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3065,7 +2874,6 @@
             <i>The hystory of Syr Isembras</i>, [c. 1560] </desc>
     </bibl>
     <bibl xml:id="STC14282" n="STC 14282">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3079,7 +2887,6 @@
             <i>The history of the Valyent Knyght, Syr Isenbras</i>, Copland, [c. 1565?] </desc>
     </bibl>
     <bibl xml:id="STC14477" n="STC 14477">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Skelton, John</author>
@@ -3094,7 +2901,6 @@
                 Beddeforde</i>, [London: R. Pynson, [1496]] ]</desc>
     </bibl>
     <bibl xml:id="STC14521" n="STC 14521">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3108,7 +2914,6 @@
             <i>A Merry Ieste of a Shrewde and Curste Wyfe</i>, H. Jackson, [1580?] </desc>
     </bibl>
     <bibl xml:id="STC14522" n="STC 14522">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3122,7 +2927,6 @@
             <i>A Mery Geste of the Frere and the Boye</i>, de Worde, [1510-13] </desc>
     </bibl>
     <bibl xml:id="STC145465" n="STC 14546.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3138,7 +2942,6 @@
                 royall feest. [In verse.]</i>, London [W. de Worde,] [1534?] </desc>
     </bibl>
     <bibl xml:id="STC14550" n="STC 14550">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3152,7 +2955,6 @@
             <i>A Gloryous Medytacyon of Ihesus Crystes Passyon</i>, R. Fakes, [c. 1523] </desc>
     </bibl>
     <bibl xml:id="STC145225" n="STC 14522.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3166,7 +2968,6 @@
             <i>A Mery Geste of the Frere and the Boye</i>, Myddylton, [c. 1545] </desc>
     </bibl>
     <bibl xml:id="STC145227" n="STC 14522.7">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3180,7 +2981,6 @@
             <i>A Mery Jest of the Frier and the Boy</i>, E. Alde, [1584-89] </desc>
     </bibl>
     <bibl xml:id="STC14563" n="STC 14563">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3194,7 +2994,6 @@
             <i>The Psalter of Jesus</i>, Coplande, 1529 </desc>
     </bibl>
     <bibl xml:id="STC14806" n="STC 14806">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3212,7 +3011,6 @@
             strete at the sygne of the sonne by me Wynken de Worde, [1511?]] </desc>
     </bibl>
     <bibl xml:id="STC151185" n="STC 15118.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lacy, John</author>
@@ -3226,7 +3024,6 @@
             <name>Lacy, John</name>, <i>wyl bucke his testament</i>, Copland, [c. 1560] </desc>
     </bibl>
     <bibl xml:id="STC15187" n="STC 15187">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3240,7 +3037,6 @@
             <i>The treatyse of Sir Lamwell</i>, [J. Mychell, 1548] </desc>
     </bibl>
     <bibl xml:id="STC152575" n="STC 15257.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>La Sale, Antoine de; trans. Robert Copland (?)</author>
@@ -3255,7 +3051,6 @@
             [London: Wynkyn de Worde, ca. 1507] </desc>
     </bibl>
     <bibl xml:id="STC15258" n="STC 15258">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>La Sale, Antoine de; trans. Robert Copland (?)</author>
@@ -3270,7 +3065,6 @@
             [London: Wynkyn de Worde, 1509] </desc>
     </bibl>
     <bibl xml:id="STC15345" n="STC 15345">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3284,7 +3078,6 @@
             <i>The iiii leues of the Trueloue</i>, de Worde, [1510?] </desc>
     </bibl>
     <bibl xml:id="STC15914" n="STC 15914">
-        <loc>Printed book</loc>
         <DIMEVCount>3</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3298,7 +3091,6 @@
             <i>Horae Marie Virginis secundum usum Sarum</i>, de Worde, 1513 </desc>
     </bibl>
     <bibl xml:id="STC15917" n="STC 15917">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3312,7 +3104,6 @@
             <i>Hore Beate Marie Virginis</i>, Pynson, 1514 </desc>
     </bibl>
     <bibl xml:id="STC15932" n="STC 15932">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3329,7 +3120,6 @@
             fakes Lodoii [sic] librario, [1521?]] </desc>
     </bibl>
     <bibl xml:id="STC15950" n="STC 15950">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3349,7 +3139,6 @@
             Clephatis, [1527] </desc>
     </bibl>
     <bibl xml:id="STC15951" n="STC 15951">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3369,7 +3158,6 @@
             Parisijs: a Fra[n]cisco Regnault In vico sa[n]cti Iacobi, sub signo Elepha[n]tis., 1527 </desc>
     </bibl>
     <bibl xml:id="STC15954" n="STC 15954">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3388,7 +3176,6 @@
             Regnault, [10 Oct.] 1527 </desc>
     </bibl>
     <bibl xml:id="STC15999" n="STC 15999">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -3408,7 +3195,6 @@
             in Fletestrete, at the synge of the Sonne, by me Iohan Byddell, [1537?]] </desc>
     </bibl>
     <bibl xml:id="STC17005" n="STC 17005">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3425,7 +3211,6 @@
             1498] </desc>
     </bibl>
     <bibl xml:id="STC17006" n="STC 17006">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3442,7 +3227,6 @@
             Worde, ca. 1500] </desc>
     </bibl>
     <bibl xml:id="STC17007" n="STC 17007">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3457,7 +3241,6 @@
             [Westminster?: Printed by Wynkyn de Worde, 1500?] </desc>
     </bibl>
     <bibl xml:id="STC17008" n="STC 17008">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3471,7 +3254,6 @@
             <name>Lydgate, John</name>, <i>[The chorle and the birde]</i>, [Westminster: W. Caxton, 1477?] </desc>
     </bibl>
     <bibl xml:id="STC17009" n="STC 17009">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3486,7 +3268,6 @@
         </desc>
     </bibl>
     <bibl xml:id="STC17010" n="STC 17010">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3504,7 +3285,6 @@
                 moralities concludynge on prudence</i>, [London]: [Emprentyt by me Richard Pinson], [1493] </desc>
     </bibl>
     <bibl xml:id="STC17011" n="STC 17011">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3519,7 +3299,6 @@
             me Richard Pinson], [1493] </desc>
     </bibl>
     <bibl xml:id="STC17012" n="STC 17012">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3535,7 +3314,6 @@
             the Flete strete in the sygne of the sonne by Wynkyn de Worde, [1510?]] </desc>
     </bibl>
     <bibl xml:id="STC17013" n="STC 17013">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3550,7 +3328,6 @@
             In Caxtons house by Wynken de worde, 1497?] </desc>
     </bibl>
     <bibl xml:id="STC17014" n="STC 17014">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3566,7 +3343,6 @@
             against Sainct Margarytes church by me Wyllam Copland, [ca. 1565]] </desc>
     </bibl>
     <bibl xml:id="STC170143" n="STC 17014.3">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3581,7 +3357,6 @@
             17014.3; formerly STC 5099) </desc>
     </bibl>
     <bibl xml:id="STC170147" n="STC 17014.7">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3596,7 +3371,6 @@
             [1531?] </desc>
     </bibl>
     <bibl xml:id="STC17015" n="STC 17015">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3612,7 +3386,6 @@
             the sygne of the sonne by Wynkyn de Worde, ye yere of our lorde a. M.CCCCC. &amp; X (1510)] </desc>
     </bibl>
     <bibl xml:id="STC17016" n="STC 17016">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3627,7 +3400,6 @@
             by William Caxton, 1480] </desc>
     </bibl>
     <bibl xml:id="STC17017" n="STC 17017">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John, and Benedict Burgh</author>
@@ -3642,7 +3414,6 @@
             17017; formerly also STC 12140) </desc>
     </bibl>
     <bibl xml:id="STC17018" n="STC 17018">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3656,7 +3427,6 @@
             <name>Lydgate, John</name>, <i>The Horse the Ghoos &amp; the Sheep</i>, [Caxton, 1477-78] </desc>
     </bibl>
     <bibl xml:id="STC17019" n="STC 17019">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3670,7 +3440,6 @@
             <name>Lydgate, John</name>, <i>The Hors, the Sheep, &amp; the Ghoos</i>, [Caxton, 1477-78] </desc>
     </bibl>
     <bibl xml:id="STC17020" n="STC 17020">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3684,7 +3453,6 @@
             <name>Lydgate, John</name>, <i>The Horse, the Sheep and the Ghoos</i>, [de Worde, c. 1495] </desc>
     </bibl>
     <bibl xml:id="STC17021" n="STC 17021">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3698,7 +3466,6 @@
             <name>Lydgate, John</name>, <i>The Horse, the Sheep and the Goos</i>, [de Worde, 1499?] </desc>
     </bibl>
     <bibl xml:id="STC17022" n="STC 17022">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3712,7 +3479,6 @@
             <name>Lydgate, John</name>, <i>The Horse, the Shepe &amp; the Goos</i>, [de Worde, 1500] </desc>
     </bibl>
     <bibl xml:id="STC17023" n="STC 17023">
-        <loc>Printed book</loc>
         <DIMEVCount>4</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3726,7 +3492,6 @@
             <name>Lydgate, John</name>, <i>The lyf of our lady</i>, Caxton, [1484] </desc>
     </bibl>
     <bibl xml:id="STC17024" n="STC 17024">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3740,7 +3505,6 @@
             <name>Lydgate, John</name>, <i>The lyf of our lady</i>, Caxton, [1484] </desc>
     </bibl>
     <bibl xml:id="STC17025" n="STC 17025">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3754,7 +3518,6 @@
             <name>Lydgate, John</name>, <i>The lyf of our lady</i>, R. Redman, 1531 </desc>
     </bibl>
     <bibl xml:id="STC17026" n="STC 17026">
-        <loc>Printed book</loc>
         <DIMEVCount>5</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3768,7 +3531,6 @@
             <name>Lydgate, John</name>, <i>The prouerbes of Lydgate</i>, de Worde, [1510?] </desc>
     </bibl>
     <bibl xml:id="STC17027" n="STC 17027">
-        <loc>Printed book</loc>
         <DIMEVCount>4</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3782,7 +3544,6 @@
             <name>Lydgate, John</name>, <i>The prouerbes of Lydgate</i>, de Worde, [1520?] </desc>
     </bibl>
     <bibl xml:id="STC170275" n="STC 17027.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3800,7 +3561,6 @@
             Roberte Redman, dwellynge at London in Flete Strete at the sygne of the George, [ca. 1535] </desc>
     </bibl>
     <bibl xml:id="STC17028" n="STC 17028">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3819,7 +3579,6 @@
             [1559] the. iiii. of May </desc>
     </bibl>
     <bibl xml:id="STC17029" n="STC 17029">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3843,7 +3602,6 @@
             Perrin, and are to be sold in Paules Church yard, at the signe of the Angell, 1590 </desc>
     </bibl>
     <bibl xml:id="STC17030" n="STC 17030">
-        <loc>Printed book</loc>
         <DIMEVCount>7</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3858,7 +3616,6 @@
             1476?] </desc>
     </bibl>
     <bibl xml:id="STC17031" n="STC 17031">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3872,7 +3629,6 @@
             <name>Lydgate, John</name>, <i>The Storye [of The Siege] of Thebes,</i> [de Worde, 1497?] </desc>
     </bibl>
     <bibl xml:id="STC17032" n="STC 17032">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3886,7 +3642,6 @@
             <name>Lydgate, John</name>, <i>The Temple of Glas</i>, [Caxton, 1477?] </desc>
     </bibl>
     <bibl xml:id="STC17032a" n="STC 17032a">
-        <loc>Printed book</loc>
         <DIMEVCount>4</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3900,7 +3655,6 @@
             <name>Lydgate, John</name>, <i>The Temple of Glas</i>, [de Worde, 1495?] </desc>
     </bibl>
     <bibl xml:id="STC17033" n="STC 17033">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3914,7 +3668,6 @@
             <name>Lydgate, John</name>, <i>The Temple of Glas</i>, [de Worde, 1500?] </desc>
     </bibl>
     <bibl xml:id="STC170333" n="STC 17033.3">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3928,7 +3681,6 @@
             <name>Lydgate, John</name>, <i>The Temple of Glas</i>, Pynson, [1503] </desc>
     </bibl>
     <bibl xml:id="STC170337" n="STC 17033.7">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3942,7 +3694,6 @@
             <name>Lydgate, John</name>, <i>The Temple of Glas</i>, de Worde, [1506?] </desc>
     </bibl>
     <bibl xml:id="STC17034" n="STC 17034">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3956,7 +3707,6 @@
             <name>Lydgate, John</name>, <i>The Temple of Glad</i>, Berthelet, [1529?] </desc>
     </bibl>
     <bibl xml:id="STC17035" n="STC 17035">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3971,7 +3721,6 @@
         </desc>
     </bibl>
     <bibl xml:id="STC17037" n="STC 17037">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3985,7 +3734,6 @@
             <name>Lydgate, John</name>, <i>Verses on the seven virtues</i>, [London? 1500?] </desc>
     </bibl>
     <bibl xml:id="STC170375" n="STC 17037.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -3999,7 +3747,6 @@
             <name>Lydgate, John</name>, <i>[The virtue of the mass]</i>, [W. de Worde, c. 1500] </desc>
     </bibl>
     <bibl xml:id="STC17038" n="STC 17038">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -4013,7 +3760,6 @@
             <name>Lydgate, John</name>, <i>The vertue of y<sup>e</sup> masse</i>, W. de Worde, [1520?] </desc>
     </bibl>
     <bibl xml:id="STC17537" n="STC 17537">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -4029,7 +3775,6 @@
             the sygne of the sonne, by Wynkyn de Worde, [1510?]] </desc>
     </bibl>
     <bibl xml:id="STC17539" n="STC 17539">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4043,7 +3788,6 @@
             <i>The myracles of oure blessyd Lady</i>, Westminster: Wynkyn de Worde, [1496] </desc>
     </bibl>
     <bibl xml:id="STC175425" n="STC 17542.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4057,7 +3801,6 @@
             <i>Our Ladyes Chambre, or Parler</i>, [R. Wyer, 1533?] </desc>
     </bibl>
     <bibl xml:id="STC17778" n="STC 17778">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Medwall, Henry</author>
@@ -4072,7 +3815,6 @@
         </desc>
     </bibl>
     <bibl xml:id="STC17779" n="STC 17779">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Medwall, Henry</author>
@@ -4089,7 +3831,6 @@
                 Canterbury</i>, [London: Printed by William Rastell, between 1529 and 1535] </desc>
     </bibl>
     <bibl xml:id="STC17841" n="STC 17841">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4104,7 +3845,6 @@
             Wynkyn de Worde, 1510. </desc>
     </bibl>
     <bibl xml:id="STC178417" n="STC 17841.7">
-        <loc>Printed book</loc>
         <DIMEVCount>4</DIMEVCount>
         <authorstmt>
             <author>Merlin</author>
@@ -4120,7 +3860,6 @@
                 Denmark</i>, Waldegrave, 1603 [not pr. by Waldegrave, possibly a London piracy] </desc>
     </bibl>
     <bibl xml:id="STC17957" n="STC 17957">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Mirk, John</author>
@@ -4137,7 +3876,6 @@
             Enprynted by wylliam Caxton at westmestre, [1483 (30 June)]] </desc>
     </bibl>
     <bibl xml:id="STC17958" n="STC 17958">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Mirk, John</author>
@@ -4152,7 +3890,6 @@
         </desc>
     </bibl>
     <bibl xml:id="STC17959" n="STC 17959">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Mirk, John</author>
@@ -4167,7 +3904,6 @@
             Caxton, 1491] </desc>
     </bibl>
     <bibl xml:id="STC17960" n="STC 17960">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Mirk, John</author>
@@ -4182,7 +3918,6 @@
             Pinsone, 1493] </desc>
     </bibl>
     <bibl xml:id="STC17961" n="STC 17961">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Mirk, John</author>
@@ -4197,7 +3932,6 @@
             Pinsone, 1493] </desc>
     </bibl>
     <bibl xml:id="STC17962" n="STC 17962">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Mirk, John</author>
@@ -4212,7 +3946,6 @@
             anno domini. M.cccc.lxxxxiii. [1493 [i.e., 1494]] </desc>
     </bibl>
     <bibl xml:id="STC17963" n="STC 17963">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Mirk, John</author>
@@ -4228,7 +3961,6 @@
             [Printed by J. Ravynell], Anno domini millesimo quadringentesimo nonagesimoquinto [1495]] </desc>
     </bibl>
     <bibl xml:id="STC17964" n="STC 17964">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Mirk, John</author>
@@ -4245,7 +3977,6 @@
             nonagesimoquinto [1495]] </desc>
     </bibl>
     <bibl xml:id="STC17965" n="STC 17965">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Mirk, John</author>
@@ -4260,7 +3991,6 @@
             westmonasterio: [Wynkyn de Worde], Anno [et]c.lxxxxvi [i.e. 1496]] </desc>
     </bibl>
     <bibl xml:id="STC179665" n="STC 17966.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Mirk, John</author>
@@ -4278,7 +4008,6 @@
             M. cccc. nonagesimonono. sexto die mensis Iulii. [1499]] </desc>
     </bibl>
     <bibl xml:id="STC17967" n="STC 17967">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Mirk, John</author>
@@ -4294,7 +4023,6 @@
             Westmonasterio]: [By Wynkyn de Worde], [Anno dni .M. cccc. nonagesimonono.] [1499] </desc>
     </bibl>
     <bibl xml:id="STC17968" n="STC 17968">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Mirk, John</author>
@@ -4311,7 +4039,6 @@
             [1499] </desc>
     </bibl>
     <bibl xml:id="STC18076" n="STC 18076">
-        <loc>Printed book</loc>
         <DIMEVCount>3</DIMEVCount>
         <authorstmt>
             <author>More, Thomas</author>
@@ -4325,7 +4052,6 @@
             <name>More, Thomas</name>, <i>Workes in the Englyssh Tonge</i>, ed. Rastell, Tottell, 1557 </desc>
     </bibl>
     <bibl xml:id="STC180785" n="STC 18078.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>More, Thomas</author>
@@ -4346,7 +4072,6 @@
             Crosse, [ca. 1540] </desc>
     </bibl>
     <bibl xml:id="STC18091" n="STC 18091">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>More, Thomas</author>
@@ -4363,7 +4088,6 @@
             sygne of saynt Marke, [1516?]] </desc>
     </bibl>
     <bibl xml:id="STC18475" n="STC 18475">
-        <loc>Printed book</loc>
         <DIMEVCount>3</DIMEVCount>
         <authorstmt>
             <author>Neville, William</author>
@@ -4385,7 +4109,6 @@
             at the sygne of the Sonne by Wynkyn de worde, [1530?]] </desc>
     </bibl>
     <bibl xml:id="STC18476" n="STC 18476">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Neville, William</author>
@@ -4407,7 +4130,6 @@
             enprynted in poules churchayrde [sic] at the sygne of the Trynyte by me Hary Pepwell, 1518 </desc>
     </bibl>
     <bibl xml:id="STC18779" n="STC 18779">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4422,7 +4144,6 @@
         </desc>
     </bibl>
     <bibl xml:id="STC18846" n="STC 18846">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author>Origen</author>
@@ -4437,7 +4158,6 @@
             1505?]</desc>
     </bibl>
     <bibl xml:id="STC18932" n="STC 18932">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4452,7 +4172,6 @@
             1630] </desc>
     </bibl>
     <bibl xml:id="STC19119" n="STC 19119">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John, trans.</author>
@@ -4467,7 +4186,6 @@
             1530]</desc>
     </bibl>
     <bibl xml:id="STC19209" n="STC 19209">
-        <loc>Printed book</loc>
         <DIMEVCount>3</DIMEVCount>
         <authorstmt>
             <author>Paris, Matthew</author>
@@ -4481,7 +4199,6 @@
             <name>Paris, Matthew</name>, <i>Angli Historia Major</i>, R. Wulfium, 1571 </desc>
     </bibl>
     <bibl xml:id="STC19212" n="STC 19212">
-        <loc>Printed book</loc>
         <DIMEVCount>3</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4495,7 +4212,6 @@
             <i>Diues &amp; pauper</i>, Pynson, 1493 </desc>
     </bibl>
     <bibl xml:id="STC19213" n="STC 19213">
-        <loc>Printed book</loc>
         <DIMEVCount>6</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4509,7 +4225,6 @@
             <i>Diues &amp; pauper</i>, de Worde, 1496 </desc>
     </bibl>
     <bibl xml:id="STC19214" n="STC 19214">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4523,7 +4238,6 @@
             <i>Diues &amp; pauper</i>, Berthelet, 1536 </desc>
     </bibl>
     <bibl xml:id="STC19305" n="STC 19305">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4537,7 +4251,6 @@
             <i>The parlyament of deuylles</i>, de Worde 1509 </desc>
     </bibl>
     <bibl xml:id="STC19528" n="STC 19528">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Rolland, John</author>
@@ -4556,7 +4269,6 @@
                 impression</i>, Imprinted at Edinburgh: Be Robert Charteris, 1603 </desc>
     </bibl>
     <bibl xml:id="STC197673" n="STC 19767.3">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Perottus, Nicolaus</author>
@@ -4571,7 +4283,6 @@
             Worde, 1512 </desc>
     </bibl>
     <bibl xml:id="STC19812" n="STC 19812">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4585,7 +4296,6 @@
             <i>The parfite lyfe to put in remembraunce…</i>, [London]: Emprynted by Rychard Pynson, [1495?] </desc>
     </bibl>
     <bibl xml:id="STC19904" n="STC 19904">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4600,7 +4310,6 @@
             [1553]] </desc>
     </bibl>
     <bibl xml:id="STC19908" n="STC 19908">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4614,7 +4323,6 @@
             <i>Pierce the Ploughmans Crede</i>, R. Wolfe, 1553 </desc>
     </bibl>
     <bibl xml:id="STC199175" n="STC 19117.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4632,7 +4340,6 @@
             lord a. M.CCCCC. and viij. the. v. daye of December] [1508] </desc>
     </bibl>
     <bibl xml:id="STC19118" n="STC 19118">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4650,7 +4357,6 @@
             lord a. M.CCCCC. and viij. the. v. daye of December] [1508] </desc>
     </bibl>
     <bibl xml:id="STC20195" n="STC 20195">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4664,7 +4370,6 @@
             <i>[Fifteen Oes]</i>, Caxton, [1491] </desc>
     </bibl>
     <bibl xml:id="STC20034" n="STC 20034">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4679,7 +4384,6 @@
             Worde], 1510] </desc>
     </bibl>
     <bibl xml:id="STC20196" n="STC 20196">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4693,7 +4397,6 @@
             <i>[Fifteen Oes]</i>, Coplande, 1529 </desc>
     </bibl>
     <bibl xml:id="STC204393" n="STC 20439.3">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4707,7 +4410,6 @@
             <i>The Proprytees and medycynes for Hors</i>, [de Worde, 1502?] </desc>
     </bibl>
     <bibl xml:id="STC204395" n="STC 20439.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4722,7 +4424,6 @@
         </desc>
     </bibl>
     <bibl xml:id="STC20509" n="STC 20509">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Purchas, Samuel</author>
@@ -4737,7 +4438,6 @@
             Fetherstone, 1625 </desc>
     </bibl>
     <bibl xml:id="STC207003" n="STC 20700.3">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author>Rastell, John</author>
@@ -4752,7 +4452,6 @@
                 her…</i>, [S.l.: J. Rastell, ca. 1525] </desc>
     </bibl>
     <bibl xml:id="STC20722" n="STC 20722">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Rastell, John</author>
@@ -4776,7 +4475,6 @@
                 wyll not be paste thre quarters of an hour of length</i>, [London: J. Rastell, 1520?] </desc>
     </bibl>
     <bibl xml:id="STC20724" n="STC 20724">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author>Rastell, John</author>
@@ -4794,7 +4492,6 @@
                 mearemayd next to pollys gate. Cum priuilegio</i>, [London: Printed by John Rastell, 1530?] </desc>
     </bibl>
     <bibl xml:id="STC208813" n="STC 20881.3">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lichfield, William</author>
@@ -4812,7 +4509,6 @@
                 of our lorde</i>, [London: Wynkyn de Worde, ca. 1510] </desc>
     </bibl>
     <bibl xml:id="STC20954" n="STC 20954">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Rhodes, Hugh</author>
@@ -4827,7 +4523,6 @@
                 Mensam</i>, A. Veale, [1560?] </desc>
     </bibl>
     <bibl xml:id="STC20972" n="STC 20972">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Richard, of St. Victor</author>
@@ -4847,7 +4542,6 @@
             Imprynted at London: in Poules chyrchyarde at the Sygne of the Trynyte by Henry Pepwell, 1521 </desc>
     </bibl>
     <bibl xml:id="STC21007" n="STC 21007">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4865,7 +4559,6 @@
             our lorde god. M.CCCCC. ix. [1509]] </desc>
     </bibl>
     <bibl xml:id="STC21070" n="STC 21070">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4883,7 +4576,6 @@
             worde, [1500?]] </desc>
     </bibl>
     <bibl xml:id="STC21071" n="STC 21071">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4899,7 +4591,6 @@
             Worde, [1517?]] </desc>
     </bibl>
     <bibl xml:id="STC212862" n="STC 21286.2">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4915,7 +4606,6 @@
             in the sygne of the Sonne. By wynkyn de worde, [1502?]a </desc>
     </bibl>
     <bibl xml:id="STC21298" n="STC 21298">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4931,7 +4621,6 @@
                 narrac[i]ons. [et] to ye reder ryght delectable</i>, London: Wynkyn de Worde, 1506 </desc>
     </bibl>
     <bibl xml:id="STC21299" n="STC 21299">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4947,7 +4636,6 @@
                 ioyous narracio[n]s, and to the reder ryght delectable</i>, London: WIlliam Copland, 1555 </desc>
     </bibl>
     <bibl xml:id="STC212993" n="STC 21299.3">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4966,7 +4654,6 @@
             to the reader, 1546 </desc>
     </bibl>
     <bibl xml:id="STC21429" n="STC 21429">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Caxton, William, trans.</author>
@@ -4981,7 +4668,6 @@
             [Westminster: William Caxton, about 1486] </desc>
     </bibl>
     <bibl xml:id="STC21499" n="STC 21499">
-        <loc>Printed book</loc>
         <DIMEVCount>3</DIMEVCount>
         <authorstmt>
             <author/>
@@ -4996,7 +4682,6 @@
             D[exter], 1597 </desc>
     </bibl>
     <bibl xml:id="STC21790" n="STC 21790">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5010,7 +4695,6 @@
             F. Regnault?], 1538 </desc>
     </bibl>
     <bibl xml:id="STC22408" n="STC 22408">
-        <loc>Printed book</loc>
         <DIMEVCount>5</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5024,7 +4708,6 @@
             <i>Kalender of Shepherdes</i>, R. Pynson, 1506 </desc>
     </bibl>
     <bibl xml:id="STC22410" n="STC 22410">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5038,7 +4721,6 @@
             <i>Kalendar of shepardes</i>, [J. Notary, 1518?] </desc>
     </bibl>
     <bibl xml:id="STC22593" n="STC 22593">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Skelton, John</author>
@@ -5052,7 +4734,6 @@
             <name>Skelton, John</name>, <i>A ballade of the Scottysshe kynge</i>, [London: R. Faques, 1513] </desc>
     </bibl>
     <bibl xml:id="STC22594" n="STC 22594">
-        <loc>Printed book</loc>
         <DIMEVCount>3</DIMEVCount>
         <authorstmt>
             <author>Skelton, John</author>
@@ -5067,7 +4748,6 @@
         </desc>
     </bibl>
     <bibl xml:id="STC22597" n="STC 22597">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Skelton, John</author>
@@ -5081,7 +4761,6 @@
             <name>Skelton, John</name>, <i>The Bowge of Courte</i>, de Worde, [1499?] </desc>
     </bibl>
     <bibl xml:id="STC22598" n="STC 22598">
-        <loc>Printed book</loc>
         <DIMEVCount>7</DIMEVCount>
         <authorstmt>
             <author>Skelton, John</author>
@@ -5096,7 +4775,6 @@
             [1545?] </desc>
     </bibl>
     <bibl xml:id="STC22599" n="STC 22599">
-        <loc>Printed book</loc>
         <DIMEVCount>6</DIMEVCount>
         <authorstmt>
             <author>Skelton, John</author>
@@ -5111,7 +4789,6 @@
         </desc>
     </bibl>
     <bibl xml:id="STC22600" n="STC 22600">
-        <loc>Printed book</loc>
         <DIMEVCount>4</DIMEVCount>
         <authorstmt>
             <author>Skelton, John</author>
@@ -5133,7 +4810,6 @@
             Tunning of Elynoure Rummyng. Imprynted at London: by Jhon [sic] Day, [1563?] </desc>
     </bibl>
     <bibl xml:id="STC226005" n="STC 22600.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Skelton, John</author>
@@ -5148,7 +4824,6 @@
             Godfray,] [1531?] </desc>
     </bibl>
     <bibl xml:id="STC22601" n="STC 22601">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Skelton, John</author>
@@ -5166,7 +4841,6 @@
             the powltry at the long shop vnder saynt Myldredes. chyrche, [1545?]] </desc>
     </bibl>
     <bibl xml:id="STC22604" n="STC 22604">
-        <loc>Printed book</loc>
         <DIMEVCount>5</DIMEVCount>
         <authorstmt>
             <author>Skelton, John</author>
@@ -5180,7 +4854,6 @@
             <name>Skelton, John</name>, <i>Dyuers Balettys and Dyties Solacyous</i>, [Rastell, 1528?] </desc>
     </bibl>
     <bibl xml:id="STC22607" n="STC 22607">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Skelton, John</author>
@@ -5195,7 +4868,6 @@
             Rastell, 1530?] </desc>
     </bibl>
     <bibl xml:id="STC22608" n="STC 22608">
-        <loc>Printed book</loc>
         <DIMEVCount>18</DIMEVCount>
         <authorstmt>
             <author>Skelton, John</author>
@@ -5210,7 +4882,6 @@
             Stow, T. Marshe [1568] </desc>
     </bibl>
     <bibl xml:id="STC22609" n="STC 22609">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Skelton, John</author>
@@ -5234,7 +4905,6 @@
                 priuilegio a rege indulto</i>. [[London]: Impri[n]ted by Richard Pynson, [1528]] </desc>
     </bibl>
     <bibl xml:id="STC22610" n="STC 22610">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author>Skelton, John</author>
@@ -5248,7 +4918,6 @@
             <name>Skelton, John</name>, <i>A Goodly Garlande or Chapelet of Laurell</i>, R. Faukes, 1523 </desc>
     </bibl>
     <bibl xml:id="STC22611" n="STC 22611">
-        <loc>Printed book</loc>
         <DIMEVCount>3</DIMEVCount>
         <authorstmt>
             <author>Skelton, John</author>
@@ -5266,7 +4935,6 @@
                 polytyke poems [and] poettys matryculat</i>, [J. Rastell, 1527?] </desc>
     </bibl>
     <bibl xml:id="STC22615" n="STC 22615">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Skelton, John</author>
@@ -5285,7 +4953,6 @@
         </desc>
     </bibl>
     <bibl xml:id="STC226535" n="STC 22653.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5299,7 +4966,6 @@
             <i>[The Smith that Forged him a New Dame</i>], [de Worde, 1505] </desc>
     </bibl>
     <bibl xml:id="STC226537" n="STC 22653.7">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5313,7 +4979,6 @@
             <i>[The Smith that Forged him a New Dame</i>], [Pynson, 1510] </desc>
     </bibl>
     <bibl xml:id="STC226539" n="STC 22653.9">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5327,7 +4992,6 @@
             <i>[A Treatyse of the Smyth Whych That Forged hym a New Dame</i>], Copland, [1565?] </desc>
     </bibl>
     <bibl xml:id="STC22905" n="STC 22905">
-        <loc>Printed book</loc>
         <DIMEVCount>7</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5341,7 +5005,6 @@
             <i>Salomon and Marcolphus</i>, Leeu, Antwerp, c. 1492</desc>
     </bibl>
     <bibl xml:id="STC22924" n="STC 22924">
-        <loc>Printed book</loc>
         <DIMEVCount>18</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5355,7 +5018,6 @@
             <i>XX Songes</i>, Impryntyd in London at the signe of the Black Mores, 1530 </desc>
     </bibl>
     <bibl xml:id="STC231115" n="STC 23111.5">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5369,7 +5031,6 @@
             <i>[The Squire of Low Degree]</i>, [de Worde, 1520?] </desc>
     </bibl>
     <bibl xml:id="STC23112" n="STC 23112">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5383,7 +5044,6 @@
             <i>The Squyr of Lowe Degre</i>, Copland, [1560?] </desc>
     </bibl>
     <bibl xml:id="STC23338" n="STC 23338">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Stowe, John</author>
@@ -5397,7 +5057,6 @@
             <name>Stowe, John</name>, with continuators <i>The Annales of England</i>, T Adams, 1615 </desc>
     </bibl>
     <bibl xml:id="STC23876" n="STC 23876">
-        <loc>Printed book</loc>
         <DIMEVCount>5</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5411,7 +5070,6 @@
             <i>The Floure of the Commaundements of God</i>, de Worde, 1510 </desc>
     </bibl>
     <bibl xml:id="STC23877" n="STC 23877">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Chertsey, Andrew</author>
@@ -5430,7 +5088,6 @@
             M.CCCCC.xxi [1521] the. viij. daye of October] </desc>
     </bibl>
     <bibl xml:id="STC23961" n="STC 23961">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Whitford, Richard</author>
@@ -5449,7 +5106,6 @@
         </desc>
     </bibl>
     <bibl xml:id="STC24133" n="STC 24133">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5463,7 +5119,6 @@
             <i>[Torent of Portyngale]</i>, [Pynson, 1505?] </desc>
     </bibl>
     <bibl xml:id="STC24223" n="STC 24223">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5477,7 +5132,6 @@
             <i>A litell treatise of the knight of Curtesy and the lady of Faguell</i>, Copland, ?1556 </desc>
     </bibl>
     <bibl xml:id="STC24224" n="STC 24224">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5493,7 +5147,6 @@
                 them from flesshe on ye wednesday</i>, [Westminster: W. de Worde, 1500] </desc>
     </bibl>
     <bibl xml:id="STC24241" n="STC 24241">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lydgate, John</author>
@@ -5509,7 +5162,6 @@
             fletestrete at the sygne of the Sonne by me Wynkyn de Worde, 1520?] </desc>
     </bibl>
     <bibl xml:id="STC24267" n="STC 24267">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5523,7 +5175,6 @@
             <i>Trentalle Sancti Gregorii</i>, London: Emprentyd by Rychrde [sic] P[ynson], [1501?] </desc>
     </bibl>
     <bibl xml:id="STC24303" n="STC 24303">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5537,7 +5188,6 @@
             <i>Syr Tryamoure</i>, Copland, [1561?] </desc>
     </bibl>
     <bibl xml:id="STC245413" n="STC 24541.3">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5552,7 +5202,6 @@
             de Worde, [1510] </desc>
     </bibl>
     <bibl xml:id="STC24762" n="STC 24762">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Caxton, William, trans.</author>
@@ -5566,7 +5215,6 @@
             <name>Caxton, William, trans.</name>, <i>The Myrrour of the Worlde</i>, [Caxton, 1481] </desc>
     </bibl>
     <bibl xml:id="STC24797" n="STC 24797">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5585,7 +5233,6 @@
             William Copland], 1553 </desc>
     </bibl>
     <bibl xml:id="STC24866" n="STC 24866">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5600,7 +5247,6 @@
             By my Wynken de Worde, [1497]] </desc>
     </bibl>
     <bibl xml:id="STC24867" n="STC 24867">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5614,7 +5260,6 @@
             <i>A Lytell Treatyse for to Lerne Englysshe and Frensshe</i>, Pynson, c. 1500 </desc>
     </bibl>
     <bibl xml:id="STC24868" n="STC 24868">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5628,7 +5273,6 @@
             <i>a good boke to lerne to speke french</i>, [R. Wyer? c. 1533] </desc>
     </bibl>
     <bibl xml:id="STC25001" n="STC 25001">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5644,7 +5288,6 @@
                 syxty and one the tyme of sent edward kyng of this region</i>, [London: R. Pynson, 1496?] </desc>
     </bibl>
     <bibl xml:id="STC25007" n="STC 25007">
-        <loc>Printed book</loc>
         <DIMEVCount>2</DIMEVCount>
         <authorstmt>
             <author>Henley, Walter de</author>
@@ -5658,7 +5301,6 @@
             <name>Henley, Walter de</name>, <i>Boke of husbandry</i>, [London: W. de Worde, 1508?] </desc>
     </bibl>
     <bibl xml:id="STC250073" n="STC 25007.3">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Henley, Walter de</author>
@@ -5676,7 +5318,6 @@
                 gentleman of Caen in France</i>, London: Printed by Iohn Wolfe., 1589 </desc>
     </bibl>
     <bibl xml:id="STC24875" n="STC 24875">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Jacobus, de Voragine</author>
@@ -5693,7 +5334,6 @@
             May)] </desc>
     </bibl>
     <bibl xml:id="STC258233" n="STC 25823.3">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Wimbledon, Thomas</author>
@@ -5712,7 +5352,6 @@
             Maylor?, 1540?] </desc>
     </bibl>
     <bibl xml:id="STC25853" n="STC 25853">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Robert of Shrewsbury</author>
@@ -5727,7 +5366,6 @@
                 Wenefryde</i>, [Westminster: W. Caxton, 1485] </desc>
     </bibl>
     <bibl xml:id="STC26012" n="STC 26012">
-        <loc>Printed book</loc>
         <DIMEVCount>9</DIMEVCount>
         <authorstmt>
             <author>Wotton, John</author>
@@ -5743,7 +5381,6 @@
     </bibl>
     <!-- NON-ENGLISH PRINTS: -->
     <bibl xml:id="Alliaco1476" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Petrus de Alliaco</author>
@@ -5759,7 +5396,6 @@
                 de l'échelle</i>, [Bruges: William Caxton, between 1473/74 and 1476] </desc>
     </bibl>
     <bibl xml:id="Alliaco1480" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Petrus de Alliaco</author>
@@ -5774,7 +5410,6 @@
             Bruges, Collard Mansion, 1480? </desc>
     </bibl>
     <bibl xml:id="Rabbards1591" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Ripley, George</author>
@@ -5788,7 +5423,6 @@
             <name>Ripley, George</name>, <i>[Twelve Gates]</i>, Rabbards, 1591 </desc>
     </bibl>
     <bibl xml:id="Paderborn1495" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Michael de Hungaria</author>
@@ -5802,7 +5436,6 @@
             <name>Michael de Hungaria</name>, <i>Sermones</i>, J. Paderborn, Louvain, ca. 1495 </desc>
     </bibl>
     <bibl xml:id="Sarum1529" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5816,7 +5449,6 @@
             <i>Sarum Prymer</i>, Paris, 1529 </desc>
     </bibl>
     <bibl xml:id="HoraeRouen1557" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>!</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5830,7 +5462,6 @@
             <i>Horae</i>, Rouen, 1557 </desc>
     </bibl>
     <bibl xml:id="Rouen1516" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5844,7 +5475,6 @@
             <i>York Book of Hours</i>, Rouen, for Guillaume Bernard and Jacques Cousin, c. 1516 </desc>
     </bibl>
     <bibl xml:id="SpecParis1510" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5858,7 +5488,6 @@
             <i>Speculum Spiritualium</i>, Paris, 1510 </desc>
     </bibl>
     <bibl xml:id="Strassburg1494" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Guido</author>
@@ -5873,7 +5502,6 @@
             <i>Historia Troiana</i>, Strassburg, 1494 </desc>
     </bibl>
     <bibl xml:id="HuntingtonRB61866" n="STC 14546">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5889,7 +5517,6 @@
             [1500?]] </desc>
     </bibl>
     <bibl xml:id="HuntingtonRB59135" n="STC 7273">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author/>
@@ -5904,7 +5531,6 @@
             [[London]: Enprinted by Caxton, in feuerer the colde season [1478 (20 Feb.)]] </desc>
     </bibl>
     <bibl xml:id="IB49437" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Mielot, Jean, translator</author>
@@ -5920,7 +5546,6 @@
             1475?] </desc>
     </bibl>
     <bibl xml:id="OxfBal695h6" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Lazius, Wolfgang</author>
@@ -5935,7 +5560,6 @@
             Oxford, Balliol College Library, shelfmark 695.h.6 </desc>
     </bibl>
     <bibl xml:id="OxfBal23b6" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Lycophron, Willem</author>
@@ -5950,7 +5574,6 @@
             Balliol College Library, shelfmark 23.b.6 </desc>
     </bibl>
     <bibl xml:id="PML698" n="PML 698">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Laurentius, Frater, William Caxton, translator</author>
@@ -5965,7 +5588,6 @@
             Caxton). [Westminster: William Caxton, about 1486] (PML 698) </desc>
     </bibl>
     <bibl xml:id="DeDisciplina" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Pseudo-Boethius</author>
@@ -5980,7 +5602,6 @@
             Deventer, Netherlands: Jacobus Breda, 1496 </desc>
     </bibl>
     <bibl xml:id="Rastell1519" n="BLC39b17">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Rastell, John</author>
@@ -5993,7 +5614,6 @@
         <desc>
             <name>Rastell, John</name>, <i>An Interlude of the Four Elements, including songs with musical notation&#8230;</i> (STC 20722)</desc>
     </bibl><bibl xml:id="Rastell" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Rastell, John</author>
@@ -6007,7 +5627,6 @@
             <name>Rastell, John</name>, <i>Song Sheet</i>, (fragment, unassigned STC number)</desc>
     </bibl>
     <bibl xml:id="Rolle1510" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Rolle, Richard</author>
@@ -6023,7 +5642,6 @@
                 emendacione vitae</i>, Paris: Wolfgang Hopyl, for William Bretton in London, 1510 </desc>
     </bibl>
     <bibl xml:id="Robert" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -6038,7 +5656,6 @@
             Hazlitt] No extant copy?</desc>
     </bibl>
     <bibl xml:id="ParisSydrac1486" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Campeden, Hugh, translator</author>
@@ -6053,7 +5670,6 @@
             <i>Sydrac and Boctus</i>, trans. Hugh Campeden from the French, Paris, 1486 </desc>
     </bibl>
     <bibl xml:id="StPaulBuxtaforius1616" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
             <author>Buxtorfius, Johannes</author>
@@ -6066,7 +5682,6 @@
         <desc/>
     </bibl>
     <bibl xml:id="deMugello1562" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>de Mugello, Dinus</author>
@@ -6079,7 +5694,6 @@
         <desc>Beinecke 2008 2479</desc>
     </bibl>
     <bibl xml:id="Ryff1548" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Ryff, Walther</author>
@@ -6092,7 +5706,6 @@
         <desc>London, Royal College of Physicians, D1/19-c-27</desc>
     </bibl>
     <bibl xml:id="Voraigne1503" n="X">
-        <loc>Printed book</loc>
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>de Voraigne, Jacobus (trans. William Caxton)</author>

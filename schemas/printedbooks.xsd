@@ -7,7 +7,6 @@
         <xs:element name="bibl" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-	      <xs:element name="loc" type="textfield"/>
 	      <xs:element name="DIMEVCount" type="xs:string"/>
 	      <xs:element name="authorstmt">
 		<xs:complexType>

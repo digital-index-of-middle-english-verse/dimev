@@ -384,7 +384,6 @@ See the [Overview to `Manuscripts.xml`](#overview-manuscripts), above.
 
 #### Child elements of `bibl`
 
-- `loc`. This element is effectively unused. Its content is the invariant string "Printed book" in all cases
 - `DIMEVCount`. A count of DIMEV items transmitted by the item.
   Data type: string.
 - `authorstmt`. Parent of the element `author`, which may contain an author attribution.
