@@ -241,7 +241,7 @@ Note:
   (This is part of a general expansion of bibliographical reference, beyond the linear tradition of indexes of Middle English verse)
 - In the element `author` (child of `authors`), disaggregate name suffixes and query marks indicating dubious attributions
 - Allow for critical editions to be attached to the `record` element, rather than only the `witness` sub-element
-- Supply controlled vocabularies for the content of `subject`, `verseForm`, `verseElement`, and `language`
+- Supply controlled vocabularies for the content of `subject`, `verseForm`, `versePattern`, and `language`
 
 ## `Manuscripts.xml`
 
