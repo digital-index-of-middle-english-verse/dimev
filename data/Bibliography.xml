@@ -5301,7 +5301,7 @@
         <titlestmt>
             <title level="a">Lydgate&#8217;s Verses on Queen Margaret&#8217;s Entry into
                 London</title>
-            <title level="m">Modern Language Review</title>
+            <title level="j">Modern Language Review</title>
         </titlestmt>
         <pubstmt date="1912">7 (1912): 225-34</pubstmt>
         <index>
@@ -11370,12 +11370,20 @@
                 <last>Doyle</last>
                 <first>A. I.</first>
             </author>
+            <editor>
+                <last>Stevens</last>
+                <first>Martin</first>
+            </editor>
+            <editor>
+                <last>Woodward</last>
+                <first>Daniel</first>
+            </editor>
         </authorstmt>
         <titlestmt>
             <title level="a">The Copyist of the Ellesmere <i>Canterbury Tales</i></title>
             <title level="m">The Ellesmere Chaucer: Essays in Interpretation</title>
         </titlestmt>
-        <pubstmt date="1995">Ed. Martin Stevens and Daniel Woodward. San Marino, CA &amp; Tokyo:
+        <pubstmt date="1995">San Marino, CA &amp; Tokyo:
             Huntington Library &amp; Yushodo Co., Ltd., 1995</pubstmt>
         <index>
             <topic/>
@@ -18314,12 +18322,20 @@
                 <last>Griffith</last>
                 <first>David</first>
             </author>
+            <editor>
+                <last>Barron</last>
+                <first>Caroline M.</first>
+            </editor>
+            <editor>
+                <last>Burgess</last>
+                <first>Clive</first>
+            </editor>
         </authorstmt>
         <titlestmt>
             <title level="a">English Commemorative Inscriptions: Some Literary Dimensions</title>
             <title level="m">Memory and Commemoration in Medieval England: proceedings of the 2008 Harlaxton Symposium</title>
         </titlestmt>
-        <pubstmt date="2010">Ed. Caroline M. Barron and Clive Burgess. Donington, Lincolnshire: Shaun Tyas, 2010. 251-70</pubstmt>
+        <pubstmt date="2010">Donington, Lincolnshire: Shaun Tyas, 2010. 251-70</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -20126,13 +20142,17 @@
                 <last>Edwards</last>
                 <first>A. S. G.</first>
             </author>
+            <editor>
+                <last>Lerer</last>
+                <first>Seth</first>
+            </editor>
         </authorstmt>
         <titlestmt>
             <title level="a">Rotheley, the De Vere Circle, and the Ellesmere Chaucer</title>
             <title level="m">Readings from the Margins: Textual Studies, Chaucer, and Medieval
                 Literature</title>
         </titlestmt>
-        <pubstmt date="1996">Ed. Seth Lerer. San Marino, Calif.: Huntington Library, 1996.
+        <pubstmt date="1996">San Marino, Calif.: Huntington Library, 1996.
             11-35</pubstmt>
         <index>
             <topic/>
@@ -20227,16 +20247,24 @@
     </bibl>
     <bibl xml:id="Hanna2013">
         <authorstmt>
-            <editor>
+            <author>
                 <last>Hanna</last>
                 <first>Ralph</first>
+            </author>
+            <editor>
+                <last>Calabrese</last>
+                <first>Michael</first>
+            </editor>
+            <editor>
+                <last>Shepherd</last>
+                <first>Stephen H. A.</first>
             </editor>
         </authorstmt>
         <titlestmt>
             <title level="a">"The Bridges at Abingdon": An Unnoticed Alliterative Poem</title>
             <title level="m">Yee? Baw For Bokes: Essays on Medieval Manuscripts and Poetics In Honor of Hoyt N. Duggan</title>
         </titlestmt>
-        <pubstmt date="2013">Ed. Michael Calabrese and Stephen H. A. Shepherd. Los Angeles: Marymount Institute Press, 2013. 31-44</pubstmt>
+        <pubstmt date="2013">Los Angeles: Marymount Institute Press, 2013. 31-44</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -21723,7 +21751,7 @@
             <title level="m">Sammelheft. Bonner Beitr&#228;ge zur Anglistik herausgegeben von Prof.
                 Dr. M. Trautmann</title>
         </titlestmt>
-        <pubstmt date="1905">Heft 17. Bonn: Hansetin, 1905: 83-</pubstmt>
+        <pubstmt date="1905">Vol. 17. Bonn: Hansetin, 1905: 83-</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -28215,6 +28243,14 @@
                 <last>Lewis</last>
                 <first>R. E.</first>
             </author>
+            <editor>
+                <last>Benskin</last>
+                <first>Michael</first>
+            </editor>
+            <editor>
+                <last>Samuels</last>
+                <first>M. L.</first>
+            </editor>
         </authorstmt>
         <titlestmt>
             <title level="a">The relationship of the Vernon and Simeon texts of the <i>Pricke of
@@ -28222,8 +28258,7 @@
             <title level="m">So meny people longages and tonges: philolgical essays in Scots and
                 mediaeval English Presented to Angus McIntosh</title>
         </titlestmt>
-        <pubstmt date="1981">Ed. Michael Bensking and M. L. Samuels. Edinburgh, 1981.
-            251-64</pubstmt>
+        <pubstmt date="1981">Edinburgh, 1981. 251-64</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -28747,7 +28782,7 @@
             <title level="m">A Manual of the Writings of Middle English</title>
         </titlestmt>
         <pubstmt date="1992">Vol. 9, fascicle 22. New Haven, CT: Connecticut Academy of Arts and
-            Sciences, 1993; ed. Hartung et. al</pubstmt>
+            Sciences, 1993</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -31461,8 +31496,7 @@
             <title level="a">Dramatic Pieces</title>
             <title level="m">A Manual of the Writings in Middle English, 1050-1500</title>
         </titlestmt>
-        <pubstmt date="1975">New Haven, CT: Connecticut Academy of Arts and Sciences, Vol. 5,
-            fascicle 12: 1975; ed. by Hartung, Mill, Lindenbaum, et al</pubstmt>
+        <pubstmt date="1975">Vol. 5, fascicle 12. New Haven, CT: Connecticut Academy of Arts and Sciences</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -36092,12 +36126,24 @@
                 <last>Pickering</last>
                 <first>Oliver S.</first>
             </author>
+            <editor>
+                <last>Matsuda</last>
+                <first>Takami</first>
+            </editor>
+            <editor>
+                <last>Linenthal</last>
+                <first>Richard A.</first>
+            </editor>
+            <editor>
+                <last>Scahill</last>
+                <first>John</first>
+            </editor>
         </authorstmt>
         <titlestmt>
             <title level="a">Brotherton Collection MS 18 and its Riddling Middle English Verses</title>
             <title level="m">The Medieval Book and a Modern Collector: Essays in Honour of Toshiyuki Takamiya</title>
         </titlestmt>
-        <pubstmt date="2004">Ed. Takami Matsuda, Richard A. Linenthal, and John Scahill. Cambridge and Tokyo, 2004. 223-32</pubstmt>
+        <pubstmt date="2004">Cambridge and Tokyo, 2004. 223-32</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -36109,12 +36155,20 @@
                 <last>Pickering</last>
                 <first>Oliver S.</first>
             </author>
+            <editor>
+                <last>Driver</last>
+                <first>Martha W.</first>
+            </editor>
+            <editor>
+                <last>O'Mara</last>
+                <first>Veronica</first>
+            </editor>
         </authorstmt>
         <titlestmt>
             <title level="a">Preaching in the <i>South English Legendary</i>: A Study and Edition of the Text for All Souls&#8217; Day</title>
             <title level="m">Preaching the Word in Manuscript and Print in Late Medieval England: Essays in Honour of Susan Powell</title>
         </titlestmt>
-        <pubstmt date="2013">Ed. Martha W. Driver and Veronica O&#8217;Mara. Brepols, 2013. 277-316</pubstmt>
+        <pubstmt date="2013">Brepols, 2013. 277-316</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -36126,12 +36180,24 @@
                 <last>Pickering</last>
                 <first>Oliver S.</first>
             </author>
+            <editor>
+                <last>Kerby-Fulton</last>
+                <first>Kathryn</first>
+            </editor>
+            <editor>
+                <last>Thompson</last>
+                <first>John J.</first>
+            </editor>
+            <editor>
+                <last>Baechle</last>
+                <first>Sarah</first>
+            </editor>
         </authorstmt>
         <titlestmt>
             <title level="a">How Good is the Outspoken <i>South English Legendary</i> Poet? A New Edition of the Prologue to the <i>Conception of Mary</i></title>
             <title level="m">New Directions in Medieval Manuscript Studies and Reading Practices: Essays in Honour of Derek Pearsall</title>
         </titlestmt>
-        <pubstmt date="2014">Ed. Kathryn Kerby-Fulton, John J. Thompson, and Sarah Baechle. University of Notre Dame Press, 2014. 34-54</pubstmt>
+        <pubstmt date="2014">University of Notre Dame Press, 2014. 34-54</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -39960,12 +40026,16 @@
                 <last>Rust</last>
                 <first>Martha Dana</first>
             </author>
+            <editor>
+                <last>Kline</last>
+                <first>Daniel T.</first>
+            </editor>
         </authorstmt>
         <titlestmt>
             <title level="a">&#8216;The ABC of Aristotle.&#8217;</title>
             <title level="m">Medieval Literature for Children</title>
         </titlestmt>
-        <pubstmt date="2003">Ed. Daniel T. Kline.  New York and London: Routledge, 2003. 62–78</pubstmt>
+        <pubstmt date="2003">New York and London: Routledge, 2003. 62–78</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -43154,6 +43224,18 @@
                 <last>Smith</last>
                 <first>Jeremy J.</first>
             </author>
+            <editor>
+                <last>Shoichi</last>
+                <first>Oguro</first>
+            </editor>
+            <editor>
+                <last>Beadle</last>
+                <first>Richard</first>
+            </editor>
+            <editor>
+                <last>Sargent</last>
+                <first>Michael G.</first>
+            </editor>
         </authorstmt>
         <titlestmt>
             <title level="a">Dialect and Standardisation in the Waseda Manuscript of Nicholas Love’s
@@ -43161,8 +43243,7 @@
             <title level="m">Nicholas Love at Waseda: Proceedings of the International Conference 20-22 July
                 1997</title>
         </titlestmt>
-        <pubstmt date="1995">Ed. Shoichi Oguro, Richard Beadle, and Michael G.
-            Sargent. Woodbridge, Suffolk and Rochester NY: D. S. Brewer, 1997. 129-41</pubstmt>
+        <pubstmt date="1995">Woodbridge, Suffolk and Rochester NY: D. S. Brewer, 1997. 129-41</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -46465,6 +46546,10 @@
                 <last>Turville-Petre</last>
                 <first>Thorlac</first>
             </author>
+            <editor>
+                <last>Pearsall</last>
+                <first>Derek</first>
+            </editor>
         </authorstmt>
         <titlestmt>
             <title level="a">Some Medieval English Manuscripts in the North-East Midlands</title>
@@ -46472,7 +46557,7 @@
                 Implications of Manuscript Study (Essays from the 1981 Conference at the University
                 of York)</title>
         </titlestmt>
-        <pubstmt date="1983">Ed. Derek Pearsall. Cambridge UK and Totowa, NJ: D.S. Brewer and Biblio
+        <pubstmt date="1983">Cambridge UK and Totowa, NJ: D.S. Brewer and Biblio
             Distribution Services, 1983. 125-41</pubstmt>
         <index>
             <topic/>
@@ -47934,12 +48019,20 @@
                 <last>Weiskott</last>
                 <first>Eric</first>
             </author>
+            <editor>
+                <last>Brady</last>
+                <first>Lindy</first>
+            </editor>
+            <editor>
+                <last>Toswell</last>
+                <first>M. J.</first>
+            </editor>
         </authorstmt>
         <titlestmt>
             <title level="a">Alliterative Meter after 1450: <i>The Vision of William Banastre</i></title>
             <title level="m">Early English Poetic Culture and Metre: The Influence of G. R. Russom</title>
         </titlestmt>
-        <pubstmt date="2016">Ed. Lindy Brady and M. J. Toswell. Kalamazoo, MI: Medieval Institute. 149-79</pubstmt>
+        <pubstmt date="2016">Kalamazoo, MI: Medieval Institute. 149-79</pubstmt>
         <index>
             <topic/>
             <person/>
