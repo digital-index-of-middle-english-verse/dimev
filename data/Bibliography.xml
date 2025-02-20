@@ -785,7 +785,7 @@
         <titlestmt>
             <title level="m">A Century of Ballads</title>
         </titlestmt>
-        <pubstmt date="1887">London, Elliot Stock, 1887</pubstmt>
+        <pubstmt date="1887">London: Elliot Stock, 1887</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -2062,7 +2062,7 @@
             <title level="m">Benham&#8217;s Book of Quotations, proverbs, and household
                 words</title>
         </titlestmt>
-        <pubstmt date="1848">London: Harrap, 1948</pubstmt>
+        <pubstmt date="1948">London: Harrap, 1948</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -2796,7 +2796,7 @@
             <title level="m">The Life and Martyrdom of Thomas a Becket</title>
             <title level="s">Percy Society</title>
         </titlestmt>
-        <pubstmt date="1946">19. London: Richards, 1846</pubstmt>
+        <pubstmt date="1846">19. London: Richards, 1846</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -4521,7 +4521,7 @@
             <title level="m">Thomas of Erceldoune</title>
             <title level="s">Sammlung Englischer Denkm&#228;ler in Kritischen Ausgaben</title>
         </titlestmt>
-        <pubstmt date="1880">Bnd. 2. Berlin: Weidmann, 1880</pubstmt>
+        <pubstmt date="1880">Vol. 2. Berlin: Weidmann, 1880</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -7078,10 +7078,10 @@
             </author>
         </authorstmt>
         <titlestmt>
-            <title level="m">&#252;ber Charles d&#8217;Orleans und die ihm zugeschribere englische
-                &#252;bersetzung seiher gedichte</title>
+            <title level="m">Über Charles d&#8217;Orleans und die ihm zugeschribere englische
+                &#252;bersetzung seiner gedichte</title>
         </titlestmt>
-        <pubstmt date="1892">Berlin, 1893</pubstmt>
+        <pubstmt date="1893">Berlin, 1893</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -8012,7 +8012,7 @@
             <title level="a">Introduction</title>
             <title level="m">Piers Plowman: the Hungington Library MS (HM 143)</title>
         </titlestmt>
-        <pubstmt date="1036">San Marino, CA: Henry E. Huntington Library, 1936</pubstmt>
+        <pubstmt date="1936">San Marino, CA: Henry E. Huntington Library, 1936</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -9379,7 +9379,8 @@
         <titlestmt>
             <title level="m">Engravings of Sepulchral Brasses in Norfolk and Suffolk&#8230;</title>
         </titlestmt>
-        <pubstmt date="1838">London: H. G. Bohr, 1839</pubstmt>
+        <pubstmt date="1839">London: H. G. Bohr, 1839</pubstmt>
+	<!-- https://catalog.hathitrust.org/Record/010251305 -->
         <index>
             <topic/>
             <person/>
@@ -9780,7 +9781,7 @@
         <titlestmt>
             <title level="m">The Popular Songs of Ireland</title>
         </titlestmt>
-        <pubstmt date="1939">London: Henry Colburn, 1839</pubstmt>
+        <pubstmt date="1839">London: Henry Colburn, 1839</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -13582,7 +13583,7 @@
             <title level="m"><ref type="url"
                 n="http://d.lib.rochester.edu/teams/publication/fein-harley2253-volume-1">The Complete Harley 2253 Manuscript, Volume 1</ref></title>
         </titlestmt>
-        <pubstmt date="2015">Kalamazoo, MI: Medieval Institute Publications, 2009</pubstmt>
+        <pubstmt date="2015">Kalamazoo, MI: Medieval Institute Publications, 2015</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -13599,7 +13600,7 @@
             <title level="m"><ref type="url"
                 n="http://d.lib.rochester.edu/teams/publication/fein-harley2253-volume-2">The Complete Harley 2253 Manuscript, Volume 2</ref></title>
         </titlestmt>
-        <pubstmt date="2015">Kalamazoo, MI: Medieval Institute Publications, 2009</pubstmt>
+        <pubstmt date="2015">Kalamazoo, MI: Medieval Institute Publications, 2015</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -13616,7 +13617,7 @@
             <title level="m"><ref type="url"
                 n="http://d.lib.rochester.edu/teams/publication/fein-harley2253-volume-3">The Complete Harley 2253 Manuscript, Volume 3</ref></title>
         </titlestmt>
-        <pubstmt date="2015">Kalamazoo, MI: Medieval Institute Publications, 2009</pubstmt>
+        <pubstmt date="2015">Kalamazoo, MI: Medieval Institute Publications, 2015</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -16165,7 +16166,7 @@
                 Pardoner&#8217;s Tale</title>
             <title level="s">The Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1889">92. London: Tr&#252;bner, 1899</pubstmt>
+        <pubstmt date="1899">92. London: Tr&#252;bner, 1899</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -16187,7 +16188,7 @@
             <vols>3</vols>
             <title level="s">EETS e.s.</title>
         </titlestmt>
-	<pubstmt date="1889-1904">77, 83, 92 (1899, 1901, 1904)<!--repr. as one vol., 1973--></pubstmt>
+	<pubstmt date="1899-1904">77, 83, 92 (1899, 1901, 1904)<!--repr. as one vol., 1973--></pubstmt>
         <index>
             <topic/>
             <person/>
@@ -16205,7 +16206,7 @@
                 MS</title>
             <title level="s">The Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1889">93. London: Tr&#252;bner, 1900</pubstmt>
+        <pubstmt date="1900">93. London: Tr&#252;bner, 1900</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -19526,7 +19527,7 @@
             <title level="m">The Wyse Chylde and the Emperor Adrian, a dialogue resembling that of
                 Salomon and Saturn, from the Unique Edition printed by Wynkyn de Worde</title>
         </titlestmt>
-        <pubstmt date="1860">London, printed privately, 1860</pubstmt>
+        <pubstmt date="1860">London: printed privately, 1860</pubstmt>
 	<!-- https://www.google.com/books/edition/The_wyse_chylde_and_the_emperor_Adrian_a/Dv8CAAAAQAAJ -->
         <index>
             <topic/>
@@ -22358,7 +22359,7 @@
                 Hatfield House, Hertfordshire</title>
             <vols>24</vols>
         </titlestmt>
-        <pubstmt date="1883">1883-1976</pubstmt>
+        <pubstmt date="1883">1883-1884</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -25510,7 +25511,7 @@
         <titlestmt>
             <title level="m">Alt- und mittelenglische Anthologie</title>
         </titlestmt>
-        <pubstmt date="1955">Berlin, 1954</pubstmt>
+        <pubstmt date="1955">Berlin, 1955</pubstmt>
 	<!--3rd ed., trans. as Medieval English: a Old English and Middle English Anthology, Berlin West, 1958-->
         <index>
             <topic/>
@@ -25525,10 +25526,9 @@
             </editor>
         </authorstmt>
         <titlestmt>
-            <title level="m">Alt- und mittelenglische Anthologie</title>
+            <title level="m">Medieval English: a Old English and Middle English Anthology</title>
         </titlestmt>
-        <pubstmt date="1958">Berlin, 1954</pubstmt>
-	<!--3rd ed., trans. as Medieval English: a Old English and Middle English Anthology, Berlin West, 1958-->
+        <pubstmt date="1958">3rd ed., Berlin, 1958</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -26783,7 +26783,7 @@
             <title level="m">Altenglische bibliothek</title>
 	    <vols>5</vols>
         </titlestmt>
-        <pubstmt date="1883">Heilbronn, Henninger, 1883-90</pubstmt>
+        <pubstmt date="1883">Heilbronn: Henninger, 1883-90</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -30408,7 +30408,7 @@
                 Poems</title>
             <title level="s">Chaucer Society, 1st ser.</title>
         </titlestmt>
-        <pubstmt date="1888">80 (1889)</pubstmt>
+        <pubstmt date="1889">80 (1889)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -41084,7 +41084,7 @@
             <title level="m">Speculum historiale. Geschichte im Spiegel von Geschichtsschreibung und
                 Geschichtsdeutung</title>
         </titlestmt>
-        <pubstmt date="1965">Freiburg M&#252;nchen, Alber, 1965</pubstmt>
+        <pubstmt date="1965">Freiburg, M&#252;nchen: Karl Alber, 1965</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -41194,7 +41194,7 @@
             <title level="m">Laurence Minots Lieder</title>
             <title level="s">Quellen und Forschungen</title>
         </titlestmt>
-        <pubstmt date="1994">52. Strassburg: Tr&#252;bner, 1884</pubstmt>
+        <pubstmt date="1884">52. Strassburg: Tr&#252;bner, 1884</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -43242,9 +43242,9 @@
             <title level="a">Dialect and Standardisation in the Waseda Manuscript of Nicholas Love’s
                 Mirror of the Blessed Life of Jesus Christ</title>
             <title level="m">Nicholas Love at Waseda: Proceedings of the International Conference 20-22 July
-                1997</title>
+                1995</title>
         </titlestmt>
-        <pubstmt date="1995">Woodbridge, Suffolk and Rochester NY: D. S. Brewer, 1997. 129-41</pubstmt>
+        <pubstmt date="1997">Woodbridge, Suffolk and Rochester NY: D. S. Brewer, 1997. 129-41</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -44437,7 +44437,7 @@
             <title level="m">The Scottish Metrical Romance of Lancelot du Lak</title>
             <title level="s">Maitland Club</title>
         </titlestmt>
-        <pubstmt date="1838">48. Edinburgh, 1839</pubstmt>
+        <pubstmt date="1839">48. Edinburgh, 1839</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -45367,7 +45367,7 @@
             <title level="m">Our Lady&#8217;s Lament, and the lamentation of Saint Mary
                 Magdalene</title>
         </titlestmt>
-        <pubstmt date="1872">London, Washbourne, 1871</pubstmt>
+        <pubstmt date="1871">London: Washbourne, 1871</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -45383,7 +45383,7 @@
         <titlestmt>
 		<title level="m">The Life of our Lady: Part I</title>
 	</titlestmt>
-        <pubstmt date="1872">London, Washbourne, 1879</pubstmt>
+        <pubstmt date="1879">London: Washbourne, 1879</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -45538,7 +45538,7 @@
         <titlestmt>
             <title level="m">A Medieval Carol Book</title>
         </titlestmt>
-        <pubstmt date="1831">London: Curwen, 1931</pubstmt>
+        <pubstmt date="1931">London: Curwen, 1931</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -45853,7 +45853,7 @@
         <titlestmt>
             <title level="m">England under the Yorkists</title>
         </titlestmt>
-        <pubstmt date="1921">London and New York: Longmans, 1920</pubstmt>
+        <pubstmt date="1921">London and New York: Longmans, 1921</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -45971,7 +45971,7 @@
         <titlestmt>
             <title level="m">Illustrations of the Lives and Writings of Gower and Chaucer</title>
         </titlestmt>
-        <pubstmt date="1910">London: Rivington, 1810</pubstmt>
+        <pubstmt date="1810">London: Rivington, 1810</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -49777,7 +49777,7 @@
         <titlestmt>
             <title level="m">The Oxford History of Music. Volume 2: The Polyphonic Period</title>
         </titlestmt>
-        <pubstmt date="1901-1905">Oxford: Clarendon, 1901</pubstmt>
+        <pubstmt date="1901-1905">Oxford: Clarendon, 1901-1905</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -50381,7 +50381,7 @@
                 Century</title>
             <title level="s">Percy Society</title>
         </titlestmt>
-        <pubstmt date="1848">23. London: Richards, 1847</pubstmt>
+        <pubstmt date="1847">23. London: Richards, 1847</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -50698,7 +50698,7 @@
             <vols>2</vols>
             <title level="s">Rolls Series</title>
         </titlestmt>
-        <pubstmt date="1886">86 (1887)</pubstmt>
+        <pubstmt date="1887">86 (1887)</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -52224,7 +52224,7 @@
             <title level="m"><ref type="url" n="https://piers.chass.ncsu.edu/texts/F">The Piers Plowman Electronic Archive, Vol. 1: Oxford, Corpus Christi College, MS 201 (F).</ref></title>
 	    <title level="s">SEENET Series A</title>
         </titlestmt>
-        <pubstmt date="2014">1. The Society for Early English and Norse Electronic Texts: 2024</pubstmt>
+        <pubstmt date="2014">1. The Society for Early English and Norse Electronic Texts: 2014</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -52242,7 +52242,7 @@
                 n="https://piers.chass.ncsu.edu/texts/G">The Piers Plowman Electronic Archive, Vol. 8: Cambridge, Cambridge University Library, MS Gg.4.31 (G).</ref></title>
 	    <title level="s">SEENET Series A</title>
         </titlestmt>
-        <pubstmt date="2014">11. The Society for Early English and Norse Electronic Texts: 2024</pubstmt>
+        <pubstmt date="2014">11. The Society for Early English and Norse Electronic Texts: 2014</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -52268,7 +52268,7 @@
                 n="https://piers.chass.ncsu.edu/texts/G">The Piers Plowman Electronic Archive, Vol. 6: San Marino, Huntington Library, MS Hm 128 (Hm and Hm2).</ref></title>
 	    <title level="s">SEENET Series A</title>
         </titlestmt>
-        <pubstmt date="2014">9. The Society for Early English and Norse Electronic Texts: 2024</pubstmt>
+        <pubstmt date="2014">9. The Society for Early English and Norse Electronic Texts: 2014</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -52290,7 +52290,7 @@
                 n="https://piers.chass.ncsu.edu/texts/L">The Piers Plowman Electronic Archive, Vol. 4: Oxford, Bodleian Library MS Laud misc. 581 (S. C. 987) (L).</ref></title>
 	    <title level="s">SEENET Series A</title>
         </titlestmt>
-        <pubstmt date="2014">6. The Society for Early English and Norse Electronic Texts: 2024</pubstmt>
+        <pubstmt date="2014">6. The Society for Early English and Norse Electronic Texts: 2014</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -52316,7 +52316,7 @@
                 n="https://piers.chass.ncsu.edu/texts/M">The Piers Plowman Electronic Archive, Vol. 5: London, British Library, MS Additional 35287 (M).</ref></title>
 	    <title level="s">SEENET Series A</title>
         </titlestmt>
-        <pubstmt date="2014">7. The Society for Early English and Norse Electronic Texts: 2024</pubstmt>
+        <pubstmt date="2014">7. The Society for Early English and Norse Electronic Texts: 2014</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -52334,7 +52334,7 @@
                 n="https://piers.chass.ncsu.edu/texts/O">The Piers Plowman Electronic Archive, Vol. 3: Oxford, Oriel College, MS 79 (O).</ref></title>
 	    <title level="s">SEENET Series A</title>
         </titlestmt>
-        <pubstmt date="2014">5. The Society for Early English and Norse Electronic Texts: 2024</pubstmt>
+        <pubstmt date="2014">5. The Society for Early English and Norse Electronic Texts: 2014</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -52352,7 +52352,7 @@
                 n="https://piers.chass.ncsu.edu/texts/R">The Piers Plowman Electronic Archive, Vol. 7: London, British Library, MS Lansdowne 398 and Oxford, Bodleian Library, MS Rawlinson Poetry 38.</ref></title>
 	    <title level="s">SEENET Series A</title>
         </titlestmt>
-        <pubstmt date="2014">10. The Society for Early English and Norse Electronic Texts: 2024</pubstmt>
+        <pubstmt date="2014">10. The Society for Early English and Norse Electronic Texts: 2014</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -52374,7 +52374,7 @@
                 n="https://piers.chass.ncsu.edu/texts/W">The Piers Plowman Electronic Archive, Vol. 2: Cambridge, Trinity College, MS B.15.17 (W).</ref></title>
 	    <title level="s">SEENET Series A</title>
         </titlestmt>
-        <pubstmt date="2014">2. The Society for Early English and Norse Electronic Texts: 2024</pubstmt>
+        <pubstmt date="2014">2. The Society for Early English and Norse Electronic Texts: 2014</pubstmt>
         <index>
             <topic/>
             <person/>
