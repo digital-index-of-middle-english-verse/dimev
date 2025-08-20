@@ -1513,7 +1513,7 @@
             <title level="m">George Ashby&#8217;s Poems</title>
             <title level="s">EETS e.s.</title>
         </titlestmt>
-        <pubstmt date="1889">76 (1899), repr. 1965</pubstmt>
+        <pubstmt date="1899">76 (1899), repr. 1965</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -5439,7 +5439,7 @@
 	    <vols>2</vols>
         </titlestmt>
         <pubstmt date="1916">London: Oxford University Press for the Bibliographical
-            Society: 1916-20</pubstmt>
+            Society, 1916-20</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -12580,7 +12580,7 @@
         <titlestmt>
             <title level="m">Robert Henryson: Poems</title>
         </titlestmt>
-        <pubstmt date="1963">Oxford: Clarendon, 1963/1974</pubstmt>
+        <pubstmt date="1963">Oxford: Clarendon, 1963; 2nd ed. 1974</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -12870,6 +12870,7 @@
         </index>
     </bibl>
     <bibl xml:id="Emmerig1906">
+	    <!--https://www.google.com/books/edition/The_Bataile_of_Agyncourt_im_Lichte_gesch/B0QUAQAAIAAJ-->
         <authorstmt>
             <author>
                 <last>Emmerig</last>
@@ -12877,10 +12878,9 @@
             </author>
         </authorstmt>
         <titlestmt>
-            <title level="a">The Bataile of Agyncourt</title>
-            <title level="m">Lichte geschichtlicher Quellenwerke</title>
+            <title level="m">"The Bataile of Agyncourt" im Lichte geschichtlicher Quellenwerke</title>
         </titlestmt>
-        <pubstmt date="1906">I. Nurnberg: Wieser, 1906</pubstmt>
+        <pubstmt date="1906">Vol. 1. Nuremberg: Wieser, 1906</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -13027,7 +13027,7 @@
         <titlestmt>
             <title level="m">English posies and posy rings; a catalogue with an introduction by Joan Evans&#8230;</title>
         </titlestmt>
-        <pubstmt date="1931">London, Oxford University Press, H. Milford, 1931</pubstmt>
+        <pubstmt date="1931">London: Oxford University Press, H. Milford, 1931</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -13730,9 +13730,9 @@
         </authorstmt>
         <titlestmt>
             <title level="m">How the wyse man taught hys sone</title>
+            <title level="s">Erlanger Beitr&#228;ge</title>
         </titlestmt>
-        <pubstmt date="1889">Erlanger Beitr&#228;ge 2. Erlangen and Leipzig: Deichert,
-            1889</pubstmt>
+        <pubstmt date="1889">2. Erlangen and Leipzig: Deichert, 1889</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -25986,9 +25986,9 @@
         <titlestmt>
             <title level="m">Fragments of Medieval Manuscripts used as Pastedowns in Oxford
                 Bindings, with a survey of Oxford Binding c. 1515-1620</title>
-            <title level="s">Oxford Bibliographical Society</title>
+            <title level="s">Oxford Bibliographical Society, n.s.</title>
         </titlestmt>
-        <pubstmt date="1954">n.s. 5. Oxford: Clarendon, 1954</pubstmt>
+        <pubstmt date="1954">5. Oxford: Clarendon, 1954</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -35389,7 +35389,7 @@
             <title level="m">Reliques of Ancient English Poetry</title>
 	    <vols>3</vols>
         </titlestmt>
-        <pubstmt date="1767">London: J. Dodsley, 1765, and subsequent editions</pubstmt>
+        <pubstmt date="1767">London: J. Dodsley, 1767, and subsequent editions</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -35406,7 +35406,7 @@
             <title level="m">Reliques of Ancient English Poetry</title>
 	    <vols>3</vols>
         </titlestmt>
-        <pubstmt date="1794">London: J. Dodsley, 1765, and subsequent editions</pubstmt>
+        <pubstmt date="1794">London: J. Dodsley, 1794, and subsequent editions</pubstmt>
         <index>
             <topic/>
             <person/>
@@ -35423,7 +35423,7 @@
             <title level="m">Reliques of Ancient English Poetry</title>
 	    <vols>3</vols>
         </titlestmt>
-        <pubstmt date="1811">London: J. Dodsley, 1765, and subsequent editions</pubstmt>
+        <pubstmt date="1811">London: J. Dodsley, 1811, and subsequent editions</pubstmt>
         <index>
             <topic/>
             <person/>
