@@ -146,6 +146,7 @@ references:
   issued:
     - year: 2013
     - year: 0
+  language: en
   publisher: The University of Edinburgh
   publisher-place: Edinburgh
   title: A linguistic atlas of early Middle English, 1150–1325
@@ -223,14 +224,14 @@ references:
       given: Kari Anne
   call-number: PR281 .I52 Index 1-20
   citation-key: RandIndexMiddleEnglish2014
-  event-place: Woodbridge
+  event-place: Cambridge
   ISBN: 978-1-84384-383-2
   issued:
     - year: 2014
   note: 'OCLC: ocn903949216'
   number-of-pages: '603'
-  publisher: D.S. Brewer
-  publisher-place: Woodbridge
+  publisher: D. S. Brewer
+  publisher-place: Cambridge
   source: orbis.library.yale.edu Library Catalog
   title: 'The index of Middle English prose: index to volumes I-XX'
   type: book
@@ -309,6 +310,7 @@ references:
   publisher-place: Turnhout
   source: orbis.library.yale.edu Library Catalog
   title: A handlist of the Latin writers of Great Britain and Ireland before 1540
+  title-short: Handlist of Latin writers
   type: book
 
 - id: TEIConsortiumTEIP5Guidelines2024
@@ -318,7 +320,7 @@ references:
     - literal: TEI Consortium
   issued:
     - year: 2024
-  title: 'TEI P5: Guidelines for Electronic Text Encoding and Interchange'
+  title: 'TEI P5: guidelines for electronic text encoding and interchange'
   title-short: TEI P5
   type: book
   URL: http://www.tei-c.org/Guidelines/P5/
