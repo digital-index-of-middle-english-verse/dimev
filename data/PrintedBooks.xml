@@ -5655,20 +5655,6 @@
             <i>[Robert the Deuyll]</i>, [Edition printed by de Worde or Pynson, as reported by William Carew
             Hazlitt] No extant copy?</desc>
     </bibl>
-    <bibl xml:id="ParisSydrac1486" n="X">
-        <DIMEVCount>0</DIMEVCount>
-        <authorstmt>
-            <author>Campeden, Hugh, translator</author>
-        </authorstmt>
-        <titlestmt>
-            <title level="m">Sydrac and Boctus</title>
-        </titlestmt>
-        <pubstmt date="1486"> Paris, 1486</pubstmt>
-        <repos/>
-        <desc>
-            <name>Campeden, Hugh, translator</name>
-            <i>Sydrac and Boctus</i>, trans. Hugh Campeden from the French, Paris, 1486 </desc>
-    </bibl>
     <bibl xml:id="StPaulBuxtaforius1616" n="X">
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
