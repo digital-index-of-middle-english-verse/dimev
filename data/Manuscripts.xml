@@ -18092,11 +18092,6 @@
         <repos>University Library</repos>
         <desc>Inc. 5. J. 1. 2. (3569) (printed <mss key="STC17032a"/>)</desc>
     </item>
-    <item xml:id="Atkinson">
-        <loc>Temple Sowerby, Cumbria</loc>
-        <repos><i>olim</i> Mrs Atkinson of Temple Sowerby</repos>
-        <desc>(present location unknown)</desc>
-    </item>
     <!--See following <item xml:id="AmsterdamDek">
         <loc>Amsterdam, Netherlands</loc>
         <repos>Bibliotheca Philosophica Hermetica</repos>

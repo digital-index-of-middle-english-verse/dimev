@@ -15291,14 +15291,6 @@
          </item>
       </repos>
    </loc>
-   <loc key="Temple Sowerby, Cumbria">
-      <repos key="olim Mrs Atkinson of Temple Sowerby">
-         <item xml:id="Atkinson">
-            <desc>(present location unknown)</desc>
-            <count>1</count>
-         </item>
-      </repos>
-   </loc>
    <loc key="Tokyo">
       <repos key="S. Asahata">
          <item xml:id="TokyoAsahata">
