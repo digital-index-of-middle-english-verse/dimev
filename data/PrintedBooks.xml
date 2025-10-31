@@ -463,7 +463,7 @@
                 collectit furthe of sindrie pa[rtis of] Scripture…With [aug]mentation of sindrie…ballatt[is] not
                 contenit in th[e] first editioun</i>, [1578] </desc>
     </bibl>
-   <!-- <bibl xml:id="STC2998" n="STC 2998">
+    <!-- <bibl xml:id="STC2998" n="STC 2998">
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author/>
@@ -884,7 +884,7 @@
         <desc>
             <i>Paruus Catho [et] Magnus Catho</i>, [Caxton, 1483] </desc>
     </bibl>
-   <!-- <bibl xml:id="STC4853" n="STC 4853">
+    <!-- <bibl xml:id="STC4853" n="STC 4853">
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>PROSE
             <author/>
@@ -3826,7 +3826,8 @@
         </titlestmt>
         <pubstmt date="1529"> Henry Medwall, [London: Printed by William Rastell, between 1529 and 1535]</pubstmt>
         <repos/>
-        <desc> <name>Medwall, Henry</name>, <i> Nature A goodly interlude of nature co[m]pylyd by mayster Henry Medwall chapleyn
+        <desc>
+            <name>Medwall, Henry</name>, <i> Nature A goodly interlude of nature co[m]pylyd by mayster Henry Medwall chapleyn
                 to the ryght reuerent father in god Iohan Morton somtyme cardynall and archebyshop of
                 Canterbury</i>, [London: Printed by William Rastell, between 1529 and 1535] </desc>
     </bibl>
@@ -5613,7 +5614,8 @@
         <repos/>
         <desc>
             <name>Rastell, John</name>, <i>An Interlude of the Four Elements, including songs with musical notation…</i> (STC 20722)</desc>
-    </bibl><bibl xml:id="Rastell" n="X">
+    </bibl>
+    <bibl xml:id="Rastell" n="X">
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
             <author>Rastell, John</author>
