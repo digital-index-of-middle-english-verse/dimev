@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glossary>
     <item xml:id="adawe">
         <lemma>adawe</lemma>
@@ -151,7 +151,7 @@
         <partOfSpeech>
             <i>noun</i><sup>1</sup>
         </partOfSpeech>
-        <def> 1. a. An implement consisting of a heavy weight or &#8216;head,&#8217; usually of
+        <def> 1. a. An implement consisting of a heavy weight or 'head,' usually of
             wood, with a handle or stock, used for driving wedges or pegs, ramming down paving
             stones, or for crushing, bruising, beating, flattening, or smoothing, in various
             industrial and domestic operations, and having various shapes according to the purpose
@@ -183,7 +183,7 @@
         </source>
         <partOfSpeech>
             <i>verb</i></partOfSpeech>
-        <def> 2. <i>refl</i>. To lament or bewail one&#8217;s lot</def>
+        <def> 2. <i>refl</i>. To lament or bewail one's lot</def>
     </item>
     <item xml:id="bern">
         <lemma>bern</lemma>
@@ -193,7 +193,7 @@
         <partOfSpeech>
             <i>noun</i> (1) </partOfSpeech>
         <def>2. (a) Soldier; esp., a knight; ~ of armes, man-at-arms; breneid ~, a mailed warrior;
-            (b) a nobleman, a lord; &#8212; often equated with baroun baron</def>
+            (b) a nobleman, a lord; — often equated with baroun baron</def>
     </item>
     <item xml:id="boist">
         <lemma>boist</lemma>
@@ -267,7 +267,7 @@
         </source>
         <partOfSpeech>
             <i>verb</i>, 6 (a) </partOfSpeech>
-        <def>To allocate or employ (funds, property); spend, expend; (b) ~ time (night), to spend (one&#8217;s) time (night).</def>
+        <def>To allocate or employ (funds, property); spend, expend; (b) ~ time (night), to spend (one's) time (night).</def>
     </item>
     <item xml:id="bespit">
         <lemma>bespit</lemma>
@@ -325,7 +325,7 @@
         <partOfSpeech>
             <i>verb</i>
         </partOfSpeech>
-        <def>[OE ge)byrian, &amp; cp. OI byrja. In ME this verb, a synonym of biho&#333;ven, occurs
+        <def>[OE ge)byrian, &amp; cp. OI byrja. In ME this verb, a synonym of bihoōven, occurs
             almost exclusively in the NM and the N, and only in the 3rd person.] 1b. With personal
             subj.: (a) to be under obligation, be in duty bound (to do sth.), ought (to do)</def>
     </item>
@@ -348,7 +348,7 @@
         <def><i>Obs</i>. <i>intr</i>. To turn pale</def>
     </item>
     <item xml:id="bolen">
-        <lemma>b&#333;len</lemma>
+        <lemma>bōlen</lemma>
         <source>
             <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
         </source>
@@ -394,7 +394,7 @@
             <i>verb</i>
         </partOfSpeech>
         <def>3. (a) To tear or cut (sb.) to pieces; rend, slash; slay; ~ <i>to dethe</i>, ~ <i>to
-                no&#541;t</i>, kill; destroy (the soul); (b) to go to pieces, be annihilated</def>
+                noȝt</i>, kill; destroy (the soul); (b) to go to pieces, be annihilated</def>
     </item>
     <item xml:id="busk">
         <lemma>busk</lemma>
@@ -711,7 +711,7 @@
             <i>noun</i>
         </partOfSpeech>
         <def> In early use = FISTULA n.; subsequently, a rankling sore, an ulcer. In mod. use:
-            &#8216;A superficial suppuration resulting from irritation of the skin&#8217; (Quain
+            'A superficial suppuration resulting from irritation of the skin' (Quain
                 <i>Dict. Med.</i> 1882)</def>
     </item>
     <item xml:id="fold">
@@ -730,7 +730,7 @@
         <partOfSpeech><i>verb</i> [FAND | FOND]</partOfSpeech>
         <def>
             <i>trans</i>. To put to the proof, try, test (a person or thing); to make trial of
-            (one&#8217;s strength, skill); to taste (food, etc.); in early use with
+            (one's strength, skill); to taste (food, etc.); in early use with
             <i>gen</i>.</def>
     </item>
     <item xml:id="found">
@@ -769,7 +769,7 @@
         </source>
         <partOfSpeech><i>noun</i></partOfSpeech>
         <def>†1. = BROTHER <i>n</i>., in fig. applications; esp. in Old French phrase <i>beu
-                frere</i> &#8216;fair brother&#8217;. <i>Obs</i>.</def>
+                frere</i> 'fair brother'. <i>Obs</i>.</def>
     </item>
     <item xml:id="frith">
         <lemma>frith</lemma>
@@ -892,7 +892,7 @@
         <partOfSpeech>
             <i>verb</i>
         </partOfSpeech>
-        <def> reward&#9001;OE hanse</def>
+	<def> reward &lt; OE hanse</def><!--I do not follow. irc-->
     </item>
     <item xml:id="hayward">
         <lemma>hayward</lemma>
@@ -986,7 +986,7 @@
             (Notwithstanding its comparative form, it does not differ in sense from <i>hind</i>, but
             is more frequently used. Cf. YON adv., YONDER <i>adv</i>., <i>adj</i>., <i>pron</i>.,
             and <i>n</i>.) <i>hinder gate</i>, postern gate. 2. Of time. a. Last past,
-            &#8216;last&#8217;; as in this <i>hinder day</i> yesterday, this <i>hinder night</i>
+            'last'; as in this <i>hinder day</i> yesterday, this <i>hinder night</i>
             last night, yesternight.</def>
     </item>
     <item xml:id="hore">
@@ -1010,7 +1010,7 @@
             <i>trans</i>. To praise, glorify, exalt, honour, worship</def>
     </item>-->
     <item xml:id="horien">
-        <lemma>h&#333;rien</lemma>
+        <lemma>hōrien</lemma>
         <source>
             <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
         </source>
@@ -1127,7 +1127,7 @@
             <ref type="url" n="http://www.oed.com/">OED</ref>
         </source>
         <partOfSpeech><i>noun</i></partOfSpeech>
-        <def><i>Obs</i>. 3. a. <i>sing</i>. A man, person; esp. one of the ‘men’ or subjects of a
+        <def><i>Obs</i>. 3. a. <i>sing</i>. A man, person; esp. one of the 'men' or subjects of a
             king or chief; a subject. Also <i>poet</i>. in Old English, a king</def>
     </item>
     <item xml:id="lemman">
@@ -1169,7 +1169,7 @@
             <ref type="url" n="http://www.oed.com/">OED</ref>
         </source>
         <partOfSpeech><i>noun</i> (1a)</partOfSpeech>
-        <def> A people, nation, race. Also, persons collectively, &#8216;people&#8217;</def>
+        <def> A people, nation, race. Also, persons collectively, 'people'</def>
     </item>
     <item xml:id="licham">
         <lemma>licham</lemma>
@@ -1287,7 +1287,7 @@
             only in place names [see Smith <i>PNElem</i>. 2.45]; (c)?as surname</def>
     </item>
     <item xml:id="nere">
-        <lemma>n&#275;re</lemma>
+        <lemma>nēre</lemma>
         <source>
             <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
         </source>
@@ -1624,7 +1624,7 @@
         </source>
         <partOfSpeech><i>noun</i></partOfSpeech>
         <def><i>Obs</i>. 1. a. The action of sending; that which is sent, a message, present;
-            (God&#8217;s) dispensation or ordinance</def>
+            (God's) dispensation or ordinance</def>
     </item>
     <item xml:id="sarai">
         <lemma>Sarai</lemma>
@@ -1675,7 +1675,7 @@
         <partOfSpeech>
             <i>noun</i>
         </partOfSpeech>
-        <def> Appearance, &#8216;false semblant&#8217;</def>
+        <def> Appearance, 'false semblant'</def>
     </item>
     <item xml:id="sen">
         <lemma>sen</lemma>
@@ -1781,8 +1781,8 @@
         <partOfSpeech>
             <i>noun</i></partOfSpeech>
         <def><i>Obs</i>.1. A going, journey, path, way.This sense is very common in Old English
-            poetry; 2.a. Fortune on a journey; also generally, fortune, hap, luck; 3. One&#8217;s
-            pilgrimage on earth; life-time; the course <i>of</i> one&#8217;s life</def>
+            poetry; 2.a. Fortune on a journey; also generally, fortune, hap, luck; 3. One's
+            pilgrimage on earth; life-time; the course <i>of</i> one's life</def>
     </item>
     <item xml:id="sleight">
         <lemma>sleight</lemma>
@@ -1864,7 +1864,7 @@
             <ref type="url" n="http://quod.lib.umich.edu/m/med/">MED</ref>
         </source>
         <partOfSpeech>
-            <i>noun</i> (sw&#299;ne)</partOfSpeech>
+            <i>noun</i> (swīne)</partOfSpeech>
         <def>1. a roast of pork</def>
     </item>
     <item xml:id="swing">
@@ -1875,7 +1875,7 @@
         <partOfSpeech>
             <i>verb</i> (1c) </partOfSpeech>
         <def>
-            <i>Cookery</i>. To beat up, &#8216;whip&#8217; (milk, eggs, etc.). <i>Obs</i>.</def>
+            <i>Cookery</i>. To beat up, 'whip' (milk, eggs, etc.). <i>Obs</i>.</def>
     </item>
     <item xml:id="syne">
         <lemma>syne</lemma>
@@ -2177,7 +2177,7 @@
         <partOfSpeech>
             <i>verb</i><sup>1</sup></partOfSpeech>
         <def><i>Obs</i>. 1. a. To accuse, denounce, or inform on (a person); to expose (one) by
-            revealing or divulging information, etc., to one&#8217;s harm, prejudice, or discredit;
+            revealing or divulging information, etc., to one's harm, prejudice, or discredit;
             to charge with a crime, offence, fault, etc.; = BEWRAY <i>v</i>. 2.</def>
     </item>
     <item xml:id="wreche">

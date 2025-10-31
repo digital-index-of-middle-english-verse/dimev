@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><records>
+<?xml version='1.0' encoding='UTF-8'?>
+<records>
    
    <loc key="Chester">
       <repos key="Cheshire County Records Office">
@@ -27,7 +28,7 @@
             <count>4</count>
          </item>
          <item xml:id="TokyoTak15">
-            <desc>Takamiya 15 [Sotheby’s, 10 Dec. 1969, Lot 43; acquired by Takamiya in 1976]</desc>
+            <desc>Takamiya 15 [Sotheby's, 10 Dec. 1969, Lot 43; acquired by Takamiya in 1976]</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 608 (<place country="England" county="Yorkshire, West Riding">WRY</place>).</lang>
             <count>7</count>
@@ -53,7 +54,7 @@
          <item xml:id="TokyoTak24">
             <desc>Takamiya 24 [<i>olim</i> Chatsworth, Duke of Devonshire]</desc>
             <lang>See <biblio key="Mosser2010"/>, which argues that southern <place country="England" county="Kent">Kent</place> and northern <place country="England" county="Essex">Essex</place> (Thames estuary) together accomodate the forms typical of this and
-               other manuscripts by the same scribe(s) (‘Hooked-<i>g</i>’).</lang>
+               other manuscripts by the same scribe(s) ('Hooked-<i>g</i>').</lang>
             <count>53</count>
          </item>
          <item xml:id="TokyoTak29">
@@ -69,16 +70,16 @@
             <desc>Takamiya 32 [<i>olim</i> Penrose 6; <i>prior</i> Delamere]</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 5970; <langGrid>Grid 552 167</langGrid> (<place country="England" county="Kent">Kent</place>). But cf. <biblio key="Mosser2004">Mosser 2004</biblio>, which argues that the same scribe copied Cambridge University
-               Library MS Gg.I.34 (Part 3), of <i>Mandeville’s Travels</i>, which <biblio key="eLALME"/> includes as LP 619 (<place country="England" county="Ely">Ely</place>). Mosser concludes that <place country="England" county="Norfolk">Norfolk</place> or <place country="England" county="Suffolk">Suffolk</place> are
+               Library MS Gg.I.34 (Part 3), of <i>Mandeville's Travels</i>, which <biblio key="eLALME"/> includes as LP 619 (<place country="England" county="Ely">Ely</place>). Mosser concludes that <place country="England" county="Norfolk">Norfolk</place> or <place country="England" county="Suffolk">Suffolk</place> are
                more probable locations.</lang>
             <count>51</count>
          </item>
          <item xml:id="TokyoTak33">
-            <desc>Takamiya 33 [Christie’s, 8 November 1978, Lot 198]</desc>
+            <desc>Takamiya 33 [Christie's, 8 November 1978, Lot 198]</desc>
             <count>1</count>
          </item>
          <item xml:id="TokyoTak35">
-            <desc>Takamiya 35 [Sotheby’s, 5 December, lot 40]</desc>
+            <desc>Takamiya 35 [Sotheby's, 5 December, lot 40]</desc>
             <count>1</count>
          </item>
          <item xml:id="TokyoTak40">
@@ -93,7 +94,7 @@
             <count>2</count>
          </item>
          <item xml:id="TokyoTak51">
-            <desc>Takamiya 51 [Sotheby’s, 24 June 1980, lot 33]</desc>
+            <desc>Takamiya 51 [Sotheby's, 24 June 1980, lot 33]</desc>
             <count>1</count>
          </item>
          <item xml:id="TokyoTak52">
@@ -109,7 +110,7 @@
             <count>0</count>
          </item>
          <item xml:id="TokyoTak61">
-            <desc>Takamiya 61 [Sotheby’s, 10 November 1952, <i>olim</i> Lawrence Witten]</desc>
+            <desc>Takamiya 61 [Sotheby's, 10 November 1952, <i>olim</i> Lawrence Witten]</desc>
             <count>4</count>
          </item>
          <item xml:id="TokyoTak64">
@@ -126,7 +127,7 @@
             <count>3</count>
          </item>
          <item xml:id="TokyoTak67">
-            <desc>Takamiya 67 [<i>olim</i> Ingilby (Sotheby’s, 21 October 1920, lot 30); <i>olim</i>
+            <desc>Takamiya 67 [<i>olim</i> Ingilby (Sotheby's, 21 October 1920, lot 30); <i>olim</i>
                Bradfer-Lawrence 11]</desc>
             <count>1</count>
          </item>
@@ -135,11 +136,11 @@
             <count>1</count>
          </item>
          <item xml:id="TokyoTak79">
-            <desc>Takamiya 79 [<i>olim</i> Plimpton; <i>olim</i> Sotheby’s Sale 6 Dec. 1983, lot 20]</desc>
+            <desc>Takamiya 79 [<i>olim</i> Plimpton; <i>olim</i> Sotheby's Sale 6 Dec. 1983, lot 20]</desc>
             <count>1</count>
          </item>
          <item xml:id="TokyoTak94">
-            <desc>94 [<i>olim</i> Astor, sold Sotheby’s 21 June 1988, lot 57]</desc>
+            <desc>94 [<i>olim</i> Astor, sold Sotheby's 21 June 1988, lot 57]</desc>
             <count>3</count>
          </item>
          <item xml:id="TokyoTak96">
@@ -147,7 +148,7 @@
             <count>6</count>
          </item>
          <item xml:id="TokyoTak97">
-            <desc>Takamiya 97 [<i>olim</i> Foyle’s sale at Christie’s, 11 July 2000, lot 76]</desc>
+            <desc>Takamiya 97 [<i>olim</i> Foyle's sale at Christie's, 11 July 2000, lot 76]</desc>
             <count>1</count>
          </item>
          <item xml:id="TokyoTak98">
@@ -177,7 +178,7 @@
    <loc key="">
       <repos key="Graham">
          <item xml:id="Graham">
-            <desc>Graham MS [sold Sotheby’s 12 Dec. 1966, lot 215; 10 July 1972, lot 22]</desc>
+            <desc>Graham MS [sold Sotheby's 12 Dec. 1966, lot 215; 10 July 1972, lot 22]</desc>
             <count>0</count>
          </item>
       </repos>
@@ -389,7 +390,7 @@
             <count>11</count>
          </item>
          <item xml:id="NLWPen392">
-            <desc>Peniarth 392 D [‘Hengwrt’]</desc>
+            <desc>Peniarth 392 D ['Hengwrt']</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> (part of) LP 6400; <langGrid>Grid 532
                 183</langGrid> (<place town="London" country="England">London</place>).</lang>
@@ -432,7 +433,7 @@
             <count>3</count>
          </item>
          <item xml:id="Mostyn85">
-            <desc>MS 21242C [<i>olim</i> Mostyn Hall 85 (Christie’s, 24 Oct. 1974, lot 1479, sold
+            <desc>MS 21242C [<i>olim</i> Mostyn Hall 85 (Christie's, 24 Oct. 1974, lot 1479, sold
             to Quaritch)]</desc>
             <count>2</count>
          </item>
@@ -467,7 +468,7 @@
    <loc key="Amsterdam, Netherlands">
       <repos key="Bibliotheca Philosophica Hermetica">
          <item xml:id="AmsterdamBPHM199">
-            <desc>MS M 199 [<i>olim</i> Christie’s catalogue 26 June 1991]</desc>
+            <desc>MS M 199 [<i>olim</i> Christie's catalogue 26 June 1991]</desc>
             <count>1</count>
          </item>
       </repos>
@@ -507,7 +508,7 @@
    <loc key="Armagh">
       <repos key="Armagh Diocesan Registry">
          <item xml:id="ArmaghReg">
-            <desc>Bishop John Swayne’s Register</desc>
+            <desc>Bishop John Swayne's Register</desc>
             <count>1</count>
          </item>
       </repos>
@@ -540,7 +541,7 @@
       <repos key="R. H. C. Neville">
          <item xml:id="AudleyFall">
             <desc>
-               <i>olim</i> Fall of Princes [Sotheby’s 8 July 1970, lot 98]</desc>
+               <i>olim</i> Fall of Princes [Sotheby's 8 July 1970, lot 98]</desc>
             <count>1</count>
          </item>
       </repos>
@@ -560,10 +561,10 @@
          </item>
          <item xml:id="Austin143">
             <desc>HRC Pre-1700 MS 143 [<i>olim</i> Deene Park; <i>post</i> Cardigan-Brudenell, sold
-            Sotheby’s, Feb. 1959]</desc>
+            Sotheby's, Feb. 1959]</desc>
             <lang>
-               <biblio key="Mosser2010"/> localizes both scribes to <place country="England" county="Warwickshire">Warwickshire</place>, noting that ‘Scribe A also shows
-            the influence of Type IV (Chancery Standard)’ while Scribe B has a layer of
+               <biblio key="Mosser2010"/> localizes both scribes to <place country="England" county="Warwickshire">Warwickshire</place>, noting that 'Scribe A also shows
+            the influence of Type IV (Chancery Standard)' while Scribe B has a layer of
             spellings indicative of <place country="England" county="East Anglia">East
                 Anglia</place>.</lang>
             <count>55</count>
@@ -604,7 +605,7 @@
       </repos>
    </loc>
    <loc key="Belfast">
-      <repos key="Queen’s University">
+      <repos key="Queen's University">
          <item xml:id="Belfast">
             <desc>3/11B</desc>
             <count>1</count>
@@ -624,7 +625,7 @@
       <repos key="University of California">
          <item xml:id="Berkeley">
             <desc>75 [<i>olim</i> Phillipps 8118; <i>olim</i> Bodmer; <i>olim</i> John Gribbel,
-            Philadelphia; sold Sotheby’s 4 Dec. 1962, lot 131]</desc>
+            Philadelphia; sold Sotheby's 4 Dec. 1962, lot 131]</desc>
             <count>1</count>
          </item>
       </repos>
@@ -722,12 +723,12 @@
    <loc key="Brechin Castle">
       <repos key="Earl of Dalhousie">
          <item xml:id="BrechinFordun">
-            <desc>Fordun’s <i>Chronicle</i>, on deposit at Edinburgh, Scottish Record Office, MS
+            <desc>Fordun's <i>Chronicle</i>, on deposit at Edinburgh, Scottish Record Office, MS
             GD5/26/48</desc>
             <count>0</count>
          </item>
          <item xml:id="BrechinWintoun">
-            <desc>Wintoun’s <i>Chronicle</i>
+            <desc>Wintoun's <i>Chronicle</i>
             </desc>
             <count>0</count>
          </item>
@@ -753,7 +754,7 @@
       </repos>
       <repos key="Clifton College">
          <item xml:id="BristolClifton">
-            <desc>Norton’s <i>Ordinal of Alchemy</i>
+            <desc>Norton's <i>Ordinal of Alchemy</i>
             </desc>
             <count>1</count>
          </item>
@@ -774,7 +775,7 @@
             <count>1</count>
          </item>
          <item xml:id="BrusselsIV354">
-            <desc>IV. 354  (<i>olim</i> <i>Sarum Officium Mortuorum</i>, Sotheby’s Sale, 10 Oct., 1962, Lot 146)</desc>
+            <desc>IV. 354  (<i>olim</i> <i>Sarum Officium Mortuorum</i>, Sotheby's Sale, 10 Oct., 1962, Lot 146)</desc>
             <count>3</count>
          </item>
          <item xml:id="BrusselsIV998">
@@ -792,7 +793,7 @@
          </item>
          <item xml:id="Buteolim">
             <desc>
-               <i>olim</i>Bute, Christie’s Sale 13 June 1983</desc>
+               <i>olim</i>Bute, Christie's Sale 13 June 1983</desc>
             <count>0</count>
          </item>
       </repos>
@@ -808,7 +809,7 @@
    <loc key="Cambridge MA">
       <repos key="Harvard University, Houghton Library">
          <item xml:id="HarEng515">
-            <desc>Eng. 515 [<i>olim</i> Halliwell; Sotheby’s Sale, 1920, Lot 515; Hope Allen
+            <desc>Eng. 515 [<i>olim</i> Halliwell; Sotheby's Sale, 1920, Lot 515; Hope Allen
             Addit. MS. IV]</desc>
             <count>2</count>
          </item>
@@ -1585,8 +1586,8 @@
          </item>
          <item xml:id="CULIi326">
             <desc>Ii.3.26</desc>
-            <lang>‘South <place country="England" county="Lincolnshire">Lincolnshire</place>, or
-            possibly North <place country="England" county="Norfolk">Norfolk</place>’ (<biblio key="Horobin2003"/>, p. 152).</lang>
+            <lang>'South <place country="England" county="Lincolnshire">Lincolnshire</place>, or
+            possibly North <place country="England" county="Norfolk">Norfolk</place>' (<biblio key="Horobin2003"/>, p. 152).</lang>
             <count>55</count>
          </item>
          <item xml:id="CULIi49">
@@ -1748,8 +1749,8 @@
             <desc>Mm.2.5</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.68 (N. <place country="England" county="Leicestershire">Leics</place>); LP 749; <langGrid>Grid 505 249</langGrid>
-                (<place country="England" county="Bedfordshire">Beds</place>: ‘Hand of
-            Prologue to Wycliffite Bible’).</lang>
+                (<place country="England" county="Bedfordshire">Beds</place>: 'Hand of
+            Prologue to Wycliffite Bible').</lang>
             <count>51</count>
          </item>
          <item xml:id="CULMm221">
@@ -1813,7 +1814,7 @@
             <count>0</count>
          </item>
          <item xml:id="CamClare13">
-            <desc>13 (G’.3.4)</desc>
+            <desc>13 (G'.3.4)</desc>
             <count>1</count>
          </item>
       </repos>
@@ -2042,7 +2043,7 @@
             <count>2</count>
          </item>
          <item xml:id="CamFitz40-1950">
-            <desc>40-1950 [<i>olim</i> Yates Thompson 83, ‘Talbot Hours’]</desc>
+            <desc>40-1950 [<i>olim</i> Yates Thompson 83, 'Talbot Hours']</desc>
             <count>5</count>
          </item>
          <item xml:id="CamFitz41-1951">
@@ -2295,7 +2296,7 @@
             <count>1</count>
          </item>
       </repos>
-      <repos key="King’s College">
+      <repos key="King's College">
          <item xml:id="CamKC13">
             <desc>13</desc>
             <lang>
@@ -2570,7 +2571,7 @@
             <count>1</count>
          </item>
       </repos>
-      <repos key="Queens’ College">
+      <repos key="Queens' College">
          <item xml:id="CamQue12">
             <desc>Horne 24 (12)</desc>
             <count>1</count>
@@ -2621,18 +2622,18 @@
             <count>2</count>
          </item>
       </repos>
-      <repos key="St Catherine’s College">
+      <repos key="St Catherine's College">
          <item xml:id="CamStCat7">
             <desc>7</desc>
             <count>1</count>
          </item>
       </repos>
-      <repos key="St John’s College">
+      <repos key="St John's College">
          <item xml:id="CamStJohn15">
             <desc>A.15 (15)</desc>
             <lang>
-               <biblio key="LAEME">LAEME</biblio> Index # 17 (‘text language not placed —
-            too little to go on’).</lang>
+               <biblio key="LAEME">LAEME</biblio> Index # 17 ('text language not placed —
+            too little to go on').</lang>
             <count>3</count>
          </item>
          <item xml:id="CamStJohn25">
@@ -2691,8 +2692,8 @@
          <item xml:id="CamStJohn111">
             <desc>E.8 (111)</desc>
             <lang>
-               <biblio key="LAEME">LAEME</biblio> Index # 233 (’text language not
-            placed…text language is of the SE Midland, probably <place country="England" county="Essex">Essex</place>’).</lang>
+               <biblio key="LAEME">LAEME</biblio> Index # 233 ('text language not
+            placed…text language is of the SE Midland, probably <place country="England" county="Essex">Essex</place>').</lang>
             <count>1</count>
          </item>
          <item xml:id="CamStJohn112">
@@ -2717,8 +2718,8 @@
          <item xml:id="CamStJohn145">
             <desc>F.8 (145)</desc>
             <lang>
-               <biblio key="LAEME">LAEME</biblio> Index # 139 (’text language not placed
-            — too little to go on’).</lang>
+               <biblio key="LAEME">LAEME</biblio> Index # 139 ('text language not placed
+            — too little to go on').</lang>
             <count>1</count>
          </item>
          <item xml:id="CamStJohn159">
@@ -2825,9 +2826,9 @@
             <lang>
                <biblio key="LAEME">LAEME</biblio> Index # 1700; <langGrid>Grid 574 326</langGrid> (W
                 <place country="England" county="Norfolk">Norfolk</place>: entry 2); Index # 274
-            (‘text language not placed…the text language is almost certainly of NW
+            ('text language not placed…the text language is almost certainly of NW
                 <place country="England" county="Norfolk">Norfolk</place>…or possibly of S
-                <place country="England" county="Lincolnshire">Lincs</place>.’).</lang>
+                <place country="England" county="Lincolnshire">Lincs</place>.').</lang>
             <count>5</count>
          </item>
          <item xml:id="CamTCC61">
@@ -2881,8 +2882,8 @@
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 7721; <langGrid>Grid 374 256</langGrid> (Worcs);
                 <biblio key="LAEME">LAEME</biblio> Index # 246; <langGrid>Grid 366 255</langGrid>
             (Entry 1, E <place country="England" county="Herefordshire">Herefords</place>:
-            ‘Items in hand A have been amalgamated into one text language and provisionally
-            place in NE <place country="England" county="Herefordshire">Herefords</place>’);
+            'Items in hand A have been amalgamated into one text language and provisionally
+            place in NE <place country="England" county="Herefordshire">Herefords</place>');
             Index # 247; <langGrid>Grid 371 237</langGrid> (Entry 2, E <place country="England" county="Herefordshire">Herefords</place>: Hand B); Index # 248; <langGrid>Grid 360
                 240</langGrid> (Entry 3, Central <place country="England" county="Herefordshire">Herefords</place>: Hand C); Index # 249; <langGrid>Grid 365 232</langGrid> (Entry
             4, SE <place country="England" county="Herefordshire">Herefords</place>: Hand D).</lang>
@@ -2893,10 +2894,10 @@
             <lang>
                <biblio key="LAEME">LAEME</biblio> Index # 4; <langGrid>Grid 557 222</langGrid> (Entry
             1, W <place country="England" county="Essex">Essex</place>: Hand A); Index # 1200;
-                <langGrid>Grid 552 238</langGrid> (Entry 2, NW <place country="England" county="Essex">Essex</place>: Hand A [‘The language of Hand B, which divides
+                <langGrid>Grid 552 238</langGrid> (Entry 2, NW <place country="England" county="Essex">Essex</place>: Hand A ['The language of Hand B, which divides
             into two slightly differing kinds, belongs further north than that of hand A, probably
             in west <place country="England" county="Suffolk">Suffolk</place> near the <place country="England" county="Cambridgeshire">Cambridgeshire</place> border. The
-            language of hand C probably belongs in W <place country="England" county="Berkshire">Berks</place>’]); Index # 1300; <langGrid>Grid 571 267</langGrid> (Entry 3, W
+            language of hand C probably belongs in W <place country="England" county="Berkshire">Berks</place>']); Index # 1300; <langGrid>Grid 571 267</langGrid> (Entry 3, W
                 <place country="England" county="Suffolk">Suffolk</place>: Hand B); Index # 63;
                 <langGrid>Grid 427 185</langGrid> (Entry 4, W <place country="England" county="Berkshire">Berks</place>: Hand C).</lang>
             <count>2</count>
@@ -3409,8 +3410,8 @@
          <item xml:id="ChicagoUL564">
             <desc>564 [<i>olim</i> Ashburnham 126, <i>post</i> McCormick]</desc>
             <lang>
-               <biblio key="Mosser2010"/> finds the spellings indicate ‘<place country="England" county="Worcestershire">Worcestershire</place>, very near <place town="Pershire">Pershire</place>,’ while ‘other features (e.g., the
-            splling ‘-th’ for ‘-ght’) suggest an <place country="England" county="East Anglia">East Anglian</place> layer.’ Cf. <biblio key="Horobin2003"/>, who suggests ‘West <place country="England" county="Oxfordshire">Oxfordshire</place>’ (p. 156).</lang>
+               <biblio key="Mosser2010"/> finds the spellings indicate '<place country="England" county="Worcestershire">Worcestershire</place>, very near <place town="Pershire">Pershire</place>,' while 'other features (e.g., the
+            splling '-th' for '-ght') suggest an <place country="England" county="East Anglia">East Anglian</place> layer.' Cf. <biblio key="Horobin2003"/>, who suggests 'West <place country="England" county="Oxfordshire">Oxfordshire</place>' (p. 156).</lang>
             <count>35</count>
          </item>
          <item xml:id="ChicagoUL565">
@@ -3426,7 +3427,7 @@
    <loc key="Chichester">
       <repos key="West Sussex Record Office">
          <item xml:id="Chichester">
-            <desc>Cowfold Churchwarden’s Accounts</desc>
+            <desc>Cowfold Churchwarden's Accounts</desc>
             <count>1</count>
          </item>
       </repos>
@@ -3526,9 +3527,9 @@
    <loc key="Derbyshire">
       <repos key="Chatsworth House">
          <item xml:id="Chats">
-            <desc>‘Devonshire Fragment’</desc>
+            <desc>'Devonshire Fragment'</desc>
             <lang>
-               <biblio key="Mosser2010"/>: ‘<place country="England" county="North">Northern</place>, possibly <place country="England" county="Yorkshire">Yorkshire</place>’.</lang>
+               <biblio key="Mosser2010"/>: '<place country="England" county="North">Northern</place>, possibly <place country="England" county="Yorkshire">Yorkshire</place>'.</lang>
             <count>2</count>
          </item>
       </repos>
@@ -3551,7 +3552,7 @@
       </repos>
       <repos key="Representative Church Body Library, Dublin">
          <item xml:id="DublinRepD11">
-            <desc>D11.1.2 [<i>olim</i> Kilkenny, St Canice’s Library; Red Book of Ossory]</desc>
+            <desc>D11.1.2 [<i>olim</i> Kilkenny, St Canice's Library; Red Book of Ossory]</desc>
             <count>7</count>
          </item>
          <item xml:id="DublinRepBlack">
@@ -3720,8 +3721,8 @@
          <item xml:id="TCD432">
             <desc>432</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 4074; <langGrid>Grid 474 260</langGrid> (<place country="England" county="Northamptonshire">Northants</place>); <biblio key="LAEME">LAEME</biblio> Index # 267 (Part 1, f. 22: ‘text language not placed —
-            too little to go on’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 4074; <langGrid>Grid 474 260</langGrid> (<place country="England" county="Northamptonshire">Northants</place>); <biblio key="LAEME">LAEME</biblio> Index # 267 (Part 1, f. 22: 'text language not placed —
+            too little to go on').</lang>
             <count>18</count>
          </item>
          <item xml:id="TCD490">
@@ -3785,9 +3786,9 @@
          <item xml:id="DurCathA312">
             <desc>A.III.12</desc>
             <lang>
-               <biblio key="LAEME">LAEME</biblio> Index # 13 (‘Localisation: text language not
+               <biblio key="LAEME">LAEME</biblio> Index # 13 ('Localisation: text language not
             placed. There is very little diagnostic to go on. There is nothing to suggest northern
-            language. DOP for DEEP and STUDES for STEAD pl. might point to the West <place country="England" county="Midlands">Midlands</place>.’).</lang>
+            language. DOP for DEEP and STUDES for STEAD pl. might point to the West <place country="England" county="Midlands">Midlands</place>.').</lang>
             <count>1</count>
          </item>
          <item xml:id="DurCathA425">
@@ -3813,7 +3814,7 @@
             <count>1</count>
          </item>
          <item xml:id="DurArchReg4">
-            <desc>Registrum Parvum IV [<i>olim</i> Prior’s Kitchen]</desc>
+            <desc>Registrum Parvum IV [<i>olim</i> Prior's Kitchen]</desc>
             <count>1</count>
          </item>
       </repos>
@@ -3914,7 +3915,7 @@
             <count>2</count>
          </item>
          <item xml:id="DULBamSel13">
-            <desc>Bamburgh Sel 13. (printed Higden’s <i>Polychronicon</i>, trans. Trevisa,
+            <desc>Bamburgh Sel 13. (printed Higden's <i>Polychronicon</i>, trans. Trevisa,
             1495)</desc>
             <count>1</count>
          </item>
@@ -3979,8 +3980,8 @@
          <item xml:id="EDU107">
             <desc>107</desc>
             <lang>
-               <biblio key="LAEME">LAEME</biblio> Index # 290 (‘text language not placed
-            — too little to go on’).</lang>
+               <biblio key="LAEME">LAEME</biblio> Index # 290 ('text language not placed
+            — too little to go on').</lang>
             <count>2</count>
          </item>
          <item xml:id="EDU114">
@@ -4096,12 +4097,12 @@
             <count>2</count>
          </item>
          <item xml:id="ColumbaHse">
-            <desc>Acc. 10301/6 [Columba House, Scottish Catholic Archives, Fordun’s Chronicles or
+            <desc>Acc. 10301/6 [Columba House, Scottish Catholic Archives, Fordun's Chronicles or
             Scotticronicon (on deposit at National Library of Scotland)]</desc>
             <count>1</count>
          </item>
       </repos>
-      <repos key="National Library of Scotland, Advocates’">
+      <repos key="National Library of Scotland, Advocates'">
          <item xml:id="Abbotsford">
             <desc>Deposit from Abbotsford</desc>
             <count>15</count>
@@ -4219,7 +4220,7 @@
          <item xml:id="Weymyss">
             <desc>
             
-               <i>Wyntoun’s Chronicle</i>
+               <i>Wyntoun's Chronicle</i>
         
             </desc>
             <count>2</count>
@@ -4296,7 +4297,7 @@
             <count>40</count>
          </item>
          <item xml:id="Bodmer110">
-            <desc>Cod. Bodmer 110 [<i>olim</i> Harmsworth; Sotheby’s Sale, Oct. 1945, lot 1963]</desc>
+            <desc>Cod. Bodmer 110 [<i>olim</i> Harmsworth; Sotheby's Sale, Oct. 1945, lot 1963]</desc>
             <count>1</count>
          </item>
          
@@ -4361,8 +4362,8 @@
          <item xml:id="GULHun197">
             <desc>Hunterian 197 (U.1.1)</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.88 (<place country="England" county="Norfolk">Norfolk</place>); though, as <biblio key="Horobin2003"/> notes, ‘there are
-            few traces of Norfolk usage in the tranches selected for analysis’ (p.
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.88 (<place country="England" county="Norfolk">Norfolk</place>); though, as <biblio key="Horobin2003"/> notes, 'there are
+            few traces of Norfolk usage in the tranches selected for analysis' (p.
             150).</lang>
             <count>52</count>
          </item>
@@ -4541,7 +4542,7 @@
       <repos key="Helmingham Hall">
          <item xml:id="HelminghamLJii2">
             <desc>
-               <i>olim</i> LJ.II.2 [sold Sotheby’s, 14 June 1961, lot 9]</desc>
+               <i>olim</i> LJ.II.2 [sold Sotheby's, 14 June 1961, lot 9]</desc>
             <count>1</count>
          </item>
       </repos>
@@ -4556,8 +4557,8 @@
          <item xml:id="HerefordO311">
             <desc>O.3.11</desc>
             <lang>
-               <biblio key="LAEME">LAEME</biblio> Index # 259 (‘text language not placed
-            — too little to go on’).</lang>
+               <biblio key="LAEME">LAEME</biblio> Index # 259 ('text language not placed
+            — too little to go on').</lang>
             <count>1</count>
          </item>
          <item xml:id="HerefordO414">
@@ -4595,7 +4596,7 @@
          <item xml:id="Holkham667">
             <desc>MS 667</desc>
             <lang>
-               <biblio key="Horobin2003"/> suggests ‘the <place country="England" county="Essex">Essex</place>/<place country="England" county="Suffolk">Suffolk</place> border, although <place country="England" county="Norfolk">Norfolk</place> is also a possible candidate’ (p. 151). The MS may have
+               <biblio key="Horobin2003"/> suggests 'the <place country="England" county="Essex">Essex</place>/<place country="England" county="Suffolk">Suffolk</place> border, although <place country="England" county="Norfolk">Norfolk</place> is also a possible candidate' (p. 151). The MS may have
             originally belonged to Richard Doddington, priest of <place town="Foxearth">Foxearth</place>, <place country="England" county="Essex">Essex</place> (on the
                 <place country="England" county="Essex">Essex</place>/<place country="England" county="Suffolk">Essex</place> border; see <biblio key="Manly1940"/>, 1.287-8;
             1.618).</lang>
@@ -4686,7 +4687,7 @@
             <count>0</count>
          </item>
          <item xml:id="LeedsBro500">
-            <desc>Brotherton 500 [<i>olim</i> Harmsworth, <i>olim</i> Neale; Sotheby’s Sale, 1920;
+            <desc>Brotherton 500 [<i>olim</i> Harmsworth, <i>olim</i> Neale; Sotheby's Sale, 1920;
             Hope Allen Addit. MS. III]</desc>
             <count>1</count>
          </item>
@@ -4754,7 +4755,7 @@
          <item xml:id="Lichfield5">
             <desc>5</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.98 (‘may have a <place country="England" county="Northamptonshire">Northants</place> element’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.98 ('may have a <place country="England" county="Northamptonshire">Northants</place> element').</lang>
             <count>2</count>
          </item>
          <item xml:id="Lichfield10">
@@ -4777,9 +4778,9 @@
             <desc>29</desc>
             <lang>
                <biblio key="Horobin2003"/> discerns in Scribe 1 (ff. 2-196) forms characteristic of
-            ‘Type III and Type IV forms,’ that is language characteristic of <place country="England" town="London">London</place> (p. 153). The second scribe (f. 196v
+            'Type III and Type IV forms,' that is language characteristic of <place country="England" town="London">London</place> (p. 153). The second scribe (f. 196v
             to the end), also responsible for most of <mss key="Petworth7"/>. In Lichfield 29, the
-            scribe’s spellings are mixed, suggesting provincial origins, though these marked
+            scribe's spellings are mixed, suggesting provincial origins, though these marked
             forms may be exemplar-conditioned.</lang>
             <count>49</count>
          </item>
@@ -4809,7 +4810,7 @@
       </repos>
       <repos key="Lincolnshire Archives Office">
          <item xml:id="LincolnArchK1">
-            <desc>2, Tennyson d’Eyncourt K/1</desc>
+            <desc>2, Tennyson d'Eyncourt K/1</desc>
             <count>1</count>
          </item>
       </repos>
@@ -4839,7 +4840,7 @@
          <item xml:id="Lincoln105">
             <desc>105</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.98 (‘probably <place country="England" county="Lincolnshire">Lincs</place> English’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.98 ('probably <place country="England" county="Lincolnshire">Lincs</place> English').</lang>
             <count>1</count>
          </item>
          <item xml:id="Lincoln110">
@@ -4993,7 +4994,7 @@
          <item xml:id="BLAdd10052">
             <desc>Addit. 10052</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.100 (‘possibly of E <place country="England" county="Warwickshire">Warwicks</place>’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.100 ('possibly of E <place country="England" county="Warwickshire">Warwicks</place>').</lang>
             <count>6</count>
          </item>
          <item xml:id="BLAdd10053">
@@ -5055,7 +5056,7 @@
          <item xml:id="BLAdd11304">
             <desc>Addit. 11304</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.100 (‘Language of W <place country="England" county="Norfolk">Norfolk</place> or NW <place country="England" county="Suffolk">Suffolk</place>’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.100 ('Language of W <place country="England" county="Norfolk">Norfolk</place> or NW <place country="England" county="Suffolk">Suffolk</place>').</lang>
             <count>1</count>
          </item>
          <item xml:id="BLAdd11305">
@@ -5077,14 +5078,14 @@
          <item xml:id="BLAdd11579">
             <desc>Addit. 11579</desc>
             <lang>
-               <biblio key="LAEME">LAEME</biblio> Index # 19 (‘text language not placed —
-            too little to go on’).</lang>
+               <biblio key="LAEME">LAEME</biblio> Index # 19 ('text language not placed —
+            too little to go on').</lang>
             <count>10</count>
          </item>
          <item xml:id="BLAdd11748">
             <desc>Addit. 11748</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.100 (‘<place country="England" county="Chesire">Cheshire</place>, <place country="England" county="Derbyshire">Derbys</place> or <place country="England" county="Staffordshire">Staffs</place>᾿).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.100 ('<place country="England" county="Chesire">Cheshire</place>, <place country="England" county="Derbyshire">Derbys</place> or <place country="England" county="Staffordshire">Staffs</place>᾿).</lang>
             <count>1</count>
          </item>
          <item xml:id="BLAdd11814">
@@ -5150,7 +5151,7 @@
          <item xml:id="BLAdd15237">
             <desc>Addit. 15237</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.100 (‘Language of extreme S <place country="England" county="Lincolnshire">Lincs</place> or NE <place country="England" county="Rutland">Rutland</place>’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.100 ('Language of extreme S <place country="England" county="Lincolnshire">Lincs</place> or NE <place country="England" county="Rutland">Rutland</place>').</lang>
             <count>6</count>
          </item>
          <item xml:id="BLAdd15549">
@@ -5253,7 +5254,7 @@
          <item xml:id="BLAdd21202">
             <desc>Addit. 21202</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.100 (‘Language perhaps of E <place country="England" county="Warwickshire">Warwicks</place>’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.100 ('Language perhaps of E <place country="England" county="Warwickshire">Warwicks</place>').</lang>
             <count>6</count>
          </item>
          <item xml:id="BLAdd21253">
@@ -5378,8 +5379,8 @@
          <item xml:id="BLAdd25031">
             <desc>Addit. 25031</desc>
             <lang>
-               <biblio key="LAEME">LAEME</biblio> Index # 268 (‘text language not placed
-            — too little to go on’).</lang>
+               <biblio key="LAEME">LAEME</biblio> Index # 268 ('text language not placed
+            — too little to go on').</lang>
             <count>1</count>
          </item>
          <item xml:id="BLAdd25184">
@@ -5493,9 +5494,9 @@
             Manuscript<!--; <i>olim</i>
             Fillingham-->]</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.101 (‘Many of the texts are northern
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.101 ('Many of the texts are northern
             (probably <place country="England" county="Yorkshire, North Riding">NRY</place>). Some
-            have other linguistic ingredients, mainly far NE Midland in character. <place country="England" county="Northern">NME</place>.’).</lang>
+            have other linguistic ingredients, mainly far NE Midland in character. <place country="England" county="Northern">NME</place>.').</lang>
             <count>27</count>
          </item>
          <item xml:id="BLAdd31922">
@@ -5543,8 +5544,8 @@
          <item xml:id="BLAdd33994">
             <desc>Addit. 33994</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.101 (‘Language very late, but probably of
-            central <place country="England" county="Nottinghamshire">Notts</place>’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.101 ('Language very late, but probably of
+            central <place country="England" county="Nottinghamshire">Notts</place>').</lang>
             <count>1</count>
          </item>
          <item xml:id="BLAdd33995">
@@ -5735,7 +5736,7 @@
          <item xml:id="BLAdd39574">
             <desc>Addit. 39574</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.102 (‘Language of <place country="England" county="Soke of Peterborough">Soke</place> or possibly NW <place country="England" county="Isle of Ely">Ely</place>’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.102 ('Language of <place country="England" county="Soke of Peterborough">Soke</place> or possibly NW <place country="England" county="Isle of Ely">Ely</place>').</lang>
             <count>11</count>
          </item>
          <item xml:id="BLAdd39659">
@@ -5847,7 +5848,7 @@
             <count>1</count>
          </item>
          <item xml:id="BLAdd57335">
-            <desc>Addit. 57335 [Sotheby’s Sale Cat. 14 June 1971, lot 1524]</desc>
+            <desc>Addit. 57335 [Sotheby's Sale Cat. 14 June 1971, lot 1524]</desc>
             <count>0</count>
          </item>
          <item xml:id="BLAdd59495">
@@ -5948,7 +5949,7 @@
          <item xml:id="BLAru168">
             <desc>Arundel 168</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.105 (<place country="England" county="Lincolnshire">Lincs</place>: ff. 2-6v); 1.105 (‘Language of <place country="England" county="Isle of Ely">Ely</place> or SW <place country="England" county="Norfolk">Norfolk</place>’: ff. 15 seq.).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.105 (<place country="England" county="Lincolnshire">Lincs</place>: ff. 2-6v); 1.105 ('Language of <place country="England" county="Isle of Ely">Ely</place> or SW <place country="England" county="Norfolk">Norfolk</place>': ff. 15 seq.).</lang>
             <count>9</count>
          </item>
          <item xml:id="BLAru220">
@@ -6062,13 +6063,13 @@
                 <place country="England" county="Worcestershire">Worcs</place>: Part I, Entry 1,
             Hand A); Index # 278; <langGrid>Grid 381 271</langGrid> (NW <place country="England" county="Worcestershire">Worcs</place>: Part I, Entry 2, Hand B); Index # 2;
                 <langGrid>Grid 390 262</langGrid> (Central <place country="England" county="Worcestershire">Worcs</place>: Part II, Entry 1); Index # 3; <langGrid>Grid
-                379 267</langGrid> (NW <place country="England" county="Worcestershire">Worcs</place>: Part II, Entry 2); Index # 238 (‘text language not
-            placed’: Part II, Entry 3); Index # 239 (̰text language not placed’:
-            Part II, Entry 4); Index # 240 (‘text language not placed’: Part II, Entry
-            5); Index # 241 (‘text language not placed’: Part II, Entry 6); Index # 242
-            (‘text language not placed’: Part II, Entry 7); Index # 243 (‘text
-            language not placed’: Part II, Entry 8); Index # 244 (‘text language not
-            placed’: Part II, Entry 9).</lang>
+                379 267</langGrid> (NW <place country="England" county="Worcestershire">Worcs</place>: Part II, Entry 2); Index # 238 ('text language not
+            placed': Part II, Entry 3); Index # 239 (̰text language not placed':
+            Part II, Entry 4); Index # 240 ('text language not placed': Part II, Entry
+            5); Index # 241 ('text language not placed': Part II, Entry 6); Index # 242
+            ('text language not placed': Part II, Entry 7); Index # 243 ('text
+            language not placed': Part II, Entry 8); Index # 244 ('text language not
+            placed': Part II, Entry 9).</lang>
             <count>9</count>
          </item>
          <item xml:id="BLCottCalAXI">
@@ -6086,11 +6087,11 @@
          <item xml:id="BLCottClauAII">
             <desc>Cotton Claudius A.II</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.105 (‘Language probably of <place country="England" county="Staffordshire">Staffs</place>’: f. 1v); 1.105
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.105 ('Language probably of <place country="England" county="Staffordshire">Staffs</place>': f. 1v); 1.105
                 (<place country="England" county="Staffordshire">Staffs</place>: ff. 2-37v); 1.105
                 (<place country="England" county="Staffordshire">Staffs</place>: ff. 38-126v); LP 52
                 (<place country="England" county="Shropshire">Salop</place>: ff. 127-152v); 1.105
-            (‘Language probably of <place country="England" county="Staffordshire">Staffs</place>’: ff. 153v-154).</lang>
+            ('Language probably of <place country="England" county="Staffordshire">Staffs</place>': ff. 153v-154).</lang>
             <count>5</count>
          </item>
          <item xml:id="BLCottClauDVII">
@@ -6158,7 +6159,7 @@
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.106 (<place country="Wales" county="Gwynedd">Wales</place>, <place town="Carnarvon">Carnarvon</place>: f. 39); 1.106 (<place country="England" county="Lancashire">Lancs</place>.: f. 40); 1.106 (NW <place country="England" county="Midlands">Midlands</place>: f. 83); 1.106 (W <place country="England" county="Midlands">Midlands</place>: f. 85); 1.106 (<place country="Wales" county="Denbighshire">Wales</place>, <place town="Denbighs">Denbighs</place>: f. 102); 1.106 (<place country="Wales" county="Denbighshire">Wales</place>, <place town="Denbighs">Denbighs</place>: f. 102v); LP 1363;
                 <langGrid>Grid 307 351</langGrid> (<place country="Wales" county="Denbighshire">Wales</place>, <place town="Denbighs">Denbighs</place>: f. 104); LP 1364 (<place country="Wales" county="Carmarthenshire">Wales</place>, <place town="Carmarthen">Carmarthen</place>: f. 144); LP 1365; <langGrid>Grid 334 190</langGrid> (<place country="Wales" county="Monmouthshire">Wales</place>, <place town="Monmouth">Monmouth</place>: f. 149); 1.106 (<place country="Wales" county="Carmarthenshire">Wales</place>, <place town="Carmarthen">Carmarthen</place>: f. 153); 1.106 (<place country="Wales" county="Carmarthenshire">Wales</place>, <place town="Carmarthen">Carmarthen</place>: f. 156v); 1.106 (<place country="Wales" county="Carmarthenshire">Wales</place>, <place town="Carmarthen">Carmarthen</place>:
-            f. 157); 1.106 (‘Language of NW Midland type, possibly <place country="Wales" county="Denbighshire">Wales</place>, <place town="Denbighs">Denbighs</place>: f.
+            f. 157); 1.106 ('Language of NW Midland type, possibly <place country="Wales" county="Denbighshire">Wales</place>, <place town="Denbighs">Denbighs</place>: f.
             197).</lang>
             <count>1</count>
          </item>
@@ -6393,15 +6394,15 @@
             <lang>
                <biblio key="LAEME">LAEME</biblio> Index # 118; <langGrid>Grid 370 349</langGrid> (S
                 <place country="England" county="Cheshire">Cheshire</place>: Entry 1, <i>Ancrene
-                Riwle</i>); Index # 119 (‘text language not placed — language
-            mixed’: Entry 2, ff. 40ra line 1 word 7–40vb line 6; 44vb line 22–46rb line 26;
+                Riwle</i>); Index # 119 ('text language not placed — language
+            mixed': Entry 2, ff. 40ra line 1 word 7–40vb line 6; 44vb line 22–46rb line 26;
             52va line 17–54ra line 25; 56va line 7–61rb line 22; 67rb line 17–68ra line 2; 69ra line
-            2–70ra line 1); Index # 120 (‘text language not placed — language
-            mixed’: Entry 2, ff. 105v–112v, <i>Sawles Warde</i>); Index # 121 (‘text
-            language not placed — language mixed’: Entry 3, ff. 112v–127, <i>Hali
+            2–70ra line 1); Index # 120 ('text language not placed — language
+            mixed': Entry 2, ff. 105v–112v, <i>Sawles Warde</i>); Index # 121 ('text
+            language not placed — language mixed': Entry 3, ff. 112v–127, <i>Hali
                 Meiðhad</i>); Index # 122; <langGrid>Grid 391 389</langGrid> (NE <place country="England" county="Cheshire">Cheshire</place>: Entry 4, ff. 127–133,
-                <i>Þe Wohunge of Ure Lauerd</i>); Index # 123 (‘text language not placed
-            — language mixed’: Entry 5, ff. 133v–147v, <i>St Katherine</i>).</lang>
+                <i>Þe Wohunge of Ure Lauerd</i>); Index # 123 ('text language not placed
+            — language mixed': Entry 5, ff. 133v–147v, <i>St Katherine</i>).</lang>
             <count>1</count>
          </item>
          <item xml:id="BLCottTitDXX">
@@ -6415,7 +6416,7 @@
                 <langGrid>Grid 430 398</langGrid> (<place country="England" county="Yorkshire, West Riding">WRY</place>: ff. 92-93v); <biblio key="LAEME">LAEME</biblio> Index # 295; <langGrid>Grid 388 447</langGrid> (<place country="England" county="Yorkshire, West Riding">Yorkshire, West Riding</place>:
             Hand A: ff. 2r–91v; 93va line 9–95vb line 19; 99ra–112vb; 119rb–139va line 36 <i>Cursor
                 Mundi</i> and fols. 139va line 37–163ra: <i>Exposition of the Creed</i>,
-                <i>Lord’s Prayer</i> and Exposition, Prayer for the Hours of the Passion,
+                <i>Lord's Prayer</i> and Exposition, Prayer for the Hours of the Passion,
             Prayer to the Trinity, <i>The Book of Penance</i>).</lang>
             <count>12</count>
          </item>
@@ -6527,12 +6528,12 @@
             <lang>
                <biblio key="LAEME">LAEME</biblio> Index # 234; <langGrid>Grid 390 232</langGrid> (N
                 <place country="England" county="Gloucestershire">Gloucs</place>: Entry 1, Hand A,
-            f. 1v. ‘The language of all the English texts probably belongs in the SW <place country="England" county="Worcestershire">Worcs</place> or [as this one] just over
+            f. 1v. 'The language of all the English texts probably belongs in the SW <place country="England" county="Worcestershire">Worcs</place> or [as this one] just over
             the border into N <place country="England" county="Gloucestershire">Gloucs</place>. But
-            for three of the hands there is too little evidence to be sure.’); Index # 235
-            (‘text language not placed’: Entry 2, Hand B, f. 2); Index # 236
-            (‘text language not placed’: Entry 3, Hand C, f. 2r-v); Index # 237
-            (‘text language not placed’: Entry 4, Hand D, f. 2v); Index # 7;
+            for three of the hands there is too little evidence to be sure.'); Index # 235
+            ('text language not placed': Entry 2, Hand B, f. 2); Index # 236
+            ('text language not placed': Entry 3, Hand C, f. 2r-v); Index # 237
+            ('text language not placed': Entry 4, Hand D, f. 2v); Index # 7;
                 <langGrid>Grid 378 246</langGrid> (SW <place country="England" county="Worcestershire">Worcs</place>: Entry 5, Hand F, ff. 7–12v); Index # 6;
                 <langGrid>Grid 385 239</langGrid> (SW <place country="England" county="Worcestershire">Worcs</place>: Entry 6, Hand G, ff. 64-70v).</lang>
             <count>7</count>
@@ -6648,7 +6649,7 @@
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 7020; <langGrid>Grid 589 227</langGrid> (<place country="England" county="Gloucestershire">Gloucs</place>: ff. 1-87v); 1.109 (<place country="England" county="Cheshire">Cheshire</place> or S <place country="England" county="Lancashire">Lancs</place>: ff. 46r-v, 6r-v); LP 7110; <langGrid>Grid 408
                 229</langGrid> (<place country="England" county="Gloucestershire">Gloucs</place>:
-            ff. 88-94, 95-99. 162-179v); ‘language possibly of N. <place country="England" county="Lancashire">Lancs</place>’: f. 99v); <place country="England" county="Cheshire">Cheshire</place>: ff. 163v-164, 170r-v); LP 495; <langGrid>Grid
+            ff. 88-94, 95-99. 162-179v); 'language possibly of N. <place country="England" county="Lancashire">Lancs</place>': f. 99v); <place country="England" county="Cheshire">Cheshire</place>: ff. 163v-164, 170r-v); LP 495; <langGrid>Grid
                 393 416</langGrid> (<place country="England" county="Lancashire">Lancs</place>: ff.
             180v-181).</lang>
             <count>79</count>
@@ -6662,8 +6663,8 @@
          <item xml:id="BLEge2863">
             <desc>Egerton 2863 [<i>olim</i> Norton, <i>post</i> Compton Hall]</desc>
             <lang>
-               <biblio key="Mosser2010"/> suggests ‘the Southwest (<place country="England" county="Wiltshire">Wiltshire</place>, <place country="England" county="Somerset">Somerset</place>, and <place country="England" county="Hampshire">Hampshire</place>)’, but cf. <biblio key="Horobin2003"/>, where ‘North
-                <place country="England" county="Norfolk">Norfolk</place> or <place country="England" county="Lincolnshire">Lincolnshire</place>’ is posited (p.
+               <biblio key="Mosser2010"/> suggests 'the Southwest (<place country="England" county="Wiltshire">Wiltshire</place>, <place country="England" county="Somerset">Somerset</place>, and <place country="England" county="Hampshire">Hampshire</place>)', but cf. <biblio key="Horobin2003"/>, where 'North
+                <place country="England" county="Norfolk">Norfolk</place> or <place country="England" county="Lincolnshire">Lincolnshire</place>' is posited (p.
             149).</lang>
             <count>36</count>
          </item>
@@ -6715,7 +6716,7 @@
             <count>1</count>
          </item>
          <item xml:id="BLEge3874">
-            <desc>Egerton 3874 (Sotheby&#8217;s sale 20 June 1995, lot 17)</desc>
+            <desc>Egerton 3874 (Sotheby's sale 20 June 1995, lot 17)</desc>
             <count>1</count>
          </item>
          <!--<item xml:id="BLGre35">
@@ -6784,9 +6785,9 @@
             <desc>Harley 201</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 7500; <langGrid>Grid 363 258</langGrid> (<place country="England" county="Herefordshire">Herefords</place>: Robert of
-            Gloucester’s <i>Chronicle</i>, Hand A); LP 7080; <langGrid>Grid 384 219</langGrid>
+            Gloucester's <i>Chronicle</i>, Hand A); LP 7080; <langGrid>Grid 384 219</langGrid>
                 (<place country="England" county="Gloucestershire">Gloucs</place>: Robert of
-            Gloucester’s <i>Chronicle</i>, Hand B).</lang>
+            Gloucester's <i>Chronicle</i>, Hand B).</lang>
             <count>1</count>
          </item>
          <item xml:id="BLHar206">
@@ -6798,7 +6799,7 @@
          <item xml:id="BLHar210">
             <desc>Harley 210</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.110 (‘Language of N <place country="England" county="Shropshire">Salop</place> or N <place country="England" county="Staffordshire">Staffs</place>’: ff. 86v-88).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.110 ('Language of N <place country="England" county="Shropshire">Salop</place> or N <place country="England" county="Staffordshire">Staffs</place>': ff. 86v-88).</lang>
             <count>4</count>
          </item>
          <item xml:id="BLHar211">
@@ -7009,7 +7010,7 @@
          <item xml:id="BLHar941">
             <desc>Harley 941</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.110 (‘Language appears to be of <place country="England" county="Staffordshire">Staffs</place>, but mixed’: ff.
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.110 ('Language appears to be of <place country="England" county="Staffordshire">Staffs</place>, but mixed': ff.
             21v-23v).</lang>
             <count>3</count>
          </item>
@@ -7051,7 +7052,7 @@
          <item xml:id="BLHar1205">
             <desc>Harley 1205</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.110 (‘…language is from <place town="Lichfield">Lichfield</place> or nearby. <place country="England" county="Staffordshire">Staffs</place>’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.110 ('…language is from <place town="Lichfield">Lichfield</place> or nearby. <place country="England" county="Staffordshire">Staffs</place>').</lang>
             <count>1</count>
          </item>
          <item xml:id="BLHar1208">
@@ -7061,8 +7062,8 @@
          <item xml:id="BLHar1239">
             <desc>Harley 1239</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.110 (‘Language of S <place country="England" county="Rutland">Rutland</place>, probably SW rather than
-            SE’: ff. 1-15); 1.110 (‘Possibly <place country="England" county="Rutland">Rutland</place> language’: ff. 15-22v); LP 626 (<place country="England" county="Norfolk">Norfolk</place>: ff. 63 to end).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.110 ('Language of S <place country="England" county="Rutland">Rutland</place>, probably SW rather than
+            SE': ff. 1-15); 1.110 ('Possibly <place country="England" county="Rutland">Rutland</place> language': ff. 15-22v); LP 626 (<place country="England" county="Norfolk">Norfolk</place>: ff. 63 to end).</lang>
             <count>8</count>
          </item>
          <item xml:id="BLHar1245">
@@ -7245,8 +7246,8 @@
          <item xml:id="BLHar2252">
             <desc>Harley 2252</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.111 (‘Hands A and B are similar
-            linguistically, of the NE Midlands and possibly of <place country="England" county="Rutland">Rutland</place>’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.111 ('Hands A and B are similar
+            linguistically, of the NE Midlands and possibly of <place country="England" county="Rutland">Rutland</place>').</lang>
             <count>31</count>
          </item>
          <item xml:id="BLHar2253">
@@ -7304,9 +7305,9 @@
          <item xml:id="BLHar2280">
             <desc>Harley 2280</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.111 (‘Language mainly standard, but with a
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.111 ('Language mainly standard, but with a
             few possibly northern (or <place country="England" county="Lincolnshire">Lincs</place>)
-            features.’).</lang>
+            features.').</lang>
             <count>1</count>
          </item>
          <item xml:id="BLHar2281">
@@ -7444,7 +7445,7 @@
          <item xml:id="BLHar2406">
             <desc>Harley 2406</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.112 (‘Language of <place country="England" county="Norfolk">Norfolk</place> or <place country="England" county="Soke of Peterborough">Soke</place>’: ff. 36-57v).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.112 ('Language of <place country="England" county="Norfolk">Norfolk</place> or <place country="England" county="Soke of Peterborough">Soke</place>': ff. 36-57v).</lang>
             <count>3</count>
          </item>
          <item xml:id="BLHar2407">
@@ -7553,8 +7554,8 @@
          <item xml:id="BLHar3724">
             <desc>Harley 3724</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.112 (‘Language MHE, of an early type.
-                <place country="Ireland">Ireland</place>’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.112 ('Language MHE, of an early type.
+                <place country="Ireland">Ireland</place>').</lang>
             <count>2</count>
          </item>
          <item xml:id="BLHar3725">
@@ -7688,7 +7689,7 @@
          <item xml:id="BLHar4789">
             <desc>Harley 4789</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.113 (‘Language possibly of SE <place country="England" county="Cambridgeshire">Cambs</place>’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.113 ('Language possibly of SE <place country="England" county="Cambridgeshire">Cambs</place>').</lang>
             <count>1</count>
          </item>
          <item xml:id="BLHar4800">
@@ -7755,8 +7756,8 @@
          <item xml:id="BLHar5396">
             <desc>Harley 5396</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.113 (‘part III.…Language varies, but
-            probably of <place country="England" county="Nottinghamshire">Notts</place>’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.113 ('part III.…Language varies, but
+            probably of <place country="England" county="Nottinghamshire">Notts</place>').</lang>
             <count>17</count>
          </item>
          <item xml:id="BLHar5398">
@@ -7766,8 +7767,8 @@
          <item xml:id="BLHar5401">
             <desc>Harley 5401</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.113 (‘in at least two hands. ff. 84r-91v
-            appear to be in the language of NW <place country="England" county="Lincolnshire">Lincs</place>’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.113 ('in at least two hands. ff. 84r-91v
+            appear to be in the language of NW <place country="England" county="Lincolnshire">Lincs</place>').</lang>
             <count>2</count>
          </item>
          <item xml:id="BLHar5908">
@@ -7877,7 +7878,7 @@
          <item xml:id="BLHar7335">
             <desc>Harley 7335</desc>
             <lang>
-               <biblio key="Horobin2003"/> finds evidence for ‘West <place country="England" county="Essex">Essex</place>’ or ‘West <place country="England" county="Kent">Kent</place>’ (p. 151).</lang>
+               <biblio key="Horobin2003"/> finds evidence for 'West <place country="England" county="Essex">Essex</place>' or 'West <place country="England" county="Kent">Kent</place>' (p. 151).</lang>
             <count>31</count>
          </item>
          <item xml:id="BLHar7358">
@@ -7945,7 +7946,7 @@
          <item xml:id="BLLan344">
             <desc>Lansdowne 344</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.114 (‘Language probably of <place country="England" county="Norfolk">Norfolk</place>’ (ff. 1-66)).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.114 ('Language probably of <place country="England" county="Norfolk">Norfolk</place>' (ff. 1-66)).</lang>
             <count>7</count>
          </item>
          <item xml:id="BLLan348">
@@ -8007,7 +8008,7 @@
          <item xml:id="BLLan851">
             <desc>Lansdowne 851</desc>
             <lang>
-               <biblio key="Horobin2003"/>: ‘the <place country="England" county="Gloucestershire">Glocestershire</place>/<place country="England" county="Worcestershire">Worcestershire</place>/<place country="England" county="Herefordshire">Herefordshire</place> border’ (p. 153).</lang>
+               <biblio key="Horobin2003"/>: 'the <place country="England" county="Gloucestershire">Glocestershire</place>/<place country="England" county="Worcestershire">Worcestershire</place>/<place country="England" county="Herefordshire">Herefordshire</place> border' (p. 153).</lang>
             <count>48</count>
          </item>
          <item xml:id="BLLan1176">
@@ -8223,8 +8224,8 @@
          <item xml:id="BLRoy17Aviii">
             <desc>Royal 17 A.VIII</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.115 (‘…several hands, some probably
-            from <place country="England" county="Durham">Durham</place> County’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.115 ('…several hands, some probably
+            from <place country="England" county="Durham">Durham</place> County').</lang>
             <count>1</count>
          </item>
          <item xml:id="BLRoy17Axvi">
@@ -8266,7 +8267,7 @@
          <item xml:id="BLRoy17Bxlvii">
             <desc>Royal 17 B.XLVII</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.115 (‘Cf. BL Royal 10 B. ix’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.115 ('Cf. BL Royal 10 B. ix').</lang>
             <count>7</count>
          </item>
          <item xml:id="BLRoy17Cviii">
@@ -8292,7 +8293,7 @@
          <item xml:id="BLRoy17Cxxi">
             <desc>Royal 17 C.XXI</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.115 (‘Language looks to be of S <place country="England" county="Norfolk">Norfolk</place> or N <place country="England" county="Suffolk">Suffolk</place>’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.115 ('Language looks to be of S <place country="England" county="Norfolk">Norfolk</place> or N <place country="England" county="Suffolk">Suffolk</place>').</lang>
             <count>2</count>
          </item>
          <item xml:id="BLRoy17Di">
@@ -8307,9 +8308,9 @@
             <desc>Royal 17 D.XV</desc>
             <lang>
                <biblio key="Horobin2003"/> believes the first scribe (ff. 1-166v) writes <place country="England" county="West Midlands">West Midlands</place> English (pp. 158-9);
-            the second scribe—the ‘Hammond Scribe’, ff. 167-301—evinces some
-                ‘<place country="England" county="Kent">Kentish</place> features’ and
-            was probably ‘an immigrant to <place country="England" town="London">London</place>’ (p. 158).</lang>
+            the second scribe—the 'Hammond Scribe', ff. 167-301—evinces some
+                '<place country="England" county="Kent">Kentish</place> features' and
+            was probably 'an immigrant to <place country="England" town="London">London</place>' (p. 158).</lang>
             <count>54</count>
          </item>
          <item xml:id="BLRoy17Dxviii">
@@ -8563,8 +8564,8 @@
          <item xml:id="BLSl610">
             <desc>Sloane 610</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.115 (‘Language mixed: elements of
-                mid-<place country="England" county="Leicestershire">Leics</place> and ?SW <place country="England" county="Lincolnshire">Lincs</place>’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.115 ('Language mixed: elements of
+                mid-<place country="England" county="Leicestershire">Leics</place> and ?SW <place country="England" county="Lincolnshire">Lincs</place>').</lang>
             <count>1</count>
          </item>
          <item xml:id="BLSl620">
@@ -8691,8 +8692,8 @@
          </item>
          <item xml:id="BLSl1686">
             <desc>Sloane 1686</desc>
-            <lang>‘…the presence of certain diagnostic forms allow [sic] for a definite
-            localisation within <place country="England" county="Norfolk">Norfolk</place>’
+            <lang>'…the presence of certain diagnostic forms allow [sic] for a definite
+            localisation within <place country="England" county="Norfolk">Norfolk</place>'
                 (<biblio key="Horobin2003"/>, p. 161).</lang>
             <count>45</count>
          </item>
@@ -8733,7 +8734,7 @@
          <item xml:id="BLSl1853">
             <desc>Sloane 1853</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.116 (‘Language of W <place country="England" county="Norfolk">Norfolk</place> or possibly <place country="England" county="Isle of Ely">Ely</place>; may be mixed’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.116 ('Language of W <place country="England" county="Norfolk">Norfolk</place> or possibly <place country="England" county="Isle of Ely">Ely</place>; may be mixed').</lang>
             <count>1</count>
          </item>
          <item xml:id="BLSl1873">
@@ -8767,8 +8768,8 @@
          <item xml:id="BLSl2232">
             <desc>Sloane 2232</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 1.116 (<place country="England" county="Northern">NME</place>: Hand A, ff. 1-8v); 1.116 (‘Language northerly,
-            possibly of <place country="England" county="Lincolnshire">Lincs</place>’: Hand B,
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 1.116 (<place country="England" county="Northern">NME</place>: Hand A, ff. 1-8v); 1.116 ('Language northerly,
+            possibly of <place country="England" county="Lincolnshire">Lincs</place>': Hand B,
             f. 9); 1.116 (<place country="England" county="Nottinghamshire">Notts</place>: Hand C,
             f. 10 seq.).</lang>
             <count>2</count>
@@ -8836,7 +8837,7 @@
                 (<place country="England" county="Derbyshire">Derbys</place> or <place country="England" county="Cheshire">Cheshire</place>: Hand E, ff. 91-96v); 1.116
                 (<place country="England" county="Staffordshire">Staffs</place>: Hand F, ff.
             97-98v); 1.116 (<place country="England" county="Warwickshire">Warwicks</place>/<place country="England" county="Worcestershire">Worcs</place>: Hands H and I, ff.
-            102-141v); 1.116 (‘…extreme NW <place country="England" county="Derbyshire">Derbys</place> or over into <place country="England" county="Cheshire">Cheshire</place>’: Hand J, ff. 142-146, 146v-147v); 1.116 (<place country="England" county="Midlands">Midland</place>: Hand K, f. 147v); 1.116 (<place country="England" county="Midlands">Midland</place>: Hand L, ff. 148-150v); 1.116
+            102-141v); 1.116 ('…extreme NW <place country="England" county="Derbyshire">Derbys</place> or over into <place country="England" county="Cheshire">Cheshire</place>': Hand J, ff. 142-146, 146v-147v); 1.116 (<place country="England" county="Midlands">Midland</place>: Hand K, f. 147v); 1.116 (<place country="England" county="Midlands">Midland</place>: Hand L, ff. 148-150v); 1.116
                 (<place country="England" county="Staffordshire">Staffs</place>: Hand M, f. 151r-v;
             LP 314; <langGrid>Grid 410 388</langGrid> (<place country="England" county="Derbyshire">Derbys</place>: also Hand M, ff. 166-170); LP 718; <langGrid>Grid 403
                 368</langGrid> (<place country="England" county="Staffordshire">Staffs</place>: Hand
@@ -9038,7 +9039,7 @@
          <item xml:id="CollArmsAr14">
             <desc>Arundel 14</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.117 (‘Language of <place town="Crowland">Crowland</place> area. <place country="England" county="Lincolnshire">Lincs</place>’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.117 ('Language of <place town="Crowland">Crowland</place> area. <place country="England" county="Lincolnshire">Lincs</place>').</lang>
             <count>9</count>
          </item>
          <item xml:id="CollArmsAr19">
@@ -9077,7 +9078,7 @@
          <item xml:id="CollArmsAr61">
             <desc>Arundel 61</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.117 (‘MS associated with <place town="Adlingfleet">Adlingfleet</place>, nr. Goole. <place country="England" county="Yorkshire, West Riding">WRY</place>).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.117 ('MS associated with <place town="Adlingfleet">Adlingfleet</place>, nr. Goole. <place country="England" county="Yorkshire, West Riding">WRY</place>).</lang>
             <count>6</count>
          </item>
          <item xml:id="CollArmsAr45">
@@ -9136,7 +9137,7 @@
       <repos key="London Metropolitan Archives [formerly Corporation of London Records Office; prev.  Guildhall]">
          <item xml:id="GuildhallLegibus">
          <desc> Liber de antiquis legibus</desc>
-            <count></count>
+            <count/>
          </item>
       </repos>
       
@@ -9170,7 +9171,7 @@
             <count>1</count>
          </item>
       </repos>
-      <repos key="Dr Williams’s Library">
+      <repos key="Dr Williams's Library">
          <item xml:id="DrWilliamsAnc3">
             <desc>Anc. 3</desc>
             <lang>
@@ -9193,7 +9194,7 @@
             <count>1</count>
          </item>
       </repos>
-      <repos key="Gray’s Inn">
+      <repos key="Gray's Inn">
          <item xml:id="GraysInn12">
             <desc>12</desc>
             <count>10</count>
@@ -9257,7 +9258,7 @@
          <item xml:id="Lam131">
             <desc>131</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.118 (‘S <place country="England" county="Lincolnshire">Lincs</place> with a S <place country="England" county="Wiltshire">Wilts</place> overlay’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.118 ('S <place country="England" county="Lincolnshire">Lincs</place> with a S <place country="England" county="Wiltshire">Wilts</place> overlay').</lang>
             <count>9</count>
          </item>
          <item xml:id="Lam180">
@@ -9406,7 +9407,7 @@
          <item xml:id="Lam853">
             <desc>853</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.118 (‘…elements of S <place country="England" county="Huntingdon">Hunts</place>, E <place country="England" county="Northamptonshire">Northants</place> or N <place country="England" county="Bedfordshire">Beds</place> variously predominate’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.118 ('…elements of S <place country="England" county="Huntingdon">Hunts</place>, E <place country="England" county="Northamptonshire">Northants</place> or N <place country="England" county="Bedfordshire">Beds</place> variously predominate').</lang>
             <count>34</count>
          </item>
          <item xml:id="Lam878">
@@ -9418,7 +9419,7 @@
             <count>1</count>
          </item>
          <item xml:id="Lam3597">
-            <desc>3597 (<i>olim</i> Coughton Court, sold Christie&#8217;s, 20 Dec. 1972)</desc>
+            <desc>3597 (<i>olim</i> Coughton Court, sold Christie's, 20 Dec. 1972)</desc>
             <count>4</count>
          </item>
          <item xml:id="LamCarew617">
@@ -9447,7 +9448,7 @@
             <count>1</count>
          </item>
       </repos>
-      <repos key="Lincoln’s Inn">
+      <repos key="Lincoln's Inn">
          <item xml:id="LincInnH74">
             <desc>Hale 74</desc>
             <count>0</count>
@@ -9485,14 +9486,14 @@
       <repos key="Quaritch">
          <item xml:id="QuaritchHop">
             <desc>
-               <i>olim</i> Hopton Hall, Sotheby’s, Dec. 1989</desc>
+               <i>olim</i> Hopton Hall, Sotheby's, Dec. 1989</desc>
             <count>0</count>
          </item>
       </repos>
       
-      <repos key="Mercer&#8217;s Company Archives">
+      <repos key="Mercer's Company Archives">
          <item xml:id="MercersWhit">
-            <desc> Ordinances for Richard Whittington&#8217;s Almshouse</desc>
+            <desc> Ordinances for Richard Whittington's Almshouse</desc>
             <count>1</count>
          </item>
       </repos>
@@ -9500,8 +9501,8 @@
          <item xml:id="LonPhys388">
             <desc>388 (13)</desc>
             <lang>
-               <biblio key="Matheson2006"/> concludes that the ‘cumulative weight of
-            the…spelling features suggests strongly that they originated in northwest <place country="England" county="Essex">Essex</place> or southwest <place country="England" county="Suffolk">Suffolk</place>’ (1.87).</lang>
+               <biblio key="Matheson2006"/> concludes that the 'cumulative weight of
+            the…spelling features suggests strongly that they originated in northwest <place country="England" county="Essex">Essex</place> or southwest <place country="England" county="Suffolk">Suffolk</place>' (1.87).</lang>
             <count>52</count>
          </item>
       </repos>
@@ -9531,14 +9532,14 @@
             <count>0</count>
          </item>
          <item xml:id="SocAnt687">
-            <desc>687 [<i>olim</i> Bright, Sotheby’s Sale, 1924, Lot 378; Hope Allen Addit. MS.
+            <desc>687 [<i>olim</i> Bright, Sotheby's Sale, 1924, Lot 378; Hope Allen Addit. MS.
             VI]</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 638; <langGrid>Grid 552 316</langGrid> (<place country="England" county="Norfolk">Norfolk</place>).</lang>
             <count>5</count>
          </item>
       </repos>
-      <repos key="St Paul’s Cathedral Library">
+      <repos key="St Paul's Cathedral Library">
          <item xml:id="StPauls9Dxix">
             <desc>MS 8 [formerly 9.D.xix]</desc>
             <count>9</count>
@@ -9586,7 +9587,7 @@
             <count>0</count>
          </item>
          <item xml:id="VandADyce34">
-            <desc>Dyce 34 (Dyce’s transcript of STC 17026)</desc>
+            <desc>Dyce 34 (Dyce's transcript of STC 17026)</desc>
             <count>1</count>
          </item>
          <item xml:id="VandADyce44">
@@ -9699,8 +9700,8 @@
          <item xml:id="WestmAb343">
             <desc>34.3</desc>
             <lang>
-               <biblio key="LAEME">LAEME</biblio> Index # 174 (‘text language not place [sic
-            — too little to go on’).</lang>
+               <biblio key="LAEME">LAEME</biblio> Index # 174 ('text language not place [sic
+            — too little to go on').</lang>
             <count>1</count>
          </item>
       </repos>
@@ -9798,15 +9799,15 @@
             <count>1</count>
          </item>
          <item xml:id="PROSC69565">
-            <desc>SC 6/956/5 [Bicester Priory Bursar’s Accounts Roll, 17-18 Edward III, Michaelmas
+            <desc>SC 6/956/5 [Bicester Priory Bursar's Accounts Roll, 17-18 Edward III, Michaelmas
             to Michaelmas]</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.131 (<place country="England" county="Oxfordshire">Oxon</place>).</lang>
             <count>2</count>
          </item>
          <item xml:id="PROSC122128">
-            <desc>SC 12/21/28 [<i>olim</i> Durham, Cathedral Library, Prior’s Kitchen, Bp.
-            Hatfield’s Survey]</desc>
+            <desc>SC 12/21/28 [<i>olim</i> Durham, Cathedral Library, Prior's Kitchen, Bp.
+            Hatfield's Survey]</desc>
             <count>1</count>
          </item>
          <item xml:id="PROSP1232">
@@ -9944,7 +9945,7 @@
                <biblio key="LAEME">LAEME</biblio> Index # 66; <langGrid>Grid 449 243</langGrid>
                 (<place town="Northampton">Northampton</place>, SW <place country="England" county="Northamptonshire">Northants</place>: Entry 1); Index # 67; <langGrid>Grid
                 549 136</langGrid> (<place country="England" county="Sussex">Sussex</place>: Entry
-            2); Index # 68 (‘text language not placed — too little to go on’:
+            2); Index # 68 ('text language not placed — too little to go on':
             Entry 3).</lang>
             <count>7</count>
          </item>
@@ -9969,12 +9970,12 @@
             <count>5</count>
          </item>
       </repos>
-      <repos key="Chetham’s Library">
+      <repos key="Chetham's Library">
          <item xml:id="Chetham6696">
             <desc>6696 [Mun. A.7.48]</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.138 (‘See Glasgow University Library,
-            Hunterian 388 [V.2.8]’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.138 ('See Glasgow University Library,
+            Hunterian 388 [V.2.8]').</lang>
             <count>1</count>
          </item>
          <item xml:id="ChethamE610">
@@ -10028,7 +10029,7 @@
             <count>3</count>
          </item>
          <item xml:id="RylandsEng63">
-            <desc>Eng. 63 (‘Oxford Fragments’)</desc>
+            <desc>Eng. 63 ('Oxford Fragments')</desc>
             <lang>The same scribe as <mss key="PUL100"/> and <mss key="PhilRos10842"/>, all with
             spellings that are markedly <place country="England" county="East Anglia">East
                 Anglian</place>.</lang>
@@ -10205,13 +10206,13 @@
             <count>18</count>
          </item>
          <item xml:id="YaleBei410">
-            <desc>410 (roll) [<i>olim</i> Rosenbach, <i>A Bibliophile’s Miscellany</i> (1941), no.
+            <desc>410 (roll) [<i>olim</i> Rosenbach, <i>A Bibliophile's Miscellany</i> (1941), no.
             296]</desc>
             <count>2</count>
          </item>
          <item xml:id="YaleBei492">
-            <desc>492 [<i>olim</i> Brooke (sold Sotheby’s 1921); Harmsworth (sold Sotheby’s
-            1945); George Smith of Marlborough (sold Sotheby’s Feb. 2, 1960, Lot 317);
+            <desc>492 [<i>olim</i> Brooke (sold Sotheby's 1921); Harmsworth (sold Sotheby's
+            1945); George Smith of Marlborough (sold Sotheby's Feb. 2, 1960, Lot 317);
             Bodmer]</desc>
             <count>3</count>
          </item>
@@ -10237,7 +10238,7 @@
          </item>
          <item xml:id="YaleBei1222">
             <desc>
-               1222 [<i>olim</i> Audley End (Sotheby’s 8 July 1970, lot 98)]</desc>
+               1222 [<i>olim</i> Audley End (Sotheby's 8 July 1970, lot 98)]</desc>
             <count>1</count>
          </item>
          <item xml:id="YaleBeiMel41">
@@ -10312,7 +10313,7 @@
             <count>4</count>
          </item>
          <item xml:id="TokyoTak15">
-            <desc>Takamiya 15 [Sotheby’s, 10 Dec. 1969, Lot 43; acquired by Takamiya in 1976]</desc>
+            <desc>Takamiya 15 [Sotheby's, 10 Dec. 1969, Lot 43; acquired by Takamiya in 1976]</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 608 (<place country="England" county="Yorkshire, West Riding">WRY</place>).</lang>
             <count>7</count>
@@ -10338,7 +10339,7 @@
          <item xml:id="TokyoTak24">
             <desc>Takamiya 24 [<i>olim</i> Chatsworth, Duke of Devonshire]</desc>
             <lang>See <biblio key="Mosser2010"/>, which argues that southern <place country="England" county="Kent">Kent</place> and northern <place country="England" county="Essex">Essex</place> (Thames estuary) together accomodate the forms typical of this and
-               other manuscripts by the same scribe(s) (‘Hooked-<i>g</i>’).</lang>
+               other manuscripts by the same scribe(s) ('Hooked-<i>g</i>').</lang>
             <count>53</count>
          </item>
          <item xml:id="TokyoTak29">
@@ -10346,7 +10347,7 @@
             <count>2</count>
          </item>
          <item xml:id="TokyoTak30">
-            <desc>Takamiya 30 [<i>olim</i> John E. du Pont; <i>olim</i> John Hayward, sold Sotheby&#8217;s 11
+            <desc>Takamiya 30 [<i>olim</i> John E. du Pont; <i>olim</i> John Hayward, sold Sotheby's 11
                July 1966, lot 225]</desc>
             <count>1</count>
          </item>
@@ -10354,31 +10355,31 @@
             <desc>Takamiya 32 [<i>olim</i> Penrose 6; <i>prior</i> Delamere]</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 5970; <langGrid>Grid 552 167</langGrid> (<place country="England" county="Kent">Kent</place>). But cf. <biblio key="Mosser2004">Mosser 2004</biblio>, which argues that the same scribe copied Cambridge University
-               Library MS Gg.I.34 (Part 3), of <i>Mandeville’s Travels</i>, which <biblio key="eLALME"/> includes as LP 619 (<place country="England" county="Ely">Ely</place>). Mosser concludes that <place country="England" county="Norfolk">Norfolk</place> or <place country="England" county="Suffolk">Suffolk</place> are
+               Library MS Gg.I.34 (Part 3), of <i>Mandeville's Travels</i>, which <biblio key="eLALME"/> includes as LP 619 (<place country="England" county="Ely">Ely</place>). Mosser concludes that <place country="England" county="Norfolk">Norfolk</place> or <place country="England" county="Suffolk">Suffolk</place> are
                more probable locations.</lang>
             <count>51</count>
          </item>
          <item xml:id="TokyoTak33">
-            <desc>Takamiya 33 [Christie’s, 8 November 1978, Lot 198]</desc>
+            <desc>Takamiya 33 [Christie's, 8 November 1978, Lot 198]</desc>
             <count>1</count>
          </item>
          <item xml:id="TokyoTak35">
-            <desc>Takamiya 35 [Sotheby’s, 5 December, lot 40]</desc>
+            <desc>Takamiya 35 [Sotheby's, 5 December, lot 40]</desc>
             <count>1</count>
          </item>
          <item xml:id="TokyoTak40">
-            <desc>Takamiya 40 [<i>olim</i> Mostyn, <i>olim</i> Arthur Houghton 9; sold Christie&#8217;s, 14 June
+            <desc>Takamiya 40 [<i>olim</i> Mostyn, <i>olim</i> Arthur Houghton 9; sold Christie's, 14 June
                1979, lot 295]</desc>
             <count>1</count>
          </item>
          <item xml:id="TokyoTak46">
             <desc>Takamiya 46</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.161 (&#8217;Language is of S <place country="England" county="Lincolnshire">Lincs</place>&#8217;).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.161 ('Language is of S <place country="England" county="Lincolnshire">Lincs</place>').</lang>
             <count>2</count>
          </item>
          <item xml:id="TokyoTak51">
-            <desc>Takamiya 51 [Sotheby’s, 24 June 1980, lot 33]</desc>
+            <desc>Takamiya 51 [Sotheby's, 24 June 1980, lot 33]</desc>
             <count>1</count>
          </item>
          <item xml:id="TokyoTak52">
@@ -10386,7 +10387,7 @@
             <count>1</count>
          </item>
          <item xml:id="TokyoTak54">
-            <desc>Takamiya 54 [<i>olim</i> Weld, sold Sotheby&#8217;s, lot 57, June 24, 1980]</desc>
+            <desc>Takamiya 54 [<i>olim</i> Weld, sold Sotheby's, lot 57, June 24, 1980]</desc>
             <count>81</count>
          </item>
          <item xml:id="TokyoTak56">
@@ -10394,7 +10395,7 @@
             <count>0</count>
          </item>
          <item xml:id="TokyoTak61">
-            <desc>Takamiya 61 [Sotheby’s, 10 November 1952, <i>olim</i> Lawrence Witten]</desc>
+            <desc>Takamiya 61 [Sotheby's, 10 November 1952, <i>olim</i> Lawrence Witten]</desc>
             <count>4</count>
          </item>
          <item xml:id="TokyoTak64">
@@ -10411,7 +10412,7 @@
             <count>3</count>
          </item>
          <item xml:id="TokyoTak67">
-            <desc>Takamiya 67 [<i>olim</i> Ingilby (Sotheby’s, 21 October 1920, lot 30); <i>olim</i>
+            <desc>Takamiya 67 [<i>olim</i> Ingilby (Sotheby's, 21 October 1920, lot 30); <i>olim</i>
                Bradfer-Lawrence 11]</desc>
             <count>1</count>
          </item>
@@ -10420,11 +10421,11 @@
             <count>1</count>
          </item>
          <item xml:id="TokyoTak79">
-            <desc>Takamiya 79 [<i>olim</i> Plimpton; <i>olim</i> Sotheby’s Sale 6 Dec. 1983, lot 20]</desc>
+            <desc>Takamiya 79 [<i>olim</i> Plimpton; <i>olim</i> Sotheby's Sale 6 Dec. 1983, lot 20]</desc>
             <count>1</count>
          </item>
          <item xml:id="TokyoTak94">
-            <desc>94 [<i>olim</i> Astor, sold Sotheby’s 21 June 1988, lot 57]</desc>
+            <desc>94 [<i>olim</i> Astor, sold Sotheby's 21 June 1988, lot 57]</desc>
             <count>3</count>
          </item>
          <item xml:id="TokyoTak96">
@@ -10432,7 +10433,7 @@
             <count>6</count>
          </item>
          <item xml:id="TokyoTak97">
-            <desc>Takamiya 97 [<i>olim</i> Foyle’s sale at Christie’s, 11 July 2000, lot 76]</desc>
+            <desc>Takamiya 97 [<i>olim</i> Foyle's sale at Christie's, 11 July 2000, lot 76]</desc>
             <count>1</count>
          </item>
          <item xml:id="TokyoTak98">
@@ -10540,8 +10541,8 @@
          </item>
          <item xml:id="PierpontB21">
             <desc>B.21 [<i>olim</i> Phillipps 7008; Katherine Fenwick; Thomas FitzRoy Fenwick; Alan
-            George Fenwick; William H. Robinson Ltd., London; their sale, London, Sotheby’s,
-            July 17, 1950, lot 27; purchased for Curt F. Bühler at Sotheby’s (London,
+            George Fenwick; William H. Robinson Ltd., London; their sale, London, Sotheby's,
+            July 17, 1950, lot 27; purchased for Curt F. Bühler at Sotheby's (London,
             Feb. 28, 1955, lot 169) by E.P. Goldschmidt, London]</desc>
             <count>5</count>
          </item>
@@ -10580,12 +10581,12 @@
          <item xml:id="PierpontM249">
             <desc>M249 [<i>olim</i> Ashburnham 124, <i>post</i> Compton Hall]</desc>
             <lang>
-               <biblio key="Horobin2003"/>: ‘either the…scribe copied exactly the
+               <biblio key="Horobin2003"/>: 'either the…scribe copied exactly the
             spellings of his exemplar or…his own spelling system was very similar to that of
-                [<mss key="Lichfield29"/>]. Given that the [Lichfield 29] scribe’s system is
+                [<mss key="Lichfield29"/>]. Given that the [Lichfield 29] scribe's system is
             largely an uncomplicated mixture of Type III and Type IV forms it seems likely that the
             two scribes were both working in <place country="England" town="London">London</place>
-            with similar linguistic habits’ (p. 156).</lang>
+            with similar linguistic habits' (p. 156).</lang>
             <count>50</count>
          </item>
          <item xml:id="PierpontM275">
@@ -10596,7 +10597,7 @@
             <desc>M486</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.140 (ᰰLanguage strongly northern, possibly
-            of <place country="England" county="Cumberland">Cumberland</place>. <place country="England" county="Northern">NME</place>’).</lang>
+            of <place country="England" county="Cumberland">Cumberland</place>. <place country="England" county="Northern">NME</place>').</lang>
             <count>1</count>
          </item>
          <item xml:id="PierpontM690">
@@ -10642,7 +10643,7 @@
             <count>2</count>
          </item>
          <item xml:id="PierpontM957">
-            <desc>M957 [<i>olim</i> Netherby, Sir F. Graham, Sotheby’s 12 Dec. 1966, also 10 Jul.
+            <desc>M957 [<i>olim</i> Netherby, Sir F. Graham, Sotheby's 12 Dec. 1966, also 10 Jul.
             1972, lot 22]</desc>
             <count>3</count>
          </item>
@@ -10706,7 +10707,7 @@
             <count>14</count>
          </item>
          <item xml:id="NYPLSpenc193">
-            <desc>Spencer 193 [<i>olim</i> Sotheby’s 21 November 1972, lot 556]</desc>
+            <desc>Spencer 193 [<i>olim</i> Sotheby's 21 November 1972, lot 556]</desc>
             <count>1</count>
          </item>
          <item xml:id="NYPL120">
@@ -10792,7 +10793,7 @@
       </repos>
    </loc>
    <loc key="Notre Dame, Indiana">
-      <repos key="St Mary’s College, Cushwa-Leighton Library">
+      <repos key="St Mary's College, Cushwa-Leighton Library">
          <item xml:id="Cushwa-Leighton">
             <desc>copy of Avenzohar, <i>Liber Teisir, sive rectificatio medicationis et regiminis</i>
             (Venice: Johannes and Gregorius Forlivio, 4 January 1490/91) (shelfmark qR 128 A95
@@ -10812,7 +10813,7 @@
             Burton-on-Trent]</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.144 (<place country="England" county="Staffordshire">Staffs</place>: ff. 12v, 14v, 20, 21, 26, 27v, 35v, 36v-37v);
-            1.144 (‘Language probably of <place town="Burton">Burton</place>, <place country="England" county="Staffordshire">Staffs</place>’: ff. 12v, item 3; ff.
+            1.144 ('Language probably of <place town="Burton">Burton</place>, <place country="England" county="Staffordshire">Staffs</place>': ff. 12v, item 3; ff.
             26r-v, 27v, item 2; 36v-37v).</lang>
             <count>1</count>
          </item>
@@ -10847,12 +10848,12 @@
             <count>0</count>
          </item>
          <item xml:id="Schoyen16772">
-            <desc>1677/2 [<i>olim</i> Phillipps (single leaf), sold Sotheby’s, London, 21-2 June
+            <desc>1677/2 [<i>olim</i> Phillipps (single leaf), sold Sotheby's, London, 21-2 June
             1993, lot 49]</desc>
             <count>1</count>
          </item>
          <item xml:id="Schoyen689">
-            <desc>689 [<i>olim</i> Windsor, Beaumont College, sold Christie’s 28 June 1973, lot
+            <desc>689 [<i>olim</i> Windsor, Beaumont College, sold Christie's 28 June 1973, lot
             48]</desc>
             <count>1</count>
          </item>
@@ -11016,7 +11017,7 @@
          <item xml:id="BodSelSup56">
             <desc>Selden Supra 56 (SC 3444)</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 1.152 (‘Language of NE <place country="England" county="Lincolnshire">Lincs</place>, mixed with a <place country="England" county="Leicestershire">Leics</place> component’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 1.152 ('Language of NE <place country="England" county="Lincolnshire">Lincs</place>, mixed with a <place country="England" county="Leicestershire">Leics</place> component').</lang>
             <count>1</count>
          </item>
          <item xml:id="BodSelSup73">
@@ -11034,8 +11035,8 @@
          <item xml:id="BodSelSup102">
             <desc>Selden Supra 102 (SC 3490b) [Ker Pastedowns 1744, Lewis &amp; McIntosh MV84]</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.152 (‘Language probably somewhat mixed, but
-            clearly NE Midland and possibly of <place country="England" county="Rutland">Rutland</place>’: ff. 15-16).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.152 ('Language probably somewhat mixed, but
+            clearly NE Midland and possibly of <place country="England" county="Rutland">Rutland</place>': ff. 15-16).</lang>
             <count>1</count>
          </item>
          <item xml:id="BodAsh8">
@@ -11249,8 +11250,8 @@
          <item xml:id="BodAsh1280">
             <desc>Ashmole 1280 (SC 8216)</desc>
             <lang>
-               <biblio key="LAEME">LAEME</biblio> Index # 176 (‘text language not placed
-            — too little to go on’).</lang>
+               <biblio key="LAEME">LAEME</biblio> Index # 176 ('text language not placed
+            — too little to go on').</lang>
             <count>1</count>
          </item>
          <item xml:id="BodAsh1285">
@@ -11478,8 +11479,8 @@
          <item xml:id="Bod42">
             <desc>Bodley 42 (SC 1846)</desc>
             <lang>
-               <biblio key="LAEME">LAEME</biblio> Index # 18 (‘text language not placed —
-            too little to go on’).</lang>
+               <biblio key="LAEME">LAEME</biblio> Index # 18 ('text language not placed —
+            too little to go on').</lang>
             <count>2</count>
          </item>
          <item xml:id="Bod48">
@@ -11522,7 +11523,7 @@
          <item xml:id="Bod89">
             <desc>Bodley 89 (SC 1886)</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.145 (‘Language probably of NE <place country="England" county="Leicestershire">Leics</place>, but possibly from SE <place country="England" county="Nottinghamshire">Notts</place> or SW <place country="England" county="Lincolnshire">Lincs</place>’).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.145 ('Language probably of NE <place country="England" county="Leicestershire">Leics</place>, but possibly from SE <place country="England" county="Nottinghamshire">Notts</place> or SW <place country="England" county="Lincolnshire">Lincs</place>').</lang>
             <count>7</count>
          </item>
          <item xml:id="Bod99">
@@ -11820,7 +11821,7 @@
             <desc>Bodley 851 (SC 3041)</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 7700 (<place country="England" county="Worcestershire">Worcs</place>: Hand A, beginning to f. 139); 1.146
-            (‘Language of <place country="England" county="Suffolk">Suffolk</place> or SE
+            ('Language of <place country="England" county="Suffolk">Suffolk</place> or SE
                 <place country="England" county="Norfolk">Norfolk</place>: Hand B, ff. 139-140);
             1.146 (<place country="England" county="Worcestershire">Worcs</place> Hand C, ff.
             141-208).</lang>
@@ -11881,12 +11882,12 @@
          <item xml:id="BodDig2">
             <desc>Digby 2 (SC 1603)</desc>
             <lang>
-               <biblio key="LAEME">LAEME</biblio> Index # 178 (‘text language not placed
-            — too little to go on’: Entry 1, Hand A, f. 6); Index # 179 (‘text
-            language not placed — too little to go on’: Entry 2, Hand B, f. 6v); Index #
-            180 (‘text language not placed — too little to go on’: Entry 3, Hand
-            B, f. 15); Index # 181 (‘text language not placed — too little to go
-            on’: Entry 4, Hand C, f. 111).</lang>
+               <biblio key="LAEME">LAEME</biblio> Index # 178 ('text language not placed
+            — too little to go on': Entry 1, Hand A, f. 6); Index # 179 ('text
+            language not placed — too little to go on': Entry 2, Hand B, f. 6v); Index #
+            180 ('text language not placed — too little to go on': Entry 3, Hand
+            B, f. 15); Index # 181 ('text language not placed — too little to go
+            on': Entry 4, Hand C, f. 111).</lang>
             <count>3</count>
          </item>
          <item xml:id="BodDig4">
@@ -11919,8 +11920,8 @@
          <item xml:id="BodDig45">
             <desc>Digby 45 (SC 1646)</desc>
             <lang>
-               <biblio key="LAEME">LAEME</biblio> Index # 14 (‘ text language not placed
-            — too little to go on’).</lang>
+               <biblio key="LAEME">LAEME</biblio> Index # 14 (' text language not placed
+            — too little to go on').</lang>
             <count>1</count>
          </item>
          <item xml:id="BodDig53">
@@ -11943,21 +11944,21 @@
          <item xml:id="BodDig86">
             <desc>Digby 86 (SC 1687)</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 7790 (Gloucs); <biblio key="LAEME">LAEME</biblio> Index # 2002; <langGrid>Grid 375 232</langGrid> (<place town="Redmarley D’Abitot">Redmarley D’Abitot</place>, NW <place country="England" county="Gloucestershire">Gloucs</place>: Entry 1, ff. 119-120,
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 7790 (Gloucs); <biblio key="LAEME">LAEME</biblio> Index # 2002; <langGrid>Grid 375 232</langGrid> (<place town="Redmarley D'Abitot">Redmarley D'Abitot</place>, NW <place country="England" county="Gloucestershire">Gloucs</place>: Entry 1, ff. 119-120,
             120v-12v, 122v-125v, 125v-126v, 126v-127, 127r-v, 127v-130, 130-132, 134v-136v,
-            136v-138, 138-140, 163v-164, 168r-v, 197v-198, 198-200, 206); Index # 214 (‘text
+            136v-138, 138-140, 163v-164, 168r-v, 197v-198, 198-200, 206); Index # 214 ('text
             language not placed. The language is mixed, though the elements that do not match the SW
             Midland usage of the Digby scribe do not form a sufficiently coherent set to be
-            localisable ’); Entry 2, ff. 132-134v); Index # 218 (‘text language not
+            localisable '); Entry 2, ff. 132-134v); Index # 218 ('text language not
             placed. The language is mixed, showing elements of NE Midland forms along with the SW
-            Midland usage of the Digby scribe’: Entry 3, ff. 140v-143); Index # 220
-            (‘text language not placed. The language is mixed, showing elements of NE Midland
+            Midland usage of the Digby scribe': Entry 3, ff. 140v-143); Index # 220
+            ('text language not placed. The language is mixed, showing elements of NE Midland
             forms along with the SW Midland usage of the Digby scribe. The NE Midland element is
-            quite closely localisable to an area comprising central <place country="England" county="Nottinghamshire">Notts</place> and SW <place country="England" county="Lincolnshire">Lincs</place>, perhaps the area of the poem’s original
-            composition’: Entry 4, ff. 165-168); Index # 222 (‘text language not placed.
+            quite closely localisable to an area comprising central <place country="England" county="Nottinghamshire">Notts</place> and SW <place country="England" county="Lincolnshire">Lincs</place>, perhaps the area of the poem's original
+            composition': Entry 4, ff. 165-168); Index # 222 ('text language not placed.
             The language is mixed. The relicts that do not match the SW Midland usage of the Digby
             scribe fall into two groups: a northerly or NE Midland strand, and a set of forms that
-            are not northerly but are otherwise widespread in early Middle English’: Entry 5,
+            are not northerly but are otherwise widespread in early Middle English': Entry 5,
             ff. 195v-197v).</lang>
             <count>24</count>
          </item>
@@ -12170,7 +12171,7 @@
          <item xml:id="BodDou103">
             <desc>Douce 103 (SC 21677)</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.147 (<place country="England" county="Northamptonshire">Northants</place>: Hand E, ‘See Douce 60’); LP
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.147 (<place country="England" county="Northamptonshire">Northants</place>: Hand E, 'See Douce 60'); LP
             515; <langGrid>Grid 417 318</langGrid> (<place country="England" county="Staffordshire">Staffs</place>: Part C, Hand A, ff. 52-58).</lang>
             <count>1</count>
          </item>
@@ -12221,7 +12222,7 @@
          <item xml:id="BodDou157">
             <desc>Douce 157 (SC 21731)</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.147 (‘S <place country="England" county="Lincolnshire">Lincs</place> with a slight <place country="England" county="Essex">Essex</place> overlay’: ff. 1-23v); LP 6330; <langGrid>Grid 549
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.147 ('S <place country="England" county="Lincolnshire">Lincs</place> with a slight <place country="England" county="Essex">Essex</place> overlay': ff. 1-23v); LP 6330; <langGrid>Grid 549
                 191</langGrid> (<place country="England" county="Essex">Essex</place>: ff.
             24v-113v).</lang>
             <count>2</count>
@@ -12702,11 +12703,11 @@
             <count>51</count>
          </item>
          <!--<item xml:id="BodHerD38">
-            <desc>Hearne’s Diary 38 [<i>olim</i> Rawlinson K.38 (SC 15161)]</desc>
+            <desc>Hearne's Diary 38 [<i>olim</i> Rawlinson K.38 (SC 15161)]</desc>
             <count>3</count>
          </item>-->
             <item xml:id="BodHerD104">
-               <desc>Hearne’s Diary 104</desc>
+               <desc>Hearne's Diary 104</desc>
                <count>1</count>
          </item>
          <item xml:id="BodHolkM39">
@@ -12827,9 +12828,9 @@
          <item xml:id="BodLauMis108">
             <desc>Laud misc. 108 (SC 1486)</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.149 (<place country="England" county="Gloucestershire">Gloucs</place>, <place country="England" county="East Anglia">East Anglia</place>: part III, ff. 228v to end [‘The
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.149 (<place country="England" county="Gloucestershire">Gloucs</place>, <place country="England" county="East Anglia">East Anglia</place>: part III, ff. 228v to end ['The
             language is mixed, and suggests a western (probably Gloucs) original, with an East
-            Anglian overlay’]); <biblio key="LAEME">LAEME</biblio> Index # 1600;
+            Anglian overlay']); <biblio key="LAEME">LAEME</biblio> Index # 1600;
                 <langGrid>Grid 429 221</langGrid> (W <place country="England" county="Oxfordshire">Oxon</place>: Entry 1, Hand A, ff. 1-10v, 11-22, 23-198, 198r-v, 199-200); Index #
             282; <langGrid>Grid 556 280</langGrid> (<place country="England" county="Isle of Ely">Isle of Ely</place>, <place country="England" county="Cambridgeshire">Cambs</place>: Entry 2, Hand B, ff. 200v-203v); Index # 285; <langGrid>Grid 554
                 300</langGrid> (W <place country="England" county="Norfolk">Norfolk</place>: Entry
@@ -12887,7 +12888,7 @@
          </item>
          <item xml:id="BodLauMis436">
             <desc>Laud misc. 436 (SC ??)</desc>
-            <count></count>
+            <count/>
          </item>
          <item xml:id="BodLauMis463">
             <desc>Laud misc. 463 (SC 1596)</desc>
@@ -12899,7 +12900,7 @@
             <desc>Laud misc. 471 (SC 1053)</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 6050; <langGrid>Grid 562 174</langGrid> (<place country="England" county="Kent">Kent</place>); <biblio key="LAEME">LAEME</biblio>
-            Index #141 (‘text language not placed — probably mixed’: Entry 1, f.
+            Index #141 ('text language not placed — probably mixed': Entry 1, f.
             65); Index # 142; <langGrid>Grid 583 153</langGrid> (Central <place country="England" county="Kent">Kent</place>: Entry 2, ff. 92 seq.).</lang>
             <count>1</count>
          </item>
@@ -12970,7 +12971,7 @@
          <item xml:id="BodLauMis600">
             <desc>Laud misc. 600 (SC 1476)</desc>
             <lang>
-               <biblio key="Horobin2003"/> notes a mixture of <place country="England" town="London">London</place> forms with marked forms of the ‘<place country="England" county="Northern">North-East Midlands</place>’ (pp. 153-4).</lang>
+               <biblio key="Horobin2003"/> notes a mixture of <place country="England" town="London">London</place> forms with marked forms of the '<place country="England" county="Northern">North-East Midlands</place>' (pp. 153-4).</lang>
             <count>46</count>
          </item>
          <item xml:id="BodLauMis601">
@@ -13019,7 +13020,7 @@
             <desc>Laud misc. 706 (SC 809)</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 44; <langGrid>Grid 437 319</langGrid> (<place country="England" county="Leicestershire">Leics</place>: Hand A, ff. 98v-109); 1.150
-            (‘Language probably of <place country="England" county="Staffordshire">Staffs</place>’: Hand B, ff. 144r-v, 156-163v).</lang>
+            ('Language probably of <place country="England" county="Staffordshire">Staffs</place>': Hand B, ff. 144r-v, 156-163v).</lang>
             <count>1</count>
          </item>
          <item xml:id="BodLauMis722">
@@ -13047,7 +13048,7 @@
          <item xml:id="BodLauMis740">
             <desc>Laud misc. 740 (SC 1239)</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.150 (‘Language probably of NW <place country="England" county="Lincolnshire">Lincs</place> or NE <place country="England" county="Nottinghamshire">Notts</place>’: hand A, ff. 1-44v).</lang>
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.150 ('Language probably of NW <place country="England" county="Lincolnshire">Lincs</place> or NE <place country="England" county="Nottinghamshire">Notts</place>': hand A, ff. 1-44v).</lang>
             <count>1</count>
          </item>
          <item xml:id="BodLauMis748">
@@ -13094,7 +13095,7 @@
             <desc>Lyell Empt. 6 [<i>olim</i> Strong, <i>olim</i> Phillipps 2734, Robinson Sale Cat. No.
             50, Item l0; Robinson Sale Cat. 62, Item 125]</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.150 (‘Language looks to be of NW <place country="England" county="Gloucestershire">Gloucs</place>’: Hand A, ff. 1-99,
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.150 ('Language looks to be of NW <place country="England" county="Gloucestershire">Gloucs</place>': Hand A, ff. 1-99,
             110-115v); 1.150 (<place country="England" county="Midlands">Midland</place>: Hand B,
             ff. 99v-109v).</lang>
             <count>1</count>
@@ -13377,7 +13378,7 @@
             <count>2</count>
          </item>
          <item xml:id="BodRawC534">
-            <desc>Rawlinson C.534 12381)--></desc>
+            <desc>Rawlinson C.534 12381)--&gt;</desc>
             <count>2</count>
          </item>
          <item xml:id="BodRawC572">
@@ -13456,7 +13457,7 @@
          <item xml:id="BodRawD913">
             <desc>Rawlinson D.913 (SC 13679)</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.151 (‘Language of <place country="England" county="Soke of Peterborough">Soke</place>’: f. 9r-v); 1.151 (Norfolk: ff.
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.151 ('Language of <place country="England" county="Soke of Peterborough">Soke</place>': f. 9r-v); 1.151 (Norfolk: ff.
             44-51).</lang>
             <count>19</count>
          </item>
@@ -13483,15 +13484,15 @@
          <item xml:id="BodRawG18">
             <desc>Rawlinson G.18 (SC 14751)</desc>
             <lang>
-               <biblio key="LAEME">LAEME</biblio> Index # 228 (‘text language not placed
-            — idiosyncratic and too little to go on’).</lang>
+               <biblio key="LAEME">LAEME</biblio> Index # 228 ('text language not placed
+            — idiosyncratic and too little to go on').</lang>
             <count>1</count>
          </item>
          <item xml:id="BodRawG22">
             <desc>Rawlinson G.22 (SC 14755)</desc>
             <lang>
-               <biblio key="LAEME">LAEME</biblio> Index # 299 (‘text language not
-            placed’).</lang>
+               <biblio key="LAEME">LAEME</biblio> Index # 299 ('text language not
+            placed').</lang>
             <count>1</count>
          </item>
          <item xml:id="BodRawG59">
@@ -13499,11 +13500,11 @@
             <count>1</count>
          </item>
          <item xml:id="BodRawK38">
-            <desc>Hearne&#8217;s diaries 38 (SC 15161) [<i>olim</i> Rawlinson K.38]</desc>
+            <desc>Hearne's diaries 38 (SC 15161) [<i>olim</i> Rawlinson K.38]</desc>
             <count>1</count>
          </item>
          <item xml:id="BodRawK42">
-            <desc>Hearne&#8217;s diaries 42 (SC 15165) [<i>olim</i> Rawlinson K.42]</desc>
+            <desc>Hearne's diaries 42 (SC 15165) [<i>olim</i> Rawlinson K.42]</desc>
             <count>1</count>
          </item>
          <item xml:id="BodRawQb4">
@@ -13583,7 +13584,7 @@
             25, 20v-31, 62v-65v, 66v-69v, 81v-84, 85v-89); LP 652; <langGrid>Grid 547 389</langGrid>
             (Ely: Hand B. ff. 1v-2, 3-4, 5r, 5v-6, 6v-9, 9v-11, 11v-13, 14v-15, 16, 19v-21, 22v-24v,
             25v-26, 27-30, 31v-62, 66); 1.152 (<place country="England" county="Isle of Ely">Ely</place>: Hand C, ff. 2v-3, 13v-14, 15v, 17, 18v-19, 30); 1.152 (<place country="England" county="Isle of Ely">Ely</place>: Hand D, f. 26); 1.152
-            (‘Language probably of <place country="England" county="Norfolk">Norfolk</place>’: Hand E, ff. 70-72v).</lang>
+            ('Language probably of <place country="England" county="Norfolk">Norfolk</place>': Hand E, ff. 70-72v).</lang>
             <count>4</count>
          </item>
          <item xml:id="BodRawPoe121">
@@ -13761,7 +13762,7 @@
          </item>
          <item xml:id="BodWood396">
             <desc>Wood 396 (printed Henricus Loritus Glareanus [Basel, 1547])</desc>
-            <count></count>
+            <count/>
          </item>
       </repos>
       <repos key="All Souls College">
@@ -14147,8 +14148,8 @@
          <item xml:id="OxfNew88">
             <desc>88</desc>
             <lang>
-               <biblio key="LAEME">LAEME</biblio> Index # 227 (‘Text language not
-            placed’).</lang>
+               <biblio key="LAEME">LAEME</biblio> Index # 227 ('Text language not
+            placed').</lang>
             <count>4</count>
          </item>
          <item xml:id="OxfNew266">
@@ -14162,7 +14163,7 @@
          <item xml:id="OxfNew314">
             <desc>314</desc>
             <lang>
-               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.153 (‘Norfolk associations. <place country="England" county="Norfolk">Norfolk</place>’). But cf. <biblio key="Mosser2010"/>, where it is suggested the manuscript’s marked spellings
+               <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.153 ('Norfolk associations. <place country="England" county="Norfolk">Norfolk</place>'). But cf. <biblio key="Mosser2010"/>, where it is suggested the manuscript's marked spellings
             point to the <place country="England" county="Southwest">Southwest</place>.</lang>
             <count>49</count>
          </item>
@@ -14197,7 +14198,7 @@
             <count>2</count>
          </item>
       </repos>
-      <repos key="Queen’s College">
+      <repos key="Queen's College">
          <item xml:id="OxfQueens161">
             <desc>161</desc>
             <count>1</count>
@@ -14223,7 +14224,7 @@
             <count>1</count>
          </item>
       </repos>
-      <repos key="St John’s College">
+      <repos key="St John's College">
          <item xml:id="OxfStJohn6">
             <desc>6</desc>
             <lang>
@@ -14303,7 +14304,7 @@
             <desc>16B</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.153 (<place country="England" county="Staffordshire">Staffs</place>: Hand A, ff. 3-8v, 30v, 53-78v, 84r-v,
-            11v-114); 1.153-4 (‘Language of <place town="Lichfield">Lichfield</place>, <place country="England" county="Staffordshire">Staffs</place>: Hand B, ff. 8v-30v, 31v-53,
+            11v-114); 1.153-4 ('Language of <place town="Lichfield">Lichfield</place>, <place country="England" county="Staffordshire">Staffs</place>: Hand B, ff. 8v-30v, 31v-53,
             79-83v, 111).</lang>
             <count>2</count>
          </item>
@@ -14464,7 +14465,7 @@
             <desc>fr. 12154</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.154 (<place country="England" county="Lancashire">Lancs</place>: Hand A, ff. 35b, 36 a, b, 36d, 37a, b); 1.154
-            (‘…language possibly of S <place country="England" county="Westmorland">Westmoreland</place> or SE <place country="England" county="Northumberland">Northumberland</place>’: Hand B, ff. 96c, 97a, b, c, 98a, c).</lang>
+            ('…language possibly of S <place country="England" county="Westmorland">Westmoreland</place> or SE <place country="England" county="Northumberland">Northumberland</place>': Hand B, ff. 96c, 97a, b, c, 98a, c).</lang>
             <count>7</count>
          </item>
          <item xml:id="BNfr13342">
@@ -14513,7 +14514,7 @@
          <item xml:id="Petworth7">
             <desc>MS 7</desc>
             <lang>As in <mss key="Lichfield29"/>, <place country="England" town="London">London</place>
-            Type III and Type IV spellings comprise one layer, ‘alongside a layer of <place country="England" county="West Midlands">West Midlands</place> forms’ (<biblio key="Horobin2003"/>, p. 157; see also <biblio key="SmithJJ1997"/>). Both manuscripts
+            Type III and Type IV spellings comprise one layer, 'alongside a layer of <place country="England" county="West Midlands">West Midlands</place> forms' (<biblio key="Horobin2003"/>, p. 157; see also <biblio key="SmithJJ1997"/>). Both manuscripts
             are almost certainly <place country="England" town="London">London</place> productions,
             as the hand also appears in London, Worshipful Company of Skinners, deposit, Guildhall
             Library MS 31692, ff. 2-22, from 21 Richard II-22 Henry VI (1443)=Register of
@@ -14548,7 +14549,7 @@
       <repos key="Rosenbach Museum and Library">
          <item xml:id="PhilRos678">
             <desc>678, Boethius, De Disciplina Scholarum, Deventer 1496, [<i>olim</i> Heber Incunabula,
-            Sotheby’s Sale Cat. 1834, Part III, No. 810]</desc>
+            Sotheby's Sale Cat. 1834, Part III, No. 810]</desc>
             <count>0</count>
          </item>
          <item xml:id="PhilRos43916">
@@ -14569,11 +14570,11 @@
             <desc>1084/1 [<i>olim</i> Rosenbach 157; <i>prior</i> Phillipps 8137]</desc>
             <lang>The language of the first scribe (ff. 1-43) is colorless. The spellings of the second
                scribe (f. 43v-end) show a number of spellings of OE <i>y</i> realized as <i>u</i>;
-               ‘hur’ for HER is common. These forms suggest the West Midlands. The spelling
-               ‘scho’ for SHE, however, is primarily a Northern form and is found in the
+               'hur' for HER is common. These forms suggest the West Midlands. The spelling
+               'scho' for SHE, however, is primarily a Northern form and is found in the
                Southwest only in <place country="England" county="Gloucestershire">Gloucestershire</place>, <place country="England" county="Shropshire">Shropshire</place>, and <place country="England" county="Worcestershire">Worcestershire</place> (<biblio key="LALME"/> 4.7). <biblio key="Horobin2003"/>
-               observes the presence of unetymological initial <i>h</i>- in ‘holde’ OLD and
-               ‘habraham’ ABRAHAM. <biblio key="LALME"/> attests to this feature in <place country="England" county="Gloucestershire">Gloucestershire</place>, <place country="England" county="Wiltshire">Wiltshire</place>, and <place country="England" county="Worcestershire">Worcestershire</place> in the Southwest, and also in <place country="England" county="East Anglia">East Anglia</place> (4.320).</lang>
+               observes the presence of unetymological initial <i>h</i>- in 'holde' OLD and
+               'habraham' ABRAHAM. <biblio key="LALME"/> attests to this feature in <place country="England" county="Gloucestershire">Gloucestershire</place>, <place country="England" county="Wiltshire">Wiltshire</place>, and <place country="England" county="Worcestershire">Worcestershire</place> in the Southwest, and also in <place country="England" county="East Anglia">East Anglia</place> (4.320).</lang>
             <count>39</count>
          </item>
          <item xml:id="PhilRos10842">
@@ -14616,7 +14617,7 @@
             <count>1</count>
          </item>
          <item xml:id="PhilUPLat33">
-            <desc>Codex 721 [<i>olim</i> Lat. 33; <i>olim</i> Harmsworth; <i>olim</i> Dewick; Sotheby&#8217;s Sale, Oct. 15,
+            <desc>Codex 721 [<i>olim</i> Lat. 33; <i>olim</i> Harmsworth; <i>olim</i> Dewick; Sotheby's Sale, Oct. 15,
                1943, Lot 2053; Raphael King, Ltd. Sale Cat. 53, No. 215, Dec. 1951]</desc>
             <count>1</count>
          </item>
@@ -14717,7 +14718,7 @@
             <count>2</count>
          </item>
          <item xml:id="PULTayM3">
-            <desc>Taylor Medieval 3 [<i>olim</i> Morent’s Court, Kent, Meyerstein, Sotheby’s
+            <desc>Taylor Medieval 3 [<i>olim</i> Morent's Court, Kent, Meyerstein, Sotheby's
             17 Dec. 1952, lot 466]</desc>
             <count>3</count>
          </item>
@@ -14736,7 +14737,7 @@
             <count>3</count>
          </item>
          <item xml:id="PULTayM11">
-            <desc>Taylor Medieval 11 [<i>olim</i> Petre, <i>olim</i> Sotheby’s Sale, 10 March
+            <desc>Taylor Medieval 11 [<i>olim</i> Petre, <i>olim</i> Sotheby's Sale, 10 March
             1952, Lot 143, <i>olim</i> Quaritch Sale Cat. 704, Item 350, <i>olim</i> Laurence
             Witten]</desc>
             <lang>
@@ -14762,7 +14763,7 @@
    <loc key="Ripon, England">
       <repos key="Ripon Cathedral">
          <item xml:id="RiponCicero">
-            <desc>Cicero’s <i>Epistles</i> (Basle 1546)</desc>
+            <desc>Cicero's <i>Epistles</i> (Basle 1546)</desc>
             <count>1</count>
          </item>
       </repos>
@@ -14826,11 +14827,11 @@
             <count>14</count>
          </item>
          <item xml:id="HunEL26A17">
-            <desc>EL 26.A.17 [<i>olim</i> Bridgewater; the ‘Stafford Gower’]</desc>
+            <desc>EL 26.A.17 [<i>olim</i> Bridgewater; the 'Stafford Gower']</desc>
             <count>3</count>
          </item>
          <item xml:id="HunEL26C9">
-            <desc>EL 26.C.9 [‘Ellesmere’]</desc>
+            <desc>EL 26.C.9 ['Ellesmere']</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> (part of) LP 6400; <langGrid>Grid 532
                 183</langGrid> (<place town="London" country="England">London</place>).</lang>
@@ -14900,7 +14901,7 @@
             <count>1</count>
          </item>
          <item xml:id="HunHM124">
-            <desc>HM 124 [<i>olim</i> Sotheby’s Sale, 11 June 1923, lot 89A]</desc>
+            <desc>HM 124 [<i>olim</i> Sotheby's Sale, 11 June 1923, lot 89A]</desc>
             <count>8</count>
          </item>
          <item xml:id="HunHM125">
@@ -14943,7 +14944,7 @@
             <count>7</count>
          </item>
          <item xml:id="HunHM132">
-            <desc>HM 132 [<i>olim</i> George Dunn of Wooley Hall; Sotheby’s Sale, 11 February
+            <desc>HM 132 [<i>olim</i> George Dunn of Wooley Hall; Sotheby's Sale, 11 February
             1913, Lot 512]</desc>
             <count>1</count>
          </item>
@@ -14982,7 +14983,7 @@
             <count>20</count>
          </item>
          <item xml:id="HunHM143">
-            <desc>HM 143 [Sotheby’s sale 24 July 1924, lot 129; <i>post</i> Rosenbach]</desc>
+            <desc>HM 143 [Sotheby's sale 24 July 1924, lot 129; <i>post</i> Rosenbach]</desc>
             <count>3</count>
          </item>
          <item xml:id="HunHM144">
@@ -14990,7 +14991,7 @@
             <count>12</count>
          </item>
          <item xml:id="HunHM147">
-            <desc>HM 147 [<i>olim</i> Ingilby; Sotheby’s Sale 21 October 1920, lot 23; Maggs Cat. 404
+            <desc>HM 147 [<i>olim</i> Ingilby; Sotheby's Sale 21 October 1920, lot 23; Maggs Cat. 404
             (1921), n. 23]</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.92 (<place country="England" county="Dorset">Dorset</place>: flyleaf 1); LP 6530; <langGrid>Grid 546 220</langGrid> (<place country="England" county="Hertfordshire">Herts</place>).</lang>
@@ -15051,15 +15052,15 @@
             <count>1</count>
          </item>
          <item xml:id="HunHM19914">
-            <desc>HM 19914 [<i>olim</i> Davies-Cooke, Sotheby’s 15 June 1959, lot 203]</desc>
+            <desc>HM 19914 [<i>olim</i> Davies-Cooke, Sotheby's 15 June 1959, lot 203]</desc>
             <count>1</count>
          </item>
          <item xml:id="HunHM19916">
-            <desc>HM 19916 [<i>olim</i> Davies-Cooke, Sotheby’s 15 June 1959, lot 205]</desc>
+            <desc>HM 19916 [<i>olim</i> Davies-Cooke, Sotheby's 15 June 1959, lot 205]</desc>
             <count>1</count>
          </item>
          <item xml:id="HunHM19999">
-            <desc>HM 19999 [<i>olim</i> Dyson Perrins 33, Sotheby’s 29 Nov. 1960, lot 109]</desc>
+            <desc>HM 19999 [<i>olim</i> Dyson Perrins 33, Sotheby's 29 Nov. 1960, lot 109]</desc>
             <count>1</count>
          </item>
          <item xml:id="HunHM26054">
@@ -15075,8 +15076,8 @@
             <count>17</count>
          </item>
          <item xml:id="HunHM30313">
-            <desc>HM 30313 [<i>olim</i> Dyson Perrins, Sotheby’s Dec. 1958, lot 42;
-            Sotheby’s Sale, 29 Nov. 1960, Lot 147; Kraus Cat. 100, item 32]</desc>
+            <desc>HM 30313 [<i>olim</i> Dyson Perrins, Sotheby's Dec. 1958, lot 42;
+            Sotheby's Sale, 29 Nov. 1960, Lot 147; Kraus Cat. 100, item 32]</desc>
             <count>8</count>
          </item>
          <item xml:id="HunHU1051">
@@ -15118,10 +15119,10 @@
          <item xml:id="SanFlorXI57">
             <desc>XI 57</desc>
             <lang>
-               <biblio key="LAEME">LAEME</biblio> Index # 292 (Entry 1, Hand A: ‘text language
-            not placed — too little to go on’); Index # 293 (Entry 2, Hand B:
-            ‘text language not placed — too little to go on’); Index # 294 (Entry
-            3, Hand C: ‘text language not placed — too little to go on’).</lang>
+               <biblio key="LAEME">LAEME</biblio> Index # 292 (Entry 1, Hand A: 'text language
+            not placed — too little to go on'); Index # 293 (Entry 2, Hand B:
+            'text language not placed — too little to go on'); Index # 294 (Entry
+            3, Hand C: 'text language not placed — too little to go on').</lang>
             <count>1</count>
          </item>
       </repos>
@@ -15189,7 +15190,7 @@
       </repos>
    </loc>
    <loc key="Spalding, Lincolnshire">
-      <repos key="Spalding Gentlemen’s Society">
+      <repos key="Spalding Gentlemen's Society">
          <item xml:id="Spalding">
             <desc>M.J.B.14 [<i>olim</i> Maurice Johnson No. LIV]</desc>
             <count>44</count>
@@ -15294,7 +15295,7 @@
    <loc key="Tokyo">
       <repos key="S. Asahata">
          <item xml:id="TokyoAsahata">
-            <desc>[<i>olim</i> Bute 13, Sotheby’s 13 June 1983]</desc>
+            <desc>[<i>olim</i> Bute 13, Sotheby's 13 June 1983]</desc>
             <count>0</count>
          </item>
       </repos>
@@ -15306,7 +15307,7 @@
       </repos>
       <repos key="Senshu University">
       <item xml:id="Senshu1">
-         <desc>Senshu University MS 1 [<i>olim</i> Sch&#248;yen 194; <i>post</i> Penrose 12]</desc>
+         <desc>Senshu University MS 1 [<i>olim</i> Schøyen 194; <i>post</i> Penrose 12]</desc>
          <count>17</count>
       </item>
       </repos>
@@ -15327,14 +15328,14 @@
       <repos key="Present whereabouts unknown">
          <item xml:id="BeeleighPricke">
             <desc>
-               <i>olim</i> Neale, sold Sotheby’s 1920; Hope Allen Addit. MS III; <i>olim</i>
-            Harmsworth; <i>olim</i> Beeleigh Abbey (Christina Foyle), sold Christie’s June
+               <i>olim</i> Neale, sold Sotheby's 1920; Hope Allen Addit. MS III; <i>olim</i>
+            Harmsworth; <i>olim</i> Beeleigh Abbey (Christina Foyle), sold Christie's June
             2000</desc>
             <count>0</count>
          </item>
          <item xml:id="BeeleighMirrour">
             <desc>
-               <i>olim</i> Huth; <i>olim</i> Beeleigh Abbey (Christina Foyle), sold Christie’s
+               <i>olim</i> Huth; <i>olim</i> Beeleigh Abbey (Christina Foyle), sold Christie's
             June 2000</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 6250; <langGrid>Grid 567 208</langGrid> (<place country="England" county="Essex">Essex</place>).</lang>
@@ -15343,7 +15344,7 @@
          <item xml:id="BeeleighRolle">
             <desc>
                <i>olim</i> Amherst; <i>olim</i> Harmsworth; <i>olim</i> Beeleigh Abbey (Christina
-            Foyle); sold Christie’s June 2000</desc>
+            Foyle); sold Christie's June 2000</desc>
             <count>2</count>
          </item>
          <item xml:id="Ashburn49">
@@ -15374,7 +15375,7 @@
          </item>
          <item xml:id="Clumber">
             <desc>
-               <i>olim</i> Clumber; sold Sotheby’s 1937, Lot 1129</desc>
+               <i>olim</i> Clumber; sold Sotheby's 1937, Lot 1129</desc>
             <count>2</count>
          </item>
          <item xml:id="Cole">
@@ -15393,7 +15394,7 @@
             <count>1</count>
          </item>
          <item xml:id="Fenn">
-            <desc>Sir John Fenn’s Letters, fragments of early prints (see <biblio key="Furnivall1865b"/>)</desc>
+            <desc>Sir John Fenn's Letters, fragments of early prints (see <biblio key="Furnivall1865b"/>)</desc>
             <count>1</count>
          </item>
          <item xml:id="Gray">
@@ -15433,7 +15434,7 @@
          </item>
          <item xml:id="Phillipps1936">
             <desc>
-               <i>olim</i> Phillipps; Sotheby’s Sale Cat., 29 June 1936, Lot 105</desc>
+               <i>olim</i> Phillipps; Sotheby's Sale Cat., 29 June 1936, Lot 105</desc>
             <count>0</count>
          </item>
          <item xml:id="BodRawFrag">
@@ -15450,17 +15451,17 @@
         
          <item xml:id="Schwerdt">
             <desc>
-               <i>olim</i> Schwerdt [sold Sotheby’s Mar. 12, 1946; sold again by
-            Christie’s on 26 January 2006 (Sale 7300, Lot 501) and was purchased by
-            Quaritch’s on behalf of an unknown collector]</desc>
+               <i>olim</i> Schwerdt [sold Sotheby's Mar. 12, 1946; sold again by
+            Christie's on 26 January 2006 (Sale 7300, Lot 501) and was purchased by
+            Quaritch's on behalf of an unknown collector]</desc>
             <count>1</count>
          </item>
          <item xml:id="Sotheby1976">
-            <desc>Sotheby’s 5 April 1976, lot 623, <i>Fall of Princes</i> fragment</desc>
+            <desc>Sotheby's 5 April 1976, lot 623, <i>Fall of Princes</i> fragment</desc>
             <count>1</count>
          </item>
          <item xml:id="Sotheby1983">
-            <desc>Sotheby’s 6 Dec. 1983, lot 20, <i>Fall of Princes</i> fragment</desc>
+            <desc>Sotheby's 6 Dec. 1983, lot 20, <i>Fall of Princes</i> fragment</desc>
             <count>1</count>
          </item>
          <item xml:id="StockdPs">
@@ -15515,7 +15516,7 @@
          </item>
          <item xml:id="CastleHoward">
             <desc>
-               <i>olim</i> Castle Howard (Earl of Carlisle) [sold at Sotheby’s 9 December, 1974, lot 25]</desc>
+               <i>olim</i> Castle Howard (Earl of Carlisle) [sold at Sotheby's 9 December, 1974, lot 25]</desc>
             <count>1</count>
          </item>
          <item xml:id="Fellowes">
@@ -15544,7 +15545,7 @@
          </item>
          <item xml:id="Singh">
             <desc>
-               <i>olim</i> Prince Frederick Duleep Singh’s MS, Old Buckenham Hall, Norfolk; sold Sotheby’s 7 Nov. 1899, lot 408</desc>
+               <i>olim</i> Prince Frederick Duleep Singh's MS, Old Buckenham Hall, Norfolk; sold Sotheby's 7 Nov. 1899, lot 408</desc>
             <count>1</count>
          </item>
          <item xml:id="Breslauer9016">
@@ -15557,7 +15558,7 @@
             <count>1</count>
          </item>
          <item xml:id="HelminghamHall">
-            <desc>Cited in the <biblio key="Brown1943"/> as ‘? Helmingham Hall’; possibly Newberry Library MS f36; possibly in collection of Martin Schøyen, as cited in <biblio key="NIMEV"/> 1597</desc>
+            <desc>Cited in the <biblio key="Brown1943"/> as '? Helmingham Hall'; possibly Newberry Library MS f36; possibly in collection of Martin Schøyen, as cited in <biblio key="NIMEV"/> 1597</desc>
             <count>0</count>
          </item>
          <item xml:id="Tiverton">
@@ -15601,7 +15602,7 @@
    <loc key="Present location unknown">
       <repos key="Private owner">
          <item xml:id="PriO1">
-            <desc>1 [<i>olim</i> A. G. Thomas; Sotheby’s, 10 Dec. 1962, lot 145] 1165</desc>
+            <desc>1 [<i>olim</i> A. G. Thomas; Sotheby's, 10 Dec. 1962, lot 145] 1165</desc>
             <count>1</count>
          </item>
          <item xml:id="PriO2">
@@ -15614,20 +15615,20 @@
             <count>1</count>
          </item>
          <item xml:id="PriO4">
-            <desc>4 [ex Sotheby’s, 9 Dec. 1963, lot 120]</desc>
+            <desc>4 [ex Sotheby's, 9 Dec. 1963, lot 120]</desc>
             <count>1</count>
          </item>
          <item xml:id="PriO5">
-            <desc>5 [<i>olim</i> Marquis of Bute, Sotheby’s, 13 June 1983, lot 10] 2662</desc>
+            <desc>5 [<i>olim</i> Marquis of Bute, Sotheby's, 13 June 1983, lot 10] 2662</desc>
             <count>1</count>
          </item>
          <item xml:id="PriO6">
-            <desc>6 [<i>olim</i> Westminster (Eaton Hall), Sotheby’s, 11 July 1966, lot 233,
+            <desc>6 [<i>olim</i> Westminster (Eaton Hall), Sotheby's, 11 July 1966, lot 233,
                Quaritch] 1459</desc>
             <count>1</count>
          </item>
          <item xml:id="PriO7">
-            <desc>7 [<i>olim</i> Marquess of Bute MS 85; sold Sotheby’s 13 June 1983, lot 10]</desc>
+            <desc>7 [<i>olim</i> Marquess of Bute MS 85; sold Sotheby's 13 June 1983, lot 10]</desc>
             <count>1</count>
          </item>
       </repos>
@@ -15670,7 +15671,7 @@
    <loc key="Urbana">
       <repos key="University of Illinois at Urbana-Champaign">
          <item xml:id="Urbana71">
-            <desc>71 [<i>olim</i> Harmsworth, Sotheby’s sale, 16 Oct. 1945, Lot 2132]</desc>
+            <desc>71 [<i>olim</i> Harmsworth, Sotheby's sale, 16 Oct. 1945, Lot 2132]</desc>
             <count>5</count>
          </item>
          <item xml:id="Urbana83">
@@ -15693,7 +15694,7 @@
       </repos>
    </loc>
    <loc key="Ushaw">
-      <repos key="St Cuthbert’s College">
+      <repos key="St Cuthbert's College">
          <item xml:id="Ushaw10">
             <desc>10</desc>
             <count>4</count>
@@ -15777,7 +15778,7 @@
       <repos key="Wellesley College">
          <item xml:id="Wellesley8">
             <desc>
-               Wellesley College 8 [De Ricci 8; <i>olim</i> Harmsworth, <i>olim</i> Beeleigh Abbey, sold Christie&#8217;s June 2000 to Wellesley]</desc>
+               Wellesley College 8 [De Ricci 8; <i>olim</i> Harmsworth, <i>olim</i> Beeleigh Abbey, sold Christie's June 2000 to Wellesley]</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 599 (<place country="England" county="Northern">NME</place>).</lang>
             <count>4</count>
@@ -15809,7 +15810,7 @@
       </repos>
       <repos key="Winchester Cathedral Library">
          <item xml:id="Winchester29">
-            <desc>29 [<i>olim</i> Mostyn Hall 186; sold Christie’s 24 October 1974, lot 1479]</desc>
+            <desc>29 [<i>olim</i> Mostyn Hall 186; sold Christie's 24 October 1974, lot 1479]</desc>
             <count>1</count>
          </item>
       </repos>
@@ -15828,7 +15829,7 @@
             <count>1</count>
          </item>
       </repos>
-      <repos key="St George’s Chapel, Windsor">
+      <repos key="St George's Chapel, Windsor">
          <item xml:id="StGeorgEII">
             <desc>E.I.I</desc>
             <count>5</count>
@@ -15934,10 +15935,10 @@
    <loc key="York">
       <repos key="Borthwick Institute">
          <item xml:id="YorkBor11">
-            <desc>Archbishops’ Register No. 11 [Archbishop Thoresby’s Register]</desc>
+            <desc>Archbishops' Register No. 11 [Archbishop Thoresby's Register]</desc>
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 116; <langGrid>Grid 426 469</langGrid> (WRY:
-            ‘Language clearly not of York, but plausibly of <place town="Ripon" county="North Yorkshire" country="England">Ripon</place>’ [1.167]).</lang>
+            'Language clearly not of York, but plausibly of <place town="Ripon" county="North Yorkshire" country="England">Ripon</place>' [1.167]).</lang>
             <count>1</count>
          </item>
       </repos>
@@ -15969,7 +15970,7 @@
             <lang>
                <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.168 (<place country="England" county="Norfolk">Norfolk</place>: Hand C, ff. 108v-117v, 122v-125, 145v to end); 1.168 (<place country="England" county="Derbyshire">Derbys</place>: Hand D, ff. 118v-121); 1.168
                 (<place country="England" county="Nottinghamshire">Notts</place>: Hand E, ff.
-            129-144v); 1.168 (‘Language is of S <place country="England" county="Shropshire">Salop</place> or NE <place country="England" county="Herefordshire">Herefords</place>’).</lang>
+            129-144v); 1.168 ('Language is of S <place country="England" county="Shropshire">Salop</place> or NE <place country="England" county="Herefordshire">Herefords</place>').</lang>
             <count>1</count>
          </item>
          <item xml:id="YorkMinXVII12">
@@ -16003,7 +16004,7 @@
       </repos>
       <repos key="York Minster:">
          <item xml:id="YorkMinBarton">
-            <desc>now missing, and considered lost since Raine&#8217;s edition</desc>
+            <desc>now missing, and considered lost since Raine's edition</desc>
             <count>2</count>
          </item>
       </repos>

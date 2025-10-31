@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <inscriptions>
      <item xml:id="SaffWald">
         <loc>Saffron Waldon, Essex</loc>
@@ -17,18 +17,18 @@
     </item>
     <item xml:id="Barrett">
         <loc>Manchester, UK</loc>
-        <repos>Chetham&#8217;s Library</repos>
+        <repos>Chetham's Library</repos>
         <desc>MS Barrett, <i>olim</i> fortune cards</desc>
     </item>
     <item xml:id="StAndrew">
-        <loc>Old [or &#8216;Wold&#8217;], Northamptonshire</loc>
+        <loc>Old [or 'Wold'], Northamptonshire</loc>
         <repos>Church of St Andrew</repos>
         <desc>small window in south aisle</desc>
     </item>
     <item xml:id="Heydon">
         <loc>Heydon, Norfolk</loc>
         <repos>Church of Saints Peter and Paul,</repos>
-        <desc><i>olim</i> &#8216;Blasphemy Window&#8217; in north aisle</desc>
+        <desc><i>olim</i> 'Blasphemy Window' in north aisle</desc>
     </item>
     <item xml:id="BrownTomb">
         <loc>Canterbury, Kent</loc>
@@ -58,7 +58,7 @@
     <item xml:id="Heydon2">
         <loc>Heydon, Norfolk</loc>
         <repos>Church of Saints Peter and Paul</repos>
-        <desc><i>olim</i> &#8216;Blasphemy Window&#8217; in north aisle</desc>
+        <desc><i>olim</i> 'Blasphemy Window' in north aisle</desc>
     </item>
     <item xml:id="BMMLA96727">
         <loc>London</loc>
@@ -78,7 +78,7 @@
     </item>
     <item xml:id="Duxford">
         <loc>Duxford, Cambridgeshire</loc>
-        <repos>St. John&#8217;s Church</repos>
+        <repos>St. John's Church</repos>
         <desc>graffito</desc>
     </item>
     <item xml:id="Baldock">
@@ -88,12 +88,12 @@
     </item>
     <item xml:id="Shrow">
         <loc>London</loc>
-        <repos>St. Michael&#8217;s Church, Crooked Lane,</repos>
+        <repos>St. Michael's Church, Crooked Lane,</repos>
         <desc>brass tomb of John Shrow, stockfishmonger (d. 1487)</desc>
     </item>
     <item xml:id="Benson">
         <loc><i>olim</i> London</loc>
-        <repos>St. Martin&#8217;s Church, Ludgate Hill</repos>
+        <repos>St. Martin's Church, Ludgate Hill</repos>
         <desc>tomb of John and Anne Benson</desc>
     </item>
     <item xml:id="Midwinter">
@@ -120,12 +120,12 @@
     </item>
     <item xml:id="Barton">
         <loc><i>olim</i> London</loc>
-        <repos>St. Michael&#8217;s Church, Basinghall</repos>
+        <repos>St. Michael's Church, Basinghall</repos>
         <desc>tomb of John Barton, Mercer (d. 1460)</desc>
     </item>
     <item xml:id="Jannys">
         <loc>Norwich, Norfolk</loc>
-        <repos>Norwich City Council, Blackfriar&#8217;s Hall</repos>
+        <repos>Norwich City Council, Blackfriar's Hall</repos>
         <desc>portrait of Robert Jannys, Mayor of Norwich, 1517 and 1524</desc>
     </item>
     <item xml:id="Lammas">
@@ -196,7 +196,7 @@
     <item xml:id="CarlisleCeiling">
         <loc>Carlisle, Cumbria</loc>
         <repos>Carlisle Cathedral</repos>
-        <desc>Prior&#8217;s Tower, ceiling beams</desc>
+        <desc>Prior's Tower, ceiling beams</desc>
     </item>
     <item xml:id="Arreton">
         <loc>Isle of Wight</loc>
@@ -205,7 +205,7 @@
     </item>
     <item xml:id="Knowles">
         <loc><i>olim</i> London</loc>
-        <repos>St Anthony&#8217;s [Antlins] Church, Budge Row</repos>
+        <repos>St Anthony's [Antlins] Church, Budge Row</repos>
         <desc>brass tomb of Thomas and Joan Knowles</desc>
     </item>
     <item xml:id="Savage">
@@ -250,19 +250,19 @@
     </item>
     <item xml:id="Quartermain">
         <loc>Thame, Oxfordshire</loc>
-        <repos>Church of the Blessed Virgin Mary, St. Christopher&#8217;s Chapel</repos>
+        <repos>Church of the Blessed Virgin Mary, St. Christopher's Chapel</repos>
         <desc>south-east corner of nave, tomb of Richard and Sibyl Quartermain, brass around edge of
             lid of elevated tomb</desc>
     </item>
     <item xml:id="Thorndon">
         <loc>Frettenham, Norfolk</loc>
-        <repos>St. Swithin&#8217;s Church</repos>
+        <repos>St. Swithin's Church</repos>
         <desc>brass tomb of Alice Thorndon (d. 1420) on floor at base of north wall of
             chancel</desc>
     </item>
     <item xml:id="StPaulsCloister">
         <loc><i>olim</i> London</loc>
-        <repos>St. Paul&#8217;s Cathedral</repos>
+        <repos>St. Paul's Cathedral</repos>
         <desc>cloister walls</desc>
     </item>
     <item xml:id="HighEaster">
@@ -273,7 +273,7 @@
     <item xml:id="CarlislePriorsTower">
         <loc>Carlisle, Cumbria</loc>
         <repos>Carlisle Cathedral</repos>
-        <desc>Prior&#8217;s Tower, ceiling beams</desc>
+        <desc>Prior's Tower, ceiling beams</desc>
     </item>
     <item xml:id="Fortey">
         <loc>Northleach, Gloucestershire</loc>
@@ -293,13 +293,13 @@
     </item>
     <item xml:id="Baret">
         <loc>Bury St. Edmunds, Suffolk</loc>
-        <repos>St. Mary&#8217;s Church, SE corner of the nave,</repos>
+        <repos>St. Mary's Church, SE corner of the nave,</repos>
         <desc>tomb of John Baret, A.D. 1463</desc>
     </item>
     <item xml:id="GoldenCross">
         <loc>Oxford</loc>
         <repos>Golden Cross Inn,</repos>
-        <desc>walls in &#8216;painted chamber&#8217;</desc>
+        <desc>walls in 'painted chamber'</desc>
     </item>
     <item xml:id="Crawley">
         <loc>Sussex</loc>
@@ -308,7 +308,7 @@
     </item>
     <item xml:id="Nordell">
         <loc>Lombard Street, London</loc>
-        <repos>St. Edmund&#8217;s Church,</repos>
+        <repos>St. Edmund's Church,</repos>
         <desc>epitaph, tomb of Richard Nordell and wife (A.D. 1500)</desc>
     </item>
     <item xml:id="Ridgewell">
@@ -318,7 +318,7 @@
     </item>
     <item xml:id="StOlave">
         <loc>Hart Street, London</loc>
-        <repos>St. Olave&#8217;s Church,</repos>
+        <repos>St. Olave's Church,</repos>
         <desc>epitaph</desc>
     </item>
     <item xml:id="Hexham">
@@ -373,17 +373,17 @@
     </item>
     <item xml:id="StBride">
         <loc>London</loc>
-        <repos>St. Bride&#8217;s Church</repos>
+        <repos>St. Bride's Church</repos>
         <desc>Tomb of William Wever, A.D. 1409.</desc>
     </item>
     <item xml:id="Wever">
         <loc>London (demolished in 1634)</loc>
-        <repos>St. Alban&#8217;s, Wood Street</repos>
+        <repos>St. Alban's, Wood Street</repos>
         <desc>tomb epitaph of Sir Harry Wever and his wife Joan, ca. 1405.</desc>
     </item>
     <item xml:id="Mercer">
         <loc>London</loc>
-        <repos>Mercer&#8217;s Chapel</repos>
+        <repos>Mercer's Chapel</repos>
         <desc>Epitaph for Ambrose Cresacre, A.D. 1477<!--Check this-->.</desc>
     </item>
     <item xml:id="Atkinson">
@@ -393,7 +393,7 @@
     </item>
     <item xml:id="Mercers">
         <loc>London</loc>
-        <repos>Mercer&#8217;s Company</repos>
+        <repos>Mercer's Company</repos>
         <desc>cup.</desc>
     </item>
     <item xml:id="Almondbury">
@@ -408,7 +408,7 @@
     </item>
     <item xml:id="GreatMalvern">
         <loc>Malvern, Worcestershire</loc>
-        <repos>Great Malvern Priory, St. Anne&#8217;s Chapel,</repos>
+        <repos>Great Malvern Priory, St. Anne's Chapel,</repos>
         <desc>a tile fixed in a pillar near the west end of the nave.</desc>
     </item>
     <item xml:id="Grafton">
@@ -433,7 +433,7 @@
     </item>
     <item xml:id="Drury">
         <loc>Wooburn, Buckinghamshire</loc>
-        <repos>Church of St Paul&#8217;s,</repos>
+        <repos>Church of St Paul's,</repos>
         <desc>tomb of Sir Robert Drury.</desc>
     </item>
     <item xml:id="Emberton">
@@ -458,7 +458,7 @@
     </item>
     <item xml:id="Street">
         <loc><i>olim</i> London</loc>
-        <repos>St Anthony&#8217;s [Antlins] Church, Budge Row,</repos>
+        <repos>St Anthony's [Antlins] Church, Budge Row,</repos>
         <desc>epitaph of Simon and Agnes Street (d. 1440)</desc>
     </item>
     <item xml:id="Marsham">
@@ -475,7 +475,7 @@
         <loc><i>olim</i> Lakenheath Grove, Norwich</loc>
         <repos>summerhouse,</repos>
         <desc>fifteenth-century glass fitted to eighteenth-century building, surviving in 1932;
-            possibly (?)originally from Duke of Norfolk&#8217;s house in Newgate, Norwich</desc>
+            possibly (?)originally from Duke of Norfolk's house in Newgate, Norwich</desc>
     </item>
     <item xml:id="Vaux">
         <loc><i>olim</i> Cumberland</loc>
@@ -540,12 +540,12 @@
     <item xml:id="Brigge">
         <loc>Salle, Norfolk</loc>
         <repos>Church of SS Peter and Paul,</repos>
-        <desc>Brass of John Brigge (d. 1454) (&#8216;an emaciated figure in a shroud&#8217;)</desc>
+        <desc>Brass of John Brigge (d. 1454) ('an emaciated figure in a shroud')</desc>
     </item>
     <item xml:id="Barber">
         <loc>Abingdon, Berkshire</loc>
-        <repos>Christ&#8217;s Hospital, Governor&#8217;s Archives,</repos>
-        <desc>Object 13 (MS), &#8216;Forman&#8217;s Monument&#8217; </desc>
+        <repos>Christ's Hospital, Governor's Archives,</repos>
+        <desc>Object 13 (MS), 'Forman's Monument' </desc>
     </item>
     <item xml:id="Payne">
         <loc>London</loc>
@@ -620,12 +620,12 @@
     </item>
     <item xml:id="Wenlock">
         <loc>Luton, Bedforshire</loc>
-        <repos>St. Mary&#8217;s Church,</repos>
+        <repos>St. Mary's Church,</repos>
         <desc>tomb of William (Wyvell) Wenlock (d. 1391)</desc>
     </item>
     <item xml:id="Skipwith">
-        <loc>St Alban&#8217;s, Hertfordshire</loc>
-        <repos>St.Peter&#8217;s Church,</repos>
+        <loc>St Alban's, Hertfordshire</loc>
+        <repos>St.Peter's Church,</repos>
         <desc>tomb of Richard Skipwith (d. 1416)</desc>
     </item>
     <item xml:id="Smarmore">
@@ -645,7 +645,7 @@
     </item>
     <item xml:id="Gaunt">
         <loc>Bedford, Bedfordshire</loc>
-        <repos>Doctor&#8217;s Commons,</repos>
+        <repos>Doctor's Commons,</repos>
         <desc>inscription over arches</desc>
     </item>
     <item xml:id="Romford">
@@ -655,7 +655,7 @@
     </item>
     <item xml:id="Spenser">
         <loc><i>olim</i> London</loc>
-        <repos>St Anthony&#8217;s [Antlins] Church, Budge Row,</repos>
+        <repos>St Anthony's [Antlins] Church, Budge Row,</repos>
         <desc>epitaph of Joan Spenser (d. 1407)</desc>
     </item>
     <item xml:id="Wentworth">
@@ -731,17 +731,17 @@
     </item>
     <item xml:id="Streatham">
         <loc>Streatham, Surrey</loc>
-        <repos>[Saint Leonard&#8217;s?] Church,</repos>
+        <repos>[Saint Leonard's?] Church,</repos>
         <desc>tomb of Margaret Cantelowe</desc>
     </item>
     <item xml:id="Hedon">
         <loc>Hedon, Yorkshire</loc>
-        <repos>St Austin&#8217;s Church,</repos>
+        <repos>St Austin's Church,</repos>
         <desc>picture once hanging on wall</desc>
     </item>
     <item xml:id="Dalusse">
         <loc>London</loc>
-        <repos>St Martin&#8217;s Church,</repos>
+        <repos>St Martin's Church,</repos>
         <desc>Epitaph, A.D. 1469, for Robert Dalusse</desc>
     </item>
     <item xml:id="Bowf">
@@ -756,7 +756,7 @@
     </item>
     <item xml:id="Knolles">
         <loc>London</loc>
-        <repos>St. Antholin&#8217;s(?), Budge Row (demolished 1874)</repos>
+        <repos>St. Antholin's(?), Budge Row (demolished 1874)</repos>
         <desc>Tomb of Thomas Knolles</desc>
     </item>
     <item xml:id="Hereford">
@@ -770,7 +770,7 @@
         <desc>Monumental brass for Robert Hylton, yeoman of guard to Henry VIII, 1523.</desc>
     </item>
     <item xml:id="StokeDAbernon">
-        <loc>Stoke D&#8217;Abernon, Surrey.</loc>
+        <loc>Stoke D'Abernon, Surrey.</loc>
         <repos/>
         <desc>Monumental brass inscription in 8 English black letter verses for John Pynnoke, first priest of the chantry founded by Sir John Norbury, 1521.</desc>
     </item>
@@ -842,7 +842,7 @@
     <item xml:id="Rouclyff">
         <loc>Cowthorpe, Yorkshire.</loc>
         <repos/>
-        <desc>Monumental brass for Brian Rouclyff (d. 1494) &#38; Joanne his wife.</desc>
+        <desc>Monumental brass for Brian Rouclyff (d. 1494) &amp; Joanne his wife.</desc>
     </item>
     <item xml:id="Wryght">
         <loc>Ketteringham, Norfolk.</loc>
@@ -887,7 +887,7 @@
     <item xml:id="Tylney">
         <loc><i>olim</i> Lincoln Cathedral.</loc>
         <repos/>
-        <desc>Not extant; monumental brass for Sir Philip Tilney, husband of Isabel, daughter and coheiress of Sir Edmund Thorp of Ashwellthorpe, Norfolk.  After her death he became a secular canon and was admitted to St Botolph&#8217;s prebend in Lincoln Cathedral where he was buried in 1453.</desc>
+        <desc>Not extant; monumental brass for Sir Philip Tilney, husband of Isabel, daughter and coheiress of Sir Edmund Thorp of Ashwellthorpe, Norfolk.  After her death he became a secular canon and was admitted to St Botolph's prebend in Lincoln Cathedral where he was buried in 1453.</desc>
     </item>
     <item xml:id="Ballotts">
         <loc>Strubby, Lincolnshire.</loc>
@@ -926,9 +926,7 @@
     </item>
     <item xml:id="Warkworth">
         <loc>Banbury</loc>
-        <repos>St. Mary&#8217;s Church, Warkworth</repos>
+        <repos>St. Mary's Church, Warkworth</repos>
         <desc>Inscription in wood on the south side of the chancel.</desc>
     </item>
-  
-    
 </inscriptions>

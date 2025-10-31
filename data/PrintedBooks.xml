@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <books>
     <!-- INCUNABLES AND EARLY PRINTED BOOKS: listed by STC number  -->
     <bibl xml:id="STC78" n="STC 78">
@@ -177,12 +177,12 @@
             <author>Arnold, Richard</author>
         </authorstmt>
         <titlestmt>
-            <title level="m">Arnold’s Chronicle</title>
+            <title level="m">Arnold's Chronicle</title>
         </titlestmt>
         <pubstmt date="1503"> [Antwerp, van Berghen, 1503?]</pubstmt>
         <repos/>
         <desc>
-            <name>Arnold, Richard</name>, <i>Arnold’s Chronicle</i>, [Antwerp, van Berghen, 1503?] </desc>
+            <name>Arnold, Richard</name>, <i>Arnold's Chronicle</i>, [Antwerp, van Berghen, 1503?] </desc>
     </bibl>
     <bibl xml:id="STC783" n="STC 783">
         <DIMEVCount>2</DIMEVCount>
@@ -190,12 +190,12 @@
             <author>Arnold, Richard</author>
         </authorstmt>
         <titlestmt>
-            <title level="m">Arnold’s Chronicle</title>
+            <title level="m">Arnold's Chronicle</title>
         </titlestmt>
         <pubstmt date="1525"> [Southwark, Treveris, 1525?]</pubstmt>
         <repos/>
         <desc>
-            <name>Arnold, Richard</name>, <i>Arnold’s Chronicle</i>, [Southwark, Treveris, 1525?] </desc>
+            <name>Arnold, Richard</name>, <i>Arnold's Chronicle</i>, [Southwark, Treveris, 1525?] </desc>
     </bibl>
     <bibl xml:id="STC786" n="STC 786">
         <DIMEVCount>2</DIMEVCount>
@@ -5607,12 +5607,12 @@
             <author>Rastell, John</author>
         </authorstmt>
         <titlestmt>
-            <title level="m">An Interlude of the Four Elements, including songs with musical notation&#8230; (STC 20722)</title>
+            <title level="m">An Interlude of the Four Elements, including songs with musical notation… (STC 20722)</title>
         </titlestmt>
-        <pubstmt date="1519"></pubstmt>
+        <pubstmt date="1519"/>
         <repos/>
         <desc>
-            <name>Rastell, John</name>, <i>An Interlude of the Four Elements, including songs with musical notation&#8230;</i> (STC 20722)</desc>
+            <name>Rastell, John</name>, <i>An Interlude of the Four Elements, including songs with musical notation…</i> (STC 20722)</desc>
     </bibl><bibl xml:id="Rastell" n="X">
         <DIMEVCount>1</DIMEVCount>
         <authorstmt>
@@ -5685,9 +5685,9 @@
             <author>Ryff, Walther</author>
         </authorstmt>
         <titlestmt>
-            <title level="m">In Caii Plinii Secvndi Natvralis historiae argutissimi Scriptoris I. &#38; II. Cap: Libri XXX. Commentarius</title>
+            <title level="m">In Caii Plinii Secvndi Natvralis historiae argutissimi Scriptoris I. &amp; II. Cap: Libri XXX. Commentarius</title>
         </titlestmt>
-        <pubstmt date="1562">W&#252;rzburg: Johann M&#252;ller, 1548</pubstmt>
+        <pubstmt date="1562">Würzburg: Johann Müller, 1548</pubstmt>
         <repos>London, Royal College of Physicians</repos>
         <desc>London, Royal College of Physicians, D1/19-c-27</desc>
     </bibl>
