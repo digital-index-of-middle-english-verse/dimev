@@ -16,6 +16,21 @@
           	</xs:complexType>
               </xs:element>
               <xs:element name="alpha" type="xs:string"/>
+              <xs:element name="repertories" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="repertory" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="key" use="required" type="xs:string"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
 	      <xs:element name="description" type="freeMix" minOccurs="0"/>
               <xs:element name="descNote" minOccurs="0">
                 <xs:complexType mixed="true">
@@ -59,13 +74,7 @@
               <xs:element name="subjects" minOccurs="0">
                 <xs:complexType>
 		  <xs:sequence>
-                    <xs:element name="subject" maxOccurs="unbounded">
-                      <xs:complexType mixed="true">
-          	        <xs:choice minOccurs="0" maxOccurs="unbounded">
-          	          <xs:element name="i" type="xs:string"/>
-			</xs:choice>
-		      </xs:complexType>
-		    </xs:element>
+                    <xs:element name="subject" minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
 		  </xs:sequence>
                 </xs:complexType>
               </xs:element>
@@ -161,8 +170,6 @@
               </xs:element>
             </xs:sequence>
             <xs:attribute ref="xml:id" use="optional"/>
-            <xs:attribute name="imev" type="xs:string"/>
-            <xs:attribute name="nimev" type="xs:string"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>
