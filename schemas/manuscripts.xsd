@@ -7,8 +7,8 @@
         <xs:element name="item" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-	      <xs:element name="loc" type="textfield"/>
-	      <xs:element name="repos" type="textfield"/>
+	      <xs:element name="loc" type="xs:string"/>
+	      <xs:element name="repos" type="xs:string"/>
 	      <xs:element name="desc">
 		<xs:complexType mixed="true">
 		  <xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -67,9 +67,4 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:complexType name="textfield" mixed="true">
-    <xs:choice minOccurs="0">
-      <xs:element name="i"/>
-    </xs:choice>
-  </xs:complexType>
 </xs:schema>

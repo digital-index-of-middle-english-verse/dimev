@@ -52,7 +52,6 @@ def get_schema(xml_file):
             ('Glossary.xml', 'glossary.xsd'),
             ('Inscriptions.xml', 'inscriptions.xsd'),
             ('Manuscripts.xml', 'manuscripts.xsd'),
-            ('MSSIndex.xml', 'mssindex.xsd'),
             ('PrintedBooks.xml', 'printedbooks.xsd'),
             ('Records.xml', 'records.xsd')
             }
