@@ -144,6 +144,9 @@
         <desc>Arch. Selden B. 14 (SC 3360)</desc>
         <lang>
             <place country="England" town="London">London</place>? See <biblio key="Horobin2003"/>, p. 160. Some of the marked forms suggest <place country="England" county="Norfolk">Norfolk</place> (see <biblio key="Mosser2010"/>).</lang>
+        <surrogates>
+            <ref target="https://digital.bodleian.ox.ac.uk/inquire/p/3049e6d9-c25d-403b-b70e-3486f995c6b9"/>
+        </surrogates>
     </item>
     <item xml:id="BodArcSelB24">
         <loc>Oxford</loc>
@@ -697,6 +700,9 @@
         <desc>Barlow 20 (SC 6420)</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.145 (<place country="England" county="Worcestershire">Worcs</place>).</lang>
+        <surrogates>
+            <ref target="https://digital.bodleian.ox.ac.uk/inquire/p/2476f906-e65d-4a49-8e8c-9a668511d946"/>
+        </surrogates>
     </item>
     <item xml:id="BodBar24">
         <loc>Oxford</loc>
@@ -903,6 +909,9 @@
         <desc>Bodley 414 (SC 27880)</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.146 (<place country="England" county="Norfolk">Norfolk</place>).</lang>
+        <surrogates>
+            <ref target="https://digital.bodleian.ox.ac.uk/objects/2b1eeafa-489e-47e1-81ea-fa0a4cf631a5/surfaces/eb5e070a-cb75-401b-bb3c-c93e1112cfbe/"/>
+        </surrogates>
     </item>
     <item xml:id="Bod415">
         <loc>Oxford</loc>
@@ -1029,6 +1038,9 @@
         <repos>Bodleian Library</repos>
         <desc>Bodley 686 (SC 2527)</desc>
         <lang>South <place country="England" county="Worcestershire">Worcestershire</place> (<biblio key="Horobin2003"/>, pp. 147-8).</lang>
+        <surrogates>
+            <ref target="https://digital.bodleian.ox.ac.uk/inquire/p/a750d9e7-516a-47fb-a4bd-97e7be59e20f"/>
+        </surrogates>
     </item>
     <item xml:id="Bod687">
         <loc>Oxford</loc>
@@ -1775,6 +1787,9 @@
         <loc>Oxford</loc>
         <repos>Bodleian Library</repos>
         <desc>Douce d.4 (SC 21981)</desc>
+        <surrogates>
+            <ref target="https://digital.bodleian.ox.ac.uk/inquire/p/fffd2407-0212-4da7-8ec0-d402feb5bf48"/>
+        </surrogates>
     </item>
     <item xml:id="BodDoug2">
         <loc>Oxford</loc>
@@ -2165,6 +2180,9 @@
         <desc>Hatton Donati 1 (SC 4138)</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 6670; <langGrid>Grid 469 236</langGrid> (<place country="England" county="Buckinghamshire">Bucks</place>).</lang>
+        <surrogates>
+            <ref target="https://digital.bodleian.ox.ac.uk/inquire/p/d0b84344-461e-4403-9de2-94e2d45f70d0"/>
+        </surrogates>
     </item>
     <!-- <item xml:id="BodHerD38">
         <loc>Oxford</loc>
@@ -2215,6 +2233,9 @@
         <lang>
             <biblio key="LAEME">LAEME</biblio> Index # 301; <langGrid>Grid 510 320</langGrid>
                 (<place town="Bourne">Bourne</place>, S <place country="England" county="Lincolnshire">Lincs</place>).</lang>
+        <surrogates>
+            <ref target="https://digital.bodleian.ox.ac.uk/objects/90a06f70-880a-4b5b-bd30-798710afff11/"/>
+        </surrogates>
     </item>
     <item xml:id="BodJunius56">
         <loc>Oxford</loc>
@@ -3057,6 +3078,9 @@
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.151 ('Language of <place country="England" county="Soke of Peterborough">Soke</place>': f. 9r-v); 1.151 (Norfolk: ff.
             44-51).</lang>
+        <surrogates>
+            <ref target="https://digital.bodleian.ox.ac.uk/objects/e587f7ee-c786-4659-8486-c104d5633fe9/"/>
+        </surrogates>
     </item>
     <item xml:id="BodRawD939">
         <loc>Oxford</loc>
@@ -3250,6 +3274,9 @@
         <desc>Rawlinson poet. 141 (SC 14635)</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 237; <langGrid>Grid 365 295</langGrid> (<place country="England" county="Shropshire">Salop</place>).</lang>
+        <surrogates>
+            <ref target="https://digital.bodleian.ox.ac.uk/inquire/p/43e6e8b8-36fa-4437-8af4-c43fde38c33c"/>
+        </surrogates>
     </item>
     <item xml:id="BodRawPoe143">
         <loc>Oxford</loc>
@@ -3305,6 +3332,9 @@
         <repos>Bodleian Library</repos>
         <desc>Rawlinson poet. 223 (SC 14714)</desc>
         <lang>Thames Estuary, with forms found in <place country="England" county="Kent">Kent</place> and <place country="England" county="Essex">Essex</place> (see <biblio key="Mosser2010"/> and <biblio key="Horobin2003"/>, pp. 162-3.)</lang>
+        <surrogates>
+            <ref target="https://digital.bodleian.ox.ac.uk/inquire/p/f1b65908-55fa-44f9-bd64-67014b2017ae"/>
+        </surrogates>
     </item>
     <item xml:id="BodRawPoe225">
         <loc>Oxford</loc>
@@ -3520,6 +3550,9 @@
         <loc>Oxford</loc>
         <repos>Balliol College</repos>
         <desc>354</desc>
+        <surrogates>
+            <ref target="http://image.ox.ac.uk/show?collection=balliol&amp;manuscript=ms354"/>
+        </surrogates>
     </item>
     <item xml:id="OxBal695h6">
         <loc>Oxford</loc>
@@ -3590,6 +3623,9 @@
         <loc>Oxford</loc>
         <repos>Corpus Christi College</repos>
         <desc>61</desc>
+        <surrogates>
+            <ref target="https://parker.stanford.edu/parker/catalog/dh967mz5785"/>
+        </surrogates>
     </item>
     <item xml:id="OxfCCC67">
         <loc>Oxford</loc>
@@ -3621,6 +3657,9 @@
         <desc>198</desc>
         <lang>
             <biblio key="Horobin2005"/> argue for a <place country="England" town="London">London</place> scribe copying a Western exemplar.</lang>
+        <surrogates>
+            <ref target="https://digital.bodleian.ox.ac.uk/objects/f5602959-7c12-4a87-b2a8-3f5f296a9fd3/"/>
+        </surrogates>
         <!--http://image.ox.ac.uk/show?collection=corpus&manuscript=ms198-->
     </item>
     <item xml:id="OxfCCC201">
@@ -3956,11 +3995,17 @@
         <desc>56</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.153 (<place country="England" county="Northern">NME</place>: ff. 543, 54r-v).</lang>
+        <surrogates>
+            <ref target="https://digital.bodleian.ox.ac.uk/objects/e5e7088d-4ca1-4551-ab78-7c809adb4fe8/"/>
+        </surrogates>
     </item>
     <item xml:id="OxfStJohn57">
         <loc>Oxford</loc>
         <repos>St John's College</repos>
         <desc>57</desc>
+        <surrogates>
+            <ref target="https://digital.bodleian.ox.ac.uk/objects/00cc1948-5b00-493d-8943-03ee5f79e6c7/"/>
+        </surrogates>
     </item>
     <item xml:id="OxfStJohn76">
         <loc>Oxford</loc>
@@ -3974,6 +4019,9 @@
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.153 (<place country="England" county="Shropshire">Salop</place>/<place country="England" county="Herefordshire">Herefords</place>,
                 <place country="England" county="Northern">NME</place>).</lang>
+        <surrogates>
+            <ref target="https://digital.bodleian.ox.ac.uk/objects/c1b12bd2-bb02-48c4-a2d9-b3202a7ae12b/"/>
+        </surrogates>
     </item>
     <item xml:id="OxfStJohn138">
         <loc>Oxford</loc>
@@ -4006,6 +4054,9 @@
         <loc>Oxford</loc>
         <repos>St John's College</repos>
         <desc>340 [<i>olim</i> Arch.A.50]</desc>
+        <surrogates>
+            <ref target="https://digital.bodleian.ox.ac.uk/objects/6da6bf76-e763-4bc6-975d-d32a274aa17a/"/>
+        </surrogates>
     </item>
     <item xml:id="OxfTri7">
         <loc>Oxford</loc>
@@ -5177,11 +5228,17 @@
         <loc>Cambridge UK</loc>
         <repos>Corpus Christi College</repos>
         <desc>7</desc>
+        <surrogates>
+            <ref target="https://parker.stanford.edu/parker/catalog/fm985xq3462"/>
+        </surrogates>
     </item>
     <item xml:id="CamCCC167">
         <loc>Cambridge UK</loc>
         <repos>Corpus Christi College</repos>
         <desc>167</desc>
+        <surrogates>
+            <ref target="https://parker.stanford.edu/parker/catalog/bj906vx3707"/>
+        </surrogates>
     </item>
     <item xml:id="CamCCC8">
         <loc>Cambridge UK</loc>
@@ -5310,11 +5367,17 @@
         <loc>Cambridge UK</loc>
         <repos>Corpus Christi College</repos>
         <desc>354</desc>
+        <surrogates>
+            <ref target="https://parker.stanford.edu/parker/catalog/vr711fc2241"/>
+        </surrogates>
     </item>
     <item xml:id="CamCCC357">
         <loc>Cambridge UK</loc>
         <repos>Corpus Christi College</repos>
         <desc>357</desc>
+        <surrogates>
+            <ref target="https://parker.stanford.edu/parker/catalog/dd998pq6752"/>
+        </surrogates>
     </item>
     <item xml:id="CamCCC369">
         <loc>Cambridge UK</loc>
@@ -6343,6 +6406,9 @@
         <loc>Cambridge UK</loc>
         <repos>Trinity College</repos>
         <desc>R.11.2 (formerly MS Fragments, Box 2)</desc>
+        <surrogates>
+            <ref target="https://mss-cat.trin.cam.ac.uk/Manuscript/R.11.2"/>
+        </surrogates>
     </item>
     <item xml:id="CamTCC61">
         <loc>Cambridge UK</loc>
@@ -6358,6 +6424,9 @@
         <loc>Cambridge UK</loc>
         <repos>Trinity College</repos>
         <desc>B.15.39 (374)</desc>
+        <surrogates>
+            <ref target="https://mss-cat.trin.cam.ac.uk/Manuscript/B.15.39"/>
+        </surrogates>
     </item>
     <item xml:id="CamTCC223">
         <loc>Cambridge UK</loc>
@@ -6380,6 +6449,9 @@
         <loc>Cambridge UK</loc>
         <repos>Trinity College</repos>
         <desc>B.14.15 (301)</desc>
+        <surrogates>
+            <ref target="https://mss-cat.trin.cam.ac.uk/Manuscript/B.14.15"/>
+        </surrogates>
     </item>
     <item xml:id="CamTCC305">
         <loc>Cambridge UK</loc>
@@ -6387,6 +6459,9 @@
         <desc>B.14.19 (305)</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 8420; <langGrid>Grid 632 280</langGrid> (<place country="England" county="Suffolk">Suffolk</place>).</lang>
+        <surrogates>
+            <ref target="https://mss-cat.trin.cam.ac.uk/Manuscript/B.14.19"/>
+        </surrogates>
     </item>
     <item xml:id="CamTCC322">
         <loc>Cambridge UK</loc>
@@ -6408,6 +6483,9 @@
             Index # 247; <langGrid>Grid 371 237</langGrid> (Entry 2, E <place country="England" county="Herefordshire">Herefords</place>: Hand B); Index # 248; <langGrid>Grid 360
                 240</langGrid> (Entry 3, Central <place country="England" county="Herefordshire">Herefords</place>: Hand C); Index # 249; <langGrid>Grid 365 232</langGrid> (Entry
             4, SE <place country="England" county="Herefordshire">Herefords</place>: Hand D).</lang>
+        <surrogates>
+            <ref target="https://mss-cat.trin.cam.ac.uk/manuscripts/uv/view.php?n=B.14.39-40&amp;n=B.14.39-40#?c=0&amp;m=0&amp;s=0&amp;cv=0&amp;xywh=-1504%2C-275%2C6840%2C5486"/>
+        </surrogates>
     </item>
     <item xml:id="CamTCC324">
         <loc>Cambridge UK</loc>
@@ -6427,6 +6505,9 @@
             language of hand C probably belongs in W <place country="England" county="Berkshire">Berks</place>']); Index # 1300; <langGrid>Grid 571 267</langGrid> (Entry 3, W
                 <place country="England" county="Suffolk">Suffolk</place>: Hand B); Index # 63;
                 <langGrid>Grid 427 185</langGrid> (Entry 4, W <place country="England" county="Berkshire">Berks</place>: Hand C).</lang>
+        <surrogates>
+            <ref target="https://mss-cat.trin.cam.ac.uk/Manuscript/B.14.52"/>
+        </surrogates>
     </item>
     <!-- <item xml:id="CamTCC337">
         <loc>Cambridge UK</loc>
@@ -6550,6 +6631,9 @@
         <loc>Cambridge UK</loc>
         <repos>Trinity College</repos>
         <desc>R.3.19 (599)</desc>
+        <surrogates>
+            <ref target="https://mss-cat.trin.cam.ac.uk/Manuscript/R.3.19"/>
+        </surrogates>
     </item>
     <item xml:id="CamTCC600">
         <loc>Cambridge UK</loc>
@@ -6579,6 +6663,9 @@
         <desc>R.3.25 (605)</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 5320; <langGrid>Grid 391 141</langGrid> (<place country="England" county="Wiltshire">Wilts</place>).</lang>
+        <surrogates>
+            <ref target="https://mss-cat.trin.cam.ac.uk/Manuscript/R.3.25"/>
+        </surrogates>
     </item>
     <item xml:id="CamTCC652">
         <loc>Cambridge UK</loc>
@@ -6596,6 +6683,9 @@
         <loc>Cambridge UK</loc>
         <repos>Trinity College</repos>
         <desc>R.5.43 (731)</desc>
+        <surrogates>
+            <ref target="https://mss-cat.trin.cam.ac.uk/Manuscript/R.5.43"/>
+        </surrogates>
     </item>
     <item xml:id="CamTCC759">
         <loc>Cambridge UK</loc>
@@ -6603,6 +6693,9 @@
         <desc>R.7.23 (759)</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.65 (<place country="England" county="Northern">NME</place>).</lang>
+        <surrogates>
+            <ref target="https://mss-cat.trin.cam.ac.uk/Manuscript/R.7.23"/>
+        </surrogates>
     </item>
     <item xml:id="CamTCC899">
         <loc>Cambridge UK</loc>
@@ -6622,6 +6715,9 @@
         <desc>R.14.32 (905)</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 6300; <langGrid>Grid 559 200</langGrid> (<place country="England" county="Essex">Essex</place>).</lang>
+        <surrogates>
+            <ref target="https://mss-cat.trin.cam.ac.uk/Manuscript/R.14.32"/>
+        </surrogates>
     </item>
     <item xml:id="CamTCC910">
         <loc>Cambridge UK</loc>
@@ -6664,6 +6760,9 @@
         <loc>Cambridge UK</loc>
         <repos>Trinity College</repos>
         <desc>O.1.13 (1037)</desc>
+        <surrogates>
+            <ref target="https://mss-cat.trin.cam.ac.uk/Manuscript/O.1.13"/>
+        </surrogates>
     </item>
     <item xml:id="CamTCC1041">
         <loc>Cambridge UK</loc>
@@ -6789,6 +6888,9 @@
         <loc>Cambridge UK</loc>
         <repos>Trinity College</repos>
         <desc>O.9.1 (1413)</desc>
+        <surrogates>
+            <ref target="https://mss-cat.trin.cam.ac.uk/Manuscript/O.9.1"/>
+        </surrogates>
     </item>
     <item xml:id="CamTCC1421">
         <loc>Cambridge UK</loc>
@@ -6829,6 +6931,9 @@
         <loc>Cambridge UK</loc>
         <repos>Trinity College</repos>
         <desc>O.10.34 (1486)</desc>
+        <surrogates>
+            <ref target="https://mss-cat.trin.cam.ac.uk/Manuscript/O.10.34"/>
+        </surrogates>
     </item>
     <item xml:id="CamTCCfrag">
         <loc>Cambridge UK</loc>
@@ -7287,6 +7392,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Addit. 22283 [Simeon]</desc>
+        <surrogates>
+            <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_22283"/>
+        </surrogates>
     </item>
     <item xml:id="BLAdd22504">
         <loc>London</loc>
@@ -7548,6 +7656,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Addit. 31922</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=2&amp;ref=Add_MS_31922"/>
+        </surrogates>
     </item>
     <item xml:id="BLAdd32006">
         <loc>London</loc>
@@ -8036,6 +8147,9 @@
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 5890; <langGrid>Grid 615 158</langGrid> (<place country="England" county="Kent">Kent</place>); <biblio key="LAEME">LAEME</biblio>
             Index # 291; <langGrid>Grid 615 158</langGrid> (<place town="Canterbury">Canterbury</place>, <place country="England" county="Kent">Kent</place>).</lang>
+        <surrogates>
+            <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Arundel_MS_57"/>
+        </surrogates>
     </item>
     <item xml:id="BLAru59">
         <loc>London</loc>
@@ -8107,6 +8221,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Arundel 285</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Arundel_MS_285"/>
+        </surrogates>
     </item>
     <item xml:id="BLAru286">
         <loc>London</loc>
@@ -8214,6 +8331,9 @@
             ('text language not placed': Part II, Entry 7); Index # 243 ('text
             language not placed': Part II, Entry 8); Index # 244 ('text language not
             placed': Part II, Entry 9).</lang>
+        <surrogates>
+            <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Cotton_MS_Caligula_A_IX"/>
+        </surrogates>
     </item>
     <item xml:id="BLCottCalAXI">
         <loc>London</loc>
@@ -8415,6 +8535,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Cotton Julius D.IX</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Cotton_MS_Julius_D_IX"/>
+        </surrogates>
     </item>
     <item xml:id="BLCottJulEIV">
         <loc>London</loc>
@@ -8855,6 +8978,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Egerton 2711</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Egerton_MS_2711"/>
+        </surrogates>
     </item>
     <item xml:id="BLEge2726">
         <loc>London</loc>
@@ -9159,6 +9285,9 @@
         <desc>Harley 525</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 8190; <langGrid>Grid 503 229</langGrid> (<place country="England" county="Bedfordshire">Beds</place>).</lang>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_525"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar533">
         <loc>London</loc>
@@ -9201,6 +9330,9 @@
         <desc>Harley 565</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 6600; <langGrid>Grid 520 213</langGrid> (<place country="England" county="Hertfordshire">Herts</place>).</lang>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_565"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar614">
         <loc>London</loc>
@@ -9243,6 +9375,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Harley 682</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_682"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar712">
         <loc>London</loc>
@@ -9301,6 +9436,9 @@
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.110 ('Language appears to be of <place country="England" county="Staffordshire">Staffs</place>, but mixed': ff.
             21v-23v).</lang>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_941"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar957">
         <loc>London</loc>
@@ -9316,6 +9454,9 @@
         <lang>
             <biblio key="LAEME">LAEME</biblio> Index # 144; <langGrid>Grid 472 172</langGrid>
                 (<place town="Reading">Reading</place>, <place country="England" county="Berkshire">Berks</place>).</lang>
+        <surrogates>
+            <ref target="http://www.soton.ac.uk/~wpwt/harl978/sumerms.htm"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar984">
         <loc>London</loc>
@@ -9338,6 +9479,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Harley 1121</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_1121"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar1197">
         <loc>London</loc>
@@ -9368,6 +9512,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Harley 1245</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_1245"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar1251">
         <loc>London</loc>
@@ -9463,6 +9610,9 @@
         <desc>Harley 1706</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 4273; <langGrid>Grid 454 261</langGrid> (<place country="England" county="Northamptonshire">Northants</place>: ff. 106-214v).</lang>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_1706"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar1717">
         <loc>London</loc>
@@ -9484,6 +9634,9 @@
         <desc>Harley 1735</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 4570; <langGrid>Grid 576 294</langGrid> (<place country="England" county="Norfolk">Norfolk</place>).</lang>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_1735"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar1758">
         <loc>London</loc>
@@ -9501,6 +9654,9 @@
         <desc>Harley 1770</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 191; <langGrid>Grid 387 456</langGrid> (<place country="England" county="Yorkshire, West Riding">WRY</place>).</lang>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_1770"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar1900">
         <loc>London</loc>
@@ -9622,6 +9778,9 @@
         <desc>Harley 2277</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 5130; <langGrid>Grid 315 131</langGrid> (<place country="England" county="Somerset">Somerset</place>).</lang>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_2277"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar2278">
         <loc>London</loc>
@@ -9629,6 +9788,9 @@
         <desc>Harley 2278</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 8470; <langGrid>Grid 585 264</langGrid> (<place country="England" county="Suffolk">Suffolk</place>).</lang>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_2278"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar2279">
         <loc>London</loc>
@@ -9643,6 +9805,9 @@
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.111 ('Language mainly standard, but with a
             few possibly northern (or <place country="England" county="Lincolnshire">Lincs</place>)
             features.').</lang>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_2280"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar2281">
         <loc>London</loc>
@@ -9662,6 +9827,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Harley 2320</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_2320"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar2321">
         <loc>London</loc>
@@ -9679,6 +9847,9 @@
         <desc>Harley 2338</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 6130; <langGrid>Grid 612 228</langGrid> (<place country="England" county="Essex">Essex</place>).</lang>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_2338"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar2339">
         <loc>London</loc>
@@ -9701,6 +9872,9 @@
         <desc>Harley 2376</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 7320; <langGrid>Grid 362 225</langGrid> (<place country="England" county="Herefordshire">Herefords</place>).</lang>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_2376"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar2377">
         <loc>London</loc>
@@ -9769,6 +9943,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Harley 2392</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_2392"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar2394">
         <loc>London</loc>
@@ -9861,6 +10038,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Harley 2946</desc>
+        <surrogates>
+            <ref target="http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=4009"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar3038">
         <loc>London</loc>
@@ -9951,6 +10131,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Harley 3776</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_3776"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar3810">
         <loc>London</loc>
@@ -9971,6 +10154,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Harley 3860</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_3860"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar3862">
         <loc>London</loc>
@@ -9986,6 +10172,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Harley 3869</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_3869"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar3909">
         <loc>London</loc>
@@ -10001,6 +10190,9 @@
         <desc>Harley 3943</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 6030; <langGrid>Grid 578 190</langGrid> (<place country="England" county="Essex">Essex</place>: ff. 1-67).</lang>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_3943"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar3952">
         <loc>London</loc>
@@ -10013,6 +10205,9 @@
         <desc>Harley 3954</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 4103; <langGrid>Grid 583 305</langGrid> (<place country="England" county="Norfolk">Norfolk</place>).</lang>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_3954"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar4011">
         <loc>London</loc>
@@ -10114,6 +10309,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Harley 4912</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_4912"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar4971">
         <loc>London</loc>
@@ -10144,6 +10342,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Harley 5272</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Harley_MS_5272"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar5312">
         <loc>London</loc>
@@ -10335,6 +10536,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Lansdowne 204</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/Viewer.aspx?ref=lansdowne_ms_204"/>
+        </surrogates>
     </item>
     <item xml:id="BLLan205">
         <loc>London</loc>
@@ -10435,6 +10639,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Lansdowne 762</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/Viewer.aspx?ref=lansdowne_ms_762"/>
+        </surrogates>
     </item>
     <item xml:id="BLLan763">
         <loc>London</loc>
@@ -10655,6 +10862,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Royal 12 C.XII</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Royal_MS_12_C_XII"/>
+        </surrogates>
     </item>
     <item xml:id="BLRoy12Cxiv">
         <loc>London</loc>
@@ -10681,6 +10891,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Royal 12 F.XIII</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Royal_MS_12_F_XIII"/>
+        </surrogates>
     </item>
     <item xml:id="BLRoy13Di">
         <loc>London</loc>
@@ -10708,6 +10921,9 @@
         <desc>Royal 17 A.I</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 7550; <langGrid>Grid 369 277</langGrid> (<place country="England" county="Shropshire">Salop</place>).</lang>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Royal_MS_17_A_I"/>
+        </surrogates>
     </item>
     <item xml:id="BLRoy17Aiii">
         <loc>London</loc>
@@ -10810,6 +11026,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Royal 17 D.VI</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Royal_MS_17_D_VI"/>
+        </surrogates>
     </item>
     <item xml:id="BLRoy17Dxv">
         <loc>London</loc>
@@ -10922,6 +11141,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Royal 18 D.II</desc>
+        <surrogates>
+            <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Royal_MS_18_D_II"/>
+        </surrogates>
     </item>
     <item xml:id="BLRoy18Div">
         <loc>London</loc>
@@ -11887,6 +12109,9 @@
         <loc>Aberystwyth</loc>
         <repos>National Library of Wales</repos>
         <desc>Brogyntyn ii.1 [<i>olim</i> Porkington 10]</desc>
+        <surrogates>
+            <ref target="https://viewer.library.wales/4398349"/>
+        </surrogates>
     </item>
     <item xml:id="NLWPork20">
         <loc>Aberystwyth</loc>
@@ -13420,6 +13645,9 @@
         <desc>260</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 283 (<place country="England" county="Northern">NME</place>).</lang>
+        <surrogates>
+            <ref target="https://images.lambethpalacelibrary.org.uk/luna/servlet/detail/LPLIBLPL~17~17~180816~133236?sort=creator%2Ctype%2Cdate%2Ctitle&amp;qvq=q:MS%20260;sort:creator%2Ctype%2Cdate%2Ctitle;lc:LPLIBLPL~17~17&amp;mi=4&amp;trs=12"/>
+        </surrogates>
     </item>
     <item xml:id="Lam265">
         <loc>London</loc>
@@ -13430,6 +13658,9 @@
         <loc>London</loc>
         <repos>Lambeth Palace Library</repos>
         <desc>306</desc>
+        <surrogates>
+            <ref target="https://images.lambethpalacelibrary.org.uk/luna/servlet/detail/LPLIBLPL%7E17%7E17%7E178964%7E124985?sort=q:MS306"/>
+        </surrogates>
     </item>
     <item xml:id="Lam331">
         <loc>London</loc>
@@ -13908,6 +14139,9 @@
         <desc>225</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 765; <langGrid>Grid 399 628</langGrid> (<place country="England" county="Northumberland">Northumberland</place>).</lang>
+        <surrogates>
+            <ref target="https://wellcomecollection.org/search/works?query=MS.225"/>
+        </surrogates>
     </item>
     <item xml:id="Wellcome404">
         <loc>London</loc>
@@ -13930,6 +14164,9 @@
             Hand A, f. 1); 1.137 (<place country="Ireland">Ireland</place>, <place county="Pale">Pale</place>: Hand B, ff. 1v-3v, 4v-7, 8-13v, 14-20v); 1.137 (<place country="Ireland">Ireland</place>, <place county="Pale">Pale</place>: Hand D, ff.
             7v, 13v); 1.137 (<place country="Ireland">Ireland</place>, <place county="Pale">Pale</place>: Hand E, f. 8); 1.137 (<place country="Ireland">Ireland</place>: Hand
             F, f. 23r-v).</lang>
+        <surrogates>
+            <ref target="https://wellcomecollection.org/search/works?query=MS.406"/>
+        </surrogates>
     </item>
     <item xml:id="Wellcome411">
         <loc>London</loc>
@@ -13947,6 +14184,9 @@
         <desc>542 [<i>olim</i> Payne]</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.137 (Norfolk).</lang>
+        <surrogates>
+            <ref target="https://wellcomecollection.org/search/works?query=MS.542"/>
+        </surrogates>
     </item>
     <item xml:id="Wellcome577">
         <loc>London</loc>
@@ -13972,16 +14212,25 @@
         <loc>London</loc>
         <repos>Wellcome Collection Library</repos>
         <desc>692</desc>
+        <surrogates>
+            <ref target="https://wellcomecollection.org/works/b38k86ch"/>
+        </surrogates>
     </item>
     <item xml:id="Wellcome693">
         <loc>London</loc>
         <repos>Wellcome Collection Library</repos>
         <desc>693</desc>
+        <surrogates>
+            <ref target="https://wellcomecollection.org/works/m4h6yewy"/>
+        </surrogates>
     </item>
     <item xml:id="Wellcome5650">
         <loc>London</loc>
         <repos>Wellcome Collection Library</repos>
         <desc>5650</desc>
+        <surrogates>
+            <ref target="https://wellcomecollection.org/search/works?query=MS.5650"/>
+        </surrogates>
     </item>
     <item xml:id="WestmAb20">
         <loc>London</loc>
@@ -14164,11 +14413,17 @@
         <loc>Manchester</loc>
         <repos>Chetham's Library</repos>
         <desc>6690 [Mun.A.7.1]</desc>
+        <surrogates>
+            <ref target="https://luna.manchester.ac.uk/luna/servlet/view/search?search=SUBMIT&amp;cat=0&amp;q=A.7.1"/>
+        </surrogates>
     </item>
     <item xml:id="Chetham6709">
         <loc>Manchester</loc>
         <repos>Chetham's Library</repos>
         <desc>6709 [Mun. A.4.104]</desc>
+        <surrogates>
+            <ref target="https://luna.manchester.ac.uk/luna/servlet/view/search?search=SUBMIT&amp;cat=0&amp;q=A.4.104"/>
+        </surrogates>
     </item>
     <item xml:id="Chetham8008">
         <loc>Manchester</loc>
@@ -14182,6 +14437,9 @@
         <loc>Manchester</loc>
         <repos>Chetham's Library</repos>
         <desc>8009 [Mun. A.6.31]</desc>
+        <surrogates>
+            <ref target="https://luna.manchester.ac.uk/luna/servlet/view/search?search=SUBMIT&amp;cat=0&amp;q=A.6.31"/>
+        </surrogates>
     </item>
     <item xml:id="Chetham11379">
         <loc>Manchester</loc>
@@ -14190,6 +14448,9 @@
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> (part of) LP 7051; <langGrid>Grid 369
                 199</langGrid> (<place country="England" county="Gloucestershire">Gloucs</place>).</lang>
+        <surrogates>
+            <ref target="https://luna.manchester.ac.uk/luna/servlet/view/search?search=SUBMIT&amp;cat=0&amp;q=A.6.90"/>
+        </surrogates>
     </item>
     <item xml:id="RylandsEng1">
         <loc>Manchester</loc>
@@ -14792,6 +15053,9 @@
                 <i>prior</i> Philadelphia, Rosenbach Museum and Library 159, <i>prior</i> Phillipps
             6750]</desc>
         <lang>The spellings are similar to those of <mss key="NLWPen393"/> and <mss key="HunEL26C9"/> with some additional evidence of the influence of Type IV <place country="England" town="London">London</place> English (see <biblio key="Mosser2010"/>)</lang>
+        <surrogates>
+            <ref target="https://norman.hrc.utexas.edu/mnemGal/46/HRC_46.pdf"/>
+        </surrogates>
     </item>
     <item xml:id="Austin143">
         <loc>Austin</loc>
@@ -14803,6 +15067,9 @@
             the influence of Type IV (Chancery Standard)' while Scribe B has a layer of
             spellings indicative of <place country="England" county="East Anglia">East
                 Anglia</place>.</lang>
+        <surrogates>
+            <ref target="https://norman.hrc.utexas.edu/mnemGal/143/HRC_143.pdf"/>
+        </surrogates>
     </item>
     <item xml:id="Berkeley">
         <loc>Berkeley</loc>
@@ -14819,6 +15086,9 @@
         <loc>Bethesda, MD</loc>
         <repos>National Library of Medicine</repos>
         <desc>MS E 4 [formerly 514; <i>olim</i> MS. 4]</desc>
+        <surrogates>
+            <ref target="https://collections.nlm.nih.gov/bookviewer?PID=nlm:nlmuid-100899906-bk"/>
+        </surrogates>
     </item>
     <item xml:id="BosHistSoc">
         <loc>Boston, MA</loc>
@@ -14882,6 +15152,9 @@
         <loc>Cambridge MA</loc>
         <repos>Harvard University, Houghton Library</repos>
         <desc>Eng. 752 [<i>olim</i> *27282. 67.10; <i>prior</i>Ashburnham 131]</desc>
+        <surrogates>
+            <ref target="http://nrs.harvard.edu/urn-3:FHCL.HOUGH:1192991"/>
+        </surrogates>
     </item>
     <item xml:id="HarEng766">
         <loc>Cambridge MA</loc>
@@ -15136,6 +15409,9 @@
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>661 [<i>olim</i> Mostyn Hall 258]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/9998988"/>
+        </surrogates>
     </item>
     <item xml:id="YaleBeiMel41">
         <loc>New Haven</loc>
@@ -16150,6 +16426,9 @@
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 6230; <langGrid>Grid 554 215</langGrid> (<place country="England" county="Essex">Essex</place>: Hand A, ff. 1-40); LP 6210;
                 <langGrid>Grid 546 221</langGrid> (<place country="England" county="Essex">Essex</place>: Hand B, f. 41 seq.); LP 458 (<place country="England" county="Northern">NME</place>: Hand C, ff. 64-78).</lang>
+        <surrogates>
+            <ref target="https://lccn.loc.gov/2013659153"/>
+        </surrogates>
     </item>
     <item xml:id="Wellesley8">
         <loc>Wellesley, MA</loc>
@@ -17004,6 +17283,9 @@
             manuscript has associations with <place country="England" county="Kent">Kent</place>,
             the language points to <place country="England" county="East Anglia">East
             Anglia</place>.</lang>
+        <surrogates>
+            <ref target="http://www.e-codices.unifr.ch/en/cb/0048"/>
+        </surrogates>
         <!--http://www.e-codices.unifr.ch/en/cb/0048-->
     </item>
     <item xml:id="Bodmer110">
@@ -17849,6 +18131,9 @@
         <loc>London</loc>
         <repos>British Library</repos>
         <desc>Harley 24</desc>
+        <surrogates>
+            <ref target="https://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_24"/>
+        </surrogates>
     </item>
     <item xml:id="BLHar53">
         <loc>London</loc>
@@ -17989,6 +18274,9 @@
         <loc>Manchester</loc>
         <repos>Chetham's Library</repos>
         <desc>MS E.6.10 (4)]</desc>
+        <surrogates>
+            <ref target="https://luna.manchester.ac.uk/luna/servlet/view/search?search=SUBMIT&amp;cat=0&amp;q=Armburgh+Papers"/>
+        </surrogates>
     </item>
     <item xml:id="YaleBei288">
         <loc>New Haven</loc>
@@ -18005,6 +18293,9 @@
         <repos>Yale University, Beinecke Library</repos>
         <desc>
                1222 [<i>olim</i> Audley End (Sotheby's 8 July 1970, lot 98)]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16655094"/>
+        </surrogates>
     </item>
     <item xml:id="YaleBeiMel46">
         <loc>New Haven</loc>
@@ -18015,16 +18306,25 @@
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 4 [<i>olim</i> Phillipps 8820]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16371200"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak6">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 6 [<i>olim</i> Helmingham Hall LJ. I. 10]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16371202"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak12">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 12 [Dawsons of Pall Mall, Catalogue 103, item 3, 1970]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16371207"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak15">
         <loc>New Haven</loc>
@@ -18032,16 +18332,25 @@
         <desc>Takamiya 15 [Sotheby's, 10 Dec. 1969, Lot 43; acquired by Takamiya in 1976]</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 608 (<place country="England" county="Yorkshire, West Riding">WRY</place>).</lang>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16037447"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak17">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 17</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16371210"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak18">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 18</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16371211"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak22">
         <loc>New Haven</loc>
@@ -18049,11 +18358,17 @@
         <desc>Takamiya 22 [<i>olim</i> Sion College, Arc. L 40 2/E 23]</desc>
         <lang>
             <biblio key="Horobin2003"/>: <place country="England" county="Warwickshire">Warwickshire</place> (p. 160).</lang>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16371215"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak23">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 23 [<i>olim</i> Sion College, Arc. L 40 2/E 76]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16037448"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak24">
         <loc>New Haven</loc>
@@ -18061,17 +18376,26 @@
         <desc>Takamiya 24 [<i>olim</i> Chatsworth, Duke of Devonshire]</desc>
         <lang>See <biblio key="Mosser2010"/>, which argues that southern <place country="England" county="Kent">Kent</place> and northern <place country="England" county="Essex">Essex</place> (Thames estuary) together accomodate the forms typical of this and
                other manuscripts by the same scribe(s) ('Hooked-<i>g</i>').</lang>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16147032"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak29">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 29</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16371217"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak30">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 30 [<i>olim</i> John E. du Pont; <i>olim</i> John Hayward, sold Sotheby's 11
                July 1966, lot 225]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16371218"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak32">
         <loc>New Haven</loc>
@@ -18081,22 +18405,34 @@
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 5970; <langGrid>Grid 552 167</langGrid> (<place country="England" county="Kent">Kent</place>). But cf. <biblio key="Mosser2004">Mosser 2004</biblio>, which argues that the same scribe copied Cambridge University
                Library MS Gg.I.34 (Part 3), of <i>Mandeville's Travels</i>, which <biblio key="eLALME"/> includes as LP 619 (<place country="England" county="Ely">Ely</place>). Mosser concludes that <place country="England" county="Norfolk">Norfolk</place> or <place country="England" county="Suffolk">Suffolk</place> are
                more probable locations.</lang>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/14705200"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak33">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 33 [Christie's, 8 November 1978, Lot 198]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16371220"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak35">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 35 [Sotheby's, 5 December, lot 40]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/15482966"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak40">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 40 [<i>olim</i> Mostyn, <i>olim</i> Arthur Houghton 9; sold Christie's, 14 June
                1979, lot 295]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16371223"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak46">
         <loc>New Haven</loc>
@@ -18104,21 +18440,33 @@
         <desc>Takamiya 46</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.161 ('Language is of S <place country="England" county="Lincolnshire">Lincs</place>').</lang>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16156709"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak51">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 51 [Sotheby's, 24 June 1980, lot 33]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16371229"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak52">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 52</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16371230"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak54">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 54 [<i>olim</i> Weld, sold Sotheby's, lot 57, June 24, 1980]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16154681"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak56">
         <loc>New Haven</loc>
@@ -18129,65 +18477,101 @@
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 61 [Sotheby's, 10 November 1952, <i>olim</i> Lawrence Witten]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16371237"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak64">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 64 [<i>olim</i> Bradfer-Lawrence 7; <i>olim</i> J. P. R. Lyell]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16371239"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak65">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 65 [<i>olim</i> Goldschmidt Cat. 71, 1943, item 1, <i>olim</i> Greg, <i>olim</i>
                Bradfer-Lawrence 8, <i>olim</i> Huth 153]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16371240"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak66">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>66 [<i>olim</i> Bradfer-Lawrence 10]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/15473172"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak67">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 67 [<i>olim</i> Ingilby (Sotheby's, 21 October 1920, lot 30); <i>olim</i>
                Bradfer-Lawrence 11]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16154682"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak78">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 78 [Quaritch Sale Cat. 1088, Lot 88?]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16371250"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak79">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 79 [<i>olim</i> Plimpton; <i>olim</i> Sotheby's Sale 6 Dec. 1983, lot 20]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16371251"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak94">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>94 [<i>olim</i> Astor, sold Sotheby's 21 June 1988, lot 57]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16371265"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak96">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 96 [<i>olim</i> Beeleigh Abbey (Foyle)]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/15605268"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak97">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 97 [<i>olim</i> Foyle's sale at Christie's, 11 July 2000, lot 76]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16156712"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak98">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 98 [<i>olim</i> Quaritch, Cat. 1270 (2000), item 55; <i>prior</i> Mertoun, Duke of
                Sutherland]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/16037446"/>
+        </surrogates>
     </item>
     <item xml:id="TokyoTak112">
         <loc>New Haven</loc>
         <repos>Yale University, Beinecke Library</repos>
         <desc>Takamiya 112 [<i>olim</i>  Quaritch Sale, 1931, item 82; Cat. 609, 1943, Lot 500; then Witten Cat., 1983, no.
                22]</desc>
+        <surrogates>
+            <ref target="https://collections.library.yale.edu/catalog/15504633"/>
+        </surrogates>
     </item>
     <item xml:id="YaleMed47">
         <loc>New Haven</loc>
