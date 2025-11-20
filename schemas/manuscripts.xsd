@@ -60,6 +60,17 @@
 		  </xs:choice>
                 </xs:complexType>
 	      </xs:element>
+              <xs:element name="surrogates" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ref" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="target" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
             </xs:sequence>
             <xs:attribute ref="xml:id" use="required"/>
 	  </xs:complexType>
