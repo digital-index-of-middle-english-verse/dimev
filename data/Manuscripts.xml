@@ -161,8 +161,7 @@
     <item xml:id="BodArcSelC813">
         <loc>Oxford</loc>
         <repos>Bodleian Library</repos>
-        <desc>Arch. Selden C. 813<!-- (SC 3340)-->
-        </desc>
+        <desc>Arch. Selden C. 813 (SC 12653)</desc>
     </item>
     <item xml:id="BodSelSup23">
         <loc>Oxford</loc>
@@ -1031,7 +1030,7 @@
     <item xml:id="Bod678">
         <loc>Oxford</loc>
         <repos>Bodleian Library</repos>
-        <desc>Bodley 678 (SC 2501<!--Check-->)</desc>
+        <desc>Bodley 678 (SC 2595)</desc>
     </item>
     <item xml:id="Bod686">
         <loc>Oxford</loc>
@@ -1527,8 +1526,7 @@
     <item xml:id="BodDou88">
         <loc>Oxford</loc>
         <repos>Bodleian Library</repos>
-        <desc>Douce 88<!-- (SC )-->
-        </desc>
+        <desc>Douce 88 (SC 21662)</desc>
     </item>
     <item xml:id="BodDou95">
         <loc>Oxford</loc>
@@ -2154,11 +2152,6 @@
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.149 (<place country="England" county="Lincolnshire">Lincs</place>).</lang>
     </item>
-    <!--Now Hatton 2<item xml:id="BodHat105">
-        <loc>Oxford</loc>
-        <repos>Bodleian Library</repos>
-        <desc>Hatton 105 (SC 6943)</desc>
-    </item>-->
     <item xml:id="BodHat106">
         <loc>Oxford</loc>
         <repos>Bodleian Library</repos>
@@ -2184,11 +2177,6 @@
             <ref target="https://digital.bodleian.ox.ac.uk/inquire/p/d0b84344-461e-4403-9de2-94e2d45f70d0"/>
         </surrogates>
     </item>
-    <!-- <item xml:id="BodHerD38">
-        <loc>Oxford</loc>
-        <repos>Bodleian Library</repos>
-        <desc>Hearne&#8217;s diaries 38 [<i>olim</i> Rawlinson K.38 (SC 15161)]</desc>
-    </item>-->
     <item xml:id="BodHerD104">
         <loc>Oxford</loc>
         <repos>Bodleian Library</repos>
@@ -2250,8 +2238,7 @@
     <item xml:id="BodLatLitb14">
         <loc>Oxford</loc>
         <repos>Bodleian Library</repos>
-        <desc>Bodl. Lat. liturg. b.14<!--need SC# (SC 32942)-->
-        </desc>
+        <desc>Lat. liturg. b.14</desc>
     </item>
     <item xml:id="BodLatLitE10">
         <loc>Oxford</loc>
@@ -2361,8 +2348,7 @@
     <item xml:id="BodLauMis112">
         <loc>Oxford</loc>
         <repos>Bodleian Library</repos>
-        <desc>Laud misc. 112 <!--need SC number(SC ?)-->
-        </desc>
+        <desc>Laud misc. 112 (SC 1573)</desc>
     </item>
     <item xml:id="BodLauMis165">
         <loc>Oxford</loc>
@@ -2461,8 +2447,7 @@
     <item xml:id="BodLauMis553">
         <loc>Oxford</loc>
         <repos>Bodleian Library</repos>
-        <desc>Laud misc. 553<!-- (SC ????)-->
-        </desc>
+        <desc>Laud misc. 553 (SC 1118)</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 7310; <langGrid>Grid 359 221</langGrid> (<place country="England" county="Herfordshire">Herfs</place>: Hand C, ff. 31-37 41v-42v,
             45-63, 69-72v); LP 6980; <langGrid>Grid 393 198</langGrid> (<place country="England" county="Gloucestershire">Gloucs</place>: Hand D, ff. 30v, 38-41, 43-44v, 63v-68,
@@ -2577,8 +2562,7 @@
     <item xml:id="BodLauMis734">
         <loc>Oxford</loc>
         <repos>Bodleian Library</repos>
-        <desc>Laud misc. 734<!--wrong SC (SC 1234)-->
-        </desc>
+        <desc>Laud misc. 734 (SC 854)</desc>
     </item>
     <item xml:id="BodLauMis735">
         <loc>Oxford</loc>
@@ -3097,11 +3081,6 @@
         <repos>Bodleian Library</repos>
         <desc>Rawlinson D.1062 (SC 13814)</desc>
     </item>
-    <!-- <item xml:id="BodRawF38">
-        <loc>Oxford</loc>
-        <repos>Bodleian Library</repos>
-        <desc>Rawlinson F.38 (SC 15563)</desc>
-    </item>-->
     <item xml:id="BodRawF145">
         <loc>Oxford</loc>
         <repos>Bodleian Library</repos>
@@ -3224,7 +3203,7 @@
     <item xml:id="BodRawPoe38">
         <loc>Oxford</loc>
         <repos>Bodleian Library</repos>
-        <desc>Rawlinson poet. 38 (SC 15563<!--Confirm SC number-->)</desc>
+        <desc>Rawlinson poet. 38 (SC 15563)</desc>
     </item>
     <item xml:id="BodRawPoe118">
         <loc>Oxford</loc>
@@ -3314,6 +3293,7 @@
         <repos>Bodleian Library</repos>
         <desc>Rawlinson poet. 172 <!--need SC number(SC ??)-->
         </desc>
+	<!-- https://celm.folger.edu/repositories/bodleian-rawlinson-150.html -->
     </item>
     <item xml:id="BodRawPoe175">
         <loc>Oxford</loc>
@@ -3660,7 +3640,6 @@
         <surrogates>
             <ref target="https://digital.bodleian.ox.ac.uk/objects/f5602959-7c12-4a87-b2a8-3f5f296a9fd3/"/>
         </surrogates>
-        <!--http://image.ox.ac.uk/show?collection=corpus&manuscript=ms198-->
     </item>
     <item xml:id="OxfCCC201">
         <loc>Oxford</loc>
@@ -5263,11 +5242,6 @@
         <repos>Corpus Christi College</repos>
         <desc>31</desc>
     </item>
-    <!--<item xml:id="CamCCC59">
-        <loc>Cambridge UK</loc>
-        <repos>Corpus Christi College</repos>
-        <desc>59</desc>
-    </item>-->
     <item xml:id="CamCCC61">
         <loc>Cambridge UK</loc>
         <repos>Corpus Christi College</repos>
@@ -5786,11 +5760,6 @@
         <repos>Jesus College</repos>
         <desc>Q.B.5 (22)</desc>
     </item>
-    <!--Mistake for Oxford Jesus 29??? <item xml:id="CamJes29">
-        <loc>Cambridge UK</loc>
-        <repos>Jesus College</repos>
-        <desc>Q.B.12 (29)</desc>
-    </item>-->
     <item xml:id="CamJes51">
         <loc>Cambridge UK</loc>
         <repos>Jesus College</repos>
@@ -6509,11 +6478,6 @@
             <ref target="https://mss-cat.trin.cam.ac.uk/Manuscript/B.14.52"/>
         </surrogates>
     </item>
-    <!-- <item xml:id="CamTCC337">
-        <loc>Cambridge UK</loc>
-        <repos>Trinity College</repos>
-        <desc>B.15.1 (337) check James no.</desc>
-    </item>-->
     <item xml:id="CamTCC353">
         <loc>Cambridge UK</loc>
         <repos>Trinity College</repos>
@@ -11115,11 +11079,6 @@
         <repos>British Library</repos>
         <desc>Royal 18 B.XXIV</desc>
     </item>
-    <!--<item xml:id="BLRoy18Bxxx">
-        <loc>London</loc>
-        <repos>British Library</repos>
-        <desc>Royal 18 B.XXX</desc>
-    </item>-->
     <item xml:id="BLRoy18Bxxxi">
         <loc>London</loc>
         <repos>British Library</repos>
@@ -12165,17 +12124,6 @@
         <repos>Duke of Norfolk</repos>
         <desc>MS Lives of Sts Edmund and Fremund</desc>
     </item>
-    <!--<item>
-        <loc>Asloan</loc>
-      <repos>Unknown</repos>
-        
-        <desc>see NLS</desc>
-    </item>-->
-    <!-- <item xml:id="AudleyFall">
-        <loc>Audley End</loc>
-        <repos>R. H. C. Neville</repos>
-        <desc><i>olim</i> Fall of Princes [Sotheby&#8217;s 8 July 1970, lot 98]</desc>
-    </item>-->
     <item xml:id="Badminton">
         <loc>Badminton</loc>
         <repos>Duke of Beaufort</repos>
@@ -12205,13 +12153,6 @@
             <i>olim</i> Amherst; <i>olim</i> Harmsworth; <i>olim</i> Beeleigh Abbey (Christina
             Foyle); sold Christie's June 2000</desc>
     </item>
-    <!--NOW TAKAMIYA 97<item xml:id="BeeleighSpeculum">
-        <loc>Unknown</loc>
-<repos>Unknown</repos>
-        
-        <desc><i>olim</i> Harmsworth, Sotheby&#8217;s Sale, 16 Oct. 1945, Lot 2131; <i>olim</i>
-            (Christina Foyle), sold Christie&#8217;s June 2000</desc>
-    </item>-->
     <item xml:id="Belfast">
         <loc>Belfast</loc>
         <repos>Queen's University</repos>
@@ -12233,12 +12174,6 @@
         <repos>Blackburn, Museum and Art Gallery</repos>
         <desc>MS 091.21040 [<i>olim</i> Petworth 3]</desc>
     </item>
-    <!--  <item>
-        <loc>Blairs College</loc>
-      <repos>Unknown</repos>
-        
-        <desc>see NLS</desc>
-    </item>-->
     <item xml:id="BrechinFordun">
         <loc>Brechin Castle</loc>
         <repos>Earl of Dalhousie</repos>
@@ -12257,12 +12192,6 @@
         <desc>John Barbour, <i>Buik of Alexander the grit</i>, [Edinburgh, Arbuthnet, c. 1580] (STC
             321.5)</desc>
     </item>
-    <!--  <item>
-        <loc>Bridgewater</loc>
-      <repos>Unknown</repos>
-        
-        <desc>Corporation Muniments: see Taunton, Somerset Records Office</desc>
-    </item>-->
     <item xml:id="BristolAS2">
         <loc>Bristol</loc>
         <repos>All Saints Church, Bristol</repos>
@@ -12403,11 +12332,6 @@
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 583; <langGrid>Grid 390 408</langGrid> (<place country="England" county="Lancashire">Lancs</place>).</lang>
     </item>
-    <!-- <item>
-        <loc>Dunrobin Castle</loc>
-        <repos>Marquis of Sutherland</repos>
-        <desc>see National Library of Scotland</desc>
-    </item>-->
     <item xml:id="DurCathA312">
         <loc>Durham</loc>
         <repos>Durham Cathedral Library</repos>
@@ -13889,87 +13813,87 @@
     </item>
     <item xml:id="PROTreasB28">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>Treas. Receipt of Exchequer, B.2.8</desc>
     </item>
     <item xml:id="PROC473415">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>C 47/34/1/5</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.124 (<place town="London" country="England">London</place>).</lang>
     </item>
     <item xml:id="PROC4734112">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>C 47/34/1/12</desc>
     </item>
     <item xml:id="PROC473711">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>C 47/37/11</desc>
     </item>
     <item xml:id="PROC473712">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>C 47/37/12</desc>
     </item>
     <item xml:id="PROC473915">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>C 47/39/15</desc>
     </item>
     <item xml:id="PROCoranReg525">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>, Coram Rege Roll 525 (16 Ric. II) Rex</desc>
     </item>
     <item xml:id="PRODL41270">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>DL 41/270</desc>
     </item>
     <item xml:id="PROE36228">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>E 36/228 [formerly Treasury Receipt of Exchequer B 2 8]</desc>
     </item>
     <item xml:id="PROE1632211">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>E 163/22/1/1</desc>
     </item>
     <item xml:id="PROE16322257">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>E 163/22/2/57</desc>
     </item>
     <item xml:id="PROE163222">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>E 163/22/2</desc>
     </item>
     <item xml:id="PROExcheq">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>E 175/11/16</desc>
     </item>
     <item xml:id="PROKB9144">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>KB 9/144, m.31</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.128 (<place country="England" county="Yorkshire">Yorks</place>).</lang>
     </item>
     <item xml:id="PROSC217541">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>SC 2/175/41 [Court rolls of Hawkesbury (Gloucestershire), a manor of the Abbey of
             Pershore, Worcestershire]</desc>
     </item>
     <item xml:id="PROSC69565">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>SC 6/956/5 [Bicester Priory Bursar's Accounts Roll, 17-18 Edward III, Michaelmas
             to Michaelmas]</desc>
         <lang>
@@ -13977,28 +13901,28 @@
     </item>
     <item xml:id="PROSC122128">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>SC 12/21/28 [<i>olim</i> Durham, Cathedral Library, Prior's Kitchen, Bp.
             Hatfield's Survey]</desc>
     </item>
     <item xml:id="PROSP1232">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>SP 1/232</desc>
     </item>
     <item xml:id="PROSP1246">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>SP 1/246</desc>
     </item>
     <item xml:id="PROHenVIII">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>, State Papers Henry VIII</desc>
     </item>
     <item xml:id="PROHenVIIISP1232">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
+        <repos>The National Archives</repos>
         <desc>, State Papers Henry VIII, SP1 232</desc>
     </item>
     <item xml:id="LonPhys388">
@@ -14264,9 +14188,9 @@
             A, ff. 1-180); LP 927; <langGrid>Grid 521 328</langGrid> (<place country="England" county="Lincolnshire">Lincs</place>: Hand C, ff. 205-231v).</lang>
     </item>
     <item xml:id="Longleat4">
-        <loc>Longleat</loc>
-        <repos>Marquess of Bath</repos>
-        <desc>MS 4</desc>
+        <loc>London</loc>
+        <repos>British Library</repos>
+        <desc>Addit. 89791 (olim Longleat MS 4)</desc>
     </item>
     <item xml:id="Longleat15">
         <loc>Longleat</loc>
@@ -14274,16 +14198,16 @@
         <desc>MS 15</desc>
     </item>
     <item xml:id="Longleat29">
-        <loc>Longleat</loc>
-        <repos>Marquess of Bath</repos>
-        <desc>MS 29</desc>
+        <loc>London</loc>
+        <repos>British Library</repos>
+        <desc>Addit. 89790 (olim Longleat MS 29)</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.137 (Ireland) 1.137 (<place country="England" county="Somerset">Somerset</place>: Hand C, ff. 145v-146v).</lang>
     </item>
     <item xml:id="Longleat30">
-        <loc>Longleat</loc>
-        <repos>Marquess of Bath</repos>
-        <desc>MS 30</desc>
+        <loc>London</loc>
+        <repos>British Library</repos>
+        <desc>Addit. 89792 (olim Longleat MS 30)</desc>
     </item>
     <item xml:id="Longleat31">
         <loc>Longleat</loc>
@@ -14308,9 +14232,9 @@
         <desc>MS 53</desc>
     </item>
     <item xml:id="Longleat55">
-        <loc>Longleat</loc>
-        <repos>Marquess of Bath</repos>
-        <desc>MS 55 [Red Book of Bath]</desc>
+        <loc>London</loc>
+        <repos>British Library</repos>
+        <desc>Addit. 89789 (olim Longleat MS 55 [Red Book of Bath])</desc>
         <lang>
             <biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 5280; <langGrid>Grid 375 165</langGrid> (<place country="England" county="Somerset">Somerset</place>).</lang>
     </item>
@@ -14359,12 +14283,6 @@
         <repos>Marquess of Bath</repos>
         <desc>MS 258</desc>
     </item>
-    <!--<item>
-        <loc>Lyme Hall (Legh)</loc>
-      <repos>Unknown</repos>
-        
-        <desc>see Manchester, Rylands Library</desc>
-    </item>-->
     <item xml:id="Maidst6">
         <loc>Maidstone, Kent</loc>
         <repos>Maidstone Museum</repos>
@@ -14588,14 +14506,6 @@
         <repos>Norfolk Record Office</repos>
         <desc>Case 21, shelf f, no. 68</desc>
     </item>
-    <!--<item xml:id="NorfROno">
-        <loc>Norwich</loc>
-      <repos>Unknown</repos>
-        
-        <desc>Bradfer-Lawrence [<i>olim</i> Lyell] <i>olim</i> (present location unknown: not at
-            Norwich, Norfolk Record Office)</desc>
-            </item>-->
-    <!--now Takamiya 64-->
     <item xml:id="NottsULMeLm1">
         <loc>Nottingham</loc>
         <repos>Nottingham University Library</repos>
@@ -15864,7 +15774,6 @@
         <repos>University of Pennsylvania Library</repos>
         <desc>MS Codex 201 [Formerly Eng. 6; <i>olim</i> T. Edward Ross; <i>olim</i> Gilbert, Bishop
             of Bath and Wells]</desc>
-        <!--http://dla.library.upenn.edu/dla/medren/pageturn.html?q=%22English%206%22&id=MEDREN_1551783&-->
     </item>
     <item xml:id="PhilUPEng8">
         <loc>Philadelphia</loc>
@@ -16991,232 +16900,6 @@
         <repos>Keio University Library</repos>
         <desc>Hopton Hall MS [<i>olim</i> Hopton Hall, Sotheby 1989, <i>post</i> Quaritch]</desc>
     </item>
-    <!--<item xml:id="TokyoTak4">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>4 [<i>olim</i> Phillipps 8820]</desc>
-    </item>
-    <item xml:id="TokyoTak6">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>6 [<i>olim</i> Helmingham Hall LJ. I. 10]</desc>
-    </item>
-    <item xml:id="TokyoTak12">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>12 [Dawsons of Pall Mall, Catalogue 103, item 3, 1970]</desc>
-    </item>
-    <item xml:id="TokyoTak15">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>15 [Sotheby&#8217;s, 10 Dec. 1969, Lot 43; acquired by Takamiya in 1976]</desc>
-        <lang><biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 608
-                (<place country="England" county="Yorkshire, West Riding">WRY</place>).</lang>
-    </item>
-    <item xml:id="TokyoTak17">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>17</desc>
-    </item>
-    <item xml:id="TokyoTak18">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>18</desc>
-    </item>
-    <item xml:id="TokyoTak22">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>22 [<i>olim</i> Sion College, Arc. L 40 2/E 23]</desc>
-        <lang><biblio key="Horobin2003"/>: <place country="England" county="Warwickshire"
-                >Warwickshire</place> (p. 160).</lang>
-    </item>
-    <item xml:id="TokyoTak23">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>23 [<i>olim</i> Sion College, Arc. L 40 2/E 76]</desc>
-    </item>
-    <item xml:id="TokyoTak24">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>24 [<i>olim</i> Chatsworth, Duke of Devonshire]</desc>
-        <lang>See <biblio key="Mosser2010"/>, which argues that southern <place country="England"
-                county="Kent">Kent</place> and northern <place country="England" county="Essex"
-                >Essex</place> (Thames estuary) together accomodate the forms typical of this and
-            other manuscripts by the same scribe(s) (&#8216;Hooked-<i>g</i>&#8217;).</lang>
-    </item>
-    <item xml:id="TokyoTak29">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>29</desc>
-    </item>
-    <item xml:id="TokyoTak30">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>30 [<i>olim</i> John E. du Pont; <i>olim</i> John Hayward, sold Sotheby&#8217;s 11
-            July 1966, lot 225]</desc>
-    </item>
-    <item xml:id="TokyoTak32">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>32 [<i>olim</i> Penrose 6; <i>prior</i> Delamere]</desc>
-        <lang><biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> LP 5970;
-                <langGrid>Grid 552 167</langGrid> (<place country="England" county="Kent"
-                >Kent</place>). But cf. <biblio key="Mosser2004">Mosser 2004</biblio>, which argues
-            that the same scribe copied Cambridge University Library MS Gg.I.34 (Part 3), of
-                <i>Mandeville&#8217;s Travels</i>, which <biblio key="eLALME"/> includes as LP 619
-                (<place country="England" county="Ely">Ely</place>). Mosser concludes that <place
-                country="England" county="Norfolk">Norfolk</place> or <place country="England"
-                county="Suffolk">Suffolk</place> are more probable locations.</lang>
-    </item>
-    <item xml:id="TokyoTak33">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>33 [Christie&#8217;s, 8 November 1978, Lot 198]</desc>
-    </item>
-    <item xml:id="TokyoTak35">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>35 [Sotheby&#8217;s, 5 December, lot 40]</desc>
-    </item>
-    <item xml:id="TokyoTak40">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>40 [<i>olim</i> Mostyn, <i>olim</i> Arthur Houghton 9; sold Christie&#8217;s, 14 June
-            1979, lot 295]</desc>
-    </item>
-    <item xml:id="TokyoTak46">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>46</desc>
-        <lang><biblio key="LALME">LALME</biblio> and <biblio key="eLALME">eLALME</biblio> 1.161
-            (&#8216;Language is of S <place country="England" county="Lincolnshire"
-            >Lincs</place>&#8217;).</lang>
-    </item>
-    <item xml:id="TokyoTak51">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>51 [Sotheby&#8217;s, 24 June 1980, lot 33]</desc>
-    </item>
-    <item xml:id="TokyoTak52">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>52</desc>
-    </item>
-    <item xml:id="TokyoTak54">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>54 [<i>olim</i> Weld, sold Sotheby&#8217;s, lot 57, June 24, 1980]</desc>
-    </item>
-    <item xml:id="TokyoTak56">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>56</desc>
-    </item>
-    <item xml:id="TokyoTak61">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>61 [Sotheby&#8217;s, 10 November 1952, <i>olim</i> Lawrence Witten]</desc>
-    </item>
-    <item xml:id="TokyoTak64">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>64 [<i>olim</i> Bradfer-Lawrence 7; <i>olim</i> J. P. R. Lyell]</desc>
-    </item>
-    <item xml:id="TokyoTak65">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>65 [<i>olim</i> Goldschmidt Cat. 71, 1943, item 1, <i>olim</i> Greg, <i>olim</i>
-            Bradfer-Lawrence 8, <i>olim</i> Huth 153]</desc>
-    </item>
-    <item xml:id="TokyoTak66">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>66 [<i>olim</i> Bradfer-Lawrence 10]</desc>
-    </item>
-    <item xml:id="TokyoTak67">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>67 [<i>olim</i> Ingilby (Sotheby&#8217;s, 21 October 1920, lot 30); <i>olim</i>
-            Bradfer-Lawrence 11]</desc>
-    </item>
-    <item xml:id="TokyoTak78">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>78 [Quaritch Sale Cat. 1088, Lot 88?]</desc>
-    </item>
-    <item xml:id="TokyoTak79">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>79 [<i>olim</i> Plimpton; <i>olim</i> Sotheby&#8217;s Sale 6 Dec. 1983, lot 20]</desc>
-    </item>
-    <item xml:id="TokyoTak94">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>94 [<i>olim</i> Astor, sold Sotheby&#8217;s 21 June 1988, lot 57]</desc>
-    </item>
-    <item xml:id="TokyoTak96">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>96 [<i>olim</i> Beeleigh Abbey (Foyle)]</desc>
-    </item>
-    <item xml:id="TokyoTak97">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>97 [<i>olim</i> Foyle&#8217;s sale at Christie&#8217;s, 11 July 2000, lot 76]</desc>
-    </item>
-    <item xml:id="TokyoTak98">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>98 [<i>olim</i> Quaritch, Cat. 1270 (2000), item 55; <i>prior</i> Mertoun, Duke of
-            Sutherland]</desc>
-    </item>
-    <item xml:id="TokyoTak112">
-        <loc>Tokyo</loc>
-        <repos>Takamiya</repos>
-        <desc>112 [<i>olim</i>  Quaritch Sale, 1931, item 82; Cat. 609, 1943, Lot 500; then Witten Cat., 1983, no.
-            22]</desc>
-    </item>
-    Quaritch Sale, 1931, item 82; Cat. 609, 1943, Lot 500; then Witten Cat., 1983, no.
-    22
-    <!-\- CHANGE SOME OF THESE TO TAKAMIYA</desc> </item> -\->
-    <item xml:id="PriO1">
-        <loc>Tokyo</loc>
-        <repos>Private owner</repos>
-        <desc>1 [<i>olim</i> A. G. Thomas; Sotheby&#8217;s, 10 Dec. 1962, lot 145] 1165</desc>
-    </item>
-    <item xml:id="PriO2">
-        <loc>Tokyo</loc>
-        <repos>Private owner</repos>
-        <desc>98 [ex R. C. Pearson, Cambridge, Cat. 13, 1953, item 219; once part of Beinecke Osborn
-            fa. 1]</desc>
-    </item>
-    <item xml:id="PriO3">
-        <loc>Tokyo</loc>
-        <repos>Private owner</repos>
-        <desc>3 [Saxby Psalter, Edwards of London Sale Cat. 624, item 247]</desc>
-    </item>
-    <item xml:id="PriO4">
-        <loc>Tokyo</loc>
-        <repos>Private owner</repos>
-        <desc>4 [ex Sotheby&#8217;s, 9 Dec. 1963, lot 120]</desc>
-    </item>
-    <item xml:id="PriO5">
-        <loc>Tokyo</loc>
-        <repos>Private owner</repos>
-        <desc>5 [<i>olim</i> Marquis of Bute, Sotheby&#8217;s, 13 June 1983, lot 10] 2662</desc>
-    </item>
-    <item xml:id="PriO6">
-        <loc>Tokyo</loc>
-        <repos>Private owner</repos>
-        <desc>6 [<i>olim</i> Westminster (Eaton Hall), Sotheby&#8217;s, 11 July 1966, lot 233,
-            Quaritch] 1459</desc>
-    </item>-->
-    <!--Now TokyoTak94<item xml:id="PriO7">
-        <loc>Tokyo</loc>
-        <repos>Private owner</repos>
-        <desc>[<i>olim</i> Astor, sold Sotheby&#8217;s 21 June 1988, lot 57] 1259, 1874,
-            2233</desc>
-    </item>-->
     <item xml:id="Senshu1">
         <loc>Tokyo</loc>
         <repos>Senshu University</repos>
@@ -17286,7 +16969,6 @@
         <surrogates>
             <ref target="http://www.e-codices.unifr.ch/en/cb/0048"/>
         </surrogates>
-        <!--http://www.e-codices.unifr.ch/en/cb/0048-->
     </item>
     <item xml:id="Bodmer110">
         <loc>Cologny (Geneva)</loc>
@@ -17403,11 +17085,6 @@
         <desc>MS 21242C [<i>olim</i> Mostyn Hall 85 (Christie's, 24 Oct. 1974, lot 1479, sold
             to Quaritch)]</desc>
     </item>
-    <!-- <item xml:id="Mostyn186">
-        <loc>Untraced</loc>
-        <repos>Present whereabouts unknown</repos>
-        <desc><i>olim</i> Mostyn Hall 186</desc>
-    </item>-->
     <item xml:id="Phillipps58">
         <loc>Untraced</loc>
         <repos>Present whereabouts unknown</repos>
@@ -17420,13 +17097,6 @@
         <desc>
             <i>olim</i> Phillipps; Sotheby's Sale Cat., 29 June 1936, Lot 105</desc>
     </item>
-    <!-- <item xml:id="Quaritch1088">
-        <loc>Location Unknown</loc>
-      <repos>Unknown</repos>
-        
-        <desc>Quaritch Sale Cat. 1088, no. 88, <i>Fall of Princes</i> fragment (present location
-            unknown)</desc>
-            </item>-->
     <item xml:id="BodRawFrag">
         <loc>Untraced</loc>
         <repos>Present whereabouts unknown</repos>
@@ -17440,11 +17110,6 @@
         <desc>
             <i>olim</i> Oxford Bodleian Library Rawlinson, MS ed. Hearne 1710</desc>
     </item>
-    <!-- <item xml:id="SarumMort">
-        <loc>Untraced</loc>
-        <repos>Present whereabouts unknown</repos>
-        <desc><i>Sarum Officium Mortuorum</i>, Sotheby&#8217;s Sale, 10 Oct., 1962, Lot 146</desc>
-    </item>-->
     <item xml:id="Schwerdt">
         <loc>Untraced</loc>
         <repos>Present whereabouts unknown</repos>
@@ -17486,12 +17151,6 @@
         <repos>Present whereabouts unknown</repos>
         <desc>Tregaskis Sale Cat., 1919, <i>Fall of Princes</i> fragment</desc>
     </item>
-    <!-- <item xml:id="Witten198">
-        <loc>Untraced</loc>
-        <repos>Present whereabouts unknown</repos>
-        <desc>Quaritch Sale, 1931, item 82; Cat. 609, 1943, Lot 500; then Witten Cat., 1983, no.
-            22</desc>
-    </item>-->
     <item xml:id="Witten5It47">
         <loc>Untraced</loc>
         <repos>Present whereabouts unknown</repos>
@@ -17559,8 +17218,8 @@
     </item>
     <item xml:id="PROC473414">
         <loc>London (Kew)</loc>
-        <repos>Public Record Office</repos>
-        <desc>The National Archives C47/34/1/4</desc>
+        <repos>The National Archives</repos>
+        <desc>C47/34/1/4</desc>
     </item>
     <item xml:id="SPR1469">
         <!--NB: this needs research!-->
@@ -17568,11 +17227,6 @@
         <repos>Scottish Parliamentary Records</repos>
         <desc>(Act of 1469)</desc>
     </item>
-    <!--SeeWitten198<item xml:id="Quaritch1931">
-        <loc>[Location unknown]</loc>
-        <repos>Quaritch catalogue (1931)</repos>
-        <desc/>
-    </item>-->
     <item xml:id="Fellowes">
         <loc>Untraced</loc>
         <repos>Present whereabouts unknown</repos>
@@ -17585,11 +17239,6 @@
         <desc>
             <i>olim</i> Davies-Cooke 30</desc>
     </item>
-    <!--  <item xml:id="AclandHood">
-        <loc>Untraced</loc>
-        <repos>Present whereabouts unknown</repos>
-        <desc><i>olim</i> Acland Hood, St. Audries, Somerset</desc>
-    </item>-->
     <item xml:id="AshburnhamApp121">
         <loc>Untraced</loc>
         <repos>Present whereabouts unknown</repos>
@@ -18606,8 +18255,7 @@
     <item xml:id="Bod231">
         <loc>Oxford</loc>
         <repos>Bodleian Library</repos>
-        <desc>Bodley 231<!-- (SC 27627)-->
-        </desc>
+        <desc>Bodley 231 (SC 2464)</desc>
     </item>
     <item xml:id="Bod283">
         <loc>Oxford</loc>
@@ -18642,14 +18290,12 @@
     <item xml:id="BodDou290">
         <loc>Oxford</loc>
         <repos>Bodleian Library</repos>
-        <desc>Douce 290<!-- (SC 21849)-->
-        </desc>
+        <desc>Douce 290 (SC 21864)</desc>
     </item>
     <item xml:id="BodEngTheole18">
         <loc>Oxford</loc>
         <repos>Bodleian Library</repos>
-        <desc>Eng. theol. e.18<!-- (SC ?)-->
-        </desc>
+        <desc>Eng. theol. e.18 (SC 32218)</desc>
     </item>
     <item xml:id="BodHat20">
         <loc>Oxford</loc>
@@ -18674,8 +18320,7 @@
     <item xml:id="BodLauMis571">
         <loc>Oxford</loc>
         <repos>Bodleian Library</repos>
-        <desc>Laud misc. 571<!-- (SC 1117)-->
-        </desc>
+        <desc>Laud misc. 571 (SC 1493)</desc>
     </item>
     <item xml:id="BodRawB166">
         <loc>Oxford</loc>
