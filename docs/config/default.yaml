@@ -4,6 +4,7 @@ geometry: margin=1in
 mainfont: Junicode
 colorlinks: True
 linkcolor: blue
+toccolor: black
 secnumdepth: 4
 link-citations: True
 bibliography: ./bibliography/items.yaml
