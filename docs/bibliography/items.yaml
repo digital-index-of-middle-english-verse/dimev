@@ -30,9 +30,10 @@ references:
   call-number: Z2014.P7 B655 2005
   citation-key: BoffeyNewIndexMiddle2005
   event-place: London
-  ISBN: 0-7123-4831-X
+  ISBN: 978-0-7123-4831-7
   issued:
     - year: 2005
+  language: en
   number-of-pages: '344'
   publisher: British Library
   publisher-place: London
@@ -196,6 +197,43 @@ references:
   title-short: Elizabethan poetry
   type: book
 
+- id: MooneyDigitalIndexMiddle2025
+  accessed:
+    - year: 2025
+      month: 1
+      day: 4
+  author:
+    - family: Mooney
+      given: Linne R.
+    - family: Mosser
+      given: Daniel W.
+    - family: Cornelius
+      given: Ian
+    - family: Johnston
+      given: Michael
+  citation-key: MooneyDigitalIndexMiddle2025
+  contributor:
+    - family: Solopova
+      given: Elizabeth
+    - family: Radcliffe
+      given: David Hill
+    - family: Thorpe
+      given: Deborah
+    - family: Hatfield
+      given: Len
+  DOI: 10.5281/zenodo.14585961
+  issued:
+    - year: 2025
+      month: 1
+      day: 1
+  language: en
+  publisher: Zenodo
+  source: Zenodo
+  title: 'The Digital Index of Middle English Verse: data files and documentation'
+  type: dataset
+  URL: https://zenodo.org/records/14585961
+  version: '1.0'
+
 - id: PollardShorttitleCatalogueBooks1950
   author:
     - family: Pollard
@@ -324,4 +362,22 @@ references:
   title-short: TEI P5
   type: book
   URL: http://www.tei-c.org/Guidelines/P5/
+
+- id: WhitingProverbsSentencesProverbial1968
+  author:
+    - family: Whiting
+      given: Bartlett Jere
+    - family: Whiting
+      given: Helen Wescott
+  citation-key: WhitingProverbsSentencesProverbial1968
+  event-place: Cambridge, MA
+  ISBN: 978-0-19-690378-1
+  issued:
+    - year: 1968
+  publisher: Belknap Press
+  publisher-place: Cambridge, MA
+  title: >-
+    Proverbs, sentences, and proverbial phrases from English writings mainly
+    before 1500
+  type: book
 ...

@@ -4,9 +4,8 @@ subtitle: A Technical Introduction
 author:
 - Ian Cornelius
 - Michael Johnston
-- Linne R. Mooney
-- Daniel W. Mosser
 date: \today
+thanks: The authors gratefully acknowledge the advice and support of Linne Mooney and Daniel Mosser. The section [History and Responsibility] incorporates text authored by Mooney.
 ---
 
 \newpage
@@ -15,6 +14,9 @@ date: \today
 [manuscript description module]: https://tei-c.org/release/doc/tei-p5-doc/en/html/MS.html
 [git]: https://git-scm.com/
 [sandbox repository]: https://github.com/digital-index-of-middle-english-verse/sandbox
+[GitHub repository]: https://github.com/digital-index-of-middle-english-verse/dimev
+[Zenodo]: https://zenodo.org/
+[Zotero Group Library]: https://www.zotero.org/groups/6111344/dimev_bibliography
 
 # General Introduction
 
@@ -24,37 +26,50 @@ Copies after 1525 are recorded only if derived from an exemplar that no longer s
 References to modern scholarly transcriptions and critical editions are supplied where available; references to digital facsimiles have been added for some items.
 Other recorded metadata include author, scribe, verse form, subject-matter, standard bibliographic reference numbers, and linguistic descriptions of manuscript witness.
 
-Like any finding aid or bibliographic register, DIMEV aims (1) to enable students and researchers to identify, locate, and retrieve texts relevant to their research questions or areas of inquiry, and (2) to keep the surviving historical record visible, verifiable, and accessible.
+Like any finding aid or bibliographic register, DIMEV aims to keep the surviving historical record visible, verifiable, and accessible:
+we aim to enable students and researchers to identify, locate, and retrieve texts relevant to their research questions or areas of inquiry.
 The importance of DIMEV to its scholarly community is illustrated by a search for "DIMEV" on [Google Books](https://www.google.com/search?tbm=bks&q=dimev).
 Search results show that DIMEV is employed in scholarship on Middle English literature and culture as a standard way of identifying texts under discussion and as a launching point for deeper study.
 
 DIMEV has been live online at [dimev.net] since 2011, updated regularly to supply omissions, record newly identified items and witnesses, record newly published transcriptions, editions, and facsimiles, and correct error.
-**All updates will cease after 31 December 2024**, to accommodate modernization of source data and maintenance practices.
+**Updates of dimev.net ceased on 31 December 2024, to accommodate modernization of source data and maintenance practices.**
+
 In due course, the current DIMEV website will be replaced by a new one.
 Until such time, users who seek the most current authoritative record of Middle English verse should consult DIMEV's source data directly.
-This documentation serves as a guide to the source data.
+
+Source data are maintained in a public [GitHub repository] and archived within [Zenodo], an open data repository.
+Zenodo supplies a DOI, suitable for citation: see @MooneyDigitalIndexMiddle2025.
+The document you are reading serves as a guide to the source data.
 Readers new to XML should consult an introductory grammar, for instance @TEIConsortiumTEIP5Guidelines2024, [A Gentle Introduction to XML](https://tei-c.org/release/doc/tei-p5-doc/en/html/SG.html).
 
 # Data files
 
 ## Overview
 
-DIMEV data are serialized in seven XML files:
+DIMEV data are contained in XML files and a Zotero Group Library.
+
+### XML files
+
+There are five XML files:
 
 - `Records.xml`: The principal file, collecting metadata on verse items, transcriptions of witnesses to verse items, and cross-references for acephalous or fragmentary texts
 - `Manuscripts.xml`, `PrintedBooks.xml`, `Inscriptions.xml`: Bibliographic details for witnesses cited in `Records.xml`
-- `MSSIndex.xml`: Another presentation of bibliographic details for manuscript witnesses cited in `Records.xml`, duplicating `Manuscripts.xml` in part, but including (1) some manuscripts not recorded there, and (2) [hard-coded](https://en.wikipedia.org/wiki/Hard_coding) counts of the number of DIMEV items transmitted in each manuscript
-- `Bibliography.xml`: Bibliographic details for modern transcriptions, editions, and facsimiles cited in DIMEV entries
 - `Glossary.xml`: Definitions and dictionary references for some lexical items that appear in DIMEV transcriptions
 
-These XML files are located within the directory `data/` in DIMEV's principal [GitHub repository](https://github.com/digital-index-of-middle-english-verse/dimev).
+These XML files are located within the directory `data/` in DIMEV's principal [GitHub repository].
 Each file employs a custom structure, documented in two forms:
 
 1. A human-readable specification, provided in the following subsections of this documentation
 1. Machine-readable schemas, written as XSD files and located in the directory `schemas/`
 
 The Python script `validator.py` can be used to validate XML files against the corresponding XSD file.
-For additional instructions see the comment at the head of `validator.py`.
+For instructions see the comment at the head of `validator.py`.
+
+### Zotero Library
+
+DIMEV's [Zotero Group Library] records bibliographic details for modern transcriptions, editions, and facsimiles cited elsewhere in DIMEV data.
+The library is periodically exported as Zotero RDF and logged in DIMEV's principal [GitHub repository], within the directory `data/`.
+The RDF file is intended only as an archival backup.
 
 ## `Records.xml`
 
@@ -64,16 +79,17 @@ This XML file stores information on verse items, including extracts and acephalo
 Each verse item is represented within a `record` element.
 `record` elements are serialized as children of the root element `records`.
 
-The XML structure makes an implicit distinction between two types of `record` elements:
+The XML structure makes an implicit distinction between two types of `record` items:
 
-1. **Full `record` elements**.
+1. **Full `record` items**.
   These represent items with the bibliographic status of *works*.
   Each has a unique identifier (recorded as the attribute `xml:id`) and a child element `witnesses`, listing one or more documentary witnesses to the item.
-1. **Partial `record` elements**.
-  These represent independently circulated extracts, fragments, and acephalous texts of *works*.
+1. **Partial `record` items**.
+  These represent extracts, fragments, and acephalous texts of *works*, or else an erroneous superseded item number.
   Each supplies a cross reference to the relevant full `record` element.
   Cross references are supplied in the child element `description`.
-  Partial `record` elements usually lack a unique identifier and most other child elements of full `record` elements, including `witnesses`.
+  Partial `record` elements usually lack a unique identifier.
+  They also lack most child elements of full `record` items, and always lack the element `witnesses`.
 
 ### Document structure {#doc-struct-records}
 
@@ -92,16 +108,11 @@ The XML structure makes an implicit distinction between two types of `record` el
 
 #### Attributes of `record`
 
-Each full `record` element carries attributes that supply (1) a unique identifier for the item and (2) cross-reference to corresponding item records in prior bibliographic surveys of Middle English verse.
-The attributes are:
-
-- `xml:id`: This is a unique identifier, assigned by DIMEV editors.
-  The unique identifier has two hyphen-delimited components: (1) the invariant string `record`; (2) a number, usually integer but sometimes with one or two decimal places.
-  The unique identifier allows for cross-reference within `Records.xml` and from DIMEV's other XML files.
-  The numerical component of the unique identifier is the "DIMEV number" for the item; it may be used in scholarship as a persistent bibliographic pointer to the item.
-- `imev`: The number assigned to the corresponding item in @BrownIndexMiddleEnglish1943 or @RobbinsSupplementIndexMiddle1965.
-- `nimev`: The number assigned to the corresponding item in @BoffeyNewIndexMiddle2005.
-  Alternatively (when the value is prefaced by "TM"), the reference is to the corresponding item in @RinglerBibliographyIndexEnglish1992.
+Each full `record` element carries an attribute `xml:id`.
+This is a unique identifier, assigned by DIMEV editors.
+The unique identifier has two hyphen-delimited components: (1) the invariant string `record`; (2) a number, usually integer but sometimes with one or two decimal places.
+The unique identifier allows for cross-reference within `Records.xml` and from DIMEV's other XML files.
+The numerical component of the unique identifier is the "DIMEV number" for the item; it may be used in scholarship as a persistent bibliographic pointer to the item.
 
 #### Child elements of `record`
 
@@ -114,6 +125,7 @@ Except `name` and `alpha`, which are required, all child elements are optional.
 - `alpha`. Another standardized first line, manually forced to downcase string and sometimes truncated.
   This is used for alphabetical sorting of items.
   Data type: string
+- `repertories`. Reference numbers assigned to the item in other reference works, namely, @BrownIndexMiddleEnglish1943, @RobbinsSupplementIndexMiddle1965, @BoffeyNewIndexMiddle2005, @RinglerBibliographyIndexEnglish1988, @RinglerBibliographyIndexEnglish1992, @WhitingProverbsSentencesProverbial1968, and the [Bibliography of the Middle English Compendium](https://quod.lib.umich.edu/m/middle-english-dictionary/bibliography), among others.
 - `description`. Descriptive commentary on the item.
   Data type: free text with mixed content (recursively mixed where allowed), including inline formatting and references to witnesses, scholarly publications, and other item records.
 - `descNote`. Descriptive commentary on the item, similar to the content of `description` but usually more limited in scope or importance.
@@ -132,7 +144,7 @@ Except `name` and `alpha`, which are required, all child elements are optional.
   Content of the element `title` is ordinary string but may contain inline formatting.
 - `subjects`. Descriptive keywords for content.
   Data type: an array of one or more child elements with the tag `subject`.
-  Content of the element `subject` is ordinary string but may contain inline formatting.
+  Content of the element `subject` is string.
   There is no controlled vocabulary.
 - `verseForms`. Descriptive keywords for prosodic characteristics.
   Data type: an array of one or more child elements with the tag `verseForm`.
@@ -192,12 +204,12 @@ All other child elements are optional.
   Data type: free text with mixed content (recursively mixed where allowed), including inline formatting and references to scholarly publications and other witnesses, items, or documents.
 - `facsimiles`. References to published facsimile reproductions of the source document.
   Data type: an array of one or more child elements with the tag `facsimile`.
-  Each child element carries an attribute `key`, which links to an entry in the XML file `Bibliography.xml`.
+  Each child element carries an attribute `key`, which links to an item in the [Zotero Group Library].
   The content of `facsimile` is often string but may be mixed.
   **Note**: facsimiles are recorded by DIMEV under individual witnesses, even when the facsimile reproduction is of the entire source document.
 - `editions`. References to modern scholarly transcriptions and editions.
   Data type: an array of one or more child elements with the tag `edition`.
-  Each child element carries an attribute `key`, which links to an entry in the XML file `Bibliography.xml`.
+  Each child element carries an attribute `key`, which links to an item in the [Zotero Group Library].
   The content of `edition` is often string but may be mixed.
   **Note**: critical editions are recorded by DIMEV under the witness employed as base text.
   This confuses the categories of critical and diplomatic editions.
@@ -234,11 +246,6 @@ Note:
 
 - Atomize, writing each full `record` element to a separate file within a new sub-directory `records/`, to enable effective use of [git] distributed file history
 - Collect partial `record` elements (i.e., those `record` elements serving as cross-references to full `record` elements) in a single separate file, perhaps named `cross-references.xml`
-- Delete the element `alpha`. This can be generated on demand by script
-- Separate references to @BoffeyNewIndexMiddle2005 and @RinglerBibliographyIndexEnglish1992
-  (Cite Ringler's bibliography directly, as an independent authority)
-- Supply references to the [Middle English Compendium Bibliography](https://quod.lib.umich.edu/m/middle-english-dictionary/bibliography), where available
-  (This is part of a general expansion of bibliographical reference, beyond the linear tradition of indexes of Middle English verse)
 - In the element `author` (child of `authors`), disaggregate name suffixes and query marks indicating dubious attributions
 - Allow for critical editions to be attached to the `record` element, rather than only the `witness` sub-element
 - Supply controlled vocabularies for the content of `subject`, `verseForm`, `versePattern`, and `language`
@@ -268,7 +275,7 @@ Each entry is contained within a uniquely identified `item` element.
 - Name: `item`
 - Description: Represents a single bibliographic entry for a medieval manuscript (or a particular copy of an early printed book)
 - Attributes: `xml:id`. The attribute value must be unique. It allows bibliographic entries in `Manuscripts.xml` to be referenced within DIMEV's other XML files.
-- Content: Child elements `loc`, `repos`, `desc`, and `lang`, as described in the following section
+- Content: Child elements as described in the following section
 
 #### Child elements of `item`
 
@@ -283,51 +290,14 @@ Each entry is contained within a uniquely identified `item` element.
   Previous shelfmarks may be supplied after the current shelfmark; these are usually enclosed in square brackets and prefixed with "*olim*".
 - `lang`: Localization of the language of the manuscript, with reference to @LaingLinguisticAtlasEarly2013, @BenskinElectronicVersionLinguistic2013, and subsequent scholarship.
   Data type: free text with mixed content (recursively mixed where allowed), including inline formatting, inset elements `langGrid` and `place`, and references to scholarly publications and other manuscript items.
+- `surrogates`: URL links to on-line facsimiles of the manuscripts.
 
 ### Technical direction {#tech-dir-manuscripts}
 
-- De-duplicate and reconcile with the XML file `MSSIndex.xml`
 - Distinguish manuscripts from (particular copies of) early printed books, perhaps by adding a new attribute `type` to `item` elements
 - Atomize, writing each full `item` element to a separate file within a new sub-directory `sources/`, to enable effective use of [git] distributed file history
 - Rename and restructure element names to align with guidelines of the TEI [manuscript description module]
 - Extract previous shelfmarks to a new element, `altIdentifier`
-- Record facsimiles, perhaps within a new element `surrogates`
-
-## `MSSIndex.xml`
-
-### Overview {#overview-mssindex}
-
-The XML file `MSSIndex.xml` originated as a transformation of `Manuscripts.xml`.
-It was designed to store (in a structure convenient to the XSLT scripts that build the current website) hard-coded counts of DIMEV items transmitted by each manuscript.
-The two files are largely redundant, yet they have separate file histories.
-In recent years the usual practice has been to enter new manuscripts into `MSSIndex.xml` only; this file now has about 170 manuscripts not recorded in `Manuscripts.xml`.
-
-### Document structure {#doc-struct-mssindex}
-
-#### Root element {#root-mss-index}
-
-- Name: `records`
-- Description: Represents a collection of bibliographic entries for medieval manuscripts, with counts of DIMEV items transmitted by each, arranged hierarchically by geographic location and repository name
-- Content: Contains `loc` elements, which recursively contain elements `repository` and `item`
-
-#### `loc`, `repository` and `item`
-
-The elements `loc`, `repos` and `item` form a tree in which each `loc` element, representing a geographical location, has one or more child elements named `repos`, representing a holding institution, and each `repos` element has one or more child elements named `item`, representing manuscripts.
-
-The elements `loc`, `repos`, and `item` are semantically equivalent to the elements with those names in the XML file `Manuscripts.xml`, but the semantics are expressed by different structures.
-In `Manuscripts.xml` geographical locations and holding institutions are expressed as content of the elements `loc` and `repos`, respectively; in `Manuscripts.xml` these data are expressed as values of the attribute `key`, carried by the elements `loc` and `repos`, respectively.
-`item` elements in both files have the identical attribute `xml:id`.
-
-#### Child elements of `item`
-
-The element `item` has child elements `desc`, `lang`, and `count`.
-The elements `desc` and `lang` are redundant with the synonymous elements in `Manuscripts.xml`.
-The element `count` stores a count of DIMEV items transmitted by the manuscript.
-
-### Technical direction {#tech-dir-mssindex}
-
-- De-duplicate and reconcile with `Manuscripts.xml`
-- Generate counts by script on build; do not hard-code
 
 ## `Inscriptions.xml`
 
@@ -408,40 +378,6 @@ See the [Overview to `Manuscripts.xml`](#overview-manuscripts), above.
 - Disaggregate references to @PollardShorttitleCatalogueBooks1950 from other content of the attribute `n`
 - Supply references to the English Short Title Catalog (ESTC) where available.
 
-## `Bibliography.xml`
-
-### Overview {#overview-bibliography}
-
-This XML file stores bibliographic information for modern scholarly publications.
-Each bibliographic entry is contained within a uniquely identified `bibl` element.
-`bibl` elements are serialized as children of the root element `bibliography`.
-
-### Document structure {#doc-struct-bibliography}
-
-#### Root element {#root-bibliography}
-
-- Name: `bibliography`
-- Description: Represents a collection of bibliographic entries for modern scholarly publications
-- Content: Contains `bibl` elements
-
-#### Child elements of `bibliography`
-
-- Name: `bibl`
-- Description: Represents a bibliographic entry for a modern scholarly publication
-- Attributes: `xml:id`. The attribute value must be unique. It allows entries in `Bibliography.xml` to be referenced within DIMEV's other XML files.
-- Content: Contains the elements `authorstmt`, `titlestmt`, `pubstmt`, and `index`.
-  The elements `authorstmt`, `titlestmt`, and `pubstmt` are based loosely on early versions of TEI elements for encoding bibliographic citations: compare @TEIConsortiumTEIP5Guidelines2024, guidelines on [Bibliographic Citations and References](https://tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COBI).
-  The element `index` has the child elements `person` and `topic`.
-  These are designed to store content keywords, loosely equivalent to the `KW` tag in [RIS](https://en.wikipedia.org/wiki/RIS_(file_format)).
-
-### Technical direction {#tech-dir-bibliography}
-
-- Regularize the content of `pubstmt` (this is done with help of the Python script `transform-Bibl.py`, in DIMEV's [sandbox repository])
-- Migrate to a standard format for bibliographic data
-- Supply, as content keywords for items in `Bibliography.xml`, the DIMEV item `id`s by which they are cited (i.e., backlink from modern bibliographic items to the verse item records that cite them)
-- Extract links to on-line facsimiles of manuscripts for separate treatment, probably within the data structure for manuscripts
-- Import the reformatted bibliographic data to [Zotero](https://www.zotero.org/) for distribution and curation on that platform
-
 ## `Glossary.xml`
 
 ### Overview {#overview-glossary}
@@ -485,7 +421,7 @@ Each entry is contained within a uniquely identified `item` element.
   The content of the `ref` element gives the abbreviated title of the dictionary cited (usually "OED" or "MED").
   Data type: attribute and string.
 - `biblio`. Bibliographic reference to a non-dictionary source.
-  Each `biblio` element carries the attribute `key`, which corresponds to the `xml:id` of an item in the XML file `Bibliography.xml`.
+  Each `biblio` element carries the attribute `key`, which corresponds to the citation key of an item in the [Zotero Group Library].
   The content of the `biblio` element gives the point-locator, usually a page reference.
   Data type: attribute and string.
 
@@ -527,18 +463,10 @@ In 2012 Mooney obtained funding from the Modern Humanities Research Association 
 In this position Deborah Thorpe continued DIMEV's survey of British Library manuscripts.
 The survey of British Library manuscripts was completed by Mooney in 2024, supported by an Emeritus Fellowship for two years from the Leverhulme Trust (awarded 2022).
 
-In fall 2024 Ian Cornelius wrote XSD files to replace machine-generated DTDs as the mechanism for validation of XML.
-The XSD files are constructed iteratively, from ground up.
-XML syntax errors discovered in this process were corrected one by one or else with regular expressions.
-The overall size of `Records.xml` was reduced by about a third, by removing optional empty elements.
-This was a first step toward modernization of DIMEV data.
-Subsequent steps are projected within the subsections headed "Technical direction" and in DIMEV's [sandbox repository].
-
-Since 2007 Mooney and Mosser have served as co-editors of DIMEV, sharing responsibility for content.
-Mosser has served as technical editor, maintaining data files and pushing updates to [dimev.net].
-Cornelius is lead author of this documentation, bearing responsibility for technical components.
-In January 2025 primary responsibility for DIMEV will pass to Cornelius and Michael Johnston.
-Mooney and Mosser will continue as advisors to the new editors.
+From 2007 to 2025 Mooney and Mosser served as co-editors of DIMEV, sharing responsibility for content.
+Mosser was technical editor, maintaining data files and pushing updates to [dimev.net].
+In 2025 editorial responsibility passed to Ian Cornelius and Michael Johnston.
+Cornelius is technical editor and lead author of this documentation.
 
 # Licensing
 
