@@ -48,7 +48,6 @@ def validate_files(file_list):
 
 def get_schema(xml_file):
     file_pairs = {
-            ('Bibliography.xml', 'bibliography.xsd'),
             ('Glossary.xml', 'glossary.xsd'),
             ('Inscriptions.xml', 'inscriptions.xsd'),
             ('Manuscripts.xml', 'manuscripts.xsd'),
