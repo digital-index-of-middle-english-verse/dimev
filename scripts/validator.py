@@ -13,27 +13,18 @@ data_dir = 'data/'
 schema_dir = 'schemas/'
 
 def main():
-    file_list = get_file_list()
-    error_count = validate_files(file_list)
-    if error_count == 0:
-        print('\nValidation completed with no failures.')
-    else:
-        print(f'\n{error_count} file(s) failed validation.')
-
-def get_file_list():
-    file_list = []
-    if len(sys.argv) > 1:
-        file_list.append(sys.argv[1])
-    else:
-        file_list = glob.glob(data_dir + '*.xml')
-    return file_list
+    file_list = glob.glob(data_dir + '*.xml')
+    validate_files(file_list)
 
 def validate_files(file_list):
+    # Validate a single file, if its path is given on the command line
+    if len(sys.argv) > 1:
+        file_list = [sys.argv[1]]
     file_count = 1
     error_count = 0
     for xml_file in file_list:
         xml_file = re.sub(data_dir, '', xml_file) # strip directory, if present
-        print(f'Validating "{xml_file}" ({file_count} of {len(file_list)})...')
+        print(f'Validating "{xml_file}" against schema ({file_count} of {len(file_list)})...')
         schema = get_schema(xml_file)
         # Validate the XML file
         try:
@@ -44,7 +35,10 @@ def validate_files(file_list):
             print("XML validation failed:")
             print(e)
             error_count += 1
-    return error_count
+    if error_count == 0:
+        print('\nValidation completed with no failures.')
+    else:
+        print(f'\n{error_count} file(s) failed validation.')
 
 def get_schema(xml_file):
     file_pairs = {
