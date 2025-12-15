@@ -7,24 +7,66 @@
 
 # TODO: validate textcarrier refs against textcarrier ids
 # TODO: validate bibl refs against bibl ids
-# TODO: check uniqueness of bibl ids
 
 import xmlschema
 import sys
 import glob
 import re
 from lxml import etree
+from rdflib import Graph, Literal
+from rdflib.namespace import DC, DCTERMS
 
 data_dir = 'data/'
 schema_dir = 'schemas/'
 namespace = '{http://www.w3.org/XML/1998/namespace}'
 
 def main():
+
+    # Validate files against schemas
     file_list = glob.glob(data_dir + '*.xml')
     validate_files(file_list)
+
+    # Gather and validate ids
     record_ids = validate_xml_ids(scope='texts')
     textcarrier_ids = validate_xml_ids(scope='textcarriers')
-    verify_id_uniqueness([record_ids, textcarrier_ids])
+    bibl_ids = validate_bibl_ids()
+
+    # Verify uniqueness of ids within entire namespace
+    all_ids = [record_ids, textcarrier_ids, bibl_ids]
+    verify_id_uniqueness(all_ids)
+
+    print('\nAll checks complete.')
+
+def validate_bibl_ids():
+    filename = 'Bibliography.rdf'
+    print(f'Validating citation keys in {filename}...')
+    id_registry = set()
+    error_count = 0
+    item_checks = 0
+    CITATION_KEY_LINE = re.compile(r'^\s*Citation Key:\s*(\S+)\s*$')
+    pattern = r'[A-Za-z0-9_\-\.]+'
+    path = data_dir + filename
+    g = Graph()
+    g.parse(path)
+
+    # Iterate over all dc:description triples
+    for s, p, o in list(g.triples((None, DC.description, None))):
+        text = str(o)
+        key_found = False
+        for line in text.splitlines():
+            m = CITATION_KEY_LINE.match(line)
+            if m:
+                bibkey = m.group(1)
+                id_registry, error_count = validate_id(bibkey, pattern, filename, id_registry, error_count)
+                key_found = True
+                item_checks += 1
+        if key_found == False:
+            print(f'WARNING: No citation key found!')
+            error_count += 1
+
+    # Report results
+    print(f'Checks of citation keys in {filename} completed with {item_checks} checks and {error_count} errors.\n')
+    return id_registry
 
 def validate_xml_ids(scope):
     # Select files for scope
@@ -52,7 +94,6 @@ def validate_xml_ids(scope):
                 item_id = item.get(namespace + 'id')
                 id_registry, error_count = validate_id(item_id, pattern, filename, id_registry, error_count)
                 item_checks += 1
-            print('Done')
 
         else: # Records.xml
             for item in root.findall('record'):
@@ -79,7 +120,7 @@ def validate_xml_ids(scope):
 
 def validate_id(item_id, pattern, filename, id_registry, error_count):
     if not re.fullmatch(pattern, item_id):
-        print(f'WARNING: found malformed id "{item_id}" in {filename}')
+        print(f'WARNING: malformed id "{item_id}" in {filename}')
         error_count += 1
     if item_id in id_registry:
         print(f"Duplicate xml:id found: {xml_id}")
