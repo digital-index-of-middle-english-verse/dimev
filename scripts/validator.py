@@ -5,9 +5,6 @@
 # To validate a single file against its schema, supply the path on the command
 # line. Else the script validates all files in the data directory.
 
-# TODO: validate textcarrier refs against textcarrier ids
-# TODO: validate bibl refs against bibl ids
-
 import xmlschema
 import sys
 import glob
@@ -34,6 +31,9 @@ def main():
     # Verify uniqueness of ids within entire namespace
     all_ids = [record_ids, textcarrier_ids, bibl_ids]
     verify_id_uniqueness(all_ids)
+
+    # Check outgoing references in Records.xml against textcarrier and bibl ids
+    check_textcarrier_refs(textcarrier_ids, bibl_ids)
 
     print('\nAll checks complete.')
 
@@ -167,6 +167,51 @@ def get_schema(xml_file):
             break
     # Load the XSD schema
     return xmlschema.XMLSchema(schema_dir + schema_file)
+
+def check_textcarrier_refs(textcarrier_ids, bibl_ids):
+    filename = 'Records.xml'
+    tree = etree.parse(data_dir + filename)
+    root = tree.getroot()
+    print(f'\nChecking bibliographic and source references in {filename}...')
+    error_count = 0
+    item_checks = 0
+    bibl_ids.add('MECompendium') # NOTE: A special case
+
+    # Check for bad outbound references in Records.xml
+    referenced_textcarriers = set()
+    referenced_bibl = set()
+    target_tags = ['repertory', 'edition', 'facsimile', 'bibl', 'source', 'mss']
+    for elem in root.iter():
+        if elem.tag in target_tags:
+            key = elem.get('key')
+            if key is not None:
+                if elem.tag == 'source' or elem.tag == 'mss':
+                    referenced_textcarriers.add(key)
+                    if key not in textcarrier_ids:
+                        print(f'WARNING: Source key {key} is referenced in Records.xml but not defined')
+                        error_count += 1
+                    item_checks += 1
+                else: # modern scholarly works
+                    referenced_bibl.add(key)
+                    if key not in bibl_ids:
+                        # print(f'WARNING: Bibliography key {key} is referenced in Records.xml but not defined')
+                        # NOTE: large error counts here are due to manuscript keys referenced within the facsimiles block
+                        error_count += 1
+                    item_checks += 1
+
+    # Check for unreferenced ids and citation keys
+    # NOTE: This yields many false negatives, as it misses (e.g.) citation keys referenced only in Manuscripts.xml
+
+    unreferenced_textcarrier_keys = set()
+    unreferenced_bibl_keys = set()
+    for key in textcarrier_ids:
+        if key not in referenced_textcarriers:
+            unreferenced_textcarrier_keys.add(key)
+    for key in bibl_ids:
+        if key not in referenced_bibl:
+            unreferenced_bibl_keys.add(key)
+    print(f'Checks completed with {item_checks} checks and {error_count} errors')
+    print(f'Found {len(unreferenced_textcarrier_keys)} unreferenced textcarrier keys and {len(unreferenced_bibl_keys)} unreferenced keys to modern scholarly works')
 
 def verify_id_uniqueness(list_of_sets):
     print('Checking for duplicate ids across all sets of ids...')
