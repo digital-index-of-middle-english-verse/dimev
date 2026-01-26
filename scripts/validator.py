@@ -149,9 +149,9 @@ def validate_files(file_list):
             print(e)
             error_count += 1
     if error_count == 0:
-        print('\nValidation completed with no failures.')
+        print('Validation completed with no failures.\n')
     else:
-        print(f'\n{error_count} file(s) failed validation.')
+        print(f'{error_count} file(s) failed validation.\n')
 
 def get_schema(xml_file):
     file_pairs = {
@@ -181,7 +181,7 @@ def check_textcarrier_refs(textcarrier_ids, bibl_ids):
     referenced_textcarriers = set()
     referenced_bibl = set()
     undefined_bibl_keys = set()
-    target_tags = ['repertory', 'edition', 'facsimile', 'bibl', 'source', 'mss']
+    target_tags = ['repertory', 'edition', 'facsimile', 'biblio', 'source', 'mss']
     for elem in root.iter():
         if elem.tag in target_tags:
             key = elem.get('key')
