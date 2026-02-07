@@ -11,7 +11,6 @@
                 <xs:complexType mixed="true">
           	  <xs:choice minOccurs="0" maxOccurs="unbounded">
           	    <xs:element name="i" type="xs:string"/>
-          	    <xs:element name="gloss" type="bibkey"/>
           	  </xs:choice>
           	</xs:complexType>
               </xs:element>
@@ -205,7 +204,6 @@
     <xs:choice minOccurs="0" maxOccurs="unbounded">
       <xs:element name="add" type="xs:string"/>
       <xs:element name="del" type="xs:string"/>
-      <xs:element name="gloss" type="bibkey"/>
       <xs:element name="i" type="italic"/>
       <xs:element name="lb"/>
       <xs:element name="sic" type="xs:string"/>
@@ -224,7 +222,6 @@
       <xs:element name="add" type="xs:string"/>
       <xs:element name="biblio" type="bibkey"/>
       <xs:element name="del" type="xs:string"/>
-      <xs:element name="gloss" type="bibkey"/>
       <xs:element name="i" type="italic"/>
       <xs:element name="insc" type="bibkey"/>
       <xs:element name="lb" type="xs:string"/>
