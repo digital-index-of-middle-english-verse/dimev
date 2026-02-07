@@ -50,11 +50,10 @@ DIMEV data are contained in XML files and a Zotero Group Library.
 
 ### XML files
 
-There are five XML files:
+There are four XML files:
 
 - `Records.xml`: The principal file, collecting metadata on verse items, transcriptions of witnesses to verse items, and cross-references for acephalous or fragmentary texts
 - `Manuscripts.xml`, `PrintedBooks.xml`, `Inscriptions.xml`: Bibliographic details for witnesses cited in `Records.xml`
-- `Glossary.xml`: Definitions and dictionary references for some lexical items that appear in DIMEV transcriptions
 
 These XML files are located within the directory `data/` in DIMEV's principal [GitHub repository].
 Each file employs a custom structure, documented in two forms:
@@ -121,7 +120,7 @@ Except `name` and `alpha`, which are required, all child elements are optional.
 
 - `name`. The *incipit*, or first line of the verse item, employed for purposes of identification in a textual tradition in which most items are anonymous and untitled.
   Spellings are standardized.
-  Data type: usually string; may contain inline formatting or `gloss` elements.
+  Data type: usually string; may contain inline formatting.
 - `alpha`. Another standardized first line, manually forced to downcase string and sometimes truncated.
   This is used for alphabetical sorting of items.
   Data type: string
@@ -377,63 +376,6 @@ See the [Overview to `Manuscripts.xml`](#overview-manuscripts), above.
 - For references to editions: implement a standard data structure for XML serialization of bibliographic metadata for early printed books
 - Disaggregate references to @PollardShorttitleCatalogueBooks1950 from other content of the attribute `n`
 - Supply references to the English Short Title Catalog (ESTC) where available.
-
-## `Glossary.xml`
-
-### Overview {#overview-glossary}
-
-This XML file stores lexicographic information for certain words recorded in transcriptions.
-Each entry is contained within a uniquely identified `item` element.
-`item` elements are serialized as children of the root element `glossary`.
-
-### Document structure {#doc-struct-glossary}
-
-#### Root element {#root-glossary}
-
-- Name: `glossary`
-- Description: Represents a collection of entries for lexical items
-- Content: Contains `item` elements
-
-#### Child elements of `glossary`
-
-- Name: `item`
-- Description: Represents a single lexical item
-- Attributes: `xml:id`. The value must be unique; it allows items in `Glossary.xml` to be referenced within `Records.xml`.
-- Content: Contains the elements `lemma`, `source`, `partOfSpeech`, and `def`.
-
-#### Child elements of `item`
-
-- `lemma`. The lemma or headword under which the word is recorded by the source referenced in `source`.
-  Data type: string.
-- `source`. The source of the definition recorded in `def`.
-  Data type: parent of `ref` and `biblio` elements (only one may appear).
-  See below.
-- `partOfSpeech`. The part of speech of the word.
-  Data type: usually string; may contain inline formatting.
-- `def`. The definition of the word, sometimes with additional lexicograhic information drawn from the source identified in the element `source`.
-  Data type: often string; may contain inline formatting.
-
-#### Child elements of `source`
-
-- `ref`. Bibliographic reference to a dictionary.
-  Each `ref` element carries the attributes `type` and `n`.
-  The value of `type` is always "url"; `n` gives the base URL of the on-line edition of the dictionary cited.
-  The content of the `ref` element gives the abbreviated title of the dictionary cited (usually "OED" or "MED").
-  Data type: attribute and string.
-- `biblio`. Bibliographic reference to a non-dictionary source.
-  Each `biblio` element carries the attribute `key`, which corresponds to the citation key of an item in the [Zotero Group Library].
-  The content of the `biblio` element gives the point-locator, usually a page reference.
-  Data type: attribute and string.
-
-### Technical direction {#tech-dir-glossary}
-
-To be determined.
-If this file and its data are retained:
-
-- Restructure the element `item` to allow for citation of multiple sources:
-  the elements `lemma`, `partOfSpeech`, and `def` should be moved under `source`, as its children; `source` should be repeatable
-- Restructure references to dictionaries; reference *OED* and *MED* entries by URI
-- Make `id`s more robust
 
 # History and responsibility
 
