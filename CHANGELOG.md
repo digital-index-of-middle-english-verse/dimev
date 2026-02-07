@@ -28,25 +28,27 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - `Records.xml`: change DIMEV item number 7684 to 5784; retain the mistaken id as a cross-reference (#20; b9aa6fe5c60591a435063c22e9e16b8195d49c55)
 - `Records.xml`: revise subject keywords (#29, #30, #34; b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
 - `Records.xml`: move IMEV, NIMEV, and Ringler numbers from item attributes (and free text) to a new block `repertories`; move Whiting 1968 and Walther refs from free text to the `repertories` block (#25; b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
-- documentation: update documentation to reflect changes to project data (b6fd92de9af2471d3368f010176003d1d4b97baa)
+- `Records.xml`: remove `gloss` tags (#26; dcf295f8e7a037da6f13ecde3656a8890156a003)
+- documentation: update documentation to reflect changes to project data (b6fd92de9af2471d3368f010176003d1d4b97baa, f4e82258c292a0919ae21918694bfb34a4dd9e87)
 - validation: rewrite `validator.py` to validate all XML files, unless a file path is specified as an argument (491c8ecd1f49accb2873946a0062e08ae1f009fc, 0bba2694d445432cbbb1af01bf98d8e9011b40fa)
 - validation(`manuscripts.xsd`): require string content in the elements `loc` and `desc` (5e25a7fa47fdace713bf7d613633ddcca855459f); add element `surrogates` (05ab06bd42e7ec256614fdd475548a83d728140e)
-- validation('records.xsd): update to reflect changes to `Records.xml` data structure (b7aefff35e8048c8c0f8695036845568166281d3)
+- validation('records.xsd): update to reflect changes to `Records.xml` data structure (b7aefff35e8048c8c0f8695036845568166281d3, 060ed18a3db79a35a6f6c3c33009cc462fd28484)
 
 ### Removed
 
 - `Bibliography.xml`: remove the file after porting data to Zotero (9823c245fd555f04034511170ef45b8f85c0d226)
+- `Glossary.xml`: remove the file as out of scope (f992ee06e77519737a8f03e6220a3021fb0ca0e2)
 - `MSSIndex.xml`: remove the file after merging data into `Manuscripts.xml` (#21; 574cf0b3c0faacb0242b10b9b35c3bc99767c2a9)
 - `Manuscripts.xml`: remove the item with key "Atkinson" (ac05c4db8693427507936153ac62af1b79473409)
 - `Manuscripts.xml`: resolve and delete XML comments where possible; delete commented-out items with xml:ids unreferenced elsewhere in DIMEV data; delete commented-out items with xml:ids identical to an active item recorded elsewhere in this file (9cd87c72a67f74527ffde809044f9a96fec098ab)
 - `PrintedBooks.xml`: remove the element `loc`; update schema and documentation (dd623751f8888ce3ffd35665d9a90e621ff602ca)
 - `PrintedBooks.xml`: remove the item with key "ParisSydrac1486" (0aa70f77d77e098295e6388dc8d9832377b89ac9)
 - `Records.xml`: remove XML comments of the type "new number" (b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
-- validation: remove `mssindex.xsd` and `bibliography.xsd` (5e25a7fa47fdace713bf7d613633ddcca855459f, 96bbe0745a4cdf4cdfc912b712601815163c2807)
+- validation: remove `mssindex.xsd`, `bibliography.xsd`, and `glossary.xsd` (5e25a7fa47fdace713bf7d613633ddcca855459f, 96bbe0745a4cdf4cdfc912b712601815163c2807, f992ee06e77519737a8f03e6220a3021fb0ca0e2)
 
 ### Fixed
 
 - Bibliography: numerous corrections (77342d4ab7ebc86fea8ad50ffb0170a97d27d287, d04177d0491ec927289e1749833c89ea33d3dac2, 3e5983a88a5e337a60315eb2ff23c734fe2d4c07, 1ba3f2dc06317d8ac55241b18a382af31ada710d, 109a00e13188377f09c1e4ca409333a8cd9846a7, 8533b58e343ffb90f2d22699a25acfa4a3e334c5, 9823c245fd555f04034511170ef45b8f85c0d226)
-- `Records.xml`: correct validation errors in xml:ids (#9; b9aa6fe5c60591a435063c22e9e16b8195d49c55)
+- `Records.xml`: correct validation errors in xml:ids (#9; b9aa6fe5c60591a435063c22e9e16b8195d49c55, dcf295f8e7a037da6f13ecde3656a8890156a003)
 - `Records.xml`: correct validation errors in reported NIMEV and IMEV numbers (#25; b9aa6fe5c60591a435063c22e9e16b8195d49c55, b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
-- `Records.xml`: repair invalid and duplicate key references (b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
+- `Records.xml`: repair invalid and duplicate key references (#39; b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9, dcf295f8e7a037da6f13ecde3656a8890156a003)
