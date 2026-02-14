@@ -884,9 +884,9 @@
         <desc>
             <i>Paruus Catho [et] Magnus Catho</i>, [Caxton, 1483] </desc>
     </bibl>
-    <!-- <bibl xml:id="STC4853" n="STC 4853">
+    <bibl xml:id="STC4853" n="STC 4853">
         <DIMEVCount>1</DIMEVCount>
-        <authorstmt>PROSE
+        <authorstmt>
             <author/>
         </authorstmt>
         <titlestmt>
@@ -896,7 +896,7 @@
         <repos/>
         <desc>
             <i>The Book callid Caton</i>, [Caxton, 1483?] </desc>
-    </bibl>-->
+    </bibl>
     <bibl xml:id="STC4921" n="STC 4921">
         <DIMEVCount>0</DIMEVCount>
         <authorstmt>
@@ -5704,5 +5704,57 @@
         <pubstmt date="1503">Westminster: William Caxton, 1503 [1504]</pubstmt>
         <repos>London, British Library</repos>
         <desc>London, British Library Printed Book C.15.C.7 (STC 24877)</desc>
+    </bibl>
+    <bibl xml:id="STC17325" n="STC 17325">
+        <DIMEVCount/>
+        <authorstmt>
+            <author/>
+        </authorstmt>
+        <titlestmt>
+            <title level="m">Here begynneth of seint Margarete the blissid lif that is so swete […]</title>
+        </titlestmt>
+        <pubstmt date="1493">London: Richard Pynson<!--ESTC S120810-->
+        </pubstmt>
+        <repos/>
+        <desc/>
+    </bibl>
+    <bibl xml:id="STC17326" n="STC 17326">
+        <DIMEVCount/>
+        <authorstmt>
+            <author/>
+        </authorstmt>
+        <titlestmt>
+            <title level="m">Here begynneth the lyfe of saynte Margaret</title>
+        </titlestmt>
+        <pubstmt date="1530">London: Robert Redman<!--ESTC S109791-->
+        </pubstmt>
+        <repos/>
+        <desc/>
+    </bibl>
+    <bibl xml:id="STC22595" n="STC 22595">
+        <DIMEVCount/>
+        <authorstmt>
+            <author/>
+        </authorstmt>
+        <titlestmt>
+            <title level="m">Here after foloweth a litle booke, of Phillyp Sparow</title>
+        </titlestmt>
+        <pubstmt date="1553">London: Iohn Wyght<!--ESTC S104997-->
+        </pubstmt>
+        <repos/>
+        <desc/>
+    </bibl>
+    <bibl xml:id="STC22596" n="STC 22596">
+        <DIMEVCount/>
+        <authorstmt>
+            <author/>
+        </authorstmt>
+        <titlestmt>
+            <title level="m">Here after foloweth a litle boke of Phillip sparrow</title>
+        </titlestmt>
+        <pubstmt date="1560">London: Anthony Kitson<!--ESTC S105212-->
+        </pubstmt>
+        <repos/>
+        <desc/>
     </bibl>
 </books>
