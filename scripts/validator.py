@@ -179,7 +179,6 @@ def check_textcarrier_refs(textcarrier_ids, bibl_ids):
     # Check for bad outbound references in Records.xml
     referenced_textcarriers = set()
     referenced_bibl = set()
-    undefined_bibl_keys = set()
     target_tags = ['repertory', 'edition', 'facsimile', 'biblio', 'source', 'mss']
     for elem in root.iter():
         if elem.tag in target_tags:
@@ -194,13 +193,9 @@ def check_textcarrier_refs(textcarrier_ids, bibl_ids):
                 else: # modern scholarly works
                     referenced_bibl.add(key)
                     if key not in bibl_ids:
-                        # print(f'WARNING: Bibliography key {key} is referenced in Records.xml but not defined')
-                        # NOTE: large error counts here are due to manuscript keys referenced within the facsimiles block
-                        undefined_bibl_keys.add(key)
+                        print(f'WARNING: Bibliography key {key} is referenced in Records.xml but not defined')
                         error_count += 1
                     item_checks += 1
-    my_list = sorted(undefined_bibl_keys)
-    print(f'WARNING: found {len(my_list)} undefined bibliography keys: {", ".join(my_list)}')
 
     # Check for unreferenced ids and citation keys
     # NOTE: This yields many false negatives, as it misses (e.g.) citation keys referenced only in Manuscripts.xml
@@ -213,8 +208,8 @@ def check_textcarrier_refs(textcarrier_ids, bibl_ids):
     for key in bibl_ids:
         if key not in referenced_bibl:
             unreferenced_bibl_keys.add(key)
-    print(f'Checks completed with {item_checks} checks and {error_count} errors')
     print(f'Found {len(unreferenced_textcarrier_keys)} unreferenced textcarrier keys and {len(unreferenced_bibl_keys)} unreferenced keys to modern scholarly works')
+    print(f'Checks completed with {item_checks} checks and {error_count} errors.')
 
 def verify_id_uniqueness(list_of_sets):
     print('Checking for duplicate ids across all sets of ids...')
