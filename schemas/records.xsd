@@ -73,28 +73,21 @@
               <xs:element name="subjects" minOccurs="0">
                 <xs:complexType>
 		  <xs:sequence>
-                    <xs:element name="subject" minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
+                    <xs:element name="term" maxOccurs="unbounded" type="xs:string"/>
 		  </xs:sequence>
                 </xs:complexType>
               </xs:element>
               <xs:element name="verseForms" minOccurs="0">
                 <xs:complexType>
 		  <xs:sequence>
-                    <xs:element name="verseForm" maxOccurs="unbounded" type="xs:string"/>
-		  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="versePatterns" minOccurs="0">
-                <xs:complexType>
-		  <xs:sequence>
-                    <xs:element name="versePattern" maxOccurs="unbounded" type="xs:string"/>
+                    <xs:element name="term" maxOccurs="unbounded" type="xs:string"/>
 		  </xs:sequence>
                 </xs:complexType>
               </xs:element>
               <xs:element name="languages" minOccurs="0">
                 <xs:complexType>
 		  <xs:sequence>
-                    <xs:element name="language" maxOccurs="3" type="xs:string"/>
+                    <xs:element name="term" maxOccurs="3" type="xs:string"/>
 		  </xs:sequence>
                 </xs:complexType>
               </xs:element>
