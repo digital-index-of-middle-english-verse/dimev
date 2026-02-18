@@ -142,19 +142,15 @@ Except `name` and `alpha`, which are required, all child elements are optional.
   Data type: an array of one or more child elements with the tag `title`.
   Content of the element `title` is ordinary string but may contain inline formatting.
 - `subjects`. Descriptive keywords for content.
-  Data type: an array of one or more child elements with the tag `subject`.
-  Content of the element `subject` is string.
+  Data type: an array of one or more child elements with the tag `term`.
+  Content of the element `term` is string.
   There is no controlled vocabulary.
-- `verseForms`. Descriptive keywords for prosodic characteristics.
-  Data type: an array of one or more child elements with the tag `verseForm`.
-  Content of the element `versePattern` is string.
-  There is no controlled vocabulary.
-- `versePatterns`. Descriptive keywords for rhyme scheme and other prosodic characteristics, sometimes overlapping with `verseForms`.
-  Data type: an array of one or more child elements with the tag `versePatterns`.
-  Content of the element `versePattern` is string.
+- `verseForms`. Descriptive keywords for formal characteristics: rhyme scheme, stanza length, etc.
+  Data type: an array of one or more child elements with the tag `term`.
+  Content of the element `term` is string.
   There is no controlled vocabulary.
 - `languages`. Names of languages employed in the item, other than English.
-  Data type: an array of one or more child elements with the tag `language`.
+  Data type: an array of one or more child elements with the tag `term`.
   There is no controlled vocabulary.
 - `ghosts`. Any bibliographic ghosts, that is, documents which, in prior scholarly tradition, are erroneously claimed to contain a copy of this item.
   Data type: an array of one or more child elements with the tag `ghost`, each of which contains free text with mixed content (recursively mixed where allowed), including inline formatting and references to witnesses, scholarly publications, and other item records.
@@ -247,7 +243,7 @@ Note:
 - Collect partial `record` elements (i.e., those `record` elements serving as cross-references to full `record` elements) in a single separate file, perhaps named `cross-references.xml`
 - In the element `author` (child of `authors`), disaggregate name suffixes and query marks indicating dubious attributions
 - Allow for critical editions to be attached to the `record` element, rather than only the `witness` sub-element
-- Supply controlled vocabularies for the content of `subject`, `verseForm`, `versePattern`, and `language`
+- Supply controlled vocabularies for the content of `subject`, `verseForm`, and `language`
 
 ## `Manuscripts.xml`
 
@@ -255,8 +251,6 @@ Note:
 
 This XML file stores bibliographic information on medieval manuscripts cited as witnesses in the XML file `Records.xml`.
 It also includes some individual copies of early printed books, cited within `Records.xml` for manuscript additions entered into them.
-Other such copies are recorded instead within `PrintedBooks.xml`.
-See [`PrintedBooks.xml`], below.
 
 Each entry is contained within a uniquely identified `item` element.
 `item` elements are serialized as children of the root element `mss`.
@@ -319,18 +313,9 @@ The structure of `Inscriptions.xml` is essentially the same as `Manuscripts.xml`
 
 ### Overview {#overview-printed-books}
 
-This XML file stores bibliographic information on early printed books cited as witnesses in the XML file `Records.xml`.
+This XML file stores bibliographic information for editions of early printed books cited as witnesses in the XML file `Records.xml`.
 Each entry is contained within a uniquely identified `bibl` element.
 `bibl` elements are serialized as children of the root element `books`.
-
-An identical XML structure is employed to record two types of witness:
-
-1. Printed texts, transmitted in all intact copies of a given edition
-2. Manuscript additions to a particular copy
-
-`bibl` elements of the second type are rare (perhaps only eight in all).
-More commonly, references to particular copies are recorded within the files `Manuscripts.xml` and `MSSIndex.xml`.
-See the [Overview to `Manuscripts.xml`](#overview-manuscripts), above.
 
 ### Document structure {#doc-struct-printed-books}
 
@@ -349,7 +334,7 @@ See the [Overview to `Manuscripts.xml`](#overview-manuscripts), above.
   The attribute `n` usually gives the corresponding item number in @PollardShorttitleCatalogueBooks1950, where available.
   For non-English books and other items not recorded in the STC, the value of `n` is often a dummy string ("X").
   Sometimes another value is used.
-- Content: Child elements `loc`, `DIMEVCount`, `authorstmt`, `titlestmt`, `pubstmt`, `repos`, and `desc`, as described in the following section
+- Content: Child elements `loc`, `DIMEVCount`, `authorstmt`, `titlestmt`, `pubstmt`, and `desc`, as described in the following section
 
 #### Child elements of `bibl`
 
@@ -363,16 +348,11 @@ See the [Overview to `Manuscripts.xml`](#overview-manuscripts), above.
 - `pubstmt`. Agent, date, and location of printing, as given in the volume or as reconstructed.
   The element `pubstmt` carries a required attribute `date`, which gives the year of publication (Gregorian calendar, Common Era).
   Data type: attribute and string.
-- `repos`. Usually empty, except when the `bibl` element points to a particular copy, in which case the `repos` element gives the holding institution of the cited copy.
-- `desc`. Content varies, depending on the reference of the `bibl` element.
-  When the `bibl` element points to an edition, the `desc` element usually repeats and concatenates the content of `authorstmt`, `title`, and `pubstmt`;
-  when the `bibl` element points to a particular copy, the `desc` element gives the shelfmark of the copy, sometimes in combination with the cataloging metadata usually given for editions.
+- `desc`. Usually repeats and concatenates the content of `authorstmt`, `title`, and `pubstmt`.
   Data type: free text with mixed content.
 
 ### Technical direction {#tech-dir-printed-books}
 
-- Distinguish between references to copies and editions
-- Extract the references to particular copies: re-serialize these to conform to the data structure employed for references to manuscripts, and move to the new directory `sources/`
 - For references to editions: implement a standard data structure for XML serialization of bibliographic metadata for early printed books
 - Disaggregate references to @PollardShorttitleCatalogueBooks1950 from other content of the attribute `n`
 - Supply references to the English Short Title Catalog (ESTC) where available.
