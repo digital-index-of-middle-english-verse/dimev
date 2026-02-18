@@ -3293,7 +3293,7 @@
         <repos>Bodleian Library</repos>
         <desc>Rawlinson poet. 172 <!--need SC number(SC ??)-->
         </desc>
-	<!-- https://celm.folger.edu/repositories/bodleian-rawlinson-150.html -->
+        <!-- https://celm.folger.edu/repositories/bodleian-rawlinson-150.html -->
     </item>
     <item xml:id="BodRawPoe175">
         <loc>Oxford</loc>
@@ -11819,7 +11819,8 @@
     <item xml:id="BLIB49408">
         <loc>London</loc>
         <repos>British Library</repos>
-        <desc>Printed Book IB.49408 (Alliaco1480)</desc>
+        <desc>Printed Book IB.49408</desc>
+        <!-- Petrus de Alliaco, <i>Devotae Meditationes Circa Septem Psalmos Poenitentiales</i>, Bruges, Collard Mansion, 1480?-->
     </item>
     <item xml:id="BL1379a27">
         <loc>London</loc>
@@ -13976,7 +13977,8 @@
     <item xml:id="StPauls47G3">
         <loc>London</loc>
         <repos>St Paul's Cathedral Library</repos>
-        <desc>CSE0706.01 [formerly 47.G.3] (printed)</desc>
+        <desc>CSE0706.01 [formerly 47.G.3]</desc>
+        <!-- Printed book: Thesaurus Grammaticus linguae sanctae Hebraeae (Basle, 1616) -->
     </item>
     <item xml:id="UnivLon278">
         <loc>London</loc>
@@ -16905,11 +16907,6 @@
         <repos>Senshu University</repos>
         <desc>Senshu University MS 1 [<i>olim</i> Schøyen 194; <i>post</i> Penrose 12]</desc>
     </item>
-    <item xml:id="Schoyen615">
-        <loc>Oslo and London</loc>
-        <repos>Schøyen Collection</repos>
-        <desc>615</desc>
-    </item>
     <item xml:id="Schoyen16772">
         <loc>Oslo and London</loc>
         <repos>Schøyen Collection</repos>
@@ -16921,12 +16918,6 @@
         <repos>Schøyen Collection</repos>
         <desc>689 [<i>olim</i> Windsor, Beaumont College, sold Christie's 28 June 1973, lot
             48]</desc>
-    </item>
-    <item xml:id="SchoyenPP">
-        <loc>Oslo and London</loc>
-        <repos>Schøyen Collection</repos>
-        <desc>[<i>Piers Plowman</i> fragment [<i>olim</i> Holloway, Old Vicarage, Wickhambrook,
-            Suffolk, <i>olim</i> Hanna]</desc>
     </item>
     <item xml:id="Leningrad">
         <loc>Leningrad</loc>
@@ -18242,7 +18233,7 @@
         <repos>Northamptonshire Record Office</repos>
         <desc>ANW/1/1</desc>
     </item>
-    <item xml:id="Schøyen33">
+    <item xml:id="Schoyen33">
         <loc>Oslo and London</loc>
         <repos>Schøyen Collection</repos>
         <desc>33</desc>
@@ -18464,5 +18455,59 @@
         <loc>Bedfordshire</loc>
         <repos>Woburn Abbey</repos>
         <desc>MS 181</desc>
+    </item>
+    <item xml:id="OxfBal695h6">
+        <loc>Oxford</loc>
+        <repos>Balliol College</repos>
+        <desc>695.h.6</desc>
+        <!-- printed book: Lazius, Wolfgang, <i>Vienna Austriae: Rerum Viennensium Commentarij</i> (Basle, 1546) -->
+    </item>
+    <item xml:id="OxfBal23b6">
+        <loc>Oxford</loc>
+        <repos>Balliol College</repos>
+        <desc>23.b.6</desc>
+        <!-- printed book: Lycophron, Willem, <i>Lykophronos tou Chalkideos Alexandra</i> (Basle, 1566) -->
+    </item>
+    <item xml:id="Ryff1548">
+        <loc>London</loc>
+        <repos>Royal College of Physicians</repos>
+        <desc>D1/19-c-27</desc>
+        <!-- printed book: Ryff, Walther. In Caii Plinii Secvndi Natvralis historiae argutissimi Scriptoris (Würzburg, 1548) -->
+    </item>
+    <item xml:id="Voraigne1503">
+        <loc>London</loc>
+        <repos>British Library</repos>
+        <desc>Printed Book C.15.C.7</desc>
+        <!-- Caxton, Golden Legend. STC 24877 -->
+    </item>
+    <item xml:id="deMugello1562">
+        <loc>New Haven, CT</loc>
+        <repos>Beinecke Library</repos>
+        <desc>Beinecke 2008 2479</desc>
+        <!-- Printed book: de Mugello, Dinus, De regulis iuris -->
+    </item>
+    <item xml:id="Alliaco1476">
+        <loc>London</loc>
+        <repos>British Library</repos>
+        <desc>IB.49408</desc>
+        <!-- Printed book: Meditationes circa psalmos poenitentiales, Petrus de Alliaco, printed by Caxton -->
+    </item>
+    <item xml:id="HuntingtonRB61866">
+        <loc>San Marino, CA</loc>
+        <repos>Huntington Library</repos>
+        <desc>RB61866</desc>
+        <!-- Printed book: STC 14546 -->
+    </item>
+    <item xml:id="IB49437">
+        <loc>London</loc>
+        <repos>British Library</repos>
+        <desc>IB.49437</desc>
+        <!-- Printed book: Mielot, Jean, translator, <i>Cordiale quattuor novissimorum [French] Les quattres choses derrenieres</i> [Bruges: William Caxton, 1475?] -->
+    </item>
+    <item xml:id="PML698">
+        <loc>New York, NY</loc>
+        <repos>Pierpont Morgan Library</repos>
+        <desc>PML 698</desc>
+        <!-- Printed book: Laurentius, Frater. <i>Somme des vices et vertus [English] The Ryal Book</i> (Tr. William Caxton). [Westminster: William Caxton, about 1486]-->
     </item>
 </mss>
