@@ -179,21 +179,21 @@ def check_textcarrier_refs(textcarrier_ids, bibl_ids):
     # Check for bad outbound references in Records.xml
     referenced_textcarriers = set()
     referenced_bibl = set()
-    target_tags = ['repertory', 'edition', 'facsimile', 'biblio', 'source', 'mss']
+    target_tags = ['bibl', 'source', 'mss']
     for elem in root.iter():
         if elem.tag in target_tags:
             key = elem.get('key')
             if key is not None:
-                if elem.tag == 'source' or elem.tag == 'mss':
-                    referenced_textcarriers.add(key)
-                    if key not in textcarrier_ids:
-                        print(f'WARNING: Source key {key} is referenced in Records.xml but not defined')
-                        error_count += 1
-                    item_checks += 1
-                else: # modern scholarly works
+                if elem.tag == 'bibl':
                     referenced_bibl.add(key)
                     if key not in bibl_ids:
                         print(f'WARNING: Bibliography key {key} is referenced in Records.xml but not defined')
+                        error_count += 1
+                    item_checks += 1
+                else: # text-carriers
+                    referenced_textcarriers.add(key)
+                    if key not in textcarrier_ids:
+                        print(f'WARNING: Source key {key} is referenced in Records.xml but not defined')
                         error_count += 1
                     item_checks += 1
 
