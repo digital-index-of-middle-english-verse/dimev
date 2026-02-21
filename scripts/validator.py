@@ -11,7 +11,7 @@ import glob
 import re
 from lxml import etree
 from rdflib import Graph, Literal
-from rdflib.namespace import DC, DCTERMS
+from rdflib import Namespace
 
 data_dir = 'data/'
 schema_dir = 'schemas/'
@@ -43,26 +43,17 @@ def validate_bibl_ids():
     id_registry = set()
     error_count = 0
     item_checks = 0
-    CITATION_KEY_LINE = re.compile(r'^\s*Citation Key:\s*(\S+)\s*$')
     pattern = r'[A-Za-z0-9_\-\.]+'
     path = data_dir + filename
+    Z = Namespace("http://www.zotero.org/namespaces/export#")
     g = Graph()
     g.parse(path)
 
     # Iterate over all dc:description triples
-    for s, p, o in list(g.triples((None, DC.description, None))):
-        text = str(o)
-        key_found = False
-        for line in text.splitlines():
-            m = CITATION_KEY_LINE.match(line)
-            if m:
-                bibkey = m.group(1)
-                id_registry, error_count = validate_id(bibkey, pattern, filename, id_registry, error_count)
-                key_found = True
-                item_checks += 1
-        if key_found == False:
-            print(f'WARNING: No citation key found!')
-            error_count += 1
+    for s, p, o in list(g.triples((None, Z.citationKey, None))):
+        bibkey = str(o)
+        id_registry, error_count = validate_id(bibkey, pattern, filename, id_registry, error_count)
+        item_checks += 1
 
     # Report results
     print(f'Checks of citation keys in {filename} completed with {item_checks} checks and {error_count} errors.\n')
