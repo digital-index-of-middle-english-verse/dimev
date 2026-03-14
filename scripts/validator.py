@@ -50,7 +50,7 @@ def check_ref_values(file):
     # step of clean-up. Meantime, to identify data error, we cross-check the
     # values of ref.text and xml:target.
 
-    print(f'Checking reference targets in {file}')
+    print(f'\nChecking reference targets in {file}')
     count = 0
     tree = etree.parse(file)
     root = tree.getroot()
@@ -72,11 +72,12 @@ def check_ref_values(file):
 
                 # Some target values point to a record, others to a witness.
                 # Values that point to a witness contain hyphens as delimiter.
-                # These require processing before testing for equality. From a
-                # target value of type "1713#wit-1713-3" retain "1713-3"
+                # These require processing before testing for equality.
 
                 if '-' in raw_target:
                     target_list = raw_target.split('-', 1)
+                    count = test_witness_refs(target_list, count)
+                    # From a target value of type "1713#wit-1713-3" retain "1713-3"
                     target = target_list[1]
                 else:
                     target = raw_target
@@ -106,6 +107,20 @@ def check_ref_values(file):
                         count += 1
 
     print(f'Found {count} errors')
+
+def test_witness_refs(target_list, count):
+
+    # In a target value of type "1713#wit-1713-3" check that the first
+    # redundant reference to record number ("1713") is equal to the second
+    # ("1713"). The values must be processed before comparison; they are stored
+    # in target_list as ['1713#wit', '1713-3']
+
+    first_value = re.sub('#wit$', '', target_list[0])
+    second_value = re.sub(r'-\d+$', '', target_list[1])
+    if first_value != second_value:
+        print(f'Bad match: {"-".join(target_list)}')
+        count += 1
+    return count
 
 def validate_bibl_ids():
     filename = 'Bibliography.rdf'
