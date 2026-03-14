@@ -36,91 +36,22 @@ def main():
     check_textcarrier_refs(textcarrier_ids, bibl_ids)
 
     # Check ref values
-    check_ref_values(data_dir + 'Records.xml')
+    path = data_dir + 'Records.xml'
+    check_ref_values(path, record_ids)
 
     print('\nAll checks complete.')
 
-def check_ref_values(file):
-
-    # Most ref elements provide redundant reference to their target element.
-    # The targetted DIMEV number is designated twice: as the value of
-    # xml:target (used to build the link) and the value of ref.text (printed as
-    # human-readable anchor text). Anchor text may be constructed from
-    # xml:target, so ref.text is superfluous. It will be deleted in a future
-    # step of clean-up. Meantime, to identify data error, we cross-check the
-    # values of ref.text and xml:target.
-
+def check_ref_values(file, id_registry):
     print(f'\nChecking reference targets in {file}')
     count = 0
     tree = etree.parse(file)
     root = tree.getroot()
-    for record in root.findall('record'):
-
-        # Get record identifiers. These will be used in error-reporting
-        alpha = record.find('alpha')
-        alpha = str(alpha.text)
-        idno = record.get(namespace + 'id')
-        if idno is None:
-            idno = 'unnumbered stub'
-
-        # Iterate and sift out ref elements
-        for ref in record.iter('ref'):
-            if ref.text is None: # Nothing to cross-check
-                continue
-            else:
-                raw_target = ref.get(namespace + 'target', '')
-
-                # Some target values point to a record, others to a witness.
-                # Values that point to a witness contain hyphens as delimiter.
-                # These require processing before testing for equality.
-
-                if '-' in raw_target:
-                    target_list = raw_target.split('-', 1)
-                    count = test_witness_refs(target_list, count)
-                    # From a target value of type "1713#wit-1713-3" retain "1713-3"
-                    target = target_list[1]
-                else:
-                    target = raw_target
-
-                # Process the value of ref.text
-                text = str(ref.text)
-                text = text.strip()
-                text = text.strip('()')
-
-                # The text value of ref is usually a DIMEV record number, but
-                # sometimes we have given a DIMEV witness number (with hyphen
-                # as delimiter). Distinguish these and test accordingly.
-
-                if '-' in text:
-                    if text != target:
-                        print(f'Bad match in {idno} ("{alpha}"): target "{raw_target}" vs text "{ref.text}"')
-                        count += 1
-                else:
-
-                    # Strip the witness identifier from the target value.  From
-                    # a processed target value of type "1713-3" retain "1713"
-
-                    target_list = target.split('-')
-                    target = target_list[0]
-                    if text != target:
-                        print(f'Bad match in {idno} ("{alpha}"): target "{raw_target}" vs text "{ref.text}"')
-                        count += 1
-
+    for ref in root.iter('ref'):
+        target = ref.get('target')
+        if target not in id_registry:
+            print(f'WARNING: bad target value "{target}"')
+            count += 1
     print(f'Found {count} errors')
-
-def test_witness_refs(target_list, count):
-
-    # In a target value of type "1713#wit-1713-3" check that the first
-    # redundant reference to record number ("1713") is equal to the second
-    # ("1713"). The values must be processed before comparison; they are stored
-    # in target_list as ['1713#wit', '1713-3']
-
-    first_value = re.sub('#wit$', '', target_list[0])
-    second_value = re.sub(r'-\d+$', '', target_list[1])
-    if first_value != second_value:
-        print(f'Bad match: {"-".join(target_list)}')
-        count += 1
-    return count
 
 def validate_bibl_ids():
     filename = 'Bibliography.rdf'
