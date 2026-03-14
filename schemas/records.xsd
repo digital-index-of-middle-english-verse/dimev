@@ -170,11 +170,7 @@
     </xs:sequence>
   </xs:complexType>
   <xs:complexType name="crossref">
-    <xs:simpleContent>
-      <xs:extension base="xs:string">
-	<xs:anyAttribute namespace="##any" processContents="lax"/>
-      </xs:extension>
-    </xs:simpleContent>
+    <xs:attribute name="target" type="xs:string" use="required"/>
   </xs:complexType>
   <xs:complexType name="point-locator">
     <xs:simpleContent>
