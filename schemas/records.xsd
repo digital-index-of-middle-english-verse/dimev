@@ -117,7 +117,7 @@
           	                  <xs:element name="end" type="point-locator" minOccurs="0"/>
           	                </xs:sequence>
 			      </xs:choice>
-          	              <xs:attribute name="key" type="xs:string"/>
+                              <xs:attribute name="key" type="xs:string" use="required"/>
           	              <xs:attribute name="prefix" type="xs:string"/>
           	            </xs:complexType>
           	          </xs:element>
@@ -186,7 +186,7 @@
       <xs:element name="i" type="xs:string"/>
       <xs:element name="sup" type="xs:string"/>
     </xs:choice>
-    <xs:attribute name="key" type="xs:string"/>
+    <xs:attribute name="key" type="xs:string" use="required"/>
   </xs:complexType>
   <xs:complexType name="transcription" mixed="true">
     <xs:choice minOccurs="0" maxOccurs="unbounded">
