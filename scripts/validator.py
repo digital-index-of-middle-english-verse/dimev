@@ -18,32 +18,45 @@ schema_dir = 'schemas/'
 namespace = '{http://www.w3.org/XML/1998/namespace}'
 
 def main():
+    passing = True
 
     # Validate files against schemas
     file_list = glob.glob(data_dir + '*.xml')
-    validate_files(file_list)
+    passing = validate_by_schema(passing, file_list)
+
+    # Validate ids and content
+
+    passing = validate_ids_and_content(passing)
+
+    print('\nAll checks complete.')
+    if passing:
+        print('Success! No validation errors.')
+    else:
+        print('WARNING: A least one validation failed. Scroll up for details.')
+
+def validate_ids_and_content(passing):
 
     # Gather and validate ids
-    record_ids = validate_xml_ids(scope='texts')
-    textcarrier_ids = validate_xml_ids(scope='textcarriers')
-    bibl_ids = validate_bibl_ids()
+    passing, record_ids = validate_xml_ids(passing, scope='texts')
+    passing, textcarrier_ids = validate_xml_ids(passing, scope='textcarriers')
+    passing, bibl_ids = validate_bibl_ids(passing)
 
     # Verify uniqueness of ids within entire namespace
     all_ids = [record_ids, textcarrier_ids, bibl_ids]
-    verify_id_uniqueness(all_ids)
+    passing = verify_id_uniqueness(passing, all_ids)
 
     # Check outgoing references in Records.xml against textcarrier and bibl ids
-    check_textcarrier_refs(textcarrier_ids, bibl_ids)
+    passing = check_bibl_refs(passing, 'Records.xml', textcarrier_ids, bibl_ids)
 
-    # Check ref values
-    check_ref_values('Records.xml', record_ids)
+    # Check cross-references within Records.xml
+    passing = check_crossrefs(passing, 'Records.xml', record_ids)
 
     # Validate terms: subjects, verseForms, languages
-    validate_terms()
+    passing = validate_terms(passing)
 
-    print('\nAll checks complete.')
+    return passing
 
-def validate_terms():
+def validate_terms(passing):
     tree = etree.parse(data_dir + 'Records.xml')
     root = tree.getroot()
     item_checks = 0
@@ -62,9 +75,11 @@ def validate_terms():
                 for term in target_element:
                     if term.text not in valid_terms:
                         print(f'WARNING: unrecognized {domain} term "{term.text}"')
+                        passing = False
                         error_count += 1
                 item_checks += 1
     print(f'Checked {item_checks} terms. Found {error_count} errors.')
+    return passing
 
 def get_valid_terms(domain):
     filename = domain + '-terms.xml'
@@ -76,7 +91,7 @@ def get_valid_terms(domain):
         valid_terms.append(term.text)
     return valid_terms
 
-def check_ref_values(file, id_registry):
+def check_crossrefs(passing, file, id_registry):
     print(f'\nChecking reference targets in {file}')
     item_checks = 0
     error_count = 0
@@ -86,11 +101,13 @@ def check_ref_values(file, id_registry):
         target = ref.get('target')
         if target not in id_registry:
             print(f'WARNING: bad target value "{target}"')
+            passing = False
             error_count += 1
         item_checks += 1
     print(f'Checked {item_checks} ref elements. Found {error_count} errors.')
+    return passing
 
-def validate_bibl_ids():
+def validate_bibl_ids(passing):
     filename = 'Bibliography.rdf'
     print(f'Validating citation keys in {filename}...')
     id_registry = set()
@@ -110,9 +127,11 @@ def validate_bibl_ids():
 
     # Report results
     print(f'Checks of citation keys in {filename} completed with {item_checks} checks and {error_count} errors.\n')
-    return id_registry
+    if error_count > 0:
+        passing = False
+    return passing, id_registry
 
-def validate_xml_ids(scope):
+def validate_xml_ids(passing, scope):
     # Select files for scope
     if scope == 'texts':
         file_list = ['Records.xml']
@@ -160,7 +179,7 @@ def validate_xml_ids(scope):
 
     # Report results
     print(f'Checks of xml:ids in {scope} completed with {item_checks} checks and {error_count} errors.\n')
-    return id_registry
+    return passing, id_registry
 
 def validate_id(item_id, pattern, filename, id_registry, error_count):
     if not re.fullmatch(pattern, item_id):
@@ -173,7 +192,7 @@ def validate_id(item_id, pattern, filename, id_registry, error_count):
         id_registry.add(item_id)
     return id_registry, error_count
 
-def validate_files(file_list):
+def validate_by_schema(passing, file_list):
     # Validate a single file, if its path is given on the command line
     if len(sys.argv) > 1:
         file_list = [sys.argv[1]]
@@ -196,6 +215,8 @@ def validate_files(file_list):
         print('Validation completed with no failures.\n')
     else:
         print(f'{error_count} file(s) failed validation.\n')
+        passing = False
+    return passing
 
 def get_schema(xml_file):
     file_pairs = {
@@ -212,8 +233,7 @@ def get_schema(xml_file):
     # Load the XSD schema
     return xmlschema.XMLSchema(schema_dir + schema_file)
 
-def check_textcarrier_refs(textcarrier_ids, bibl_ids):
-    filename = 'Records.xml'
+def check_bibl_refs(passing, filename, textcarrier_ids, bibl_ids):
     tree = etree.parse(data_dir + filename)
     root = tree.getroot()
     print(f'\nChecking bibliographic and source references in {filename}...')
@@ -233,12 +253,14 @@ def check_textcarrier_refs(textcarrier_ids, bibl_ids):
                     referenced_bibl.add(key)
                     if key not in bibl_ids:
                         print(f'WARNING: Bibliography key {key} is referenced in Records.xml but not defined')
+                        passing = False
                         error_count += 1
                     item_checks += 1
                 else: # text-carriers
                     referenced_textcarriers.add(key)
                     if key not in textcarrier_ids:
                         print(f'WARNING: Source key {key} is referenced in Records.xml but not defined')
+                        passing = False
                         error_count += 1
                     item_checks += 1
 
@@ -256,7 +278,9 @@ def check_textcarrier_refs(textcarrier_ids, bibl_ids):
     print(f'Found {len(unreferenced_textcarrier_keys)} unreferenced textcarrier keys and {len(unreferenced_bibl_keys)} unreferenced keys to modern scholarly works')
     print(f'Checks completed with {item_checks} checks and {error_count} errors.')
 
-def verify_id_uniqueness(list_of_sets):
+    return passing
+
+def verify_id_uniqueness(passing, list_of_sets):
     print('Checking for duplicate ids across all sets of ids...')
     duplicate = False
     check_count = 0
@@ -272,6 +296,9 @@ def verify_id_uniqueness(list_of_sets):
     print(f"Completed with {check_count} checks.")
     if duplicate == False:
         print('No duplicate ids found.')
+    else:
+        passing == False
+    return passing
 
 if __name__ == "__main__":
     main()
