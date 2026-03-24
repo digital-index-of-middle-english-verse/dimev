@@ -36,22 +36,23 @@ def main():
     check_textcarrier_refs(textcarrier_ids, bibl_ids)
 
     # Check ref values
-    path = data_dir + 'Records.xml'
-    check_ref_values(path, record_ids)
+    check_ref_values('Records.xml', record_ids)
 
     print('\nAll checks complete.')
 
 def check_ref_values(file, id_registry):
     print(f'\nChecking reference targets in {file}')
-    count = 0
-    tree = etree.parse(file)
+    item_checks = 0
+    error_count = 0
+    tree = etree.parse(data_dir + file)
     root = tree.getroot()
     for ref in root.iter('ref'):
         target = ref.get('target')
         if target not in id_registry:
             print(f'WARNING: bad target value "{target}"')
-            count += 1
-    print(f'Found {count} errors')
+            error_count += 1
+        item_checks += 1
+    print(f'Checked {item_checks} ref elements. Found {error_count} errors.')
 
 def validate_bibl_ids():
     filename = 'Bibliography.rdf'
