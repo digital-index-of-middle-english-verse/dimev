@@ -165,10 +165,11 @@ def get_schema(xml_file):
             ('Inscriptions.xml', 'inscriptions.xsd'),
             ('Manuscripts.xml', 'manuscripts.xsd'),
             ('PrintedBooks.xml', 'printedbooks.xsd'),
-            ('Records.xml', 'records.xsd')
+            ('Records.xml', 'records.xsd'),
+            ('[a-z]+-terms.xml', 'terms.xsd')
             }
     for pair in file_pairs:
-        if pair[0] == xml_file:
+        if re.fullmatch(pair[0], xml_file):
             schema_file = pair[1]
             break
     # Load the XSD schema
