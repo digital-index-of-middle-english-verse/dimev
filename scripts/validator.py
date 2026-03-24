@@ -38,7 +38,43 @@ def main():
     # Check ref values
     check_ref_values('Records.xml', record_ids)
 
+    # Validate terms: subjects, verseForms, languages
+    validate_terms()
+
     print('\nAll checks complete.')
+
+def validate_terms():
+    tree = etree.parse(data_dir + 'Records.xml')
+    root = tree.getroot()
+    item_checks = 0
+    error_count = 0
+    domains = ['subject', 'form', 'language']
+    print(f'\nValidating {", ".join(domains)} terms...')
+    for domain in domains:
+        valid_terms = get_valid_terms(domain)
+        if domain == 'form':
+            target_tag = 'verseForms'
+        else:
+            target_tag = domain + 's'
+        for record in root.findall('record'):
+            target_element = record.find(target_tag)
+            if target_element is not None:
+                for term in target_element:
+                    if term.text not in valid_terms:
+                        print(f'WARNING: unrecognized {domain} term "{term.text}"')
+                        error_count += 1
+                item_checks += 1
+    print(f'Checked {item_checks} terms. Found {error_count} errors.')
+
+def get_valid_terms(domain):
+    filename = domain + '-terms.xml'
+    tree = etree.parse(data_dir + filename)
+    root = tree.getroot()
+    valid_terms = []
+    for item in root.findall('item'):
+        term = item.find('term')
+        valid_terms.append(term.text)
+    return valid_terms
 
 def check_ref_values(file, id_registry):
     print(f'\nChecking reference targets in {file}')
