@@ -1,44 +1,41 @@
 #!/usr/bin/env python3
 
-# Run from the root directory.
-
 # To validate a single file against its schema, supply the path on the command
 # line. Else the script validates all files in the data directory.
 
 import xmlschema
 import sys
-import glob
 import re
 from lxml import etree
-from rdflib import Graph, Literal
-from rdflib import Namespace
+from pathlib import Path
+from rdflib import Graph, Literal, Namespace
 
-data_dir = 'data/'
-schema_dir = 'schemas/'
+root = Path(__file__).parent.parent.resolve()
+data_dir = root / 'data'
+schema_dir = root / 'schemas'
 namespace = '{http://www.w3.org/XML/1998/namespace}'
 
 def main():
     passing = True
 
     # Validate files against schemas
-    file_list = glob.glob(data_dir + '*.xml')
-    passing = validate_by_schema(passing, file_list)
+    passing = validate_by_schema(passing)
 
-    # Validate ids and content
+    if passing:
+        # Validate ids and content
+        passing = validate_ids_and_content(passing)
 
-    passing = validate_ids_and_content(passing)
-
-    print('\nAll checks complete.')
     if passing:
         print('Success! No validation errors.')
+        sys.exit(0)
     else:
         print('WARNING: A least one validation failed. Scroll up for details.')
+        sys.exit(1)
 
 def validate_ids_and_content(passing):
 
-    # Gather and validate ids
-    passing, record_ids = validate_xml_ids(passing, scope='texts')
-    passing, textcarrier_ids = validate_xml_ids(passing, scope='textcarriers')
+    ## Gather and validate ids
+    passing, record_ids, textcarrier_ids = validate_xml_ids(passing)
     passing, bibl_ids = validate_bibl_ids(passing)
 
     # Verify uniqueness of ids within entire namespace
@@ -46,18 +43,20 @@ def validate_ids_and_content(passing):
     passing = verify_id_uniqueness(passing, all_ids)
 
     # Check outgoing references in Records.xml against textcarrier and bibl ids
-    passing = check_bibl_refs(passing, 'Records.xml', textcarrier_ids, bibl_ids)
+    passing = check_bibl_refs(passing, textcarrier_ids, bibl_ids)
 
     # Check cross-references within Records.xml
-    passing = check_crossrefs(passing, 'Records.xml', record_ids)
+    passing = check_crossrefs(passing, record_ids)
 
     # Validate terms: subjects, verseForms, languages
     passing = validate_terms(passing)
 
+    print('\nAll checks complete.')
     return passing
 
 def validate_terms(passing):
-    tree = etree.parse(data_dir + 'Records.xml')
+    filename = 'Records.xml'
+    tree = etree.parse(data_dir / filename)
     root = tree.getroot()
     item_checks = 0
     error_count = 0
@@ -83,7 +82,7 @@ def validate_terms(passing):
 
 def get_valid_terms(domain):
     filename = domain + '-terms.xml'
-    tree = etree.parse(data_dir + filename)
+    tree = etree.parse(data_dir / filename)
     root = tree.getroot()
     valid_terms = []
     for item in root.findall('item'):
@@ -91,11 +90,12 @@ def get_valid_terms(domain):
         valid_terms.append(term.text)
     return valid_terms
 
-def check_crossrefs(passing, file, id_registry):
-    print(f'\nChecking reference targets in {file}')
+def check_crossrefs(passing, id_registry):
+    filename = 'Records.xml'
+    print(f'\nChecking reference targets in {filename}')
     item_checks = 0
     error_count = 0
-    tree = etree.parse(data_dir + file)
+    tree = etree.parse(data_dir / filename)
     root = tree.getroot()
     for ref in root.iter('ref'):
         target = ref.get('target')
@@ -114,7 +114,7 @@ def validate_bibl_ids(passing):
     error_count = 0
     item_checks = 0
     pattern = r'[A-Za-z0-9_\-\.]+'
-    path = data_dir + filename
+    path = data_dir / filename
     Z = Namespace("http://www.zotero.org/namespaces/export#")
     g = Graph()
     g.parse(path)
@@ -131,23 +131,20 @@ def validate_bibl_ids(passing):
         passing = False
     return passing, id_registry
 
-def validate_xml_ids(passing, scope):
-    # Select files for scope
-    if scope == 'texts':
-        file_list = ['Records.xml']
-    elif scope == 'textcarriers':
-        file_list = ['Manuscripts.xml', 'PrintedBooks.xml', 'Inscriptions.xml']
+def validate_xml_ids(passing):
+    file_list = ['Records.xml', 'Manuscripts.xml', 'PrintedBooks.xml', 'Inscriptions.xml']
 
-    # Define container and counters
-    id_registry = set()
+    # Define containers and counters
+    record_ids = set()
+    textcarrier_ids = set()
     error_count = 0
     item_checks = 0
     for filename in file_list:
         print(f'Validating xml:ids in {filename}...')
-        path = data_dir + filename
+        path = data_dir / filename
         tree = etree.parse(path)
         root = tree.getroot()
-        if scope == 'textcarriers':
+        if filename != 'Records.xml':
             pattern = r'[A-Za-z0-9_\-\.]+'
             child = 'item'
             if filename == 'PrintedBooks.xml':
@@ -155,7 +152,7 @@ def validate_xml_ids(passing, scope):
                 child = 'bibl'
             for item in root.findall(child):
                 item_id = item.get(namespace + 'id')
-                id_registry, error_count = validate_id(item_id, pattern, filename, id_registry, error_count)
+                textcarrier_ids, error_count = validate_id(item_id, pattern, filename, textcarrier_ids, error_count)
                 item_checks += 1
 
         else: # Records.xml
@@ -164,7 +161,7 @@ def validate_xml_ids(passing, scope):
                 record_id = item.get(namespace + 'id')
                 pattern = r'record-\d+(\.\d{1,2})?'
                 if record_id is not None: # NOTE: not all items have an xml:id
-                    id_registry, error_count = validate_id(record_id, pattern, filename, id_registry, error_count)
+                    record_ids, error_count = validate_id(record_id, pattern, filename, record_ids, error_count)
                     item_checks += 1
 
                     # Check the xml:ids on witness elements, if present
@@ -174,12 +171,12 @@ def validate_xml_ids(passing, scope):
                             wit_id = witness.get(namespace + 'id')
                             dimev_number = re.sub('record-', '', record_id)
                             pattern = 'wit-' + dimev_number + r'-\d{1,3}'
-                            id_registry, error_count = validate_id(wit_id, pattern, filename, id_registry, error_count)
+                            record_ids, error_count = validate_id(wit_id, pattern, filename, record_ids, error_count)
                             item_checks += 1
 
     # Report results
-    print(f'Checks of xml:ids in {scope} completed with {item_checks} checks and {error_count} errors.\n')
-    return passing, id_registry
+    print(f'Checks of xml:ids completed with {item_checks} checks and {error_count} errors.\n')
+    return passing, record_ids, textcarrier_ids
 
 def validate_id(item_id, pattern, filename, id_registry, error_count):
     if not re.fullmatch(pattern, item_id):
@@ -192,21 +189,25 @@ def validate_id(item_id, pattern, filename, id_registry, error_count):
         id_registry.add(item_id)
     return id_registry, error_count
 
-def validate_by_schema(passing, file_list):
+def validate_by_schema(passing):
+    error_count = 0
+
     # Validate a single file, if its path is given on the command line
     if len(sys.argv) > 1:
-        file_list = [sys.argv[1]]
-    file_count = 1
-    error_count = 0
-    for xml_file in file_list:
-        xml_file = re.sub(data_dir, '', xml_file) # strip directory, if present
-        print(f'Validating "{xml_file}" against schema ({file_count} of {len(file_list)})...')
-        schema = get_schema(xml_file)
+        print('Found one XML file to validate against schema...')
+        filename = Path(sys.argv[1]).name
+        xml_files = [ data_dir / filename ]
+    else:
+        print('Validating XML files against schemas...')
+        xml_files = data_dir.glob('*.xml')
+
+    for file in xml_files:
+        print(f'Validating "{file.name}"...')
+        schema = get_schema(file.name)
         # Validate the XML file
         try:
-            schema.validate(data_dir + xml_file)
+            schema.validate(file)
             print("XML is valid")
-            file_count += 1
         except xmlschema.XMLSchemaValidationError as e:
             print("XML validation failed:")
             print(e)
@@ -218,7 +219,7 @@ def validate_by_schema(passing, file_list):
         passing = False
     return passing
 
-def get_schema(xml_file):
+def get_schema(xml_filename):
     file_pairs = {
             ('Inscriptions.xml', 'inscriptions.xsd'),
             ('Manuscripts.xml', 'manuscripts.xsd'),
@@ -227,14 +228,16 @@ def get_schema(xml_file):
             ('[a-z]+-terms.xml', 'terms.xsd')
             }
     for pair in file_pairs:
-        if re.fullmatch(pair[0], xml_file):
-            schema_file = pair[1]
+        if re.fullmatch(pair[0], xml_filename):
+            schema_filename = pair[1]
             break
     # Load the XSD schema
-    return xmlschema.XMLSchema(schema_dir + schema_file)
+    schema_path = schema_dir / schema_filename
+    return xmlschema.XMLSchema(schema_path)
 
-def check_bibl_refs(passing, filename, textcarrier_ids, bibl_ids):
-    tree = etree.parse(data_dir + filename)
+def check_bibl_refs(passing, textcarrier_ids, bibl_ids):
+    filename = 'Records.xml'
+    tree = etree.parse(data_dir / filename)
     root = tree.getroot()
     print(f'\nChecking bibliographic and source references in {filename}...')
     error_count = 0
