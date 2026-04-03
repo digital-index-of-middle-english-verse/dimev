@@ -125,6 +125,7 @@ Except `name` and `alpha`, which are required, all child elements are optional.
   This is used for alphabetical sorting of items.
   Data type: string
 - `repertories`. Reference numbers assigned to the item in other reference works, namely, @BrownIndexMiddleEnglish1943, @RobbinsSupplementIndexMiddle1965, @BoffeyNewIndexMiddle2005, @RinglerBibliographyIndexEnglish1988, @RinglerBibliographyIndexEnglish1992, @WhitingProverbsSentencesProverbial1968, and the [Bibliography of the Middle English Compendium](https://quod.lib.umich.edu/m/middle-english-dictionary/bibliography), among others.
+- `editions`. A list of bibliographic references to critical editions.
 - `description`. Descriptive commentary on the item.
   Data type: free text with mixed content (recursively mixed where allowed), including inline formatting and references to witnesses, scholarly publications, and other item records.
 - `descNote`. Descriptive commentary on the item, similar to the content of `description` but usually more limited in scope or importance.
@@ -144,14 +145,14 @@ Except `name` and `alpha`, which are required, all child elements are optional.
 - `subjects`. Descriptive keywords for content.
   Data type: an array of one or more child elements with the tag `term`.
   Content of the element `term` is string.
-  There is no controlled vocabulary.
+  Controlled vocabulary is set by `subject-terms.xml`.
 - `verseForms`. Descriptive keywords for formal characteristics: rhyme scheme, stanza length, etc.
   Data type: an array of one or more child elements with the tag `term`.
   Content of the element `term` is string.
-  There is no controlled vocabulary.
+  Controlled vocabulary is set by `form-terms.xml`.
 - `languages`. Names of languages employed in the item, other than English.
   Data type: an array of one or more child elements with the tag `term`.
-  There is no controlled vocabulary.
+  Controlled vocabulary is set by `language-terms.xml`.
 - `ghosts`. Any bibliographic ghosts, that is, documents which, in prior scholarly tradition, are erroneously claimed to contain a copy of this item.
   Data type: an array of one or more child elements with the tag `ghost`, each of which contains free text with mixed content (recursively mixed where allowed), including inline formatting and references to witnesses, scholarly publications, and other item records.
 - `witnesses`. The original witnesses to the item (usually manuscripts, sometimes inscriptions or early printed books).
@@ -198,16 +199,11 @@ All other child elements are optional.
 - `MSTitle`. Any title attribution transmitted with the witness.
   Data type: free text with mixed content (recursively mixed where allowed), including inline formatting and references to scholarly publications and other witnesses, items, or documents.
 - `facsimiles`. References to published facsimile reproductions of the source document.
-  Data type: an array of one or more child elements with the tag `facsimile`.
+  Data type: an array of one or more child elements with the tag `item`.
   Each child element carries an attribute `key`, which links to an item in the [Zotero Group Library].
-  The content of `facsimile` is often string but may be mixed.
-  **Note**: facsimiles are recorded by DIMEV under individual witnesses, even when the facsimile reproduction is of the entire source document.
 - `editions`. References to modern scholarly transcriptions and editions.
-  Data type: an array of one or more child elements with the tag `edition`.
+  Data type: an array of one or more child elements with the tag `item`.
   Each child element carries an attribute `key`, which links to an item in the [Zotero Group Library].
-  The content of `edition` is often string but may be mixed.
-  **Note**: critical editions are recorded by DIMEV under the witness employed as base text.
-  This confuses the categories of critical and diplomatic editions.
 
 #### Attributes of `source`
 
@@ -242,8 +238,6 @@ Note:
 - Atomize, writing each full `record` element to a separate file within a new sub-directory `records/`, to enable effective use of [git] distributed file history
 - Collect partial `record` elements (i.e., those `record` elements serving as cross-references to full `record` elements) in a single separate file, perhaps named `cross-references.xml`
 - In the element `author` (child of `authors`), disaggregate name suffixes and query marks indicating dubious attributions
-- Allow for critical editions to be attached to the `record` element, rather than only the `witness` sub-element
-- Supply controlled vocabularies for the content of `subject`, `verseForm`, and `language`
 
 ## `Manuscripts.xml`
 
