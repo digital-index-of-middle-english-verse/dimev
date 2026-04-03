@@ -3,6 +3,14 @@
 # To validate a single file against its schema, supply the path on the command
 # line. Else the script validates all files in the data directory.
 
+# /// script
+# dependencies = [
+#   "xmlschema",
+#   "lxml",
+#   "rdflib"
+# ]
+# ///
+
 import xmlschema
 import sys
 import re

@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+# /// script
+# dependencies = [
+#   "lxml"
+# ]
+# ///
+
 from pathlib import Path
 from lxml import etree
 from itertools import chain
