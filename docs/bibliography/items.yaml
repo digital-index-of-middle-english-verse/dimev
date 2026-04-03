@@ -12,7 +12,6 @@ references:
       given: K.
   citation-key: BenskinElectronicVersionLinguistic2013
   edition: version 1.1
-  event-place: Edinburgh
   issued:
     - year: 2013
   publisher: The Authors and The University of Edinburgh
@@ -29,7 +28,6 @@ references:
       given: A. S. G.
   call-number: Z2014.P7 B655 2005
   citation-key: BoffeyNewIndexMiddle2005
-  event-place: London
   ISBN: 978-0-7123-4831-7
   issued:
     - year: 2005
@@ -48,7 +46,6 @@ references:
       given: Carleton
     - family: Robbins
       given: Rossell Hope
-  event-place: New York
   issued:
     - year: 1943
   number-of-pages: '785'
@@ -63,7 +60,6 @@ references:
     - family: Brown
       given: Carleton
   citation-key: BrownRegisterMiddleEnglish1916
-  event-place: Oxford
   issued:
     - year: 1916
     - year: 1920
@@ -81,7 +77,6 @@ references:
       given: Maureen B. M.
   call-number: PC2942 .D43 1999
   citation-key: DeanAngloNormanLiteratureGuide1999
-  event-place: London
   ISBN: 0-905474-38-4
   issued:
     - year: 1999
@@ -99,7 +94,6 @@ references:
       given: R. F. S.
   call-number: PR1203 H33X 1995
   citation-key: HamerManuscriptIndexIndex1995
-  event-place: London
   ISBN: 0-7123-0387-1
   issued:
     - year: 1995
@@ -120,7 +114,6 @@ references:
       given: John Price
     - family: Xiang
       given: Xin
-  event-place: Toronto
   issued:
     - year: 2009
   publisher: Dictionary of Old English Project
@@ -143,7 +136,6 @@ references:
       given: Sherrylyn
   citation-key: LaingLinguisticAtlasEarly2013
   edition: version 3.2
-  event-place: Edinburgh
   issued:
     - year: 2013
     - year: 0
@@ -164,7 +156,6 @@ references:
       given: A. S. G.
   call-number: Z2014 P795 L49 1985 (LC)
   citation-key: LewisIndexPrintedMiddle1985
-  event-place: New York
   ISBN: 0-8240-8839-5
   issued:
     - year: 1985
@@ -182,7 +173,6 @@ references:
     - family: Ringler
       given: William A.
   citation-key: MayElizabethanPoetryBibliography2004
-  event-place: London
   ISBN: 978-0-8264-7278-6
   issued:
     - year: 2004
@@ -193,7 +183,7 @@ references:
   source: i-share-nby.primo.exlibrisgroup.com
   title: >-
     Elizabethan poetry: a bibliography and first-line index of English verse,
-    1559-1603
+    1559–1603
   title-short: Elizabethan poetry
   type: book
 
@@ -244,7 +234,6 @@ references:
       given: William
   call-number: Z2002 .P7 1950 copy1
   citation-key: PollardShorttitleCatalogueBooks1950
-  event-place: London
   issued:
     - year: 1950
   number-of-pages: '609'
@@ -262,7 +251,6 @@ references:
       given: Kari Anne
   call-number: PR281 .I52 Index 1-20
   citation-key: RandIndexMiddleEnglish2014
-  event-place: Cambridge
   ISBN: 978-1-84384-383-2
   issued:
     - year: 2014
@@ -280,7 +268,6 @@ references:
       given: William A.
   call-number: Reference ; PR531 .R56 1988
   citation-key: RinglerBibliographyIndexEnglish1988
-  event-place: London
   ISBN: 978-0-7201-1892-6
   issued:
     - year: 1988
@@ -289,7 +276,7 @@ references:
   publisher: Mansell
   publisher-place: London
   source: luc.primo.exlibrisgroup.com
-  title: Bibliography and index of English verse printed 1476-1558
+  title: Bibliography and index of English verse printed 1476–1558
   type: book
 
 - id: RinglerBibliographyIndexEnglish1992
@@ -301,7 +288,6 @@ references:
     - family: Ringler
       given: Susan J.
   citation-key: RinglerBibliographyIndexEnglish1992
-  event-place: London
   ISBN: 978-0-7201-2099-8
   issued:
     - year: 1992
@@ -311,7 +297,7 @@ references:
   publisher: Mansell
   publisher-place: London
   source: Open WorldCat
-  title: Bibliography and index of English verse in manuscript, 1501-1558
+  title: Bibliography and index of English verse in manuscript, 1501–1558
   type: book
 
 - id: RobbinsSupplementIndexMiddle1965
@@ -321,12 +307,11 @@ references:
     - family: Cutler
       given: John L.
   citation-key: RobbinsSupplementIndexMiddle1965
-  event-place: Lexington
   issued:
     - year: 1965
   number-of-pages: '551'
   publisher: University of Kentucky Press
-  publisher-place: Lexington
+  publisher-place: Lexington, KY
   source: orbis.library.yale.edu Library Catalog
   title: Supplement to the "Index of Middle English Verse"
   type: book
@@ -339,7 +324,6 @@ references:
   citation-key: SharpeHandlistLatinWriters1997
   collection-number: '1'
   collection-title: Publications of the Journal of medieval Latin
-  event-place: Turnhout
   ISBN: 2-503-50575-9
   issued:
     - year: 1997
@@ -370,7 +354,6 @@ references:
     - family: Whiting
       given: Helen Wescott
   citation-key: WhitingProverbsSentencesProverbial1968
-  event-place: Cambridge, MA
   ISBN: 978-0-19-690378-1
   issued:
     - year: 1968
