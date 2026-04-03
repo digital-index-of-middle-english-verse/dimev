@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href='../schemas/printedbooks.xsd'?>
 <books>
     <!-- INCUNABLES AND EARLY PRINTED BOOKS: listed by STC number  -->
     <bibl xml:id="STC78" n="STC 78">

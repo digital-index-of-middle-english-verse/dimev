@@ -202,8 +202,8 @@ def validate_by_schema(passing):
         xml_files = data_dir.glob('*.xml')
 
     for file in xml_files:
-        print(f'Validating "{file.name}"...')
-        schema = get_schema(file.name)
+        schema, schema_filename = get_schema(file)
+        print(f'Validating {file.name} with {schema_filename}...')
         # Validate the XML file
         try:
             schema.validate(file)
@@ -219,21 +219,18 @@ def validate_by_schema(passing):
         passing = False
     return passing
 
-def get_schema(xml_filename):
-    file_pairs = {
-            ('Inscriptions.xml', 'inscriptions.xsd'),
-            ('Manuscripts.xml', 'manuscripts.xsd'),
-            ('PrintedBooks.xml', 'printedbooks.xsd'),
-            ('Records.xml', 'records.xsd'),
-            ('[a-z]+-terms.xml', 'terms.xsd')
-            }
-    for pair in file_pairs:
-        if re.fullmatch(pair[0], xml_filename):
-            schema_filename = pair[1]
-            break
+def get_schema(xml_file):
+
+    # Retrieve the schema URI from procesing instructions
+    tree = etree.parse(xml_file)
+    processing_instructions = tree.xpath('//processing-instruction("xml-model")')
+    for pi in processing_instructions:
+        schema_relative_path = pi.get('href')
+        schema_filename = re.sub('../schemas/', '', schema_relative_path)
+
     # Load the XSD schema
     schema_path = schema_dir / schema_filename
-    return xmlschema.XMLSchema(schema_path)
+    return xmlschema.XMLSchema(schema_path), schema_filename
 
 def check_bibl_refs(passing, textcarrier_ids, bibl_ids):
     filename = 'Records.xml'
