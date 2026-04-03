@@ -1,230 +1,230 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
-  <xs:element name="records">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="record" maxOccurs="unbounded">
-          <xs:complexType>
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xs:element name="records">
+        <xs:complexType>
             <xs:sequence>
-              <xs:element name="name">
-                <xs:complexType mixed="true">
-          	  <xs:choice minOccurs="0" maxOccurs="unbounded">
-          	    <xs:element name="i" type="xs:string"/>
-          	  </xs:choice>
-          	</xs:complexType>
-              </xs:element>
-              <xs:element name="alpha" type="xs:string"/>
-              <xs:element name="repertories" minOccurs="0" type="listbibl"/>
-              <xs:element name="editions" minOccurs="0" type="listbibl"/>
-              <xs:element name="crossRefs" minOccurs="0" type="reflist"/>
-	      <xs:element name="description" type="freeMix" minOccurs="0"/>
-              <xs:element name="descNote" minOccurs="0">
-                <xs:complexType mixed="true">
-		  <xs:choice minOccurs="0" maxOccurs="unbounded">
-		    <xs:element name="bibl" type="citation"/>
-          	    <xs:element name="i" type="xs:string"/>
-		    <xs:element name="mss" type="citation"/>
-                    <xs:element name="ref" type="crossref"/>
-          	    <xs:element name="sup" type="xs:string"/>
-		  </xs:choice>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="authors" minOccurs="0">
-                <xs:complexType>
-		  <xs:sequence>
-                    <xs:element name="author" maxOccurs="unbounded">
-                      <xs:complexType>
+                <xs:element name="record" maxOccurs="unbounded">
+                    <xs:complexType>
                         <xs:sequence>
-                          <xs:element name="last" type="xs:string" minOccurs="0"/>
-                          <xs:element name="first" type="xs:string" minOccurs="0"/>
-                          <xs:element name="suffix" type="xs:string" minOccurs="0"/>
+                            <xs:element name="name">
+                                <xs:complexType mixed="true">
+                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name="i" type="xs:string"/>
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="alpha" type="xs:string"/>
+                            <xs:element name="repertories" minOccurs="0" type="listbibl"/>
+                            <xs:element name="editions" minOccurs="0" type="listbibl"/>
+                            <xs:element name="crossRefs" minOccurs="0" type="reflist"/>
+                            <xs:element name="description" type="freeMix" minOccurs="0"/>
+                            <xs:element name="descNote" minOccurs="0">
+                                <xs:complexType mixed="true">
+                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name="bibl" type="citation"/>
+                                        <xs:element name="i" type="xs:string"/>
+                                        <xs:element name="mss" type="citation"/>
+                                        <xs:element name="ref" type="crossref"/>
+                                        <xs:element name="sup" type="xs:string"/>
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="authors" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="author" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="last" type="xs:string" minOccurs="0"/>
+                                                    <xs:element name="first" type="xs:string" minOccurs="0"/>
+                                                    <xs:element name="suffix" type="xs:string" minOccurs="0"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="titles" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="title" maxOccurs="unbounded">
+                                            <xs:complexType mixed="true">
+                                                <xs:choice minOccurs="0" maxOccurs="2">
+                                                    <xs:element name="i" type="xs:string"/>
+                                                </xs:choice>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="subjects" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="term" maxOccurs="unbounded" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="verseForms" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="term" maxOccurs="unbounded" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="languages" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="term" maxOccurs="3" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="ghosts" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="item" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:choice>
+                                                    <xs:sequence>
+                                                        <xs:element name="mss" type="citation"/>
+                                                        <xs:element name="note" minOccurs="0" type="freeMix"/>
+                                                    </xs:sequence>
+                                                    <xs:element name="note" type="freeMix"/>
+                                                </xs:choice>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="witnesses" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="witness" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:choice>
+                                                        <xs:element name="allLines" type="transcription"/>
+                                                        <xs:sequence maxOccurs="unbounded">
+                                                            <xs:element name="firstLines" type="transcription"/>
+                                                            <xs:element name="lastLines" type="transcription"/>
+                                                        </xs:sequence>
+                                                    </xs:choice>
+                                                    <xs:element name="source">
+                                                        <xs:complexType>
+                                                            <xs:choice minOccurs="0" maxOccurs="10">
+                                                                <xs:sequence>
+                                                                    <xs:element name="start" type="point-locator"/>
+                                                                    <xs:element name="end" type="point-locator" minOccurs="0"/>
+                                                                </xs:sequence>
+                                                            </xs:choice>
+                                                            <xs:attribute name="key" type="xs:string" use="required"/>
+                                                            <xs:attribute name="prefix" type="xs:string"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="sourceNote" type="freeMix" minOccurs="0"/>
+                                                    <xs:element name="MSAuthor" type="freeMix" minOccurs="0"/>
+                                                    <xs:element name="MSTitle" type="freeMix" minOccurs="0"/>
+                                                    <xs:element name="facsimiles" minOccurs="0" type="listbibl"/>
+                                                    <xs:element name="editions" minOccurs="0" type="listbibl"/>
+                                                </xs:sequence>
+                                                <xs:attribute ref="xml:id" use="required"/>
+                                                <xs:attribute name="illust" type="xs:string"/>
+                                                <xs:attribute name="music" type="xs:string"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
                         </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-		  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="titles" minOccurs="0">
-                <xs:complexType>
-	          <xs:sequence>
-                    <xs:element name="title" maxOccurs="unbounded">
-                      <xs:complexType mixed="true">
-                        <xs:choice minOccurs="0" maxOccurs="2">
-                          <xs:element name="i" type="xs:string"/>
-	                </xs:choice>
-	              </xs:complexType>
-	            </xs:element>
-	          </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="subjects" minOccurs="0">
-                <xs:complexType>
-		  <xs:sequence>
-                    <xs:element name="term" maxOccurs="unbounded" type="xs:string"/>
-		  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="verseForms" minOccurs="0">
-                <xs:complexType>
-		  <xs:sequence>
-                    <xs:element name="term" maxOccurs="unbounded" type="xs:string"/>
-		  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="languages" minOccurs="0">
-                <xs:complexType>
-		  <xs:sequence>
-                    <xs:element name="term" maxOccurs="3" type="xs:string"/>
-		  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="ghosts" minOccurs="0">
-                <xs:complexType>
-		  <xs:sequence>
-                    <xs:element name="item" maxOccurs="unbounded">
-                      <xs:complexType>
-                        <xs:choice>
-                          <xs:sequence>
-                            <xs:element name="mss" type="citation"/>
-                            <xs:element name="note" minOccurs="0" type="freeMix"/>
-                          </xs:sequence>
-                          <xs:element name="note" type="freeMix"/>
-                        </xs:choice>
-                      </xs:complexType>
-                    </xs:element>
-		  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="witnesses" minOccurs="0">
-                <xs:complexType>
-		  <xs:sequence>
-                    <xs:element name="witness" maxOccurs="unbounded">
-                      <xs:complexType>
-		        <xs:sequence>
-			  <xs:choice>
-			    <xs:element name="allLines" type="transcription"/>
-			    <xs:sequence maxOccurs="unbounded">
-			      <xs:element name="firstLines" type="transcription"/>
-			      <xs:element name="lastLines" type="transcription"/>
-			    </xs:sequence>
-			  </xs:choice>
-          	          <xs:element name="source">
-          	            <xs:complexType>
-			      <xs:choice minOccurs="0" maxOccurs="10">
-          	                <xs:sequence>
-          	                  <xs:element name="start" type="point-locator"/>
-          	                  <xs:element name="end" type="point-locator" minOccurs="0"/>
-          	                </xs:sequence>
-			      </xs:choice>
-                              <xs:attribute name="key" type="xs:string" use="required"/>
-          	              <xs:attribute name="prefix" type="xs:string"/>
-          	            </xs:complexType>
-          	          </xs:element>
-			  <xs:element name="sourceNote" type="freeMix" minOccurs="0"/>
-			  <xs:element name="MSAuthor" type="freeMix" minOccurs="0"/>
-			  <xs:element name="MSTitle" type="freeMix" minOccurs="0"/>
-                          <xs:element name="facsimiles" minOccurs="0" type="listbibl"/>
-                          <xs:element name="editions" minOccurs="0" type="listbibl"/>
-                        </xs:sequence>
-          	        <xs:attribute ref="xml:id" use="required"/>
-                        <xs:attribute name="illust" type="xs:string"/>
-                        <xs:attribute name="music" type="xs:string"/>
-                      </xs:complexType>
-                    </xs:element>
-		  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
+                        <xs:attribute ref="xml:id" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
             </xs:sequence>
-            <xs:attribute ref="xml:id" use="optional"/>
-          </xs:complexType>
-        </xs:element>
-      </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="listbibl">
+        <xs:sequence>
+            <xs:element name="item" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:choice>
+                        <xs:sequence>
+                            <xs:element name="bibl" type="citation"/>
+                            <xs:element name="note" type="freeMix" minOccurs="0"/>
+                        </xs:sequence>
+                        <xs:element name="note" type="freeMix"/>
+                    </xs:choice>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
     </xs:complexType>
-  </xs:element>
-  <xs:complexType name="listbibl">
-    <xs:sequence>
-      <xs:element name="item" maxOccurs="unbounded">
-        <xs:complexType>
-          <xs:choice>
-            <xs:sequence>
-              <xs:element name="bibl" type="citation"/>
-              <xs:element name="note" type="freeMix" minOccurs="0"/>
-            </xs:sequence>
-            <xs:element name="note" type="freeMix"/>
-          </xs:choice>
-        </xs:complexType>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="reflist">
-    <xs:sequence>
-      <xs:element name="item" maxOccurs="unbounded">
-        <xs:complexType>
-          <xs:sequence>
+    <xs:complexType name="reflist">
+        <xs:sequence>
+            <xs:element name="item" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="ref" type="crossref"/>
+                        <xs:element name="note" type="freeMix" minOccurs="0"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="crossref">
+        <xs:attribute name="target" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="point-locator">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="loc" type="xs:string" use="optional"/>
+                <xs:attribute name="col" type="xs:string" use="optional"/>
+                <xs:attribute name="pre" type="xs:string" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="citation" mixed="true">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="i" type="xs:string"/>
+            <xs:element name="sup" type="xs:string"/>
+        </xs:choice>
+        <xs:attribute name="key" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="transcription" mixed="true">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="add" type="xs:string"/>
+            <xs:element name="del" type="xs:string"/>
+            <xs:element name="i" type="italic"/>
+            <xs:element name="lb"/>
+            <xs:element name="sic" type="xs:string"/>
+            <xs:element name="sup" type="xs:string"/>
+        </xs:choice>
+    </xs:complexType>
+    <xs:complexType name="inlinePerson">
+        <xs:sequence>
+            <xs:element name="first" type="xs:string" minOccurs="0"/>
+            <xs:element name="last" type="xs:string" minOccurs="0"/>
+            <xs:element name="suffix" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="freeMix" mixed="true">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="add" type="xs:string"/>
+            <xs:element name="bibl" type="citation"/>
+            <xs:element name="del" type="xs:string"/>
+            <xs:element name="i" type="italic"/>
+            <xs:element name="lb" type="xs:string"/>
+            <xs:element name="mss" type="citation"/>
             <xs:element name="ref" type="crossref"/>
-            <xs:element name="note" type="freeMix" minOccurs="0"/>
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="crossref">
-    <xs:attribute name="target" type="xs:string" use="required"/>
-  </xs:complexType>
-  <xs:complexType name="point-locator">
-    <xs:simpleContent>
-      <xs:extension base="xs:string">
-	<xs:attribute name="loc" type="xs:string" use="optional"/>
-	<xs:attribute name="col" type="xs:string" use="optional"/>
-	<xs:attribute name="pre" type="xs:string" use="optional"/>
-      </xs:extension>
-    </xs:simpleContent>
-  </xs:complexType>
-  <xs:complexType name="citation" mixed="true">
-    <xs:choice minOccurs="0" maxOccurs="unbounded">
-      <xs:element name="i" type="xs:string"/>
-      <xs:element name="sup" type="xs:string"/>
-    </xs:choice>
-    <xs:attribute name="key" type="xs:string" use="required"/>
-  </xs:complexType>
-  <xs:complexType name="transcription" mixed="true">
-    <xs:choice minOccurs="0" maxOccurs="unbounded">
-      <xs:element name="add" type="xs:string"/>
-      <xs:element name="del" type="xs:string"/>
-      <xs:element name="i" type="italic"/>
-      <xs:element name="lb"/>
-      <xs:element name="sic" type="xs:string"/>
-      <xs:element name="sup" type="xs:string"/>
-    </xs:choice>
-  </xs:complexType>
-  <xs:complexType name="inlinePerson">
-    <xs:sequence>
-      <xs:element name="first" type="xs:string" minOccurs="0"/>
-      <xs:element name="last" type="xs:string" minOccurs="0"/>
-      <xs:element name="suffix" type="xs:string" minOccurs="0"/>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="freeMix" mixed="true">
-    <xs:choice minOccurs="0" maxOccurs="unbounded">
-      <xs:element name="add" type="xs:string"/>
-      <xs:element name="bibl" type="citation"/>
-      <xs:element name="del" type="xs:string"/>
-      <xs:element name="i" type="italic"/>
-      <xs:element name="lb" type="xs:string"/>
-      <xs:element name="mss" type="citation"/>
-      <xs:element name="ref" type="crossref"/>
-      <xs:element name="scribe" type="inlinePerson"/>
-      <xs:element name="sup" type="xs:string"/>
-    </xs:choice>
-  </xs:complexType>
-  <xs:complexType name="italic" mixed="true">
-    <xs:choice minOccurs="0" maxOccurs="unbounded">
-      <xs:element name="add" type="xs:string"/>
-      <xs:element name="del" type="xs:string"/>
-      <xs:element name="lb"/>
-      <xs:element name="scribe" type="inlinePerson"/>
-      <xs:element name="sup" type="xs:string"/>
-    </xs:choice>
-  </xs:complexType>
+            <xs:element name="scribe" type="inlinePerson"/>
+            <xs:element name="sup" type="xs:string"/>
+        </xs:choice>
+    </xs:complexType>
+    <xs:complexType name="italic" mixed="true">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="add" type="xs:string"/>
+            <xs:element name="del" type="xs:string"/>
+            <xs:element name="lb"/>
+            <xs:element name="scribe" type="inlinePerson"/>
+            <xs:element name="sup" type="xs:string"/>
+        </xs:choice>
+    </xs:complexType>
 </xs:schema>
