@@ -19,17 +19,7 @@
                             <xs:element name="editions" minOccurs="0" type="listbibl"/>
                             <xs:element name="crossRefs" minOccurs="0" type="reflist"/>
                             <xs:element name="description" type="freeMix" minOccurs="0"/>
-                            <xs:element name="descNote" minOccurs="0">
-                                <xs:complexType mixed="true">
-                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                        <xs:element name="bibl" type="citation"/>
-                                        <xs:element name="i" type="xs:string"/>
-                                        <xs:element name="mss" type="citation"/>
-                                        <xs:element name="ref" type="crossref"/>
-                                        <xs:element name="sup" type="xs:string"/>
-                                    </xs:choice>
-                                </xs:complexType>
-                            </xs:element>
+                            <xs:element name="descNote" type="freeMix" minOccurs="0"/>
                             <xs:element name="authors" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
