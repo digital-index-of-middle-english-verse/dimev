@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
-import glob
+from pathlib import Path
 from lxml import etree
 
-# Find all XML files in the directory
-data_dir = 'data/'
-xml_files = glob.glob(data_dir + '*.xml')
+# Find all XML files in the data directory
+root = Path(__file__).parent.parent.resolve()
+data_dir = root / 'data'
+xml_files = data_dir.glob('*.xml')
 
 for file in xml_files:
     tree = etree.parse(file)
