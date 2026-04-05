@@ -4,7 +4,7 @@
     <xs:element name="list">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="head" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="head" type="xs:string" minOccurs="1" maxOccurs="1"/>
                 <xs:element name="item" minOccurs="1" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
