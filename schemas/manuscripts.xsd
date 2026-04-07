@@ -1,58 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
-    <xs:element name="mss">
+    <xs:element name="list">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="item" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="loc" type="xs:string"/>
+                            <xs:element name="settlement" type="xs:string"/>
                             <xs:element name="repos" type="xs:string"/>
                             <xs:element name="desc">
                                 <xs:complexType mixed="true">
                                     <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                        <xs:element name="i"/>
-                                        <xs:element name="sup"/>
-                                        <xs:element name="mss">
-                                            <xs:complexType>
-                                                <xs:attribute name="key" type="xs:string" use="required"/>
-                                            </xs:complexType>
-                                        </xs:element>
-                                        <xs:element name="biblio">
-                                            <xs:complexType>
-                                                <xs:attribute name="key" type="xs:string" use="required"/>
-                                            </xs:complexType>
-                                        </xs:element>
+                                        <xs:element name="i" type="xs:string"/>
+                                        <xs:element name="sup" type="xs:string"/>
+                                        <xs:element name="mss" type="msCrossRef"/>
+                                        <xs:element name="bibl" type="bibRef"/>
                                     </xs:choice>
                                 </xs:complexType>
                             </xs:element>
                             <xs:element name="lang" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>As used, this element always has at least one child element.</xs:documentation>
+                                </xs:annotation>
                                 <xs:complexType mixed="true">
                                     <xs:choice minOccurs="1" maxOccurs="unbounded">
                                         <xs:element name="langGrid" type="xs:string"/>
                                         <xs:element name="i" type="xs:string"/>
-                                        <xs:element name="mss">
-                                            <xs:complexType>
-                                                <xs:attribute name="key" type="xs:string" use="required"/>
-                                            </xs:complexType>
-                                        </xs:element>
-                                        <xs:element name="biblio">
-                                            <xs:complexType>
-                                                <xs:simpleContent>
-                                                    <xs:extension base="xs:string">
-                                                        <xs:attribute name="key"/>
-                                                    </xs:extension>
-                                                </xs:simpleContent>
-                                            </xs:complexType>
-                                        </xs:element>
+                                        <xs:element name="mss" type="msCrossRef"/>
+                                        <xs:element name="bibl" type="bibRef"/>
                                         <xs:element name="place">
                                             <xs:complexType>
                                                 <xs:simpleContent>
                                                     <xs:extension base="xs:string">
-                                                        <xs:attribute name="country"/>
-                                                        <xs:attribute name="county"/>
-                                                        <xs:attribute name="town"/>
+                                                        <xs:attribute name="country" type="xs:string" use="optional"/>
+                                                        <xs:attribute name="county" type="xs:string" use="optional"/>
+                                                        <xs:attribute name="town" type="xs:string" use="optional"/>
                                                     </xs:extension>
                                                 </xs:simpleContent>
                                             </xs:complexType>
@@ -65,7 +48,7 @@
                                     <xs:sequence>
                                         <xs:element name="ref" maxOccurs="unbounded">
                                             <xs:complexType>
-                                                <xs:attribute name="target" use="required"/>
+                                                <xs:attribute name="target" type="xs:anyURI" use="required"/>
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
@@ -78,4 +61,14 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:complexType name="msCrossRef">
+        <xs:attribute name="key" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="bibRef">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="key" type="xs:string" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
 </xs:schema>
