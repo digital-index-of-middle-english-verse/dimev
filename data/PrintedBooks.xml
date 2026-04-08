@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href='../schemas/printedbooks.xsd'?>
-<books>
+<list>
     <!-- INCUNABLES AND EARLY PRINTED BOOKS: listed by STC number  -->
     <bibl xml:id="STC78" n="STC 78">
         <authorstmt>
@@ -4828,4 +4828,4 @@
         </pubstmt>
         <desc/>
     </bibl>
-</books>
+</list>
