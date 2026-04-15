@@ -832,12 +832,6 @@ Scholars are advised to reference witnesses by manuscript shelfmarks, not the nu
   Text only (`xs:string`)
 
 
-## Technical direction {#tech-dir-records}
-
-- Atomize, writing each full `record` element to a separate file within a new sub-directory `records/`, to enable effective use of [git] distributed file history
-- Collect partial `record` elements (i.e., those `record` elements serving as cross-references to full `record` elements) in a single separate file, perhaps named `cross-references.xml`
-- In the element `author` (child of `authors`), disaggregate name suffixes and query marks indicating dubious attributions
-
 # `Manuscripts.xml`
 
 ## Overview {#overview-manuscripts}
@@ -1023,12 +1017,6 @@ The root element is `list`.
 - **Must contain**
   No child elements or text
 
-## Technical direction {#tech-dir-manuscripts}
-
-- Distinguish manuscripts from (particular copies of) early printed books, perhaps by adding a new attribute `type` to `item` elements
-- Atomize, writing each full `item` element to a separate file within a new sub-directory `sources/`, to enable effective use of [git] distributed file history
-- Rename and restructure element names to align with guidelines of the TEI [manuscript description module]
-- Extract previous shelfmarks to a new element, `altIdentifier`
 
 # `Inscriptions.xml`
 
@@ -1096,10 +1084,6 @@ The root element is `list`.
 - **Must contain**
   Text only (`xs:string`)
 
-## Technical direction {#tech-dir-inscr}
-
-- Add an attribute `type` with value "inscription" to `item` elements
-- Atomize, writing each full `item` element to a separate file within a new sub-directory `sources/`, to enable effective use of [git] distributed file history
 
 # `PrintedBooks.xml`
 
@@ -1236,11 +1220,6 @@ The root element is `list`.
   - `desc`
 - **Must contain** Text only (`xs:string`)
 
-## Technical direction {#tech-dir-printed-books}
-
-- For references to editions: implement a standard data structure for XML serialization of bibliographic metadata for early printed books
-- Disaggregate references to @PollardShorttitleCatalogueBooks1950 from other content of the attribute `n`
-- Supply references to the English Short Title Catalog (ESTC) where available.
 
 # Controlled vocabularies: `subject-terms.xml` and others
 
