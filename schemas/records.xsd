@@ -4,10 +4,15 @@
     <xs:element name="records">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="record" maxOccurs="unbounded">
+                <xs:element name="record" minOccurs="1" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="name">
+                                <xs:annotation>
+                                    <xs:documentation>The element `name` permits mixed content with sporadic
+                                       use of inline italics. In a future update italics should be re-coded
+                                       as `lang` elements.</xs:documentation>
+                                </xs:annotation>
                                 <xs:complexType mixed="true">
                                     <xs:choice minOccurs="0" maxOccurs="unbounded">
                                         <xs:element name="i" type="xs:string"/>
@@ -17,21 +22,19 @@
                             <xs:element name="alpha" type="xs:string"/>
                             <xs:element name="repertories" minOccurs="0" type="listbibl"/>
                             <xs:element name="editions" minOccurs="0" type="listbibl"/>
-                            <xs:element name="crossRefs" minOccurs="0" type="reflist"/>
+                            <xs:element name="crossRefs" minOccurs="0" type="reflist">
+                                <xs:annotation>
+                                    <xs:documentation>This element is defined for future use, as a container
+					for references to other `record` items. It is not yet implemented.
+				</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
                             <xs:element name="description" type="freeMix" minOccurs="0"/>
                             <xs:element name="descNote" type="freeMix" minOccurs="0"/>
                             <xs:element name="authors" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="author" maxOccurs="unbounded">
-                                            <xs:complexType>
-                                                <xs:sequence>
-                                                    <xs:element name="last" type="xs:string" minOccurs="0"/>
-                                                    <xs:element name="first" type="xs:string" minOccurs="0"/>
-                                                    <xs:element name="suffix" type="xs:string" minOccurs="0"/>
-                                                </xs:sequence>
-                                            </xs:complexType>
-                                        </xs:element>
+                                        <xs:element name="author" type="personName" maxOccurs="unbounded"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
@@ -39,6 +42,15 @@
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="title" maxOccurs="unbounded">
+                                            <xs:annotation>
+                                                <xs:documentation>The element `title` permits mixed content
+                                                    with limited, sporadic use of inline italics. In a future
+                                                    update italics should be re-coded as `lang` elements (where
+                                                    italics designate non-English words or phrases) or else as
+                                                    TEI's `level` attribute on the `title` element, with value
+                                                    "m" (where italics designate a monograph- or book-level
+                                                    titles).</xs:documentation>
+                                            </xs:annotation>
                                             <xs:complexType mixed="true">
                                                 <xs:choice minOccurs="0" maxOccurs="2">
                                                     <xs:element name="i" type="xs:string"/>
@@ -48,36 +60,32 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="subjects" minOccurs="0">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="term" maxOccurs="unbounded" type="xs:string"/>
-                                    </xs:sequence>
-                                </xs:complexType>
-                            </xs:element>
-                            <xs:element name="verseForms" minOccurs="0">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="term" maxOccurs="unbounded" type="xs:string"/>
-                                    </xs:sequence>
-                                </xs:complexType>
-                            </xs:element>
-                            <xs:element name="languages" minOccurs="0">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="term" maxOccurs="3" type="xs:string"/>
-                                    </xs:sequence>
-                                </xs:complexType>
+                            <xs:element name="subjects" type="termlist" minOccurs="0"/>
+                            <xs:element name="verseForms" type="termlist" minOccurs="0"/>
+                            <xs:element name="languages" type="termlist" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>The "termlist" type is unbounded, but no item has
+					    more than three languages</xs:documentation>
+                                </xs:annotation>
                             </xs:element>
                             <xs:element name="ghosts" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>Bibliographical references to documents which,
+					    in prior scholarly tradition, are erroneously claimed to contain
+					    a copy of this item.</xs:documentation>
+                                </xs:annotation>
                                 <xs:complexType>
+                                    <xs:annotation>
+                                        <xs:documentation>This complex type has the structure of "listbibl"
+                                        but contains `mss` elements.</xs:documentation>
+                                    </xs:annotation>
                                     <xs:sequence>
                                         <xs:element name="item" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:choice>
                                                     <xs:sequence>
                                                         <xs:element name="mss" type="citation"/>
-                                                        <xs:element name="note" minOccurs="0" type="freeMix"/>
+                                                        <xs:element name="note" type="freeMix" minOccurs="0"/>
                                                     </xs:sequence>
                                                     <xs:element name="note" type="freeMix"/>
                                                 </xs:choice>
@@ -100,15 +108,26 @@
                                                         </xs:sequence>
                                                     </xs:choice>
                                                     <xs:element name="source">
+                                                        <xs:annotation>
+                                                            <xs:documentation>The `source` element references a
+								text-carrying document (manuscript, printed book, or
+								inscription) by the attribute `key`. The child elements
+								`start` and `end` specify a location within the cited
+								document, and may repeat when the text is broken
+								across discontinuous ranges. (Current data include up
+								to ten repetitions.) The attribute `prefix` specifies
+								the counting unit, usually either folio or page.
+							</xs:documentation>
+                                                        </xs:annotation>
                                                         <xs:complexType>
-                                                            <xs:choice minOccurs="0" maxOccurs="10">
+                                                            <xs:choice minOccurs="0" maxOccurs="unbounded">
                                                                 <xs:sequence>
                                                                     <xs:element name="start" type="point-locator"/>
                                                                     <xs:element name="end" type="point-locator" minOccurs="0"/>
                                                                 </xs:sequence>
                                                             </xs:choice>
                                                             <xs:attribute name="key" type="xs:string" use="required"/>
-                                                            <xs:attribute name="prefix" type="xs:string"/>
+                                                            <xs:attribute name="prefix" type="xs:string" use="optional"/>
                                                         </xs:complexType>
                                                     </xs:element>
                                                     <xs:element name="sourceNote" type="freeMix" minOccurs="0"/>
@@ -118,20 +137,32 @@
                                                     <xs:element name="editions" minOccurs="0" type="listbibl"/>
                                                 </xs:sequence>
                                                 <xs:attribute ref="xml:id" use="required"/>
-                                                <xs:attribute name="illust" type="xs:string"/>
-                                                <xs:attribute name="music" type="xs:string"/>
+                                                <xs:attribute name="illust" type="xs:boolean" use="optional"/>
+                                                <xs:attribute name="music" type="xs:boolean" use="optional"/>
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
-                        <xs:attribute ref="xml:id" use="optional"/>
+                        <xs:attribute ref="xml:id" use="optional">
+                            <xs:annotation>
+                                <xs:documentation>Most stub records (i.e. those without witnesses) lack the
+                                    attribute xml:id; the attribute is required on all full records (i.e.,
+                                    those with witnesses). Full and stub record will be disaggregated and
+                                    validated by separate schemas in a future update.</xs:documentation>
+                            </xs:annotation>
+                        </xs:attribute>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:complexType name="termlist">
+        <xs:sequence>
+            <xs:element name="term" minOccurs="1" maxOccurs="unbounded" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
     <xs:complexType name="listbibl">
         <xs:sequence>
             <xs:element name="item" maxOccurs="unbounded">
@@ -148,6 +179,10 @@
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="reflist">
+        <xs:annotation>
+            <xs:documentation>This complex type has the structure of
+		"listbibl" but contains `ref` elements.</xs:documentation>
+        </xs:annotation>
         <xs:sequence>
             <xs:element name="item" maxOccurs="unbounded">
                 <xs:complexType>
@@ -160,9 +195,27 @@
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="crossref">
-        <xs:attribute name="target" type="xs:string" use="required"/>
+        <xs:annotation>
+            <xs:documentation>Cross references are always empty pointing
+                elements, without text content.</xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="target" type="xs:string" use="required">
+            <xs:annotation>
+                <xs:documentation>The value of the `target` attribute is currently
+		validated externally. In a future update restrictions could be
+		written into this schema.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
     </xs:complexType>
     <xs:complexType name="point-locator">
+        <xs:annotation>
+            <xs:documentation>The text content of "point-locator" is usually
+		a page or folio reference. The attributes `loc` and `col`
+		specify folio-side (recto or verso) and column-number,
+		respectively. The attribute `pre` occurs rarely and ad hoc. This
+		structure is perhaps over-articulated. To be reviewed.
+	</xs:documentation>
+        </xs:annotation>
         <xs:simpleContent>
             <xs:extension base="xs:string">
                 <xs:attribute name="loc" type="xs:string" use="optional"/>
@@ -179,6 +232,10 @@
         <xs:attribute name="key" type="xs:string" use="required"/>
     </xs:complexType>
     <xs:complexType name="transcription" mixed="true">
+        <xs:annotation>
+            <xs:documentation>This complex type supplies inset elements used
+		    in transcriptions of primary-source documents.</xs:documentation>
+        </xs:annotation>
         <xs:choice minOccurs="0" maxOccurs="unbounded">
             <xs:element name="add" type="xs:string"/>
             <xs:element name="del" type="xs:string"/>
@@ -188,32 +245,54 @@
             <xs:element name="sup" type="xs:string"/>
         </xs:choice>
     </xs:complexType>
-    <xs:complexType name="inlinePerson">
-        <xs:sequence>
+    <xs:complexType name="personName">
+        <xs:annotation>
+            <xs:documentation>A name element comprises lastname and/or
+		firstname (in either order) and an optional suffix. The
+		order firstname-lastname is used inline, the order
+		lastname-firstname in the `authors` element. To be reviewed.
+	        The current schema definition is more permissive, however:
+	        it allows "personName" to be empty and allows `suffix` to
+	        occur in any position.</xs:documentation>
+        </xs:annotation>
+        <xs:all>
             <xs:element name="first" type="xs:string" minOccurs="0"/>
             <xs:element name="last" type="xs:string" minOccurs="0"/>
             <xs:element name="suffix" type="xs:string" minOccurs="0"/>
-        </xs:sequence>
+        </xs:all>
     </xs:complexType>
     <xs:complexType name="freeMix" mixed="true">
+        <xs:annotation>
+            <xs:documentation>This complex type supplies elements used
+		    in mixed content of `description`, `sourceNote`, and other
+		    very permissive elements. The inset element `sic` is
+		    not currently used.</xs:documentation>
+        </xs:annotation>
         <xs:choice minOccurs="0" maxOccurs="unbounded">
             <xs:element name="add" type="xs:string"/>
             <xs:element name="bibl" type="citation"/>
             <xs:element name="del" type="xs:string"/>
             <xs:element name="i" type="italic"/>
-            <xs:element name="lb" type="xs:string"/>
+            <xs:element name="lb"/>
             <xs:element name="mss" type="citation"/>
             <xs:element name="ref" type="crossref"/>
-            <xs:element name="scribe" type="inlinePerson"/>
+            <xs:element name="scribe" type="personName"/>
+            <xs:element name="sic" type="xs:string"/>
             <xs:element name="sup" type="xs:string"/>
         </xs:choice>
     </xs:complexType>
     <xs:complexType name="italic" mixed="true">
+        <xs:annotation>
+            <xs:documentation>These italics should be re-coded as `lang`
+	    elements or else as `title` elements. Mixed content may occur
+	    in transcriptions where italics designate non-English text.
+            </xs:documentation>
+        </xs:annotation>
         <xs:choice minOccurs="0" maxOccurs="unbounded">
             <xs:element name="add" type="xs:string"/>
             <xs:element name="del" type="xs:string"/>
             <xs:element name="lb"/>
-            <xs:element name="scribe" type="inlinePerson"/>
+            <xs:element name="scribe" type="personName"/>
             <xs:element name="sup" type="xs:string"/>
         </xs:choice>
     </xs:complexType>
