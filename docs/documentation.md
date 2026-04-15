@@ -50,13 +50,14 @@ DIMEV data are contained in XML files and a Zotero Group Library.
 
 ### XML files
 
-There are four XML files:
+XML files are of three types:
 
 - `Records.xml`: The principal file, collecting metadata on verse items, transcriptions of witnesses to verse items, and cross-references for acephalous or fragmentary texts
 - `Manuscripts.xml`, `PrintedBooks.xml`, `Inscriptions.xml`: Bibliographic details for witnesses cited in `Records.xml`
+- `subject-terms.xml`, `form-terms.xml`, `language-terms.xml`: Controlled vocabularies for the elements `subjects`, `verseForms`, and `languages` in `Records.xml`
 
 These XML files are located within the directory `data/` in DIMEV's principal [GitHub repository].
-Each file employs a custom structure, documented in two forms:
+Structures are documented in two forms:
 
 1. A human-readable specification, provided in the following subsections of this documentation
 1. Machine-readable schemas, written as XSD files and located in the directory `schemas/`
@@ -75,8 +76,7 @@ The RDF file is intended only as an archival backup.
 ### Overview {#overview-records}
 
 This XML file stores information on verse items, including extracts and acephalous texts.
-Each verse item is represented within a `record` element.
-`record` elements are serialized as children of the root element `records`.
+The root element is `records`.
 
 The XML structure makes an implicit distinction between two types of `record` items:
 
@@ -90,148 +90,715 @@ The XML structure makes an implicit distinction between two types of `record` it
   Partial `record` elements usually lack a unique identifier.
   They also lack most child elements of full `record` items, and always lack the element `witnesses`.
 
-### Document structure {#doc-struct-records}
+### Tag library
 
-#### Root element {#root-records}
+#### `records`
 
-- Name: `records`
-- Description: contains a collection of bibliographic entries for Middle English verse items
-- Content: `record` elements
+- **Description**
+  Root element containing a collection of bibliographic entries
+- **Attributes**
+  None
+- **Must contain**
+  - `record` (one or more)
 
-#### Child elements of `records`
+#### `record`
 
-- Name: `record`
-- Description: contains a bibliographic entry for a single Middle English verse item
-- Content and Attributes: as detailed in the following sections.
-  **Note**: the specification in the following sections applies to full `record` elements, as defined above in the [Overview](#overview-records) to `Records.xml`.
+- **Description**
+  A single record describing a verse item
+- **Attributes**
+  - `xml:id` — optional unique identifier, assigned by DIMEV editors; most stub records lack this attribute, while full records with `witnesses` require it in practice.
+    The unique identifier has two hyphen-delimited components: (1) the invariant string `record`; (2) a number, usually integer but sometimes with one or two decimal places.
+    The numerical component of the unique identifier is the "DIMEV number" for the item; it may be used in scholarship as a persistent bibliographic pointer to the item.
+- **Must occur within**
+  - `records`
+- **Must contain**
+  - `name` (exactly one)
+  - `alpha` (exactly one)
+- **May contain**
+  - `repertories` (zero or one)
+  - `editions` (zero or one)
+  - `crossRefs` (zero or one)
+  - `description` (zero or one)
+  - `descNote` (zero or one)
+  - `authors` (zero or one)
+  - `titles` (zero or one)
+  - `subjects` (zero or one)
+  - `verseForms` (zero or one)
+  - `languages` (zero or one)
+  - `ghosts` (zero or one)
+  - `witnesses` (zero or one)
 
-#### Attributes of `record`
+#### `name`
 
-Each full `record` element carries an attribute `xml:id`.
-This is a unique identifier, assigned by DIMEV editors.
-The unique identifier has two hyphen-delimited components: (1) the invariant string `record`; (2) a number, usually integer but sometimes with one or two decimal places.
-The unique identifier allows for cross-reference within `Records.xml` and from DIMEV's other XML files.
-The numerical component of the unique identifier is the "DIMEV number" for the item; it may be used in scholarship as a persistent bibliographic pointer to the item.
-
-#### Child elements of `record`
-
-Each full `record` element may have the following child elements.
-Except `name` and `alpha`, which are required, all child elements are optional.
-
-- `name`. The *incipit*, or first line of the verse item, employed for purposes of identification in a textual tradition in which most items are anonymous and untitled.
+- **Description**
+  An *incipit*, or first line of the verse item, employed for purposes of identification in a textual tradition in which most items are anonymous and untitled.
   Spellings are standardized.
-  Data type: usually string; may contain inline formatting.
-- `alpha`. Another standardized first line, manually forced to downcase string and sometimes truncated.
+- **Attributes**
+  None
+- **Must occur within**
+  - `record`
+- **May contain**
+  Mixed text and:
+  - `i` (zero or more)
+
+#### `alpha`
+
+- **Description**
+  Another standardized first line, manually forced to downcase string and sometimes truncated.
   This is used for alphabetical sorting of items.
-  Data type: string
-- `repertories`. Reference numbers assigned to the item in other reference works, namely, @BrownIndexMiddleEnglish1943, @RobbinsSupplementIndexMiddle1965, @BoffeyNewIndexMiddle2005, @RinglerBibliographyIndexEnglish1988, @RinglerBibliographyIndexEnglish1992, @WhitingProverbsSentencesProverbial1968, and the [Bibliography of the Middle English Compendium](https://quod.lib.umich.edu/m/middle-english-dictionary/bibliography), among others.
-- `editions`. A list of bibliographic references to critical editions.
-- `description`. Descriptive commentary on the item.
-  Data type: free text with mixed content (recursively mixed where allowed), including inline formatting and references to witnesses, scholarly publications, and other item records.
-- `descNote`. Descriptive commentary on the item, similar to the content of `description` but usually more limited in scope or importance.
-  Data type: free text with mixed content like `description`.
-- `authors`. Any generally accepted author attributions for the item.
-  Dubious attributions may be flagged with a question mark in the child element `suffix` (see below).
-  Author attributions given by documentary witnesses are transcribed within the element `MSAuthor`, a child of `witness`.
-  See [Child elements of `witness`].
-  Data type: an array of one or more child elements with the tag `author`.
-  Each `author` element is a structured sequence with child elements `last`, `first`, and `suffix`, each of which has string content.
-  There is no controlled vocabulary.
-- `titles`. Any titles generally assigned to the item in modern scholarship.
-  Titles given by documentary witnesses are transcribed within the element `MSTitle`, a child of `witness`.
-  See [Child elements of `witness`].
-  Data type: an array of one or more child elements with the tag `title`.
-  Content of the element `title` is ordinary string but may contain inline formatting.
-- `subjects`. Descriptive keywords for content.
-  Data type: an array of one or more child elements with the tag `term`.
-  Content of the element `term` is string.
-  Controlled vocabulary is set by `subject-terms.xml`.
-- `verseForms`. Descriptive keywords for formal characteristics: rhyme scheme, stanza length, etc.
-  Data type: an array of one or more child elements with the tag `term`.
-  Content of the element `term` is string.
-  Controlled vocabulary is set by `form-terms.xml`.
-- `languages`. Names of languages employed in the item, other than English.
-  Data type: an array of one or more child elements with the tag `term`.
-  Controlled vocabulary is set by `language-terms.xml`.
-- `ghosts`. Any bibliographic ghosts, that is, documents which, in prior scholarly tradition, are erroneously claimed to contain a copy of this item.
-  Data type: an array of one or more child elements with the tag `ghost`, each of which contains free text with mixed content (recursively mixed where allowed), including inline formatting and references to witnesses, scholarly publications, and other item records.
-- `witnesses`. The original witnesses to the item (usually manuscripts, sometimes inscriptions or early printed books).
-  Data type: an array of one or more child elements with the tag `witness`.
-  See [Attributes of `witness`] and [Child elements of `witness`].
+- **Attributes**
+  None
+- **Must occur within**
+  - `record`
+- **Must contain**
+  Text only (`xs:string`)
 
-#### Attributes of `witness`
+#### `repertories`
 
-Each `witness` element carries attributes that (1) supply a unique identifier for the witness and (2) indicate whether the witness has accompanying music or illustration.
-The attributes are:
+- **Description**
+  Reference numbers assigned to the item in other reference works, namely, @BrownIndexMiddleEnglish1943, @RobbinsSupplementIndexMiddle1965, @BoffeyNewIndexMiddle2005, @RinglerBibliographyIndexEnglish1988, @RinglerBibliographyIndexEnglish1992, @WhitingProverbsSentencesProverbial1968, and the [Bibliography of the Middle English Compendium](https://quod.lib.umich.edu/m/middle-english-dictionary/bibliography), among others.
+- **Attributes**
+  None
+- **Must occur within**
+  - `record`
+- **Must contain**
+  - `item` (one or more)
 
-- `xml:id`. This is a unique identifier for the witness, assigned by DIMEV editors.
-It has three hyphen-delimited components: (1) the invariant string `wit`; (2) the "DIMEV number" for the item (see [Attributes of `record`]); (3) an integer designating this witness.
-The unique identifier allows for cross-reference within `Records.xml` and from DIMEV's other XML files.
-- `illust`. Report of accompanying illustrations. Values are 'y' (for *yes*) and 'n' (for *no*).
-- `music`. Report of accompanying music. Values are 'y' (for *yes*) and 'n' (for *no*).
+#### `editions`
 
-**Caveat lector**: The final component of DIMEV's unique identifier for a witness may differ from the positional number assigned to that witness on [dimev.net].
+- **Description**
+  List of references to scholarly transcriptions or critical editions
+- **Attributes**
+  None
+- **May occur within**
+  - `record` (for critical editions)
+  - `witness` (for diplomatic editions and transcriptions)
+- **Must contain**
+  - `item` (one or more)
+
+#### `crossRefs`
+
+- **Description**
+  Container for cross-references to other `record` items; defined for future use and not yet implemented
+- **Attributes**
+  None
+- **May occur within**
+  - `record`
+- **Must contain**
+  - `item` (one or more)
+
+#### `description`
+
+- **Description**
+  Descriptive note on the item in a very permissive mixed-content form, including inline formatting and references to witnesses, scholarly publications, and other item records.
+- **Attributes**
+  None
+- **Must occur within**
+  - `record`
+- **May contain**
+  Mixed text and any number of:
+  - `add`
+  - `bibl`
+  - `del`
+  - `i`
+  - `lb`
+  - `mss`
+  - `ref`
+  - `scribe`
+  - `sic`
+  - `sup`
+
+#### `descNote`
+
+- **Description**
+  Additional descriptive note in a very permissive mixed-content form, like `description` but usually more limited in scope or importance
+- **Attributes**
+  None
+- **May occur within**
+  - `record`
+- **May contain**
+  Mixed text and any number of:
+  - `add`
+  - `bibl`
+  - `del`
+  - `i`
+  - `lb`
+  - `mss`
+  - `ref`
+  - `scribe`
+  - `sic`
+  - `sup`
+
+#### `authors`
+
+- **Description**
+  Container for any generally accepted author attributions for the item.
+  Author attributions given by documentary witnesses are transcribed instead within `MSAuthor`.
+- **Attributes**
+  None
+- **Must occur within**
+  - `record`
+- **Must contain**
+  - `author` (one or more)
+
+#### `author`
+
+- **Description**
+  Author name
+- **Attributes**
+  None
+- **Must occur within**
+  - `authors`
+- **May contain**
+  - `first`
+  - `last`
+  - `suffix`
+
+#### `titles`
+
+- **Description**
+  Container for title any titles generally assigned to the item in modern scholarship.
+  Titles given by documentary witnesses are transcribed within the element `MSTitle`.
+- **Attributes**
+  None
+- **Must occur within**
+  - `record`
+- **Must contain**
+  - `title` (one or more)
+
+#### `title`
+
+- **Description**
+  Title associated with the record
+- **Attributes**
+  None
+- **Must occur within**
+  - `titles`
+- **May contain**
+  Mixed text and:
+  - `i` (up to two occurrences)
+
+#### `subjects`
+
+- **Description**
+  List of descriptive keywords, mostly for content;
+  Controlled vocabulary is set by `subject-terms.xml`
+- **Attributes**
+  None
+- **Must occur within**
+  - `record`
+- **Must contain**
+  - `term` (one or more)
+
+#### `verseForms`
+
+- **Description**
+  List of descriptive keywords for verse-form: rhyme scheme, stanza length, etc.; controlled vocabulary is set by `form-terms.xml`.
+- **Attributes**
+  None
+- **Must occur within**
+  - `record`
+- **Must contain**
+  - `term` (one or more)
+
+#### `languages`
+
+- **Description**
+  List of languages employed in the item, other than English; controlled vocabulary is set by `language-terms.xml`
+- **Attributes**
+  None
+- **Must occur within**
+  - `record`
+- **Must contain**
+  - `term` (one or more)
+
+#### `ghosts`
+
+- **Description**
+  List of manuscripts or other text-carrying documents erroneously claimed in prior scholarship to contain a copy of the item
+- **Attributes**
+  None
+- **Must occur within**
+  - `record`
+- **Must contain**
+  - `item` (one or more)
+
+#### `witnesses`
+
+- **Description**
+  List of original witnesses to the item (usually manuscripts, sometimes inscriptions or early printed books).
+- **Attributes**
+  None
+- **Must occur within**
+  - `record`
+- **Must contain**
+  - `witness` (one or more)
+
+#### `witness`
+
+- **Description**
+  A witness to the item, including transcription, source, and related metadata
+- **Attributes**
+  - `xml:id` — required unique identifier, assigned by DIMEV editors, composed of three hyphen-delimited components: (1) the invariant string `wit`; (2) the "DIMEV number" for the item; (3) an integer designating this witness.
+     The unique identifier allows for cross-reference within `Records.xml` and from DIMEV's other XML files.[^wit-caveat]
+  - `illust` — optional boolean indicating whether the witness has accompanying illustration
+  - `music` — optional boolean indicating whether the witness has accompanying music
+- **Must occur within**
+  - `witnesses`
+- **Must contain**
+  - either `allLines` or one or more paired occurrences of `firstLines` and `lastLines`.
+    The elements `firstLines` and `lastLines` are repeated in alternation to record items broken across two or more discontinuous ranges.
+  - `source` (exactly one)
+- **May contain**
+  - `sourceNote` (zero or one)
+  - `MSAuthor` (zero or one)
+  - `MSTitle` (zero or one)
+  - `facsimiles` (zero or one)
+  - `editions` (zero or one)
+
+[^wit-caveat]: **Caveat lector**: The final component of DIMEV's unique identifier for a witness may differ from the positional number assigned to that witness on [dimev.net].
 The witness numbers printed on the current website are generated anew during each build, as a function of witness order, and can change without notice.
 Scholars are advised to reference witnesses by manuscript shelfmarks, not the number assigned to a given witness on DIMEV's current website.
 
-#### Child elements of `witness`
+#### `allLines`
 
-Each `witness` element must have *either* (1) the child element `allLines` *or* (2) one or more sequences of the child elements `firstLines` and `lastLines`.
-(These options are exclusive.)
-The child element `source` is also obligatory.
-All other child elements are optional.
+- **Description**
+  Transcription of the full text of the witness
+- **Attributes**
+  None
+- **Must occur within**
+  - `witness`
+- **May contain**
+  Mixed text and any number of:
+  - `add`
+  - `del`
+  - `i`
+  - `lb`
+  - `sic`
+  - `sup`
 
-- `allLines`. A full transcription of the item as transmitted in the document.
-  Data type: text with inline formatting.
-- `firstLines`. A transcription of the first lines of the item as transmitted in the document.
-  Data type: text with inline formatting.
-- `lastLines`. A transcription of the last lines of the item as transmitted in the document.
-  Data type: text with inline formatting.
-  The elements `firstLines` and `lastLines` may repeat in alternation.
-  This is employed when a witness comprises two or more discontinuous fragments or excerpts of the item.
-- `source`. Bibliographic citation for the witness.
-  Data type: a complex element containing attributes and child elements.
-  See [Attributes of `source`] and [Child elements of `source`].
-- `sourceNote`. Notes regarding the witness.
-  Data type: free text with mixed content (recursively mixed where allowed), including inline formatting and references to scholarly publications and other witnesses, items, or documents.
-- `MSAuthor`. Any author attribution transmitted with the witness.
-  Data type: free text with mixed content (recursively mixed where allowed), including inline formatting and references to scholarly publications and other witnesses, items, or documents.
-- `MSTitle`. Any title attribution transmitted with the witness.
-  Data type: free text with mixed content (recursively mixed where allowed), including inline formatting and references to scholarly publications and other witnesses, items, or documents.
-- `facsimiles`. References to published facsimile reproductions of the source document.
-  Data type: an array of one or more child elements with the tag `item`.
-  Each child element carries an attribute `key`, which links to an item in the [Zotero Group Library].
-- `editions`. References to modern scholarly transcriptions and editions.
-  Data type: an array of one or more child elements with the tag `item`.
-  Each child element carries an attribute `key`, which links to an item in the [Zotero Group Library].
+#### `firstLines`
 
-#### Attributes of `source`
+- **Description**
+  Transcription of the opening lines of the witness
+- **Attributes**
+  None
+- **Must occur within**
+  - `witness`
+- **May contain**
+  Mixed text and any number of:
+  - `add`
+  - `del`
+  - `i`
+  - `lb`
+  - `sic`
+  - `sup`
 
-Each `source` element carries two attributes, as follows:
+#### `lastLines`
 
-- `key`. This identifies the source document by linking to a unique entry in the XML files `Manuscripts.xml`, `PrintedBooks.xml`, or `Inscriptions.xml`.
-- `prefix`: This indicates the unit of navigation (folios, pages, or signatures).
+- **Description**
+  Transcription of the closing lines of the witness
+- **Attributes**
+  None
+- **Must occur within**
+  - `witness`
+- **May contain**
+  Mixed text and any number of:
+  - `add`
+  - `del`
+  - `i`
+  - `lb`
+  - `sic`
+  - `sup`
 
-#### Child elements of `source`
+#### `source`
 
-Each `source` element may have the following child elements:
+- **Description**
+  Reference to the text-carrying source document for a witness, with one or more locational ranges
+- **Attributes**
+  - `key` — required source identifier, linking to a unique entry in the XML files `Manuscripts.xml`, `PrintedBooks.xml`, or `Inscriptions.xml`
+  - `prefix` — optional unit of navigation, usually folio, page, or signature
+- **Must occur within**
+  - `witness`
+- **May contain**
+  Zero or more repetitions of:
+  - `start`
+  - `end` (optional after each `start`)
 
-- `start`. The location at which the text of the witness begins.
-  Data type: optional attributes and string.
-- `end`. The location at which the text of the witness ends.
-  Data type: optional attributes and string.
+#### `start`
 
-The elements `start` and `end` may each carry the attributes `loc`, `col`, and `pre`.
-For books with leaf-based navigation systems, the attribute `loc` is employed to record the side of a leaf (recto or verso, abbreviated "r" and "v").
-For books with multi-columnar page designs, the attribute `col` is employed to record the column in which the item begins or ends.
-Columns are designated by sequential lower-case letters ("a", "b", "c").
-The attribute `pre` is used to record irregularities in foliation (or pagination).
+- **Description**
+  Location at which the text of the witness begins; may repeat to record discontinuous ranges
+- **Attributes**
+  - `loc` — optional folio-side ("r" for "recto" or "v" for "verso") or similar locator, used for documents with leaf-based navigation systems; may be omitted in references to the recto of a leaf
+  - `col` — optional column designation (where present, usually "a" or "b"), used for documents with multi-columnar page designs
+  - `pre` — optional ad hoc prefix, used to record irregularities in foliation or pagination
+- **Must occur within**
+  - `source`
+- **Must contain**
+  Text only (`xs:string`)
 
-Note:
+#### `end`
 
-- The `loc` attribute may be omitted when the reference is to the recto of a leaf.
-- The element `start` will appear alone if the text of the witness occupies a single side of one leaf.
-- The elements `start` and `end` may repeat in alternation to record discontinuous ranges.
+- **Description**
+  Location at which the text of the witness ends; may be omitted if the text of the witness occupies a single side of one leaf
+- **Attributes** As in [start]
+- **Must occur within**
+  - `source`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `sourceNote`
+
+- **Description**
+  Note on the source, using permissive mixed content
+- **Attributes**
+  None
+- **Must occur within**
+  - `witness`
+- **May contain**
+  Mixed text and any number of:
+  - `add`
+  - `bibl`
+  - `del`
+  - `i`
+  - `lb`
+  - `mss`
+  - `ref`
+  - `scribe`
+  - `sic`
+  - `sup`
+
+#### `MSAuthor`
+
+- **Description**
+  Any author attribution transmitted with the witness
+- **Attributes**
+  None
+- **Must occur within**
+  - `witness`
+- **May contain**
+  Mixed text and any number of:
+  - `add`
+  - `bibl`
+  - `del`
+  - `i`
+  - `lb`
+  - `mss`
+  - `ref`
+  - `scribe`
+  - `sic`
+  - `sup`
+
+#### `MSTitle`
+
+- **Description**
+  Any title attribution transmitted with the witness
+- **Attributes**
+  None
+- **Must occur within**
+  - `witness`
+- **May contain**
+  Mixed text and any number of:
+  - `add`
+  - `bibl`
+  - `del`
+  - `i`
+  - `lb`
+  - `mss`
+  - `ref`
+  - `scribe`
+  - `sic`
+  - `sup`
+
+#### `facsimiles`
+
+- **Description**
+  List of published facsimile reproductions of the source document
+- **Attributes**
+  None
+- **Must occur within**
+  - `witness`
+- **Must contain**
+  - `item` (one or more)
+
+#### `item`
+
+- **Description**
+  Generic list item used within `repertories`, `editions`, `crossRefs`, `ghosts`, and `facsimiles`
+- **Attributes**
+  None
+- **Must occur within**
+  - `repertories`
+  - `editions`
+  - `crossRefs`
+  - `ghosts`
+  - `facsimiles`
+- **Must contain**
+  Content depends on parent element:
+  - in `repertories`, `editions`, and `facsimiles`: either `bibl` with optional `note`, or `note` alone
+  - in `crossRefs`: `ref` with optional `note`
+  - in `ghosts`: either `mss` with optional `note`, or `note` alone
+
+#### `bibl`
+
+- **Description**
+  Bibliographical citation or reference
+- **Attributes**
+  - `key` — required reference key, designating an item in the [Zotero Group Library].
+- **May occur within**
+  - `item`
+  - `description`
+  - `descNote`
+  - `sourceNote`
+  - `MSAuthor`
+  - `MSTitle`
+- **May contain**
+  Mixed text and:
+  - `i`
+  - `sup`
+
+#### `mss`
+
+- **Description**
+  Manuscript citation or manuscript reference
+- **Attributes**
+  - `key` — required reference key
+- **May occur within**
+  - `item`
+  - `description`
+  - `descNote`
+  - `sourceNote`
+  - `MSAuthor`
+  - `MSTitle`
+- **May contain**
+  Mixed text and:
+  - `i`
+  - `sup`
+
+#### `ref`
+
+- **Description**
+  Empty cross-reference pointing element
+- **Attributes**
+  - `target` — required target value
+- **May occur within**
+  - `item`
+  - `description`
+  - `descNote`
+  - `sourceNote`
+  - `MSAuthor`
+  - `MSTitle`
+- **Must contain**
+  No child elements or text
+
+#### `note`
+
+- **Description**
+  Note associated with a bibliographical item, ghost item, or cross-reference item
+- **Attributes**
+  None
+- **Must occur within**
+  - `item`
+- **May contain**
+  Mixed text and any number of:
+  - `add`
+  - `bibl`
+  - `del`
+  - `i`
+  - `lb`
+  - `mss`
+  - `ref`
+  - `scribe`
+  - `sic`
+  - `sup`
+
+#### `term`
+
+- **Description**
+  Controlled term or keyword in a term list
+- **Attributes**
+  None
+- **Must occur within**
+  - `subjects`
+  - `verseForms`
+  - `languages`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `i`
+
+- **Description**
+  Inline italic text
+- **Attributes**
+  None
+- **May occur within**
+  - `name`
+  - `title`
+  - `bibl`
+  - `mss`
+  - `description`
+  - `descNote`
+  - `sourceNote`
+  - `MSAuthor`
+  - `MSTitle`
+  - `allLines`
+  - `firstLines`
+  - `lastLines`
+- **May contain**
+  - in `name` and `title`: text only (`xs:string`)
+  - elsewhere: mixed text and any number of `add`, `del`, `lb`, `scribe`, `sup`
+
+#### `sup`
+
+- **Description**
+  Inline superscript text
+- **Attributes**
+  None
+- **May occur within**
+  - `bibl`
+  - `mss`
+  - `description`
+  - `descNote`
+  - `sourceNote`
+  - `MSAuthor`
+  - `MSTitle`
+  - `allLines`
+  - `firstLines`
+  - `lastLines`
+  - `i`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `add`
+
+- **Description**
+  Added text in a transcription or note
+- **Attributes**
+  None
+- **May occur within**
+  - `description`
+  - `descNote`
+  - `sourceNote`
+  - `MSAuthor`
+  - `MSTitle`
+  - `allLines`
+  - `firstLines`
+  - `lastLines`
+  - `i`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `del`
+
+- **Description**
+  Deleted text in a transcription or note
+- **Attributes**
+  None
+- **May occur within**
+  - `description`
+  - `descNote`
+  - `sourceNote`
+  - `MSAuthor`
+  - `MSTitle`
+  - `allLines`
+  - `firstLines`
+  - `lastLines`
+  - `i`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `lb`
+
+- **Description**
+  Line-break marker
+- **Attributes**
+  None
+- **May occur within**
+  - `description`
+  - `descNote`
+  - `sourceNote`
+  - `MSAuthor`
+  - `MSTitle`
+  - `allLines`
+  - `firstLines`
+  - `lastLines`
+  - `i`
+- **Must contain**
+  No child elements or text
+
+#### `scribe`
+
+- **Description**
+  Inline person name identifying a scribe
+- **Attributes**
+  None
+- **May occur within**
+  - `description`
+  - `descNote`
+  - `sourceNote`
+  - `MSAuthor`
+  - `MSTitle`
+  - `i`
+- **May contain**
+  - `first`
+  - `last`
+  - `suffix`
+
+#### `sic`
+
+- **Description**
+  Text marked as erroneous or reproduced as found
+- **Attributes**
+  None
+- **May occur within**
+  - `description`
+  - `descNote`
+  - `sourceNote`
+  - `MSAuthor`
+  - `MSTitle`
+  - `allLines`
+  - `firstLines`
+  - `lastLines`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `first`
+
+- **Description**
+  First name or given name
+- **Attributes**
+  None
+- **Must occur within**
+  - `author`
+  - `scribe`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `last`
+
+- **Description**
+  Last name or surname
+- **Attributes**
+  None
+- **Must occur within**
+  - `author`
+  - `scribe`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `suffix`
+
+- **Description**
+  Suffix attached to a personal name, but also used to flag dubious attributions (with a question mark)
+- **Attributes**
+  None
+- **Must occur within**
+  - `author`
+  - `scribe`
+- **Must contain**
+  Text only (`xs:string`)
+
 
 ### Technical direction {#tech-dir-records}
 
@@ -244,40 +811,185 @@ Note:
 ### Overview {#overview-manuscripts}
 
 This XML file stores bibliographic information on medieval manuscripts cited as witnesses in the XML file `Records.xml`.
-It also includes some individual copies of early printed books, cited within `Records.xml` for manuscript additions entered into them.
+It also includes some individual copies of early printed books, cited within `Records.xml` for manuscript inscriptions or binding fragments.
+The root element is `list`.
 
-Each entry is contained within a uniquely identified `item` element.
-`item` elements are serialized as children of the root element `mss`.
+### Tag library
 
-### Document structure {#doc-struct-manuscripts}
+#### `list`
 
-#### Root element {#root-manuscripts}
+- **Description**
+  Root element containing a list of bibliographic entries for medieval manuscripts and particular copies of early printed books
+- **Attributes**
+  None
+- **Must contain**
+  - `item` (one or more)
 
-- Name: `mss`
-- Description: Represents a collection of bibliographic entries for medieval manuscripts (and particular copies of early printed books)
-- Content: Contains `item` elements
+#### `item`
 
-#### Child elements of `mss`
+- **Description**
+  A bibliographic entry for a medieval manuscript or a particular copy of an early printed book
+- **Attributes**
+  - `xml:id`: required unique identifier
+- **Must occur within**
+  - `list`
+- **Must contain** (in sequence)
+  - `settlement` (exactly one)
+  - `repos` (exactly one)
+  - `desc` (exactly one)
+- **May contain**
+  - `lang` (zero or one)
+  - `surrogates` (zero or one)
 
-- Name: `item`
-- Description: Represents a single bibliographic entry for a medieval manuscript (or a particular copy of an early printed book)
-- Attributes: `xml:id`. The attribute value must be unique. It allows bibliographic entries in `Manuscripts.xml` to be referenced within DIMEV's other XML files.
-- Content: Child elements as described in the following section
+#### `settlement`
 
-#### Child elements of `item`
-
-- `loc`: The city or town in which the manuscript is held at present.
+- **Description**
+  The city or town in which the manuscript is held at present.
   Equivalent to the element `settlement` in @TEIConsortiumTEIP5Guidelines2024, [manuscript description module].
-  Data type: Usually string; may contain inline formatting.
-- `repos`: The repository in which the manuscript is held at present.
+- **Attributes**
+  None
+- **Must occur within**
+  - `item`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `repos`
+
+- **Description**
+  The repository in which the manuscript is held at present.
   Equivalent to the elements `institution` and `repository` in the TEI [manuscript description module].
-  Data type: Usually string; may contain inline formatting.
-- `desc`: The present shelfmark of the manuscript.
+- **Attributes**
+  None
+- **Must occur within**
+  - `item`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `desc`
+
+- **Description**
+  The present shelfmark of the manuscript.
   Equivalent to the elements `collection` and `idno` in the TEI [manuscript description module].
   Previous shelfmarks may be supplied after the current shelfmark; these are usually enclosed in square brackets and prefixed with "*olim*".
-- `lang`: Localization of the language of the manuscript, with reference to @LaingLinguisticAtlasEarly2013, @BenskinElectronicVersionLinguistic2013, and subsequent scholarship.
-  Data type: free text with mixed content (recursively mixed where allowed), including inline formatting, inset elements `langGrid` and `place`, and references to scholarly publications and other manuscript items.
-- `surrogates`: URL links to on-line facsimiles of the manuscripts.
+- **Attributes**
+  None
+- **Must occur within**
+  - `item`
+- **May contain**
+  Mixed text and any number of the following:
+  - `i`
+  - `sup`
+  - `mss`
+  - `bibl`
+
+#### `i`
+
+- **Description**
+  Inline italic text
+- **Attributes**
+  None
+- **May occur within**
+  - `desc`
+  - `lang`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `sup`
+
+- **Description**
+  Inline superscript text
+- **Attributes**
+  None
+- **May occur within**
+  - `desc`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `mss`
+
+- **Description**
+  Cross-reference to a manuscript entry
+- **Attributes**
+  - `key`: required reference key
+- **May occur within**
+  - `desc`
+  - `lang`
+- **Must contain**
+  No child elements or text
+
+#### `bibl`
+
+- **Description**
+  Citation of an item in DIMEV's Zotero Group Library
+- **Attributes**
+  - `key`: required citation key
+- **May occur within**
+  - `desc`
+  - `lang`
+- **May contain**
+  Text only (`xs:string`)
+
+#### `lang`
+
+- **Description**
+  Localization of the language of the manuscript, with reference to @LaingLinguisticAtlasEarly2013, @BenskinElectronicVersionLinguistic2013, and subsequent scholarship.
+- **Attributes**
+  None
+- **May occur within**
+  - `item`
+- **Must contain**
+  At least one of the following:
+  - `langGrid`
+  - `i`
+  - `mss`
+  - `bibl`
+  - `place`
+
+#### `langGrid`
+
+- **Description**
+  LALME language grid coordinates
+- **Attributes**
+  None
+- **May occur within**
+  - `lang`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `place`
+
+- **Description**
+  Place-name referenced within a language note
+- **Attributes**
+  - `country`: optional country name
+  - `county`: optional county name
+  - `town`: optional town name
+- **May occur within**
+  - `lang`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `surrogates`
+
+- **Description**
+  Container for references to on-line facsimiles of the manuscripts.
+- **Attributes**
+  None
+- **May occur within**
+  - `item`
+- **Must contain**
+  - `ref` (one or more)
+
+#### `ref`
+
+- **Description**
+  Reference to an on-line facsimile
+- **Attributes**
+  - `target`: required URI target
+- **Must occur within**
+  - `surrogates`
+- **Must contain**
+  No child elements or text
 
 ### Technical direction {#tech-dir-manuscripts}
 
@@ -291,12 +1003,66 @@ Each entry is contained within a uniquely identified `item` element.
 ### Overview {#overview-inscr}
 
 This XML file stores bibliographic information on inscriptions and other epigraphic texts cited as witnesses in the XML file `Records.xml`.
-Each entry is contained within a uniquely identified `item` element.
-`item` elements are serialized as children of the root element `inscriptions`.
 
-### Document structure {#doc-struct-insr}
+`Inscriptions.xml` employs a simpler variant of the document structure employed in `Manuscripts.xml`.
+The root element is `list`.
 
-The structure of `Inscriptions.xml` is essentially the same as `Manuscripts.xml`, except `Inscriptions.xml` has no element `lang`.
+### Tag library
+
+#### `list`
+
+- **Description**
+  Root element containing a list of inscribed objects and epigraphic texts
+- **Attributes**
+  None
+- **Must contain**
+  - `item` (one or more)
+
+#### `item`
+
+- **Description**
+  A single entry representing an inscribed object or epigraph
+- **Attributes**
+  - `xml:id`: required unique identifier
+- **Must occur within**
+  - `list`
+- **Must contain** (in sequence)
+  - `settlement` (exactly one)
+  - `repos` (exactly one)
+  - `desc` (exactly one)
+
+#### `settlement`
+
+- **Description**
+  Settlement or place where the item is located
+- **Attributes**
+  None
+- **Must occur within**
+  - `item`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `repos`
+
+- **Description**
+  The institutional holder of the item
+- **Attributes**
+  None
+- **Must occur within**
+  - `item`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `desc`
+
+- **Description**
+  Institutional identifier and/or brief description of the item
+- **Attributes**
+  None
+- **Must occur within**
+  - `item`
+- **Must contain**
+  Text only (`xs:string`)
 
 ### Technical direction {#tech-dir-inscr}
 
@@ -308,48 +1074,193 @@ The structure of `Inscriptions.xml` is essentially the same as `Manuscripts.xml`
 ### Overview {#overview-printed-books}
 
 This XML file stores bibliographic information for editions of early printed books cited as witnesses in the XML file `Records.xml`.
-Each entry is contained within a uniquely identified `bibl` element.
-`bibl` elements are serialized as children of the root element `books`.
+The root element is `list`.
 
-### Document structure {#doc-struct-printed-books}
+### Tag library {#doc-struct-printed-books}
 
-#### Root element {#root-printed-books}
+#### `list`
 
-- Name: `books`
-- Description: Represents a collection of bibliographic entries for early printed books
-- Content: Contains `bibl` elements
+- **Description**
+  Root element containing a collection of bibliographic records
+- **Attributes**
+  None
+- **Must Contain**
+  `bibl` (one or more)
 
-#### Child elements of `books`
+#### `bibl`
 
-- Name: `bibl`
-- Description: Represents a single bibliographic entry for an early printed book
-- Attributes: `xml:id` and `n`.
-  The value of `xml:id` must be unique; it allows entries in `PrintedBooks.xml` to be referenced within DIMEV's other XML files.
-  The attribute `n` usually gives the corresponding item number in @PollardShorttitleCatalogueBooks1950, where available.
-  For non-English books and other items not recorded in the STC, the value of `n` is often a dummy string ("X").
-  Sometimes another value is used.
-- Content: Child elements `loc`, `DIMEVCount`, `authorstmt`, `titlestmt`, `pubstmt`, and `desc`, as described in the following section
+- **Description**
+  A single bibliographic record
+- **Attributes**
+  - `xml:id`: required unique identifier
+  - `n`: required identifier, usually the corresponding item number in @PollardShorttitleCatalogueBooks1950, where available.
+    For non-English books and other items not recorded in the STC, the value of `n` is often a dummy string ("X").
+    Sometimes another value is used.
+- **Must occur within**
+  `list`
+- **Must contain** (in order)
+  - `authorstmt`
+  - `titlestmt`
+  - `pubstmt`
+  - `desc`
 
-#### Child elements of `bibl`
+#### `authorstmt`
 
-- `DIMEVCount`. A count of DIMEV items transmitted by the item.
-  Data type: string.
-- `authorstmt`. Parent of the element `author`, which may contain an author attribution.
-  Data type of `author`: string.
-- `titlestmt`. Parent of the element `title`, which contains the item title.
-  Data type of `title`: attribute and string.
-  The `title` element carries the attribute `level`, the value of which is always "m" (for "monograph").
-- `pubstmt`. Agent, date, and location of printing, as given in the volume or as reconstructed.
-  The element `pubstmt` carries a required attribute `date`, which gives the year of publication (Gregorian calendar, Common Era).
-  Data type: attribute and string.
-- `desc`. Usually repeats and concatenates the content of `authorstmt`, `title`, and `pubstmt`.
-  Data type: free text with mixed content.
+- **Description**
+  Container for author information
+- **Attributes**
+  None
+- **Must occur within**
+  `bibl`
+- **Must contain**
+  `author` (exactly one)
+
+#### `author`
+
+- **Description**
+  Name of the author
+- **Attributes**
+  None
+- **Must occur within**
+  `authorstmt`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `titlestmt`
+
+- **Description**
+  Container for title information
+- **Attributes**
+  None
+- **Must occur within**
+  `bibl`
+- **Must contain**
+  `title` (exactly one)
+
+#### `title`
+
+- **Description**
+  Title of the work
+- **Attributes**
+  - `level`: required value indicating the bibliographic level or title type.
+    The value of which is always "m" (for "monograph").
+- **Must occur within**
+  `titlestmt`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `pubstmt`
+
+- **Description**
+  Agent, date, and location of printing, as given in the volume or as reconstructed
+- **Attributes**
+  - `date`: publication year (Gregorian calendar, Common Era) (`xs:gYear`)
+- **Must occur within**
+  `bibl`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `desc`
+
+- **Description**
+  Descriptive note for the bibliographic item
+- **Attributes**
+  None
+- **Must occur within**
+  `bibl`
+- **May contain**
+  Mixed text content with up to two occurrences total of:
+  - `name`
+  - `i`
+- **Notes**
+  This content model is intentionally restrictive to reflect current data.
+
+#### `name`
+
+- **Description**
+  Name referenced within a description
+- **Attributes**
+  None
+- **May occur within**
+  `desc`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `i`
+
+- **Description**
+  Inline element for italicized text
+- **May occur within**
+  `desc`
+- **May contain**
+  Mixed text with zero or more of `sup`
+
+#### `sup`
+
+- **Description**
+  Inline superscript text
+- **May occur within**
+  - `i`
+  - `desc`
+- **Must contain** Text only (`xs:string`)
 
 ### Technical direction {#tech-dir-printed-books}
 
 - For references to editions: implement a standard data structure for XML serialization of bibliographic metadata for early printed books
 - Disaggregate references to @PollardShorttitleCatalogueBooks1950 from other content of the attribute `n`
 - Supply references to the English Short Title Catalog (ESTC) where available.
+
+## Controlled vocabularies: `subject-terms.xml` and others
+
+### Overview {#overview-vocab}
+
+The XML files `subject-terms.xml`, `verseForm-terms.xml`, and `language-terms.xml` specify controlled vocabularies for `subjects`, `verseForms`, and `languages` in `Records.xml`.
+These files share a single data model.
+
+### Tag library
+
+#### `list`
+
+- **Description**
+  Root element representing a simple list with a heading and one or more items
+- **Attributes**
+  None
+- **Must contain**
+  - `head` (exactly one)
+  - `item` (one or more)
+
+#### `head`
+
+- **Description**
+  Textual heading for the list
+- **Attributes**
+  None
+- **Must occur within**
+  `list`
+- **Must contain**
+  Text only (`xs:string`)
+
+#### `item`
+
+- **Description**
+  Individual list entry
+- **Attributes**
+  None
+- **Must occur within**
+  `list`
+- **Must contain**
+  `term` (exactly one)
+
+#### `term`
+
+- **Description**
+  A controlled term or keyword employed in `Records.xml`
+- **Attributes**
+  None
+- **Must occur within**
+  `item`
+- **Must contain**
+  Text only (`xs:string`)
 
 # History and responsibility
 
