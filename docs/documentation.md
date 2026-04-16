@@ -74,16 +74,28 @@ The survey of British Library manuscripts was completed by Mooney in 2024, suppo
 From 2007 to 2025 Mooney and Mosser served as co-editors of DIMEV, sharing responsibility for content.
 Mosser was technical editor, maintaining data files and pushing updates to [dimev.net].
 In 2025 editorial responsibility passed to Ian Cornelius and Michael Johnston.
-Cornelius is technical editor and lead author of this documentation.
+Cornelius is technical editor and lead author of the documentation.
 
-# Overview of DIMEV Data
+# Present Status
+
+As stated in the [General Introduction], updates of dimev.net ceased on 31 December 2024, to accommodate modernization of source data and maintenance practices.
+On 1 January 2025 a snapshot of project data was archived in [Zenodo], a widely used public data repository [@MooneyDigitalIndexMiddle2025].
+Source files are maintained in DIMEV's public [GitHub repository], which includes a [README](https://github.com/digital-index-of-middle-english-verse/dimev?tab=readme-ov-file#dimev-on-github),
+[Changelog](https://github.com/digital-index-of-middle-english-verse/dimev/blob/main/CHANGELOG.md),
+and [working notes](https://github.com/digital-index-of-middle-english-verse/dimev/issues).
+
+This present "Technical Introduction" is maintained within the same GitHub repository.
+The PDF version is built and published on [tagged releases](https://github.com/digital-index-of-middle-english-verse/dimev/releases) and thus lags behind the current state of data files.
+For a more current version, view the [Markdown source](https://github.com/digital-index-of-middle-english-verse/dimev/blob/main/docs/documentation.md) on the project's main branch.
+
+# Data: Overview
 
 DIMEV data are contained in XML files and a Zotero Group Library.
 
 ## Zotero Library
 
 DIMEV's [Zotero Group Library] records bibliographic details for modern transcriptions, editions, and facsimiles cited elsewhere in DIMEV data.
-The library is periodically exported as Zotero RDF and logged in DIMEV's principal [GitHub repository], within the directory `data/`.
+The library is periodically exported as Zotero RDF and logged in DIMEV's principal [GitHub repository], within the directory `data`.
 The RDF file is intended only as an archival backup.
 
 ## XML files
@@ -94,11 +106,11 @@ XML files are of three types:
 - `Manuscripts.xml`, `PrintedBooks.xml`, `Inscriptions.xml`: Bibliographic details for witnesses cited in `Records.xml`
 - `subject-terms.xml`, `form-terms.xml`, `language-terms.xml`: Controlled vocabularies for the elements `subjects`, `verseForms`, and `languages` in `Records.xml`
 
-These XML files are located within the directory `data/` in DIMEV's principal [GitHub repository].
+These XML files are located within the `data` directory in DIMEV's principal [GitHub repository].
 Structures are documented in two forms:
 
 1. A human-readable specification, provided in the following subsections of this documentation
-1. Machine-readable schemas, written as XSD files and located in the directory `schemas/`
+1. Machine-readable schemas, written as XSD files and located in the directory `schemas`
 
 The Python script `validator.py` can be used to validate XML files against the corresponding XSD file.
 For instructions see the comment at the head of `validator.py`.
