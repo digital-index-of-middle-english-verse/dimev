@@ -10,7 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 #### Files added
 
-- `data/Bibliography.rdf`: RDF backup of DIMEV's Zotero Group Library (#23; 31aaf5e4bfb0421381662d4e507713b366fd199d..9823c245fd555f04034511170ef45b8f85c0d226)
+- `data/Bibliography.rdf`: RDF backup of DIMEV's Zotero Group Library (#23; 31aaf5e4bfb0421381662d4e507713b366fd199d..096b968132d227795d9a08dbbb6f1324253e05c1)
 - `data/form-terms.xml`, `data/language-terms.xml`, and `data/subject-terms.xml`: XML files to control vocabularies for verse forms, languages, and subjects (f88d584f889a9aac6aaf8afaeb6c1361e2056a71..139e1c85173c6a9dcfed7f6e7c8677f3546cc4fd)
 - `schemas/terms.xsd`: XML Schema to validate `data/form-terms.xml`, `data/language-terms.xml`, and `data/subject-terms.xml` (f88d584f889a9aac6aaf8afaeb6c1361e2056a71..e1ea9ec979e2234ca1de57fbda5dfedfb8e2019a)
 - `scripts/formatter.py`: Python script to pretty-print XML files with four-space indentation (9214e65479f174ecfe512e8c3175f046a1d093ea..b6234398b60502a231b9bab28346a09939ea4be2)
@@ -18,7 +18,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 #### Content added to all XML files
 
-- Add processing instructions to associate XML files with schemas (139e1c85173c6a9dcfed7f6e7c8677f3546cc4fd)
+- Add processing instructions to associate XML files with schemas (139e1c85173c6a9dcfed7f6e7c8677f3546cc4fd, 14345568f9052090677b5920cbbc41e4701240f9)
 
 #### `Manuscripts.xml`: content added
 
@@ -34,17 +34,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Add references to the Bibliography of the Middle English Compendium as repertory (#31; b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
 - Add "post-1500" as subject term (#34; b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
+- Restore DIMEV 2204 (formerly commented out) (#51; 14345568f9052090677b5920cbbc41e4701240f9)
 
 #### Validation: functions added
 
 - Validate unique identifiers (`xml:id` and bibliographic citation keys) for uniqueness and well-formedness (#9, #33; 4d7de46398019a4788a129340a24f2f22661a3f3, af6d0739c10f458d3156175bb8309154a74d1bf3, 09be893ce6f940c6ccf3bb9ce64f6bb0fe888e66)
 - Validate key references in `Records.xml` against the sets of unique identifiers of text-carriers (manuscripts, early printed books, and inscriptions) and modern scholarly works (#33, #39, #40; ee36fb2e3a9ed656fd3bddd837b6cdbb072dacf4, 91801c136d2c0c94bcd5840b3a8da5c19af7b988)
 - Validate cross-references in `Records.xml` against `xml:id`s in `Records.xml` (#48; 3d22a3bebfb45586df92ba22c3a81eac31b1eed2, 43c7ddde4d231b3f01b98cddbb9edfa6d9ae5fe4, 702525a60500a6de7795e571cb1a0dc8bda4cab4)
-- Validate subjects, verse-forms, and languages against controlled vocabularies (#53; e17f3f9a566bc3e1d94d9d5e14b350da919f0acc)
+- Validate subjects, verse-forms, and languages against controlled vocabularies (#53; e17f3f9a566bc3e1d94d9d5e14b350da919f0acc, 14345568f9052090677b5920cbbc41e4701240f9)
 
 #### Documentation
 
 - `README.md`: add instructions for contributors; add Zenodo DOI badge (9ad3e6a246d0eedf4981d19ec479292a5809c3b0)
+- Technical introduction: add section "Current Status" (907e3d224bb3d91fc3ade10c0018945ba3a7844b)
 
 ### Changed
 
@@ -85,6 +87,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Restructure lists of bibliographic references (editions, facsimiles, ghosts) (90911075eadbe57068ca460f128b107fd80fd3de)
 - Restructure lists of keywords (subjects, verse-forms, languages) (72e56e266e712a26e7fc05d63e7160c495ab9e22)
 - Restructure `ref` elements and their content (#24, #48; 8e48f84731cfac8d8efc079693b7c344e9b0c260, 6da0898ac11bdf940c45161781ecf810cd64357f)
+- Convert the values of attributes "music" and "illust" to booleans (14345568f9052090677b5920cbbc41e4701240f9)
 - Rename the element `biblio` as `bibl` to align with TEI tag names (90911075eadbe57068ca460f128b107fd80fd3de)
 - Rename the element `insc` as `mss` for in-project consistency (90911075eadbe57068ca460f128b107fd80fd3de)
 - Change DIMEV item number 7684 to 5784; retain the mistaken identifier as a cross-reference (#20; b9aa6fe5c60591a435063c22e9e16b8195d49c55)
@@ -163,7 +166,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Fix validation errors in reported NIMEV and IMEV numbers (#25; b9aa6fe5c60591a435063c22e9e16b8195d49c55, b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
 - Fix validation errors in `ref` elements (#48; 8e48f84731cfac8d8efc079693b7c344e9b0c260)
 - Fix key errors in bibliographic references to text-carriers (manuscripts, printed books, inscriptions) and modern scholarly works (editions, facsimiles) (#39, #40; b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9, dcf295f8e7a037da6f13ecde3656a8890156a003, 6da0898ac11bdf940c45161781ecf810cd64357f, 72e56e266e712a26e7fc05d63e7160c495ab9e22)
-- Move subject terms misplaced as verse-forms and vice versa (#30, #42; 72e56e266e712a26e7fc05d63e7160c495ab9e22, b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
+- Move subject terms misplaced as verse-forms and vice versa; move verse-forms misplaced as language terms (#30, #42; 72e56e266e712a26e7fc05d63e7160c495ab9e22, b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9, 14345568f9052090677b5920cbbc41e4701240f9)
+- 3171: Harley 1706 is not a ghost; add the manuscript as witness (#27; 14345568f9052090677b5920cbbc41e4701240f9)
+- 5029: correct extent, range, lastlines (#5; 14345568f9052090677b5920cbbc41e4701240f9)
 - 5143: move subjects misplaced in the `titles` element (72e56e266e712a26e7fc05d63e7160c495ab9e22)
 
 #### All XML files
