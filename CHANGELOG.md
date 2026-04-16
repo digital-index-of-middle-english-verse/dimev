@@ -8,47 +8,207 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 
-- `Bibliography.rdf`: add this file as a backup of DIMEV's Zotero library (#23; 31aaf5e4bfb0421381662d4e507713b366fd199d)
-- `Manuscripts.xml`: add links to on-line facsimiles (#22; c23bebc9fb82c0768974db518b46fb9fd792c7b7)
-- `Manuscripts.xml`: supply missing Bodleian SC numbers (9cd87c72a67f74527ffde809044f9a96fec098ab)
-- `Records.xml`: add references to the Bibliography of the Middle English Compendium as repertory (#31; b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
-- `README.md`: add instructions for contributors (9ad3e6a246d0eedf4981d19ec479292a5809c3b0)
-- validation: check xml-ids and bibliographic citation keys for uniqueness and well-formedness (#9, #33; 4d7de46398019a4788a129340a24f2f22661a3f3, af6d0739c10f458d3156175bb8309154a74d1bf3)
-- validation: check that key references in `Records.xml` point to a recorded textcarrier (manuscript, early printed book, or inscription) or modern scholarly work (#33; ee36fb2e3a9ed656fd3bddd837b6cdbb072dacf4, 91801c136d2c0c94bcd5840b3a8da5c19af7b988)
-- style: add `formatter.py` to pretty-print and lineate XML files, with four-space indentation (9214e65479f174ecfe512e8c3175f046a1d093ea)
+#### Files added
+
+- `data/Bibliography.rdf`: RDF backup of DIMEV's Zotero Group Library (#23; 31aaf5e4bfb0421381662d4e507713b366fd199d..9823c245fd555f04034511170ef45b8f85c0d226)
+- `data/form-terms.xml`, `data/language-terms.xml`, and `data/subject-terms.xml`: XML files to control vocabularies for verse forms, languages, and subjects (f88d584f889a9aac6aaf8afaeb6c1361e2056a71..139e1c85173c6a9dcfed7f6e7c8677f3546cc4fd)
+- `schemas/terms.xsd`: XML Schema to validate `data/form-terms.xml`, `data/language-terms.xml`, and `data/subject-terms.xml` (f88d584f889a9aac6aaf8afaeb6c1361e2056a71..e1ea9ec979e2234ca1de57fbda5dfedfb8e2019a)
+- `scripts/formatter.py`: Python script to pretty-print XML files with four-space indentation (9214e65479f174ecfe512e8c3175f046a1d093ea..b6234398b60502a231b9bab28346a09939ea4be2)
+- `CHANGELOG.md`: This change log
+
+#### Content added to all XML files
+
+- Add processing instructions to associate XML files with schemas (139e1c85173c6a9dcfed7f6e7c8677f3546cc4fd)
+
+#### `Manuscripts.xml`: content added
+
+- Add links to some on-line facsimiles (#22; c23bebc9fb82c0768974db518b46fb9fd792c7b7)
+- Add some Summary Catalog numbers for Bodleian manuscripts (9cd87c72a67f74527ffde809044f9a96fec098ab)
+
+#### `PrintedBooks.xml`: content added
+
+- Add entries for printed books cited in `Records.xml` but previously unrecorded in `PrintedBooks.xml` (STC 17325, 17326, 22595, 22596); de-comment 4853 (#40; 82f0e80768bc4d6edd2acac91d3d79b69e754be2)
+- Add some STC numbers (08cf30f52f3f6fda112c9337d87f10444681dc81)
+
+#### `Records.xml`: content added
+
+- Add references to the Bibliography of the Middle English Compendium as repertory (#31; b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
+- Add "post-1500" as subject term (#34; b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
+
+#### Validation: functions added
+
+- Validate unique identifiers (`xml:id` and bibliographic citation keys) for uniqueness and well-formedness (#9, #33; 4d7de46398019a4788a129340a24f2f22661a3f3, af6d0739c10f458d3156175bb8309154a74d1bf3, 09be893ce6f940c6ccf3bb9ce64f6bb0fe888e66)
+- Validate key references in `Records.xml` against the sets of unique identifiers of text-carriers (manuscripts, early printed books, and inscriptions) and modern scholarly works (#33, #39, #40; ee36fb2e3a9ed656fd3bddd837b6cdbb072dacf4, 91801c136d2c0c94bcd5840b3a8da5c19af7b988)
+- Validate cross-references in `Records.xml` against `xml:id`s in `Records.xml` (#48; 3d22a3bebfb45586df92ba22c3a81eac31b1eed2, 43c7ddde4d231b3f01b98cddbb9edfa6d9ae5fe4, 702525a60500a6de7795e571cb1a0dc8bda4cab4)
+- Validate subjects, verse-forms, and languages against controlled vocabularies (#53; e17f3f9a566bc3e1d94d9d5e14b350da919f0acc)
+
+#### Documentation
+
+- `README.md`: add instructions for contributors; add Zenodo DOI badge (9ad3e6a246d0eedf4981d19ec479292a5809c3b0)
 
 ### Changed
 
-- data files: pretty-print and re-lineate (c0ea1006b5bf4ff1ad53493c11bd9914d5a444c0)
-- data files: replace numeric character entity references with Unicode (33b4b1f2637ebec794e7f39fd96b16f4bcd7a014)
-- data files: replace curly possessive apostrophes and single and double quotes with the corresponding non-directional characters (33b4b1f2637ebec794e7f39fd96b16f4bcd7a014)
-- `Manuscripts.xml`: establish this file as the single source of truth for manuscript details (#21; 574cf0b3c0faacb0242b10b9b35c3bc99767c2a9)
-- `Manuscripts.xml`: update location, repository and shelfmark details for items with keys "CollArms316" and "BLAshb27" (574cf0b3c0faacb0242b10b9b35c3bc99767c2a9)
-- `Manuscripts.xml`: update repository "Public Record Office" => "The National Archives"; update details for Longleat manuscripts purchased by the British Library (#32, #18; 9cd87c72a67f74527ffde809044f9a96fec098ab)
-- `Records.xml`: change DIMEV item number 7684 to 5784; retain the mistaken id as a cross-reference (#20; b9aa6fe5c60591a435063c22e9e16b8195d49c55)
-- `Records.xml`: revise subject keywords (#29, #30, #34; b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
-- `Records.xml`: move IMEV, NIMEV, and Ringler numbers from item attributes (and free text) to a new block `repertories`; move Whiting 1968 and Walther refs from free text to the `repertories` block (#25; b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
-- `Records.xml`: remove `gloss` tags (#26; dcf295f8e7a037da6f13ecde3656a8890156a003)
-- documentation: update documentation to reflect changes to project data (b6fd92de9af2471d3368f010176003d1d4b97baa, f4e82258c292a0919ae21918694bfb34a4dd9e87)
-- validation: rewrite `validator.py` to validate all XML files, unless a file path is specified as an argument (491c8ecd1f49accb2873946a0062e08ae1f009fc, 0bba2694d445432cbbb1af01bf98d8e9011b40fa)
-- validation(`manuscripts.xsd`): require string content in the elements `loc` and `desc` (5e25a7fa47fdace713bf7d613633ddcca855459f); add element `surrogates` (05ab06bd42e7ec256614fdd475548a83d728140e)
-- validation('records.xsd): update to reflect changes to `Records.xml` data structure (b7aefff35e8048c8c0f8695036845568166281d3, 060ed18a3db79a35a6f6c3c33009cc462fd28484)
+#### Changes affecting multiple XML files
+
+- Move records of printed books with manuscript additions or binding fragments from `PrintedBooks.xml` to `Manuscripts.xml` (#11, 08cf30f52f3f6fda112c9337d87f10444681dc81)
+- Move records of full-manuscript on-line facsimiles from `Bibliography.xml` to `Manuscripts.xml` (#22, c23bebc9fb82c0768974db518b46fb9fd792c7b7)
+- Reduce key-string "Schøyen33" to ASCII (08cf30f52f3f6fda112c9337d87f10444681dc81, 72e56e266e712a26e7fc05d63e7160c495ab9e22)
+- Pretty-print and re-lineate all XML and XSD files (c0ea1006b5bf4ff1ad53493c11bd9914d5a444c0, 939b3568a29bcc3e7074fa31dca7154b0cec3fc7)
+- Replace numeric character entity references with Unicode (#1; 33b4b1f2637ebec794e7f39fd96b16f4bcd7a014)
+- Replace curly possessive apostrophes and single and double quotes with the corresponding non-directional characters (33b4b1f2637ebec794e7f39fd96b16f4bcd7a014)
+
+#### `Manuscripts.xml`
+
+- Establish `Manuscripts.xml` as the project's single source of truth for manuscripts materials (#11, #21; 574cf0b3c0faacb0242b10b9b35c3bc99767c2a9, 08cf30f52f3f6fda112c9337d87f10444681dc81)
+- Rename root as `list` for in-project consistency (5c9dd0a059024eb5a9a30c785e826ac14b3a1175)
+- Rename the element `loc` as `settlement` to align with TEI tag names (5c9dd0a059024eb5a9a30c785e826ac14b3a1175)
+- Rename the element `biblio` as `bibl` to align with TEI tag names (5c9dd0a059024eb5a9a30c785e826ac14b3a1175)
+- Change repository "Public Record Office" to "The National Archives" (#32; 9cd87c72a67f74527ffde809044f9a96fec098ab)
+- Update details for Longleat manuscripts purchased by the British Library (#18; 9cd87c72a67f74527ffde809044f9a96fec098ab)
+- "CollArms316" and "BLAshb27": update location, repository and shelfmark details (574cf0b3c0faacb0242b10b9b35c3bc99767c2a9)
+
+#### `Inscriptions.xml`
+
+- Rename root as `list` (2882d3205bf044a5039952c3748008e322d326d3)
+- Rename the element `loc` as `settlement` (2882d3205bf044a5039952c3748008e322d326d3)
+- Strip in-line italics from text content (2882d3205bf044a5039952c3748008e322d326d3)
+- Strip final punctuation from the text content of `settlement`, `repos`, and `desc` (2882d3205bf044a5039952c3748008e322d326d3)
+
+#### `PrintedBooks.xml`
+
+- Rename root as `list` (eb9632b0987bd1cb5251d75751529c03bc748a71)
+
+#### `Records.xml`
+
+- Cite IMEV, NIMEV, and Ringler in a new element `repertories`; this element also holds references to Whiting's *Proverbs, sentences*, Walther's *Proverbia* and *Initia*, and other repertories (#25, #46; b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9, 6da0898ac11bdf940c45161781ecf810cd64357f, 90911075eadbe57068ca460f128b107fd80fd3de)
+- Cite critical editions at record level (limited implimentation) (#3; 90911075eadbe57068ca460f128b107fd80fd3de)
+- Restructure lists of bibliographic references (editions, facsimiles, ghosts) (90911075eadbe57068ca460f128b107fd80fd3de)
+- Restructure lists of keywords (subjects, verse-forms, languages) (72e56e266e712a26e7fc05d63e7160c495ab9e22)
+- Restructure `ref` elements and their content (#24, #48; 8e48f84731cfac8d8efc079693b7c344e9b0c260, 6da0898ac11bdf940c45161781ecf810cd64357f)
+- Rename the element `biblio` as `bibl` to align with TEI tag names (90911075eadbe57068ca460f128b107fd80fd3de)
+- Rename the element `insc` as `mss` for in-project consistency (90911075eadbe57068ca460f128b107fd80fd3de)
+- Change DIMEV item number 7684 to 5784; retain the mistaken identifier as a cross-reference (#20; b9aa6fe5c60591a435063c22e9e16b8195d49c55)
+- Revise subject terms (#29, #30, #34; b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
+- Combine verse-form terms and verse-pattern terms and revise (#42, #44; 72e56e266e712a26e7fc05d63e7160c495ab9e22)
+- DIMEV 3993: update author name (#3; 90911075eadbe57068ca460f128b107fd80fd3de)
+- "Body and soul" poems: revise cross-references, subject terms, repertories (#2; 8e48f84731cfac8d8efc079693b7c344e9b0c260)
+
+#### `validator.py`
+
+- Read schema paths from XML processing instructions (139e1c85173c6a9dcfed7f6e7c8677f3546cc4fd)
+- Use `pathlib` for cross-platform compatibility (8bf11f0c6ea9162255f5482a6aeb1bb1083f7c5e)
+- Declare dependencies using TOML to accommodate `uv run` (b6234398b60502a231b9bab28346a09939ea4be2)
+- Validate all XML files, unless a file path is specified as an argument (491c8ecd1f49accb2873946a0062e08ae1f009fc, 0bba2694d445432cbbb1af01bf98d8e9011b40fa, 8bf11f0c6ea9162255f5482a6aeb1bb1083f7c5e)
+
+#### Schemas
+
+- All schemas: tighten, restructure, and align with changes to XML file structures; add some inline documentation
+- `records.xsd`: provide for `crossRefs` block (not yet implemented in `Records.xml`) (c28f6af4a0962a5c41552352eafc787c21cec453)
+
+#### Documentation
+
+- Create a tag library for each XML file (afa58ca9d21d87ada2cd836e9ca506f71abeeaea)
+- Restructure `documentation.md` (cf8ed5a1773c2dcfc94d219a91b2442d7fd5b9af)
+- Export `items.yaml` from Zotero 9 (9966eadd82fdc9179c0db8eca51afd3cf8073dbf)
 
 ### Removed
 
-- `Bibliography.xml`: remove the file after porting data to Zotero (9823c245fd555f04034511170ef45b8f85c0d226)
-- `Glossary.xml`: remove the file as out of scope (f992ee06e77519737a8f03e6220a3021fb0ca0e2)
-- `MSSIndex.xml`: remove the file after merging data into `Manuscripts.xml` (#21; 574cf0b3c0faacb0242b10b9b35c3bc99767c2a9)
-- `Manuscripts.xml`: remove the item with key "Atkinson" (ac05c4db8693427507936153ac62af1b79473409)
-- `Manuscripts.xml`: resolve and delete XML comments where possible; delete commented-out items with xml:ids unreferenced elsewhere in DIMEV data; delete commented-out items with xml:ids identical to an active item recorded elsewhere in this file (9cd87c72a67f74527ffde809044f9a96fec098ab)
-- `PrintedBooks.xml`: remove the element `loc`; update schema and documentation (dd623751f8888ce3ffd35665d9a90e621ff602ca)
-- `PrintedBooks.xml`: remove the item with key "ParisSydrac1486" (0aa70f77d77e098295e6388dc8d9832377b89ac9)
-- `Records.xml`: remove XML comments of the type "new number" (b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
-- validation: remove `mssindex.xsd`, `bibliography.xsd`, and `glossary.xsd` (5e25a7fa47fdace713bf7d613633ddcca855459f, 96bbe0745a4cdf4cdfc912b712601815163c2807, f992ee06e77519737a8f03e6220a3021fb0ca0e2)
+#### Files removed
+
+- `Bibliography.xml`: remove file after porting data to Zotero (#23; 9823c245fd555f04034511170ef45b8f85c0d226)
+- `Glossary.xml`: remove file as out of scope (#26; f992ee06e77519737a8f03e6220a3021fb0ca0e2)
+- `MSSIndex.xml`: remove file after merging data into `Manuscripts.xml` (#21; 574cf0b3c0faacb0242b10b9b35c3bc99767c2a9)
+- `mssindex.xsd`, `bibliography.xsd`, and `glossary.xsd`: remove schemas for removed XML files (5e25a7fa47fdace713bf7d613633ddcca855459f, 96bbe0745a4cdf4cdfc912b712601815163c2807, f992ee06e77519737a8f03e6220a3021fb0ca0e2)
+
+#### `Manuscripts.xml`: items and elements removed
+
+- Remove item with key "Atkinson" (ac05c4db8693427507936153ac62af1b79473409)
+- Resolve and delete XML comments where possible; delete commented-out items with xml:ids unreferenced elsewhere in DIMEV data; delete commented-out items with xml:ids identical to an active item recorded elsewhere in this file (9cd87c72a67f74527ffde809044f9a96fec098ab)
+
+#### `PrintedBooks.xml`: items and elements removed
+
+- Remove records of particular copies of printed books cited for manuscript additions or binding fragments (these are moved to `Manuscripts.xml`) (#11, 08cf30f52f3f6fda112c9337d87f10444681dc81)
+- Remove the elements `loc` and `repos` (#11; dd623751f8888ce3ffd35665d9a90e621ff602ca, 08cf30f52f3f6fda112c9337d87f10444681dc81)
+- Remove the element `DIMEVCount` (bfb14aa4c8e8b01151e2b198f6c958f9a3ffd11d)
+- Remove items "ParisSydrac1486", "Schoyen615", "SchoyenPP" as uncited or duplicate (#38; 0aa70f77d77e098295e6388dc8d9832377b89ac9, 08cf30f52f3f6fda112c9337d87f10444681dc81)
+
+#### `Records.xml`: elements, items, and content removed
+
+- Remove `gloss` tags as out of scope (#26; dcf295f8e7a037da6f13ecde3656a8890156a003)
+- Remove references to full-manuscript digital on-line facsimiles (these will be recorded within the corresponding item in `Manuscripts.xml`) (#39; dcf295f8e7a037da6f13ecde3656a8890156a003)
+- Remove the element `versePatterns` after merging content into `verseForms` (#42; 72e56e266e712a26e7fc05d63e7160c495ab9e22)
+- Remove empty `subjects` elements (72e56e266e712a26e7fc05d63e7160c495ab9e22)
+- Remove an unnumbered stub item as redundant with item 1293 (8e48f84731cfac8d8efc079693b7c344e9b0c260)
+- Remove certain commented-out records of items and witnesses (8e48f84731cfac8d8efc079693b7c344e9b0c260)
+- Remove XML comments of the type "new number" (b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
+- Remove references to HuntingtonRB59135, StPaulBuxtaforius1616, Alliaco1480 (when referencing early printed books, reference either edition or copy, as appropriate, not both) (90911075eadbe57068ca460f128b107fd80fd3de)
+- Remove broken web links: partial digitization of Woodward1995; query on http://search.lib.cam.ac.uk/; TCC James catalog (90911075eadbe57068ca460f128b107fd80fd3de)
+- Remove the dummy record for cross-reference of 'yif' and 'if' (6da0898ac11bdf940c45161781ecf810cd64357f)
+- 5850: remove a bad reference to an edition (#49; 8e48f84731cfac8d8efc079693b7c344e9b0c260)
+
+#### Documentation
+
+- Remove notes on "technical direction" for XML files (0840d3e6d53ca61c30f441d81a0ee91f498e3000)
 
 ### Fixed
 
-- Bibliography: numerous corrections (77342d4ab7ebc86fea8ad50ffb0170a97d27d287, d04177d0491ec927289e1749833c89ea33d3dac2, 3e5983a88a5e337a60315eb2ff23c734fe2d4c07, 1ba3f2dc06317d8ac55241b18a382af31ada710d, 109a00e13188377f09c1e4ca409333a8cd9846a7, 8533b58e343ffb90f2d22699a25acfa4a3e334c5, 9823c245fd555f04034511170ef45b8f85c0d226)
-- `Records.xml`: correct validation errors in xml:ids (#9; b9aa6fe5c60591a435063c22e9e16b8195d49c55, dcf295f8e7a037da6f13ecde3656a8890156a003)
-- `Records.xml`: correct validation errors in reported NIMEV and IMEV numbers (#25; b9aa6fe5c60591a435063c22e9e16b8195d49c55, b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
-- `Records.xml`: repair invalid and duplicate key references (#39; b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9, dcf295f8e7a037da6f13ecde3656a8890156a003)
+#### Bibliography
+
+- `Bibliography.xml`: regularize and correct form and content prior to migration (77342d4ab7ebc86fea8ad50ffb0170a97d27d287..9823c245fd555f04034511170ef45b8f85c0d226)
+- De-duplicate (#35; b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
+
+#### `Records.xml`
+
+- Fix validation errors in `xml:id` values (#9; b9aa6fe5c60591a435063c22e9e16b8195d49c55, dcf295f8e7a037da6f13ecde3656a8890156a003)
+- Fix validation errors in reported NIMEV and IMEV numbers (#25; b9aa6fe5c60591a435063c22e9e16b8195d49c55, b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
+- Fix validation errors in `ref` elements (#48; 8e48f84731cfac8d8efc079693b7c344e9b0c260)
+- Fix key errors in bibliographic references to text-carriers (manuscripts, printed books, inscriptions) and modern scholarly works (editions, facsimiles) (#39, #40; b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9, dcf295f8e7a037da6f13ecde3656a8890156a003, 6da0898ac11bdf940c45161781ecf810cd64357f, 72e56e266e712a26e7fc05d63e7160c495ab9e22)
+- Move subject terms misplaced as verse-forms and vice versa (#30, #42; 72e56e266e712a26e7fc05d63e7160c495ab9e22, b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
+- 5143: move subjects misplaced in the `titles` element (72e56e266e712a26e7fc05d63e7160c495ab9e22)
+
+#### All XML files
+
+- Fix validation errors exposed by updated schema files
+
+## Version 1 [2025-01-01]
+
+Initial release.
+Development of this version begins with XML files received from Dan Mosser on 2024-12-18 (6e640a9b716c39890b61fcf7c5b46b60b9941c5c).
+Files are released essentially as received, except as recorded under the sections Changed, Removed, and Fixed, below.
+
+### Added
+
+#### Data
+
+- Add XML files `Bibliography.xml`, `Glossary.xml`, `Inscriptions.xml`, `MSSIndex.xml`, `Manuscripts.xml`, `PrintedBooks.xml`, and `Records.xml` in the directory `data`
+
+#### Validation
+
+- Add XML Schema files `bibliography.xsd`, `glossary.xsd`, `inscriptions.xsd`, `manuscripts.xsd`, `mssindex.xsd`, `printedbooks.xsd`, and `records.xsd` in the directory `schemas`
+- Add `scripts/validator.py` to validate XML files against schemas
+
+#### Documentation
+
+- Add a project README
+- Add Markdown file `docs/documentation.md` as technical introduction to DIMEV data
+- Add YAML file `docs/bibliography/items.yaml` to supply bibliographical details for items cited in `documentation.md`
+- Add Bash script `docs/build.sh` to build `documentation.pdf` from plain text components
+- Add YAML file `docs/config/default.yaml` to supply default metadata for Pandoc
+- Add YAML file `.github/workflows/action.yaml` to build `documentation.pdf` with GitHub Actions
+- Add `LICENSE` as project license (24aaf24934756ac78d7cceaba78e4ecf4d45af77)
+
+### Changed
+
+- Validation: Replace DTDs with XML Schema files
+- Update some citation keys for modern scholarly works (9faf37d9846e3148ac6bcf4421eb0b4271573deb, 8902e5473fd49e3c2088fa466af86f207c32bedd, 2bee12d36ce5dabef74549a17644dd2450e8fa94)
+
+### Removed
+
+- Remove old Document Type Definitions from XML files (these are replaced by XML Schema files) (3a9757cc599430af3f78e659d983fb5146d8daf5, 9faf37d9846e3148ac6bcf4421eb0b4271573deb, 9faf37d9846e3148ac6bcf4421eb0b4271573deb)
+- `Bibliography.xml`: remove some unreferenced commented-out items (9faf37d9846e3148ac6bcf4421eb0b4271573deb)
+- `Records.xml`: remove some empty elements (2bee12d36ce5dabef74549a17644dd2450e8fa94)
+
+### Fixed
+
+- All XML files: fix validation errors and begin regularization of XML structure and idiom (`Records.xml`: 2bee12d36ce5dabef74549a17644dd2450e8fa94, `Bibliography.xml`: 9faf37d9846e3148ac6bcf4421eb0b4271573deb, other XML files: 3a9757cc599430af3f78e659d983fb5146d8daf5)
+- Begin clean-up of the bibliography (9faf37d9846e3148ac6bcf4421eb0b4271573deb, 8902e5473fd49e3c2088fa466af86f207c32bedd)
