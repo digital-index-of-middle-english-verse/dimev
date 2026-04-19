@@ -73,7 +73,7 @@ The survey of British Library manuscripts was completed by Mooney in 2024, suppo
 
 From 2007 to 2025 Mooney and Mosser served as co-editors of DIMEV, sharing responsibility for content.
 Mosser was technical editor, maintaining data files and pushing updates to [dimev.net].
-In 2025 editorial responsibility passed to Ian Cornelius and Michael Johnston.
+In 2025 editorial responsibility passed to Ian Cornelius and Michael Johnston, joined by Charlotte Ross as post-doctoral fellow in the 2025--2026 academic year.
 Cornelius is technical editor and lead author of the documentation.
 
 # Present Status
