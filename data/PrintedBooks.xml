@@ -1862,7 +1862,7 @@
         <desc>
             <i>The gouernall of helth</i>, [London: Printed by Wynkyn de Worde, 1530?] </desc>
     </bibl>
-    <bibl xml:id="STC12142" n="STC 121342">
+    <bibl xml:id="STC12142" n="STC 12142">
         <authorstmt>
             <author/>
         </authorstmt>
@@ -4470,7 +4470,7 @@
             <name>Lydgate, John</name>, <i>Here begyneth a treatise of a galau[n]t</i>,[Enprynted at London: In the
             fletestrete at the sygne of the Sonne by me Wynkyn de Worde, 1520?] </desc>
     </bibl>
-    <bibl xml:id="STC24267" n="STC 24267">
+    <bibl xml:id="STC24267" n="STC 12351.5">
         <authorstmt>
             <author/>
         </authorstmt>
@@ -4736,17 +4736,6 @@
         <desc>
             <name>Guido</name>
             <i>Historia Troiana</i>, Strassburg, 1494 </desc>
-    </bibl>
-    <bibl xml:id="Rastell1519" n="STC 20722">
-        <authorstmt>
-            <author>Rastell, John</author>
-        </authorstmt>
-        <titlestmt>
-            <title level="m">An Interlude of the Four Elements, including songs with musical notation… (STC 20722)</title>
-        </titlestmt>
-        <pubstmt date="1519"/>
-        <desc>
-            <name>Rastell, John</name>, <i>An Interlude of the Four Elements, including songs with musical notation…</i> (STC 20722)</desc>
     </bibl>
     <bibl xml:id="Rastell" n="X">
         <authorstmt>
