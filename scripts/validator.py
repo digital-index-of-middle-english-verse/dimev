@@ -157,7 +157,7 @@ def validate_xml_ids(passing):
             child = 'item'
             if filename == 'PrintedBooks.xml':
                 # reset child tag
-                child = 'bibl'
+                child = '{http://www.tei-c.org/ns/1.0}biblStruct'
             for item in root.findall(child):
                 item_id = item.get(namespace + 'id')
                 textcarrier_ids, error_count = validate_id(item_id, pattern, filename, textcarrier_ids, error_count)

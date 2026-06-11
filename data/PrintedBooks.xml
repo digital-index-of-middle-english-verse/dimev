@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href='../schemas/printedbooks.xsd'?>
-<listBibl>
+<listBibl xmlns="http://www.tei-c.org/ns/1.0">
     <biblStruct xml:id="STC78">
         <monogr>
             <author/>
             <title level="m">A mery jest of the Mylner of Abyngton with his wyfe and doughter</title>
+            <idno type="STC" subtype="2nd-ed">78</idno>
             <imprint>
-                <publisher> [1532-34?]</publisher>
+                <publisher> De Worde, [1532-34?]</publisher>
                 <date>1532</date>
             </imprint>
-            <idno type="STC (2nd ed.)">78</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC79">
@@ -17,11 +17,11 @@
             <author/>
             <title level="m">A ryght pleasaunt and merye historie of the Mylner of Abyngton Whereunto is Adioyned
                 another merye iest of a Sargeaunt that Woulde haue Learned to be a Fryar</title>
+            <idno type="STC" subtype="2nd-ed">79</idno>
             <imprint>
-                <publisher> [J. Charlewood f.] [c. 1575]</publisher>
+                <publisher> [J. Charlewood f.] R. Jhones, [c. 1575]</publisher>
                 <date>1575</date>
             </imprint>
-            <idno type="STC (2nd ed.)">79</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC185">
@@ -29,13 +29,13 @@
             <author>Aesop</author>
             <title level="m">The morall fabillis of Esope the phrygian, compylit in eloquent, and ornate Scottis
                 meter, be Maister Robert Henrisone, scholemaister of Dunfermeling</title>
+            <idno type="STC" subtype="2nd-ed">185</idno>
             <imprint>
                 <publisher> Newlie Imprintit at Edinburgh: Be Robert Lekpreuik, at the expensis of Henrie
             Charteris: and ar to be sauld in his buith, on the north syde of the gait, abone [sic] the throne.,
             Anno. Do. M. D. LXX [1570]</publisher>
                 <date>1570</date>
             </imprint>
-            <idno type="STC (2nd ed.)">185</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC1855">
@@ -43,12 +43,12 @@
             <author>Henryson, Robert</author>
             <title level="m">The morall fabillis of Esope the Phrygia[n], compylit in eloquet, &amp; ornate Scottis
                 meter, be M. Robert Henriso[n]e, scolmaister of Dufermlig</title>
+            <idno type="STC" subtype="2nd-ed">185.5</idno>
             <imprint>
                 <publisher> Edinburgh: Inprinted att Edinburgh be me Thomas Bassandyne, dwelland at the nether
             Bow, Anno. 1571</publisher>
                 <date>1571</date>
             </imprint>
-            <idno type="STC (2nd ed.)">185.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC1865">
@@ -57,11 +57,11 @@
             <title level="m">The fabulous tales of Esope the Phrygian, Euery tale moralized most aptly to this
                 present time, worthy to be read.. compiled moste eloquently in Scottishe metre by Master Robert
                 Henrison, &amp; now lately Englished</title>
+            <idno type="STC" subtype="2nd-ed">186.5</idno>
             <imprint>
                 <publisher> [Im]printed at London: by Richard Smith., Anno. 1577</publisher>
                 <date>1577</date>
             </imprint>
-            <idno type="STC (2nd ed.)">186.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC186">
@@ -69,22 +69,22 @@
             <author>Aesop</author>
             <title level="m"> The morall fabl[…] of Esope, the Phrygian. Compyled into eloquent and orn […] meeter,
                 by Robert Henr[…] schoole-ma[…] of Dumfermelin[…]</title>
+            <idno type="STC" subtype="2nd-ed">186</idno>
             <imprint>
                 <publisher> [Im]printed at [Edinburgh: A. Hart, 1621</publisher>
                 <date>1621</date>
             </imprint>
-            <idno type="STC (2nd ed.)">186</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC198">
         <monogr>
             <author/>
             <title level="m">The Batayll of Egyngecourte</title>
+            <idno type="STC" subtype="2nd-ed">198</idno>
             <imprint>
                 <publisher> Scot, [1536?]</publisher>
                 <date>1536</date>
             </imprint>
-            <idno type="STC (2nd ed.)">198</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC256">
@@ -93,67 +93,67 @@
             <title level="m">Here begynnethe the glorious lyfe and passion of seint Albon prothomartyr of Englande,
                 and also the lyfe and passion of saint Amphabel whiche conuerted saint Albon to the fayth of
                 Christe</title>
+            <idno type="STC" subtype="2nd-ed">256</idno>
             <imprint>
                 <publisher> [[St. Albans: J. Herford] the .xxvi. yere of our soueraigne lorde kyng Henry the
             eyght. and in the yere of our lorde God. M.D.xxx.iiii.], [1534]</publisher>
                 <date>1534</date>
             </imprint>
-            <idno type="STC (2nd ed.)">256</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC321">
         <monogr>
             <author/>
             <title level="m">[Romance of King Alexander]</title>
+            <idno type="STC" subtype="2nd-ed">321</idno>
             <imprint>
                 <publisher> [R. Faques, 1525?]</publisher>
                 <date>1525</date>
             </imprint>
-            <idno type="STC (2nd ed.)">321</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC3215">
         <monogr>
             <author/>
             <title level="m">[The Book of Alexander the Great]</title>
+            <idno type="STC" subtype="2nd-ed">321.5</idno>
             <imprint>
                 <publisher> [Arbuthnet, c. 1580]</publisher>
                 <date>1580</date>
             </imprint>
-            <idno type="STC (2nd ed.)">321.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC770">
         <monogr>
             <author/>
             <title level="m">The Secrete of Secretes of Arystotle</title>
+            <idno type="STC" subtype="2nd-ed">770</idno>
             <imprint>
                 <publisher> Copland, 1528</publisher>
                 <date>1528</date>
             </imprint>
-            <idno type="STC (2nd ed.)">770</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC782">
         <monogr>
             <author>Arnold, Richard</author>
             <title level="m">Arnold's Chronicle</title>
+            <idno type="STC" subtype="2nd-ed">782</idno>
             <imprint>
                 <publisher> [Antwerp, van Berghen, 1503?]</publisher>
                 <date>1503</date>
             </imprint>
-            <idno type="STC (2nd ed.)">782</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC783">
         <monogr>
             <author>Arnold, Richard</author>
             <title level="m">Arnold's Chronicle</title>
+            <idno type="STC" subtype="2nd-ed">783</idno>
             <imprint>
                 <publisher> [Southwark, Treveris, 1525?]</publisher>
                 <date>1525</date>
             </imprint>
-            <idno type="STC (2nd ed.)">783</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC786">
@@ -161,45 +161,45 @@
             <author/>
             <title level="m">Here begynneth a lytyll treatyse schortely compyled and called ars moriendi that is to
                 saye the craft for to deye for the helthe of mannes sowle</title>
+            <idno type="STC" subtype="2nd-ed">786</idno>
             <imprint>
                 <publisher> [Westminster: W. Caxton, 1491]</publisher>
                 <date>1491</date>
             </imprint>
-            <idno type="STC (2nd ed.)">786</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC792">
         <monogr>
             <author/>
             <title level="m">The crafte to lyue well and to dye well</title>
+            <idno type="STC" subtype="2nd-ed">792</idno>
             <imprint>
                 <publisher> de Worde, 1505 (xylographic)</publisher>
                 <date>1505</date>
             </imprint>
-            <idno type="STC (2nd ed.)">792</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC803">
         <monogr>
             <author>Malory, Thomas</author>
             <title level="m">Le morte Darthur</title>
+            <idno type="STC" subtype="2nd-ed">803</idno>
             <imprint>
                 <publisher> de Worde, 1529</publisher>
                 <date>1529</date>
             </imprint>
-            <idno type="STC (2nd ed.)">803</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC13775">
         <monogr>
             <author>Barbour, John</author>
             <title level="m">[Acts and life of Robert Bruce]</title>
+            <idno type="STC" subtype="2nd-ed">1377.5</idno>
             <imprint>
                 <publisher> [Imprintit at Edinburgh: by Robert Lekpreuik, at the expensis of Henrie Charteris,
             anno Do. M.D.LXXI. [1571]]</publisher>
                 <date>1571</date>
             </imprint>
-            <idno type="STC (2nd ed.)">1377.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC1378">
@@ -208,34 +208,34 @@
             <title level="m">The actes and life of the most victorious conquerour, Robert Bruce, King of Scotland
                 VVherein also are contained the martiall deedes of the valliant princes, Edward Bruce, Sir Iames
                 Dowglas, Erle Thomas Randel, Walter Stewart, and sundrie others</title>
+            <idno type="STC" subtype="2nd-ed">1378</idno>
             <imprint>
                 <publisher> Edinburgh: Printed by Andro Hart, 1616</publisher>
                 <date>1616</date>
             </imprint>
-            <idno type="STC (2nd ed.)">1378</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC1536">
         <monogr>
             <author>Bartholomeus Anglicus</author>
             <title level="m">De Proprietatibus rerum</title>
+            <idno type="STC" subtype="2nd-ed">1536</idno>
             <imprint>
                 <publisher> a.k.a. Glanville, de Worde, 1495</publisher>
                 <date>1495</date>
             </imprint>
-            <idno type="STC (2nd ed.)">1536</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC1537">
         <monogr>
             <author>Bartholomeus Anglicus</author>
             <title level="m">De Proprietatibus rerum</title>
+            <idno type="STC" subtype="2nd-ed">1537</idno>
             <imprint>
                 <publisher> a.k.a. Glanville, Londini: In aedibus Thomae Bertheleti regii impressrois [sic] Cum
             priuilegio a Rege indulto, [1535]</publisher>
                 <date>1535</date>
             </imprint>
-            <idno type="STC (2nd ed.)">1537</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC1538">
@@ -245,11 +245,11 @@
                 and amended: with such additions as are requisite, vnto euery seuerall booke: taken foorth of the
                 most approued authors, the like heretofore not translated in English. Profitable for all estates,
                 as well for the benefite of the mind as the bodie. 1582</title>
+            <idno type="STC" subtype="2nd-ed">1538</idno>
             <imprint>
                 <publisher> London: Imprinted by Thomas East, dwelling by Paules wharfe, [1582]</publisher>
                 <date>1582</date>
             </imprint>
-            <idno type="STC (2nd ed.)">1538</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC1978">
@@ -258,101 +258,101 @@
             <title level="m"> Here begynneth a ryght profytable treatyse co[m]pendiously drawen out of many [and]
                 dyuers wrytynges of holy men, to dyspose men to be vertuously occupyed in theyr myndes [and]
                 prayers</title>
+            <idno type="STC" subtype="2nd-ed">1978</idno>
             <imprint>
                 <publisher> [Westminster: Wynkyn de Worde, 1500]</publisher>
                 <date>1500</date>
             </imprint>
-            <idno type="STC (2nd ed.)">1978</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC1987">
         <monogr>
             <author/>
             <title level="m">[Bevis of Hampton]</title>
+            <idno type="STC" subtype="2nd-ed">1987</idno>
             <imprint>
                 <publisher> [Westminster: W. de Worde, 1500]</publisher>
                 <date>1500</date>
             </imprint>
-            <idno type="STC (2nd ed.)">1987</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC19875">
         <monogr>
             <author/>
             <title level="m">[Bevis of Hampton]</title>
+            <idno type="STC" subtype="2nd-ed">1987.5</idno>
             <imprint>
                 <publisher> [S.l.: W. de Worde, ca. 1500]</publisher>
                 <date>1500</date>
             </imprint>
-            <idno type="STC (2nd ed.)">1987.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC1988">
         <monogr>
             <author/>
             <title level="m">[Bevis of Hampton]</title>
+            <idno type="STC" subtype="2nd-ed">1988</idno>
             <imprint>
                 <publisher> [[London]: Emprynted by Rycharde Pynson in Fletestrete at the sygne of the George,
             [1503?]]</publisher>
                 <date>1503</date>
             </imprint>
-            <idno type="STC (2nd ed.)">1988</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC19882">
         <monogr>
             <author/>
             <title level="m">[Sir Bevis of Hampton]</title>
+            <idno type="STC" subtype="2nd-ed">1988.2</idno>
             <imprint>
                 <publisher> [S.l.: J. Notary, ca. 1510]</publisher>
                 <date>1510</date>
             </imprint>
-            <idno type="STC (2nd ed.)">1988.2</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC19886">
         <monogr>
             <author/>
             <title level="m">[Sir Bevis of Hampton]</title>
+            <idno type="STC" subtype="2nd-ed">1988.6</idno>
             <imprint>
                 <publisher> [S.l.: W. de Worde, ca. 1500]</publisher>
                 <date>1500</date>
             </imprint>
-            <idno type="STC (2nd ed.)">1988.6</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC19888">
         <monogr>
             <author/>
             <title level="m">Syr Beuys of Hampton</title>
+            <idno type="STC" subtype="2nd-ed">1988.8</idno>
             <imprint>
                 <publisher> [London]: Imprynted at London in the vinetre vpon the thre Crane wharfe by William
             Coplande, [1560?]</publisher>
                 <date>1560</date>
             </imprint>
-            <idno type="STC (2nd ed.)">1988.8</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC1989">
         <monogr>
             <author/>
             <title level="m">Syr Beuys of Hampton</title>
+            <idno type="STC" subtype="2nd-ed">1989</idno>
             <imprint>
                 <publisher> [Imprented at London: In Lothburye by Wyllyam Copland, [1565?]]</publisher>
                 <date>1565</date>
             </imprint>
-            <idno type="STC (2nd ed.)">1989</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC1990">
         <monogr>
             <author/>
             <title level="m">Syr Bevis of Hampton</title>
+            <idno type="STC" subtype="2nd-ed">1990</idno>
             <imprint>
                 <publisher> [London]: Printed by Thomas East dwelling in Aldersgate streete, [1585]</publisher>
                 <date>1585</date>
             </imprint>
-            <idno type="STC (2nd ed.)">1990</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC29967">
@@ -361,35 +361,35 @@
             <title level="m">Ane co[m]pendious [buik] of godlie psalmes and spirit[uall sangis] collectit furthe of
                 sindrie pa[rtis of] Scripture…With [aug]mentation of sindrie…ballatt[is] not contenit in th[e]
                 first editioun</title>
+            <idno type="STC" subtype="2nd-ed">2996.7</idno>
             <imprint>
                 <publisher> [1578]</publisher>
                 <date>1578</date>
             </imprint>
-            <idno type="STC (2nd ed.)">2996.7</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC3055">
         <monogr>
             <author>Bieston, Roger</author>
             <title level="m">The bayte [and] snare of fortune…</title>
+            <idno type="STC" subtype="2nd-ed">3055</idno>
             <imprint>
                 <publisher> Imprinted at London: by Iohn Wayland, at the signe of the Sunne ouer against the
             Conduite in Fletestrete, [1556?]</publisher>
                 <date>1556</date>
             </imprint>
-            <idno type="STC (2nd ed.)">3055</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC30555">
         <monogr>
             <author>Bieston, Roger</author>
             <title level="m">The bayte [and] snare of fortune…</title>
+            <idno type="STC" subtype="2nd-ed">3055.5</idno>
             <imprint>
                 <publisher> Imprinted at London: by Iohn Wayland, at the signe of the Sunne ouer against the
             Conduite in Fletestrete, [1556?]</publisher>
                 <date>1556</date>
             </imprint>
-            <idno type="STC (2nd ed.)">3055.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC3124">
@@ -397,11 +397,11 @@
             <author/>
             <title level="m">Moste pleasaunt historye of Blanchardine, sonne to the King of Friz; &amp; the faire
                 lady Eglantine Queene of Tormaday, (surnamed) the proud ladye in love</title>
+            <idno type="STC" subtype="2nd-ed">3124</idno>
             <imprint>
                 <publisher> [Westminster: W. Caxton, 1490]</publisher>
                 <date>1490</date>
             </imprint>
-            <idno type="STC (2nd ed.)">3124</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC3152">
@@ -417,12 +417,12 @@
                 knowe them, and finally howe to cure the same. Whyche bookes are not onely paynfully collected out
                 of a nomber of aucthours, but also orderly dysposed and applyed to the vse of thys oure cou[n]trey.
                 By Tho. Blundeuill of Newton Flotman in Norff</title>
+            <idno type="STC" subtype="2nd-ed">3152</idno>
             <imprint>
                 <publisher> Imprinted at London: By VVyllyam Seres dwellyng at the west ende of Paules churche,
             at the signe of the Hedgehogge. Cum priuilegio ad imprimendum solum, [1566]</publisher>
                 <date>1566</date>
             </imprint>
-            <idno type="STC (2nd ed.)">3152</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC3153">
@@ -438,12 +438,12 @@
                 them, and finally howe to cure the same. which bookes are not onely painefully collected out of a
                 number of aucthours, but also orderly dysposed and applyed to the vse of thys oure countrey. By
                 Tho. Blundeuill of Newton Flotman in Norff</title>
+            <idno type="STC" subtype="2nd-ed">3153</idno>
             <imprint>
                 <publisher> Imprinted at London: By VVillyam Seres dwellyng at the west ende of Paules church,
             at the sygne of the Hedgehogge. Cum priuilegio ad imprimendum solum, [ca. 1570]</publisher>
                 <date>1570</date>
             </imprint>
-            <idno type="STC (2nd ed.)">3153</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC3175">
@@ -452,11 +452,11 @@
             <title level="m">Here begynnethe the boke calledde Iohn bochas descriuinge the falle of princis
                 princessis [and] other nobles tra[n]slated i[n]to englissh by Iohn ludgate mo[n]ke of the monastery
                 of seint edmu[n]des Bury…,</title>
+            <idno type="STC" subtype="2nd-ed">3175</idno>
             <imprint>
                 <publisher> [London: Printed by Richard Pynson, 1494 (27 Jan.)]</publisher>
                 <date>1494</date>
             </imprint>
-            <idno type="STC (2nd ed.)">3175</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC3177">
@@ -466,11 +466,11 @@
                 his time, translated into English by John Lidgate monke of Burye Wherunto is added the fall of al
                 such as since that time were notable in Englande: diligently collected out of the
                 chronicles</title>
+            <idno type="STC" subtype="2nd-ed">3177</idno>
             <imprint>
                 <publisher> Londini: in aedibus Johannis Waylandi, cum priuilegio per sepatennium,[1554?]</publisher>
                 <date>1554</date>
             </imprint>
-            <idno type="STC (2nd ed.)">3177</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC3186">
@@ -482,45 +482,45 @@
                 aungell. Also his answeris to the questions of wysdome, both morall and natural wyth moche worldly
                 wysdome contayned in noumber. CCC.lxv. translatyd by Hugo of Caumpeden, out of frenche into
                 Englysshe</title>
+            <idno type="STC" subtype="2nd-ed">3186</idno>
             <imprint>
                 <publisher> [Prynted at London: By Thomas Godfray. At the coste and charge of dan Robert Saltwode
             mo[n]ke of saynt Austens at Cantorbury, [1530?]]</publisher>
                 <date>1530</date>
             </imprint>
-            <idno type="STC (2nd ed.)">3186</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC3199">
         <monogr>
             <author>Boethius</author>
             <title level="m">Boecius de consolacione philosophie</title>
+            <idno type="STC" subtype="2nd-ed">3199</idno>
             <imprint>
                 <publisher> [Westminster: Printed by William Caxton, 1478]</publisher>
                 <date>1478</date>
             </imprint>
-            <idno type="STC (2nd ed.)">3199</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC3200">
         <monogr>
             <author>Boethius, trans J. Walton, Tavestock</author>
             <title level="m">De Consolatione Philosophie</title>
+            <idno type="STC" subtype="2nd-ed">3200</idno>
             <imprint>
                 <publisher> Thomas Rychard, 1525</publisher>
                 <date>1525</date>
             </imprint>
-            <idno type="STC (2nd ed.)">3200</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC3259">
         <monogr>
             <author>Bonaventura, trans Nicholas Love</author>
             <title level="m">[Speculum Vitae Christi]</title>
+            <idno type="STC" subtype="2nd-ed">3259</idno>
             <imprint>
                 <publisher> Caxton, 1484</publisher>
                 <date>1484</date>
             </imprint>
-            <idno type="STC (2nd ed.)">3259</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC3275">
@@ -531,55 +531,55 @@
                 co[n]science [et] saruyle feare, [et] brynge them to the holy feare and loue of almyghty God.
                 Compyled by a brother of Syon called wyllyam Bonde. a Bachelar of Diuinitie on whose sowle Jesu
                 haue marcy</title>
+            <idno type="STC" subtype="2nd-ed">3275</idno>
             <imprint>
                 <publisher> [London: Printed by M. Fawkes, 1534?]</publisher>
                 <date>1534</date>
             </imprint>
-            <idno type="STC (2nd ed.)">3275</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC3303">
         <monogr>
             <author/>
             <title level="m">[Explicit the book of curtesye]</title>
+            <idno type="STC" subtype="2nd-ed">3303</idno>
             <imprint>
                 <publisher> [Westminster: By William Caxton, 1477-1478]</publisher>
                 <date>1477</date>
             </imprint>
-            <idno type="STC (2nd ed.)">3303</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC3304">
         <monogr>
             <author/>
             <title level="m">[Here endeth a lytyll treatyse called the booke of curtesye or lytyll Iohn.]</title>
+            <idno type="STC" subtype="2nd-ed">3304</idno>
             <imprint>
                 <publisher> [Enprynted atte Westmoster: [Wynkyn de Worde, 1492]]</publisher>
                 <date>1492</date>
             </imprint>
-            <idno type="STC (2nd ed.)">3304</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC3307">
         <monogr>
             <author/>
             <title level="m"> [Book of good counsel to the Scots king]</title>
+            <idno type="STC" subtype="2nd-ed">3307</idno>
             <imprint>
                 <publisher> [Edinburgh: W. Chepman and A. Myllar, 1508?]</publisher>
                 <date>1508</date>
             </imprint>
-            <idno type="STC (2nd ed.)">3307</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC3308">
         <monogr>
             <author/>
             <title level="m">Boke of Hawking, Hunting, and Blasing of Arms</title>
+            <idno type="STC" subtype="2nd-ed">3308</idno>
             <imprint>
                 <publisher> [St Albans, 1486]</publisher>
                 <date>1486</date>
             </imprint>
-            <idno type="STC (2nd ed.)">3308</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC3309">
@@ -587,33 +587,33 @@
             <author/>
             <title level="m">The Manere of Hawkyng and Huntyng and also of cote armours And of the blasynge of
                 armys [and] The treatyse of fysshynge wyth an angle</title>
+            <idno type="STC" subtype="2nd-ed">3309</idno>
             <imprint>
                 <publisher> de Worde, 1496</publisher>
                 <date>1496</date>
             </imprint>
-            <idno type="STC (2nd ed.)">3309</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC33095">
         <monogr>
             <author/>
             <title level="m">The Boke of Hawkynge, and Huntynge, and Fysshynge</title>
+            <idno type="STC" subtype="2nd-ed">3309.5</idno>
             <imprint>
                 <publisher> de Worde, [1518?]</publisher>
                 <date>1518</date>
             </imprint>
-            <idno type="STC (2nd ed.)">3309.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC3543">
         <monogr>
             <author>Brandon, Charles, Duke of Suffolk</author>
             <title level="m">The Justes of Maye</title>
+            <idno type="STC" subtype="2nd-ed">3543</idno>
             <imprint>
                 <publisher> [de Worde, 1507?]</publisher>
                 <date>1507</date>
             </imprint>
-            <idno type="STC (2nd ed.)">3543</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC4115">
@@ -627,68 +627,68 @@
                 officiis que oportet sacerdote[m] rite institutu[m] non ignorare) ia[m]primum accuratissime
                 castigata, atq[ue] tersissime in luce[m] edita. Impensis honestissum ac fidelissimi marcatoris
                 Vvilhelmi [sic] bretton. Augustinus Aggeus ad clerum…</title>
+            <idno type="STC" subtype="2nd-ed">4115</idno>
             <imprint>
                 <publisher> [London: printed by Wolfgang Hopyl, Paris] Impensis honestissimi ac fidelissimi
             marcatoris Wilhelmi bretton. Venu[m]datur London[ie]. apud bibliopolas in cimiterio sancti Pauli: sub
             intersignio sa[n]ctissime ac indiuidue trinitatis [by H. Jacobi, 24 June 1510]</publisher>
                 <date>1510</date>
             </imprint>
-            <idno type="STC (2nd ed.)">4115</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC4850">
         <monogr>
             <author/>
             <title level="m">Paruus Catho [et] Magnus Catho</title>
+            <idno type="STC" subtype="2nd-ed">4850</idno>
             <imprint>
                 <publisher> [Caxton, 1477]</publisher>
                 <date>1477</date>
             </imprint>
-            <idno type="STC (2nd ed.)">4850</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC4851">
         <monogr>
             <author/>
             <title level="m">Paruus Catho [et] Magnus Catho</title>
+            <idno type="STC" subtype="2nd-ed">4851</idno>
             <imprint>
                 <publisher> [Caxton, 1476]</publisher>
                 <date>1476</date>
             </imprint>
-            <idno type="STC (2nd ed.)">4851</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC4852">
         <monogr>
             <author/>
             <title level="m">Paruus Catho [et] Magnus Catho</title>
+            <idno type="STC" subtype="2nd-ed">4852</idno>
             <imprint>
                 <publisher> [Caxton, 1483]</publisher>
                 <date>1483</date>
             </imprint>
-            <idno type="STC (2nd ed.)">4852</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC4853">
         <monogr>
             <author/>
             <title level="m">The Book callid Caton</title>
+            <idno type="STC" subtype="2nd-ed">4853</idno>
             <imprint>
                 <publisher> [Caxton, 1483?]</publisher>
                 <date>1483</date>
             </imprint>
-            <idno type="STC (2nd ed.)">4853</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC4921">
         <monogr>
             <author>Jacobus de Cessolis</author>
             <title level="m">The Game and Playe of Chess</title>
+            <idno type="STC" subtype="2nd-ed">4921</idno>
             <imprint>
                 <publisher> trans. William Caxton, [Caxton, 1483]</publisher>
                 <date>1483</date>
             </imprint>
-            <idno type="STC (2nd ed.)">4921</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5057">
@@ -696,23 +696,24 @@
             <author>Chartier, Alain</author>
             <title level="m"> Here foloweth the copye of a lettre whyche maistre Alayn Charetier wrote to hys
                 brother…translated out of frensshe in to englysshe</title>
+            <idno type="STC" subtype="2nd-ed">5057</idno>
             <imprint>
                 <publisher> [Westminster: William Caxton, 1483]</publisher>
                 <date>1483</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5057</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC50605">
         <monogr>
             <author/>
             <title level="m">The Porteous of Noblenes</title>
+            <idno type="STC" subtype="2nd-ed">5060.5</idno>
             <imprint>
                 <publisher> Alain Chartier, Chepman and Myllar, 1508</publisher>
                 <date>1508</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5060.5</idno>
         </monogr>
+        <note>formerly STC 20120</note>
     </biblStruct>
     <biblStruct xml:id="STC5065">
         <monogr>
@@ -720,33 +721,33 @@
             <title level="m">The prouffytable boke for ma[n]nes soule, and right comfortable to the body, and
                 specyally in aduersitee [and] trybulacyon, whiche boke is called The chastysing of goddes
                 chyldern</title>
+            <idno type="STC" subtype="2nd-ed">5065</idno>
             <imprint>
                 <publisher> [Westminster: Wynkyn de Worde, about 1494]</publisher>
                 <date>1494</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5065</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5068">
         <monogr>
             <author>Chaucer, Geoffrey</author>
             <title level="m">Workes</title>
+            <idno type="STC" subtype="2nd-ed">5068</idno>
             <imprint>
                 <publisher> Thynne, 1532</publisher>
                 <date>1532</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5068</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5069">
         <monogr>
             <author>Chaucer, Geoffrey</author>
             <title level="m">Workes</title>
+            <idno type="STC" subtype="2nd-ed">5069</idno>
             <imprint>
                 <publisher> [R. Grafton f.], W. Bonham 1542</publisher>
                 <date>1542</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5069</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5075">
@@ -755,67 +756,67 @@
             <title level="m"> The workes of Geffrey Chaucer, newlie printed, with diuers addicions, whiche were
                 neuer in print before: with the siege and destruccion of the worthy citee of Thebes, compiled by
                 Ihon Lidgate, Monke of Berie. As in the table more plainly doeth appere</title>
+            <idno type="STC" subtype="2nd-ed">5075</idno>
             <imprint>
                 <publisher> [Imprinted at London: By Ihon Kyngston, for Ihon Wight, dwellyng in Poules
             Churchyarde], 1561</publisher>
                 <date>1561</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5075</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5077">
         <monogr>
             <author>Chaucer, Geoffrey</author>
             <title level="m">Workes</title>
+            <idno type="STC" subtype="2nd-ed">5077</idno>
             <imprint>
                 <publisher> Speght, 1598</publisher>
                 <date>1598</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5077</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5082">
         <monogr>
             <author>Chaucer, Geoffrey</author>
             <title level="m">Canterbury Tales</title>
+            <idno type="STC" subtype="2nd-ed">5082</idno>
             <imprint>
                 <publisher> [Westminster, William Caxton, 1476]</publisher>
                 <date>1476</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5082</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5083">
         <monogr>
             <author>Chaucer, Geoffrey</author>
             <title level="m">Canterbury Tales</title>
+            <idno type="STC" subtype="2nd-ed">5083</idno>
             <imprint>
                 <publisher> [Westminster], W. Caxton, [1483]</publisher>
                 <date>1483</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5083</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5084">
         <monogr>
             <author>Chaucer, Geoffrey</author>
             <title level="m">Canterbury Tales</title>
+            <idno type="STC" subtype="2nd-ed">5084</idno>
             <imprint>
                 <publisher> R. Pynson, [1492]</publisher>
                 <date>1492</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5084</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5085">
         <monogr>
             <author>Chaucer, Geoffrey</author>
             <title level="m">Canterbury Tales</title>
+            <idno type="STC" subtype="2nd-ed">5085</idno>
             <imprint>
                 <publisher> Westminster, W. de Worde, 1498</publisher>
                 <date>1498</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5085</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5086">
@@ -823,68 +824,68 @@
             <author>Chaucer, Geoffrey</author>
             <title level="m">Here begynneth the boke of C[a]nterbury tales dilygently [and] truely corrected, an[d]
                 newly printed</title>
+            <idno type="STC" subtype="2nd-ed">5085</idno>
             <imprint>
                 <publisher> [Imprinted at London: In fletestrete, by me Rycharde Pynson, printed vnto the kynges
             noble grace: and fyuished [sic], the yere of our lorde god. a. M.CCCCC. and xxvi. the fourth day of
             Iune. [1526]]</publisher>
                 <date>1526</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5085</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5087">
         <monogr>
             <author>Chaucer, Geoffrey</author>
             <title level="m">The Book of Fame</title>
+            <idno type="STC" subtype="2nd-ed">5087</idno>
             <imprint>
                 <publisher> Caxton, [1483]</publisher>
                 <date>1483</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5087</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5088">
         <monogr>
             <author>Chaucer, Geoffrey</author>
             <title level="m">The Boke of Fame...with dyuers other of hid workes</title>
+            <idno type="STC" subtype="2nd-ed">5088</idno>
             <imprint>
                 <publisher> Pynson, [1526?]</publisher>
                 <date>1526</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5088</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5089">
         <monogr>
             <author>Chaucer, Geoffrey</author>
             <title level="m">Mars and Venus</title>
+            <idno type="STC" subtype="2nd-ed">5089</idno>
             <imprint>
                 <publisher> J. Notarii, [1500?]</publisher>
                 <date>1500</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5089</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5090">
         <monogr>
             <author>Chaucer, Geoffrey</author>
             <title level="m">[Thou fiers god of armes, mars the rede]</title>
+            <idno type="STC" subtype="2nd-ed">5090</idno>
             <imprint>
                 <publisher> [Westminster: W. Caxton, 1477?]</publisher>
                 <date>1477</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5090</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5091">
         <monogr>
             <author>Chaucer, Geoffrey</author>
             <title level="m">The Temple of Bras, or Assembly or Parliament of Fowls</title>
+            <idno type="STC" subtype="2nd-ed">5091</idno>
             <imprint>
                 <publisher> Caxton, 1477?</publisher>
                 <date>1477</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5091</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC50915">
@@ -892,11 +893,11 @@
             <author>Chaucer, Geoffrey</author>
             <title level="m"> Here begynneth the parlyame[n]t of fowles compyled by the noble rethorycyen Geffray
                 chaucer Ioha[n]nes Rastell in laudem magistri galfridi chaucer</title>
+            <idno type="STC" subtype="2nd-ed">5091.5</idno>
             <imprint>
                 <publisher> [London: I. Rastell, 1525?]</publisher>
                 <date>1525</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5091.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5092">
@@ -904,24 +905,24 @@
             <author>Chaucer, Geoffrey</author>
             <title level="m">The assemblie of foules Here foloweth the assemble of foules veray pleasaunt and
                 compendyous to rede or here compyled by the preclared and famous clerke Geffray Chaucer</title>
+            <idno type="STC" subtype="2nd-ed">5092</idno>
             <imprint>
                 <publisher> [Imprynted in london: In Flete strete at the sygne of the Sonne agaynste the condyte,
             by me Wynkyn de Worde, The. xxiiij. day of Ianuary, in the yere of our lorde. M.CCCCC. amp; xxx.
             (1530)]</publisher>
                 <date>1530</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5092</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5094">
         <monogr>
             <author/>
             <title level="m">[Troilus and Criseyde]</title>
+            <idno type="STC" subtype="2nd-ed">5094</idno>
             <imprint>
                 <publisher> [Westminster: W. Caxton, 1483]</publisher>
                 <date>1483</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5094</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5095">
@@ -929,46 +930,46 @@
             <author/>
             <title level="m">The noble and amerous auncyent hystory of Troylus and Cresyde Compyled by Geffraye
                 Chaucer</title>
+            <idno type="STC" subtype="2nd-ed">5095</idno>
             <imprint>
                 <publisher> de Worde, [London] 1517</publisher>
                 <date>1517</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5095</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5096">
         <monogr>
             <author/>
             <title level="m">Here begynneth the boke of Troylus and Creseyde newly printed by a trewe copye</title>
+            <idno type="STC" subtype="2nd-ed">5096</idno>
             <imprint>
                 <publisher> [Emprynted at London: In Fletestrete by Rycharde Pynson printer vnto the kynges noble
             grace, [1526?]]</publisher>
                 <date>1526</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5096</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5098">
         <monogr>
             <author/>
             <title level="m">Jack vp Lande compyled by the famous Geoffrey Chaucer</title>
+            <idno type="STC" subtype="2nd-ed">5098</idno>
             <imprint>
                 <publisher> [[Southwark]: Prynted [by J. Nicolson] for Ihon Gough, [1536?]]</publisher>
                 <date>1536</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5098</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5100">
         <monogr>
             <author/>
             <title level="m"> The plouumans tale compylled by syr Geffrey Chaucher knyght</title>
+            <idno type="STC" subtype="2nd-ed">5100</idno>
             <imprint>
                 <publisher> [Imprinted at London: In Paules churche yarde at the sygne of the Hyll by Wyllyam
             Hyll, [1548?]]</publisher>
                 <date>1548</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5100</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5198">
@@ -976,101 +977,101 @@
             <author>Chertsey, Andrew</author>
             <title level="m">Here foloweth a notable treatyse and full necessary to an crysten men for to knowe and
                 it is named the Ordynarye of crystyanyte or of crysten men</title>
+            <idno type="STC" subtype="2nd-ed">5198</idno>
             <imprint>
                 <publisher> [Enprynted in the cyte of London: In the flete strete in the sygne of ye sonne by
             Wynkyn de worde, ye yere of our lorde. M.CCCCC.ij. [1502]]</publisher>
                 <date>1502</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5198</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5199">
         <monogr>
             <author>Chertsey, Andrew</author>
             <title level="m">Thordynary of crysten men</title>
+            <idno type="STC" subtype="2nd-ed">5199</idno>
             <imprint>
                 <publisher> [Enprynted in the cyte of London: In the Fletestrete in the sygne of ye sonne by
             Wynkyn de worde, ye yere of our lorde. M.CCCCC.vi. [1506]]</publisher>
                 <date>1506</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5199</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5204">
         <monogr>
             <author/>
             <title level="m">Christmasse carolles</title>
+            <idno type="STC" subtype="2nd-ed">5204</idno>
             <imprint>
                 <publisher> de Worde, 1521</publisher>
                 <date>1521</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5204</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC52043">
         <monogr>
             <author/>
             <title level="m">[Christmasse Carolles]</title>
+            <idno type="STC" subtype="2nd-ed">5204.3</idno>
             <imprint>
                 <publisher> Treveris, [1528?]</publisher>
                 <date>1528</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5204.3</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC52045">
         <monogr>
             <author/>
             <title level="m">Christmas Carolles</title>
+            <idno type="STC" subtype="2nd-ed">5204.5</idno>
             <imprint>
                 <publisher> [R. Copland f.] R. Kele, [1545?]</publisher>
                 <date>1545</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5204.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5205">
         <monogr>
             <author/>
             <title level="m">Christmas Carolles</title>
+            <idno type="STC" subtype="2nd-ed">5205</idno>
             <imprint>
                 <publisher> [W. Middleton?, 1547?]</publisher>
                 <date>1547</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5205</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5487">
         <monogr>
             <author/>
             <title level="m">The Taill of Rauf Coilzear how he harbreit King charlis</title>
+            <idno type="STC" subtype="2nd-ed">5487</idno>
             <imprint>
                 <publisher> Lekpreuik, 1572</publisher>
                 <date>1572</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5487</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5572">
         <monogr>
             <author/>
             <title level="m">Thre kynges of Coleyn</title>
+            <idno type="STC" subtype="2nd-ed">5572</idno>
             <imprint>
                 <publisher> de Worde, [1496?]</publisher>
                 <date>1496</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5572</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5579">
         <monogr>
             <author/>
             <title level="m">The historie, sege and dystrucyon of Troye</title>
+            <idno type="STC" subtype="2nd-ed">5579</idno>
             <imprint>
                 <publisher> R. Pynson, 1513</publisher>
                 <date>1513</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5579</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5580">
@@ -1079,34 +1080,34 @@
             <title level="m">The auncient historie and onely trewe cronicle of the warres betwixte the Grecians and
                 the Troyans, digested in Latyn by Guydo de Columpnis and tr. in to englyshe verse by J. Lydgate.
                 Newly imprinted</title>
+            <idno type="STC" subtype="2nd-ed">5580</idno>
             <imprint>
                 <publisher> R. Braham, 1555</publisher>
                 <date>1555</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5580</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5643">
         <monogr>
             <author/>
             <title level="m">[Contemplacyon of synners]</title>
+            <idno type="STC" subtype="2nd-ed">5643</idno>
             <imprint>
                 <publisher> [Emprentyd at Westmynster: By Wynkyn de worde, the .x. daye of July, the yere of our
             lorde .M. CCCC. lxxxxix.] [1499]</publisher>
                 <date>1499</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5643</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5728">
         <monogr>
             <author>Copland, Robert</author>
             <title level="m">The Complaynte of them that ben to late maryed</title>
+            <idno type="STC" subtype="2nd-ed">5728</idno>
             <imprint>
                 <publisher> Wynkyn de worde, [1505?]</publisher>
                 <date>1505</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5728</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5732">
@@ -1114,124 +1115,124 @@
             <author>Copland, Robert</author>
             <title level="m">The hye way to the spyttell hous Copland and the porter. Who so hath lust, or wyll
                 leaue his thryft…</title>
+            <idno type="STC" subtype="2nd-ed">5732</idno>
             <imprint>
                 <publisher> [Enprynted at London: In the Fletestrete at ye Rose garland, by Robert Copland,
             [1536?]]</publisher>
                 <date>1536</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5732</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC57325">
         <monogr>
             <author>Copland, Robert</author>
             <title level="m">The lady commaunded anone soone</title>
+            <idno type="STC" subtype="2nd-ed">5732.5</idno>
             <imprint>
                 <publisher> [London: Wynkyn de Worde, ca. 1522]</publisher>
                 <date>1522</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5732.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5733">
         <monogr>
             <author/>
             <title level="m">[The life of Ipomydon]</title>
+            <idno type="STC" subtype="2nd-ed">5733</idno>
             <imprint>
                 <publisher> [Enprynted at London in the Fletestrete: at the sygne of the Sonne by wynkyn de
             worde, [c. 1527]]</publisher>
                 <date>1527</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5733</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC57285">
         <monogr>
             <author>Copland, Robert</author>
             <title level="m">The Complaynte of them that ben to late maryed</title>
+            <idno type="STC" subtype="2nd-ed">5728.5</idno>
             <imprint>
                 <publisher> Wynkyn de Worde, [1518?]</publisher>
                 <date>1518</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5728.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5758">
         <monogr>
             <author>Gerard of Vliederhoven</author>
             <title level="m">Cordiale quattuor novissimorum</title>
+            <idno type="STC" subtype="2nd-ed">5758</idno>
             <imprint>
                 <publisher> [Westminster: William Caxton], 24 March 1479</publisher>
                 <date>1479</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5758</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5759">
         <monogr>
             <author>Denis, the Carthusian</author>
             <title level="m">Here after foloweth the prologue of the foure last thynges…</title>
+            <idno type="STC" subtype="2nd-ed">5759</idno>
             <imprint>
                 <publisher> [Enprynted atte westmystre]: [Wynkyn de Worde, 1496?]</publisher>
                 <date>1496</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5759</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5759a">
         <monogr>
             <author>Gerard of Vliederhoven</author>
             <title level="m">Cordiale quottuor novissimorum</title>
+            <idno type="STC" subtype="2nd-ed">5759a</idno>
             <imprint>
                 <publisher> (French, trans. Jean Mielot), [Bruges: William Caxton, 1476]</publisher>
                 <date>1476</date>
             </imprint>
-            <idno type="STC (2nd ed.)">5759a</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC6470">
         <monogr>
             <author/>
             <title level="m">Syr Degore</title>
+            <idno type="STC" subtype="2nd-ed">6470</idno>
             <imprint>
                 <publisher> [Enprynted at London: In Flete strete at the sygne of the sonne by wynkyn de worde,
             [1512-13]]</publisher>
                 <date>1512</date>
             </imprint>
-            <idno type="STC (2nd ed.)">6470</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC6472">
         <monogr>
             <author/>
             <title level="m">Syr Degore</title>
+            <idno type="STC" subtype="2nd-ed">6472</idno>
             <imprint>
                 <publisher> [Imprinted at London: By Iohn king], Anno Domini. M.D.LX. [1560]</publisher>
                 <date>1560</date>
             </imprint>
-            <idno type="STC (2nd ed.)">6472</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC64725">
         <monogr>
             <author/>
             <title level="m">Syr Degore</title>
+            <idno type="STC" subtype="2nd-ed">6472.5</idno>
             <imprint>
                 <publisher> [[London]: Imprynted by Wyllyam Copland, [1565?]]</publisher>
                 <date>1565</date>
             </imprint>
-            <idno type="STC (2nd ed.)">6472.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC6473">
         <monogr>
             <author>Guillaume de Deguileville</author>
             <title level="m">Pylgremage of the Sowle</title>
+            <idno type="STC" subtype="2nd-ed">6473</idno>
             <imprint>
                 <publisher> Caxton, 1483</publisher>
                 <date>1483</date>
             </imprint>
-            <idno type="STC (2nd ed.)">6473</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC6808">
@@ -1239,22 +1240,22 @@
             <author>Gosynhyll, Edward</author>
             <title level="m">A dialogue bytwene the commune secretary and jalowsye, touchynge the vnstablenesst
                 [sic] of harlottes</title>
+            <idno type="STC" subtype="2nd-ed">6808</idno>
             <imprint>
                 <publisher> [Imprynted at London: In Crede Lane, by Iohn Kynge, [1556?]]</publisher>
                 <date>1556</date>
             </imprint>
-            <idno type="STC (2nd ed.)">6808</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC6826">
         <monogr>
             <author/>
             <title level="m">The Dictes or Sayengis of the Philosophres</title>
+            <idno type="STC" subtype="2nd-ed">6826</idno>
             <imprint>
                 <publisher> Caxton, 1477</publisher>
                 <date>1477</date>
             </imprint>
-            <idno type="STC (2nd ed.)">6826</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC6915">
@@ -1262,23 +1263,23 @@
             <author/>
             <title level="m">A lytell treatyse called the dysputacyon or the complaynte of the herte through perced
                 with the lokyng of the eye</title>
+            <idno type="STC" subtype="2nd-ed">6915</idno>
             <imprint>
                 <publisher> de Worde, [1516?]</publisher>
                 <date>1516</date>
             </imprint>
-            <idno type="STC (2nd ed.)">6915</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC7073">
         <monogr>
             <author>Douglas, Gawin</author>
             <title level="m">The palis of honoure compyled by Gawayne dowglas Byshope of Dunkyll</title>
+            <idno type="STC" subtype="2nd-ed">7073</idno>
             <imprint>
                 <publisher> Imprinted at London: In fletstret, at the sygne of the Rose garland by wyllyam
             Copland, [1553?]</publisher>
                 <date>1553</date>
             </imprint>
-            <idno type="STC (2nd ed.)">7073</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC7347">
@@ -1286,89 +1287,89 @@
             <author>Dunbar, William</author>
             <title level="m">The ballade of ane right noble victorius &amp; myghty lord Barnard Stewart lord of
                 Aubigny erle of Beaumont … be Maistir Willyam Dunbar …</title>
+            <idno type="STC" subtype="2nd-ed">7347</idno>
             <imprint>
                 <publisher> [Edinburgh: H. Chepman and A. Myllar, 1508]</publisher>
                 <date>1508</date>
             </imprint>
-            <idno type="STC (2nd ed.)">7347</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC7348">
         <monogr>
             <author>Dunbar, William</author>
             <title level="m">The Flytyng of Dunbar and Kennedy, and Other Poems</title>
+            <idno type="STC" subtype="2nd-ed">7348</idno>
             <imprint>
                 <publisher> [Chepman and Myllar, 1508]</publisher>
                 <date>1508</date>
             </imprint>
-            <idno type="STC (2nd ed.)">7348</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC7349">
         <monogr>
             <author>Dunbar, William</author>
             <title level="m">The Goldyn Targe</title>
+            <idno type="STC" subtype="2nd-ed">7349</idno>
             <imprint>
                 <publisher> Chepman and Myllar, 1508</publisher>
                 <date>1508</date>
             </imprint>
-            <idno type="STC (2nd ed.)">7349</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC73495">
         <monogr>
             <author/>
             <title level="m">The merrie historie of the thrie friers of Berwicke</title>
+            <idno type="STC" subtype="2nd-ed">7349.5</idno>
             <imprint>
                 <publisher> Aberdeen, E. Raban for D. Melvill, 1622</publisher>
                 <date>1622</date>
             </imprint>
-            <idno type="STC (2nd ed.)">7349.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC7350">
         <monogr>
             <author>Dunbar, William</author>
             <title level="m">The Tua Mariit Wemen and the Wedo, and Other Poems</title>
+            <idno type="STC" subtype="2nd-ed">7350</idno>
             <imprint>
                 <publisher> [Scotland? printer of The tua mariit wemen, 1507?]</publisher>
                 <date>1507</date>
             </imprint>
-            <idno type="STC (2nd ed.)">7350</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC7541">
         <monogr>
             <author/>
             <title level="m">[Sir Eglamour]</title>
+            <idno type="STC" subtype="2nd-ed">7541</idno>
             <imprint>
                 <publisher> [de Worde, 1500]</publisher>
                 <date>1500</date>
             </imprint>
-            <idno type="STC (2nd ed.)">7541</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC7542">
         <monogr>
             <author/>
             <title level="m">[Sir Eglamour]</title>
+            <idno type="STC" subtype="2nd-ed">7542</idno>
             <imprint>
                 <publisher> [Chepman and Myllar, 1508?]</publisher>
                 <date>1508</date>
             </imprint>
-            <idno type="STC (2nd ed.)">7542</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC7273">
         <monogr>
             <author/>
             <title level="m">The morale prouerbes of Cristyne</title>
+            <idno type="STC" subtype="2nd-ed">7273</idno>
             <imprint>
                 <publisher>Du Castel, Christine [i.e., Christine de Pisan], [London]: Enprinted by Caxton,
             [1478]</publisher>
                 <date>1478</date>
             </imprint>
-            <idno type="STC (2nd ed.)">7273</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC9983">
@@ -1377,11 +1378,11 @@
             <title level="m">The cronycle of all the kynges: that haue reygned in Englande: sythe the Conquest of
                 Wyllyam Conqueroure And sheweth the dayes of theyr crownacion. And howe many yeres they dyd reygne.
                 With the dayes of theyr death. And wher they were buryed</title>
+            <idno type="STC" subtype="2nd-ed">9983</idno>
             <imprint>
                 <publisher> [London: Printed by Robert Wyer, ca. 1552]</publisher>
                 <date>1552</date>
             </imprint>
-            <idno type="STC (2nd ed.)">9983</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC99837">
@@ -1390,12 +1391,12 @@
             <title level="m">Here is a lytell shorte cronycle, begynnynge at the. vii. ages of the worlde, w[ith]
                 the comy[n]ge of Brute: and the reygne of all the kynges with the sayntes and martyrs that haue ben
                 in this lande</title>
+            <idno type="STC" subtype="2nd-ed">9983.7</idno>
             <imprint>
                 <publisher> [London: [Imprynted by me Wynkyn de Worde, dwellynge in London in flete strete, at
             the sygne of the Sonne, In the yere of our lorde. M. CCCCC. and .xxx. the .xxv. of Iune]] [1530]</publisher>
                 <date>1530</date>
             </imprint>
-            <idno type="STC (2nd ed.)">9983.7</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC99833">
@@ -1407,104 +1408,105 @@
                 iiii.M.lxxvii. yeres and fro[m] the co[m]mynge of Brute to the Incarnation of Christe is M.C.xxii
                 yeres, &amp; from the Incarnacion to the xxiiii yere of Kynge Henry the vi is M.CCCC.xlvi
                 yeres</title>
+            <idno type="STC" subtype="2nd-ed">9983.3</idno>
             <imprint>
                 <publisher> [S.l.]: Imprinted by Rychard Pynson…, [1518?]</publisher>
                 <date>1518</date>
             </imprint>
-            <idno type="STC (2nd ed.)">9983.3</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC9991">
         <monogr>
             <author/>
             <title level="m">Chronicles of England</title>
+            <idno type="STC" subtype="2nd-ed">9991</idno>
             <imprint>
                 <publisher> Caxton, 1480</publisher>
                 <date>1480</date>
             </imprint>
-            <idno type="STC (2nd ed.)">9991</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC9992">
         <monogr>
             <author/>
             <title level="m">[Chronicles of England]</title>
+            <idno type="STC" subtype="2nd-ed">9992</idno>
             <imprint>
                 <publisher> [London: Enprynted by me William Caxton in thabbey of Westme[n]stre by london,
             fynysshed, and accomplysshed the, viij, day of October, the yere of the incatnacyon of our lord God,
             M,CCCC,lxxxij and in the xxii yere of the regne of Kyng Edward the fourth [1482]]</publisher>
                 <date>1482</date>
             </imprint>
-            <idno type="STC (2nd ed.)">9992</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC9993">
         <monogr>
             <author/>
             <title level="m">And for he myght nought spede of his enemies so as…</title>
+            <idno type="STC" subtype="2nd-ed">9993</idno>
             <imprint>
                 <publisher> [London: W. de Machlinia, 1486]</publisher>
                 <date>1486</date>
             </imprint>
-            <idno type="STC (2nd ed.)">9993</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC9994">
         <monogr>
             <author/>
             <title level="m">Cronycles of the londe of Englo[n]d</title>
+            <idno type="STC" subtype="2nd-ed">9994</idno>
             <imprint>
                 <publisher> [Enpre[n]tyd in the Duchye of Braband in the towne of Andewarpe: In the yere of owr
             lord. M.cccc.xciij. By maistir Gerard de leew. a man of grete wysedom in all maner of ku[n]nyng: whych
             nowe is come from lyfe vnto the deth, which is grete harme for many a poure man, [1493]]</publisher>
                 <date>1493</date>
             </imprint>
-            <idno type="STC (2nd ed.)">9994</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC10604">
         <monogr>
             <author/>
             <title level="m">Everyman</title>
+            <idno type="STC" subtype="2nd-ed">10604</idno>
             <imprint>
                 <publisher> Pynson, [c. 1515]</publisher>
                 <date>1515</date>
             </imprint>
-            <idno type="STC (2nd ed.)">10604</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC106045">
         <monogr>
             <author/>
             <title level="m">Everymen</title>
+            <idno type="STC" subtype="2nd-ed">10604.5</idno>
             <imprint>
                 <publisher> Pynson, [1526-28?]</publisher>
                 <date>1526</date>
             </imprint>
-            <idno type="STC (2nd ed.)">10604.5</idno>
         </monogr>
+        <note>formerly STC 10603</note>
     </biblStruct>
     <biblStruct xml:id="STC10606">
         <monogr>
             <author/>
             <title level="m">A Treatyse how þe Hye Fader of Heuen Sendeth Dethe to Somon Euery Creature
                 [Everyman]</title>
+            <idno type="STC" subtype="2nd-ed">10606</idno>
             <imprint>
                 <publisher> J. Skot, [1528?]</publisher>
                 <date>1528</date>
             </imprint>
-            <idno type="STC (2nd ed.)">10606</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC10608">
         <monogr>
             <author/>
             <title level="m">The example of euyll tongues</title>
+            <idno type="STC" subtype="2nd-ed">10608</idno>
             <imprint>
                 <publisher> [London: Wynkyn de Worde, 1525?]</publisher>
                 <date>1525</date>
             </imprint>
-            <idno type="STC (2nd ed.)">10608</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC106065">
@@ -1512,22 +1514,23 @@
             <author/>
             <title level="m">A Treatyse how þe Hye Fader of Heuen Sendeth Dethe to Somon Euery Creature
                 [Everyman]</title>
+            <idno type="STC" subtype="2nd-ed">10606.5</idno>
             <imprint>
                 <publisher> [J. Skot, 1535?]</publisher>
                 <date>1535</date>
             </imprint>
-            <idno type="STC (2nd ed.)">10606.5</idno>
         </monogr>
+        <note>formerly STC 10605</note>
     </biblStruct>
     <biblStruct xml:id="STC10659">
         <monogr>
             <author>Fabyan, Robert</author>
             <title level="m">New Chronicles of Englande and of Fraunce</title>
+            <idno type="STC" subtype="2nd-ed">10659</idno>
             <imprint>
                 <publisher> Pynson, 1533</publisher>
                 <date>1533</date>
             </imprint>
-            <idno type="STC (2nd ed.)">10659</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC10660">
@@ -1537,11 +1540,11 @@
                 of the reygne of the moste excellent prynce kynge Henry the vii. father vnto our most drad
                 souerayne lord kynge Henry the .viii. To whom be all honour, reuere[n]ce, and ioyfull contynaunce
                 of his prosperous reygne, to the pleasure of god and weale of this his realme amene</title>
+            <idno type="STC" subtype="2nd-ed">10660</idno>
             <imprint>
                 <publisher> Prentyd at London: by wyllyam Rastell, 1533 [31 Dec.]</publisher>
                 <date>1533</date>
             </imprint>
-            <idno type="STC (2nd ed.)">10660</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC10661">
@@ -1550,12 +1553,12 @@
             <title level="m">The chronicle of Fabyan whiche he hym selfe nameth the concordaunce of historyes, nowe
                 newely printed, [and] in many places corrected, as to the dylygent reader it may apere. 1542. Cum
                 priuilegio ad imprimendum solum</title>
+            <idno type="STC" subtype="2nd-ed">10661</idno>
             <imprint>
                 <publisher> [London]: Printed by [R. Grafton for] William Bonham dwellyng at ye sygne of the kyng
             his armes in Paules churcheyarde, [1542]</publisher>
                 <date>1542</date>
             </imprint>
-            <idno type="STC (2nd ed.)">10661</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC10662">
@@ -1564,12 +1567,12 @@
             <title level="m">The chronicle of Fabyan whiche he hym selfe nameth the concordaunce of historyes, nowe
                 newely printed, [and] in many places corrected, as to the dylygent reader it may apere. 1542. Cum
                 priuilegio ad imprimendum solum</title>
+            <idno type="STC" subtype="2nd-ed">10662</idno>
             <imprint>
                 <publisher> [London]: Printed by Iohn Reynes, dwellynge at the sygne of saynte George in Pauls
             churcheyarde, [1542]</publisher>
                 <date>1542</date>
             </imprint>
-            <idno type="STC (2nd ed.)">10662</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC10663">
@@ -1578,11 +1581,11 @@
             <title level="m">The chronicle of Fabian, whiche he nameth the concordaunce of histories, newly
                 perused. And continued from the beginnyng of Kyng Henry the seuenth, to thende of Queene
                 Mary</title>
+            <idno type="STC" subtype="2nd-ed">10663</idno>
             <imprint>
                 <publisher> [London]: 1559. Mense Aprilis. Imprinted at London, by Ihon Kyngston, [1559 (April)]</publisher>
                 <date>1559</date>
             </imprint>
-            <idno type="STC (2nd ed.)">10663</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC10664">
@@ -1590,33 +1593,33 @@
             <author>Fabyan, Robert</author>
             <title level="m">The chronicle of Fabian whiche he nameth the concordaunce of histories, newly perused.
                 And continued from the beginnyng of Kyng Henry the seuenth, to thende of Queene Mary</title>
+            <idno type="STC" subtype="2nd-ed">10664</idno>
             <imprint>
                 <publisher> [London]: 1559. Mense Aprilis. Imprinted at London, by Ihon Kyngston, [1559 (April)]</publisher>
                 <date>1559</date>
             </imprint>
-            <idno type="STC (2nd ed.)">10664</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC11691a3">
         <monogr>
             <author/>
             <title level="m">The Jest of Sir Gawaine</title>
+            <idno type="STC" subtype="2nd-ed">11691a.3</idno>
             <imprint>
                 <publisher> John Skot for Johan Butler [1528?]</publisher>
                 <date>1528</date>
             </imprint>
-            <idno type="STC (2nd ed.)">11691a.3</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC11984">
         <monogr>
             <author/>
             <title level="m">The Knightly tale of Golagros and Gawane</title>
+            <idno type="STC" subtype="2nd-ed">11984</idno>
             <imprint>
                 <publisher> Chepman and Myllar, 1508</publisher>
                 <date>1508</date>
             </imprint>
-            <idno type="STC (2nd ed.)">11984</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC120928">
@@ -1625,45 +1628,45 @@
             <title level="m">The gossips feast: or, a merry meeting of women kinde each other greeting. VVhich by a
                 fire with spiced ale, told many a pleasant Christmas tale. To a delicate northerne tune: or, there
                 was an old man sate piping</title>
+            <idno type="STC" subtype="2nd-ed">12092.8</idno>
             <imprint>
                 <publisher> [London]: Printed at London [by M. Flesher?] for Thomas Lambert at the signe of the
             Hors-shoo in Smithfield, [1635?]</publisher>
                 <date>1635</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12092.8</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12138">
         <monogr>
             <author/>
             <title level="m">Gouernayle of Helthe</title>
+            <idno type="STC" subtype="2nd-ed">12138</idno>
             <imprint>
                 <publisher> [Caxton, 1490?]</publisher>
                 <date>1490</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12138</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12139">
         <monogr>
             <author/>
             <title level="m">Gouernall of Helthe with the medecyne of the stomacke</title>
+            <idno type="STC" subtype="2nd-ed">12139</idno>
             <imprint>
                 <publisher> de Worde, [1506?]</publisher>
                 <date>1506</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12139</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC121395">
         <monogr>
             <author/>
             <title level="m">The gouernall of helth</title>
+            <idno type="STC" subtype="2nd-ed">12139.5</idno>
             <imprint>
                 <publisher> [London: Printed by Wynkyn de Worde, 1530?]</publisher>
                 <date>1530</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12139.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12142">
@@ -1671,148 +1674,148 @@
             <author/>
             <title level="m">tHis book is intituled confessio amantis, that is to saye in englysshe the confessyon
                 of the louer maad and compyled by Iohan Gower squyer…</title>
+            <idno type="STC" subtype="2nd-ed">12142</idno>
             <imprint>
                 <publisher> [Enprynted at westmestre: By me willyam Caxton, and fynysshed the ij day of Septembre
             the fyrst yere of the regne of Kyng Richard the thyrd, the yere of our lord a thousand, CCCC, lxxxxiij]</publisher>
                 <date>1593</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12142</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12143">
         <monogr>
             <author/>
             <title level="m">Io. Gower de confessione amantis</title>
+            <idno type="STC" subtype="2nd-ed">12143</idno>
             <imprint>
                 <publisher> Imprinted at London: In Fletestrete by Thomas Berthelette printer to the kingis
             grace, an. M.D.XXXII. [1532] Cum priuilegio</publisher>
                 <date>1532</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12143</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12144">
         <monogr>
             <author/>
             <title level="m">Io. Gower de confessione amantis</title>
+            <idno type="STC" subtype="2nd-ed">12144</idno>
             <imprint>
                 <publisher> Imprinted at London: In Fletestrete by Thomas Berthelette, the. XII. daie of Marche.
             An. M.D.LIIII. [1554]</publisher>
                 <date>1554</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12144</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12352">
         <monogr>
             <author/>
             <title level="m">[Lyfe of saynt Gregoryes mo[ther]]</title>
+            <idno type="STC" subtype="2nd-ed">12352</idno>
             <imprint>
                 <publisher> [London: [Wynkyn de Worde], [1515]]</publisher>
                 <date>1515</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12352</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12353">
         <monogr>
             <author/>
             <title level="m">Here after foloweth the lyfe of saynt Gregoryes mother</title>
+            <idno type="STC" subtype="2nd-ed">12353</idno>
             <imprint>
                 <publisher> [Enprynted at Londo[n]: By Iohn Mychell, [ca. 1536?]]</publisher>
                 <date>1536</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12353</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12540">
         <monogr>
             <author/>
             <title level="m">[The history of Guy of Warwick]</title>
+            <idno type="STC" subtype="2nd-ed">12540</idno>
             <imprint>
                 <publisher> [London?: [R. Pynson, 1500?]]</publisher>
                 <date>1500</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12540</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC125415">
         <monogr>
             <author/>
             <title level="m">[The history of Guy of Warwick]</title>
+            <idno type="STC" subtype="2nd-ed">12541.5</idno>
             <imprint>
                 <publisher> [In Lothbury w. Copland: s.n., ca. 1565]</publisher>
                 <date>1565</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12541.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12542">
         <monogr>
             <author/>
             <title level="m">[Here endeth the booke of the moste victoryous prynce, Guy of Warwick.]</title>
+            <idno type="STC" subtype="2nd-ed">12542</idno>
             <imprint>
                 <publisher> [London?: W. Copland] 1553</publisher>
                 <date>1553</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12542</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12477">
         <monogr>
             <author/>
             <title level="m">[The Ghost of Guy]</title>
+            <idno type="STC" subtype="2nd-ed">12477</idno>
             <imprint>
                 <publisher> [Pynson, 1492]</publisher>
                 <date>1492</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12477</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC127667">
         <monogr>
             <author>Hardyng, John</author>
             <title level="m">The Chronicle</title>
+            <idno type="STC" subtype="2nd-ed">12766</idno>
             <imprint>
                 <publisher> R. Grafton, 1543</publisher>
                 <date>1543</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12766</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12767">
         <monogr>
             <author>Hardyng, John</author>
             <title level="m">The Chronicle, revised with continuation</title>
+            <idno type="STC" subtype="2nd-ed">12767</idno>
             <imprint>
                 <publisher> R. Grafton, 1543</publisher>
                 <date>1543</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12767</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12943">
         <monogr>
             <author>Hawes, Stephen</author>
             <title level="m">The conuersyon of swerers</title>
+            <idno type="STC" subtype="2nd-ed">12943</idno>
             <imprint>
                 <publisher> [London]: Enprynted at London, in Fletestrete, at the sygne of the Sonne, by Wynken
             de Worde…, MCCCCCIX [1509]</publisher>
                 <date>1509</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12943</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC129435">
         <monogr>
             <author>Hawes, Stephen</author>
             <title level="m">The conuersyon of swerers</title>
+            <idno type="STC" subtype="2nd-ed">12943.5</idno>
             <imprint>
                 <publisher> [London]: Enprynted at London, in Fletestrete, at the sygne of the Sonne, by Wynken
             de Worde…, MCCCCCIX [1509]</publisher>
                 <date>1509</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12943.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC129425">
@@ -1822,90 +1825,90 @@
                 somtyme grome of the honourable chambre of our late souerayne lorde kynge Henry ye seuenth (whose
                 soule god pardon). ; In the seconde yere of the reygne of our most naturall souerayne lorder
                 ky[n]ge Henry the eyght…</title>
+            <idno type="STC" subtype="2nd-ed">12942.5</idno>
             <imprint>
                 <publisher> [London?]: Enprynted by me Wynkyn de Worde [1515?]</publisher>
                 <date>1515</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12942.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12944">
         <monogr>
             <author>Hawes, Stephen</author>
             <title level="m">The conuercyon of swerers</title>
+            <idno type="STC" subtype="2nd-ed">12944</idno>
             <imprint>
                 <publisher> [Imprynted at London: In Fletestrete at the sygne of saynt Iohan eua[n]gelyste, by me
             (J. Skot for) Iohan Butler, (1531?)]</publisher>
                 <date>1531</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12944</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC129445">
         <monogr>
             <author>Hawes, Stephen</author>
             <title level="m">The conuersyon of swerers</title>
+            <idno type="STC" subtype="2nd-ed">12944.5</idno>
             <imprint>
                 <publisher> Inprynted at London: by Wyllyam Copland, for Robert Toye, In the yere of our lorde.
             M.D.LI. [1551]</publisher>
                 <date>1551</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12944.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12945">
         <monogr>
             <author>Hawes, Stephen</author>
             <title level="m">The Example of Vertu</title>
+            <idno type="STC" subtype="2nd-ed">12945</idno>
             <imprint>
                 <publisher> [de Worde, 1504?]</publisher>
                 <date>1504</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12945</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12946">
         <monogr>
             <author>Hawes, Stephen</author>
             <title level="m">The Example of Vertu</title>
+            <idno type="STC" subtype="2nd-ed">12946</idno>
             <imprint>
                 <publisher> de Worde, [1520?]</publisher>
                 <date>1520</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12946</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12947">
         <monogr>
             <author>Hawes, Stephen</author>
             <title level="m">The Example of Vertu</title>
+            <idno type="STC" subtype="2nd-ed">12947</idno>
             <imprint>
                 <publisher> de Worde, 1530</publisher>
                 <date>1530</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12947</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12948">
         <monogr>
             <author>Hawes, Stephen</author>
             <title level="m">[The pastime of pleasure]</title>
+            <idno type="STC" subtype="2nd-ed">12948</idno>
             <imprint>
                 <publisher> [London: W. de Worde, 1509]</publisher>
                 <date>1509</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12948</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12949">
         <monogr>
             <author>Hawes, Stephen</author>
             <title level="m">Here begyneth the passe tyme of pleasure</title>
+            <idno type="STC" subtype="2nd-ed">12949</idno>
             <imprint>
                 <publisher> [London:] W. de Worde, 1517</publisher>
                 <date>1517</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12949</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12950">
@@ -1914,12 +1917,12 @@
             <title level="m">The historie of graunde Amoure and la bell Pucel, called the Pastime of plesure
                 co[n]teining the knowledge of the seue[n] sciences, [and] the course of mans life in this worlde.
                 Iuuented [sic] by Stephen Hawes, grome of kyng Henry the seuenth his chamber</title>
+            <idno type="STC" subtype="2nd-ed">12950</idno>
             <imprint>
                 <publisher> [London:] Newely perused and imprynted by Iohn Wayland, aucthorised a prynter, by the
             Quenes highnes most gracious letters patentes, [1554]</publisher>
                 <date>1554</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12950</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12951">
@@ -1928,12 +1931,12 @@
             <title level="m">The history of graund amoure and la bel pucell, called the pastime of pleasure
                 conteynyng the knowledge of the seuen sciences, and the course of mans lyfe in this worlde.
                 Inuented by Stephen Hawes, grome of kyng Henry the seuenth, his chamber</title>
+            <idno type="STC" subtype="2nd-ed">12951</idno>
             <imprint>
                 <publisher> [Imprinted at London: In Fletestreate, at the signe of the hande and starre, by (W.
             Copland for) Rychard Tottell], Anno domini. 1555</publisher>
                 <date>1555</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12951</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12952">
@@ -1942,12 +1945,12 @@
             <title level="m">The history of graund Amoure and la bel Pucel, called the Pastime of pleasure
                 conteynyng the knowledge of the seuen sciences, [and] the course of mans lyfe in this worlde.
                 Inuented by Stephen Hawes, grome of kyng Henry the seuenth, his chamber</title>
+            <idno type="STC" subtype="2nd-ed">12952</idno>
             <imprint>
                 <publisher> [Imprinted at London: In forster lane, by (W. Copland for) Ihon Waley], Anno domini.
             1555</publisher>
                 <date>1555</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12952</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC12953">
@@ -1955,12 +1958,12 @@
             <author>Hawes, Stephen</author>
             <title level="m"> A ioyfull medytacyon to all Englonde of the coronacyon of our moost naturall
                 souerayne lorde kynge Henry the eyght</title>
+            <idno type="STC" subtype="2nd-ed">12953</idno>
             <imprint>
                 <publisher> [Enprynted at London: In the fletestrete at the sygne of the sonne by Wynkyn de
             Worde, [1509]]</publisher>
                 <date>1509</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12953</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC129735">
@@ -1968,22 +1971,22 @@
             <author/>
             <title level="m">Dyuerse My[racles whi]che God hath shewed for the [Portion] of his precyous Blod in
                 Hay[les]</title>
+            <idno type="STC" subtype="2nd-ed">12973.5</idno>
             <imprint>
                 <publisher> Pynson, ca. 1515</publisher>
                 <date>1515</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12973.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC13075">
         <monogr>
             <author/>
             <title level="m">[Elegy on the Death of Henry VII]</title>
+            <idno type="STC" subtype="2nd-ed">13075</idno>
             <imprint>
                 <publisher> [de Worde, 1509]</publisher>
                 <date>1509</date>
             </imprint>
-            <idno type="STC (2nd ed.)">13075</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC13148">
@@ -1991,11 +1994,11 @@
             <author/>
             <title level="m">[Acts and deeds of Wallace. In Scots verse by Henry the Minstrel, purporting to derive
                 from a Latin work by J. Blair]</title>
+            <idno type="STC" subtype="2nd-ed">13148</idno>
             <imprint>
                 <publisher> [Edinburgh: W. Chepman and A. Myllar, 1508?]</publisher>
                 <date>1508</date>
             </imprint>
-            <idno type="STC (2nd ed.)">13148</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC13149">
@@ -2003,24 +2006,24 @@
             <author/>
             <title level="m">The actis and deidis of the illuster and vailzeand campioun, Schir William Wallace,
                 knicht of Ellerslie</title>
+            <idno type="STC" subtype="2nd-ed">13149</idno>
             <imprint>
                 <publisher> [Imprentit at Edinburgh: Be Robert Lekpreuik at the expensis of Henrie Charteris,
             [and] ar to be sauld in his buith, or the north syde of ye gait abone [sic] the Throne, Anno. Do. M.D.
             LXX. [1570]]</publisher>
                 <date>1570</date>
             </imprint>
-            <idno type="STC (2nd ed.)">13149</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC13165">
         <monogr>
             <author>Henryson, Robert</author>
             <title level="m">The Testament of Cresseid</title>
+            <idno type="STC" subtype="2nd-ed">13165</idno>
             <imprint>
                 <publisher> H. Charteris, 1593</publisher>
                 <date>1593</date>
             </imprint>
-            <idno type="STC (2nd ed.)">13165</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC13166">
@@ -2028,276 +2031,276 @@
             <author>Henryson, Robert</author>
             <title level="m">Heire begynnis the traitie of Orpheus kyng and how he yeid to hewyn: to hel to seik
                 his quene and ane othir ballad in the lattir end</title>
+            <idno type="STC" subtype="2nd-ed">13166</idno>
             <imprint>
                 <publisher> [Edinburgh: W. Chepman and A. Myllar, 1508?]</publisher>
                 <date>1508</date>
             </imprint>
-            <idno type="STC (2nd ed.)">13166</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC13179">
         <monogr>
             <author/>
             <title level="m">The Greate Herball</title>
+            <idno type="STC" subtype="2nd-ed">13179</idno>
             <imprint>
                 <publisher> J. Kynge, 1561</publisher>
                 <date>1561</date>
             </imprint>
-            <idno type="STC (2nd ed.)">13179</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC13438">
         <monogr>
             <author>Higden, Ranulphus (trans. John Trevisa)</author>
             <title level="m">Polychronicon</title>
+            <idno type="STC" subtype="2nd-ed">13438</idno>
             <imprint>
                 <publisher> Caxton, [1482]</publisher>
                 <date>1482</date>
             </imprint>
-            <idno type="STC (2nd ed.)">13438</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC13439">
         <monogr>
             <author>Higden, Ranulphus (trans. John Trevisa)</author>
             <title level="m">Polychronicon</title>
+            <idno type="STC" subtype="2nd-ed">13439</idno>
             <imprint>
                 <publisher> de Worde, 1495</publisher>
                 <date>1495</date>
             </imprint>
-            <idno type="STC (2nd ed.)">13439</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC13440">
         <monogr>
             <author>Higden, Ranulphus (trans. John Trevisa)</author>
             <title level="m">Polychronicon</title>
+            <idno type="STC" subtype="2nd-ed">13440</idno>
             <imprint>
                 <publisher> P. Treveris for J. Reynes, 1527</publisher>
                 <date>1527</date>
             </imprint>
-            <idno type="STC (2nd ed.)">13440</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC13440a">
         <monogr>
             <author>Higden, Ranulphus (trans. John Trevisa)</author>
             <title level="m">Discripcion of Britayne &amp; also [of] Irlonde</title>
+            <idno type="STC" subtype="2nd-ed">13440a</idno>
             <imprint>
                 <publisher> Caxton, 1480</publisher>
                 <date>1480</date>
             </imprint>
-            <idno type="STC (2nd ed.)">13440a</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC13440b">
         <monogr>
             <author>Higden, Ranulphus (trans. John Trevisa)</author>
             <title level="m">Discripcion of Britayne &amp; also [of] Irlonde</title>
+            <idno type="STC" subtype="2nd-ed">13440b</idno>
             <imprint>
                 <publisher> de Worde, 1498</publisher>
                 <date>1498</date>
             </imprint>
-            <idno type="STC (2nd ed.)">13440b</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC13445">
         <monogr>
             <author>Higgins, John</author>
             <title level="m">The mirour for m[a]gistrates</title>
+            <idno type="STC" subtype="2nd-ed">13445</idno>
             <imprint>
                 <publisher> H. Marsh, 1587</publisher>
                 <date>1587</date>
             </imprint>
-            <idno type="STC (2nd ed.)">13445</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC13568">
         <monogr>
             <author>Holinshed, Raphael</author>
             <title level="m">The Chronicles of England</title>
+            <idno type="STC" subtype="2nd-ed">13568</idno>
             <imprint>
                 <publisher> H. Bynneman f. J. Harrison, [1577]</publisher>
                 <date>1577</date>
             </imprint>
-            <idno type="STC (2nd ed.)">13568</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC13594">
         <monogr>
             <author>Holinshed, Raphael</author>
             <title level="m">[Buke of the Howlat]</title>
+            <idno type="STC" subtype="2nd-ed">13594</idno>
             <imprint>
                 <publisher> [Chepman and Myllar, 1508]</publisher>
                 <date>1508</date>
             </imprint>
-            <idno type="STC (2nd ed.)">13594</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC13688">
         <monogr>
             <author/>
             <title level="m">A little gest of Robin Hood</title>
+            <idno type="STC" subtype="2nd-ed">13688</idno>
             <imprint>
                 <publisher> [R. Pynson, 1500?]</publisher>
                 <date>1500</date>
             </imprint>
-            <idno type="STC (2nd ed.)">13688</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC13689">
         <monogr>
             <author/>
             <title level="m">A Lytell Gest of Robyn Hode</title>
+            <idno type="STC" subtype="2nd-ed">13689</idno>
             <imprint>
                 <publisher> de Worde, c. 1519</publisher>
                 <date>1519</date>
             </imprint>
-            <idno type="STC (2nd ed.)">13689</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC136893">
         <monogr>
             <author/>
             <title level="m">[Here begynneth a lytell geste of Robyn hode]</title>
+            <idno type="STC" subtype="2nd-ed">13689.3</idno>
             <imprint>
                 <publisher> [York: Hugh Goes, not after 1509]</publisher>
                 <date>1509</date>
             </imprint>
-            <idno type="STC (2nd ed.)">13689.3</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC136895">
         <monogr>
             <author/>
             <title level="m">[Here begynneth a gest of Robyn hode] </title>
+            <idno type="STC" subtype="2nd-ed">13689.5</idno>
             <imprint>
                 <publisher> [S.l: s.n., between 1510-1515]</publisher>
                 <date>1510</date>
             </imprint>
-            <idno type="STC (2nd ed.)">13689.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC13690">
         <monogr>
             <author/>
             <title level="m">[Here begynneth a gest of Robyn hode]</title>
+            <idno type="STC" subtype="2nd-ed">13690</idno>
             <imprint>
                 <publisher> [London: Julian Notary, ca. 1515?]</publisher>
                 <date>1515</date>
             </imprint>
-            <idno type="STC (2nd ed.)">13690</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC14042">
         <monogr>
             <author/>
             <title level="m">Scala Perfeccionis</title>
+            <idno type="STC" subtype="2nd-ed">14042</idno>
             <imprint>
                 <publisher> Walter Hylton, [de Worde], 1494</publisher>
                 <date>1494</date>
             </imprint>
-            <idno type="STC (2nd ed.)">14042</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC14077c9">
         <monogr>
             <author/>
             <title level="m">Indulgences — Images of Pity, etc</title>
+            <idno type="STC" subtype="2nd-ed">14077c.9</idno>
             <imprint>
                 <publisher> [Xylographic, pr. by frotton.] [Northern England s.n. c. 1490.]</publisher>
                 <date>1490</date>
             </imprint>
-            <idno type="STC (2nd ed.)">14077c.9</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC14045">
         <monogr>
             <author>Hylton, Walter</author>
             <title level="m">Scala perfectionis</title>
+            <idno type="STC" subtype="2nd-ed">14045</idno>
             <imprint>
                 <publisher> Imprinted at London: In Fletestrete, by Wynkyn de Worde, dwellynge at the sygne of
             the Sonne, and fynysshed in the yere of our lorde god. M.CCCCC.xxxiij. [1533] the. xxvij. daye of Maye</publisher>
                 <date>1533</date>
             </imprint>
-            <idno type="STC (2nd ed.)">14045</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC142805">
         <monogr>
             <author/>
             <title level="m">The hystory of Syr Isembras</title>
+            <idno type="STC" subtype="2nd-ed">14280.5</idno>
             <imprint>
                 <publisher> [J. Skot, c. 1530]</publisher>
                 <date>1530</date>
             </imprint>
-            <idno type="STC (2nd ed.)">14280.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC142807">
         <monogr>
             <author/>
             <title level="m">The hystory of Syr Isembras</title>
+            <idno type="STC" subtype="2nd-ed">14280.7</idno>
             <imprint>
                 <publisher> [P. Treveris, c. 1530]</publisher>
                 <date>1530</date>
             </imprint>
-            <idno type="STC (2nd ed.)">14280.7</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC14281">
         <monogr>
             <author/>
             <title level="m">The hystory of Syr Isembras</title>
+            <idno type="STC" subtype="2nd-ed">14281</idno>
             <imprint>
                 <publisher> [c. 1560]</publisher>
                 <date>1560</date>
             </imprint>
-            <idno type="STC (2nd ed.)">14281</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC14282">
         <monogr>
             <author/>
             <title level="m">The history of the Valyent Knyght, Syr Isenbras</title>
+            <idno type="STC" subtype="2nd-ed">14282</idno>
             <imprint>
                 <publisher> Copland, [c. 1565?]</publisher>
                 <date>1565</date>
             </imprint>
-            <idno type="STC (2nd ed.)">14282</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC14477">
         <monogr>
             <author>Skelton, John</author>
             <title level="m">The epitaffe of the moste noble [and] valyaunt Iasper late duke of Beddeforde</title>
+            <idno type="STC" subtype="2nd-ed">14477</idno>
             <imprint>
                 <publisher> [London: R. Pynson, [1496]] ]</publisher>
                 <date>1496</date>
             </imprint>
-            <idno type="STC (2nd ed.)">14477</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC14521">
         <monogr>
             <author/>
             <title level="m">A Merry Ieste of a Shrewde and Curste Wyfe</title>
+            <idno type="STC" subtype="2nd-ed">14521</idno>
             <imprint>
                 <publisher> H. Jackson, [1580?]</publisher>
                 <date>1580</date>
             </imprint>
-            <idno type="STC (2nd ed.)">14521</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC14522">
         <monogr>
             <author/>
             <title level="m">A Mery Geste of the Frere and the Boye</title>
+            <idno type="STC" subtype="2nd-ed">14522</idno>
             <imprint>
                 <publisher> de Worde, [1510-13]</publisher>
                 <date>1510</date>
             </imprint>
-            <idno type="STC (2nd ed.)">14522</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC145465">
@@ -2305,55 +2308,55 @@
             <author/>
             <title level="m">Here begynneth a lytell propre ieste. Called cryste cross me spede. a.b.c. How yt good
                 gosyps made a royall feest. [In verse.]</title>
+            <idno type="STC" subtype="2nd-ed">14546.5</idno>
             <imprint>
                 <publisher> London [W. de Worde,] [1534?]</publisher>
                 <date>1534</date>
             </imprint>
-            <idno type="STC (2nd ed.)">14546.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC14550">
         <monogr>
             <author/>
             <title level="m">A Gloryous Medytacyon of Ihesus Crystes Passyon</title>
+            <idno type="STC" subtype="2nd-ed">14550</idno>
             <imprint>
                 <publisher> R. Fakes, [c. 1523]</publisher>
                 <date>1523</date>
             </imprint>
-            <idno type="STC (2nd ed.)">14550</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC145225">
         <monogr>
             <author/>
             <title level="m">A Mery Geste of the Frere and the Boye</title>
+            <idno type="STC" subtype="2nd-ed">14522.5</idno>
             <imprint>
                 <publisher> Myddylton, [c. 1545]</publisher>
                 <date>1545</date>
             </imprint>
-            <idno type="STC (2nd ed.)">14522.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC145227">
         <monogr>
             <author/>
             <title level="m">A Mery Jest of the Frier and the Boy</title>
+            <idno type="STC" subtype="2nd-ed">14522.7</idno>
             <imprint>
                 <publisher> E. Alde, [1584-89]</publisher>
                 <date>1584</date>
             </imprint>
-            <idno type="STC (2nd ed.)">14522.7</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC14563">
         <monogr>
             <author/>
             <title level="m">The Psalter of Jesus</title>
+            <idno type="STC" subtype="2nd-ed">14563</idno>
             <imprint>
                 <publisher> Coplande, 1529</publisher>
                 <date>1529</date>
             </imprint>
-            <idno type="STC (2nd ed.)">14563</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC14806">
@@ -2361,89 +2364,89 @@
             <author/>
             <title level="m">Here after foloweth a treatyse take[n] out of a boke whiche sometyme Theodosius the
                 Emperour founde in Iherusalem in the pretorye of Pylate of Joseph of Armathy</title>
+            <idno type="STC" subtype="2nd-ed">14806</idno>
             <imprint>
                 <publisher> [Enprynted at London: In Flete strete at the sygne of the sonne by me Wynken de
             Worde, [1511?]]</publisher>
                 <date>1511</date>
             </imprint>
-            <idno type="STC (2nd ed.)">14806</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC151185">
         <monogr>
             <author>Lacy, John</author>
             <title level="m">wyl bucke his testament</title>
+            <idno type="STC" subtype="2nd-ed">15118.5</idno>
             <imprint>
                 <publisher> Copland, [c. 1560]</publisher>
                 <date>1560</date>
             </imprint>
-            <idno type="STC (2nd ed.)">15118.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC15187">
         <monogr>
             <author/>
             <title level="m">The treatyse of Sir Lamwell</title>
+            <idno type="STC" subtype="2nd-ed">15187</idno>
             <imprint>
                 <publisher> [J. Mychell, 1548]</publisher>
                 <date>1548</date>
             </imprint>
-            <idno type="STC (2nd ed.)">15187</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC152575">
         <monogr>
             <author>La Sale, Antoine de; trans. Robert Copland (?)</author>
             <title level="m">[The fyftene joyes of maryage]</title>
+            <idno type="STC" subtype="2nd-ed">15257.5</idno>
             <imprint>
                 <publisher> [London: Wynkyn de Worde, ca. 1507]</publisher>
                 <date>1507</date>
             </imprint>
-            <idno type="STC (2nd ed.)">15257.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC15258">
         <monogr>
             <author>La Sale, Antoine de; trans. Robert Copland (?)</author>
             <title level="m">The fyftene joyes of maryage</title>
+            <idno type="STC" subtype="2nd-ed">15258</idno>
             <imprint>
                 <publisher> [London: Wynkyn de Worde, 1509]</publisher>
                 <date>1509</date>
             </imprint>
-            <idno type="STC (2nd ed.)">15258</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC15345">
         <monogr>
             <author/>
             <title level="m">The iiii leues of the Trueloue</title>
+            <idno type="STC" subtype="2nd-ed">15345</idno>
             <imprint>
                 <publisher> de Worde, [1510?]</publisher>
                 <date>1510</date>
             </imprint>
-            <idno type="STC (2nd ed.)">15345</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC15914">
         <monogr>
             <author/>
             <title level="m">Horae Marie Virginis secundum usum Sarum</title>
+            <idno type="STC" subtype="2nd-ed">15914</idno>
             <imprint>
                 <publisher> de Worde, 1513</publisher>
                 <date>1513</date>
             </imprint>
-            <idno type="STC (2nd ed.)">15914</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC15917">
         <monogr>
             <author/>
             <title level="m">Hore Beate Marie Virginis</title>
+            <idno type="STC" subtype="2nd-ed">15917</idno>
             <imprint>
                 <publisher> Pynson, 1514</publisher>
                 <date>1514</date>
             </imprint>
-            <idno type="STC (2nd ed.)">15917</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC15932">
@@ -2451,11 +2454,11 @@
             <author/>
             <title level="m">Hore beate marie virginis ad vsum insignis ac preclare ecclesie Saru[m] cu[m] figuris
                 passionis mysteriu[m] representa[n]tibus recenter additis. Richard Fakes</title>
+            <idno type="STC" subtype="2nd-ed">15932</idno>
             <imprint>
                 <publisher> [Parisius: Per J. bignon pro R. fakes Lodoii [sic] librario, [1521?]]</publisher>
                 <date>1521</date>
             </imprint>
-            <idno type="STC (2nd ed.)">15932</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC15950">
@@ -2464,12 +2467,12 @@
             <title level="m">Hore beatissime virginis Marie ad legitimus Sariburiesis ecclesie ritum cum quindecim
                 orationub[us] beate brigitte ac multis alijs orationib[us] pulcherrimis et indulgentiis cum tabula
                 aptissima iam vltimo adiectis. 1527</title>
+            <idno type="STC" subtype="2nd-ed">15950</idno>
             <imprint>
                 <publisher> Venudat Parisiis: a Fracisco Regnault in vico sacte Jacobi sub signo Clephatis,
             [1527]</publisher>
                 <date>1527</date>
             </imprint>
-            <idno type="STC (2nd ed.)">15950</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC15951">
@@ -2478,12 +2481,12 @@
             <title level="m"> Hore beatissime virginis Marie ad legitimu[m] Sarisburie[n]sis Ecclesie ritum cum
                 quindecim orationib[us] beate Brigitte, ac multis alijs orationib[us] pulcherrimis, et
                 indulgentiis, cum tabula aptissima iam vltimo adiectis</title>
+            <idno type="STC" subtype="2nd-ed">15951</idno>
             <imprint>
                 <publisher> Fifteen O's. Fifteen O's. Vene[n]da[n]t[ur] [sic] Parisijs: a Fra[n]cisco Regnault
             In vico sa[n]cti Iacobi, sub signo Elepha[n]tis., 1527</publisher>
                 <date>1527</date>
             </imprint>
-            <idno type="STC (2nd ed.)">15951</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC15954">
@@ -2492,11 +2495,11 @@
             <title level="m">Hore beatissime virginis Marie ad legitimu[m] Sarisburie[n]sis Ecclesie ritum: cum
                 quindecim orationib[us] beate Brigitte, ac multis aliis orationib[us] pulcherrimis, et
                 indulgentiis, cum tabula aptissima iam ultimo adiectis</title>
+            <idno type="STC" subtype="2nd-ed">15954</idno>
             <imprint>
                 <publisher> Vene[n]da[n]t[ur] [sic] Parisiis [Paris]: a Fra[n]cisco Regnault, [10 Oct.] 1527</publisher>
                 <date>1527</date>
             </imprint>
-            <idno type="STC (2nd ed.)">15954</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC15999">
@@ -2505,12 +2508,12 @@
             <title level="m">The prymer with the pystles and gospels in Englysshe of euery Sonday [and] holyday in
                 the yere, reuised [and] dilige[n]tly corrected, and ye forme of the new bedis, with diuers other
                 thynges very necessary for yonge curates, and for all other men women and chyldren</title>
+            <idno type="STC" subtype="2nd-ed">15999</idno>
             <imprint>
                 <publisher> [Imprynted at London: in Fletestrete, at the synge of the Sonne, by me Iohan Byddell,
             [1537?]]</publisher>
                 <date>1537</date>
             </imprint>
-            <idno type="STC (2nd ed.)">15999</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17005">
@@ -2518,11 +2521,11 @@
             <author>Lydgate, John</author>
             <title level="m">Hrre [sic] folowyth the interpretac[i]on of the names of goddis and goddesses of this
                 treatyse folowynge as poetes wryte</title>
+            <idno type="STC" subtype="2nd-ed">17005</idno>
             <imprint>
                 <publisher> [Westminster: Printed by Wynkyn de Worde, 1498]</publisher>
                 <date>1498</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17005</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17006">
@@ -2530,44 +2533,44 @@
             <author>Lydgate, John</author>
             <title level="m">Here foloweth the interpretacoin [sic] of the names of goddes and goddesses as is
                 reherced in this tretyse folowynge as poetes wryte</title>
+            <idno type="STC" subtype="2nd-ed">17006</idno>
             <imprint>
                 <publisher> [[Westminster?: Wynkyn de Worde, ca. 1500]</publisher>
                 <date>1500</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17006</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17007">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">Here endeth a lytyll tratyse named Le assemble de dyeus</title>
+            <idno type="STC" subtype="2nd-ed">17007</idno>
             <imprint>
                 <publisher> [Westminster?: Printed by Wynkyn de Worde, 1500?]</publisher>
                 <date>1500</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17007</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17008">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">[The chorle and the birde]</title>
+            <idno type="STC" subtype="2nd-ed">17008</idno>
             <imprint>
                 <publisher> [Westminster: W. Caxton, 1477?]</publisher>
                 <date>1477</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17008</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17009">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">Explicit the chorle and the birde</title>
+            <idno type="STC" subtype="2nd-ed">17009</idno>
             <imprint>
                 <publisher> [Westminster: W. Caxton, 1476?]</publisher>
                 <date>1476</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17009</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17010">
@@ -2576,223 +2579,225 @@
             <title level="m">Problemys of olde siknesse and figures Whiche p[ro]uyd been fructuous of sentens and
                 haue auctorities grounded on scripture by resemblance of notable apperannce [sic] with moralities
                 concludynge on prudence</title>
+            <idno type="STC" subtype="2nd-ed">17010</idno>
             <imprint>
                 <publisher> [London]: [Emprentyt by me Richard Pinson], [1493]</publisher>
                 <date>1493</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17010</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17011">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">Here begynneth the chorle [and] the byrde</title>
+            <idno type="STC" subtype="2nd-ed">17011</idno>
             <imprint>
                 <publisher> [London]: [Emprentyt by me Richard Pinson], [1493]</publisher>
                 <date>1493</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17011</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17012">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">Here begynneth the chorle and the byrde</title>
+            <idno type="STC" subtype="2nd-ed">17012</idno>
             <imprint>
                 <publisher> [Enprynted at London: In the Flete strete in the sygne of the sonne by Wynkyn de
             Worde, [1510?]]</publisher>
                 <date>1510</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17012</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17013">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">Here foloweth the churle and the byrde</title>
+            <idno type="STC" subtype="2nd-ed">17013</idno>
             <imprint>
                 <publisher> [Emprynted att Westmynstre: In Caxtons house by Wynken de worde, 1497?]</publisher>
                 <date>1497</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17013</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17014">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The churle and the byrde</title>
+            <idno type="STC" subtype="2nd-ed">17014</idno>
             <imprint>
                 <publisher> [Imprented at London: In Lothburi ouer against Sainct Margarytes church by me Wyllam
             Copland, [ca. 1565]]</publisher>
                 <date>1565</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17014</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC170143">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The Complaynt of the Black Knight</title>
+            <idno type="STC" subtype="2nd-ed">17014.3</idno>
             <imprint>
                 <publisher> Chepman and Myllar, 1508</publisher>
                 <date>1508</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17014.3</idno>
         </monogr>
+        <note>formerly STC 5099</note>
     </biblStruct>
     <biblStruct xml:id="STC170147">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The Complaynt of a Louers Lyfe [= of the Black Knight]</title>
+            <idno type="STC" subtype="2nd-ed">17014.7</idno>
             <imprint>
                 <publisher> de Worde, [1531?]</publisher>
                 <date>1531</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17014.7</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17015">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The courte of sapyence</title>
+            <idno type="STC" subtype="2nd-ed">17015</idno>
             <imprint>
                 <publisher> [Imprynted in London: In ye fletestrete at the sygne of the sonne by Wynkyn de
             Worde, ye yere of our lorde a. M.CCCCC. &amp; X (1510)]</publisher>
                 <date>1510</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17015</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17016">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">[Explicit liber primus de curia sapiencie]</title>
+            <idno type="STC" subtype="2nd-ed">17016</idno>
             <imprint>
                 <publisher> [Westminister: Printed by William Caxton, 1480]</publisher>
                 <date>1480</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17016</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17017">
         <monogr>
             <author>Lydgate, John, and Benedict Burgh</author>
             <title level="m">The Gouernance of Kynges</title>
+            <idno type="STC" subtype="2nd-ed">17017</idno>
             <imprint>
                 <publisher> Pynson, 1511</publisher>
                 <date>1511</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17017</idno>
         </monogr>
+        <note>formerly also STC 12140</note>
     </biblStruct>
     <biblStruct xml:id="STC17018">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The Horse the Ghoos &amp; the Sheep</title>
+            <idno type="STC" subtype="2nd-ed">17018</idno>
             <imprint>
                 <publisher> [Caxton, 1477-78]</publisher>
                 <date>1477</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17018</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17019">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The Hors, the Sheep, &amp; the Ghoos</title>
+            <idno type="STC" subtype="2nd-ed">17019</idno>
             <imprint>
                 <publisher> [Caxton, 1477-78]</publisher>
                 <date>1477</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17019</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17020">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The Horse, the Sheep and the Ghoos</title>
+            <idno type="STC" subtype="2nd-ed">17020</idno>
             <imprint>
                 <publisher> [de Worde, c. 1495]</publisher>
                 <date>1495</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17020</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17021">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The Horse, the Sheep and the Goos</title>
+            <idno type="STC" subtype="2nd-ed">17021</idno>
             <imprint>
                 <publisher> [de Worde, 1499?]</publisher>
                 <date>1499</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17021</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17022">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The Horse, the Shepe &amp; the Goos</title>
+            <idno type="STC" subtype="2nd-ed">17022</idno>
             <imprint>
                 <publisher> [de Worde, 1500]</publisher>
                 <date>1500</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17022</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17023">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The lyf of our lady</title>
+            <idno type="STC" subtype="2nd-ed">17023</idno>
             <imprint>
                 <publisher> Caxton, [1484]</publisher>
                 <date>1484</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17023</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17024">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The lyf of our lady</title>
+            <idno type="STC" subtype="2nd-ed">17024</idno>
             <imprint>
                 <publisher> Caxton, [1484]</publisher>
                 <date>1484</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17024</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17025">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The lyf of our lady</title>
+            <idno type="STC" subtype="2nd-ed">17025</idno>
             <imprint>
                 <publisher> R. Redman, 1531</publisher>
                 <date>1531</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17025</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17026">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The prouerbes of Lydgate</title>
+            <idno type="STC" subtype="2nd-ed">17026</idno>
             <imprint>
                 <publisher> de Worde, [1510?]</publisher>
                 <date>1510</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17026</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17027">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The prouerbes of Lydgate</title>
+            <idno type="STC" subtype="2nd-ed">17027</idno>
             <imprint>
                 <publisher> de Worde, [1520?]</publisher>
                 <date>1520</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17027</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC170275">
@@ -2800,12 +2805,12 @@
             <author>Lydgate, John</author>
             <title level="m">This lytell treatyse compendiously declareth the damage and destruction in realmes
                 caused by the serpente of diuision</title>
+            <idno type="STC" subtype="2nd-ed">17027.5</idno>
             <imprint>
                 <publisher> [London]: Newly and of late imprinted by me Roberte Redman, dwellynge at London in
             Flete Strete at the sygne of the George, [ca. 1535]</publisher>
                 <date>1535</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17027.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17028">
@@ -2813,12 +2818,12 @@
             <author>Lydgate, John</author>
             <title level="m">The serpent of diuision Whych hathe euer bene yet the chefest vndoer of any region or
                 citie, set forth after the auctours old copy, by I.S</title>
+            <idno type="STC" subtype="2nd-ed">17028</idno>
             <imprint>
                 <publisher> [Imprinted at Londo[n]: By Owen Rogers dwelling in Smithfielde, by the Hospital in
             litle S. Bartelmewes], Anno. M.D.L.IX. [1559] the. iiii. of May</publisher>
                 <date>1559</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17028</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17029">
@@ -2829,189 +2834,189 @@
                 Whereunto is annexed the tragedye of Gorboduc, sometime king of this land, and of his two sonnes,
                 Ferrex and Porrex. Set foorth as the same was shewed before the Queenes most excellent Maiesty, by
                 the Gentlemen of the Inner Temple</title>
+            <idno type="STC" subtype="2nd-ed">17029</idno>
             <imprint>
                 <publisher> At London: Printed by Edward Allde for Iohn Perrin, and are to be sold in Paules
             Church yard, at the signe of the Angell, 1590</publisher>
                 <date>1590</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17029</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17030">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">Stans puer ad mensam</title>
+            <idno type="STC" subtype="2nd-ed">17030</idno>
             <imprint>
                 <publisher> [Westminster: Printed by William Caxton, 1476?]</publisher>
                 <date>1476</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17030</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17031">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The Storye [of The Siege] of Thebes,</title>
+            <idno type="STC" subtype="2nd-ed">17031</idno>
             <imprint>
                 <publisher> [de Worde, 1497?]</publisher>
                 <date>1497</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17031</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17032">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The Temple of Glas</title>
+            <idno type="STC" subtype="2nd-ed">17032</idno>
             <imprint>
                 <publisher> [Caxton, 1477?]</publisher>
                 <date>1477</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17032</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17032a">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The Temple of Glas</title>
+            <idno type="STC" subtype="2nd-ed">17032a</idno>
             <imprint>
                 <publisher> [de Worde, 1495?]</publisher>
                 <date>1495</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17032a</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17033">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The Temple of Glas</title>
+            <idno type="STC" subtype="2nd-ed">17033</idno>
             <imprint>
                 <publisher> [de Worde, 1500?]</publisher>
                 <date>1500</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17033</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC170333">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The Temple of Glas</title>
+            <idno type="STC" subtype="2nd-ed">17033.3</idno>
             <imprint>
                 <publisher> Pynson, [1503]</publisher>
                 <date>1503</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17033.3</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC170337">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The Temple of Glas</title>
+            <idno type="STC" subtype="2nd-ed">17033.7</idno>
             <imprint>
                 <publisher> de Worde, [1506?]</publisher>
                 <date>1506</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17033.7</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17034">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The Temple of Glad</title>
+            <idno type="STC" subtype="2nd-ed">17034</idno>
             <imprint>
                 <publisher> Berthelet, [1529?]</publisher>
                 <date>1529</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17034</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17035">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">Here begynneth the testament of John Lydgate</title>
+            <idno type="STC" subtype="2nd-ed">17035</idno>
             <imprint>
                 <publisher> R. Pynson, [1520?]</publisher>
                 <date>1520</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17035</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17037">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">Verses on the seven virtues</title>
+            <idno type="STC" subtype="2nd-ed">17037</idno>
             <imprint>
                 <publisher> [London? 1500?]</publisher>
                 <date>1500</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17037</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC170375">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">[The virtue of the mass]</title>
+            <idno type="STC" subtype="2nd-ed">17037.5</idno>
             <imprint>
                 <publisher> [W. de Worde, c. 1500]</publisher>
                 <date>1500</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17037.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17038">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The vertue of ye masse</title>
+            <idno type="STC" subtype="2nd-ed">17038</idno>
             <imprint>
                 <publisher> W. de Worde, [1520?]</publisher>
                 <date>1520</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17038</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17537">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">The lamentacyon of our lady</title>
+            <idno type="STC" subtype="2nd-ed">17537</idno>
             <imprint>
                 <publisher> [Enprinted at London: In Fletestrete at the sygne of the sonne, by Wynkyn de Worde,
             [1510?]]</publisher>
                 <date>1510</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17537</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17539">
         <monogr>
             <author/>
             <title level="m">The myracles of oure blessyd Lady</title>
+            <idno type="STC" subtype="2nd-ed">17539</idno>
             <imprint>
                 <publisher> Westminster: Wynkyn de Worde, [1496]</publisher>
                 <date>1496</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17539</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC175425">
         <monogr>
             <author/>
             <title level="m">Our Ladyes Chambre, or Parler</title>
+            <idno type="STC" subtype="2nd-ed">17542.5</idno>
             <imprint>
                 <publisher> [R. Wyer, 1533?]</publisher>
                 <date>1533</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17542.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17778">
         <monogr>
             <author>Medwall, Henry</author>
             <title level="m">A godely Interlude of Fulgens Cenatoure of Rome</title>
+            <idno type="STC" subtype="2nd-ed">17778</idno>
             <imprint>
                 <publisher> Rastell, [1512-16]</publisher>
                 <date>1512</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17778</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17779">
@@ -3020,22 +3025,22 @@
             <title level="m"> Nature A goodly interlude of nature co[m]pylyd by mayster Henry Medwall chapleyn to
                 the ryght reuerent father in god Iohan Morton somtyme cardynall and archebyshop of
                 Canterbury</title>
+            <idno type="STC" subtype="2nd-ed">17779</idno>
             <imprint>
                 <publisher> Henry Medwall, [London: Printed by William Rastell, between 1529 and 1535]</publisher>
                 <date>1529</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17779</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17841">
         <monogr>
             <author/>
             <title level="m">Here begynneth a lytel treatyse of ye byrth [and] p[ro]phecye of Marlyn</title>
+            <idno type="STC" subtype="2nd-ed">17841</idno>
             <imprint>
                 <publisher> London: Emprynted by Wynkyn de Worde, 1510</publisher>
                 <date>1510</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17841</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC178417">
@@ -3043,11 +3048,11 @@
             <author>Merlin</author>
             <title level="m">The whole prophesie of Scotland, England, &amp; somepart of France, and
                 Denmark</title>
+            <idno type="STC" subtype="2nd-ed">17841.7</idno>
             <imprint>
                 <publisher> Waldegrave, 1603 [not pr. by Waldegrave, possibly a London piracy]</publisher>
                 <date>1603</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17841.7</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17957">
@@ -3055,149 +3060,149 @@
             <author>Mirk, John</author>
             <title level="m">tHis day is callyd the first sonday of aduent, that is the sonday in cristys comyng
                 Therfore holy chirche this day maketh mencion of ij comynges…</title>
+            <idno type="STC" subtype="2nd-ed">17957</idno>
             <imprint>
                 <publisher> [[Westminster]: Enprynted by wylliam Caxton at westmestre, [1483 (30 June)]]</publisher>
                 <date>1483</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17957</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17958">
         <monogr>
             <author>Mirk, John</author>
             <title level="m">[Liber festivalis]</title>
+            <idno type="STC" subtype="2nd-ed">17958</idno>
             <imprint>
                 <publisher> [Oxford: Theodoric Rood and Thomas Hunte, 1486]</publisher>
                 <date>1486</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17958</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17959">
         <monogr>
             <author>Mirk, John</author>
             <title level="m">Incipit liber qui vocatur festialis</title>
+            <idno type="STC" subtype="2nd-ed">17959</idno>
             <imprint>
                 <publisher> [Westminster: Printed by William Caxton, 1491]</publisher>
                 <date>1491</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17959</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17960">
         <monogr>
             <author>Mirk, John</author>
             <title level="m">The helpe and grace of almighty god…</title>
+            <idno type="STC" subtype="2nd-ed">17960</idno>
             <imprint>
                 <publisher> [London: Emprynted by me Richarde Pinsone, 1493]</publisher>
                 <date>1493</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17960</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17961">
         <monogr>
             <author>Mirk, John</author>
             <title level="m">The helpe and grace of almighty god…</title>
+            <idno type="STC" subtype="2nd-ed">17961</idno>
             <imprint>
                 <publisher> [London: Emprynted by me Richarde Pinsone, 1493]</publisher>
                 <date>1493</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17961</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17962">
         <monogr>
             <author>Mirk, John</author>
             <title level="m">Incipit liber qui vocatur festialis</title>
+            <idno type="STC" subtype="2nd-ed">17962</idno>
             <imprint>
                 <publisher> [In westmonesterio: [W. de Worde], anno domini. M.cccc.lxxxxiii. [1493 [i.e., 1494]]</publisher>
                 <date>1493</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17962</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17963">
         <monogr>
             <author>Mirk, John</author>
             <title level="m">Incipit liber qui vocatur festialis</title>
+            <idno type="STC" subtype="2nd-ed">17963</idno>
             <imprint>
                 <publisher> [Finitum et co[m]pletum Rothomagi: [Printed by J. Ravynell], Anno domini millesimo
             quadringentesimo nonagesimoquinto [1495]]</publisher>
                 <date>1495</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17963</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17964">
         <monogr>
             <author>Mirk, John</author>
             <title level="m"> Incipit liber qui vocatur festiualis de nouo correctus et impressus</title>
+            <idno type="STC" subtype="2nd-ed">17964</idno>
             <imprint>
                 <publisher> [Finitum et co[m]pletum Rothomagi: [Printed by J. Ravynell], Anno domini millesimo
             quadringentesimo nonagesimoquinto [1495]]</publisher>
                 <date>1495</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17964</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17965">
         <monogr>
             <author>Mirk, John</author>
             <title level="m">Incipit liber (qui Festialis appellatur( [sic]</title>
+            <idno type="STC" subtype="2nd-ed">17965</idno>
             <imprint>
                 <publisher> [Finitum westmonasterio: [Wynkyn de Worde], Anno [et]c.lxxxxvi [i.e. 1496]]</publisher>
                 <date>1496</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17965</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC179665">
         <monogr>
             <author>Mirk, John</author>
             <title level="m">Incipit liber qui vocatur festiualis</title>
+            <idno type="STC" subtype="2nd-ed">17966.5</idno>
             <imprint>
                 <publisher> [London: Finitum et completum per Richardu[m] Pynson com[m]orantem extra barram noui
             templi London[iensis?], anno incarnationis dominici. M. cccc. nonagesimonono. sexto die mensis Iulii.
             [1499]]</publisher>
                 <date>1499</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17966.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17967">
         <monogr>
             <author>Mirk, John</author>
             <title level="m">Incipit liber qui Festialis appellatur</title>
+            <idno type="STC" subtype="2nd-ed">17967</idno>
             <imprint>
                 <publisher> [Finitu[m] et completu[m] in Westmonasterio]: [By Wynkyn de Worde], [Anno dni .M.
             cccc. nonagesimonono.] [1499]</publisher>
                 <date>1499</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17967</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17968">
         <monogr>
             <author>Mirk, John</author>
             <title level="m">[Liber festiualis]</title>
+            <idno type="STC" subtype="2nd-ed">17968</idno>
             <imprint>
                 <publisher> [Westmonasterio: Finitum [et] co[m]pletu[m] p[er] Julianu[m] notarii, Anno in
             carnationis dni. M.cccc.nonagesimonono. Secu[n]do die mensis Ianuarii.] [1499]</publisher>
                 <date>1499</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17968</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC18076">
         <monogr>
             <author>More, Thomas</author>
             <title level="m">Workes in the Englyssh Tonge</title>
+            <idno type="STC" subtype="2nd-ed">18076</idno>
             <imprint>
                 <publisher> ed. Rastell, Tottell, 1557</publisher>
                 <date>1557</date>
             </imprint>
-            <idno type="STC (2nd ed.)">18076</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC180785">
@@ -3206,24 +3211,24 @@
             <title level="m">The boke of the fayre genty[l]woman that no man shulde put his truste, or confydence
                 in that is to say, Lady Fortune, flaterynge euery man that coueyteth to haue all, and specyally,
                 them that truste in her, she deceyueth them at laste</title>
+            <idno type="STC" subtype="2nd-ed">18078.5</idno>
             <imprint>
                 <publisher> [London]: Imprinted by me Robert Wyer dwellynge, in Saynt Martyns parysshe, in the
             Duke of Suffolkes tentes, besyde Charynge Crosse, [ca. 1540]</publisher>
                 <date>1540</date>
             </imprint>
-            <idno type="STC (2nd ed.)">18078.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC18091">
         <monogr>
             <author>More, Thomas</author>
             <title level="m">A mery gest how a sergeau[n]t woldel erne [sic] to be a frere</title>
+            <idno type="STC" subtype="2nd-ed">18091</idno>
             <imprint>
                 <publisher> [Enprynted at Londo[n]: By me Iulyan Notary dwelly[n]g in Powlys churche yarde at the
             weste dore at the sygne of saynt Marke, [1516?]]</publisher>
                 <date>1516</date>
             </imprint>
-            <idno type="STC (2nd ed.)">18091</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC18475">
@@ -3233,12 +3238,12 @@
                 pleasure, wherin was the gardyn of affeccyon inhabyted by Beaute to whome he amerously expressed
                 his loue vpon ye whiche supplycacyon rose grete stryfe dysputacyon, and argument betwene Pyte and
                 Dysdayne</title>
+            <idno type="STC" subtype="2nd-ed">18475</idno>
             <imprint>
                 <publisher> [Ed.? (R. Copland) Enprynted at London: In the Fletestrete at the sygne of the Sonne
             by Wynkyn de worde, [1530?]]</publisher>
                 <date>1530</date>
             </imprint>
-            <idno type="STC (2nd ed.)">18475</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC18476">
@@ -3248,111 +3253,111 @@
                 pleasure, wherin was the gardyn of affeccyon inhabyted by Beaute to whome he amerously expressed
                 his loue, vpon the whiche supplycacion rose grete stryfe dysputacion, [and] argument betwene Pyte
                 [and] Dysdayne…, </title>
+            <idno type="STC" subtype="2nd-ed">18476</idno>
             <imprint>
                 <publisher> [[London]: Here endeth the castell of pleasure enprynted in poules churchayrde [sic]
             at the sygne of the Trynyte by me Hary Pepwell, 1518</publisher>
                 <date>1518</date>
             </imprint>
-            <idno type="STC (2nd ed.)">18476</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC18779">
         <monogr>
             <author/>
             <title level="m">Here begynneth Octauyan the Emperoure of Rome</title>
+            <idno type="STC" subtype="2nd-ed">18779</idno>
             <imprint>
                 <publisher> [London: Printed by Wynkyn de Worde, 1505?]</publisher>
                 <date>1505</date>
             </imprint>
-            <idno type="STC (2nd ed.)">18779</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC18846">
         <monogr>
             <author>Origen</author>
             <title level="m">Omelia Origenis de Beata Maria Magdalena</title>
+            <idno type="STC" subtype="2nd-ed">18846</idno>
             <imprint>
                 <publisher> ed. W. Menyman, [W. Faques, 1505?]</publisher>
                 <date>1505</date>
             </imprint>
-            <idno type="STC (2nd ed.)">18846</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC18932">
         <monogr>
             <author/>
             <title level="m">All Ouids elegies 3. bookes. By C.M. Epigrams by I.D</title>
+            <idno type="STC" subtype="2nd-ed">18932</idno>
             <imprint>
                 <publisher> At Middlebourgh [i.e. London: s.n., ca. 1630]</publisher>
                 <date>1630</date>
             </imprint>
-            <idno type="STC (2nd ed.)">18932</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC19119">
         <monogr>
             <author>Lydgate, John, trans.</author>
             <title level="m">The Payne and Sorowe of Evyll Maryage</title>
+            <idno type="STC" subtype="2nd-ed">19119</idno>
             <imprint>
                 <publisher> de Worde, [c. 1530]</publisher>
                 <date>1530</date>
             </imprint>
-            <idno type="STC (2nd ed.)">19119</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC19209">
         <monogr>
             <author>Paris, Matthew</author>
             <title level="m">Angli Historia Major</title>
+            <idno type="STC" subtype="2nd-ed">19209</idno>
             <imprint>
                 <publisher> R. Wulfium, 1571</publisher>
                 <date>1571</date>
             </imprint>
-            <idno type="STC (2nd ed.)">19209</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC19212">
         <monogr>
             <author/>
             <title level="m">Diues &amp; pauper</title>
+            <idno type="STC" subtype="2nd-ed">19212</idno>
             <imprint>
                 <publisher> Pynson, 1493</publisher>
                 <date>1493</date>
             </imprint>
-            <idno type="STC (2nd ed.)">19212</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC19213">
         <monogr>
             <author/>
             <title level="m">Diues &amp; pauper</title>
+            <idno type="STC" subtype="2nd-ed">19213</idno>
             <imprint>
                 <publisher> de Worde, 1496</publisher>
                 <date>1496</date>
             </imprint>
-            <idno type="STC (2nd ed.)">19213</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC19214">
         <monogr>
             <author/>
             <title level="m">Diues &amp; pauper</title>
+            <idno type="STC" subtype="2nd-ed">19214</idno>
             <imprint>
                 <publisher> Berthelet, 1536</publisher>
                 <date>1536</date>
             </imprint>
-            <idno type="STC (2nd ed.)">19214</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC19305">
         <monogr>
             <author/>
             <title level="m">The parlyament of deuylles</title>
+            <idno type="STC" subtype="2nd-ed">19305</idno>
             <imprint>
                 <publisher> de Worde 1509</publisher>
                 <date>1509</date>
             </imprint>
-            <idno type="STC (2nd ed.)">19305</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC19528">
@@ -3361,158 +3366,158 @@
             <title level="m">The thrie tailes of the thrie priests of Peblis Contayning manie notabill examples and
                 sentences, and (that the paper should not be voide) supply it with sundrie merie tailes, verie
                 pleasant to the reider, and mair exactlie corrected than the former impression</title>
+            <idno type="STC" subtype="2nd-ed">19528</idno>
             <imprint>
                 <publisher> Imprinted at Edinburgh: Be Robert Charteris, 1603</publisher>
                 <date>1603</date>
             </imprint>
-            <idno type="STC (2nd ed.)">19528</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC197673">
         <monogr>
             <author>Perottus, Nicolaus</author>
             <title level="m">Grammatica nicolai Perrotti cum textu iodoci Badii Ascensii</title>
+            <idno type="STC" subtype="2nd-ed">19767.3</idno>
             <imprint>
                 <publisher> de Worde, 1512</publisher>
                 <date>1512</date>
             </imprint>
-            <idno type="STC (2nd ed.)">19767.3</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC19812">
         <monogr>
             <author/>
             <title level="m">The parfite lyfe to put in remembraunce…</title>
+            <idno type="STC" subtype="2nd-ed">19812</idno>
             <imprint>
                 <publisher> [London]: Emprynted by Rychard Pynson, [1495?]</publisher>
                 <date>1495</date>
             </imprint>
-            <idno type="STC (2nd ed.)">19812</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC19904">
         <monogr>
             <author/>
             <title level="m">Pierce the ploughmans crede</title>
+            <idno type="STC" subtype="2nd-ed">19904</idno>
             <imprint>
                 <publisher> [Imprinted at London: By Reynold wolfe, Anno Domini. M.D.L.III. [1553]]</publisher>
                 <date>1553</date>
             </imprint>
-            <idno type="STC (2nd ed.)">19904</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC19908">
         <monogr>
             <author/>
             <title level="m">Pierce the Ploughmans Crede</title>
+            <idno type="STC" subtype="2nd-ed">19908</idno>
             <imprint>
                 <publisher> R. Wolfe, 1553</publisher>
                 <date>1553</date>
             </imprint>
-            <idno type="STC (2nd ed.)">19908</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC199175">
         <monogr>
             <author/>
             <title level="m">[Peregrinatio humani generis]</title>
+            <idno type="STC" subtype="2nd-ed">19117.5</idno>
             <imprint>
                 <publisher> [Imprynted at London: In Fletestrete at the sygne of the George by Rycharde Pynson,
             prynter vnto the kyng[es] noble grace, And this boke made fynysshed the yere of our lord a. M.CCCCC.
             and viij. the. v. daye of December] [1508]</publisher>
                 <date>1508</date>
             </imprint>
-            <idno type="STC (2nd ed.)">19117.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC19118">
         <monogr>
             <author/>
             <title level="m"> [Peregrinatio humani generis]</title>
+            <idno type="STC" subtype="2nd-ed">19118</idno>
             <imprint>
                 <publisher> [Imprynted at London: In Fletestrete at the sygne of the George by Rycharde Pynson,
             prynter vnto the kyng[es] noble grace, And this boke made fynysshed the yere of our lord a. M.CCCCC.
             and viij. the. v. daye of December] [1508]</publisher>
                 <date>1508</date>
             </imprint>
-            <idno type="STC (2nd ed.)">19118</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC20195">
         <monogr>
             <author/>
             <title level="m">[Fifteen Oes]</title>
+            <idno type="STC" subtype="2nd-ed">20195</idno>
             <imprint>
                 <publisher> Caxton, [1491]</publisher>
                 <date>1491</date>
             </imprint>
-            <idno type="STC (2nd ed.)">20195</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC20034">
         <monogr>
             <author/>
             <title level="m">Here begynneth a lytell geste how the plowman lerned his pater noster</title>
+            <idno type="STC" subtype="2nd-ed">20034</idno>
             <imprint>
                 <publisher> [London: [By Wynkyn de Worde], 1510]</publisher>
                 <date>1510</date>
             </imprint>
-            <idno type="STC (2nd ed.)">20034</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC20196">
         <monogr>
             <author/>
             <title level="m">[Fifteen Oes]</title>
+            <idno type="STC" subtype="2nd-ed">20196</idno>
             <imprint>
                 <publisher> Coplande, 1529</publisher>
                 <date>1529</date>
             </imprint>
-            <idno type="STC (2nd ed.)">20196</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC204393">
         <monogr>
             <author/>
             <title level="m">The Proprytees and medycynes for Hors</title>
+            <idno type="STC" subtype="2nd-ed">20439.3</idno>
             <imprint>
                 <publisher> [de Worde, 1502?]</publisher>
                 <date>1502</date>
             </imprint>
-            <idno type="STC (2nd ed.)">20439.3</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC204395">
         <monogr>
             <author/>
             <title level="m">The Proprytees &amp; Medicynes of Hors</title>
+            <idno type="STC" subtype="2nd-ed">20439.5</idno>
             <imprint>
                 <publisher> Emprynted at Westmester by Wynkyn De Worde, [ca. 1497-8]</publisher>
                 <date>1497</date>
             </imprint>
-            <idno type="STC (2nd ed.)">20439.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC20509">
         <monogr>
             <author>Purchas, Samuel</author>
             <title level="m">Hakluytus Posthumus or Purchas his pilgrimes</title>
+            <idno type="STC" subtype="2nd-ed">20509</idno>
             <imprint>
                 <publisher> W. Stansby f. H. Fetherstone, 1625</publisher>
                 <date>1625</date>
             </imprint>
-            <idno type="STC (2nd ed.)">20509</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC207003">
         <monogr>
             <author>Rastell, John</author>
             <title level="m"> Now she that I louyd trewly beryth a full fayre face hath chosen her…</title>
+            <idno type="STC" subtype="2nd-ed">20700.3</idno>
             <imprint>
                 <publisher> [S.l.: J. Rastell, ca. 1525]</publisher>
                 <date>1525</date>
             </imprint>
-            <idno type="STC (2nd ed.)">20700.3</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC20722">
@@ -3524,11 +3529,11 @@
                 halfe, but yf le lyst ye may leue out muche of the sad mater as the messengers p[ar]te, and some of
                 experyens p[ar]te [and] yet the matter wyl depend conuenyently, and than it wyll not be paste thre
                 quarters of an hour of length</title>
+            <idno type="STC" subtype="2nd-ed">20722</idno>
             <imprint>
                 <publisher> [London: J. Rastell, 1520?]</publisher>
                 <date>1520</date>
             </imprint>
-            <idno type="STC (2nd ed.)">20722</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC20724">
@@ -3537,11 +3542,11 @@
             <title level="m">The pastyme of people The cronycles of dyuers realmys and most specyally of the realme
                 of Englond breuely co[m]pylyd [and] empryntyd in chepesyde at the sygne of the mearemayd next to
                 pollys gate. Cum priuilegio</title>
+            <idno type="STC" subtype="2nd-ed">20724</idno>
             <imprint>
                 <publisher> [London: Printed by John Rastell, 1530?]</publisher>
                 <date>1530</date>
             </imprint>
-            <idno type="STC (2nd ed.)">20724</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC208813">
@@ -3550,22 +3555,22 @@
             <title level="m">The remors of conscyence Here begynneth certayne demonstracyons by our lorde to all
                 synfull persones with the remors of mannes conscynce to the regarde of the bounte of our
                 lorde</title>
+            <idno type="STC" subtype="2nd-ed">20881.3</idno>
             <imprint>
                 <publisher> [London: Wynkyn de Worde, ca. 1510]</publisher>
                 <date>1510</date>
             </imprint>
-            <idno type="STC (2nd ed.)">20881.3</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC20954">
         <monogr>
             <author>Rhodes, Hugh</author>
             <title level="m">The Boke of Nurture for Men, Seruantes and Chyldren, with Stans Puer ad Mensam</title>
+            <idno type="STC" subtype="2nd-ed">20954</idno>
             <imprint>
                 <publisher> A. Veale, [1560?]</publisher>
                 <date>1560</date>
             </imprint>
-            <idno type="STC (2nd ed.)">20954</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC20972">
@@ -3574,25 +3579,25 @@
             <title level="m">Here foloweth a veray deuoute treatyse (named Benyamyn) of the myghtes and vertues of
                 mannes soule &amp; of the way to true contemplacyon / complyed by a noble &amp; famous doctoure a
                 ma[n] of grete holynes &amp; deuocyon, named Rycharde of Saynt Uyctor</title>
+            <idno type="STC" subtype="2nd-ed">20972</idno>
             <imprint>
                 <publisher> Imprynted at London: in Poules chyrchyarde at the Sygne of the Trynyte by Henry
             Pepwell, 1521</publisher>
                 <date>1521</date>
             </imprint>
-            <idno type="STC (2nd ed.)">20972</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC21007">
         <monogr>
             <author/>
             <title level="m">Rycharde cuer du lyon, Kynge</title>
+            <idno type="STC" subtype="2nd-ed">21007</idno>
             <imprint>
                 <publisher> [Enprynted at London: In ye Fletestrete at the sygne of the sonne by wynkyn de worde,
             prynter vnto the moost excellent pryncesse my lady the kynges moder, In the yere of our lorde god.
             M.CCCCC. ix. [1509]]</publisher>
                 <date>1509</date>
             </imprint>
-            <idno type="STC (2nd ed.)">21007</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC21070">
@@ -3600,36 +3605,36 @@
             <author/>
             <title level="m">Here beginneth the lyf of the moste myscheuoust Robert the deuyll whiche was
                 afterwarde called ye seruaunt of god</title>
+            <idno type="STC" subtype="2nd-ed">21070</idno>
             <imprint>
                 <publisher> [[London]: Enprynted in fletestrete in the sygne of the sonne by Wynkyn de worde,
             [1500?]]</publisher>
                 <date>1500</date>
             </imprint>
-            <idno type="STC (2nd ed.)">21070</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC21071">
         <monogr>
             <author/>
             <title level="m">Robert the deuyll</title>
+            <idno type="STC" subtype="2nd-ed">21071</idno>
             <imprint>
                 <publisher> [[London]: Enprynted in fletestrete in the sygne of the sonne by Wynkyn de Worde,
             [1517?]]</publisher>
                 <date>1517</date>
             </imprint>
-            <idno type="STC (2nd ed.)">21071</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC212862">
         <monogr>
             <author/>
             <title level="m">[Gesta romanorum]</title>
+            <idno type="STC" subtype="2nd-ed">21286.2</idno>
             <imprint>
                 <publisher> [London]: Thus endeth the boke of Gesta Romanorum. Emprynted in fletestrete in the
             sygne of the Sonne. By wynkyn de worde, [1502?]a</publisher>
                 <date>1502</date>
             </imprint>
-            <idno type="STC (2nd ed.)">21286.2</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC21298">
@@ -3637,11 +3642,11 @@
             <author/>
             <title level="m">Here begynneth thystorye of ye vii. wyse maysters of Rome: conteynynge ryghe fayre
                 [et] right ioyous narrac[i]ons. [et] to ye reder ryght delectable</title>
+            <idno type="STC" subtype="2nd-ed">21298</idno>
             <imprint>
                 <publisher> London: Wynkyn de Worde, 1506</publisher>
                 <date>1506</date>
             </imprint>
-            <idno type="STC (2nd ed.)">21298</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC21299">
@@ -3649,134 +3654,134 @@
             <author/>
             <title level="m">Here beginneth thystorye of the seuen wyse maysters of Rome: conteynynge right faire
                 and ryght ioyous narracio[n]s, and to the reder ryght delectable</title>
+            <idno type="STC" subtype="2nd-ed">21299</idno>
             <imprint>
                 <publisher> London: WIlliam Copland, 1555</publisher>
                 <date>1555</date>
             </imprint>
-            <idno type="STC (2nd ed.)">21299</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC212993">
         <monogr>
             <author/>
             <title level="m">The history of the seuen wise maisters of Rome</title>
+            <idno type="STC" subtype="2nd-ed">21299.3</idno>
             <imprint>
                 <publisher> [London]: Imprinted at London in Paules Churchyard by Thomas Purfoote, dwelling at
             the signe of the Lucrece, Edition: Now newly corrected with a pleasant stile, &amp; purged from all old
             and rude wordes and phrases which were lothsome or tedious to the reader, 1546</publisher>
                 <date>1546</date>
             </imprint>
-            <idno type="STC (2nd ed.)">21299.3</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC21429">
         <monogr>
             <author>Caxton, William, trans.</author>
             <title level="m">Somme des vices et vertus [English] The Ryal Book</title>
+            <idno type="STC" subtype="2nd-ed">21429</idno>
             <imprint>
                 <publisher> [Westminster: William Caxton, about 1486]</publisher>
                 <date>1486</date>
             </imprint>
-            <idno type="STC (2nd ed.)">21429</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC21499">
         <monogr>
             <author/>
             <title level="m">Certaine Worthye Manuscript Poems of Great Antiquitie</title>
+            <idno type="STC" subtype="2nd-ed">21499</idno>
             <imprint>
                 <publisher> ed. J. S[tow?], R. Robinson f. R. D[exter], 1597</publisher>
                 <date>1597</date>
             </imprint>
-            <idno type="STC (2nd ed.)">21499</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC21790">
         <monogr>
             <author/>
             <title level="m">An Exposicyon vpon the LI Psalme, made by Hierom of Ferrarye</title>
+            <idno type="STC" subtype="2nd-ed">21790</idno>
             <imprint>
                 <publisher> Girolama Savonarola, Parys, [f. F. Regnault?], 1538</publisher>
                 <date>1538</date>
             </imprint>
-            <idno type="STC (2nd ed.)">21790</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22408">
         <monogr>
             <author/>
             <title level="m">Kalender of Shepherdes</title>
+            <idno type="STC" subtype="2nd-ed">22408</idno>
             <imprint>
                 <publisher> R. Pynson, 1506</publisher>
                 <date>1506</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22408</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22410">
         <monogr>
             <author/>
             <title level="m">Kalendar of shepardes</title>
+            <idno type="STC" subtype="2nd-ed">22410</idno>
             <imprint>
                 <publisher> [J. Notary, 1518?]</publisher>
                 <date>1518</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22410</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22593">
         <monogr>
             <author>Skelton, John</author>
             <title level="m">A ballade of the Scottysshe kynge</title>
+            <idno type="STC" subtype="2nd-ed">22593</idno>
             <imprint>
                 <publisher> [London: R. Faques, 1513]</publisher>
                 <date>1513</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22593</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22594">
         <monogr>
             <author>Skelton, John</author>
             <title level="m">The Boke of Phyllyp Sparowe</title>
+            <idno type="STC" subtype="2nd-ed">22594</idno>
             <imprint>
                 <publisher> [R. Copland for] R. Kele, [1545?]</publisher>
                 <date>1545</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22594</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22597">
         <monogr>
             <author>Skelton, John</author>
             <title level="m">The Bowge of Courte</title>
+            <idno type="STC" subtype="2nd-ed">22597</idno>
             <imprint>
                 <publisher> de Worde, [1499?]</publisher>
                 <date>1499</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22597</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22598">
         <monogr>
             <author>Skelton, John</author>
             <title level="m">Certayne bokes compyled by maister Skelton</title>
+            <idno type="STC" subtype="2nd-ed">22598</idno>
             <imprint>
                 <publisher> R. Lant f. H. Tab, [1545?]</publisher>
                 <date>1545</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22598</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22599">
         <monogr>
             <author>Skelton, John</author>
             <title level="m">Certayne bokes compyled by maister Skelton</title>
+            <idno type="STC" subtype="2nd-ed">22599</idno>
             <imprint>
                 <publisher> Kynge and Marshe, n.d</publisher>
                 <date>1545</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22599</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22600">
@@ -3784,6 +3789,7 @@
             <author>Skelton, John</author>
             <title level="m"> Heare after foloweth certain bokes compiled by Master Skelton, Poet Laureat, whose
                 names here after doth appere…</title>
+            <idno type="STC" subtype="2nd-ed">22600</idno>
             <imprint>
                 <publisher> Heare after foloweth certain bokes compiled by Master Skelton, Poet Laureat, whose
             names here after doth appere ... King Edward the fourth. King Edward the fourth. Treatise of the
@@ -3791,18 +3797,17 @@
             Imprynted at London: by Jhon [sic] Day, [1563?]</publisher>
                 <date>1563</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22600</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC226005">
         <monogr>
             <author>Skelton, John</author>
             <title level="m">Here after followeth a lytell boke called Collyn Clout</title>
+            <idno type="STC" subtype="2nd-ed">22600.5</idno>
             <imprint>
                 <publisher> London [T. Godfray,] [1531?]</publisher>
                 <date>1531</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22600.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22601">
@@ -3810,45 +3815,45 @@
             <author>Skelton, John</author>
             <title level="m">Here after foloweth a litel boke called Colyn Cloute compyled by mayster Skelton poete
                 Laureate</title>
+            <idno type="STC" subtype="2nd-ed">22601</idno>
             <imprint>
                 <publisher> [Imprinted at London: By [R. Copland for] me Rycharde Kele dwellyng in the powltry at
             the long shop vnder saynt Myldredes. chyrche, [1545?]]</publisher>
                 <date>1545</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22601</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22604">
         <monogr>
             <author>Skelton, John</author>
             <title level="m">Dyuers Balettys and Dyties Solacyous</title>
+            <idno type="STC" subtype="2nd-ed">22604</idno>
             <imprint>
                 <publisher> [Rastell, 1528?]</publisher>
                 <date>1528</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22604</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22607">
         <monogr>
             <author>Skelton, John</author>
             <title level="m">Magnyfycence, A Goodly Interlude and a Mery</title>
+            <idno type="STC" subtype="2nd-ed">22607</idno>
             <imprint>
                 <publisher> [P. Treveris f. J. Rastell, 1530?]</publisher>
                 <date>1530</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22607</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22608">
         <monogr>
             <author>Skelton, John</author>
             <title level="m">Pithy, Plesaunt and Profitable workes of Maister Skelton</title>
+            <idno type="STC" subtype="2nd-ed">22608</idno>
             <imprint>
                 <publisher> ed. J. Stow, T. Marshe [1568]</publisher>
                 <date>1568</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22608</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22609">
@@ -3860,22 +3865,22 @@
                 Argumentum. Crassa[n]tes nimiu[m], nimiu[m] sterilesq[ue] labruscas (vinea quas d[omi]ni, sabaot
                 non sustinet ultra laxius expandi) nostra est resecare uoluntas. Cum priuilegio a rege
                 indulto</title>
+            <idno type="STC" subtype="2nd-ed">22609</idno>
             <imprint>
                 <publisher> [[London]: Impri[n]ted by Richard Pynson, [1528]]</publisher>
                 <date>1528</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22609</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22610">
         <monogr>
             <author>Skelton, John</author>
             <title level="m">A Goodly Garlande or Chapelet of Laurell</title>
+            <idno type="STC" subtype="2nd-ed">22610</idno>
             <imprint>
                 <publisher> R. Faukes, 1523</publisher>
                 <date>1523</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22610</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22611">
@@ -3884,11 +3889,11 @@
             <title level="m">Skelton Laureate agaynste a comely coystrowne that curyowsly chawntyd and curryshly
                 cowntred, and madly in hys musykkys mokkyshly made, agaynste the. ix. Musys of polytyke poems [and]
                 poettys matryculat</title>
+            <idno type="STC" subtype="2nd-ed">22611</idno>
             <imprint>
                 <publisher> [J. Rastell, 1527?]</publisher>
                 <date>1527</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22611</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22615">
@@ -3896,124 +3901,124 @@
             <author>Skelton, John</author>
             <title level="m">Here after foloweth a lytell boke, whiche hath to name, Why come ye nat to courte
                 compyled by maystr Skelton poete Laureate</title>
+            <idno type="STC" subtype="2nd-ed">22615</idno>
             <imprint>
                 <publisher> [Imprinted at london: By [R. Copland for] me Richard kele dwellig [sic] in the
             powltry at the longe shop vnder saynt myldredes chyrch, [1545?]]</publisher>
                 <date>1545</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22615</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC226535">
         <monogr>
             <author/>
             <title level="m">[The Smith that Forged him a New Dame</title>
+            <idno type="STC" subtype="2nd-ed">22653.5</idno>
             <imprint>
                 <publisher> ], [de Worde, 1505]</publisher>
                 <date>1505</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22653.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC226537">
         <monogr>
             <author/>
             <title level="m">[The Smith that Forged him a New Dame</title>
+            <idno type="STC" subtype="2nd-ed">22653.7</idno>
             <imprint>
                 <publisher> ], [Pynson, 1510]</publisher>
                 <date>1510</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22653.7</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC226539">
         <monogr>
             <author/>
             <title level="m">[A Treatyse of the Smyth Whych That Forged hym a New Dame</title>
+            <idno type="STC" subtype="2nd-ed">22653.9</idno>
             <imprint>
                 <publisher> ], Copland, [1565?]</publisher>
                 <date>1565</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22653.9</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22905">
         <monogr>
             <author/>
             <title level="m">Salomon and Marcolphus</title>
+            <idno type="STC" subtype="2nd-ed">22905</idno>
             <imprint>
                 <publisher> Leeu, Antwerp, c. 1492</publisher>
                 <date>1492</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22905</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22924">
         <monogr>
             <author/>
             <title level="m">XX Songes</title>
+            <idno type="STC" subtype="2nd-ed">22924</idno>
             <imprint>
                 <publisher> Impryntyd in London at the signe of the Black Mores, 1530</publisher>
                 <date>1530</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22924</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC231115">
         <monogr>
             <author/>
             <title level="m">[The Squire of Low Degree]</title>
+            <idno type="STC" subtype="2nd-ed">23111.5</idno>
             <imprint>
                 <publisher> [de Worde, 1520?]</publisher>
                 <date>1520</date>
             </imprint>
-            <idno type="STC (2nd ed.)">23111.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC23112">
         <monogr>
             <author/>
             <title level="m">The Squyr of Lowe Degre</title>
+            <idno type="STC" subtype="2nd-ed">23112</idno>
             <imprint>
                 <publisher> Copland, [1560?]</publisher>
                 <date>1560</date>
             </imprint>
-            <idno type="STC (2nd ed.)">23112</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC23338">
         <monogr>
             <author>Stowe, John</author>
             <title level="m">The Annales of England</title>
+            <idno type="STC" subtype="2nd-ed">23338</idno>
             <imprint>
                 <publisher> with continuators T Adams, 1615</publisher>
                 <date>1615</date>
             </imprint>
-            <idno type="STC (2nd ed.)">23338</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC23876">
         <monogr>
             <author/>
             <title level="m">The Floure of the Commaundements of God</title>
+            <idno type="STC" subtype="2nd-ed">23876</idno>
             <imprint>
                 <publisher> de Worde, 1510</publisher>
                 <date>1510</date>
             </imprint>
-            <idno type="STC (2nd ed.)">23876</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC23877">
         <monogr>
             <author>Chertsey, Andrew</author>
             <title level="m">Ihesus. The floure of the commaundementes of god…</title>
+            <idno type="STC" subtype="2nd-ed">23877</idno>
             <imprint>
                 <publisher> [Enprynted at London: In Flete strete at the sygne of the sonne by Wynkyn de Worde.
             The. xiij. yere of ye reygne of oure moost naturell souerayne lorde kynge Henry ye eyght of yt name,
             Fynysshed ye yere of our lorde M.CCCCC.xxi [1521] the. viij. daye of October]</publisher>
                 <date>1521</date>
             </imprint>
-            <idno type="STC (2nd ed.)">23877</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC23961">
@@ -4021,34 +4026,34 @@
             <author>Whitford, Richard</author>
             <title level="m">A boke newely translated out of Laten in to Englysshe, called The folowynge of
                 Cryste</title>
+            <idno type="STC" subtype="2nd-ed">23961</idno>
             <imprint>
                 <publisher> [[London]: Imprynted by me Robert wyer [and Peter Treveris?], dwellyng in saynt
             Martyns parysshe besyde charynge crosse, in the hysshop [sic] of Norwyche rentes, [1531?]]</publisher>
                 <date>1531</date>
             </imprint>
-            <idno type="STC (2nd ed.)">23961</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC24133">
         <monogr>
             <author/>
             <title level="m">[Torent of Portyngale]</title>
+            <idno type="STC" subtype="2nd-ed">24133</idno>
             <imprint>
                 <publisher> [Pynson, 1505?]</publisher>
                 <date>1505</date>
             </imprint>
-            <idno type="STC (2nd ed.)">24133</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC24223">
         <monogr>
             <author/>
             <title level="m">A litell treatise of the knight of Curtesy and the lady of Faguell</title>
+            <idno type="STC" subtype="2nd-ed">24223</idno>
             <imprint>
                 <publisher> Copland, ?1556</publisher>
                 <date>1556</date>
             </imprint>
-            <idno type="STC (2nd ed.)">24223</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC24224">
@@ -4056,67 +4061,67 @@
             <author/>
             <title level="m">Here beginneth a lytel treatyse that sheweth how euery man [and] woman ought to faste
                 and absteyne them from flesshe on ye wednesday</title>
+            <idno type="STC" subtype="2nd-ed">24224</idno>
             <imprint>
                 <publisher> [Westminster: W. de Worde, 1500]</publisher>
                 <date>1500</date>
             </imprint>
-            <idno type="STC (2nd ed.)">24224</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC24241">
         <monogr>
             <author>Lydgate, John</author>
             <title level="m">Here begyneth a treatise of a galau[n]t</title>
+            <idno type="STC" subtype="2nd-ed">24241</idno>
             <imprint>
                 <publisher> [Enprynted at London: In the fletestrete at the sygne of the Sonne by me Wynkyn de
             Worde, 1520?]</publisher>
                 <date>1520</date>
             </imprint>
-            <idno type="STC (2nd ed.)">24241</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC24267">
         <monogr>
             <author/>
             <title level="m">Trentalle Sancti Gregorii</title>
+            <idno type="STC" subtype="2nd-ed">12351.5</idno>
             <imprint>
                 <publisher> London: Emprentyd by Rychrde [sic] P[ynson], [1501?]</publisher>
                 <date>1501</date>
             </imprint>
-            <idno type="STC (2nd ed.)">12351.5</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC24303">
         <monogr>
             <author/>
             <title level="m">Syr Tryamoure</title>
+            <idno type="STC" subtype="2nd-ed">24303</idno>
             <imprint>
                 <publisher> Copland, [1561?]</publisher>
                 <date>1561</date>
             </imprint>
-            <idno type="STC (2nd ed.)">24303</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC245413">
         <monogr>
             <author/>
             <title level="m">Here begyn[n]eth ye lyf of Saynt Ursula after ye cronycles of englo[n]de</title>
+            <idno type="STC" subtype="2nd-ed">24541.3</idno>
             <imprint>
                 <publisher> London, per me Wynkyn de Worde, [1510]</publisher>
                 <date>1510</date>
             </imprint>
-            <idno type="STC (2nd ed.)">24541.3</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC24762">
         <monogr>
             <author>Caxton, William, trans.</author>
             <title level="m">The Myrrour of the Worlde</title>
+            <idno type="STC" subtype="2nd-ed">24762</idno>
             <imprint>
                 <publisher> [Caxton, 1481]</publisher>
                 <date>1481</date>
             </imprint>
-            <idno type="STC (2nd ed.)">24762</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC24797">
@@ -4125,44 +4130,44 @@
             <title level="m">The ·xiii. bukes of Eneados of the famose poete Virgill translatet out of Latyne
                 verses into Scottish metir, bi the Reuerend Father in God, Mayster Gawin Douglas Bishop of Dunkel
                 [and] unkil to the Erle of Angus. Euery buke hauing hys perticular prologe</title>
+            <idno type="STC" subtype="2nd-ed">24797</idno>
             <imprint>
                 <publisher> Imprinted at Londo[n: By William Copland], 1553</publisher>
                 <date>1553</date>
             </imprint>
-            <idno type="STC (2nd ed.)">24797</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC24866">
         <monogr>
             <author/>
             <title level="m">Here begynneth a lytell treatyse for to lerne Englysshe and Frensshe</title>
+            <idno type="STC" subtype="2nd-ed">24866</idno>
             <imprint>
                 <publisher> [Emprynted at Westmynster: By my Wynken de Worde, [1497]]</publisher>
                 <date>1497</date>
             </imprint>
-            <idno type="STC (2nd ed.)">24866</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC24867">
         <monogr>
             <author/>
             <title level="m">A Lytell Treatyse for to Lerne Englysshe and Frensshe</title>
+            <idno type="STC" subtype="2nd-ed">24867</idno>
             <imprint>
                 <publisher> Pynson, c. 1500</publisher>
                 <date>1500</date>
             </imprint>
-            <idno type="STC (2nd ed.)">24867</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC24868">
         <monogr>
             <author/>
             <title level="m">a good boke to lerne to speke french</title>
+            <idno type="STC" subtype="2nd-ed">24868</idno>
             <imprint>
                 <publisher> [R. Wyer? c. 1533]</publisher>
                 <date>1533</date>
             </imprint>
-            <idno type="STC (2nd ed.)">24868</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC25001">
@@ -4170,22 +4175,22 @@
             <author/>
             <title level="m">Of this chapell se here the fundacyon bylded the yere of crystes incarnacyon a
                 thousande complete syxty and one the tyme of sent edward kyng of this region</title>
+            <idno type="STC" subtype="2nd-ed">25001</idno>
             <imprint>
                 <publisher> [London: R. Pynson, 1496?]</publisher>
                 <date>1496</date>
             </imprint>
-            <idno type="STC (2nd ed.)">25001</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC25007">
         <monogr>
             <author>Henley, Walter de</author>
             <title level="m">Boke of husbandry</title>
+            <idno type="STC" subtype="2nd-ed">25007</idno>
             <imprint>
                 <publisher> [London: W. de Worde, 1508?]</publisher>
                 <date>1508</date>
             </imprint>
-            <idno type="STC (2nd ed.)">25007</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC250073">
@@ -4194,11 +4199,11 @@
             <title level="m"> The booke of thrift, containing a perfite order, and right methode to profite lands,
                 and other things belonging to husbandry. Newly Englished, and set out by I.B. gentleman of Caen in
                 France</title>
+            <idno type="STC" subtype="2nd-ed">25007.3</idno>
             <imprint>
                 <publisher> London: Printed by Iohn Wolfe. 1589</publisher>
                 <date>1589</date>
             </imprint>
-            <idno type="STC (2nd ed.)">25007.3</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC24875">
@@ -4206,11 +4211,11 @@
             <author>Jacobus, de Voragine</author>
             <title level="m">Here begynneth the legende named in latyn legenda aurea, that is to say in englyshe
                 the golden legende…</title>
+            <idno type="STC" subtype="2nd-ed">24875</idno>
             <imprint>
                 <publisher> [Westminster: Printed by Wynkyn de Worde, 1493 (20 May)]</publisher>
                 <date>1493</date>
             </imprint>
-            <idno type="STC (2nd ed.)">24875</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC258233">
@@ -4219,33 +4224,33 @@
             <title level="m">A sermon no lesse fruteful then famous made in the yeare of our Lorde God
                 M.CCC.lxxxvij in these oure latter dayes moost necessary to be knowen nether addyng to, neyther
                 demynyshynge fro, saue tholde and rude Englysh ther of mended here and there</title>
+            <idno type="STC" subtype="2nd-ed">25823.3</idno>
             <imprint>
                 <publisher> [S.l.: J. Maylor?, 1540?]</publisher>
                 <date>1540</date>
             </imprint>
-            <idno type="STC (2nd ed.)">25823.3</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC25853">
         <monogr>
             <author>Robert of Shrewsbury</author>
             <title level="m">Here begynneth the lyf of the holy [and] blessid vyrgyn saynt Wenefryde</title>
+            <idno type="STC" subtype="2nd-ed">25853</idno>
             <imprint>
                 <publisher> [Westminster: W. Caxton, 1485]</publisher>
                 <date>1485</date>
             </imprint>
-            <idno type="STC (2nd ed.)">25853</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC26012">
         <monogr>
             <author>Wotton, John</author>
             <title level="m">Speculum Cristiani</title>
+            <idno type="STC" subtype="2nd-ed">26012</idno>
             <imprint>
                 <publisher> W. de Machlinia ad exp. H. Vrankenburgh, [1486?]</publisher>
                 <date>1486</date>
             </imprint>
-            <idno type="STC (2nd ed.)">26012</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="Rabbards1591">
@@ -4333,11 +4338,11 @@
             <author>Rolle, Richard</author>
             <title level="m">Speculum Spiritualium. Additur insuper et opusculum Ricardi Hampole de emendacione
                 vitae</title>
+            <idno type="STC" subtype="2nd-ed">23030.7</idno>
             <imprint>
                 <publisher> Paris: Wolfgang Hopyl, for William Bretton in London, 1510</publisher>
                 <date>1510</date>
             </imprint>
-            <idno type="STC (2nd ed.)">23030.7</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="Robert">
@@ -4349,49 +4354,50 @@
                 <date>1500</date>
             </imprint>
         </monogr>
+        <note>No extant copy?</note>
     </biblStruct>
     <biblStruct xml:id="STC17325">
         <monogr>
             <author/>
             <title level="m">Here begynneth of seint Margarete the blissid lif that is so swete […]</title>
+            <idno type="STC" subtype="2nd-ed">17325</idno>
             <imprint>
                 <publisher>London: Richard Pynson</publisher>
                 <date>1493</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17325</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC17326">
         <monogr>
             <author/>
             <title level="m">Here begynneth the lyfe of saynte Margaret</title>
+            <idno type="STC" subtype="2nd-ed">17326</idno>
             <imprint>
                 <publisher>London: Robert Redman</publisher>
                 <date>1530</date>
             </imprint>
-            <idno type="STC (2nd ed.)">17326</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22595">
         <monogr>
             <author/>
             <title level="m">Here after foloweth a litle booke, of Phillyp Sparow</title>
+            <idno type="STC" subtype="2nd-ed">22595</idno>
             <imprint>
                 <publisher>London: Iohn Wyght</publisher>
                 <date>1553</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22595</idno>
         </monogr>
     </biblStruct>
     <biblStruct xml:id="STC22596">
         <monogr>
             <author/>
             <title level="m">Here after foloweth a litle boke of Phillip sparrow</title>
+            <idno type="STC" subtype="2nd-ed">22596</idno>
             <imprint>
                 <publisher>London: Anthony Kitson</publisher>
                 <date>1560</date>
             </imprint>
-            <idno type="STC (2nd ed.)">22596</idno>
         </monogr>
     </biblStruct>
 </listBibl>

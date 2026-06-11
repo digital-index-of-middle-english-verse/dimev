@@ -1,22 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.tei-c.org/ns/1.0" elementFormDefault="qualified">
+    <xs:annotation>
+        <xs:documentation>This schema describes DIMEV's restricted profile of TEI listBibl/biblStruct. The file is also valid against TEI P5 (tei_all).</xs:documentation>
+    </xs:annotation>
     <xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
-    <xs:element name="list">
+    <xs:element name="listBibl">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="bibl" maxOccurs="unbounded">
+                <xs:element name="biblStruct" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="authorstmt">
+                            <xs:element name="monogr">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="author" type="xs:string"/>
-                                    </xs:sequence>
-                                </xs:complexType>
-                            </xs:element>
-                            <xs:element name="titlestmt">
-                                <xs:complexType>
-                                    <xs:sequence>
                                         <xs:element name="title">
                                             <xs:complexType>
                                                 <xs:simpleContent>
@@ -26,40 +23,37 @@
                                                 </xs:simpleContent>
                                             </xs:complexType>
                                         </xs:element>
+                                        <xs:element name="idno" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="type" type="xs:NMTOKEN" use="required"/>
+                                                        <xs:attribute name="subtype" type="xs:NMTOKEN"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="imprint">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="publisher" type="xs:string">
+                                                        <xs:annotation>
+                                                            <xs:documentation>Legacy imprint statements are stored whole in this element, pending analysis into pubPlace, publisher, and date.</xs:documentation>
+                                                        </xs:annotation>
+                                                    </xs:element>
+                                                    <xs:element name="date" type="xs:gYear"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="pubstmt">
-                                <xs:complexType>
-                                    <xs:simpleContent>
-                                        <xs:extension base="xs:string">
-                                            <xs:attribute name="date" type="xs:gYear"/>
-                                        </xs:extension>
-                                    </xs:simpleContent>
-                                </xs:complexType>
-                            </xs:element>
-                            <xs:element name="desc">
-                                <xs:annotation>
-                                    <xs:documentation>The over-specific content restriction is retained as descriptive of current use. We will move to a more sensible structure in due course.</xs:documentation>
-                                </xs:annotation>
-                                <xs:complexType mixed="true">
-                                    <xs:choice minOccurs="0" maxOccurs="2">
-                                        <xs:element name="name" type="xs:string"/>
-                                        <xs:element name="i" type="italicText"/>
-                                    </xs:choice>
-                                </xs:complexType>
-                            </xs:element>
+                            <xs:element name="note" type="xs:string" minOccurs="0"/>
                         </xs:sequence>
                         <xs:attribute ref="xml:id" use="required"/>
-                        <xs:attribute name="n" type="xs:string" use="required"/>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:complexType name="italicText" mixed="true">
-        <xs:choice minOccurs="0" maxOccurs="unbounded">
-            <xs:element name="sup" type="xs:string"/>
-        </xs:choice>
-    </xs:complexType>
 </xs:schema>
