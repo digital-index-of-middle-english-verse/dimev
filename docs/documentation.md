@@ -1168,7 +1168,7 @@ All elements belong to the TEI namespace (`http://www.tei-c.org/ns/1.0`), declar
 ### `idno`
 
 - **Description**
-  Identifier for the edition in a standard reference catalogue, usually the corresponding item number in @PollardShorttitleCatalogueBooks1950.
+  Identifier for the edition in a standard reference catalogue, usually the corresponding item number in @PollardShorttitleCatalogueBooks1976.
   Non-English books and other items not recorded in the STC have no `idno`.
 - **Attributes**
   - `type`: required identifier of the reference catalogue; the value is always "STC"
