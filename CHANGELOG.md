@@ -79,6 +79,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 #### `PrintedBooks.xml`
 
 - Rename root as `list` (eb9632b0987bd1cb5251d75751529c03bc748a71)
+- Restructure as TEI `listBibl` and `biblStruct`; declare the TEI namespace; the file is now valid against TEI P5 (9238790fc29f12d7af93939362db50b0cb800746, 9bfa34205ad3819cc1efeaa3c2d65efc6b6e178d)
+- Replace the attribute `n` with the element `idno` (attributes `type="STC"` and `subtype="2nd-ed"`) (9238790fc29f12d7af93939362db50b0cb800746, 9bfa34205ad3819cc1efeaa3c2d65efc6b6e178d)
+- Replace the element `desc` with structured equivalents; information unique to `desc` (printer names for STC 78 and STC 79, former STC numbers, a remark on the survival of copies) is retained in `publisher` text and in a new element, `note` (9238790fc29f12d7af93939362db50b0cb800746, 9bfa34205ad3819cc1efeaa3c2d65efc6b6e178d)
+- Correct the STC numbers of items "STC12142" and "STC24267" (#57; 5a66c4570a659429799c90b16574453f0d5c2b24)
 
 #### `Records.xml`
 
@@ -107,6 +111,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - All schemas: tighten, restructure, and align with changes to XML file structures; add some inline documentation
 - `records.xsd`: provide for `crossRefs` block (not yet implemented in `Records.xml`) (c28f6af4a0962a5c41552352eafc787c21cec453)
+- `printedbooks.xsd`: rewrite as a restricted profile of TEI `listBibl` and `biblStruct` (9bfa34205ad3819cc1efeaa3c2d65efc6b6e178d)
 
 #### Documentation
 
@@ -133,7 +138,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Remove records of particular copies of printed books cited for manuscript additions or binding fragments (these are moved to `Manuscripts.xml`) (#11, 08cf30f52f3f6fda112c9337d87f10444681dc81)
 - Remove the elements `loc` and `repos` (#11; dd623751f8888ce3ffd35665d9a90e621ff602ca, 08cf30f52f3f6fda112c9337d87f10444681dc81)
 - Remove the element `DIMEVCount` (bfb14aa4c8e8b01151e2b198f6c958f9a3ffd11d)
-- Remove items "ParisSydrac1486", "Schoyen615", "SchoyenPP" as uncited or duplicate (#38; 0aa70f77d77e098295e6388dc8d9832377b89ac9, 08cf30f52f3f6fda112c9337d87f10444681dc81)
+- Remove items "ParisSydrac1486", "Schoyen615", "SchoyenPP" as uncited or duplicate (#38; 0aa70f77d77e098295e6388dc8d9832377b89ac9, 08cf30f52f3f6fda112c9337d87f10444681dc81); remove item "Rastell1519" as duplicate of "STC20722" (#57; 5a66c4570a659429799c90b16574453f0d5c2b24)
 
 #### `Records.xml`: elements, items, and content removed
 

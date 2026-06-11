@@ -1102,68 +1102,56 @@ The root element is `list`.
 ## Overview {#overview-printed-books}
 
 This XML file stores bibliographic information for editions of early printed books cited as witnesses in the XML file `Records.xml`.
-The root element is `list`.
+The document structure is a restricted profile of the TEI elements `listBibl` and `biblStruct`; the file is valid against TEI P5.
+All elements belong to the TEI namespace (`http://www.tei-c.org/ns/1.0`), declared on the root element, `listBibl`.
 
 ## Tag library {#doc-struct-printed-books}
 
-### `list`
+### `listBibl`
 
 - **Description**
-  Root element containing a collection of bibliographic records
+  Root element containing a collection of structured bibliographic records
 - **Attributes**
-  None
+  - `xmlns`: namespace declaration; the value is always `http://www.tei-c.org/ns/1.0`
 - **Must Contain**
-  `bibl` (one or more)
+  `biblStruct` (one or more)
 
-### `bibl`
+### `biblStruct`
 
 - **Description**
   A single bibliographic record
 - **Attributes**
   - `xml:id`: required unique identifier
-  - `n`: required identifier, usually the corresponding item number in @PollardShorttitleCatalogueBooks1950, where available.
-    For non-English books and other items not recorded in the STC, the value of `n` is often a dummy string ("X").
-    Sometimes another value is used.
 - **Must occur within**
-  `list`
+  `listBibl`
 - **Must contain** (in order)
-  - `authorstmt`
-  - `titlestmt`
-  - `pubstmt`
-  - `desc`
+  - `monogr` (exactly one)
+  - `note` (zero or one)
 
-### `authorstmt`
+### `monogr`
 
 - **Description**
-  Container for author information
+  Bibliographic description of the printed edition
 - **Attributes**
   None
 - **Must occur within**
-  `bibl`
-- **Must contain**
-  `author` (exactly one)
+  `biblStruct`
+- **Must contain** (in order)
+  - `author` (exactly one)
+  - `title` (exactly one)
+  - `idno` (zero or one)
+  - `imprint` (exactly one)
 
 ### `author`
 
 - **Description**
-  Name of the author
+  Name of the author; empty where no author is identified
 - **Attributes**
   None
 - **Must occur within**
-  `authorstmt`
+  `monogr`
 - **Must contain**
   Text only (`xs:string`)
-
-### `titlestmt`
-
-- **Description**
-  Container for title information
-- **Attributes**
-  None
-- **Must occur within**
-  `bibl`
-- **Must contain**
-  `title` (exactly one)
 
 ### `title`
 
@@ -1173,64 +1161,68 @@ The root element is `list`.
   - `level`: required value indicating the bibliographic level or title type.
     The value of which is always "m" (for "monograph").
 - **Must occur within**
-  `titlestmt`
+  `monogr`
 - **Must contain**
   Text only (`xs:string`)
 
-### `pubstmt`
+### `idno`
 
 - **Description**
-  Agent, date, and location of printing, as given in the volume or as reconstructed
+  Identifier for the edition in a standard reference catalogue, usually the corresponding item number in @PollardShorttitleCatalogueBooks1950.
+  Non-English books and other items not recorded in the STC have no `idno`.
 - **Attributes**
-  - `date`: publication year (Gregorian calendar, Common Era) (`xs:gYear`)
+  - `type`: required identifier of the reference catalogue; the value is always "STC"
+  - `subtype`: optional identifier of the edition of the reference catalogue; the value is always "2nd-ed", designating the revised second edition of the STC
 - **Must occur within**
-  `bibl`
+  `monogr`
 - **Must contain**
   Text only (`xs:string`)
 
-### `desc`
+### `imprint`
 
 - **Description**
-  Descriptive note for the bibliographic item
+  Container for information on the printing of the edition
 - **Attributes**
   None
 - **Must occur within**
-  `bibl`
-- **May contain**
-  Mixed text content with up to two occurrences total of:
-  - `name`
-  - `i`
-- **Notes**
-  This content model is intentionally restrictive to reflect current data.
+  `monogr`
+- **Must contain** (in order)
+  - `publisher` (exactly one)
+  - `date` (exactly one)
 
-### `name`
+### `publisher`
 
 - **Description**
-  Name referenced within a description
+  Agent, date, and location of printing, as given in the volume or as reconstructed.
+  Legacy imprint statements are stored whole in this element, pending analysis into the TEI elements `pubPlace`, `publisher`, and `date`.
 - **Attributes**
   None
-- **May occur within**
-  `desc`
+- **Must occur within**
+  `imprint`
 - **Must contain**
   Text only (`xs:string`)
 
-### `i`
+### `date`
 
 - **Description**
-  Inline element for italicized text
-- **May occur within**
-  `desc`
-- **May contain**
-  Mixed text with zero or more of `sup`
+  Publication year (Gregorian calendar, Common Era)
+- **Attributes**
+  None
+- **Must occur within**
+  `imprint`
+- **Must contain**
+  Text only (`xs:gYear`)
 
-### `sup`
+### `note`
 
 - **Description**
-  Inline superscript text
-- **May occur within**
-  - `i`
-  - `desc`
-- **Must contain** Text only (`xs:string`)
+  Supplementary note on the edition, e.g., an STC number under which the edition was formerly catalogued, or a remark on the survival of copies
+- **Attributes**
+  None
+- **Must occur within**
+  `biblStruct`
+- **Must contain**
+  Text only (`xs:string`)
 
 
 # Controlled vocabularies: `subject-terms.xml` and others
