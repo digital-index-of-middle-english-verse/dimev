@@ -28,7 +28,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 #### `PrintedBooks.xml`: content added
 
 - Add entries for printed books cited in `Records.xml` but previously unrecorded in `PrintedBooks.xml` (STC 17325, 17326, 22595, 22596); de-comment 4853 (#40; 82f0e80768bc4d6edd2acac91d3d79b69e754be2)
-- Add some STC numbers (08cf30f52f3f6fda112c9337d87f10444681dc81)
+- Add STC numbers to items that lack them, where available (08cf30f52f3f6fda112c9337d87f10444681dc81, WIP)
+- Add ESTC numbers where available (WIP)
+- Add an ISTC number for an item not in ESTC (WIP)
 
 #### `Records.xml`: content added
 
@@ -52,7 +54,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 #### Changes affecting multiple XML files
 
-- Move records of printed books with manuscript additions or binding fragments from `PrintedBooks.xml` to `Manuscripts.xml` (#11, 08cf30f52f3f6fda112c9337d87f10444681dc81)
+- Move records of particular copies of printed books, cited for manuscript additions or binding fragments, from `PrintedBooks.xml` to `Manuscripts.xml` (#11, #59; 08cf30f52f3f6fda112c9337d87f10444681dc81, WIP)
 - Move records of full-manuscript on-line facsimiles from `Bibliography.xml` to `Manuscripts.xml` (#22, c23bebc9fb82c0768974db518b46fb9fd792c7b7)
 - Reduce key-string "Schøyen33" to ASCII (08cf30f52f3f6fda112c9337d87f10444681dc81, 72e56e266e712a26e7fc05d63e7160c495ab9e22)
 - Pretty-print and re-lineate all XML and XSD files (c0ea1006b5bf4ff1ad53493c11bd9914d5a444c0, 939b3568a29bcc3e7074fa31dca7154b0cec3fc7)
@@ -78,11 +80,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 #### `PrintedBooks.xml`
 
-- Rename root as `list` (eb9632b0987bd1cb5251d75751529c03bc748a71)
 - Restructure as TEI `listBibl` and `biblStruct`; declare the TEI namespace; the file is now valid against TEI P5 (9238790fc29f12d7af93939362db50b0cb800746, 9bfa34205ad3819cc1efeaa3c2d65efc6b6e178d)
-- Replace the attribute `n` with the element `idno` (attributes `type="STC"` and `subtype="2nd-ed"`) (9238790fc29f12d7af93939362db50b0cb800746, 9bfa34205ad3819cc1efeaa3c2d65efc6b6e178d)
-- Replace the element `desc` with structured equivalents; information unique to `desc` (printer names for STC 78 and STC 79, former STC numbers, a remark on the survival of copies) is retained in `publisher` text and in a new element, `note` (9238790fc29f12d7af93939362db50b0cb800746, 9bfa34205ad3819cc1efeaa3c2d65efc6b6e178d)
-- Correct the STC numbers of items "STC12142" and "STC24267" (#57; 5a66c4570a659429799c90b16574453f0d5c2b24)
+- Replace date, title, and printer/publisher name(s) with corresponding ESTC data, downloaded June 2026; for title, use the ESTC uniform title in most cases where that field is available (WIP)
+- Replace the attribute `n` with the element `idno` (9238790fc29f12d7af93939362db50b0cb800746, 9bfa34205ad3819cc1efeaa3c2d65efc6b6e178d)
 
 #### `Records.xml`
 
@@ -131,14 +131,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 #### `Manuscripts.xml`: items and elements removed
 
 - Remove item with key "Atkinson" (ac05c4db8693427507936153ac62af1b79473409)
-- Resolve and delete XML comments where possible; delete commented-out items with xml:ids unreferenced elsewhere in DIMEV data; delete commented-out items with xml:ids identical to an active item recorded elsewhere in this file (9cd87c72a67f74527ffde809044f9a96fec098ab)
+- Remove item with key "Har27282" as an uncited duplicate (#50, WIP)
+- Resolve and delete XML comments where possible; delete commented-out items with xml:ids unreferenced elsewhere in DIMEV data; delete commented-out items with xml:ids identical to an active item elsewhere in `Manuscrips.xml` (9cd87c72a67f74527ffde809044f9a96fec098ab)
 
 #### `PrintedBooks.xml`: items and elements removed
 
-- Remove records of particular copies of printed books cited for manuscript additions or binding fragments (these are moved to `Manuscripts.xml`) (#11, 08cf30f52f3f6fda112c9337d87f10444681dc81)
 - Remove the elements `loc` and `repos` (#11; dd623751f8888ce3ffd35665d9a90e621ff602ca, 08cf30f52f3f6fda112c9337d87f10444681dc81)
 - Remove the element `DIMEVCount` (bfb14aa4c8e8b01151e2b198f6c958f9a3ffd11d)
-- Remove items "ParisSydrac1486", "Schoyen615", "SchoyenPP" as uncited or duplicate (#38; 0aa70f77d77e098295e6388dc8d9832377b89ac9, 08cf30f52f3f6fda112c9337d87f10444681dc81); remove item "Rastell1519" as duplicate of "STC20722" (#57; 5a66c4570a659429799c90b16574453f0d5c2b24)
+- Remove the element `desc`; information unique to `desc` (printer names for STC 78 and STC 79, former STC numbers, a remark on the survival of copies) is retained in `publisher` text and in a new element, `note` (9238790fc29f12d7af93939362db50b0cb800746, 9bfa34205ad3819cc1efeaa3c2d65efc6b6e178d)
+- Remove items "ParisSydrac1486", "Schoyen615", "SchoyenPP," "STC19118" as uncited or duplicate (#38; 0aa70f77d77e098295e6388dc8d9832377b89ac9, 08cf30f52f3f6fda112c9337d87f10444681dc81, WIP);
+remove item "Rastell1519" as duplicate of "STC20722" (#57; 5a66c4570a659429799c90b16574453f0d5c2b24);
+remove item "SpecParis1510" as a duplicate of "Rolle1510" (WIP)
+- Remove item Rouen1516 as an edition-level record cited by us for copy-level material; the copy is recorded in `Manuscripts.xml` as YorkMinXIO28 (WIP)
 
 #### `Records.xml`: elements, items, and content removed
 
@@ -164,6 +168,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - `Bibliography.xml`: regularize and correct form and content prior to migration (77342d4ab7ebc86fea8ad50ffb0170a97d27d287..9823c245fd555f04034511170ef45b8f85c0d226)
 - De-duplicate (#35; b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
+
+#### `Manuscripts.xml`
+
+- PierpontAcc10360: correct the call number (WIP)
+
+#### `PrintedBooks.xml`
+
+- Correct the STC numbers of items with xml:id STC12142, STC24267, STC5759a, STC15999, STC5086, STC127667 (#57; 5a66c4570a659429799c90b16574453f0d5c2b24, WIP)
 
 #### `Records.xml`
 

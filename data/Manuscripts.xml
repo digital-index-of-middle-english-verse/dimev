@@ -14899,7 +14899,7 @@
     <item xml:id="YorkMinXIO28">
         <settlement>York</settlement>
         <repos>York Minster Library</repos>
-        <desc>XI.O.28</desc>
+        <desc>XI.O.28 [A copy of Horae ad usum Eborum (Rouen, 1516?)]</desc>
     </item>
     <item xml:id="YorkMinXVIE32">
         <settlement>York</settlement>
@@ -15130,11 +15130,6 @@
         <settlement>Cambridge MA</settlement>
         <repos>Harvard University, Widener Library</repos>
         <desc>MS 1 [<i>olim</i> Brough Hall]</desc>
-    </item>
-    <item xml:id="Har27282">
-        <settlement>Cambridge MA</settlement>
-        <repos>Harvard University</repos>
-        <desc>*27282. 67.10 [<i>olim</i> Ashburnham 131]</desc>
     </item>
     <item xml:id="Har25258">
         <settlement>Cambridge MA</settlement>
@@ -15642,13 +15637,12 @@
     <item xml:id="PierpontAcc35083">
         <settlement>New York</settlement>
         <repos>Pierpont Morgan Library</repos>
-        <desc>PML 35083 [ChL1787; <i>olim</i> Earl of Oxford, Joseph Brereton, and the Earl of
-            Dysart]</desc>
+        <desc>PML 35083 [ChL1787; <i>olim</i> Earl of Oxford, Joseph Brereton, and the Earl of Dysart]</desc>
     </item>
     <item xml:id="PierpontAcc10360">
         <settlement>New York</settlement>
         <repos>Pierpont Morgan Library</repos>
-        <desc>Acc. No. 28432</desc>
+        <desc>Printed Books E2 51 E (Acc. No. PML 1047)</desc>
     </item>
     <item xml:id="PierpontAcc53095">
         <settlement>New York</settlement>
@@ -18510,5 +18504,10 @@
         <repos>Pierpont Morgan Library</repos>
         <desc>PML 698</desc>
         <!-- Printed book: Laurentius, Frater. <i>Somme des vices et vertus [English] The Ryal Book</i> (Tr. William Caxton). [Westminster: William Caxton, about 1486]-->
+    </item>
+    <item xml:id="Strassburg1494">
+        <settlement>Present location unknown</settlement>
+        <repos/>
+        <desc>A copy of Guido's Historia Troiana (Strassburg, 1494), reported in A. Rosenthal's Sale Catalog 5 (1944), no. 11.</desc>
     </item>
 </list>

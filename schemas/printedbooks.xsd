@@ -13,17 +13,26 @@
                             <xs:element name="monogr">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="author" type="xs:string"/>
+                                        <xs:element name="author" type="xs:string" maxOccurs="unbounded"/>
                                         <xs:element name="title">
                                             <xs:complexType>
                                                 <xs:simpleContent>
                                                     <xs:extension base="xs:string">
-                                                        <xs:attribute name="level" type="xs:string" use="required"/>
+                                                        <xs:attribute name="level" use="required">
+                                                            <xs:annotation>
+                                                                <xs:documentation>Restricted to "m" (monograph), the only value in current use. TEI P5 also permits "a", "j", "s", and "u"; widening beyond those would break TEI validity.</xs:documentation>
+                                                            </xs:annotation>
+                                                            <xs:simpleType>
+                                                                <xs:restriction base="xs:string">
+                                                                    <xs:enumeration value="m"/>
+                                                                </xs:restriction>
+                                                            </xs:simpleType>
+                                                        </xs:attribute>
                                                     </xs:extension>
                                                 </xs:simpleContent>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="idno" minOccurs="0">
+                                        <xs:element name="idno" minOccurs="0" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:simpleContent>
                                                     <xs:extension base="xs:string">
@@ -36,12 +45,50 @@
                                         <xs:element name="imprint">
                                             <xs:complexType>
                                                 <xs:sequence>
+                                                    <xs:element name="pubPlace">
+                                                        <xs:annotation>
+                                                            <xs:documentation>Place of printing, normalized to a standard modern name (e.g., "London", "Westminster"), or "S.l." where no place is determinable. cert="medium" marks a place that ESTC records as conjectural ("?").</xs:documentation>
+                                                        </xs:annotation>
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="cert">
+                                                                        <xs:simpleType>
+                                                                            <xs:restriction base="xs:string">
+                                                                                <xs:enumeration value="medium"/>
+                                                                            </xs:restriction>
+                                                                        </xs:simpleType>
+                                                                    </xs:attribute>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
                                                     <xs:element name="publisher" type="xs:string">
                                                         <xs:annotation>
-                                                            <xs:documentation>Legacy imprint statements are stored whole in this element, pending analysis into pubPlace, publisher, and date.</xs:documentation>
+                                                            <xs:documentation>The name(s) of the printing agent(s), in the spelling of the imprint statement as transcribed by ESTC, or normalized.</xs:documentation>
                                                         </xs:annotation>
                                                     </xs:element>
-                                                    <xs:element name="date" type="xs:gYear"/>
+                                                    <xs:element name="date">
+                                                        <xs:annotation>
+                                                            <xs:documentation>Date of publication. The text gives a human-readable form ("1638", "ca. 1515", "1532–1534?"); the attributes give the machine-readable year(s): @when for a single date, @notBefore and @notAfter for a range or terminus, with cert="medium" marking conjecture. The attribute types are restrictions of TEI P5 att.datable.w3c and data.certainty.</xs:documentation>
+                                                        </xs:annotation>
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="when" type="xs:gYear"/>
+                                                                    <xs:attribute name="notBefore" type="xs:gYear"/>
+                                                                    <xs:attribute name="notAfter" type="xs:gYear"/>
+                                                                    <xs:attribute name="cert">
+                                                                        <xs:simpleType>
+                                                                            <xs:restriction base="xs:string">
+                                                                                <xs:enumeration value="medium"/>
+                                                                            </xs:restriction>
+                                                                        </xs:simpleType>
+                                                                    </xs:attribute>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>

@@ -1137,15 +1137,17 @@ All elements belong to the TEI namespace (`http://www.tei-c.org/ns/1.0`), declar
 - **Must occur within**
   `biblStruct`
 - **Must contain** (in order)
-  - `author` (exactly one)
+  - `author` (one or more)
   - `title` (exactly one)
-  - `idno` (zero or one)
+  - `idno` (zero or more)
   - `imprint` (exactly one)
 
 ### `author`
 
 - **Description**
-  Name of the author; empty where no author is identified
+  Name of the author, as an aid to identification; empty where no author is identified.
+  Usually ESTC's personal-name main entry (without life-dates), but DIMEV's own form is retained where it is more informative (e.g., naming a translator, or crediting the author of the Middle English verse over a source author).
+  The canonical authorial attributions for the verse are maintained in `Records.xml`.
 - **Attributes**
   None
 - **Must occur within**
@@ -1156,7 +1158,9 @@ All elements belong to the TEI namespace (`http://www.tei-c.org/ns/1.0`), declar
 ### `title`
 
 - **Description**
-  Title of the work
+  Title of the work.
+  Where available, this is usually the uniform title given by ESTC.
+  For items without a uniform title, we usually give a transcribed title, often truncated or otherwise edited.
 - **Attributes**
   - `level`: required value indicating the bibliographic level or title type.
     The value of which is always "m" (for "monograph").
@@ -1168,11 +1172,11 @@ All elements belong to the TEI namespace (`http://www.tei-c.org/ns/1.0`), declar
 ### `idno`
 
 - **Description**
-  Identifier for the edition in a standard reference catalogue, usually the corresponding item number in @PollardShorttitleCatalogueBooks1976.
-  Non-English books and other items not recorded in the STC have no `idno`.
+  Identifier for the edition in a standard reference catalogue, usually the corresponding item number in @PollardShorttitleCatalogueBooks1976 or [ESTC](https://datb.cerl.org/estc/_search).
+  For items not in ESTC, [ISTC](https://data.cerl.org/istc/) or another reference catalogue may be cited.
 - **Attributes**
-  - `type`: required identifier of the reference catalogue; the value is always "STC"
-  - `subtype`: optional identifier of the edition of the reference catalogue; the value is always "2nd-ed", designating the revised second edition of the STC
+  - `type`: required identifier of the reference catalogue; the value is usually "STC" or "ESTC"
+  - `subtype`: optional identifier of the edition of the reference catalogue
 - **Must occur within**
   `monogr`
 - **Must contain**
@@ -1187,14 +1191,27 @@ All elements belong to the TEI namespace (`http://www.tei-c.org/ns/1.0`), declar
 - **Must occur within**
   `monogr`
 - **Must contain** (in order)
+  - `pubPlace` (zero or one)
   - `publisher` (exactly one)
   - `date` (exactly one)
+
+### `pubPlace`
+
+- **Description**
+  Place of printing, normalized to a standard modern name (e.g., "London", "Westminster", "Edinburgh"), derived from ESTC.
+  The value "S.l." (*sine loco*) marks an edition with no determinable place of printing.
+- **Attributes**
+  - `cert`: certainty of the place; the value is always "medium", marking a place that ESTC records as conjectural ("?")
+- **Must occur within**
+  `imprint`
+- **Must contain**
+  Text only (`xs:string`)
 
 ### `publisher`
 
 - **Description**
-  Agent, date, and location of printing, as given in the volume or as reconstructed.
-  Legacy imprint statements are stored whole in this element, pending analysis into the TEI elements `pubPlace`, `publisher`, and `date`.
+  Name(s) of the printing agent(s), in the spelling of the imprint statement as transcribed by ESTC, or normalized.
+  Where the imprint names two parties ("by A for B", "at the expences of B"), both are retained.
 - **Attributes**
   None
 - **Must occur within**
@@ -1205,13 +1222,17 @@ All elements belong to the TEI namespace (`http://www.tei-c.org/ns/1.0`), declar
 ### `date`
 
 - **Description**
-  Publication year (Gregorian calendar, Common Era)
+  Date of publication (Gregorian calendar, Common Era).
+  The element content is a human-readable form (e.g., "1638", "ca. 1515", "1532–1534?"); the attributes give the machine-readable year or range, derived from ESTC.
+  The attributes are a restricted profile of the TEI attribute classes `att.datable.w3c` and `att.global.certainty`.
 - **Attributes**
-  None
+  - `when`: the year, for a single date (`xs:gYear`)
+  - `notBefore`, `notAfter`: the bounds, for a range or terminus (`xs:gYear`)
+  - `cert`: certainty of the dating; the value is always "medium", marking a date that ESTC records as conjectural ("?", "ca.")
 - **Must occur within**
   `imprint`
 - **Must contain**
-  Text only (`xs:gYear`)
+  Text only (`xs:string`)
 
 ### `note`
 
