@@ -850,69 +850,84 @@ Scholars are advised to reference witnesses by manuscript shelfmarks, not the nu
 
 This XML file stores bibliographic information on medieval manuscripts cited as witnesses in the XML file `Records.xml`.
 It also includes some individual copies of early printed books, cited within `Records.xml` for manuscript inscriptions or binding fragments.
-The root element is `list`.
+The document structure is modeled on the TEI elements `listBibl` and `msDesc` (the latter drawn from the [manuscript description module]) and adopts the TEI namespace (`http://www.tei-c.org/ns/1.0`), declared on the root element, `listBibl`.
+Its identifying skeleton — `listBibl`, `msDesc`, `msIdentifier`, `settlement`, `repository`, `additional`, `surrogates` — is a restricted profile of TEI.
+Two transitional containers, `desc` and `lang` (with their inline children), are carried over from the pre-TEI structure and are not yet TEI-conformant; until they are resolved (see [issue #36](https://github.com/digital-index-of-middle-english-verse/dimev/issues/36)) the file is not a complete restricted profile and is not valid against full TEI P5 (`tei_all`).
 
 ## Tag library
 
-### `list`
+### `listBibl`
 
 - **Description**
-  Root element containing a list of bibliographic entries for medieval manuscripts and particular copies of early printed books
+  Root element containing a collection of records of manuscripts and particular copies of early printed books
 - **Attributes**
-  None
+  - `xmlns`: namespace declaration; the value is always `http://www.tei-c.org/ns/1.0`
 - **Must contain**
-  - `item` (one or more)
+  - `msDesc` (one or more)
 
-### `item`
+### `msDesc`
 
 - **Description**
-  A bibliographic entry for a medieval manuscript or a particular copy of an early printed book
+  A bibliographic record of a manuscript or a particular copy of an early printed book
 - **Attributes**
   - `xml:id`: required unique identifier
 - **Must occur within**
-  - `list`
+  - `listBibl`
+- **Must contain** (in sequence)
+  - `msIdentifier` (exactly one)
+  - `desc` (exactly one)
+- **May contain** (in sequence)
+  - `lang` (zero or one)
+  - `additional` (zero or one)
+
+### `msIdentifier`
+
+- **Description**
+  Container for the elements that identify and locate the manuscript.
+  Equivalent to the element `msIdentifier` in the TEI [manuscript description module].
+- **Attributes**
+  None
+- **Must occur within**
+  - `msDesc`
 - **Must contain** (in sequence)
   - `settlement` (exactly one)
-  - `repos` (exactly one)
-  - `desc` (exactly one)
-- **May contain**
-  - `lang` (zero or one)
-  - `surrogates` (zero or one)
+  - `repository` (exactly one)
 
 ### `settlement`
 
 - **Description**
   The city or town in which the manuscript is held at present.
   Equivalent to the element `settlement` in @TEIConsortiumTEIP5Guidelines2024, [manuscript description module].
+  May be empty where no settlement is recorded.
 - **Attributes**
   None
 - **Must occur within**
-  - `item`
+  - `msIdentifier`
 - **Must contain**
   Text only (`xs:string`)
 
-### `repos`
+### `repository`
 
 - **Description**
   The repository in which the manuscript is held at present.
-  Equivalent to the elements `institution` and `repository` in the TEI [manuscript description module].
+  Equivalent to the element `repository` in the TEI [manuscript description module]. (Formerly DIMEV's `repos`.)
 - **Attributes**
   None
 - **Must occur within**
-  - `item`
+  - `msIdentifier`
 - **Must contain**
   Text only (`xs:string`)
 
 ### `desc`
 
 - **Description**
-  The present shelfmark of the manuscript.
-  Equivalent to the elements `collection` and `idno` in the TEI [manuscript description module].
-  Previous shelfmarks may be supplied after the current shelfmark; these are usually enclosed in square brackets and prefixed with "*olim*".
+  Transitional container carrying the manuscript's shelfmark together with any associated parenthetical matter (Summary-Catalogue numbers, former shelfmarks and owners, manuscript names, and miscellaneous notes).
+  Previous shelfmarks and owners are usually enclosed in square brackets and prefixed with "*olim*".
+  In subsequent work this content will be disaggregated into TEI `idno`, `altIdentifier`, `msName`, and notes, after which this element will be removed (see [issue #36](https://github.com/digital-index-of-middle-english-verse/dimev/issues/36)).
 - **Attributes**
   None
 - **Must occur within**
-  - `item`
+  - `msDesc`
 - **May contain**
   Mixed text and any number of the following:
   - `i`
@@ -958,23 +973,26 @@ The root element is `list`.
 ### `bibl`
 
 - **Description**
-  Citation of an item in DIMEV's Zotero Group Library
+  Within `desc` and `lang`, a citation of an item in DIMEV's Zotero Group Library.
+  Within `surrogates`, `bibl` is instead used in its TEI sense, as a wrapper for a single `ref` pointing to an on-line facsimile (see `surrogates`).
 - **Attributes**
-  - `key`: required citation key
+  - `key`: required citation key (within `desc` and `lang`; absent within `surrogates`)
 - **May occur within**
   - `desc`
   - `lang`
+  - `surrogates`
 - **May contain**
-  Text only (`xs:string`)
+  Text only (`xs:string`) within `desc` and `lang`; a single `ref` within `surrogates`
 
 ### `lang`
 
 - **Description**
-  Localization of the language of the manuscript, with reference to @LaingLinguisticAtlasEarly2013, @BenskinElectronicVersionLinguistic2013, and subsequent scholarship.
+  Transitional container for the localization of the language of the manuscript, with reference to @LaingLinguisticAtlasEarly2013, @BenskinElectronicVersionLinguistic2013, and subsequent scholarship.
+  It is carried over unchanged from the pre-TEI structure and reserved for separate review (see [issue #36](https://github.com/digital-index-of-middle-english-verse/dimev/issues/36)).
 - **Attributes**
   None
 - **May occur within**
-  - `item`
+  - `msDesc`
 - **Must contain**
   At least one of the following:
   - `langGrid`
@@ -1007,25 +1025,38 @@ The root element is `list`.
 - **Must contain**
   Text only (`xs:string`)
 
+### `additional`
+
+- **Description**
+  Container for additional information about the manuscript beyond its identification.
+  At present it holds only digital surrogates.
+  Equivalent to the element `additional` in the TEI [manuscript description module].
+- **Attributes**
+  None
+- **Must occur within**
+  - `msDesc`
+- **Must contain**
+  - `surrogates` (exactly one)
+
 ### `surrogates`
 
 - **Description**
-  Container for references to on-line facsimiles of the manuscripts.
+  Container for references to on-line facsimiles of the manuscript.
 - **Attributes**
   None
-- **May occur within**
-  - `item`
+- **Must occur within**
+  - `additional`
 - **Must contain**
-  - `ref` (one or more)
+  - `bibl` (one or more), each wrapping a single `ref`
 
 ### `ref`
 
 - **Description**
-  Reference to an on-line facsimile
+  Reference to an on-line facsimile; its `target` is the facsimile's URL.
 - **Attributes**
   - `target`: required URI target
 - **Must occur within**
-  - `surrogates`
+  - `bibl` (within `surrogates`)
 - **Must contain**
   No child elements or text
 
@@ -1036,7 +1067,7 @@ The root element is `list`.
 
 This XML file stores bibliographic information on inscriptions and other epigraphic texts cited as witnesses in the XML file `Records.xml`.
 
-`Inscriptions.xml` employs a simpler variant of the document structure employed in `Manuscripts.xml`.
+`Inscriptions.xml` employs a simpler variant of the pre-TEI structure formerly used by `Manuscripts.xml` (it has not yet been migrated to TEI).
 The root element is `list`.
 
 ## Tag library

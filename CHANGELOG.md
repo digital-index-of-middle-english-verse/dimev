@@ -64,9 +64,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 #### `Manuscripts.xml`
 
 - Establish `Manuscripts.xml` as the project's single source of truth for manuscripts materials (#11, #21; 574cf0b3c0faacb0242b10b9b35c3bc99767c2a9, 08cf30f52f3f6fda112c9337d87f10444681dc81)
-- Rename root as `list` for in-project consistency (5c9dd0a059024eb5a9a30c785e826ac14b3a1175)
-- Rename the element `loc` as `settlement` to align with TEI tag names (5c9dd0a059024eb5a9a30c785e826ac14b3a1175)
-- Rename the element `biblio` as `bibl` to align with TEI tag names (5c9dd0a059024eb5a9a30c785e826ac14b3a1175)
+- Restructure the file, modeled on the TEI elements `listBibl` and `msDesc` (#36; 5c9dd0a059024eb5a9a30c785e826ac14b3a1175, 23fd37db6d9b5d8ec4c8e0907c8c6bd1bd420a11)
+- Rename the element `biblio` as `bibl` (5c9dd0a059024eb5a9a30c785e826ac14b3a1175)
 - Change repository "Public Record Office" to "The National Archives" (#32; 9cd87c72a67f74527ffde809044f9a96fec098ab)
 - Update details for Longleat manuscripts purchased by the British Library (#18; 9cd87c72a67f74527ffde809044f9a96fec098ab)
 - "CollArms316" and "BLAshb27": update location, repository and shelfmark details (574cf0b3c0faacb0242b10b9b35c3bc99767c2a9)
