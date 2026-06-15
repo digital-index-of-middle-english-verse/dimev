@@ -1,34 +1,61 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0" targetNamespace="http://www.tei-c.org/ns/1.0" elementFormDefault="qualified">
+    <xs:annotation>
+        <xs:documentation>INTERIM schema (Phase 1 of the Manuscripts.xml TEI restructure; see issue #36).
+
+This describes DIMEV's restricted profile of TEI listBibl/msDesc after the structural mapping only: list→listBibl, item→msDesc, repos→repository, the location elements wrapped in msIdentifier, and surrogates relocated to additional/surrogates.
+
+It is NOT yet valid against TEI P5 (tei_all). Two transitional placeholders remain to be resolved in later phases:
+  - desc: a mixed-content container holding the shelfmark plus parentheticals, to be disaggregated into idno/altIdentifier/msName/notes (Phase 2).
+  - lang: the LALME/LAEME dialect-localization data, deferred for separate review (Phase 4).
+Once those are dissolved this schema should be tightened to a TEI-valid profile.</xs:documentation>
+    </xs:annotation>
     <xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
-    <xs:element name="list">
+    <xs:element name="listBibl">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="item" maxOccurs="unbounded">
+                <xs:element name="msDesc" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="settlement" type="xs:string"/>
-                            <xs:element name="repos" type="xs:string"/>
+                            <xs:element name="msIdentifier">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="settlement" type="xs:string">
+                                            <xs:annotation>
+                                                <xs:documentation>The holding town or city. May be empty where no settlement is recorded. Regularization per the issue #36 style guide (and the addition of a sibling country element) is deferred to Phase 3.</xs:documentation>
+                                            </xs:annotation>
+                                        </xs:element>
+                                        <xs:element name="repository" type="xs:string">
+                                            <xs:annotation>
+                                                <xs:documentation>The holding institution (formerly DIMEV's repos).</xs:documentation>
+                                            </xs:annotation>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
                             <xs:element name="desc">
+                                <xs:annotation>
+                                    <xs:documentation>TRANSITIONAL. Carries the legacy desc content verbatim (shelfmark, Summary-Catalogue numbers, former identifiers, manuscript names, and miscellaneous notes). To be disaggregated into idno, altIdentifier, msName, and history/notes in Phase 2, after which this element is removed.</xs:documentation>
+                                </xs:annotation>
                                 <xs:complexType mixed="true">
                                     <xs:choice minOccurs="0" maxOccurs="unbounded">
                                         <xs:element name="i" type="xs:string"/>
                                         <xs:element name="sup" type="xs:string"/>
-                                        <xs:element name="mss" type="msCrossRef"/>
-                                        <xs:element name="bibl" type="bibRef"/>
+                                        <xs:element name="mss" type="tei:msCrossRef"/>
+                                        <xs:element name="bibl" type="tei:bibRef"/>
                                     </xs:choice>
                                 </xs:complexType>
                             </xs:element>
                             <xs:element name="lang" minOccurs="0">
                                 <xs:annotation>
-                                    <xs:documentation>As used, this element always has at least one child element.</xs:documentation>
+                                    <xs:documentation>TRANSITIONAL. LALME/eLALME/LAEME dialect-localization data, carried verbatim from the legacy lang element and deferred for separate review (Phase 4). As used, this element always has at least one child element.</xs:documentation>
                                 </xs:annotation>
                                 <xs:complexType mixed="true">
                                     <xs:choice minOccurs="1" maxOccurs="unbounded">
                                         <xs:element name="langGrid" type="xs:string"/>
                                         <xs:element name="i" type="xs:string"/>
-                                        <xs:element name="mss" type="msCrossRef"/>
-                                        <xs:element name="bibl" type="bibRef"/>
+                                        <xs:element name="mss" type="tei:msCrossRef"/>
+                                        <xs:element name="bibl" type="tei:bibRef"/>
                                         <xs:element name="place">
                                             <xs:complexType>
                                                 <xs:simpleContent>
@@ -43,12 +70,27 @@
                                     </xs:choice>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="surrogates" minOccurs="0">
+                            <xs:element name="additional" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="ref" maxOccurs="unbounded">
+                                        <xs:element name="surrogates">
+                                            <xs:annotation>
+                                                <xs:documentation>Digital surrogates. Each facsimile is a bibl wrapping a ref whose target is the surrogate's URL.</xs:documentation>
+                                            </xs:annotation>
                                             <xs:complexType>
-                                                <xs:attribute name="target" type="xs:anyURI" use="required"/>
+                                                <xs:sequence>
+                                                    <xs:element name="bibl" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="ref">
+                                                                    <xs:complexType>
+                                                                        <xs:attribute name="target" type="xs:anyURI" use="required"/>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
