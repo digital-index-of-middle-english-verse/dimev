@@ -23,6 +23,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 #### `Manuscripts.xml`: content added
 
 - Add links to some on-line facsimiles (#22; c23bebc9fb82c0768974db518b46fb9fd792c7b7)
+- Add further links to on-line facsimiles (#36; WIP)
+- Add links to on-line catalogue records, in `additional`/`listBibl` (#36; WIP)
 - Add some Summary Catalog numbers for Bodleian manuscripts (9cd87c72a67f74527ffde809044f9a96fec098ab)
 
 #### `PrintedBooks.xml`: content added
@@ -65,6 +67,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Establish `Manuscripts.xml` as the project's single source of truth for manuscripts materials (#11, #21; 574cf0b3c0faacb0242b10b9b35c3bc99767c2a9, 08cf30f52f3f6fda112c9337d87f10444681dc81)
 - Restructure the file, modeled on the TEI elements `listBibl` and `msDesc` (#36; 5c9dd0a059024eb5a9a30c785e826ac14b3a1175, 23fd37db6d9b5d8ec4c8e0907c8c6bd1bd420a11)
+- Disaggregate the transitional `desc` container into TEI `idno`, `altIdentifier`, `msName`, `head`, `history`/`provenance`, and `adminInfo`/`note` (#36; WIP)
+- Add `country` and regularize `settlement` and `repository` names per the issue #36 style guide (#36; WIP)
 - Rename the element `biblio` as `bibl` (5c9dd0a059024eb5a9a30c785e826ac14b3a1175)
 - Change repository "Public Record Office" to "The National Archives" (#32; 9cd87c72a67f74527ffde809044f9a96fec098ab)
 - Update details for Longleat manuscripts purchased by the British Library (#18; 9cd87c72a67f74527ffde809044f9a96fec098ab)
@@ -111,6 +115,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - All schemas: tighten, restructure, and align with changes to XML file structures; add some inline documentation
 - `records.xsd`: provide for `crossRefs` block (not yet implemented in `Records.xml`) (c28f6af4a0962a5c41552352eafc787c21cec453)
 - `printedbooks.xsd`: rewrite as a restricted profile of TEI `listBibl` and `biblStruct` (9bfa34205ad3819cc1efeaa3c2d65efc6b6e178d)
+- `manuscripts.xsd`: provide for the disaggregated `msIdentifier`, `head`, `history`, and `additional` content model (#36; WIP)
 
 #### Documentation
 

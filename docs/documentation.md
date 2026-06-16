@@ -851,8 +851,12 @@ Scholars are advised to reference witnesses by manuscript shelfmarks, not the nu
 This XML file stores bibliographic information on medieval manuscripts cited as witnesses in the XML file `Records.xml`.
 It also includes some individual copies of early printed books, cited within `Records.xml` for manuscript inscriptions or binding fragments.
 The document structure is modeled on the TEI elements `listBibl` and `msDesc` (the latter drawn from the [manuscript description module]) and adopts the TEI namespace (`http://www.tei-c.org/ns/1.0`), declared on the root element, `listBibl`.
-Its identifying skeleton — `listBibl`, `msDesc`, `msIdentifier`, `settlement`, `repository`, `additional`, `surrogates` — is a restricted profile of TEI.
-Two transitional containers, `desc` and `lang` (with their inline children), are carried over from the pre-TEI structure and are not yet TEI-conformant; until they are resolved (see [issue #36](https://github.com/digital-index-of-middle-english-verse/dimev/issues/36)) the file is not a complete restricted profile and is not valid against full TEI P5 (`tei_all`).
+Each record identifies and locates its manuscript through a TEI `msIdentifier` (`country`, `settlement`, `repository`, `idno`, `msName`, `altIdentifier`), and may carry a descriptive `head`, a `history` of provenance, and an `additional` block holding administrative notes, digital `surrogates`, and links to on-line catalogue records.
+The file is not yet valid against full TEI P5 (`tei_all`); some transitional residue remains until the work tracked in [issue #36](https://github.com/digital-index-of-middle-english-verse/dimev/issues/36) is complete:
+
+- The `lang` container (with its inline children), carrying the localization of the manuscript's language, is reserved for separate review.
+- A small number of records added after the most recent enrichment pass retain the pre-TEI `desc` container; their content has not yet been disaggregated.
+- Administrative, editorial, and `legacy-desc` notes are gathered under `additional/adminInfo`, pending placement in fully TEI-conformant homes. A `legacy-desc` note preserves the verbatim text of a former `desc` where the enrichment pass could not fully account for it, and flags the record for editorial review.
 
 ## Tag library
 
@@ -875,8 +879,10 @@ Two transitional containers, `desc` and `lang` (with their inline children), are
   - `listBibl`
 - **Must contain** (in sequence)
   - `msIdentifier` (exactly one)
-  - `desc` (exactly one)
 - **May contain** (in sequence)
+  - `head` (zero or one)
+  - `history` (zero or one)
+  - `desc` (zero or one; transitional, on unenriched records only)
   - `lang` (zero or one)
   - `additional` (zero or one)
 
@@ -890,8 +896,24 @@ Two transitional containers, `desc` and `lang` (with their inline children), are
 - **Must occur within**
   - `msDesc`
 - **Must contain** (in sequence)
+  - `country` (zero or one)
   - `settlement` (exactly one)
   - `repository` (exactly one)
+  - `idno` (zero or one)
+  - `msName` and `altIdentifier` (any number, in any order)
+
+### `country`
+
+- **Description**
+  The country in which the manuscript is held at present.
+  Equivalent to the element `country` in the TEI [manuscript description module].
+  Absent on the few records that still carry the pre-TEI structure.
+- **Attributes**
+  None
+- **Must occur within**
+  - `msIdentifier`
+- **Must contain**
+  Text only (`xs:string`)
 
 ### `settlement`
 
@@ -918,12 +940,85 @@ Two transitional containers, `desc` and `lang` (with their inline children), are
 - **Must contain**
   Text only (`xs:string`)
 
+### `idno`
+
+- **Description**
+  The manuscript's primary shelfmark.
+  Equivalent to the element `idno` in the TEI [manuscript description module].
+- **Attributes**
+  None
+- **Must occur within**
+  - `msIdentifier`
+  - `altIdentifier`
+- **Must contain**
+  Text only (`xs:string`)
+
+### `msName`
+
+- **Description**
+  A conventional name or sobriquet for the manuscript (e.g. "Hengwrt", "Findern MS").
+  Equivalent to the element `msName` in the TEI [manuscript description module].
+- **Attributes**
+  None
+- **Must occur within**
+  - `msIdentifier`
+- **May contain**
+  Mixed text and any number of `hi`, `mss`, and `bibl`
+
+### `altIdentifier`
+
+- **Description**
+  An alternative or former identifier for the manuscript: a Summary-Catalogue number, another catalogue reference, or a former ("*olim*") shelfmark or owner.
+  Equivalent to the element `altIdentifier` in the TEI [manuscript description module].
+- **Attributes**
+  - `type`: optional; the value `former` marks a former ("*olim*") shelfmark or owner
+- **Must occur within**
+  - `msIdentifier`
+- **Must contain**
+  - `idno` (exactly one)
+
+### `head`
+
+- **Description**
+  A descriptive heading or conventional title for the volume (e.g. "Fall of Princes", "Halesowen Court Rolls").
+  Equivalent to the element `head` in @TEIConsortiumTEIP5Guidelines2024.
+- **Attributes**
+  None
+- **Must occur within**
+  - `msDesc`
+- **May contain**
+  Mixed text and any number of `hi`, `mss`, and `bibl`
+
+### `history`
+
+- **Description**
+  Container for the provenance and history of the volume.
+  Equivalent to the element `history` in the TEI [manuscript description module].
+- **Attributes**
+  None
+- **Must occur within**
+  - `msDesc`
+- **Must contain**
+  - `provenance` (one or more)
+
+### `provenance`
+
+- **Description**
+  A note on the provenance of the volume (e.g. a sale record).
+  Equivalent to the element `provenance` in the TEI [manuscript description module].
+- **Attributes**
+  None
+- **Must occur within**
+  - `history`
+- **May contain**
+  Mixed text and any number of `hi`, `mss`, and `bibl`
+
 ### `desc`
 
 - **Description**
   Transitional container carrying the manuscript's shelfmark together with any associated parenthetical matter (Summary-Catalogue numbers, former shelfmarks and owners, manuscript names, and miscellaneous notes).
   Previous shelfmarks and owners are usually enclosed in square brackets and prefixed with "*olim*".
-  In subsequent work this content will be disaggregated into TEI `idno`, `altIdentifier`, `msName`, and notes, after which this element will be removed (see [issue #36](https://github.com/digital-index-of-middle-english-verse/dimev/issues/36)).
+  Retained only on the few records added after the most recent enrichment pass; their content has not yet been disaggregated into `idno`, `altIdentifier`, `msName`, and notes, after which this element will be removed (see [issue #36](https://github.com/digital-index-of-middle-english-verse/dimev/issues/36)).
 - **Attributes**
   None
 - **Must occur within**
@@ -967,22 +1062,25 @@ Two transitional containers, `desc` and `lang` (with their inline children), are
 - **May occur within**
   - `desc`
   - `lang`
+  - `msName`, `head`, `provenance`, `note`
 - **Must contain**
   No child elements or text
 
 ### `bibl`
 
 - **Description**
-  Within `desc` and `lang`, a citation of an item in DIMEV's Zotero Group Library.
-  Within `surrogates`, `bibl` is instead used in its TEI sense, as a wrapper for a single `ref` pointing to an on-line facsimile (see `surrogates`).
+  Within `desc`, `lang`, `msName`, `head`, `provenance`, and `note`, a citation of an item in DIMEV's Zotero Group Library.
+  Within `surrogates` and `listBibl`, `bibl` is instead used in its TEI sense, as a wrapper for a single `ref` pointing to an on-line resource.
 - **Attributes**
-  - `key`: required citation key (within `desc` and `lang`; absent within `surrogates`)
+  - `key`: required citation key (in its citation sense; absent within `surrogates` and `listBibl`)
 - **May occur within**
   - `desc`
   - `lang`
+  - `msName`, `head`, `provenance`, `note`
   - `surrogates`
+  - `listBibl`
 - **May contain**
-  Text only (`xs:string`) within `desc` and `lang`; a single `ref` within `surrogates`
+  Text only (`xs:string`) in its citation sense; a single `ref` within `surrogates` and `listBibl`
 
 ### `lang`
 
@@ -1029,21 +1127,73 @@ Two transitional containers, `desc` and `lang` (with their inline children), are
 
 - **Description**
   Container for additional information about the manuscript beyond its identification.
-  At present it holds only digital surrogates.
   Equivalent to the element `additional` in the TEI [manuscript description module].
 - **Attributes**
   None
 - **Must occur within**
   - `msDesc`
+- **May contain** (in sequence)
+  - `adminInfo` (zero or one)
+  - `surrogates` (zero or one)
+  - `listBibl` (zero or one)
+
+### `adminInfo`
+
+- **Description**
+  Container for administrative, custodial, and editorial notes on the manuscript (including `legacy-desc` notes pending review; see the overview).
+  Equivalent to the element `adminInfo` in the TEI [manuscript description module].
+- **Attributes**
+  None
+- **Must occur within**
+  - `additional`
 - **Must contain**
-  - `surrogates` (exactly one)
+  - `note` (one or more)
+
+### `note`
+
+- **Description**
+  An administrative, custodial, or editorial note.
+  A note with `type="legacy-desc"` preserves the verbatim text of a former `desc` that the enrichment pass could not fully account for, flagging the record for editorial review.
+- **Attributes**
+  - `type`: optional; e.g. `editorial` or `legacy-desc`
+- **Must occur within**
+  - `adminInfo`
+- **May contain**
+  Mixed text and any number of `hi`, `mss`, and `bibl`
+
+### `hi`
+
+- **Description**
+  Inline highlighted text, replacing the legacy `i` and `sup` elements outside the transitional `desc`/`lang` containers.
+  Equivalent to the element `hi` in @TEIConsortiumTEIP5Guidelines2024.
+- **Attributes**
+  - `rend`: optional rendering hint; `italic` or `superscript`
+- **May occur within**
+  - `msName`, `head`, `provenance`, `note`
+- **Must contain**
+  Text only (`xs:string`)
 
 ### `surrogates`
 
 - **Description**
-  Container for references to on-line facsimiles of the manuscript.
+  Container for references to on-line facsimiles (digital reproductions) of the manuscript.
+  Equivalent to the element `surrogates` in the TEI [manuscript description module].
 - **Attributes**
   None
+- **Must occur within**
+  - `additional`
+- **Must contain**
+  - `bibl` (one or more), each wrapping a single `ref`
+
+### `listBibl`
+
+- **Description**
+  Container for references to external descriptions of the manuscript.
+  Used (with `type="catalogue"`) for links to on-line catalogue records.
+  Equivalent to the element `listBibl`, within `additional`, in the TEI [manuscript description module].
+  (Distinct from the root `listBibl`.)
+- **Attributes**
+  - `type`: optional; the value `catalogue` marks links to on-line catalogue records
 - **Must occur within**
   - `additional`
 - **Must contain**
@@ -1052,11 +1202,11 @@ Two transitional containers, `desc` and `lang` (with their inline children), are
 ### `ref`
 
 - **Description**
-  Reference to an on-line facsimile; its `target` is the facsimile's URL.
+  Reference to an on-line resource; its `target` is the resource's URL (an on-line facsimile within `surrogates`, a catalogue record within `listBibl`).
 - **Attributes**
   - `target`: required URI target
 - **Must occur within**
-  - `bibl` (within `surrogates`)
+  - `bibl` (within `surrogates` or `listBibl`)
 - **Must contain**
   No child elements or text
 
