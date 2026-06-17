@@ -71,8 +71,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 #### `Manuscripts.xml`
 
 - Establish `Manuscripts.xml` as the project's single source of truth for manuscripts materials (#11, #21; 574cf0b3c0faacb0242b10b9b35c3bc99767c2a9, 08cf30f52f3f6fda112c9337d87f10444681dc81)
-- Restructure the file, modeled on the TEI elements `listBibl` and `msDesc` (#36; 5c9dd0a059024eb5a9a30c785e826ac14b3a1175, 23fd37db6d9b5d8ec4c8e0907c8c6bd1bd420a11)
-- Disaggregate the `desc` container into TEI `idno`, `altIdentifier`, `msName`, `head`, `history`/`provenance`, and `adminInfo`/`note` (#36; 4442a79aeb71c83e19765d44a2aad755806c6c41, 852d25a2e44403c8ee983bc47bb7535ec50bfd65)
+- Restructure as TEI `listBibl` and `msDesc`; declare the TEI namespace (#36; 5c9dd0a059024eb5a9a30c785e826ac14b3a1175, 23fd37db6d9b5d8ec4c8e0907c8c6bd1bd420a11, 4442a79aeb71c83e19765d44a2aad755806c6c41, 852d25a2e44403c8ee983bc47bb7535ec50bfd65, 63f489983ba5d913bd4e65d9a8b6f5fba6662936). Conformance is not complete, however: `lang` elements and some administrative and editorial notes remain non-TEI.
 - Add `country`; regularize `settlement` and `repository` names per the issue #36 style guide (#36; 4442a79aeb71c83e19765d44a2aad755806c6c41, 852d25a2e44403c8ee983bc47bb7535ec50bfd65)
 - Regularize recording of items in private collections, items untraced, and items on deposit (852d25a2e44403c8ee983bc47bb7535ec50bfd65)
 - Remove the abbreviation "MS" from most shelfmarks (852d25a2e44403c8ee983bc47bb7535ec50bfd65)
@@ -122,7 +121,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - All schemas: tighten, restructure, and align with changes to XML file structures; add some inline documentation
 - `records.xsd`: provide for `crossRefs` block (not yet implemented in `Records.xml`) (c28f6af4a0962a5c41552352eafc787c21cec453)
 - `printedbooks.xsd`: rewrite as a restricted profile of TEI `listBibl` and `biblStruct` (9bfa34205ad3819cc1efeaa3c2d65efc6b6e178d)
-- `manuscripts.xsd`: provide for the disaggregated `msIdentifier`, `head`, `history`, and `additional` content model (#36; 4442a79aeb71c83e19765d44a2aad755806c6c41)
+- `manuscripts.xsd`: provide for the disaggregated `msIdentifier`, `head`, `history`, and `additional` content model (#36; 4442a79aeb71c83e19765d44a2aad755806c6c41, 63f489983ba5d913bd4e65d9a8b6f5fba6662936)
 
 #### Documentation
 
