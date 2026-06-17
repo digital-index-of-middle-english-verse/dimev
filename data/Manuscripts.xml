@@ -10,7 +10,7 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>now with Eng. poet. e.94</note>
+                <note>Now with Eng. poet. e.94</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -218,13 +218,8 @@
                 <idno>SC 31502</idno>
             </altIdentifier>
         </msIdentifier>
-        <head>photographic facsimile (1893) of <mss key="BodDHumd2"/>
+        <head>Photographic facsimile (1893) of <mss key="BodDHumd2"/>
         </head>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">Arch. Dd.1 (SC 31502) [photographic facsimile (1893) of <mss key="BodDHumd2"/>]</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="BodArchGe35">
         <msIdentifier>
@@ -801,7 +796,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">No Summary Catalog number</note>
-                <note type="legacy-desc">Ashmole 360, Part I (no SC number)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -818,7 +812,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">No Summary Catalog number</note>
-                <note type="legacy-desc">Ashmole 360, Part VII (no SC number)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -1220,11 +1213,6 @@
         </msIdentifier>
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 4568; <langGrid>Grid 567 283</langGrid> (<place country="England" county="Suffolk">Suffolk</place>).</lang>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">Ashmole 1468, Part III (SC 8177 [7004 <hi rend="italic">sic</hi>])</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="BodAsh1477">
         <msIdentifier>
@@ -1434,7 +1422,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">Auct. 7.Q.2.21 (printed)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -1645,7 +1632,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">Bodley 88 (SC 1873) (printed)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -2486,7 +2472,7 @@
             <repository>Bodleian Library</repository>
             <idno>Dep. c.130</idno>
         </msIdentifier>
-        <head>facsimile of Lyme Hall</head>
+        <head>Facsimile of Lyme Hall</head>
     </msDesc>
     <msDesc xml:id="BodDepd324">
         <msIdentifier>
@@ -3678,7 +3664,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">printed book; ?Copland, c. 1500</note>
-                <note type="legacy-desc">Douce fragments D.48 (printed ?Copland, c. 1500)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -3692,7 +3677,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">Douce fragments E.20 (printed)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -3706,7 +3690,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">Douce fragments E.40 (printed)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -3720,7 +3703,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">Douce fragments F.48 (printed)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -3940,12 +3922,12 @@
             <repository>Bodleian Library</repository>
             <idno>Eng. poet. e.94</idno>
             <altIdentifier type="former">
-                <idno>part of 80 G 40 Med</idno>
+                <idno>80 G 40 Med</idno>
             </altIdentifier>
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note type="legacy-desc">Eng. poet. e.94 [formerly in printed book 80 G 40 Med]</note>
+                <note type="editorial">Formerly in printed book 80 G 40 Med</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -3961,11 +3943,6 @@
         </msIdentifier>
         <head>17th-century transcript of a fragment of the <hi rend="italic">South English Legendary</hi>
         </head>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">Eng. poet. f.1 (SC 31360) [17th-c. transcr. of a SEL fragment]</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="BodEngPoetf2">
         <msIdentifier>
@@ -4064,11 +4041,6 @@
             <idno>Facs. d.24</idno>
         </msIdentifier>
         <head>Facsimile of Shrewsbury School 6</head>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">Facs. d.24 [of Shrewsbury School 6]</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="BodFacse23">
         <msIdentifier>
@@ -4078,11 +4050,6 @@
             <idno>Facs. e.23</idno>
         </msIdentifier>
         <head>Facsimile of Harley 3909</head>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">Facs. e.23 [of Harley 3909]</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="BodFair3">
         <msIdentifier>
@@ -4628,15 +4595,14 @@
             <country>UK</country>
             <settlement>Oxford</settlement>
             <repository>Bodleian Library</repository>
-            <idno>Lat. misc. b.17</idno>
+            <idno>Lat. misc. b.17, no. 152</idno>
             <altIdentifier type="former">
-                <idno>Robartes, no. 152</idno>
+                <idno>Robartes</idno>
             </altIdentifier>
         </msIdentifier>
         <additional>
             <adminInfo>
                 <note type="editorial">two leaves</note>
-                <note type="legacy-desc">Lat. misc. b.17 [<hi rend="italic">olim</hi> Robartes], no. 152 (two leaves)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -5396,7 +5362,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">Malone 941 (printed) [Launfal fragments]</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -6841,7 +6806,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">Tanner 178 (STC5572)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -7168,7 +7132,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">695 h 6 (printed) [formerly 575.g.6]</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -7438,7 +7401,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">copy of STC 1536</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -7501,14 +7463,16 @@
     </msDesc>
     <msDesc xml:id="OxfLincoln">
         <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Lincoln College</repository>
+            <country>unknown</country>
+            <settlement>unknown</settlement>
+            <repository>unknown</repository>
+            <altIdentifier type="former">
+                <idno>Oxford, Lincoln College</idno>
+            </altIdentifier>
         </msIdentifier>
         <additional>
             <adminInfo>
                 <note>Unidentified, missing, or destroyed</note>
-                <note type="legacy-desc">MS unidentified</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -8604,7 +8568,10 @@
             <repository>Cambridge University Library</repository>
             <idno>Addit. 6860</idno>
             <altIdentifier type="former">
-                <idno>Macro 18, olim Gurney 75</idno>
+                <idno>Macro 18</idno>
+            </altIdentifier>
+            <altIdentifier type="former">
+                <idno>Gurney 75</idno>
             </altIdentifier>
         </msIdentifier>
         <additional>
@@ -11014,7 +10981,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">F150.a.4.1 (printed, STC) [formerly Res.b.162]</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -12999,11 +12965,6 @@
             <idno>Pepys 1408</idno>
             <msName>Maitland Quarto</msName>
         </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">Pepys 1408 [the Maitland Quarto]</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="CamMagPep1461">
         <msIdentifier>
@@ -13269,7 +13230,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">Pepys, Example of Virtue (STC12945)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -13279,12 +13239,11 @@
             <settlement>Cambridge</settlement>
             <repository>Magdalene College</repository>
             <idno>Pepys 1254</idno>
-            <msName>STC 3543</msName>
         </msIdentifier>
+        <head>STC 3543</head>
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">Pepys 1254 (STC3543)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -13563,11 +13522,6 @@
         <head>Piers Plowman (fragment)</head>
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> 1.64 (<place country="England" county="East Anglia">East Anglian</place>).</lang>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">312.C.6 [fragment of Piers Plowman]</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="CamPem313">
         <msIdentifier>
@@ -14718,7 +14672,6 @@
         <additional>
             <adminInfo>
                 <note>Bound with B.14.39 (323)</note>
-                <note type="legacy-desc">B.14.40 (324) [bound together with B.14.39 (323)]</note>
             </adminInfo>
             <surrogates>
                 <bibl>
@@ -15026,8 +14979,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">Not in James</note>
-                <note type="legacy-desc">R.2.64 (not in James) [<hi rend="italic">olim</hi> W. Aldis Wright; <hi rend="italic">olim</hi> Le Neve
-            (Norroy)]</note>
             </adminInfo>
             <surrogates>
                 <bibl>
@@ -16248,7 +16199,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">VI.18.2 [copy of <mss key="STC6826"/>] </note>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -16268,7 +16218,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">printed <hi rend="italic">Michaelis Menoti Sermones Quadragesimales</hi>, Paris 1525</note>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -16312,7 +16261,7 @@
             <repository>British Library</repository>
             <idno>Printed Book C.15.C.7</idno>
         </msIdentifier>
-        <head>STC 24877</head>
+        <head>Caxton, Golden Legend (STC 24877)</head>
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
@@ -16353,11 +16302,6 @@
             <idno>Addit. 5465</idno>
             <msName>The Fairfax manuscript</msName>
         </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">Addit. 5465 [the Fairfax manuscript]</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="BLAdd5467">
         <msIdentifier>
@@ -16806,13 +16750,8 @@
             <settlement>London</settlement>
             <repository>British Library</repository>
             <idno>Addit. 17492</idno>
-            <msName>Devonshire’</msName>
+            <msName>Devonshire</msName>
         </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">Addit. 17492 [Devonshire]</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="BLAdd17866">
         <msIdentifier>
@@ -17943,8 +17882,9 @@
             <repository>British Library</repository>
             <idno>Addit. 42134</idno>
             <altIdentifier type="former">
-                <idno>Rivington Hall, Newton Cartulary</idno>
+                <idno>Rivington Hall</idno>
             </altIdentifier>
+            <msName>Newton Cartulary</msName>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="BLAdd43406">
@@ -17953,9 +17893,7 @@
             <settlement>London</settlement>
             <repository>British Library</repository>
             <idno>Addit. 43406</idno>
-            <altIdentifier type="former">
-                <idno>Muchelney Abbey Breviary</idno>
-            </altIdentifier>
+            <msName>Muchelney Abbey Breviary</msName>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="BLAdd43489">
@@ -18864,7 +18802,6 @@
         <additional>
             <adminInfo>
                 <note>Destroyed by fire; transcribed by William Thomas, 1721.</note>
-                <note type="legacy-desc">Cotton Otho A.XVIII (MS destroyed by fire; transcribed by William Thomas, 1721)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -23867,11 +23804,12 @@
             <repository>British Library</repository>
             <idno>Yates Thompson 13</idno>
             <altIdentifier type="former">
-                <idno>Taymouth Hours</idno>
+                <idno>Ashburnham App. (?)230</idno>
             </altIdentifier>
             <altIdentifier type="former">
-                <idno>Ashburnham App. (?)230; olim Yates Thompson 57</idno>
+                <idno>Yates Thompson 57</idno>
             </altIdentifier>
+            <msName>Taymouth Hours</msName>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="BLYT47">
@@ -23896,7 +23834,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">Printed book</note>
-                <note type="legacy-desc">Printed Book C.10.b.23 (STC4921)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -23933,7 +23870,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">Printed book</note>
-                <note type="legacy-desc">Printed Book C.39.e.1 (STC22593)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -23958,11 +23894,12 @@
             <country>UK</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
-            <idno>Printed Book IB.49408 (Alliaco1480)</idno>
+            <idno>Printed Book IB.49408</idno>
         </msIdentifier>
+        <head>Petrus de Alliaco, Devotae Meditationes Circa Septem Psalmos Poenitentiales</head>
         <additional>
             <adminInfo>
-                <note type="legacy-desc">Printed Book IB.49408 [Petrus de Alliaco, Devotae Meditationes Circa Septem Psalmos Poenitentiales, Bruges, Collard Mansion, 1480?]</note>
+                <note type="editorial">printed book</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -23985,7 +23922,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">Printed book</note>
-                <note type="legacy-desc">Printed Book Huth 32 (STC106065)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -24089,7 +24025,7 @@
             <country>UK</country>
             <settlement>Aberystwyth</settlement>
             <repository>National Library of Wales</repository>
-            <idno>MS 258</idno>
+            <idno>258</idno>
         </msIdentifier>
         <additional>
             <listBibl type="catalogue">
@@ -24104,7 +24040,7 @@
             <country>UK</country>
             <settlement>Aberystwyth</settlement>
             <repository>National Library of Wales</repository>
-            <idno>MS 441C</idno>
+            <idno>441C</idno>
         </msIdentifier>
         <additional>
             <listBibl type="catalogue">
@@ -24119,7 +24055,7 @@
             <country>UK</country>
             <settlement>Aberystwyth</settlement>
             <repository>National Library of Wales</repository>
-            <idno>MS 572</idno>
+            <idno>572</idno>
         </msIdentifier>
         <additional>
             <listBibl type="catalogue">
@@ -24134,7 +24070,7 @@
             <country>UK</country>
             <settlement>Aberystwyth</settlement>
             <repository>National Library of Wales</repository>
-            <idno>MS 733B</idno>
+            <idno>733B</idno>
         </msIdentifier>
         <additional>
             <listBibl type="catalogue">
@@ -24149,7 +24085,7 @@
             <country>UK</country>
             <settlement>Aberystwyth</settlement>
             <repository>National Library of Wales</repository>
-            <idno>MS 734B</idno>
+            <idno>734B</idno>
         </msIdentifier>
         <additional>
             <listBibl type="catalogue">
@@ -24164,7 +24100,7 @@
             <country>UK</country>
             <settlement>Aberystwyth</settlement>
             <repository>National Library of Wales</repository>
-            <idno>MS 3041</idno>
+            <idno>3041</idno>
             <altIdentifier type="former">
                 <idno>Mostyn 133</idno>
             </altIdentifier>
@@ -24182,7 +24118,7 @@
             <country>UK</country>
             <settlement>Aberystwyth</settlement>
             <repository>National Library of Wales</repository>
-            <idno>MS 5043</idno>
+            <idno>5043</idno>
         </msIdentifier>
         <additional>
             <listBibl type="catalogue">
@@ -24197,7 +24133,7 @@
             <country>UK</country>
             <settlement>Aberystwyth</settlement>
             <repository>National Library of Wales</repository>
-            <idno>MS 21242</idno>
+            <idno>21242</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="NLW21608">
@@ -24205,7 +24141,7 @@
             <country>UK</country>
             <settlement>Aberystwyth</settlement>
             <repository>National Library of Wales</repository>
-            <idno>MS 21608</idno>
+            <idno>21608</idno>
         </msIdentifier>
         <additional>
             <listBibl type="catalogue">
@@ -24220,7 +24156,7 @@
             <country>UK</country>
             <settlement>Aberystwyth</settlement>
             <repository>National Library of Wales</repository>
-            <idno>MS 21972D</idno>
+            <idno>21972D</idno>
             <msName>Merthyr fragment</msName>
         </msIdentifier>
         <lang>
@@ -24588,16 +24524,13 @@
             <repository>National Library of Wales</repository>
             <idno>Peniarth 393</idno>
             <altIdentifier type="former">
-                <idno>Hengwrt MS 328</idno>
+                <idno>Hengwrt 328</idno>
             </altIdentifier>
         </msIdentifier>
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> (part of)
             LP 6400; <langGrid>Grid 532 183</langGrid> (<place town="London" country="England">London</place>).</lang>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">Peniarth 393 ['Hengwrt']</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://viewer.library.wales/4398051"/>
@@ -24737,7 +24670,7 @@
             <country>UK</country>
             <settlement>Alnwick Castle</settlement>
             <repository>Duke of Northumberland</repository>
-            <idno>MS 79</idno>
+            <idno>79</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Alnwick82">
@@ -24745,7 +24678,7 @@
             <country>UK</country>
             <settlement>Alnwick Castle</settlement>
             <repository>Duke of Northumberland</repository>
-            <idno>MS 82</idno>
+            <idno>82</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Alnwick455">
@@ -24753,7 +24686,7 @@
             <country>UK</country>
             <settlement>Alnwick Castle</settlement>
             <repository>Duke of Northumberland</repository>
-            <idno>MS 455</idno>
+            <idno>455</idno>
         </msIdentifier>
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 6040; <langGrid>Grid 567 185</langGrid> (<place country="England" county="Essex">Essex</place>).</lang>
@@ -24763,7 +24696,7 @@
             <country>UK</country>
             <settlement>Alnwick Castle</settlement>
             <repository>Duke of Northumberland</repository>
-            <idno>MS 468</idno>
+            <idno>468</idno>
             <altIdentifier type="former">
                 <idno>D.XI.1</idno>
             </altIdentifier>
@@ -24772,14 +24705,13 @@
     <msDesc xml:id="Appleby">
         <msIdentifier>
             <country>UK</country>
-            <settlement>Appleby Castle</settlement>
-            <repository>Lord Hothfield</repository>
-            <idno>Yorkshire Archaeological Society DD 121/109</idno>
+            <settlement>Leeds</settlement>
+            <repository>Yorkshire Archaeological Society</repository>
+            <idno>DD 121/109</idno>
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>On deposit at Leeds</note>
-                <note type="legacy-desc">[on deposit at Leeds, Yorkshire Archaeological Society DD 121/109]</note>
+                <note>Deposit from Appleby Castle, Lord Hothfield</note>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -24808,7 +24740,7 @@
             <country>UK</country>
             <settlement>Arundel Castle</settlement>
             <repository>Duke of Norfolk</repository>
-            <idno>MS Arundel-Harrington</idno>
+            <idno>Arundel-Harrington</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="ArunPrick">
@@ -24816,37 +24748,24 @@
             <country>UK</country>
             <settlement>Arundel Castle</settlement>
             <repository>Duke of Norfolk</repository>
-            <idno>MS Prick of Conscience</idno>
         </msIdentifier>
+        <head>Prick of Conscience</head>
     </msDesc>
     <msDesc xml:id="ArunLives">
         <msIdentifier>
             <country>UK</country>
             <settlement>Arundel Castle</settlement>
             <repository>Duke of Norfolk</repository>
-            <idno>MS Lives of Sts Edmund and Fremund</idno>
         </msIdentifier>
+        <head>Lives of Sts Edmund and Fremund</head>
     </msDesc>
     <msDesc xml:id="Badminton">
         <msIdentifier>
             <country>UK</country>
             <settlement>Badminton</settlement>
             <repository>Duke of Beaufort</repository>
-            <idno>MS 704.1.16</idno>
+            <idno>704.1.16</idno>
         </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BeeleighPricke">
-        <msIdentifier>
-            <country>unknown</country>
-            <settlement>unknown</settlement>
-            <repository>unknown</repository>
-            <altIdentifier type="former">
-                <idno>Neale</idno>
-            </altIdentifier>
-        </msIdentifier>
-        <history>
-            <provenance>sold Sotheby's 1920; Hope Allen Addit. MS III; olim Harmsworth; olim Beeleigh Abbey (Christina Foyle), sold Christie's June 2000</provenance>
-        </history>
     </msDesc>
     <msDesc xml:id="BeeleighMirrour">
         <msIdentifier>
@@ -24870,12 +24789,15 @@
         <msIdentifier>
             <country>unknown</country>
             <settlement>unknown</settlement>
-            <repository>unknown</repository>
+            <repository>Private collection</repository>
             <altIdentifier type="former">
                 <idno>Amherst</idno>
             </altIdentifier>
             <altIdentifier type="former">
-                <idno>Harmsworth; olim Beeleigh Abbey (Christina Foyle)</idno>
+                <idno>Harmsworth</idno>
+            </altIdentifier>
+            <altIdentifier type="former">
+                <idno>Beeleigh Abbey (Christina Foyle)</idno>
             </altIdentifier>
         </msIdentifier>
         <history>
@@ -24902,15 +24824,15 @@
             <country>UK</country>
             <settlement>Belvoir Castle</settlement>
             <repository>Duke of Rutland</repository>
-            <idno>Fall of Princes MS</idno>
         </msIdentifier>
+        <head>Fall of Princes</head>
     </msDesc>
     <msDesc xml:id="Beverley">
         <msIdentifier>
             <country>UK</country>
             <settlement>Beverly, East Yorkshire</settlement>
             <repository>Humberside County Record Office</repository>
-            <idno>MS DDHE 30, vol. 1, Section B</idno>
+            <idno>DDHE 30, vol. 1, Section B</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Blackburn">
@@ -24918,7 +24840,7 @@
             <country>UK</country>
             <settlement>Blackburn</settlement>
             <repository>Blackburn, Museum and Art Gallery</repository>
-            <idno>MS 091.21040</idno>
+            <idno>091.21040</idno>
             <altIdentifier type="former">
                 <idno>Petworth 3</idno>
             </altIdentifier>
@@ -24927,15 +24849,14 @@
     <msDesc xml:id="BrechinFordun">
         <msIdentifier>
             <country>UK</country>
-            <settlement>Brechin Castle</settlement>
-            <repository>Earl of Dalhousie</repository>
+            <settlement>Edinburgh</settlement>
+            <repository>Scottish Record Office</repository>
+            <idno>GD5/26/48</idno>
         </msIdentifier>
         <head>Fordun's Chronicle</head>
         <additional>
             <adminInfo>
-                <note>On deposit at Edinburgh, Scottish Record Office, MS GD5/26/48</note>
-                <note type="legacy-desc">Fordun's <hi rend="italic">Chronicle</hi>, on deposit at Edinburgh, Scottish Record Office, MS
-            GD5/26/48</note>
+                <note>Deposit from Brechin Castle, Earl of Dalhousie</note>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -24958,12 +24879,10 @@
             <settlement>Brechin Castle</settlement>
             <repository>Earl of Dalhousie</repository>
         </msIdentifier>
-        <head>John Barbour, Buik of Alexander the grit, Edinburgh, Arbuthnet, c. 1580 (STC 321.5)</head>
+        <head>John Barbour, Buik of Alexander the grit (Edinburgh, Arbuthnet, c. 1580) (STC 321.5)</head>
         <additional>
             <adminInfo>
                 <note type="editorial">Printed book</note>
-                <note type="legacy-desc">John Barbour, <hi rend="italic">Buik of Alexander the grit</hi>, [Edinburgh, Arbuthnet, c. 1580] (STC
-            321.5)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -24972,7 +24891,7 @@
             <country>UK</country>
             <settlement>Bristol</settlement>
             <repository>All Saints Church</repository>
-            <idno>MS 2</idno>
+            <idno>2</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="BristolAvon">
@@ -24980,7 +24899,7 @@
             <country>UK</country>
             <settlement>Bristol</settlement>
             <repository>Avon County Library</repository>
-            <idno>MS 10</idno>
+            <idno>10</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="BristolClifton">
@@ -25000,28 +24919,21 @@
     </msDesc>
     <msDesc xml:id="ButeConf">
         <msIdentifier>
-            <country>UK</country>
-            <settlement>Bute</settlement>
-            <repository>Marquess of Bute</repository>
+            <country>unknown</country>
+            <settlement>unknown</settlement>
+            <repository>Private collection</repository>
             <altIdentifier type="former">
-                <idno>Bute</idno>
+                <idno>Marquess of Bute</idno>
             </altIdentifier>
         </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note>privately owned</note>
-                <note type="legacy-desc">
-                    <hi rend="italic">olim</hi>Bute, now privately owned</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="Buteolim">
         <msIdentifier>
-            <country>UK</country>
-            <settlement>Bute</settlement>
-            <repository>Marquess of Bute</repository>
+            <country>unknown</country>
+            <settlement>unknown</settlement>
+            <repository>Private collection</repository>
             <altIdentifier type="former">
-                <idno>Bute</idno>
+                <idno>Marquess of Bute</idno>
             </altIdentifier>
         </msIdentifier>
         <history>
@@ -25129,7 +25041,7 @@
             <country>UK</country>
             <settlement>Cardiff</settlement>
             <repository>Cardiff Public Library</repository>
-            <idno>MS 3.174</idno>
+            <idno>3.174</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="ChesterCoopers">
@@ -25156,11 +25068,6 @@
             <idno>PA 11/2</idno>
             <msName>Robert Croo manuscript</msName>
         </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">PA 11/2 [Robert Croo MS]</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="CovArc111">
         <msIdentifier>
@@ -25201,7 +25108,7 @@
         <msIdentifier>
             <country>UK</country>
             <settlement>Beaminster, Dorset</settlement>
-            <repository>J. Stevens Cox</repository>
+            <repository>J. Stevens Cox (private collection)</repository>
             <altIdentifier type="former">
                 <idno>Harmsworth</idno>
             </altIdentifier>
@@ -25209,13 +25116,6 @@
         <history>
             <provenance>Sotheby Sale, Oct., 1945, lot 1956</provenance>
         </history>
-        <additional>
-            <adminInfo>
-                <note>privately owned</note>
-                <note type="legacy-desc">[<hi rend="italic">olim</hi> Harmsworth; Sotheby Sale, Oct., 1945, lot 1956], now privately
-            owned</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="Douai7">
         <msIdentifier>
@@ -25323,13 +25223,14 @@
         <msIdentifier>
             <country>UK</country>
             <settlement>Durham</settlement>
-            <repository>Durham Cathedral Dean and Chapter Archives</repository>
-            <idno>Registrum Parvum IV</idno>
-            <altIdentifier type="former">
-                <idno>Prior's Kitchen</idno>
-            </altIdentifier>
+            <repository>Durham University Library</repository>
+            <idno>GB-0033-DCD-Reg.Parv.4</idno>
+            <msName>Durham Cathedral Archive, Registrum Parvum IV</msName>
         </msIdentifier>
         <additional>
+            <adminInfo>
+                <note>Deposit from Durham Cathedral Priory</note>
+            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://iiif.durham.ac.uk/index.html?manifest=t2mnv935284m"/>
@@ -25351,7 +25252,7 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>on deposit in Durham University Library</note>
+                <note>On deposit in Durham University Library</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -25709,8 +25610,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">Bamburgh Sel 13. (printed Higden's <hi rend="italic">Polychronicon</hi>, trans. Trevisa,
-            1495)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -25768,8 +25667,7 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>On deposit from Brechin Castle, Earl of Dalhousie</note>
-                <note type="legacy-desc">GD 5/26/48 (on deposit from Brechin Castle, Earl of Dalhousie)</note>
+                <note>Deposit from Brechin Castle, Earl of Dalhousie</note>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -26200,9 +26098,6 @@
             </altIdentifier>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">17.1.22 [<hi rend="italic">olim</hi> Phillipps 27369]</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://manuscripts.nls.uk/repositories/2/resources/19596"/>
@@ -26218,9 +26113,6 @@
             <idno>Advocates 18.1.7</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">18.1.7</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://digital.nls.uk/early-manuscripts/browse/archive/219603956"/>
@@ -26241,9 +26133,6 @@
             <idno>Advocates 18.2.8</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">18.2.8</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://digital.nls.uk/early-manuscripts/browse/archive/212879752"/>
@@ -26266,9 +26155,6 @@
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> 1.88 (<place country="England" county="Northern">NME</place>).</lang>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">18.4.4</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://digital.nls.uk/early-manuscripts/browse/archive/235163095"/>
@@ -26289,9 +26175,6 @@
             <idno>Advocates 18.5.14</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">18.5.14</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://digital.nls.uk/early-manuscripts/browse/archive/233460199"/>
@@ -26314,9 +26197,6 @@
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 4041; <langGrid>Grid 568 290</langGrid> (<place country="England" county="Norfolk">Norfolk</place>).</lang>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">18.7.21</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://digital.nls.uk/early-manuscripts/browse/archive/133680362"/>
@@ -26337,9 +26217,6 @@
             <idno>Advocates 18.8.1</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">18.8.1</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://digital.nls.uk/early-manuscripts/browse/archive/227346158"/>
@@ -26360,9 +26237,6 @@
             <idno>Advocates 18.8.5</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">18.8.5</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://digital.nls.uk/early-manuscripts/browse/archive/217342502"/>
@@ -26383,9 +26257,6 @@
             <idno>Advocates 19.1.2</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">19.1.2</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://digital.nls.uk/early-manuscripts/browse/archive/213862801"/>
@@ -26406,9 +26277,6 @@
             <idno>Advocates 19.1.11</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">19.1.11</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://digital.nls.uk/early-manuscripts/browse/archive/133475158#?c=0&amp;m=0&amp;s=0&amp;cv=0"/>
@@ -26427,12 +26295,9 @@
             <settlement>Edinburgh</settlement>
             <repository>National Library of Scotland</repository>
             <idno>Advocates 19.2.1</idno>
-            <msName>Auchinleck MS</msName>
+            <msName>Auchinleck</msName>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">19.2.1 [Auchinleck MS]</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://digital.nls.uk/early-manuscripts/browse/archive/233337262"/>
@@ -26453,9 +26318,6 @@
             <idno>Advocates 19.2.2</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">19.2.2</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://digital.nls.uk/early-manuscripts/browse/archive/232641634"/>
@@ -26476,9 +26338,6 @@
             <idno>Advocates 19.2.3</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">19.2.3</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://digital.nls.uk/early-manuscripts/browse/archive/228063292"/>
@@ -26499,9 +26358,6 @@
             <idno>Advocates 19.2.4</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">19.2.4</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://digital.nls.uk/early-manuscripts/browse/archive/235163100"/>
@@ -26525,9 +26381,6 @@
             </altIdentifier>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">19.2.5 [<hi rend="italic">olim</hi> Hailes]</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://digital.nls.uk/early-manuscripts/browse/archive/210499911"/>
@@ -26548,9 +26401,6 @@
             <idno>Advocates 19.3.1</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">19.3.1</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://digital.nls.uk/early-manuscripts/browse/archive/133680060"/>
@@ -26571,9 +26421,6 @@
             <idno>Advocates 23.7.11</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">23.7.11</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://digital.nls.uk/early-manuscripts/browse/archive/218121753"/>
@@ -26594,9 +26441,6 @@
             <idno>Advocates 34.7.3</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">34.7.3</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://digital.nls.uk/early-manuscripts/browse/archive/212467260"/>
@@ -26617,9 +26461,6 @@
             <idno>Advocates 35.1.7</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">35.1.7</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://digital.nls.uk/early-manuscripts/browse/archive/217342500"/>
@@ -26643,9 +26484,6 @@
             </altIdentifier>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">72.1.27 [<hi rend="italic">olim</hi> Lismore]</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://digital.nls.uk/gaelic-manuscripts-of-scotland/archive/75217197"/>
@@ -26704,10 +26542,10 @@
             <repository>National Library of Scotland</repository>
             <idno>Deposit 313/3633</idno>
         </msIdentifier>
-        <head>medieval fragments</head>
+        <head>Medieval fragments</head>
         <additional>
             <adminInfo>
-                <note>deposited by Marquis of Stafford</note>
+                <note>Deposit from the Marquis of Stafford</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -26721,7 +26559,7 @@
         <head>Calendar of Fearn Abbey</head>
         <additional>
             <adminInfo>
-                <note>deposited by Marquis of Sutherland, Dunrobin Castle</note>
+                <note>Deposit from the Marquis of Sutherland, Dunrobin Castle</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -26731,7 +26569,7 @@
             <settlement>Edinburgh</settlement>
             <repository>National Library of Scotland</repository>
             <idno>Deposit 221/9</idno>
-            <altIdentifier>
+            <altIdentifier type="former">
                 <idno>Blairs College 13</idno>
             </altIdentifier>
         </msIdentifier>
@@ -26745,14 +26583,13 @@
             <altIdentifier type="former">
                 <idno>Edinburgh, National Library of Scotland, Deposit 221/1</idno>
             </altIdentifier>
-            <altIdentifier>
+            <altIdentifier type="former">
                 <idno>Blairs College 22</idno>
             </altIdentifier>
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note type="editorial">transferred to Scottish Catholic Archives on 9 August 2005</note>
-                <note type="legacy-desc">Deposit 221/1 [Talbot Book of Hours] (Blairs College 22, on deposit)</note>
+                <note>Deposited at the National Library of Scotland in 1991; returned to the Scottish Catholic Archives in 2005</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -26762,16 +26599,14 @@
             <settlement>Edinburgh</settlement>
             <repository>Scottish Catholic Archives</repository>
             <msName>Fordun's Chronicles (Scotticronicon)</msName>
-            <altIdentifier>
+            <altIdentifier type="former">
                 <idno>Edinburgh, National Library of Scotland, Acc. 10301/6</idno>
             </altIdentifier>
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Deposited at National Library of Scotland 1991-2005</note>
+                <note>Deposited at the National Library of Scotland in 1991; returned to the Scottish Catholic Archives in 2005</note>
                 <note type="editorial">idno SCA/MM/2/1 ? (https://archive.catholic-heritage.net/Record.aspx?src=CalmView.Catalog&amp;id=SCA%2fMM%2f2%2f1&amp;pos=3)</note>
-                <note type="legacy-desc">Acc. 10301/6 [Columba House, Scottish Catholic Archives, Fordun's Chronicles or
-            Scotticronicon (on deposit at National Library of Scotland)]</note>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -26793,7 +26628,7 @@
             <country>UK</country>
             <settlement>Ely</settlement>
             <repository>Ely Cathedral</repository>
-            <idno>Ely Cathedral MS</idno>
+            <msName>Ely Cathedral MS</msName>
         </msIdentifier>
         <additional>
             <adminInfo>
@@ -27294,10 +27129,8 @@
         <head>Dyuerse My[racles whi]che God hath shewed for the [Portion] of his precyous Blod in Hay[les], Pynson, ca. 1515 (STC 12973.5)</head>
         <additional>
             <adminInfo>
-                <note>On deposit</note>
+                <note>Deposit</note>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">deposit, Dyuerse My[racles whi]che God hath shewed for the [Portion] of his precyous
-            Blod in Hay[les], Pynson, ca. 1515 (STC 12973.5)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -27313,8 +27146,7 @@
         <msIdentifier>
             <country>unknown</country>
             <settlement>unknown</settlement>
-            <repository>Graham</repository>
-            <idno>Graham MS</idno>
+            <repository>Graham (Private owner)</repository>
         </msIdentifier>
         <history>
             <provenance>sold Sotheby's 12 Dec. 1966, lot 215; 10 July 1972, lot 22</provenance>
@@ -27345,7 +27177,7 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note type="legacy-desc">C.P. 271 [or 281?]</note>
+                <note type="editorial">Shelfmark might be 281?</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -27461,7 +27293,7 @@
             <country>UK</country>
             <settlement>Holkham Hall</settlement>
             <repository>Earl of Leicester</repository>
-            <idno>MS 229</idno>
+            <idno>229</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Holkham667">
@@ -27469,7 +27301,7 @@
             <country>UK</country>
             <settlement>Holkham Hall</settlement>
             <repository>Earl of Leicester</repository>
-            <idno>MS 667</idno>
+            <idno>667</idno>
         </msIdentifier>
         <lang>
             <bibl key="Horobin2003"/> suggests 'the <place country="England" county="Essex">Essex</place>/<place country="England" county="Suffolk">Suffolk</place> border, although <place country="England" county="Norfolk">Norfolk</place> is also a possible candidate' (p. 151). The MS may have
@@ -27482,7 +27314,7 @@
             <country>UK</country>
             <settlement>Holkham Hall</settlement>
             <repository>Earl of Leicester</repository>
-            <idno>MS 668</idno>
+            <idno>668</idno>
         </msIdentifier>
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> 1.90 (<place country="England" county="Staffordshire">Staffs</place>).</lang>
@@ -27492,7 +27324,7 @@
             <country>UK</country>
             <settlement>Holkham Hall</settlement>
             <repository>Earl of Leicester</repository>
-            <idno>MS 670</idno>
+            <idno>670</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Holkham755">
@@ -27529,8 +27361,7 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>On deposit at Ipswich School</note>
-                <note type="legacy-desc">6 (on deposit at Ipswich School)</note>
+                <note>Deposit at Ipswich School</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -27539,13 +27370,10 @@
             <country>UK</country>
             <settlement>Ipswich</settlement>
             <repository>Suffolk Record Office</repository>
-            <idno>C/4/1</idno>
+            <idno>C/4/1/4</idno>
         </msIdentifier>
-        <head>Great Domesday Book of Ipswich, Liber Sextus</head>
+        <head>Great Domesday Book of Ipswich (Percyvale's Domesday)</head>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">Ipswich Great Doomsday, Book VI</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://www.suffolkarchives.co.uk/collections/getrecord/GB173_C_4_1_4"/>
@@ -27562,8 +27390,8 @@
         <head>A. de Clavasio, Summa de casibus conscientiae, Nuremberg, 1498</head>
         <additional>
             <adminInfo>
-                <note>On deposit at Newcastle University Library</note>
-                <note type="legacy-desc">A. de Clavasio, <hi rend="italic">Summa de casibus conscientiae</hi>, Nuremberg, 1498 (on Deposit at Newcastle University Library)</note>
+                <note type="editorial">printed book</note>
+                <note>Deposit at Newcastle University Library</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -27719,8 +27547,7 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>On deposit from Ripon Minster</note>
-                <note type="legacy-desc">Ripon Minster fragment 33 (on deposit from Ripon Minster)</note>
+                <note>Deposit from Ripon Minster</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -27733,8 +27560,7 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>On deposit from Appleby Castle</note>
-                <note type="legacy-desc">DD 121/109 (on deposit from Appleby Castle)</note>
+                <note>Deposit from Appleby Castle</note>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -27761,7 +27587,7 @@
             <repository>Leicestershire Record Office</repository>
             <idno>BR II/3/3</idno>
             <altIdentifier type="former">
-                <idno>Old Town Hall MS</idno>
+                <idno>Old Town Hall</idno>
             </altIdentifier>
         </msIdentifier>
     </msDesc>
@@ -27804,7 +27630,7 @@
             <repository>Lichfield Cathedral Library</repository>
             <idno>18</idno>
             <altIdentifier type="former">
-                <idno>MS 22</idno>
+                <idno>22</idno>
             </altIdentifier>
         </msIdentifier>
         <additional>
@@ -28061,7 +27887,6 @@
         <additional>
             <adminInfo>
                 <note>Untraced</note>
-                <note type="legacy-desc">a ghost?</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -28082,7 +27907,7 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>on deposit from Cathedral</note>
+                <note>Deposit from the Cathedral</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -28205,7 +28030,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">Not LXV as listed in NIMEV</note>
-                <note type="legacy-desc">Arundel 45 [not LXV as listed in NIMEV]</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -28240,11 +28064,6 @@
         </msIdentifier>
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 5411; <langGrid>Grid 414 143</langGrid> (<place country="England" county="Wiltshire">Wilts</place>).</lang>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">58 [<hi rend="italic">olim</hi> Arundel 58]</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="CollArmsAr61">
         <msIdentifier>
@@ -28269,7 +28088,7 @@
             <country>UK</country>
             <settlement>London</settlement>
             <repository>College of Arms</repository>
-            <idno>MS I.7</idno>
+            <idno>I.7</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="CollArms316">
@@ -28939,7 +28758,7 @@
         <msIdentifier>
             <country>UK</country>
             <settlement>London</settlement>
-            <repository>Quaritch</repository>
+            <repository>Quaritch (private collection)</repository>
             <altIdentifier type="former">
                 <idno>Hopton Hall</idno>
             </altIdentifier>
@@ -29143,14 +28962,16 @@
     </msDesc>
     <msDesc xml:id="Scott">
         <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>John Scott</repository>
-            <idno>unknown</idno>
+            <country>unknown</country>
+            <settlement>unknown</settlement>
+            <repository>unknown</repository>
+            <altIdentifier>
+                <idno>London, John Scott</idno>
+            </altIdentifier>
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note type="legacy-desc">(present location unknown)</note>
+                <note>Present location unknown</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -29209,7 +29030,7 @@
             <country>UK</country>
             <settlement>London</settlement>
             <repository>St Paul's Cathedral Library</repository>
-            <idno>MS 8</idno>
+            <idno>8</idno>
             <altIdentifier type="former">
                 <idno>9.D.xix</idno>
             </altIdentifier>
@@ -29225,10 +29046,10 @@
                 <idno>47.G.3</idno>
             </altIdentifier>
         </msIdentifier>
+        <head>Thesaurus Grammaticus linguae sanctae Hebraeae (Basle, 1616)</head>
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">CSE0706.01 [formerly 47.G.3] [Printed book: Thesaurus Grammaticus linguae sanctae Hebraeae (Basle, 1616)]</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -29237,7 +29058,7 @@
             <country>UK</country>
             <settlement>London</settlement>
             <repository>University of London</repository>
-            <idno>MS 278</idno>
+            <idno>278</idno>
             <altIdentifier type="former">
                 <idno>Mostyn Hall 259</idno>
             </altIdentifier>
@@ -29248,7 +29069,7 @@
             <country>UK</country>
             <settlement>London</settlement>
             <repository>University of London</repository>
-            <idno>MS 593</idno>
+            <idno>593</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="UnivLon657">
@@ -29256,7 +29077,7 @@
             <country>UK</country>
             <settlement>London</settlement>
             <repository>University of London</repository>
-            <idno>MS 657</idno>
+            <idno>657</idno>
             <altIdentifier type="former">
                 <idno>Helmingham Hall I.J.I.7</idno>
             </altIdentifier>
@@ -29632,7 +29453,7 @@
             <country>UK</country>
             <settlement>Longleat</settlement>
             <repository>Marquess of Bath</repository>
-            <idno>MS 15</idno>
+            <idno>15</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Longleat29">
@@ -29664,7 +29485,7 @@
             <country>UK</country>
             <settlement>Longleat</settlement>
             <repository>Marquess of Bath</repository>
-            <idno>MS 31</idno>
+            <idno>31</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Longleat32">
@@ -29672,7 +29493,7 @@
             <country>UK</country>
             <settlement>Longleat</settlement>
             <repository>Marquess of Bath</repository>
-            <idno>MS 32</idno>
+            <idno>32</idno>
         </msIdentifier>
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 9420; <langGrid>Grid 362 162</langGrid> (<place country="England" county="Somerset">Somerset</place>).</lang>
@@ -29682,7 +29503,7 @@
             <country>UK</country>
             <settlement>Longleat</settlement>
             <repository>Marquess of Bath</repository>
-            <idno>MS 41</idno>
+            <idno>41</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Longleat53">
@@ -29690,7 +29511,7 @@
             <country>UK</country>
             <settlement>Longleat</settlement>
             <repository>Marquess of Bath</repository>
-            <idno>MS 53</idno>
+            <idno>53</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Longleat55">
@@ -29712,7 +29533,7 @@
             <country>UK</country>
             <settlement>Longleat</settlement>
             <repository>Marquess of Bath</repository>
-            <idno>MS 174</idno>
+            <idno>174</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Longleat176">
@@ -29720,7 +29541,7 @@
             <country>UK</country>
             <settlement>Longleat</settlement>
             <repository>Marquess of Bath</repository>
-            <idno>MS 176</idno>
+            <idno>176</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Longleat178">
@@ -29728,7 +29549,7 @@
             <country>UK</country>
             <settlement>Longleat</settlement>
             <repository>Marquess of Bath</repository>
-            <idno>MS 178</idno>
+            <idno>178</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Longleat252A">
@@ -29736,7 +29557,7 @@
             <country>UK</country>
             <settlement>Longleat</settlement>
             <repository>Marquess of Bath</repository>
-            <idno>MS 252A</idno>
+            <idno>252A</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Longleat253">
@@ -29744,7 +29565,7 @@
             <country>UK</country>
             <settlement>Longleat</settlement>
             <repository>Marquess of Bath</repository>
-            <idno>MS 253</idno>
+            <idno>253</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Longleat254">
@@ -29752,7 +29573,7 @@
             <country>UK</country>
             <settlement>Longleat</settlement>
             <repository>Marquess of Bath</repository>
-            <idno>MS 254</idno>
+            <idno>254</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Longleat256">
@@ -29760,7 +29581,7 @@
             <country>UK</country>
             <settlement>Longleat</settlement>
             <repository>Marquess of Bath</repository>
-            <idno>MS 256</idno>
+            <idno>256</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Longleat257">
@@ -29768,7 +29589,7 @@
             <country>UK</country>
             <settlement>Longleat</settlement>
             <repository>Marquess of Bath</repository>
-            <idno>MS 257</idno>
+            <idno>257</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Longleat258">
@@ -29776,7 +29597,7 @@
             <country>UK</country>
             <settlement>Longleat</settlement>
             <repository>Marquess of Bath</repository>
-            <idno>MS 258</idno>
+            <idno>258</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Maidst6">
@@ -29784,7 +29605,7 @@
             <country>UK</country>
             <settlement>Maidstone, Kent</settlement>
             <repository>Maidstone Museum</repository>
-            <idno>MS 6</idno>
+            <idno>6</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="MaidstA13">
@@ -29792,7 +29613,7 @@
             <country>UK</country>
             <settlement>Maidstone, Kent</settlement>
             <repository>Maidstone Museum</repository>
-            <idno>MS A.13</idno>
+            <idno>A.13</idno>
         </msIdentifier>
         <lang>
             <bibl key="LAEME">LAEME</bibl> Index # 66; <langGrid>Grid 449 243</langGrid>
@@ -29809,11 +29630,6 @@
             <idno>K.A.O. U 182 Z1</idno>
         </msIdentifier>
         <head>A rent roll</head>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">K.A.O. U 182 Z1 (a rent roll)</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="ManCent82211">
         <msIdentifier>
@@ -29826,19 +29642,16 @@
     </msDesc>
     <msDesc xml:id="Yates">
         <msIdentifier>
-            <country>UK</country>
-            <settlement>Manchester</settlement>
-            <repository>W. Yates, Manchester</repository>
+            <country>unknown</country>
+            <settlement>unknown</settlement>
+            <repository>Private collection</repository>
+            <altIdentifier type="former">
+                <idno>W. Yates</idno>
+            </altIdentifier>
         </msIdentifier>
         <history>
-            <provenance>sold 1893</provenance>
+            <provenance>Sold 1893</provenance>
         </history>
-        <additional>
-            <adminInfo>
-                <note>Present location unknown</note>
-                <note type="legacy-desc">sold 1893 (present location unknown)</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="Chetham6696">
         <msIdentifier>
@@ -30117,8 +29930,7 @@
         <head>Scottish Feilde</head>
         <additional>
             <adminInfo>
-                <note>On deposit</note>
-                <note type="legacy-desc">Lyme Hall (Legh), <hi rend="italic">Scottish Feilde</hi> (on deposit)</note>
+                <note>Deposit</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -30197,11 +30009,12 @@
             <country>UK</country>
             <settlement>Nottingham</settlement>
             <repository>Nottingham University Library</repository>
-            <idno>Middleton Dc 7</idno>
+            <idno>Mi. Dc 7</idno>
             <altIdentifier type="former">
-                <idno>Wollaton Hall, Register of Abbey of Burton-on-Trent</idno>
+                <idno>Wollaton Hall</idno>
             </altIdentifier>
         </msIdentifier>
+        <head>Register of Abbey of Burton-on-Trent</head>
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> 1.144 (<place country="England" county="Staffordshire">Staffs</place>: ff. 12v, 14v, 20, 21, 26, 27v, 35v, 36v-37v);
             1.144 ('Language probably of <place town="Burton">Burton</place>, <place country="England" county="Staffordshire">Staffs</place>': ff. 12v, item 3; ff.
@@ -30212,7 +30025,7 @@
             <country>UK</country>
             <settlement>Nottingham</settlement>
             <repository>Nottingham University Library</repository>
-            <idno>Middleton Lm 7/1</idno>
+            <idno>Mi. Lm 7/1</idno>
             <altIdentifier type="former">
                 <idno>Wollaton Hall</idno>
             </altIdentifier>
@@ -30223,7 +30036,7 @@
             <country>UK</country>
             <settlement>Nottingham</settlement>
             <repository>Nottingham University Library</repository>
-            <idno>Middleton Lm 8</idno>
+            <idno>Mi. Lm 8</idno>
             <altIdentifier type="former">
                 <idno>Wollaton Hall</idno>
             </altIdentifier>
@@ -30234,7 +30047,7 @@
             <country>UK</country>
             <settlement>Nottingham</settlement>
             <repository>Nottingham University Library</repository>
-            <idno>Middleton Lm 9</idno>
+            <idno>Mi. Lm 9</idno>
             <altIdentifier type="former">
                 <idno>Wollaton Hall</idno>
             </altIdentifier>
@@ -30248,12 +30061,6 @@
             <idno>Middleton Mi 01</idno>
         </msIdentifier>
         <head>Commission of sewers for the wapentakes of Bingham and Newark, Nottinghamshire</head>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">Middleton Mi 01 [commission of sewers for the wapentakes of Bingham and Newark,
-            Nottinghamshire]</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="Aylesford">
         <msIdentifier>
@@ -30285,7 +30092,7 @@
             <settlement>Petworth, West Sussex</settlement>
             <repository>Petworth House and Park (National Trust)</repository>
             <idno>National Trust 3242251</idno>
-            <msName>The Leconfield Chaucer</msName>
+            <msName>Leconfield Chaucer</msName>
             <altIdentifier type="former">
                 <idno>Petworth MS 7</idno>
             </altIdentifier>
@@ -30359,7 +30166,7 @@
             <country>UK</country>
             <settlement>St Andrews</settlement>
             <repository>St Andrews University Library</repository>
-            <idno>MS 38660</idno>
+            <idno>38660</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Salisb82">
@@ -30443,8 +30250,7 @@
         <head>Land grant</head>
         <additional>
             <adminInfo>
-                <note>on deposit from Whitchurch Free Library</note>
-                <note type="legacy-desc">3232/3 [a land grant, on deposit from Whitchurch Free Library]</note>
+                <note>Deposit from Whitchurch Free Library</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -30459,11 +30265,6 @@
             </altIdentifier>
         </msIdentifier>
         <head>Rental roll</head>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">Deeds No. 16329 (rental roll) [<hi rend="italic">olim</hi> Lilleshall Abbey]</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="SouthCL1597">
         <msIdentifier>
@@ -30561,7 +30362,7 @@
             <country>UK</country>
             <settlement>Taunton</settlement>
             <repository>Somerset Records Office</repository>
-            <idno>MS D/B/bw 123</idno>
+            <idno>D/B/bw 123</idno>
             <altIdentifier type="former">
                 <idno>Bridgewater, Corporation Muniments 123</idno>
             </altIdentifier>
@@ -30572,12 +30373,10 @@
             <country>UK</country>
             <settlement>Uppington</settlement>
             <repository>Uppington School archives</repository>
-            <idno>unknown</idno>
         </msIdentifier>
         <additional>
             <adminInfo>
                 <note>Missing</note>
-                <note type="legacy-desc">(currently missing)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -30888,9 +30687,10 @@
             <repository>York Minster Library</repository>
             <idno>XI.O.28</idno>
         </msIdentifier>
+        <head>Horae ad usum Eborum (Rouen, 1516?)</head>
         <additional>
             <adminInfo>
-                <note type="legacy-desc">XI.O.28 [A copy of Horae ad usum Eborum (Rouen, 1516?)]</note>
+                <note type="editorial">printed book</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -30906,9 +30706,6 @@
                 (<place country="England" county="Nottinghamshire">Notts</place>: Hand E, ff.
             129-144v); 1.168 ('Language is of S <place country="England" county="Shropshire">Salop</place> or NE <place country="England" county="Herefordshire">Herefords</place>').</lang>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">XVI.E.32</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://www.calmview.eu/YorkMinster/Record.aspx?src=CalmView.Catalog&amp;id=MSS+XVI%2fE%2f32&amp;pos=1"/>
@@ -30929,9 +30726,6 @@
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> 1.168-9 (<place town="York" county="Yorkshire" country="England">York</place>).</lang>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">XVI.K.6 [formerly XVI.G.5]</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://www.calmview.eu/YorkMinster/Record.aspx?src=CalmView.Catalog&amp;id=MSS+XVI%2fK%2f6&amp;pos=1"/>
@@ -30947,9 +30741,6 @@
             <idno>XVI/I/12</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">XVI.I.12</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://www.calmview.eu/YorkMinster/Record.aspx?src=CalmView.Catalog&amp;id=MSS+XVI%2fI%2f12&amp;pos=1"/>
@@ -30965,9 +30756,6 @@
             <idno>XVI/K/16</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">XVI.K.16</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://www.calmview.eu/YorkMinster/Record.aspx?src=CalmView.Catalog&amp;id=MSS+XVI%2fK%2f16&amp;pos=1"/>
@@ -30983,9 +30771,6 @@
             <idno>XVI/L/12</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">XVI.L.12</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://www.calmview.eu/YorkMinster/Record.aspx?src=CalmView.Catalog&amp;id=MSS+XVI%2fL%2f12&amp;pos=1"/>
@@ -31003,9 +30788,6 @@
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 1002; <langGrid>Grid 460 452</langGrid> (<place town="York" county="Yorkshire" country="England">York</place>).</lang>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">XVI.M.4</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://www.calmview.eu/YorkMinster/Record.aspx?src=CalmView.Catalog&amp;id=MSS+XVI%2fM%2f4&amp;pos=1"/>
@@ -31021,9 +30803,6 @@
             <idno>XVI/O/10</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">XVI.O.10</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://www.calmview.eu/YorkMinster/Record.aspx?src=CalmView.Catalog&amp;id=MSS+XVI%2fO%2f10&amp;pos=1"/>
@@ -31036,11 +30815,10 @@
             <country>UK</country>
             <settlement>York</settlement>
             <repository>York Minster</repository>
-            <idno>unknown</idno>
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>now missing, and considered lost since Raine's edition</note>
+                <note>Missing; considered lost since Raine's edition</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -31049,7 +30827,7 @@
             <country>USA</country>
             <settlement>Ann Arbor, MI</settlement>
             <repository>University of Michigan Library</repository>
-            <idno>MS 225</idno>
+            <idno>225</idno>
         </msIdentifier>
         <additional>
             <surrogates>
@@ -31088,7 +30866,10 @@
                 <idno>Chicago, Newberry Library, Louis H. Silver 2</idno>
             </altIdentifier>
             <altIdentifier type="former">
-                <idno>Philadelphia, Rosenbach Museum and Library 159, prior Phillipps 6750</idno>
+                <idno>Philadelphia, Rosenbach Museum and Library, 159</idno>
+            </altIdentifier>
+            <altIdentifier type="former">
+                <idno>Phillipps 6750</idno>
             </altIdentifier>
         </msIdentifier>
         <lang>The spellings are similar to those of <mss key="NLWPen393"/> and <mss key="HunEL26C9"/> with some additional evidence of the influence of Type IV <place country="England" town="London">London</place> English (see <bibl key="Mosser2010"/>)</lang>
@@ -31149,7 +30930,10 @@
                 <idno>Phillipps 8118</idno>
             </altIdentifier>
             <altIdentifier type="former">
-                <idno>Bodmer; olim John Gribbel, Philadelphia</idno>
+                <idno>Bodmer</idno>
+            </altIdentifier>
+            <altIdentifier type="former">
+                <idno>John Gribbel</idno>
             </altIdentifier>
         </msIdentifier>
         <history>
@@ -31173,12 +30957,9 @@
             <country>USA</country>
             <settlement>Bethesda, MD</settlement>
             <repository>National Library of Medicine</repository>
-            <idno>MS E 49</idno>
+            <idno>E 49</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">49</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://catalog.nlm.nih.gov/permalink/01NLM_INST/7b9jl0/alma999411033406676"/>
@@ -31191,12 +30972,12 @@
             <country>USA</country>
             <settlement>Bethesda, MD</settlement>
             <repository>National Library of Medicine</repository>
-            <idno>MS E 4</idno>
+            <idno>E 4</idno>
             <altIdentifier type="former">
                 <idno>514</idno>
             </altIdentifier>
             <altIdentifier type="former">
-                <idno>MS. 4</idno>
+                <idno>MS 4</idno>
             </altIdentifier>
         </msIdentifier>
         <additional>
@@ -31634,7 +31415,7 @@
             <country>USA</country>
             <settlement>Cambridge, MA</settlement>
             <repository>Harvard University, Law School Library</repository>
-            <idno>MS 6</idno>
+            <idno>6</idno>
         </msIdentifier>
         <additional>
             <surrogates>
@@ -31654,7 +31435,7 @@
             <country>USA</country>
             <settlement>Cambridge, MA</settlement>
             <repository>Harvard University, Law School Library</repository>
-            <idno>MS 58</idno>
+            <idno>58</idno>
         </msIdentifier>
         <additional>
             <surrogates>
@@ -31674,7 +31455,7 @@
             <country>USA</country>
             <settlement>Cambridge, MA</settlement>
             <repository>Harvard University, Widener Library</repository>
-            <idno>MS 1</idno>
+            <idno>1</idno>
             <altIdentifier type="former">
                 <idno>Brough Hall</idno>
             </altIdentifier>
@@ -31697,7 +31478,7 @@
             <country>USA</country>
             <settlement>Cambridge, MA</settlement>
             <repository>Harvard University</repository>
-            <idno>MS Engl 1507</idno>
+            <idno>Engl 1507</idno>
             <altIdentifier type="former">
                 <idno>H.C.L. 25258.27.5</idno>
             </altIdentifier>
@@ -31792,7 +31573,10 @@
                 <idno>C. 19169</idno>
             </altIdentifier>
             <altIdentifier type="former">
-                <idno>Peterborough Public Library; Hope Allen Additional MS I</idno>
+                <idno>Peterborough Public Library</idno>
+            </altIdentifier>
+            <altIdentifier type="former">
+                <idno>Hope Allen Additional MS I</idno>
             </altIdentifier>
         </msIdentifier>
         <lang>
@@ -32082,16 +31866,13 @@
             <repository>Beinecke Library</repository>
             <idno>15</idno>
             <altIdentifier type="former">
-                <idno>Phillipps 9520</idno>
+                <idno>Z109.150</idno>
             </altIdentifier>
             <altIdentifier type="former">
-                <idno>Z109.150</idno>
+                <idno>Phillipps 9520</idno>
             </altIdentifier>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">15 [<hi rend="italic">olim</hi> Phillipps 9520; <hi rend="italic">post</hi> Z109.150]</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://collections.library.yale.edu/catalog/11684571"/>
@@ -32316,19 +32097,11 @@
             <settlement>New Haven, CT</settlement>
             <repository>Beinecke Library</repository>
             <idno>492</idno>
-            <altIdentifier type="former">
-                <idno>Brooke</idno>
-            </altIdentifier>
         </msIdentifier>
         <history>
-            <provenance>Sold Sotheby's 1921; olim Harmsworth (sold Sotheby's 1945); George Smith of Marlborough (sold Sotheby's Feb. 2, 1960, Lot 317); Bodmer</provenance>
+            <provenance>olim Brooke (sold Sotheby's 1921); Harmsworth (sold Sotheby's 1945); George Smith of Marlborough (sold Sotheby's Feb. 2, 1960, Lot 317); Bodmer</provenance>
         </history>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">492 [<hi rend="italic">olim</hi> Brooke (sold Sotheby's 1921); Harmsworth (sold Sotheby's
-            1945); George Smith of Marlborough (sold Sotheby's Feb. 2, 1960, Lot 317);
-            Bodmer]</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://collections.library.yale.edu/catalog/2052958"/>
@@ -32756,7 +32529,7 @@
             <repository>Beinecke Library</repository>
             <idno>Beinecke 2008 2479</idno>
         </msIdentifier>
-        <head>De regulis iuris, Dinus de Mugello, Lyons, 1562</head>
+        <head>Dinus de Mugello, De regulis iuris (Lyons, 1562)</head>
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
@@ -32775,13 +32548,15 @@
             <repository>Beinecke Library</repository>
             <idno>Takamiya 70</idno>
             <altIdentifier type="former">
-                <idno>Columbia University Library, MS Plimpton 39</idno>
+                <idno>Plimpton 39</idno>
             </altIdentifier>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">Plimpton 39</note>
-            </adminInfo>
+            <listBibl type="catalogue">
+                <bibl>
+                    <ref target="https://search.library.yale.edu/catalog/99122809563408651"/>
+                </bibl>
+            </listBibl>
         </additional>
     </msDesc>
     <msDesc xml:id="Plimpton80">
@@ -32843,9 +32618,6 @@
             <idno>Plimpton 256a</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">Plimpton 256</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://clio.columbia.edu/catalog/17016760"/>
@@ -33313,13 +33085,15 @@
             <country>USA</country>
             <settlement>New York, NY</settlement>
             <repository>Pierpont Morgan Library</repository>
-            <idno>PML 722</idno>
+            <idno>ChL 1799</idno>
+            <altIdentifier>
+                <idno>PML 722</idno>
+            </altIdentifier>
         </msIdentifier>
         <head>STC 5065</head>
         <additional>
             <adminInfo>
-                <note type="editorial">ChL 1799; Printed book</note>
-                <note type="legacy-desc">PML 722 (ChL 1799: a copy of <mss key="STC5065"/>)</note>
+                <note type="editorial">Printed book</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -33497,16 +33271,15 @@
             <country>USA</country>
             <settlement>New York, NY</settlement>
             <repository>Pierpont Morgan Library</repository>
-            <idno>Acc. No. 676</idno>
+            <idno>ChL 1759</idno>
             <altIdentifier>
-                <idno>Ch. L. 1759</idno>
+                <idno>676</idno>
             </altIdentifier>
         </msIdentifier>
         <head>STC 6826</head>
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">Acc. No. 676 [Ch. L. 1759] (copy of STC 6826)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -33515,13 +33288,15 @@
             <country>USA</country>
             <settlement>New York, NY</settlement>
             <repository>Pierpont Morgan Library</repository>
-            <idno>Acc. No. 698</idno>
+            <idno>ChL1789</idno>
+            <altIdentifier>
+                <idno>PML 698</idno>
+            </altIdentifier>
         </msIdentifier>
-        <head>STC 21429</head>
+        <head>The Ryal Book (trans. and printed William Caxton) (STC 21429)</head>
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">Acc. No. 698 (copy of STC 21429)</note>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -33535,13 +33310,18 @@
             <country>USA</country>
             <settlement>New York, NY</settlement>
             <repository>Pierpont Morgan Library</repository>
-            <idno>Acc. No. 775</idno>
+            <idno>ChL1766 (Copy 1)</idno>
+            <altIdentifier>
+                <idno>PML 775</idno>
+            </altIdentifier>
+            <altIdentifier type="former">
+                <idno>ChL 1766a</idno>
+            </altIdentifier>
         </msIdentifier>
         <head>STC 3199</head>
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">Acc. No. 775 (copy of STC 3199)</note>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -33573,18 +33353,15 @@
             <country>USA</country>
             <settlement>New York, NY</settlement>
             <repository>Pierpont Morgan Library</repository>
-            <idno>PML 35083</idno>
+            <idno>ChL1787 (Copy 1)</idno>
             <altIdentifier>
-                <idno>Ch. L 1787</idno>
+                <idno>PML 35083</idno>
             </altIdentifier>
             <altIdentifier type="former">
-                <idno>Earl of Oxford, Joseph Brereton, and the Earl of Dysart</idno>
+                <idno>Earl of Dysart</idno>
             </altIdentifier>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">PML 35083 [ChL1787; <hi rend="italic">olim</hi> Earl of Oxford, Joseph Brereton, and the Earl of Dysart]</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://corsair.themorgan.org/vwebv/holdingsInfo?bibId=135805"/>
@@ -33747,7 +33524,7 @@
             <country>USA</country>
             <settlement>New York, NY</settlement>
             <repository>New York Public Library</repository>
-            <idno>MS 120</idno>
+            <idno>120</idno>
         </msIdentifier>
         <additional>
             <surrogates>
@@ -33762,7 +33539,7 @@
             <country>USA</country>
             <settlement>New York, NY</settlement>
             <repository>New York Public Library</repository>
-            <idno>MS 146</idno>
+            <idno>146</idno>
         </msIdentifier>
         <additional>
             <surrogates>
@@ -33821,32 +33598,6 @@
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://openn.library.upenn.edu/Data/0023/html/lewis_t487.html"/>
-                </bibl>
-            </listBibl>
-        </additional>
-    </msDesc>
-    <msDesc xml:id="PhilRos678">
-        <msIdentifier>
-            <country>USA</country>
-            <settlement>Philadelphia, PA</settlement>
-            <repository>Rosenbach Museum and Library</repository>
-            <idno>678</idno>
-            <altIdentifier type="former">
-                <idno>Heber Incunabula</idno>
-            </altIdentifier>
-        </msIdentifier>
-        <history>
-            <provenance>Sotheby's Sale Cat. 1834, Part III, No. 810</provenance>
-        </history>
-        <additional>
-            <adminInfo>
-                <note type="editorial">Now at Princeton as Taylor RHT 16TH-86? (DUPLICATE ENTRY?)</note>
-                <note type="legacy-desc">678, Boethius, De Disciplina Scholarum, Deventer 1496, [<hi rend="italic">olim</hi> Heber Incunabula,
-            Sotheby's Sale Cat. 1834, Part III, No. 810]</note>
-            </adminInfo>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://catalog.princeton.edu/catalog/9933152473506421"/>
                 </bibl>
             </listBibl>
         </additional>
@@ -34046,7 +33797,10 @@
                 <idno>Eng. 6</idno>
             </altIdentifier>
             <altIdentifier type="former">
-                <idno>T. Edward Ross; olim Gilbert, Bishop of Bath and Wells</idno>
+                <idno>T. Edward Ross</idno>
+            </altIdentifier>
+            <altIdentifier type="former">
+                <idno>Gilbert, Bishop of Bath and Wells</idno>
             </altIdentifier>
         </msIdentifier>
         <additional>
@@ -34101,7 +33855,10 @@
                 <idno>Lat. 33</idno>
             </altIdentifier>
             <altIdentifier type="former">
-                <idno>Harmsworth; olim Dewick</idno>
+                <idno>Harmsworth</idno>
+            </altIdentifier>
+            <altIdentifier type="former">
+                <idno>Dewick</idno>
             </altIdentifier>
         </msIdentifier>
         <history>
@@ -34127,7 +33884,7 @@
             <repository>University of Pennsylvania Library</repository>
             <idno>Codex 680</idno>
             <altIdentifier type="former">
-                <idno>MS Lat. 35</idno>
+                <idno>Lat. 35</idno>
             </altIdentifier>
             <altIdentifier type="former">
                 <idno>Lyell</idno>
@@ -34137,9 +33894,6 @@
             <provenance>Quaritch Sale Cat. 699, Item 61</provenance>
         </history>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">Lat. 35 [<hi rend="italic">olim</hi> Lyell; Quaritch Sale Cat. 699, Item 61]</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://find.library.upenn.edu/catalog/9924874663503681?hld_id=22283357630003681"/>
@@ -34168,19 +33922,6 @@
                     <ref target="https://find.library.upenn.edu/catalog/9915804573503681"/>
                 </bibl>
             </listBibl>
-        </additional>
-    </msDesc>
-    <msDesc xml:id="PUL21">
-        <msIdentifier>
-            <country>USA</country>
-            <settlement>Princeton, NJ</settlement>
-            <repository>Princeton University Library</repository>
-            <idno>21</idno>
-        </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note type="editorial">DELETE AS UNCITED DUPLICATE</note>
-            </adminInfo>
         </additional>
     </msDesc>
     <msDesc xml:id="PUL93">
@@ -34625,11 +34366,6 @@
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 598; <langGrid>Grid 366 492</langGrid> (<place country="England" county="Yorkshire, North West">NWY</place>).</lang>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">Taylor Medieval 11 [<hi rend="italic">olim</hi> Petre, <hi rend="italic">olim</hi> Sotheby's Sale, 10 March
-            1952, Lot 143, <hi rend="italic">olim</hi> Quaritch Sale Cat. 704, Item 350, <hi rend="italic">olim</hi> Laurence
-            Witten]</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://catalog.princeton.edu/catalog/99111942213506421"/>
@@ -34671,16 +34407,18 @@
             <settlement>Princeton, NJ</settlement>
             <repository>Princeton University Library</repository>
             <idno>Taylor RHT 16TH-86</idno>
-            <msName>Taylor Sammelband</msName>
             <altIdentifier type="former">
                 <idno>Taylor B 741</idno>
             </altIdentifier>
+            <altIdentifier type="former">
+                <idno>John F. Fleming</idno>
+            </altIdentifier>
+            <altIdentifier type="former">
+                <idno>Rosenbach Museum and Library, 678</idno>
+            </altIdentifier>
+            <msName>Taylor Sammelband</msName>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">Taylor B 741 (<hi rend="italic">Boethius de disciplina scholarium</hi>; Deventer, 1496) [<hi rend="italic">olim</hi>
-            Rosenbach Foundation 678; <hi rend="italic">olim</hi> John F. Fleming]</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://catalog.princeton.edu/catalog/9933152473506421"/>
@@ -34743,9 +34481,6 @@
             </altIdentifier>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">EL 26.A.17 [<hi rend="italic">olim</hi> Bridgewater; the 'Stafford Gower']</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://cdm16003.contentdm.oclc.org/digital/collection/p15150coll7/id/49011"/>
@@ -34770,9 +34505,6 @@
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> (part of) LP 6400; <langGrid>Grid 532
                 183</langGrid> (<place town="London" country="England">London</place>).</lang>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">EL 26.C.9 ['Ellesmere']</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://hdl.huntington.org/digital/collection/p15150coll7/id/2838"/>
@@ -35601,7 +35333,10 @@
                 <idno>Phillipps 11929</idno>
             </altIdentifier>
             <altIdentifier type="former">
-                <idno>Greene, olim Yates</idno>
+                <idno>Greene</idno>
+            </altIdentifier>
+            <altIdentifier type="former">
+                <idno>Yates</idno>
             </altIdentifier>
         </msIdentifier>
         <lang>
@@ -35998,12 +35733,11 @@
             <settlement>San Marino, CA</settlement>
             <repository>Huntington Library</repository>
             <idno>Rare Books 14195</idno>
-            <msName>STC 10606</msName>
         </msIdentifier>
+        <head>STC 10606</head>
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">R.B. 14195 (STC10606)</note>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -36018,12 +35752,11 @@
             <settlement>San Marino, CA</settlement>
             <repository>Huntington Library</repository>
             <idno>Rare Books 82241</idno>
-            <msName>STC 19767.3</msName>
         </msIdentifier>
+        <head>Rudimenta grammatices (STC 19767.3)</head>
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">R.B. 82241 (STC197673)</note>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -36038,12 +35771,11 @@
             <settlement>San Marino, CA</settlement>
             <repository>Huntington Library</repository>
             <idno>Rare Books 34001</idno>
-            <msName>STC 3175</msName>
         </msIdentifier>
+        <head>Lydgate, Fall of Princes (STC 3175)</head>
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">R.B. 82241 (STC 3175)</note>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -36112,7 +35844,10 @@
                 <idno>Duke of Buccleuch</idno>
             </altIdentifier>
             <altIdentifier type="former">
-                <idno>Lord Amherst of Hackney; olim Harmsworth</idno>
+                <idno>Lord Amherst of Hackney</idno>
+            </altIdentifier>
+            <altIdentifier type="former">
+                <idno>Harmsworth</idno>
             </altIdentifier>
         </msIdentifier>
         <history>
@@ -36226,7 +35961,10 @@
                 <idno>SM.1</idno>
             </altIdentifier>
             <altIdentifier type="former">
-                <idno>Phillipps 8942; post Rosenbach</idno>
+                <idno>Phillipps 8942</idno>
+            </altIdentifier>
+            <altIdentifier type="former">
+                <idno>Rosenbach</idno>
             </altIdentifier>
         </msIdentifier>
         <additional>
@@ -36275,19 +36013,18 @@
                 <idno>De Ricci 8</idno>
             </altIdentifier>
             <altIdentifier type="former">
-                <idno>Harmsworth, olim Beeleigh Abbey</idno>
+                <idno>Harmsworth</idno>
+            </altIdentifier>
+            <altIdentifier type="former">
+                <idno>Beeleigh Abbey</idno>
             </altIdentifier>
         </msIdentifier>
         <history>
-            <provenance>sold Christie's June 2000 to Wellesley</provenance>
+            <provenance>Sold Christie's June 2000 to Wellesley</provenance>
         </history>
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 599 (<place country="England" county="Northern">NME</place>).</lang>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">
-               Wellesley College 8 [De Ricci 8; <hi rend="italic">olim</hi> Harmsworth, <hi rend="italic">olim</hi> Beeleigh Abbey, sold Christie's June 2000 to Wellesley]</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://repository.wellesley.edu/object/wellesley22855"/>
@@ -36327,7 +36064,7 @@
             <repository>Museum Plantin-Moretus</repository>
             <idno>M 305</idno>
             <altIdentifier type="former">
-                <idno>MS lat. 57</idno>
+                <idno>lat. 57</idno>
             </altIdentifier>
         </msIdentifier>
     </msDesc>
@@ -36922,7 +36659,7 @@
             <country>Germany</country>
             <settlement>Göttingen</settlement>
             <repository>Niedersächsische Staats- und Universitätsbibliothek</repository>
-            <idno>MS 2o Cod. hist. 740 Cim.</idno>
+            <idno>2o Cod. hist. 740 Cim.</idno>
         </msIdentifier>
         <additional>
             <surrogates>
@@ -37050,16 +36787,11 @@
             <country>Ireland</country>
             <settlement>Dublin</settlement>
             <repository>Christ Church Cathedral</repository>
-            <idno>none</idno>
-            <altIdentifier type="former">
-                <idno>Vellum Account Roll 1337-1346</idno>
-            </altIdentifier>
+            <idno>Vellum Account Roll 1337-1346</idno>
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Burned in 1922</note>
-                <note type="legacy-desc">
-                    <hi rend="italic">olim</hi> Vellum Account Roll 1337-1346 [burned in 1922]</note>
+                <note>Destroyed by fire in 1922</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -37127,11 +36859,10 @@
             <country>Ireland</country>
             <settlement>Dublin</settlement>
             <repository>?State Paper Office (c. 1600)</repository>
-            <idno>unknown</idno>
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note type="legacy-desc">(present location unknown)</note>
+                <note>Present location unknown</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -37964,7 +37695,6 @@
             <country>Japan</country>
             <settlement>Tokyo</settlement>
             <repository>Keio University Library</repository>
-            <idno>Hopton Hall MS</idno>
             <altIdentifier type="former">
                 <idno>Hopton Hall</idno>
             </altIdentifier>
@@ -37985,7 +37715,7 @@
             <country>Japan</country>
             <settlement>Tokyo</settlement>
             <repository>Senshu University Library</repository>
-            <idno>Senshu University MS 1</idno>
+            <idno>1</idno>
             <altIdentifier type="former">
                 <idno>Schøyen 194</idno>
             </altIdentifier>
@@ -38016,8 +37746,7 @@
         </history>
         <additional>
             <adminInfo>
-                <note type="legacy-desc">1677/2 [<hi rend="italic">olim</hi> Phillipps (single leaf), sold Sotheby's, London, 21-2 June
-            1993, lot 49]</note>
+                <note type="editorial">Single leaf</note>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -38059,9 +37788,6 @@
             </altIdentifier>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">iv.a.24</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://rbme.patrimonionacional.es/s/rbme/item/15082"/>
@@ -38082,9 +37808,6 @@
             <idno>g-II-19</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">G.II.19</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://rbme.patrimonionacional.es/s/rbme/item/13591"/>
@@ -38202,8 +37925,8 @@
         <msIdentifier>
             <country>Switzerland</country>
             <settlement>Cologny (Geneva)</settlement>
-            <repository>Private owner</repository>
-            <idno>Martin Bodmer MS CB 178</idno>
+            <repository>Martin Bodmer (private collection)</repository>
+            <idno>CB 178</idno>
             <altIdentifier type="former">
                 <idno>Gurney 121</idno>
             </altIdentifier>
@@ -38341,9 +38064,8 @@
         <additional>
             <adminInfo>
                 <note>Untraced</note>
-                <note type="editorial">See <bibl key="Furnivall1865b"/>
+                <note>See <bibl key="Furnivall1865b"/>
                 </note>
-                <note type="legacy-desc">Sir John Fenn's Letters, fragments of early prints (see <bibl key="Furnivall1865b"/>)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -38362,8 +38084,7 @@
         </history>
         <additional>
             <adminInfo>
-                <note type="legacy-desc">
-                    <hi rend="italic">olim</hi> T. Gray (Maggs cat. 456, item 184; present location unknown)</note>
+                <note>Present location unknown</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -38405,21 +38126,18 @@
             <country>unknown</country>
             <settlement>unknown</settlement>
             <repository>unknown</repository>
-            <idno>Maggs Sale Cat. 816 (1953), item 150</idno>
         </msIdentifier>
         <head>Fall of Princes (fragment)</head>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">Maggs Sale Cat. 816 (1953), item 150, <hi rend="italic">Fall of Princes</hi> fragment</note>
-            </adminInfo>
-        </additional>
+        <history>
+            <provenance>Maggs Sale Cat. 816 (1953), item 150</provenance>
+        </history>
     </msDesc>
     <msDesc xml:id="Mostyn85">
         <msIdentifier>
             <country>UK</country>
             <settlement>Aberystwyth</settlement>
             <repository>National Library of Wales</repository>
-            <idno>MS 21242C</idno>
+            <idno>21242C</idno>
             <altIdentifier type="former">
                 <idno>Mostyn Hall 85</idno>
             </altIdentifier>
@@ -38464,9 +38182,10 @@
             <settlement>unknown</settlement>
             <repository>unknown</repository>
             <altIdentifier type="former">
-                <idno>Oxford Bodleian Library Rawlinson fragment of Sir Tryamour</idno>
+                <idno>Oxford, Bodleian Library, Rawlinson collection</idno>
             </altIdentifier>
         </msIdentifier>
+        <head>Sir Tryamour (fragment)</head>
     </msDesc>
     <msDesc xml:id="BodRawShires">
         <msIdentifier>
@@ -38501,11 +38220,6 @@
         <history>
             <provenance>Sotheby's 5 April 1976, lot 623</provenance>
         </history>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">Sotheby's 5 April 1976, lot 623, <hi rend="italic">Fall of Princes</hi> fragment</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="Sotheby1983">
         <msIdentifier>
@@ -38517,11 +38231,6 @@
         <history>
             <provenance>Sotheby's 6 Dec. 1983, lot 20</provenance>
         </history>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">Sotheby's 6 Dec. 1983, lot 20, <hi rend="italic">Fall of Princes</hi> fragment</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="StockdPs">
         <msIdentifier>
@@ -38550,17 +38259,16 @@
             <repository>Princeton University Library</repository>
             <idno>Robert H. Taylor MS 17</idno>
             <altIdentifier type="former">
-                <idno>Thompson (Portland, Oregon)</idno>
+                <idno>Thompson</idno>
             </altIdentifier>
             <altIdentifier type="former">
-                <idno>Amherst 20; prior Phillipps</idno>
+                <idno>Amherst 20</idno>
+            </altIdentifier>
+            <altIdentifier type="former">
+                <idno>Phillipps</idno>
             </altIdentifier>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc"> University Library, Robert H. Taylor MS 17 (<hi rend="italic">olim</hi> Thompson (Portland, Oregon) [<hi rend="italic">olim</hi> Amherst 20 <hi rend="italic">prior</hi>
-            Phillipps])</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://catalog.princeton.edu/catalog/99113641203506421#view"/>
@@ -38583,11 +38291,6 @@
         <history>
             <provenance>Tregaskis Sale Cat., 1919</provenance>
         </history>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">Tregaskis Sale Cat., 1919, <hi rend="italic">Fall of Princes</hi> fragment</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="Witten5It47">
         <msIdentifier>
@@ -38630,13 +38333,6 @@
         <history>
             <provenance>Harmsworth Sale, Lot 2018, Oct. 1945; Sotheby Sale, Feb. 2, 1960, Lot 317, Art. 3</provenance>
         </history>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">
-                    <hi rend="italic">olim</hi> George Smith [Harmsworth Sale, Lot 2018, Oct. 1945; Sotheby Sale, Feb. 2,
-            1960, Lot 317], Art. 3</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="Dod">
         <msIdentifier>
@@ -38650,9 +38346,7 @@
         <additional>
             <adminInfo>
                 <note>Unidentified, missing or destroyed</note>
-                <note type="legacy-desc">
-                    <hi rend="italic">olim</hi> J. W. Dod (<bibl key="Hamer1995"/> lists as unidentified, missing or
-            destroyed)</note>
+                <note type="editorial">Hamer's Manuscript Index lists as unidentified, missing or destroyed.</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -38698,7 +38392,7 @@
         <msIdentifier>
             <country>unknown</country>
             <settlement>unknown</settlement>
-            <repository>unknown</repository>
+            <repository>Private collection</repository>
             <altIdentifier type="former">
                 <idno>Castle Howard (Earl of Carlisle)</idno>
             </altIdentifier>
@@ -38742,7 +38436,7 @@
         <msIdentifier>
             <country>unknown</country>
             <settlement>unknown</settlement>
-            <repository>unknown</repository>
+            <repository>Private collection</repository>
             <altIdentifier type="former">
                 <idno>Fellowes</idno>
             </altIdentifier>
@@ -38777,8 +38471,7 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Missing, lost, or destroyed. No known MS survives or MS not identified</note>
-                <note type="legacy-desc">No known MS survives or MS not identified</note>
+                <note>Unidentified, missing, or destroyed</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -38798,7 +38491,7 @@
             <settlement>unknown</settlement>
             <repository>unknown</repository>
             <altIdentifier type="former">
-                <idno>Prince Frederick Duleep Singh's MS, Old Buckenham Hall, Norfolk</idno>
+                <idno>Prince Frederick Duleep Singh, Old Buckenham Hall, Norfolk</idno>
             </altIdentifier>
         </msIdentifier>
         <history>
@@ -38820,15 +38513,16 @@
     </msDesc>
     <msDesc xml:id="Sharp">
         <msIdentifier>
-            <country>UK</country>
-            <settlement>Coventry</settlement>
-            <repository>MS formerly owned by Thomas Sharp</repository>
-            <idno>none</idno>
+            <country>none</country>
+            <settlement>none</settlement>
+            <repository>none</repository>
+            <altIdentifier type="former">
+                <idno>Thomas Sharp</idno>
+            </altIdentifier>
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Burned in 1879</note>
-                <note type="legacy-desc">(burned in 1879)</note>
+                <note>Destroyed by fire in 1879</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -38927,7 +38621,7 @@
             <country>UK</country>
             <settlement>Edinburgh</settlement>
             <repository>Scottish Register House</repository>
-            <idno>MS GD 112/71/9</idno>
+            <idno>GD 112/71/9</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="HunRB60363">
@@ -38941,8 +38635,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">Poem added in sixteenth-century hand to Huntington copy of <mss key="STC4115"/>
-                </note>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -38962,8 +38654,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">Poem added in fifteenth-century hand to Huntington copy of <mss key="STC24875"/>
-                </note>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -38977,16 +38667,10 @@
             <country>unknown</country>
             <settlement>unknown</settlement>
             <repository>unknown</repository>
+            <altIdentifier type="former">
+                <idno>Earl of Anglesey (manuscript 33 in the list of his sale)</idno>
+            </altIdentifier>
         </msIdentifier>
-        <history>
-            <provenance>olim Earl of Anglesey, d. 1684 (MS. 33 in list of his sale)</provenance>
-        </history>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">
-                    <hi rend="italic">olim</hi> Anglesey, Earl of, d. 1684 (MS. 33 in list of his sale)</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="Haryngton">
         <msIdentifier>
@@ -38996,7 +38680,7 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note type="editorial">written by Sir James Haryngton</note>
+                <note>Written by Sir James Haryngton</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -39043,9 +38727,12 @@
         <msIdentifier>
             <country>unknown</country>
             <settlement>unknown</settlement>
-            <repository>olim Edward Peacock</repository>
-            <idno>MS Calendar, ca. 1400</idno>
+            <repository>unknown</repository>
+            <altIdentifier type="former">
+                <idno>Edward Peacock</idno>
+            </altIdentifier>
         </msIdentifier>
+        <head>Calendar, ca. 1400</head>
     </msDesc>
     <msDesc xml:id="StaffordRODW1734">
         <msIdentifier>
@@ -39089,7 +38776,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">Inc. 5. J. 1. 2. (3569) (printed <mss key="STC17032a"/>)</note>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -39103,7 +38789,7 @@
             <country>Netherlands</country>
             <settlement>Amsterdam</settlement>
             <repository>Bibliotheca Philosophica Hermetica</repository>
-            <idno>MS M 199</idno>
+            <idno>M 199</idno>
         </msIdentifier>
         <history>
             <provenance>Christie's catalogue 26 June 1991</provenance>
@@ -39126,9 +38812,7 @@
         <head>Avenzohar, Liber Teisir, sive rectificatio medicationis et regiminis (Venice: Johannes and Gregorius Forlivio, 4 January 1490/91)</head>
         <additional>
             <adminInfo>
-                <note type="legacy-desc">copy of Avenzohar, <hi rend="italic">Liber Teisir, sive rectificatio medicationis et regiminis</hi>
-            (Venice: Johannes and Gregorius Forlivio, 4 January 1490/91) (shelfmark qR 128 A95
-            1490)</note>
+                <note type="editorial">printed book</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -39141,9 +38825,6 @@
         </msIdentifier>
         <head>Halesowen Court Rolls</head>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">Halesowen Court Forlls, Hagley Hall collection, No. 346333</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://calmview.birmingham.gov.uk/CalmView/Record.aspx?src=CalmView.Catalog"/>
@@ -39161,15 +38842,16 @@
                 <idno>Quaritch</idno>
             </altIdentifier>
             <altIdentifier type="former">
-                <idno>Ingilby, Ripley Castle, Harrowgate, Yorks.</idno>
+                <idno>Ingilby</idno>
+            </altIdentifier>
+            <altIdentifier type="former">
+                <idno>Ripley Castle, Harrowgate, Yorks.</idno>
             </altIdentifier>
         </msIdentifier>
         <head>Biblia latina, Speier: Peter Drach, 1489 (Goff B-587)</head>
         <additional>
             <adminInfo>
-                <note type="legacy-desc">
-               Takamiya Bible, <hi rend="italic">Biblia latina</hi>, Speier: Peter Drach, 1489. Goff B-587 [<hi rend="italic">olim</hi> Quaritch;
-               <hi rend="italic">prior</hi> Ingilby, Ripley Castle, Harrowgate, Yorks.]</note>
+                <note type="editorial">printed book</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -39181,18 +38863,13 @@
             <idno>9.M.4815</idno>
         </msIdentifier>
         <head>Sammelband</head>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">A <hi rend="italic">sammelband</hi>, 9.M.4815</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="Vercelli">
         <msIdentifier>
             <country>Italy</country>
             <settlement>Vercelli</settlement>
             <repository>Biblioteca capitolare</repository>
-            <idno>MS CCXXV</idno>
+            <idno>CCXXV</idno>
         </msIdentifier>
         <additional>
             <listBibl type="catalogue">
@@ -39230,7 +38907,7 @@
             <country>UK</country>
             <settlement>Chester</settlement>
             <repository>Cheshire County Records Office</repository>
-            <idno>MS DCC 37/1</idno>
+            <idno>DCC 37/1</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="SomersetDDS">
@@ -39238,7 +38915,7 @@
             <country>UK</country>
             <settlement>Somerset</settlement>
             <repository>Somerset Heritage Centre</repository>
-            <idno>MS DD/SF/18/2/3</idno>
+            <idno>DD/SF/18/2/3</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Northallerton">
@@ -39246,7 +38923,7 @@
             <country>UK</country>
             <settlement>Northallerton</settlement>
             <repository>Northallerton, North Yorkshire, County Record Office</repository>
-            <idno>MS ZDV V 55</idno>
+            <idno>ZDV V 55</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Shakespeare">
@@ -39265,7 +38942,7 @@
             <country>UK</country>
             <settlement>Aberystwyth</settlement>
             <repository>National Library of Wales</repository>
-            <idno>MS Cwrtmawr 11</idno>
+            <idno>Cwrtmawr 11</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="NLWLan5">
@@ -39273,7 +38950,7 @@
             <country>UK</country>
             <settlement>Aberystwyth</settlement>
             <repository>National Library of Wales</repository>
-            <idno>MS Llanstephan 5</idno>
+            <idno>Llanstephan 5</idno>
         </msIdentifier>
         <additional>
             <listBibl type="catalogue">
@@ -39288,7 +38965,7 @@
             <country>UK</country>
             <settlement>Aberystwyth</settlement>
             <repository>National Library of Wales</repository>
-            <idno>MS Llanstephan 19</idno>
+            <idno>Llanstephan 19</idno>
         </msIdentifier>
         <additional>
             <listBibl type="catalogue">
@@ -39303,7 +38980,7 @@
             <country>UK</country>
             <settlement>Aberystwyth</settlement>
             <repository>National Library of Wales</repository>
-            <idno>MS Llanstephan 47</idno>
+            <idno>Llanstephan 47</idno>
         </msIdentifier>
         <additional>
             <listBibl type="catalogue">
@@ -39318,7 +38995,7 @@
             <country>UK</country>
             <settlement>Aberystwyth</settlement>
             <repository>National Library of Wales</repository>
-            <idno>MS Llanstephan 54</idno>
+            <idno>Llanstephan 54</idno>
         </msIdentifier>
         <additional>
             <listBibl type="catalogue">
@@ -39333,7 +39010,7 @@
             <country>UK</country>
             <settlement>Aberystwyth</settlement>
             <repository>National Library of Wales</repository>
-            <idno>MS Panton 33</idno>
+            <idno>Panton 33</idno>
         </msIdentifier>
         <additional>
             <listBibl type="catalogue">
@@ -39348,7 +39025,7 @@
             <country>UK</country>
             <settlement>Aberystwyth</settlement>
             <repository>National Library of Wales</repository>
-            <idno>MS Panton 42</idno>
+            <idno>Panton 42</idno>
         </msIdentifier>
         <additional>
             <listBibl type="catalogue">
@@ -39370,9 +39047,6 @@
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> (part of) LP 6400; <langGrid>Grid 532
                 183</langGrid> (<place town="London" country="England">London</place>).</lang>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">Peniarth 392 D ['Hengwrt']</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://viewer.library.wales/4628556#?xywh=-3925%2C-1311%2C11475%2C7954"/>
@@ -39405,7 +39079,7 @@
             <country>UK</country>
             <settlement>Alnwick Castle</settlement>
             <repository>Duke of Northumberland</repository>
-            <idno>MS 78</idno>
+            <idno>78</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="HagueKB135G18">
@@ -39705,7 +39379,7 @@
             <country>UK</country>
             <settlement>Cardiff</settlement>
             <repository>Cardiff Public Library</repository>
-            <idno>MS 5.44</idno>
+            <idno>5.44</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="TCD230">
@@ -40288,7 +39962,7 @@
             <country>UK</country>
             <settlement>London</settlement>
             <repository>Corporation of London Records Office [formerly Guildhall]</repository>
-            <idno>MS COL/AD/01/010</idno>
+            <idno>COL/AD/01/010</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="MercersWhit">
@@ -40304,7 +39978,7 @@
             <country>UK</country>
             <settlement>Longleat</settlement>
             <repository>Marquess of Bath</repository>
-            <idno>MS 333</idno>
+            <idno>333</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Luton">
@@ -40320,7 +39994,7 @@
             <country>UK</country>
             <settlement>Manchester</settlement>
             <repository>Chetham's Library</repository>
-            <idno>MS E.6.10 (4)</idno>
+            <idno>E.6.10 (4)</idno>
         </msIdentifier>
         <additional>
             <surrogates>
@@ -41061,9 +40735,6 @@
             <provenance>Sotheby's 21 June 1988, lot 57</provenance>
         </history>
         <additional>
-            <adminInfo>
-                <note type="legacy-desc">94 [<hi rend="italic">olim</hi> Astor, sold Sotheby's 21 June 1988, lot 57]</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://collections.library.yale.edu/catalog/16371265"/>
@@ -41415,11 +41086,6 @@
                 <idno>SC 15506</idno>
             </altIdentifier>
         </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note type="legacy-desc">Rawlinson B.205 (15506)</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="BodTan11">
         <msIdentifier>
@@ -41440,7 +41106,6 @@
         <additional>
             <adminInfo>
                 <note type="editorial">printed book</note>
-                <note type="legacy-desc">Wood 396 (printed Henricus Loritus Glareanus [Basel, 1547])</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -41561,7 +41226,7 @@
         <msIdentifier>
             <country>unknown</country>
             <settlement>unknown</settlement>
-            <repository>Private owner</repository>
+            <repository>Private collection</repository>
             <altIdentifier type="former">
                 <idno>A. G. Thomas</idno>
             </altIdentifier>
@@ -41574,16 +41239,14 @@
         <msIdentifier>
             <country>unknown</country>
             <settlement>unknown</settlement>
-            <repository>Private owner</repository>
+            <repository>Private collection</repository>
         </msIdentifier>
         <history>
-            <provenance>ex R. C. Pearson, Cambridge, Cat. 13, 1953, item 219</provenance>
+            <provenance>R. C. Pearson, Cambridge, Cat. 13, 1953, item 219</provenance>
         </history>
         <additional>
             <adminInfo>
-                <note>formerly part of Beinecke Osborn fa. 1</note>
-                <note type="legacy-desc">2 [ex R. C. Pearson, Cambridge, Cat. 13, 1953, item 219; once part of Beinecke Osborn
-               fa. 1]</note>
+                <note>Once part of Beinecke Osborn fa. 1</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -41605,14 +41268,14 @@
             <repository>Private owner</repository>
         </msIdentifier>
         <history>
-            <provenance>ex Sotheby's, 9 Dec. 1963, lot 120</provenance>
+            <provenance>Sotheby's, 9 Dec. 1963, lot 120</provenance>
         </history>
     </msDesc>
     <msDesc xml:id="PriO5">
         <msIdentifier>
             <country>unknown</country>
             <settlement>unknown</settlement>
-            <repository>Private owner</repository>
+            <repository>Private collection</repository>
             <altIdentifier type="former">
                 <idno>Marquis of Bute</idno>
             </altIdentifier>
@@ -41625,7 +41288,7 @@
         <msIdentifier>
             <country>unknown</country>
             <settlement>unknown</settlement>
-            <repository>Private owner</repository>
+            <repository>Private collection</repository>
             <altIdentifier type="former">
                 <idno>Westminster (Eaton Hall)</idno>
             </altIdentifier>
@@ -41638,11 +41301,14 @@
         <msIdentifier>
             <country>unknown</country>
             <settlement>unknown</settlement>
-            <repository>Private owner</repository>
+            <repository>Private collection</repository>
             <altIdentifier type="former">
-                <idno>Marquess of Bute MS 85; sold Sotheby's 13 June 1983, lot 10</idno>
+                <idno>Marquess of Bute MS 85</idno>
             </altIdentifier>
         </msIdentifier>
+        <history>
+            <provenance>Sotheby's, 13 June 1983, lot 10</provenance>
+        </history>
     </msDesc>
     <msDesc xml:id="Winchester29">
         <msIdentifier>
@@ -41697,16 +41363,16 @@
         <msIdentifier>
             <country>UK</country>
             <settlement>Wakefield, West Yorkshire</settlement>
-            <repository>private owner</repository>
-            <idno>John Goodchild, Northern Homily Cycle</idno>
+            <repository>John Goodchild (private collection)</repository>
         </msIdentifier>
+        <head>Northern Homily Cycle</head>
     </msDesc>
     <msDesc xml:id="Wellington140">
         <msIdentifier>
             <country>New Zealand</country>
             <settlement>Wellington</settlement>
             <repository>Alexander Turnbull Library</repository>
-            <idno>MS 140</idno>
+            <idno>140</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Woburn181">
@@ -41714,77 +41380,91 @@
             <country>UK</country>
             <settlement>Bedfordshire</settlement>
             <repository>Woburn Abbey</repository>
-            <idno>MS 181</idno>
+            <idno>181</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="OxfBal695h6">
         <msIdentifier>
+            <country>UK</country>
             <settlement>Oxford</settlement>
             <repository>Balliol College</repository>
+            <idno>695.h.6</idno>
         </msIdentifier>
-        <desc>695.h.6 [printed book: Lazius, Wolfgang, Vienna Austriae: Rerum Viennensium Commentarij (Basle, 1546)]</desc>
+        <head>Wolfgang Lazius, Rerum Viennensium Commentarij (Basle, 1546)</head>
+        <additional>
+            <adminInfo>
+                <note type="editorial">printed book</note>
+            </adminInfo>
+        </additional>
     </msDesc>
     <msDesc xml:id="OxfBal23b6">
         <msIdentifier>
+            <country>UK</country>
             <settlement>Oxford</settlement>
             <repository>Balliol College</repository>
+            <idno>23.b.6</idno>
         </msIdentifier>
-        <desc>23.b.6 [printed book: Lycophron, Willem, Lykophronos tou Chalkideos Alexandra (Basle, 1566)]</desc>
+        <head>Willem Lycophron, Lykophronos tou Chalkideos Alexandra (Basle, 1566)</head>
+        <additional>
+            <adminInfo>
+                <note type="editorial">printed book</note>
+            </adminInfo>
+        </additional>
     </msDesc>
     <msDesc xml:id="Ryff1548">
         <msIdentifier>
+            <country>UK</country>
             <settlement>London</settlement>
             <repository>Royal College of Physicians</repository>
+            <idno>D1/19-c-27</idno>
         </msIdentifier>
-        <desc>D1/19-c-27 [printed book: Ryff, Walther. In Caii Plinii Secvndi Natvralis historiae argutissimi Scriptoris (Würzburg, 1548)]</desc>
-    </msDesc>
-    <msDesc xml:id="Voraigne1503">
-        <msIdentifier>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-        </msIdentifier>
-        <desc>Printed Book C.15.C.7 [Caxton, Golden Legend. STC 24877]</desc>
-    </msDesc>
-    <msDesc xml:id="deMugello1562">
-        <msIdentifier>
-            <settlement>New Haven, CT</settlement>
-            <repository>Beinecke Library</repository>
-        </msIdentifier>
-        <desc>Beinecke 2008 2479 [Printed book: de Mugello, Dinus, De regulis iuris]</desc>
-    </msDesc>
-    <msDesc xml:id="Alliaco1476">
-        <msIdentifier>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-        </msIdentifier>
-        <desc>IB.49408 [Printed book: Meditationes circa psalmos poenitentiales, Petrus de Alliaco, printed by Caxton]</desc>
+        <head>Walther Ryff, In Caii Plinii Secvndi Natvralis historiae argutissimi Scriptoris (Würzburg, 1548)</head>
+        <additional>
+            <adminInfo>
+                <note type="editorial">printed book</note>
+            </adminInfo>
+        </additional>
     </msDesc>
     <msDesc xml:id="HuntingtonRB61866">
         <msIdentifier>
+            <country>USA</country>
             <settlement>San Marino, CA</settlement>
             <repository>Huntington Library</repository>
+            <idno>RB61866</idno>
         </msIdentifier>
-        <desc>RB61866 [Printed book: STC 14546]</desc>
+        <head>STC 14546</head>
+        <additional>
+            <adminInfo>
+                <note type="editorial">printed book</note>
+            </adminInfo>
+        </additional>
     </msDesc>
     <msDesc xml:id="IB49437">
         <msIdentifier>
+            <country>UK</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
+            <idno>IB.49437</idno>
         </msIdentifier>
-        <desc>IB.49437 [Printed book: Mielot, Jean, translator, Cordiale quattuor novissimorum [French] Les quattres choses derrenieres [Bruges: William Caxton, 1475?]]</desc>
-    </msDesc>
-    <msDesc xml:id="PML698">
-        <msIdentifier>
-            <settlement>New York, NY</settlement>
-            <repository>Pierpont Morgan Library</repository>
-        </msIdentifier>
-        <desc>PML 698 [Printed book: Laurentius, Frater. Somme des vices et vertus [English] The Ryal Book (Tr. William Caxton). [Westminster: William Caxton, about 1486]]</desc>
+        <head>Jean Mielot, Les quattres choses derrenieres (Bruges: William Caxton, 1475?)</head>
+        <additional>
+            <adminInfo>
+                <note type="editorial">printed book</note>
+            </adminInfo>
+        </additional>
     </msDesc>
     <msDesc xml:id="Strassburg1494">
         <msIdentifier>
-            <settlement>Present location unknown</settlement>
-            <repository/>
+            <country>unknown</country>
+            <settlement>unknown</settlement>
+            <repository>unknown</repository>
         </msIdentifier>
-        <desc>A copy of Guido's Historia Troiana (Strassburg, 1494), reported in A. Rosenthal's Sale Catalog 5 (1944), no. 11.</desc>
+        <head>Guido, Historia Troiana (Strassburg, 1494)</head>
+        <additional>
+            <adminInfo>
+                <note>A. Rosenthal, Sale Catalog 5 (1944), no. 11.</note>
+                <note type="editorial">printed book</note>
+            </adminInfo>
+        </additional>
     </msDesc>
 </listBibl>

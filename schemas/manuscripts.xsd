@@ -21,7 +21,7 @@ Once those are dissolved this schema should be tightened to a TEI-valid profile.
                             <xs:element name="msIdentifier">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="country" type="xs:string" minOccurs="0">
+                                        <xs:element name="country" type="xs:string">
                                             <xs:annotation>
                                                 <xs:documentation>The holding country. Added in Phase 3 from the enrichment tool; absent on the few records still carrying Phase 1 structure.</xs:documentation>
                                             </xs:annotation>
@@ -77,19 +77,6 @@ Once those are dissolved this schema should be tightened to a TEI-valid profile.
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="desc" minOccurs="0">
-                                <xs:annotation>
-                                    <xs:documentation>TRANSITIONAL. The legacy desc placeholder, retained only on records the enrichment tool did not match (added to Manuscripts.xml after it was built). To be disaggregated when those records are reconciled, after which this element is removed.</xs:documentation>
-                                </xs:annotation>
-                                <xs:complexType mixed="true">
-                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                        <xs:element name="i" type="xs:string"/>
-                                        <xs:element name="sup" type="xs:string"/>
-                                        <xs:element name="mss" type="tei:msCrossRef"/>
-                                        <xs:element name="bibl" type="tei:bibRef"/>
-                                    </xs:choice>
-                                </xs:complexType>
-                            </xs:element>
                             <xs:element name="lang" minOccurs="0">
                                 <xs:annotation>
                                     <xs:documentation>TRANSITIONAL. LALME/eLALME/LAEME dialect-localization data, carried verbatim from the legacy lang element and deferred for separate review (Phase 4). As used, this element always has at least one child element.</xs:documentation>
@@ -119,7 +106,7 @@ Once those are dissolved this schema should be tightened to a TEI-valid profile.
                                     <xs:sequence>
                                         <xs:element name="adminInfo" minOccurs="0">
                                             <xs:annotation>
-                                                <xs:documentation>Administrative, custodial, and editorial notes. Includes legacy-desc safety-net notes (type="legacy-desc") preserving uncaptured residue of the legacy desc, flagged for editorial review.</xs:documentation>
+                                                <xs:documentation>Administrative, custodial, and editorial notes.</xs:documentation>
                                             </xs:annotation>
                                             <xs:complexType>
                                                 <xs:sequence>

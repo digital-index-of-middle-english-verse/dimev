@@ -848,15 +848,17 @@ Scholars are advised to reference witnesses by manuscript shelfmarks, not the nu
 
 ## Overview {#overview-manuscripts}
 
-This XML file stores bibliographic information on medieval manuscripts cited as witnesses in the XML file `Records.xml`.
-It also includes some individual copies of early printed books, cited within `Records.xml` for manuscript inscriptions or binding fragments.
+This XML file records bibliographic details for manuscripts and for copies of early printed books cited for copy-specific details such as manuscript inscriptions or binding fragments.
+Early printed books cited for edition-level content are recorded in `PrintedBooks.xml`.
+
 The document structure is modeled on the TEI elements `listBibl` and `msDesc` (the latter drawn from the [manuscript description module]) and adopts the TEI namespace (`http://www.tei-c.org/ns/1.0`), declared on the root element, `listBibl`.
-Each record identifies and locates its manuscript through a TEI `msIdentifier` (`country`, `settlement`, `repository`, `idno`, `msName`, `altIdentifier`), and may carry a descriptive `head`, a `history` of provenance, and an `additional` block holding administrative notes, digital `surrogates`, and links to on-line catalogue records.
+Each record identifies and locates its object through a TEI `msIdentifier` (`country`, `settlement`, `repository`, `idno`, `msName`, `altIdentifier`), and may carry a descriptive `head`, a `history` of provenance, and an `additional` block holding administrative notes, digital `surrogates`, and links to on-line catalogue records.
 The file is not yet valid against full TEI P5 (`tei_all`); some transitional residue remains until the work tracked in [issue #36](https://github.com/digital-index-of-middle-english-verse/dimev/issues/36) is complete:
 
 - The `lang` container (with its inline children), carrying the localization of the manuscript's language, is reserved for separate review.
-- A small number of records added after the most recent enrichment pass retain the pre-TEI `desc` container; their content has not yet been disaggregated.
-- Administrative, editorial, and `legacy-desc` notes are gathered under `additional/adminInfo`, pending placement in fully TEI-conformant homes. A `legacy-desc` note preserves the verbatim text of a former `desc` where the enrichment pass could not fully account for it, and flags the record for editorial review.
+- Administrative and editorial notes are gathered under `additional/adminInfo`, pending placement in fully TEI-conformant homes.
+
+Provenance information is recorded solely to aid identification of objects cited in past scholarship.
 
 ## Tag library
 
@@ -906,8 +908,8 @@ The file is not yet valid against full TEI P5 (`tei_all`); some transitional res
 
 - **Description**
   The country in which the manuscript is held at present.
+  Use traditional English-language names (e.g., "Germany").
   Equivalent to the element `country` in the TEI [manuscript description module].
-  Absent on the few records that still carry the pre-TEI structure.
 - **Attributes**
   None
 - **Must occur within**
@@ -919,7 +921,9 @@ The file is not yet valid against full TEI P5 (`tei_all`); some transitional res
 
 - **Description**
   The city or town in which the manuscript is held at present.
-  Equivalent to the element `settlement` in @TEIConsortiumTEIP5Guidelines2024, [manuscript description module].
+  Use traditional English-language names if available (e.g., "Rome," "Copenhagen"), else the usual local designation (e.g., "Wolfenbüttel").
+  Settlements in the USA are identified by the name of the town or city, followed after a comma by the two-letter postal abbreviation of the state.
+  Equivalent to the element `settlement` in TEI [manuscript description module].
   May be empty where no settlement is recorded.
 - **Attributes**
   None
@@ -932,6 +936,7 @@ The file is not yet valid against full TEI P5 (`tei_all`); some transitional res
 
 - **Description**
   The repository in which the manuscript is held at present.
+  Use the local designation if written in the Latin alphabet (e.g., "Kongelige Bibliotek"), else the usual English-language equivalent (e.g., "Senshu University Library").
   Equivalent to the element `repository` in the TEI [manuscript description module]. (Formerly DIMEV's `repos`.)
 - **Attributes**
   None
@@ -945,6 +950,8 @@ The file is not yet valid against full TEI P5 (`tei_all`); some transitional res
 - **Description**
   The manuscript's primary shelfmark.
   Equivalent to the element `idno` in the TEI [manuscript description module].
+  The abbreviation "MS" is omitted, with few exceptions.
+  To format this element for publication, test if "MS" in `idno.text` (or similar).
 - **Attributes**
   None
 - **Must occur within**
@@ -971,7 +978,7 @@ The file is not yet valid against full TEI P5 (`tei_all`); some transitional res
   An alternative or former identifier for the manuscript: a Summary-Catalogue number, another catalogue reference, or a former ("*olim*") shelfmark or owner.
   Equivalent to the element `altIdentifier` in the TEI [manuscript description module].
 - **Attributes**
-  - `type`: optional; the value `former` marks a former ("*olim*") shelfmark or owner
+  - `type`: optional; the value `former` marks a former ("*olim*") shelfmark or owner.
 - **Must occur within**
   - `msIdentifier`
 - **Must contain**
@@ -993,6 +1000,7 @@ The file is not yet valid against full TEI P5 (`tei_all`); some transitional res
 
 - **Description**
   Container for the provenance and history of the volume.
+  Records of sales and former owners are intended only to help identify the manuscript in past scholarship; provenance information that does not serve that purpose may be deleted in future revisions.
   Equivalent to the element `history` in the TEI [manuscript description module].
 - **Attributes**
   None
@@ -1140,7 +1148,7 @@ The file is not yet valid against full TEI P5 (`tei_all`); some transitional res
 ### `adminInfo`
 
 - **Description**
-  Container for administrative, custodial, and editorial notes on the manuscript (including `legacy-desc` notes pending review; see the overview).
+  Container for administrative, custodial, and editorial notes on the manuscript.
   Equivalent to the element `adminInfo` in the TEI [manuscript description module].
 - **Attributes**
   None
