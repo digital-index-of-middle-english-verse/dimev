@@ -23,8 +23,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 #### `Manuscripts.xml`: content added
 
 - Add links to some on-line facsimiles (#22; c23bebc9fb82c0768974db518b46fb9fd792c7b7)
-- Add further links to on-line facsimiles (#36; WIP)
-- Add links to on-line catalogue records, in `additional`/`listBibl` (#36; WIP)
+- Add further links to on-line facsimiles (#36; 4442a79aeb71c83e19765d44a2aad755806c6c41)
+- Add links to on-line catalogue records, in `additional`/`listBibl` (#36; 4442a79aeb71c83e19765d44a2aad755806c6c41)
 - Add some Summary Catalog numbers for Bodleian manuscripts (9cd87c72a67f74527ffde809044f9a96fec098ab)
 
 #### `PrintedBooks.xml`: content added
@@ -47,10 +47,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Validate cross-references in `Records.xml` against `xml:id`s in `Records.xml` (#48; 3d22a3bebfb45586df92ba22c3a81eac31b1eed2, 43c7ddde4d231b3f01b98cddbb9edfa6d9ae5fe4, 702525a60500a6de7795e571cb1a0dc8bda4cab4)
 - Validate subjects, verse-forms, and languages against controlled vocabularies (#53; e17f3f9a566bc3e1d94d9d5e14b350da919f0acc, 14345568f9052090677b5920cbbc41e4701240f9)
 
-#### Documentation
+#### README
 
-- `README.md`: add instructions for contributors; add Zenodo DOI badge (9ad3e6a246d0eedf4981d19ec479292a5809c3b0)
-- Technical introduction: add section "Current Status" (907e3d224bb3d91fc3ade10c0018945ba3a7844b)
+- Add instructions for contributors; add Zenodo DOI badge (9ad3e6a246d0eedf4981d19ec479292a5809c3b0)
+
+#### `Documentation.md`
+
+- Add a section "Current Status" (907e3d224bb3d91fc3ade10c0018945ba3a7844b)
+- Add a tag library for each XML file (afa58ca9d21d87ada2cd836e9ca506f71abeeaea)
+- Add guidance on styling of content in `Manuscripts.xml` (852d25a2e44403c8ee983bc47bb7535ec50bfd65)
 
 ### Changed
 
@@ -67,8 +72,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Establish `Manuscripts.xml` as the project's single source of truth for manuscripts materials (#11, #21; 574cf0b3c0faacb0242b10b9b35c3bc99767c2a9, 08cf30f52f3f6fda112c9337d87f10444681dc81)
 - Restructure the file, modeled on the TEI elements `listBibl` and `msDesc` (#36; 5c9dd0a059024eb5a9a30c785e826ac14b3a1175, 23fd37db6d9b5d8ec4c8e0907c8c6bd1bd420a11)
-- Disaggregate the transitional `desc` container into TEI `idno`, `altIdentifier`, `msName`, `head`, `history`/`provenance`, and `adminInfo`/`note` (#36; WIP)
-- Add `country` and regularize `settlement` and `repository` names per the issue #36 style guide (#36; WIP)
+- Disaggregate the `desc` container into TEI `idno`, `altIdentifier`, `msName`, `head`, `history`/`provenance`, and `adminInfo`/`note` (#36; 4442a79aeb71c83e19765d44a2aad755806c6c41, 852d25a2e44403c8ee983bc47bb7535ec50bfd65)
+- Add `country`; regularize `settlement` and `repository` names per the issue #36 style guide (#36; 4442a79aeb71c83e19765d44a2aad755806c6c41, 852d25a2e44403c8ee983bc47bb7535ec50bfd65)
+- Regularize recording of items in private collections, items untraced, and items on deposit (852d25a2e44403c8ee983bc47bb7535ec50bfd65)
+- Remove the abbreviation "MS" from most shelfmarks (852d25a2e44403c8ee983bc47bb7535ec50bfd65)
 - Rename the element `biblio` as `bibl` (5c9dd0a059024eb5a9a30c785e826ac14b3a1175)
 - Change repository "Public Record Office" to "The National Archives" (#32; 9cd87c72a67f74527ffde809044f9a96fec098ab)
 - Update details for Longleat manuscripts purchased by the British Library (#18; 9cd87c72a67f74527ffde809044f9a96fec098ab)
@@ -115,11 +122,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - All schemas: tighten, restructure, and align with changes to XML file structures; add some inline documentation
 - `records.xsd`: provide for `crossRefs` block (not yet implemented in `Records.xml`) (c28f6af4a0962a5c41552352eafc787c21cec453)
 - `printedbooks.xsd`: rewrite as a restricted profile of TEI `listBibl` and `biblStruct` (9bfa34205ad3819cc1efeaa3c2d65efc6b6e178d)
-- `manuscripts.xsd`: provide for the disaggregated `msIdentifier`, `head`, `history`, and `additional` content model (#36; WIP)
+- `manuscripts.xsd`: provide for the disaggregated `msIdentifier`, `head`, `history`, and `additional` content model (#36; 4442a79aeb71c83e19765d44a2aad755806c6c41)
 
 #### Documentation
 
-- Create a tag library for each XML file (afa58ca9d21d87ada2cd836e9ca506f71abeeaea)
 - Restructure `documentation.md` (cf8ed5a1773c2dcfc94d219a91b2442d7fd5b9af)
 - Export `items.yaml` from Zotero 9 (9966eadd82fdc9179c0db8eca51afd3cf8073dbf)
 
