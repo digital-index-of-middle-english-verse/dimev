@@ -1412,18 +1412,13 @@
             </altIdentifier>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BodAuct7Q221">
+    <msDesc xml:id="BodAuct7Q221" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Oxford</settlement>
             <repository>Bodleian Library</repository>
             <idno>Auct. 7.Q.2.21</idno>
         </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="BodAuctF516">
         <msIdentifier>
@@ -1619,7 +1614,7 @@
             </altIdentifier>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="Bod88">
+    <msDesc xml:id="Bod88" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Oxford</settlement>
@@ -1629,11 +1624,6 @@
                 <idno>SC 1873</idno>
             </altIdentifier>
         </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="Bod89">
         <msIdentifier>
@@ -3611,7 +3601,7 @@
             <idno>Douce Addit. 137</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BodDouA314">
+    <msDesc xml:id="BodDouA314" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Oxford</settlement>
@@ -3619,11 +3609,6 @@
             <idno>Douce A.314</idno>
         </msIdentifier>
         <head>Arnolds Chronicle</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="BodDoud4">
         <msIdentifier>
@@ -3654,57 +3639,38 @@
             </altIdentifier>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BodDoufrD48">
+    <msDesc xml:id="BodDoufrD48" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Oxford</settlement>
             <repository>Bodleian Library</repository>
             <idno>Douce fragments D.48</idno>
         </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book; ?Copland, c. 1500</note>
-            </adminInfo>
-        </additional>
+        <head>?Copland, c. 1500</head>
     </msDesc>
-    <msDesc xml:id="BodDoufrE20">
+    <msDesc xml:id="BodDoufrE20" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Oxford</settlement>
             <repository>Bodleian Library</repository>
             <idno>Douce fragments E.20</idno>
         </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
-    <msDesc xml:id="BodDoufrE40">
+    <msDesc xml:id="BodDoufrE40" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Oxford</settlement>
             <repository>Bodleian Library</repository>
             <idno>Douce fragments E.40</idno>
         </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
-    <msDesc xml:id="BodDoufrF48">
+    <msDesc xml:id="BodDoufrF48" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Oxford</settlement>
             <repository>Bodleian Library</repository>
             <idno>Douce fragments F.48</idno>
         </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="BodDugd45">
         <msIdentifier>
@@ -3927,7 +3893,7 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note type="editorial">Formerly in printed book 80 G 40 Med</note>
+                <note>Formerly in printed book 80 G 40 Med</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -4600,11 +4566,6 @@
                 <idno>Robartes</idno>
             </altIdentifier>
         </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note type="editorial">two leaves</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="BodLatMisC66">
         <msIdentifier>
@@ -5351,7 +5312,7 @@
             </altIdentifier>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BodMal941">
+    <msDesc xml:id="BodMal941" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Oxford</settlement>
@@ -5359,11 +5320,6 @@
             <idno>Malone 941</idno>
         </msIdentifier>
         <head>Launfal fragments</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="BodeMus1">
         <msIdentifier>
@@ -6795,7 +6751,7 @@
             <bibl key="LAEME">LAEME</bibl> Index # 124; <langGrid>Grid 341 366</langGrid>
                 (<place town="Chester">Chester</place>, <place country="England" county="Cheshire">Cheshire</place>).</lang>
     </msDesc>
-    <msDesc xml:id="BodTan178">
+    <msDesc xml:id="BodTan178" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Oxford</settlement>
@@ -6803,11 +6759,6 @@
             <idno>Tanner 178</idno>
         </msIdentifier>
         <head>STC 5572</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="BodTan196">
         <msIdentifier>
@@ -7119,7 +7070,7 @@
             </surrogates>
         </additional>
     </msDesc>
-    <msDesc xml:id="OxBal695h6">
+    <msDesc xml:id="OxBal695h6" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Oxford</settlement>
@@ -7129,11 +7080,6 @@
                 <idno>575.g.6</idno>
             </altIdentifier>
         </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="OxfBras9">
         <msIdentifier>
@@ -7391,18 +7337,13 @@
             <idno>491</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="OxfCCCGlanv">
+    <msDesc xml:id="OxfCCCGlanv" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Oxford</settlement>
             <repository>Corpus Christi College</repository>
         </msIdentifier>
         <head>STC 1536</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="OxfExe47">
         <msIdentifier>
@@ -7472,7 +7413,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Unidentified, missing, or destroyed</note>
+                <availability status="unknown">
+                    <p>Unidentified, missing, or destroyed</p>
+                </availability>
             </adminInfo>
         </additional>
     </msDesc>
@@ -10968,7 +10911,7 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="CULF150">
+    <msDesc xml:id="CULF150" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Cambridge</settlement>
@@ -10978,11 +10921,6 @@
                 <idno>Res.b.162</idno>
             </altIdentifier>
         </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="CamClare5">
         <msIdentifier>
@@ -13219,7 +13157,7 @@
             <idno>Pepys 2833</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="CamMagPepEx">
+    <msDesc xml:id="CamMagPepEx" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Cambridge</settlement>
@@ -13227,13 +13165,8 @@
             <idno>Pepys, Example of Virtue</idno>
         </msIdentifier>
         <head>STC 12945</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
-    <msDesc xml:id="CamMagPep1254">
+    <msDesc xml:id="CamMagPep1254" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Cambridge</settlement>
@@ -13241,11 +13174,6 @@
             <idno>Pepys 1254</idno>
         </msIdentifier>
         <head>STC 3543</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="CamNewn4">
         <msIdentifier>
@@ -16188,7 +16116,7 @@
         </msIdentifier>
         <head>binding fragments</head>
     </msDesc>
-    <msDesc xml:id="CamTCCVI182">
+    <msDesc xml:id="CamTCCVI182" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Cambridge</settlement>
@@ -16197,9 +16125,6 @@
         </msIdentifier>
         <head>STC 6826</head>
         <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://mss-cat.trin.cam.ac.uk/Manuscript/B.11.1"/>
@@ -16207,7 +16132,7 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="CamTCCParis1525">
+    <msDesc xml:id="CamTCCParis1525" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Cambridge</settlement>
@@ -16216,9 +16141,6 @@
         </msIdentifier>
         <head>Michaelis Menoti Sermones Quadragesimales, Paris 1525</head>
         <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://lib-cat.trin.cam.ac.uk/Record/9650055f-5fe9-4638-acc0-040172fa29a9/Permalink?sid=22713357"/>
@@ -16254,7 +16176,7 @@
             <idno>Addit. 113</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BLC15C7">
+    <msDesc xml:id="BLC15C7" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>London</settlement>
@@ -16262,11 +16184,6 @@
             <idno>Printed Book C.15.C.7</idno>
         </msIdentifier>
         <head>Caxton, Golden Legend (STC 24877)</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="BLAdd2283">
         <msIdentifier>
@@ -18801,7 +18718,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Destroyed by fire; transcribed by William Thomas, 1721.</note>
+                <custodialHist>
+                    <custEvent type="destroyed">Destroyed by fire; transcribed by William Thomas, 1721.</custEvent>
+                </custodialHist>
             </adminInfo>
         </additional>
     </msDesc>
@@ -23823,7 +23742,7 @@
             </altIdentifier>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BLC10b23">
+    <msDesc xml:id="BLC10b23" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>London</settlement>
@@ -23831,13 +23750,8 @@
             <idno>Printed Book C.10.b.23</idno>
         </msIdentifier>
         <head>STC 4921</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">Printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
-    <msDesc xml:id="BLC21">
+    <msDesc xml:id="BLC21" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>London</settlement>
@@ -23845,7 +23759,7 @@
             <idno>Printed Book C.21</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BLC10b5">
+    <msDesc xml:id="BLC10b5" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>London</settlement>
@@ -23853,13 +23767,8 @@
             <idno>Printed Book C.10.b.5</idno>
         </msIdentifier>
         <head>IB.55041, IB.55040</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
-    <msDesc xml:id="BLC39">
+    <msDesc xml:id="BLC39" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>London</settlement>
@@ -23867,13 +23776,8 @@
             <idno>Printed Book C.39.e.1</idno>
         </msIdentifier>
         <head>STC 22593</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">Printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
-    <msDesc xml:id="BLC39b17">
+    <msDesc xml:id="BLC39b17" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>London</settlement>
@@ -23881,7 +23785,7 @@
             <idno>Printed Book C.39.b.17</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BLIA3420">
+    <msDesc xml:id="BLIA3420" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>London</settlement>
@@ -23889,7 +23793,7 @@
             <idno>Printed Book IA.3420</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BLIB49408">
+    <msDesc xml:id="BLIB49408" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>London</settlement>
@@ -23897,13 +23801,8 @@
             <idno>Printed Book IB.49408</idno>
         </msIdentifier>
         <head>Petrus de Alliaco, Devotae Meditationes Circa Septem Psalmos Poenitentiales</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
-    <msDesc xml:id="BL1379a27">
+    <msDesc xml:id="BL1379a27" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>London</settlement>
@@ -23911,7 +23810,7 @@
             <idno>Printed Book 1379.a2(7)</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BLHuth32">
+    <msDesc xml:id="BLHuth32" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>London</settlement>
@@ -23919,11 +23818,6 @@
             <idno>Printed Book Huth 32</idno>
         </msIdentifier>
         <head>STC 106065</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">Printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="AbeSeis2">
         <msIdentifier>
@@ -24711,7 +24605,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Deposit from Appleby Castle, Lord Hothfield</note>
+                <custodialHist>
+                    <custEvent type="deposit">Deposit from Appleby Castle, Lord Hothfield</custEvent>
+                </custodialHist>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -24856,7 +24752,9 @@
         <head>Fordun's Chronicle</head>
         <additional>
             <adminInfo>
-                <note>Deposit from Brechin Castle, Earl of Dalhousie</note>
+                <custodialHist>
+                    <custEvent type="deposit">Deposit from Brechin Castle, Earl of Dalhousie</custEvent>
+                </custodialHist>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -24873,18 +24771,13 @@
         </msIdentifier>
         <head>Wintoun's Chronicle</head>
     </msDesc>
-    <msDesc xml:id="BrechinSTC3215">
+    <msDesc xml:id="BrechinSTC3215" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Brechin Castle</settlement>
             <repository>Earl of Dalhousie</repository>
         </msIdentifier>
         <head>John Barbour, Buik of Alexander the grit (Edinburgh, Arbuthnet, c. 1580) (STC 321.5)</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">Printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="BristolAS2">
         <msIdentifier>
@@ -25229,7 +25122,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Deposit from Durham Cathedral Priory</note>
+                <custodialHist>
+                    <custEvent type="deposit">Deposit from Durham Cathedral Priory</custEvent>
+                </custodialHist>
             </adminInfo>
             <surrogates>
                 <bibl>
@@ -25252,7 +25147,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>On deposit in Durham University Library</note>
+                <custodialHist>
+                    <custEvent type="deposit">On deposit in Durham University Library</custEvent>
+                </custodialHist>
             </adminInfo>
         </additional>
     </msDesc>
@@ -25599,7 +25496,7 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="DULBamSel13">
+    <msDesc xml:id="DULBamSel13" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Durham</settlement>
@@ -25607,11 +25504,6 @@
             <idno>Bamburgh Sel 13</idno>
         </msIdentifier>
         <head>Higden's Polychronicon, trans. Trevisa, 1495</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="EDCPCM">
         <msIdentifier>
@@ -25667,7 +25559,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Deposit from Brechin Castle, Earl of Dalhousie</note>
+                <custodialHist>
+                    <custEvent type="deposit">Deposit from Brechin Castle, Earl of Dalhousie</custEvent>
+                </custodialHist>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -26545,7 +26439,9 @@
         <head>Medieval fragments</head>
         <additional>
             <adminInfo>
-                <note>Deposit from the Marquis of Stafford</note>
+                <custodialHist>
+                    <custEvent type="deposit">Deposit from the Marquis of Stafford</custEvent>
+                </custodialHist>
             </adminInfo>
         </additional>
     </msDesc>
@@ -26559,7 +26455,9 @@
         <head>Calendar of Fearn Abbey</head>
         <additional>
             <adminInfo>
-                <note>Deposit from the Marquis of Sutherland, Dunrobin Castle</note>
+                <custodialHist>
+                    <custEvent type="deposit">Deposit from the Marquis of Sutherland, Dunrobin Castle</custEvent>
+                </custodialHist>
             </adminInfo>
         </additional>
     </msDesc>
@@ -26589,7 +26487,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Deposited at the National Library of Scotland in 1991; returned to the Scottish Catholic Archives in 2005</note>
+                <custodialHist>
+                    <custEvent type="deposit">Deposited at the National Library of Scotland in 1991; returned to the Scottish Catholic Archives in 2005</custEvent>
+                </custodialHist>
             </adminInfo>
         </additional>
     </msDesc>
@@ -26605,7 +26505,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Deposited at the National Library of Scotland in 1991; returned to the Scottish Catholic Archives in 2005</note>
+                <custodialHist>
+                    <custEvent type="deposit">Deposited at the National Library of Scotland in 1991; returned to the Scottish Catholic Archives in 2005</custEvent>
+                </custodialHist>
                 <note type="editorial">idno SCA/MM/2/1 ? (https://archive.catholic-heritage.net/Record.aspx?src=CalmView.Catalog&amp;id=SCA%2fMM%2f2%2f1&amp;pos=3)</note>
             </adminInfo>
             <listBibl type="catalogue">
@@ -26632,7 +26534,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note type="editorial">Untraced in on-line searches March 2026</note>
+                <availability status="unknown">
+                    <p>Untraced in on-line searches March 2026</p>
+                </availability>
             </adminInfo>
         </additional>
     </msDesc>
@@ -27120,7 +27024,7 @@
             <idno>36</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="GlouPLPynson">
+    <msDesc xml:id="GlouPLPynson" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Gloucester</settlement>
@@ -27129,8 +27033,9 @@
         <head>Dyuerse My[racles whi]che God hath shewed for the [Portion] of his precyous Blod in Hay[les], Pynson, ca. 1515 (STC 12973.5)</head>
         <additional>
             <adminInfo>
-                <note>Deposit</note>
-                <note type="editorial">printed book</note>
+                <custodialHist>
+                    <custEvent type="deposit">Deposit</custEvent>
+                </custodialHist>
             </adminInfo>
         </additional>
     </msDesc>
@@ -27361,7 +27266,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Deposit at Ipswich School</note>
+                <custodialHist>
+                    <custEvent type="deposit">Deposit at Ipswich School</custEvent>
+                </custodialHist>
             </adminInfo>
         </additional>
     </msDesc>
@@ -27381,7 +27288,7 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="Kendal">
+    <msDesc xml:id="Kendal" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Kendal</settlement>
@@ -27390,8 +27297,9 @@
         <head>A. de Clavasio, Summa de casibus conscientiae, Nuremberg, 1498</head>
         <additional>
             <adminInfo>
-                <note type="editorial">printed book</note>
-                <note>Deposit at Newcastle University Library</note>
+                <custodialHist>
+                    <custEvent type="deposit">Deposit at Newcastle University Library</custEvent>
+                </custodialHist>
             </adminInfo>
         </additional>
     </msDesc>
@@ -27547,7 +27455,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Deposit from Ripon Minster</note>
+                <custodialHist>
+                    <custEvent type="deposit">Deposit from Ripon Minster</custEvent>
+                </custodialHist>
             </adminInfo>
         </additional>
     </msDesc>
@@ -27560,7 +27470,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Deposit from Appleby Castle</note>
+                <custodialHist>
+                    <custEvent type="deposit">Deposit from Appleby Castle</custEvent>
+                </custodialHist>
             </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
@@ -27886,7 +27798,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Untraced</note>
+                <availability status="unknown">
+                    <p>Untraced</p>
+                </availability>
             </adminInfo>
         </additional>
     </msDesc>
@@ -27907,7 +27821,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Deposit from the Cathedral</note>
+                <custodialHist>
+                    <custEvent type="deposit">Deposit from the Cathedral</custEvent>
+                </custodialHist>
             </adminInfo>
         </additional>
     </msDesc>
@@ -28969,11 +28885,6 @@
                 <idno>London, John Scott</idno>
             </altIdentifier>
         </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note>Present location unknown</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="SocAnt101">
         <msIdentifier>
@@ -29036,7 +28947,7 @@
             </altIdentifier>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="StPauls47G3">
+    <msDesc xml:id="StPauls47G3" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>London</settlement>
@@ -29047,11 +28958,6 @@
             </altIdentifier>
         </msIdentifier>
         <head>Thesaurus Grammaticus linguae sanctae Hebraeae (Basle, 1616)</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="UnivLon278">
         <msIdentifier>
@@ -29930,7 +29836,9 @@
         <head>Scottish Feilde</head>
         <additional>
             <adminInfo>
-                <note>Deposit</note>
+                <custodialHist>
+                    <custEvent type="deposit">Deposit</custEvent>
+                </custodialHist>
             </adminInfo>
         </additional>
     </msDesc>
@@ -30250,7 +30158,9 @@
         <head>Land grant</head>
         <additional>
             <adminInfo>
-                <note>Deposit from Whitchurch Free Library</note>
+                <custodialHist>
+                    <custEvent type="deposit">Deposit from Whitchurch Free Library</custEvent>
+                </custodialHist>
             </adminInfo>
         </additional>
     </msDesc>
@@ -30376,7 +30286,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Missing</note>
+                <availability status="unknown">
+                    <p>Missing</p>
+                </availability>
             </adminInfo>
         </additional>
     </msDesc>
@@ -30680,7 +30592,7 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="YorkMinXIO28">
+    <msDesc xml:id="YorkMinXIO28" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>York</settlement>
@@ -30688,11 +30600,6 @@
             <idno>XI.O.28</idno>
         </msIdentifier>
         <head>Horae ad usum Eborum (Rouen, 1516?)</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="YorkMinXVIE32">
         <msIdentifier>
@@ -30818,7 +30725,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Missing; considered lost since Raine's edition</note>
+                <availability status="unknown">
+                    <p>Missing; considered lost since Raine's edition</p>
+                </availability>
             </adminInfo>
         </additional>
     </msDesc>
@@ -32076,9 +31985,6 @@
         </msIdentifier>
         <head>roll</head>
         <additional>
-            <adminInfo>
-                <note type="editorial">A Bibliophile's Miscellany (1941), no. 296</note>
-            </adminInfo>
             <surrogates>
                 <bibl>
                     <ref target="https://collections.library.yale.edu/catalog/10269867"/>
@@ -32522,7 +32428,7 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="Bein20082479">
+    <msDesc xml:id="Bein20082479" type="printed">
         <msIdentifier>
             <country>USA</country>
             <settlement>New Haven, CT</settlement>
@@ -32531,9 +32437,6 @@
         </msIdentifier>
         <head>Dinus de Mugello, De regulis iuris (Lyons, 1562)</head>
         <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://search.library.yale.edu/catalog/9984843843408651"/>
@@ -32736,18 +32639,13 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="PierpontB11">
+    <msDesc xml:id="PierpontB11" type="printed">
         <msIdentifier>
             <country>USA</country>
             <settlement>New York, NY</settlement>
             <repository>Pierpont Morgan Library</repository>
             <idno>B11</idno>
         </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="PierpontB13">
         <msIdentifier>
@@ -33080,7 +32978,7 @@
             <idno>M722</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="PML722">
+    <msDesc xml:id="PML722" type="printed">
         <msIdentifier>
             <country>USA</country>
             <settlement>New York, NY</settlement>
@@ -33091,11 +32989,6 @@
             </altIdentifier>
         </msIdentifier>
         <head>STC 5065</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">Printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="PierpontM771">
         <msIdentifier>
@@ -33266,7 +33159,7 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="PierpontAcc676">
+    <msDesc xml:id="PierpontAcc676" type="printed">
         <msIdentifier>
             <country>USA</country>
             <settlement>New York, NY</settlement>
@@ -33277,13 +33170,8 @@
             </altIdentifier>
         </msIdentifier>
         <head>STC 6826</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
-    <msDesc xml:id="PierpontAcc698">
+    <msDesc xml:id="PierpontAcc698" type="printed">
         <msIdentifier>
             <country>USA</country>
             <settlement>New York, NY</settlement>
@@ -33295,9 +33183,6 @@
         </msIdentifier>
         <head>The Ryal Book (trans. and printed William Caxton) (STC 21429)</head>
         <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://corsair.themorgan.org/vwebv/holdingsInfo?bibId=134772"/>
@@ -33305,7 +33190,7 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="PierpontAcc775">
+    <msDesc xml:id="PierpontAcc775" type="printed">
         <msIdentifier>
             <country>USA</country>
             <settlement>New York, NY</settlement>
@@ -33320,9 +33205,6 @@
         </msIdentifier>
         <head>STC 3199</head>
         <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://corsair.themorgan.org/vwebv/holdingsInfo?bibId=133786"/>
@@ -33330,7 +33212,7 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="PierpontAcc28432">
+    <msDesc xml:id="PierpontAcc28432" type="printed">
         <msIdentifier>
             <country>USA</country>
             <settlement>New York, NY</settlement>
@@ -33338,9 +33220,6 @@
             <idno>Acc. No. 28432</idno>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="http://corsair.themorgan.org/vwebv/holdingsInfo?bibId=111834"/>
@@ -33369,7 +33248,7 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="PierpontAcc10360">
+    <msDesc xml:id="PierpontAcc10360" type="printed">
         <msIdentifier>
             <country>USA</country>
             <settlement>New York, NY</settlement>
@@ -33379,24 +33258,14 @@
                 <idno>Acc. No. PML 1047</idno>
             </altIdentifier>
         </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
-    <msDesc xml:id="PierpontAcc53095">
+    <msDesc xml:id="PierpontAcc53095" type="printed">
         <msIdentifier>
             <country>USA</country>
             <settlement>New York, NY</settlement>
             <repository>Pierpont Morgan Library</repository>
             <idno>Acc. No. 53095</idno>
         </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="NYPLDrexFr4180">
         <msIdentifier>
@@ -35727,7 +35596,7 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="HunRB14195">
+    <msDesc xml:id="HunRB14195" type="printed">
         <msIdentifier>
             <country>USA</country>
             <settlement>San Marino, CA</settlement>
@@ -35736,9 +35605,6 @@
         </msIdentifier>
         <head>STC 10606</head>
         <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://catalog.huntington.org/record=b1498345"/>
@@ -35746,7 +35612,7 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="HunPB82241">
+    <msDesc xml:id="HunPB82241" type="printed">
         <msIdentifier>
             <country>USA</country>
             <settlement>San Marino, CA</settlement>
@@ -35755,9 +35621,6 @@
         </msIdentifier>
         <head>Rudimenta grammatices (STC 19767.3)</head>
         <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://catalog.huntington.org/record=b1506584"/>
@@ -35765,7 +35628,7 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="HunRB34001">
+    <msDesc xml:id="HunRB34001" type="printed">
         <msIdentifier>
             <country>USA</country>
             <settlement>San Marino, CA</settlement>
@@ -35774,9 +35637,6 @@
         </msIdentifier>
         <head>Lydgate, Fall of Princes (STC 3175)</head>
         <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://catalog.huntington.org/record=b1498852"/>
@@ -36791,7 +36651,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Destroyed by fire in 1922</note>
+                <custodialHist>
+                    <custEvent type="destroyed" when="1922">Destroyed by fire in 1922</custEvent>
+                </custodialHist>
             </adminInfo>
         </additional>
     </msDesc>
@@ -36862,7 +36724,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Present location unknown</note>
+                <availability status="unknown">
+                    <p>Present location unknown</p>
+                </availability>
             </adminInfo>
         </additional>
     </msDesc>
@@ -37745,9 +37609,6 @@
             <provenance>sold Sotheby's, London, 21-2 June 1993, lot 49</provenance>
         </history>
         <additional>
-            <adminInfo>
-                <note type="editorial">Single leaf</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://onlineonly.christies.com/s/history-western-music-manuscripts-schoyen-collection/st-gall-neumes-early-german-neumes-13/197927"/>
@@ -38063,9 +37924,9 @@
         <head>Sir John Fenn's Letters, fragments of early prints</head>
         <additional>
             <adminInfo>
-                <note>Untraced</note>
-                <note>See <bibl key="Furnivall1865b"/>
-                </note>
+                <availability status="unknown">
+                    <p>Untraced; see <bibl key="Furnivall1865b"/>.</p>
+                </availability>
             </adminInfo>
         </additional>
     </msDesc>
@@ -38082,11 +37943,6 @@
         <history>
             <provenance>Maggs cat. 456, item 184</provenance>
         </history>
-        <additional>
-            <adminInfo>
-                <note>Present location unknown</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="Huth1911">
         <msIdentifier>
@@ -38345,8 +38201,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Unidentified, missing or destroyed</note>
-                <note type="editorial">Hamer's Manuscript Index lists as unidentified, missing or destroyed.</note>
+                <availability status="unknown">
+                    <p>Unidentified, missing or destroyed (per <bibl key="Hamer1995"/>)</p>
+                </availability>
             </adminInfo>
         </additional>
     </msDesc>
@@ -38471,7 +38328,7 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Unidentified, missing, or destroyed</note>
+                <note>A placeholder for a source not yet recorded by DIMEV.</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -38522,7 +38379,9 @@
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Destroyed by fire in 1879</note>
+                <custodialHist>
+                    <custEvent type="destroyed" when="1879">Destroyed by fire in 1879</custEvent>
+                </custodialHist>
             </adminInfo>
         </additional>
     </msDesc>
@@ -38551,11 +38410,11 @@
         <msIdentifier>
             <country>unknown</country>
             <settlement>unknown</settlement>
-            <repository>unknown</repository>
+            <repository>Helmingham Hall</repository>
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note type="editorial">Cited in the as '? Helmingham Hall'; possibly Newberry Library MS f36; possibly in collection of Martin Schøyen, as cited in 1597</note>
+                <note>Unidentified; recorded by IMEV under 1597 as "? Helmingham Hall". Possibly either the book now Newberry Library, MS f36, or Beinecke Library, Osborn MS fa43 (olim Schøyen)</note>
             </adminInfo>
         </additional>
     </msDesc>
@@ -38564,10 +38423,13 @@
             <country>unknown</country>
             <settlement>unknown</settlement>
             <repository>unknown</repository>
+            <msName>Tiverton Parish Church Primer</msName>
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note type="editorial">Tiverton, Parish Church, on cover of a Primer</note>
+                <availability status="unknown">
+                    <p>Unidentified, missing or destroyed (per <bibl key="Hamer1995"/>)</p>
+                </availability>
             </adminInfo>
         </additional>
     </msDesc>
@@ -38581,13 +38443,13 @@
             <provenance>Dawson Sale Catalogue 102 (1960), Item 11</provenance>
         </history>
     </msDesc>
-    <msDesc xml:id="RiponCicero">
+    <msDesc xml:id="RiponCicero" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Ripon</settlement>
             <repository>Ripon Cathedral</repository>
-            <idno>Cicero's Epistles (Basle 1546)</idno>
         </msIdentifier>
+        <head>Cicero, Epistles (Basle 1546)</head>
     </msDesc>
     <msDesc xml:id="OwstonCooke21">
         <msIdentifier>
@@ -38611,10 +38473,17 @@
     </msDesc>
     <msDesc xml:id="Stephens">
         <msIdentifier>
-            <country>unknown</country>
-            <settlement>unknown</settlement>
-            <repository>unknown</repository>
+            <country>none</country>
+            <settlement>none</settlement>
+            <repository>none</repository>
         </msIdentifier>
+        <additional>
+            <adminInfo>
+                <availability status="unknown">
+                    <p>Reported by <bibl key="Stephens1884-88">334-5</bibl>; <bibl key="Hamer1995"/> reports as destroyed.</p>
+                </availability>
+            </adminInfo>
+        </additional>
     </msDesc>
     <msDesc xml:id="EDSROGD112">
         <msIdentifier>
@@ -38624,7 +38493,7 @@
             <idno>GD 112/71/9</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="HunRB60363">
+    <msDesc xml:id="HunRB60363" type="printed">
         <msIdentifier>
             <country>USA</country>
             <settlement>San Marino, CA</settlement>
@@ -38633,9 +38502,6 @@
             <msName>STC 4115</msName>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://catalog.huntington.org/record=b1507663"/>
@@ -38643,7 +38509,7 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="HunRB69798">
+    <msDesc xml:id="HunRB69798" type="printed">
         <msIdentifier>
             <country>USA</country>
             <settlement>San Marino, CA</settlement>
@@ -38652,9 +38518,6 @@
             <msName>STC 24875</msName>
         </msIdentifier>
         <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://catalog.huntington.org/record=b1500710"/>
@@ -38765,7 +38628,7 @@
             <idno>Letters</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="CULInc5J12">
+    <msDesc xml:id="CULInc5J12" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Cambridge</settlement>
@@ -38774,9 +38637,6 @@
         </msIdentifier>
         <head>STC 17032a</head>
         <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://idiscover.lib.cam.ac.uk/permalink/44CAM_INST/c1j9q5/alma9948298293403606"/>
@@ -38802,7 +38662,7 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="Cushwa-Leighton">
+    <msDesc xml:id="Cushwa-Leighton" type="printed">
         <msIdentifier>
             <country>USA</country>
             <settlement>Notre Dame, IN</settlement>
@@ -38810,11 +38670,6 @@
             <idno>qR 128 A95 1490</idno>
         </msIdentifier>
         <head>Avenzohar, Liber Teisir, sive rectificatio medicationis et regiminis (Venice: Johannes and Gregorius Forlivio, 4 January 1490/91)</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="Halesowen">
         <msIdentifier>
@@ -38832,7 +38687,7 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="TakamiyaBible">
+    <msDesc xml:id="TakamiyaBible" type="printed">
         <msIdentifier>
             <country>USA</country>
             <settlement>New Haven, CT</settlement>
@@ -38849,11 +38704,6 @@
             </altIdentifier>
         </msIdentifier>
         <head>Biblia latina, Speier: Peter Drach, 1489 (Goff B-587)</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="ExeterSammelband">
         <msIdentifier>
@@ -41095,7 +40945,7 @@
             <idno>Tanner 11</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BodWood396">
+    <msDesc xml:id="BodWood396" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Oxford</settlement>
@@ -41103,11 +40953,6 @@
             <idno>Wood 396</idno>
         </msIdentifier>
         <head>Henricus Loritus Glareanus (Basel, 1547)</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="OxfStJohn108">
         <msIdentifier>
@@ -41383,7 +41228,7 @@
             <idno>181</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="OxfBal695h6">
+    <msDesc xml:id="OxfBal695h6" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Oxford</settlement>
@@ -41391,13 +41236,8 @@
             <idno>695.h.6</idno>
         </msIdentifier>
         <head>Wolfgang Lazius, Rerum Viennensium Commentarij (Basle, 1546)</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
-    <msDesc xml:id="OxfBal23b6">
+    <msDesc xml:id="OxfBal23b6" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Oxford</settlement>
@@ -41405,13 +41245,8 @@
             <idno>23.b.6</idno>
         </msIdentifier>
         <head>Willem Lycophron, Lykophronos tou Chalkideos Alexandra (Basle, 1566)</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
-    <msDesc xml:id="Ryff1548">
+    <msDesc xml:id="Ryff1548" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>London</settlement>
@@ -41419,13 +41254,8 @@
             <idno>D1/19-c-27</idno>
         </msIdentifier>
         <head>Walther Ryff, In Caii Plinii Secvndi Natvralis historiae argutissimi Scriptoris (Würzburg, 1548)</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
-    <msDesc xml:id="HuntingtonRB61866">
+    <msDesc xml:id="HuntingtonRB61866" type="printed">
         <msIdentifier>
             <country>USA</country>
             <settlement>San Marino, CA</settlement>
@@ -41433,13 +41263,8 @@
             <idno>RB61866</idno>
         </msIdentifier>
         <head>STC 14546</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
-    <msDesc xml:id="IB49437">
+    <msDesc xml:id="IB49437" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>London</settlement>
@@ -41447,24 +41272,16 @@
             <idno>IB.49437</idno>
         </msIdentifier>
         <head>Jean Mielot, Les quattres choses derrenieres (Bruges: William Caxton, 1475?)</head>
-        <additional>
-            <adminInfo>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
     </msDesc>
-    <msDesc xml:id="Strassburg1494">
+    <msDesc xml:id="Strassburg1494" type="printed">
         <msIdentifier>
             <country>unknown</country>
             <settlement>unknown</settlement>
             <repository>unknown</repository>
         </msIdentifier>
         <head>Guido, Historia Troiana (Strassburg, 1494)</head>
-        <additional>
-            <adminInfo>
-                <note>A. Rosenthal, Sale Catalog 5 (1944), no. 11.</note>
-                <note type="editorial">printed book</note>
-            </adminInfo>
-        </additional>
+        <history>
+            <provenance>A. Rosenthal, Sale Catalog 5 (1944), no. 11.</provenance>
+        </history>
     </msDesc>
 </listBibl>

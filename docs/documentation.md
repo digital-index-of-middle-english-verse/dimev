@@ -853,10 +853,12 @@ Early printed books cited for edition-level content are recorded in `PrintedBook
 
 The document structure is modeled on the TEI elements `listBibl` and `msDesc` (the latter drawn from the [manuscript description module]) and adopts the TEI namespace (`http://www.tei-c.org/ns/1.0`), declared on the root element, `listBibl`.
 Each record identifies and locates its object through a TEI `msIdentifier` (`country`, `settlement`, `repository`, `idno`, `msName`, `altIdentifier`), and may carry a descriptive `head`, a `history` of provenance, and an `additional` block holding administrative notes, digital `surrogates`, and links to on-line catalogue records.
-The file is not yet valid against full TEI P5 (`tei_all`); some transitional residue remains until the work tracked in [issue #36](https://github.com/digital-index-of-middle-english-verse/dimev/issues/36) is complete:
+A copy of an early printed book (rather than a manuscript) is marked with `type="printed"` on its `msDesc`.
+Within `additional/adminInfo`, deposits and destruction are recorded as a `custodialHist` of datable `custEvent`s, and missing, untraced, or unlocated items in `availability`.
+The file is not yet valid against full TEI P5 (`tei_all`); some transitional residue remains:
 
 - The `lang` container (with its inline children), carrying the localization of the manuscript's language, is reserved for separate review.
-- Administrative and editorial notes are gathered under `additional/adminInfo`, pending placement in fully TEI-conformant homes.
+- Some editorial and administrative notes without a canonical TEI home (catalogue queries, inter-item relations, extent and date remarks) remain under `additional/adminInfo/note`, pending a later curation pass.
 
 Provenance information is recorded solely to aid identification of objects cited in past scholarship.
 
@@ -877,6 +879,7 @@ Provenance information is recorded solely to aid identification of objects cited
   A bibliographic record of a manuscript or a particular copy of an early printed book
 - **Attributes**
   - `xml:id`: required unique identifier
+  - `type`: optional; the value `printed` marks a record that describes a copy of an early printed book rather than a manuscript
 - **Must occur within**
   - `listBibl`
 - **Must contain** (in sequence)
@@ -1070,21 +1073,21 @@ Provenance information is recorded solely to aid identification of objects cited
 - **May occur within**
   - `desc`
   - `lang`
-  - `msName`, `head`, `provenance`, `note`
+  - `msName`, `head`, `provenance`, `note`, `p`, `custEvent`
 - **Must contain**
   No child elements or text
 
 ### `bibl`
 
 - **Description**
-  Within `desc`, `lang`, `msName`, `head`, `provenance`, and `note`, a citation of an item in DIMEV's Zotero Group Library.
+  Within `desc`, `lang`, `msName`, `head`, `provenance`, `note`, `p`, and `custEvent`, a citation of an item in DIMEV's Zotero Group Library.
   Within `surrogates` and `listBibl`, `bibl` is instead used in its TEI sense, as a wrapper for a single `ref` pointing to an on-line resource.
 - **Attributes**
   - `key`: required citation key (in its citation sense; absent within `surrogates` and `listBibl`)
 - **May occur within**
   - `desc`
   - `lang`
-  - `msName`, `head`, `provenance`, `note`
+  - `msName`, `head`, `provenance`, `note`, `p`, `custEvent`
   - `surrogates`
   - `listBibl`
 - **May contain**
@@ -1148,22 +1151,75 @@ Provenance information is recorded solely to aid identification of objects cited
 ### `adminInfo`
 
 - **Description**
-  Container for administrative, custodial, and editorial notes on the manuscript.
+  Container for administrative, custodial, and editorial information on the manuscript.
   Equivalent to the element `adminInfo` in the TEI [manuscript description module].
 - **Attributes**
   None
 - **Must occur within**
   - `additional`
+- **May contain** (in sequence)
+  - `availability` (zero or one)
+  - `custodialHist` (zero or one)
+  - `note` (any number)
+
+### `availability`
+
+- **Description**
+  The present availability or whereabouts of the object.
+  Used in a few cases to record items that are missing, untraced, or of unknown present location.
+  (More often, this status is communicated by setting the value of `country` and `settlement` to "unknown": to retrieve all items with unknown present location, check both elements.)
+  Equivalent to the element `availability` in @TEIConsortiumTEIP5Guidelines2024.
+- **Attributes**
+  - `status`: optional; the value `unknown` marks an item that is missing, untraced, or unlocated
+- **Must occur within**
+  - `adminInfo`
 - **Must contain**
-  - `note` (one or more)
+  - `p` (one or more)
+
+### `p`
+
+- **Description**
+  A paragraph of prose, here a note on the availability or whereabouts of the object.
+  Equivalent to the element `p` in @TEIConsortiumTEIP5Guidelines2024.
+- **Attributes**
+  None
+- **Must occur within**
+  - `availability`
+- **May contain**
+  Mixed text and any number of `hi`, `mss`, and `bibl`
+
+### `custodialHist`
+
+- **Description**
+  The custodial history of the object: a sequence of custodial events such as deposits, losses, and destruction.
+  Equivalent to the element `custodialHist` in the TEI [manuscript description module].
+- **Attributes**
+  None
+- **Must occur within**
+  - `adminInfo`
+- **Must contain**
+  - `custEvent` (one or more)
+
+### `custEvent`
+
+- **Description**
+  A single event in the custodial history of the object (e.g. a deposit or a destruction).
+  Equivalent to the element `custEvent` in the TEI [manuscript description module].
+- **Attributes**
+  - `type`: optional; e.g. `deposit`, `destroyed`
+  - `when`: optional; the year of the event, where stated
+- **Must occur within**
+  - `custodialHist`
+- **May contain**
+  Mixed text and any number of `hi`, `mss`, and `bibl`
 
 ### `note`
 
 - **Description**
-  An administrative, custodial, or editorial note.
-  A note with `type="legacy-desc"` preserves the verbatim text of a former `desc` that the enrichment pass could not fully account for, flagging the record for editorial review.
+  An editorial or administrative note without a more specific TEI home (e.g. a catalogue query, an inter-item relation, or a remark on extent or date).
+  Residue pending a later curation pass.
 - **Attributes**
-  - `type`: optional; e.g. `editorial` or `legacy-desc`
+  - `type`: optional; e.g. `editorial`
 - **Must occur within**
   - `adminInfo`
 - **May contain**
@@ -1177,7 +1233,7 @@ Provenance information is recorded solely to aid identification of objects cited
 - **Attributes**
   - `rend`: optional rendering hint; `italic` or `superscript`
 - **May occur within**
-  - `msName`, `head`, `provenance`, `note`
+  - `msName`, `head`, `provenance`, `note`, `p`, `custEvent`
 - **Must contain**
   Text only (`xs:string`)
 

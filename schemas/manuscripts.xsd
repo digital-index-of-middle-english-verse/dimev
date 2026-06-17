@@ -3,13 +3,11 @@
     <xs:annotation>
         <xs:documentation>INTERIM schema for DIMEV's restricted profile of TEI listBibl/msDesc (Manuscripts.xml restructure; see issue #36).
 
-After Phase 2/3 (content disaggregation + normalization) the bulk of each msDesc follows the TEI content model: msIdentifier (country, settlement, repository, idno, msName, altIdentifier), head, history/provenance, and additional (adminInfo notes, surrogates, listBibl catalogue records).
+The bulk of each msDesc follows the TEI content model: msIdentifier (country, settlement, repository, idno, msName, altIdentifier), head, history/provenance, and additional (adminInfo, surrogates, listBibl).
 
 It is NOT yet valid against TEI P5 (tei_all). Two transitional concessions remain:
-  - desc: still permitted because a handful of records (added to Manuscripts.xml after the enrichment tool was built, and so unmatched by it) keep their Phase 1 placeholder. To be disaggregated when those are reconciled.
-  - lang: the LALME/LAEME dialect-localization data, deferred for separate review (Phase 4).
-  - note placed under additional/adminInfo rather than a TEI-canonical home, and the legacy-desc safety-net notes, are editorial-review residue from Phase 2.
-Once those are dissolved this schema should be tightened to a TEI-valid profile.</xs:documentation>
+  - lang: the LALME/LAEME dialect-localization data, deferred for separate handling
+  - adminInfo/note elements (catalogue queries, inter-item relations, extent/date remarks) are residue awaiting a later curation pass.</xs:documentation>
     </xs:annotation>
     <xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xs:element name="listBibl">
@@ -110,7 +108,41 @@ Once those are dissolved this schema should be tightened to a TEI-valid profile.
                                             </xs:annotation>
                                             <xs:complexType>
                                                 <xs:sequence>
-                                                    <xs:element name="note" maxOccurs="unbounded">
+                                                    <xs:element name="availability" minOccurs="0">
+                                                        <xs:annotation>
+                                                            <xs:documentation>Access/availability status of the item. status="unknown" marks items that are missing, untraced, or of unknown present location.</xs:documentation>
+                                                        </xs:annotation>
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="p" type="tei:inlineText" maxOccurs="unbounded"/>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="status" type="xs:string" use="optional"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="custodialHist" minOccurs="0">
+                                                        <xs:annotation>
+                                                            <xs:documentation>Custodial history: deposits, losses, and destruction, each recorded as a custEvent (type="deposit", "destroyed", ...; when carries a year where one is stated).</xs:documentation>
+                                                        </xs:annotation>
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="custEvent" maxOccurs="unbounded">
+                                                                    <xs:complexType mixed="true">
+                                                                        <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                                            <xs:element name="hi" type="tei:highlighted"/>
+                                                                            <xs:element name="mss" type="tei:msCrossRef"/>
+                                                                            <xs:element name="bibl" type="tei:bibRef"/>
+                                                                        </xs:choice>
+                                                                        <xs:attribute name="type" type="xs:string" use="optional"/>
+                                                                        <xs:attribute name="when" type="xs:string" use="optional"/>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="note" minOccurs="0" maxOccurs="unbounded">
+                                                        <xs:annotation>
+                                                            <xs:documentation>Editorial/administrative annotation without a more specific TEI home (catalogue queries, inter-item relations, extent/date remarks). Residue pending a later curation pass.</xs:documentation>
+                                                        </xs:annotation>
                                                         <xs:complexType mixed="true">
                                                             <xs:choice minOccurs="0" maxOccurs="unbounded">
                                                                 <xs:element name="hi" type="tei:highlighted"/>
@@ -148,6 +180,11 @@ Once those are dissolved this schema should be tightened to a TEI-valid profile.
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
+                        <xs:attribute name="type" type="xs:string" use="optional">
+                            <xs:annotation>
+                                <xs:documentation>type="printed" marks an item that is a copy of a printed book rather than a manuscript.</xs:documentation>
+                            </xs:annotation>
+                        </xs:attribute>
                         <xs:attribute ref="xml:id" use="required"/>
                     </xs:complexType>
                 </xs:element>
