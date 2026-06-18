@@ -154,12 +154,9 @@ def validate_xml_ids(passing):
         root = tree.getroot()
         if filename != 'Records.xml':
             pattern = r'[A-Za-z0-9_\-\.]+'
-            child = 'item'
             if filename == 'PrintedBooks.xml':
-                # reset child tag
                 child = '{http://www.tei-c.org/ns/1.0}biblStruct'
-            elif filename == 'Manuscripts.xml':
-                # reset child tag (restructured to TEI msDesc; see issue #36)
+            else: # Manuscripts.xml and Inscriptions.xml
                 child = '{http://www.tei-c.org/ns/1.0}msDesc'
             for item in root.findall(child):
                 item_id = item.get(namespace + 'id')

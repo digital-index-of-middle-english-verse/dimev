@@ -1279,68 +1279,16 @@ Provenance information is recorded solely to aid identification of objects cited
 
 ## Overview {#overview-inscr}
 
-This XML file stores bibliographic information on inscriptions and other epigraphic texts cited as witnesses in the XML file `Records.xml`.
+This XML file stores identifying information on inscriptions and other epigraphic texts cited as witnesses in the XML file `Records.xml`.
+The content model is identical with that of `Manuscripts.xml`, with the following exceptions:
 
-`Inscriptions.xml` employs a simpler variant of the pre-TEI structure formerly used by `Manuscripts.xml` (it has not yet been migrated to TEI).
-The root element is `list`.
-
-## Tag library
-
-### `list`
-
-- **Description**
-  Root element containing a list of inscribed objects and epigraphic texts
-- **Attributes**
-  None
-- **Must contain**
-  - `item` (one or more)
-
-### `item`
-
-- **Description**
-  A single entry representing an inscribed object or epigraph
-- **Attributes**
-  - `xml:id`: required unique identifier
-- **Must occur within**
-  - `list`
-- **Must contain** (in sequence)
-  - `settlement` (exactly one)
-  - `repos` (exactly one)
-  - `desc` (exactly one)
-
-### `settlement`
-
-- **Description**
-  Settlement or place where the item is located
-- **Attributes**
-  None
-- **Must occur within**
-  - `item`
-- **Must contain**
-  Text only (`xs:string`)
-
-### `repos`
-
-- **Description**
-  The institutional holder of the item
-- **Attributes**
-  None
-- **Must occur within**
-  - `item`
-- **Must contain**
-  Text only (`xs:string`)
-
-### `desc`
-
-- **Description**
-  Institutional identifier and/or brief description of the item
-- **Attributes**
-  None
-- **Must occur within**
-  - `item`
-- **Must contain**
-  Text only (`xs:string`)
-
+- `msDesc` elements carry an obligatory attribute `type`, recording inscription type.
+  (In `Manuscripts.xml` this attribute is optional.)
+  Values are "monument", "glazing", "wallPainting", "graffito", "architectural", "object".
+- There is no `lang` element
+- `desc`: a legacy container for item descriptions or identifiers.
+  Occurs as a child of `msDesc`.
+  Content will be disaggregated and migrated to TEI containers in a later curation pass.
 
 # `PrintedBooks.xml`
 

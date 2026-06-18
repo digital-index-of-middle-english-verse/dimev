@@ -1,932 +1,1296 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href='../schemas/inscriptions.xsd'?>
-<list>
-    <item xml:id="SaffWald">
-        <settlement>Saffron Waldon, Essex</settlement>
-        <repos/>
+<listBibl xmlns="http://www.tei-c.org/ns/1.0">
+    <msDesc xml:id="SaffWald" type="monument">
+        <msIdentifier>
+            <settlement>Saffron Waldon, Essex</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Tombstone Inscription</desc>
-    </item>
-    <item xml:id="GuildChapel">
-        <settlement>Stratford-on-Avon</settlement>
-        <repos>Guild Chapel, Chapel Lane [NB: not Holy Trinity as in IMEV]</repos>
+    </msDesc>
+    <msDesc xml:id="GuildChapel" type="wallPainting">
+        <msIdentifier>
+            <settlement>Stratford-on-Avon</settlement>
+            <repository>Guild Chapel, Chapel Lane [NB: not Holy Trinity as in IMEV]</repository>
+        </msIdentifier>
         <desc>Mural Inscription on west wall</desc>
-    </item>
-    <item xml:id="DissNorf">
-        <settlement>Diss, Norfolk</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="DissNorf" type="monument">
+        <msIdentifier>
+            <settlement>Diss, Norfolk</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Tombstone Inscription</desc>
-    </item>
-    <item xml:id="Barrett">
-        <settlement>Manchester, UK</settlement>
-        <repos>Chetham's Library</repos>
+    </msDesc>
+    <msDesc xml:id="Barrett" type="object">
+        <msIdentifier>
+            <settlement>Manchester, UK</settlement>
+            <repository>Chetham's Library</repository>
+        </msIdentifier>
         <desc>MS Barrett, olim fortune cards</desc>
-    </item>
-    <item xml:id="StAndrew">
-        <settlement>Old [or 'Wold'], Northamptonshire</settlement>
-        <repos>Church of St Andrew</repos>
+    </msDesc>
+    <msDesc xml:id="StAndrew" type="glazing">
+        <msIdentifier>
+            <settlement>Old [or 'Wold'], Northamptonshire</settlement>
+            <repository>Church of St Andrew</repository>
+        </msIdentifier>
         <desc>small window in south aisle</desc>
-    </item>
-    <item xml:id="Heydon">
-        <settlement>Heydon, Norfolk</settlement>
-        <repos>Church of Saints Peter and Paul</repos>
+    </msDesc>
+    <msDesc xml:id="Heydon" type="glazing">
+        <msIdentifier>
+            <settlement>Heydon, Norfolk</settlement>
+            <repository>Church of Saints Peter and Paul</repository>
+        </msIdentifier>
         <desc>olim 'Blasphemy Window' in north aisle</desc>
-    </item>
-    <item xml:id="BrownTomb">
-        <settlement>Canterbury, Kent</settlement>
-        <repos>Church of All Saints, Military Road</repos>
+    </msDesc>
+    <msDesc xml:id="BrownTomb" type="monument">
+        <msIdentifier>
+            <settlement>Canterbury, Kent</settlement>
+            <repository>Church of All Saints, Military Road</repository>
+        </msIdentifier>
         <desc>brass tomb of Ralph Brown (d. 1522), mounted on north wall</desc>
-    </item>
-    <item xml:id="Bawburgh">
-        <settlement>olim Bawburgh, Norfolk</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Bawburgh" type="object">
+        <msIdentifier>
+            <settlement>olim Bawburgh, Norfolk</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>triptych, formerly owned by Mr Clark of Beauthorp, Norfolk</desc>
-    </item>
-    <item xml:id="BeverleyMinster">
-        <settlement>Beverley, Yorkshire</settlement>
-        <repos>Beverley Minster</repos>
+    </msDesc>
+    <msDesc xml:id="BeverleyMinster" type="wallPainting">
+        <msIdentifier>
+            <settlement>Beverley, Yorkshire</settlement>
+            <repository>Beverley Minster</repository>
+        </msIdentifier>
         <desc>painting on wall in south transcept</desc>
-    </item>
-    <item xml:id="Wensley">
-        <settlement>Wensley, Yorkshire</settlement>
-        <repos>Church of the Holy Trinity</repos>
+    </msDesc>
+    <msDesc xml:id="Wensley" type="wallPainting">
+        <msIdentifier>
+            <settlement>Wensley, Yorkshire</settlement>
+            <repository>Church of the Holy Trinity</repository>
+        </msIdentifier>
         <desc>painting on north wall of nave</desc>
-    </item>
-    <item xml:id="GreatBardfield">
-        <settlement>Great Bardfield, Essex</settlement>
-        <repos>Church of St. Mary the Virgin</repos>
+    </msDesc>
+    <msDesc xml:id="GreatBardfield" type="graffito">
+        <msIdentifier>
+            <settlement>Great Bardfield, Essex</settlement>
+            <repository>Church of St. Mary the Virgin</repository>
+        </msIdentifier>
         <desc>graffito on northwest face of middle pillar on north aisle</desc>
-    </item>
-    <item xml:id="Heydon2">
-        <settlement>Heydon, Norfolk</settlement>
-        <repos>Church of Saints Peter and Paul</repos>
+    </msDesc>
+    <msDesc xml:id="Heydon2" type="glazing">
+        <msIdentifier>
+            <settlement>Heydon, Norfolk</settlement>
+            <repository>Church of Saints Peter and Paul</repository>
+        </msIdentifier>
         <desc>olim 'Blasphemy Window' in north aisle</desc>
-    </item>
-    <item xml:id="BMMLA96727">
-        <settlement>London</settlement>
-        <repos>British Museum</repos>
+    </msDesc>
+    <msDesc xml:id="BMMLA96727" type="object">
+        <msIdentifier>
+            <settlement>London</settlement>
+            <repository>British Museum</repository>
+        </msIdentifier>
         <desc>item BM MLA 96, 7-27, 1 (Bronze ewer, temp. Richard II), verses inscribed around neck
             of ewer</desc>
-    </item>
-    <item xml:id="StratfordGuild">
-        <settlement>Stratford-on-Avon, Warwickshire</settlement>
-        <repos>Guild Chapel, Chapel Lane</repos>
+    </msDesc>
+    <msDesc xml:id="StratfordGuild" type="wallPainting">
+        <msIdentifier>
+            <settlement>Stratford-on-Avon, Warwickshire</settlement>
+            <repository>Guild Chapel, Chapel Lane</repository>
+        </msIdentifier>
         <desc>mural on west wall</desc>
-    </item>
-    <item xml:id="Landwade">
-        <settlement>Landwade, Cambridgeshire</settlement>
-        <repos>Church of St. Nicholas</repos>
+    </msDesc>
+    <msDesc xml:id="Landwade" type="graffito">
+        <msIdentifier>
+            <settlement>Landwade, Cambridgeshire</settlement>
+            <repository>Church of St. Nicholas</repository>
+        </msIdentifier>
         <desc>graffito</desc>
-    </item>
-    <item xml:id="Duxford">
-        <settlement>Duxford, Cambridgeshire</settlement>
-        <repos>St. John's Church</repos>
+    </msDesc>
+    <msDesc xml:id="Duxford" type="graffito">
+        <msIdentifier>
+            <settlement>Duxford, Cambridgeshire</settlement>
+            <repository>St. John's Church</repository>
+        </msIdentifier>
         <desc>graffito</desc>
-    </item>
-    <item xml:id="Baldock">
-        <settlement>olim Baldok, Hertfordshire</settlement>
-        <repos>Church of St. Mary the Virgin</repos>
+    </msDesc>
+    <msDesc xml:id="Baldock" type="monument">
+        <msIdentifier>
+            <settlement>olim Baldok, Hertfordshire</settlement>
+            <repository>Church of St. Mary the Virgin</repository>
+        </msIdentifier>
         <desc>tomb of William Crane (d. 1483) and his wives Jane and Margaret Crane</desc>
-    </item>
-    <item xml:id="Shrow">
-        <settlement>London</settlement>
-        <repos>St. Michael's Church, Crooked Lane</repos>
+    </msDesc>
+    <msDesc xml:id="Shrow" type="monument">
+        <msIdentifier>
+            <settlement>London</settlement>
+            <repository>St. Michael's Church, Crooked Lane</repository>
+        </msIdentifier>
         <desc>brass tomb of John Shrow, stockfishmonger (d. 1487)</desc>
-    </item>
-    <item xml:id="Benson">
-        <settlement>olim London</settlement>
-        <repos>St. Martin's Church, Ludgate Hill</repos>
+    </msDesc>
+    <msDesc xml:id="Benson" type="monument">
+        <msIdentifier>
+            <settlement>olim London</settlement>
+            <repository>St. Martin's Church, Ludgate Hill</repository>
+        </msIdentifier>
         <desc>tomb of John and Anne Benson</desc>
-    </item>
-    <item xml:id="Midwinter">
-        <settlement>Northleach, Gloucestershire</settlement>
-        <repos>Church of Saints Peter and Paul</repos>
+    </msDesc>
+    <msDesc xml:id="Midwinter" type="monument">
+        <msIdentifier>
+            <settlement>Northleach, Gloucestershire</settlement>
+            <repository>Church of Saints Peter and Paul</repository>
+        </msIdentifier>
         <desc>tomb of William and Elizabeth Midwinter (d. 1501 and 1502), brass tomb on floor,
             northeast corner of nave (east end of north aisle), in brass border</desc>
-    </item>
-    <item xml:id="Hannys">
-        <settlement>olim Romford, Essex</settlement>
-        <repos>Church of St Edward the Confessor</repos>
+    </msDesc>
+    <msDesc xml:id="Hannys" type="monument">
+        <msIdentifier>
+            <settlement>olim Romford, Essex</settlement>
+            <repository>Church of St Edward the Confessor</repository>
+        </msIdentifier>
         <desc>tomb of Elizabeth Hannys and Avery Cornburgh</desc>
-    </item>
-    <item xml:id="MaldonAllSaints">
-        <settlement>olim Maldon, Essex</settlement>
-        <repos>Church of All Saints</repos>
+    </msDesc>
+    <msDesc xml:id="MaldonAllSaints" type="monument">
+        <msIdentifier>
+            <settlement>olim Maldon, Essex</settlement>
+            <repository>Church of All Saints</repository>
+        </msIdentifier>
         <desc>brass tomb</desc>
-    </item>
-    <item xml:id="Chichele">
-        <settlement>Higham Ferrars, Northamptonshire</settlement>
-        <repos>Church of St. Mary the Virgin</repos>
+    </msDesc>
+    <msDesc xml:id="Chichele" type="monument">
+        <msIdentifier>
+            <settlement>Higham Ferrars, Northamptonshire</settlement>
+            <repository>Church of St. Mary the Virgin</repository>
+        </msIdentifier>
         <desc>tomb of William and Beatrice Chichele on floor at west end of south aisle, to right of
             Lady Chapel altar</desc>
-    </item>
-    <item xml:id="Barton">
-        <settlement>olim London</settlement>
-        <repos>St. Michael's Church, Basinghall</repos>
+    </msDesc>
+    <msDesc xml:id="Barton" type="monument">
+        <msIdentifier>
+            <settlement>olim London</settlement>
+            <repository>St. Michael's Church, Basinghall</repository>
+        </msIdentifier>
         <desc>tomb of John Barton, Mercer (d. 1460)</desc>
-    </item>
-    <item xml:id="Jannys">
-        <settlement>Norwich, Norfolk</settlement>
-        <repos>Norwich City Council, Blackfriar's Hall</repos>
+    </msDesc>
+    <msDesc xml:id="Jannys" type="monument">
+        <msIdentifier>
+            <settlement>Norwich, Norfolk</settlement>
+            <repository>Norwich City Council, Blackfriar's Hall</repository>
+        </msIdentifier>
         <desc>portrait of Robert Jannys, Mayor of Norwich, 1517 and 1524</desc>
-    </item>
-    <item xml:id="Lammas">
-        <settlement>olim Lammas, Norfolk</settlement>
-        <repos>Church of St. Andrew</repos>
+    </msDesc>
+    <msDesc xml:id="Lammas" type="glazing">
+        <msIdentifier>
+            <settlement>olim Lammas, Norfolk</settlement>
+            <repository>Church of St. Andrew</repository>
+        </msIdentifier>
         <desc>North window, painted glass of Last Judgement, showing Virgin Mary performing seven
             works of mercy</desc>
-    </item>
-    <item xml:id="Combs">
-        <settlement>olim Combs, Suffolk</settlement>
-        <repos>Church of St. Mary</repos>
+    </msDesc>
+    <msDesc xml:id="Combs" type="glazing">
+        <msIdentifier>
+            <settlement>olim Combs, Suffolk</settlement>
+            <repository>Church of St. Mary</repository>
+        </msIdentifier>
         <desc>glass in windows of side chapel, southeast corner of nave, farthest window to east,
             facing south</desc>
-    </item>
-    <item xml:id="Brandeston">
-        <settlement>olim Brandeston, Suffolk</settlement>
-        <repos>Church of All Saints</repos>
+    </msDesc>
+    <msDesc xml:id="Brandeston" type="glazing">
+        <msIdentifier>
+            <settlement>olim Brandeston, Suffolk</settlement>
+            <repository>Church of All Saints</repository>
+        </msIdentifier>
         <desc>painted glass in south window next to porch, depicting corporal works of mercy</desc>
-    </item>
-    <item xml:id="Cawston">
-        <settlement>Cawston, Norfolk</settlement>
-        <repos>Church of St. Agnes</repos>
+    </msDesc>
+    <msDesc xml:id="Cawston" type="architectural">
+        <msIdentifier>
+            <settlement>Cawston, Norfolk</settlement>
+            <repository>Church of St. Agnes</repository>
+        </msIdentifier>
         <desc>gallery at north end, in tower</desc>
-    </item>
-    <item xml:id="LondonStreet">
-        <settlement>olim Norwich, Norfolk</settlement>
-        <repos>London Street, private house</repos>
+    </msDesc>
+    <msDesc xml:id="LondonStreet" type="glazing">
+        <msIdentifier>
+            <settlement>olim Norwich, Norfolk</settlement>
+            <repository>London Street, private house</repository>
+        </msIdentifier>
         <desc>painted glass</desc>
-    </item>
-    <item xml:id="Thurton">
-        <settlement>Thurton, Norfolk</settlement>
-        <repos>Church of St Ethelbert</repos>
+    </msDesc>
+    <msDesc xml:id="Thurton" type="glazing">
+        <msIdentifier>
+            <settlement>Thurton, Norfolk</settlement>
+            <repository>Church of St Ethelbert</repository>
+        </msIdentifier>
         <desc>painted glass, scrolls in roundels of left and right panels of the 4th window from the
             east on south wall</desc>
-    </item>
-    <item xml:id="Notingham">
-        <settlement>Holme-next-the-Sea, Norfolk</settlement>
-        <repos>Church of St. Mary</repos>
+    </msDesc>
+    <msDesc xml:id="Notingham" type="monument">
+        <msIdentifier>
+            <settlement>Holme-next-the-Sea, Norfolk</settlement>
+            <repository>Church of St. Mary</repository>
+        </msIdentifier>
         <desc>brass tomb of Henry Nottingham (d. 1405) on wall on south side of chancel arch</desc>
-    </item>
-    <item xml:id="BMMLA96727b">
-        <settlement>London</settlement>
-        <repos>British Museum</repos>
+    </msDesc>
+    <msDesc xml:id="BMMLA96727b" type="object">
+        <msIdentifier>
+            <settlement>London</settlement>
+            <repository>British Museum</repository>
+        </msIdentifier>
         <desc>item BM MLA 96, 7-27, 1 (Bronze ewer, temp. Richard II), verses inscribed around neck
             of ewer</desc>
-    </item>
-    <item xml:id="BMFrank683">
-        <settlement>London</settlement>
-        <repos>British Museum</repos>
+    </msDesc>
+    <msDesc xml:id="BMFrank683" type="object">
+        <msIdentifier>
+            <settlement>London</settlement>
+            <repository>British Museum</repository>
+        </msIdentifier>
         <desc>Franks bequest (no. 683)</desc>
-    </item>
-    <item xml:id="Amys">
-        <settlement>Barton Turf, Norfolk</settlement>
-        <repos>Church of St Michael &amp; All Angels</repos>
+    </msDesc>
+    <msDesc xml:id="Amys" type="monument">
+        <msIdentifier>
+            <settlement>Barton Turf, Norfolk</settlement>
+            <repository>Church of St Michael &amp; All Angels</repository>
+        </msIdentifier>
         <desc>Brass tomb of Thomas and Margery Amys (d. 1445), on floor of south chapel, beside
             chancel (south-east corner of church)</desc>
-    </item>
-    <item xml:id="CarlisleChoir">
-        <settlement>Carlisle, Cumbria</settlement>
-        <repos>Carlisle Cathedral</repos>
+    </msDesc>
+    <msDesc xml:id="CarlisleChoir" type="wallPainting">
+        <msIdentifier>
+            <settlement>Carlisle, Cumbria</settlement>
+            <repository>Carlisle Cathedral</repository>
+        </msIdentifier>
         <desc>backs of choir stalls, painted</desc>
-    </item>
-    <item xml:id="CarlisleChoir2">
-        <settlement>Carlisle, Cumbria</settlement>
-        <repos>Carlisle Cathedral</repos>
+    </msDesc>
+    <msDesc xml:id="CarlisleChoir2" type="wallPainting">
+        <msIdentifier>
+            <settlement>Carlisle, Cumbria</settlement>
+            <repository>Carlisle Cathedral</repository>
+        </msIdentifier>
         <desc>backs of choir stalls, painted</desc>
-    </item>
-    <item xml:id="CarlisleCeiling">
-        <settlement>Carlisle, Cumbria</settlement>
-        <repos>Carlisle Cathedral</repos>
+    </msDesc>
+    <msDesc xml:id="CarlisleCeiling" type="architectural">
+        <msIdentifier>
+            <settlement>Carlisle, Cumbria</settlement>
+            <repository>Carlisle Cathedral</repository>
+        </msIdentifier>
         <desc>Prior's Tower, ceiling beams</desc>
-    </item>
-    <item xml:id="Arreton">
-        <settlement>Isle of Wight</settlement>
-        <repos>Arreton Church</repos>
+    </msDesc>
+    <msDesc xml:id="Arreton" type="monument">
+        <msIdentifier>
+            <settlement>Isle of Wight</settlement>
+            <repository>Arreton Church</repository>
+        </msIdentifier>
         <desc>brass</desc>
-    </item>
-    <item xml:id="Knowles">
-        <settlement>olim London</settlement>
-        <repos>St Anthony's [Antlins] Church, Budge Row</repos>
+    </msDesc>
+    <msDesc xml:id="Knowles" type="monument">
+        <msIdentifier>
+            <settlement>olim London</settlement>
+            <repository>St Anthony's [Antlins] Church, Budge Row</repository>
+        </msIdentifier>
         <desc>brass tomb of Thomas and Joan Knowles</desc>
-    </item>
-    <item xml:id="Savage">
-        <settlement>Buxted, Sussex</settlement>
-        <repos>Church of St. Margaret the Queen</repos>
+    </msDesc>
+    <msDesc xml:id="Savage" type="monument">
+        <msIdentifier>
+            <settlement>Buxted, Sussex</settlement>
+            <repository>Church of St. Margaret the Queen</repository>
+        </msIdentifier>
         <desc>brass plaque marking tomb of Christine Savage (ca. 1450), chancel, underneath
             carpet</desc>
-    </item>
-    <item xml:id="Constable">
-        <settlement>Flamborough, N. Yorkshire</settlement>
-        <repos>Church of St Oswald</repos>
+    </msDesc>
+    <msDesc xml:id="Constable" type="monument">
+        <msIdentifier>
+            <settlement>Flamborough, N. Yorkshire</settlement>
+            <repository>Church of St Oswald</repository>
+        </msIdentifier>
         <desc>tomb of Marmaduke Constable (d. 1520)</desc>
-    </item>
-    <item xml:id="Kelshall">
-        <settlement>Kelshall, Hertfordshire</settlement>
-        <repos>Church of St Faith</repos>
+    </msDesc>
+    <msDesc xml:id="Kelshall" type="monument">
+        <msIdentifier>
+            <settlement>Kelshall, Hertfordshire</settlement>
+            <repository>Church of St Faith</repository>
+        </msIdentifier>
         <desc>brass tomb on floor at eastern end of nave in centre, at entrance to chancel</desc>
-    </item>
-    <item xml:id="Amys2">
-        <settlement>Barton Turf, Norfolk</settlement>
-        <repos>Church of St Michael &amp; All Angels</repos>
+    </msDesc>
+    <msDesc xml:id="Amys2" type="monument">
+        <msIdentifier>
+            <settlement>Barton Turf, Norfolk</settlement>
+            <repository>Church of St Michael &amp; All Angels</repository>
+        </msIdentifier>
         <desc>brass tomb of Thomas and Margery Amys (d. 1445), on floor of south chapel, beside
             chancel (south-east corner of church)</desc>
-    </item>
-    <item xml:id="Spycer">
-        <settlement>Burford, Oxfordshire</settlement>
-        <repos>Church of St John the Baptist</repos>
+    </msDesc>
+    <msDesc xml:id="Spycer" type="monument">
+        <msIdentifier>
+            <settlement>Burford, Oxfordshire</settlement>
+            <repository>Church of St John the Baptist</repository>
+        </msIdentifier>
         <desc>tomb of John and Alys Spycer (d. 1437), center aisle at east end, brass tomb, beneath
             kneeling figures</desc>
-    </item>
-    <item xml:id="Lawnder">
-        <settlement>Northleach, Gloucestershire</settlement>
-        <repos>Church of Saints Peter and Paul</repos>
+    </msDesc>
+    <msDesc xml:id="Lawnder" type="monument">
+        <msIdentifier>
+            <settlement>Northleach, Gloucestershire</settlement>
+            <repository>Church of Saints Peter and Paul</repository>
+        </msIdentifier>
         <desc>tomb of William Lawnder, vicar of Northleach (d. 1530), on floor at base of south wall
             of chancel, before communion rail, in brass border</desc>
-    </item>
-    <item xml:id="Spycer2">
-        <settlement>Burford, Oxfordshire</settlement>
-        <repos>Church of St John the Baptist</repos>
+    </msDesc>
+    <msDesc xml:id="Spycer2" type="monument">
+        <msIdentifier>
+            <settlement>Burford, Oxfordshire</settlement>
+            <repository>Church of St John the Baptist</repository>
+        </msIdentifier>
         <desc>tomb of John and Alys Spycer (d. 1437), center aisle at east end, brass tomb, scrolls
             from mouths of figures</desc>
-    </item>
-    <item xml:id="Quartermain">
-        <settlement>Thame, Oxfordshire</settlement>
-        <repos>Church of the Blessed Virgin Mary, St. Christopher's Chapel</repos>
+    </msDesc>
+    <msDesc xml:id="Quartermain" type="monument">
+        <msIdentifier>
+            <settlement>Thame, Oxfordshire</settlement>
+            <repository>Church of the Blessed Virgin Mary, St. Christopher's Chapel</repository>
+        </msIdentifier>
         <desc>south-east corner of nave, tomb of Richard and Sibyl Quartermain, brass around edge of
             lid of elevated tomb</desc>
-    </item>
-    <item xml:id="Thorndon">
-        <settlement>Frettenham, Norfolk</settlement>
-        <repos>St. Swithin's Church</repos>
+    </msDesc>
+    <msDesc xml:id="Thorndon" type="monument">
+        <msIdentifier>
+            <settlement>Frettenham, Norfolk</settlement>
+            <repository>St. Swithin's Church</repository>
+        </msIdentifier>
         <desc>brass tomb of Alice Thorndon (d. 1420) on floor at base of north wall of
             chancel</desc>
-    </item>
-    <item xml:id="StPaulsCloister">
-        <settlement>olim London</settlement>
-        <repos>St. Paul's Cathedral</repos>
+    </msDesc>
+    <msDesc xml:id="StPaulsCloister" type="architectural">
+        <msIdentifier>
+            <settlement>olim London</settlement>
+            <repository>St. Paul's Cathedral</repository>
+        </msIdentifier>
         <desc>cloister walls</desc>
-    </item>
-    <item xml:id="HighEaster">
-        <settlement>olim High Easter, Essex</settlement>
-        <repos>St Marys Church [?]</repos>
+    </msDesc>
+    <msDesc xml:id="HighEaster" type="monument">
+        <msIdentifier>
+            <settlement>olim High Easter, Essex</settlement>
+            <repository>St Marys Church [?]</repository>
+        </msIdentifier>
         <desc>North Aisle, brass plaque on wall above tomb</desc>
-    </item>
-    <item xml:id="CarlislePriorsTower">
-        <settlement>Carlisle, Cumbria</settlement>
-        <repos>Carlisle Cathedral</repos>
+    </msDesc>
+    <msDesc xml:id="CarlislePriorsTower" type="architectural">
+        <msIdentifier>
+            <settlement>Carlisle, Cumbria</settlement>
+            <repository>Carlisle Cathedral</repository>
+        </msIdentifier>
         <desc>Prior's Tower, ceiling beams</desc>
-    </item>
-    <item xml:id="Fortey">
-        <settlement>Northleach, Gloucestershire</settlement>
-        <repos>Church of Saints Peter and Paul</repos>
+    </msDesc>
+    <msDesc xml:id="Fortey" type="monument">
+        <msIdentifier>
+            <settlement>Northleach, Gloucestershire</settlement>
+            <repository>Church of Saints Peter and Paul</repository>
+        </msIdentifier>
         <desc>tomb of John Fortey (d. 1458), set in floor of north aisle between 2nd and 3rd pillars
             of nave, in brass border</desc>
-    </item>
-    <item xml:id="Colwell">
-        <settlement>Faversham, Kent</settlement>
-        <repos>Church of ***</repos>
+    </msDesc>
+    <msDesc xml:id="Colwell" type="monument">
+        <msIdentifier>
+            <settlement>Faversham, Kent</settlement>
+            <repository>Church of ***</repository>
+        </msIdentifier>
         <desc>tomb of Richard Colwell</desc>
-    </item>
-    <item xml:id="Idley">
-        <settlement>Dorchester, Oxford</settlement>
-        <repos>Abbey Church</repos>
+    </msDesc>
+    <msDesc xml:id="Idley" type="monument">
+        <msIdentifier>
+            <settlement>Dorchester, Oxford</settlement>
+            <repository>Abbey Church</repository>
+        </msIdentifier>
         <desc>memorial brass for Peter Idley, A.D. 1473, now destroyed</desc>
-    </item>
-    <item xml:id="Baret">
-        <settlement>Bury St. Edmunds, Suffolk</settlement>
-        <repos>St. Mary's Church, SE corner of the nave</repos>
+    </msDesc>
+    <msDesc xml:id="Baret" type="monument">
+        <msIdentifier>
+            <settlement>Bury St. Edmunds, Suffolk</settlement>
+            <repository>St. Mary's Church, SE corner of the nave</repository>
+        </msIdentifier>
         <desc>tomb of John Baret, A.D. 1463</desc>
-    </item>
-    <item xml:id="GoldenCross">
-        <settlement>Oxford</settlement>
-        <repos>Golden Cross Inn</repos>
+    </msDesc>
+    <msDesc xml:id="GoldenCross" type="wallPainting">
+        <msIdentifier>
+            <settlement>Oxford</settlement>
+            <repository>Golden Cross Inn</repository>
+        </msIdentifier>
         <desc>walls in 'painted chamber'</desc>
-    </item>
-    <item xml:id="Crawley">
-        <settlement>Sussex</settlement>
-        <repos>Crawley Church</repos>
+    </msDesc>
+    <msDesc xml:id="Crawley" type="architectural">
+        <msIdentifier>
+            <settlement>Sussex</settlement>
+            <repository>Crawley Church</repository>
+        </msIdentifier>
         <desc>inscription in pew</desc>
-    </item>
-    <item xml:id="Nordell">
-        <settlement>Lombard Street, London</settlement>
-        <repos>St. Edmund's Church</repos>
+    </msDesc>
+    <msDesc xml:id="Nordell" type="monument">
+        <msIdentifier>
+            <settlement>Lombard Street, London</settlement>
+            <repository>St. Edmund's Church</repository>
+        </msIdentifier>
         <desc>epitaph, tomb of Richard Nordell and wife (A.D. 1500)</desc>
-    </item>
-    <item xml:id="Ridgewell">
-        <settlement>Ridgewell, Essex</settlement>
-        <repos>Church of St Lawrence</repos>
+    </msDesc>
+    <msDesc xml:id="Ridgewell" type="graffito">
+        <msIdentifier>
+            <settlement>Ridgewell, Essex</settlement>
+            <repository>Church of St Lawrence</repository>
+        </msIdentifier>
         <desc>graffito</desc>
-    </item>
-    <item xml:id="StOlave">
-        <settlement>Hart Street, London</settlement>
-        <repos>St. Olave's Church</repos>
+    </msDesc>
+    <msDesc xml:id="StOlave" type="monument">
+        <msIdentifier>
+            <settlement>Hart Street, London</settlement>
+            <repository>St. Olave's Church</repository>
+        </msIdentifier>
         <desc>epitaph</desc>
-    </item>
-    <item xml:id="Hexham">
-        <settlement>Hexham, Northumbria</settlement>
-        <repos>Gilesgate</repos>
+    </msDesc>
+    <msDesc xml:id="Hexham" type="architectural">
+        <msIdentifier>
+            <settlement>Hexham, Northumbria</settlement>
+            <repository>Gilesgate</repository>
+        </msIdentifier>
         <desc>inscription over door of house</desc>
-    </item>
-    <item xml:id="Victor">
-        <settlement>St Albans, Hertfordshire, UK</settlement>
-        <repos>St. Albans Abbey</repos>
+    </msDesc>
+    <msDesc xml:id="Victor" type="monument">
+        <msIdentifier>
+            <settlement>St Albans, Hertfordshire, UK</settlement>
+            <repository>St. Albans Abbey</repository>
+        </msIdentifier>
         <desc>tomb of William and Grace Victor, A.D. 1486</desc>
-    </item>
-    <item xml:id="Launceston">
-        <settlement>Cornwall</settlement>
-        <repos>olim Launceston Priory</repos>
+    </msDesc>
+    <msDesc xml:id="Launceston" type="architectural">
+        <msIdentifier>
+            <settlement>Cornwall</settlement>
+            <repository>olim Launceston Priory</repository>
+        </msIdentifier>
         <desc>a wall inscription, no longer visible</desc>
-    </item>
-    <item xml:id="Melford">
-        <settlement>Long Melford, Suffolk</settlement>
-        <repos>Church of the Holy Trinity, Clopton Chapel</repos>
+    </msDesc>
+    <msDesc xml:id="Melford" type="architectural">
+        <msIdentifier>
+            <settlement>Long Melford, Suffolk</settlement>
+            <repository>Church of the Holy Trinity, Clopton Chapel</repository>
+        </msIdentifier>
         <desc/>
-    </item>
-    <item xml:id="Melford2">
-        <settlement>Long Melford, Suffolk</settlement>
-        <repos>Church of the Holy Trinity, Clopton Chapel</repos>
+    </msDesc>
+    <msDesc xml:id="Melford2" type="wallPainting">
+        <msIdentifier>
+            <settlement>Long Melford, Suffolk</settlement>
+            <repository>Church of the Holy Trinity, Clopton Chapel</repository>
+        </msIdentifier>
         <desc>wall paintings around edge of ceiling and on ceiling</desc>
-    </item>
-    <item xml:id="Colney">
-        <settlement>Norfolk</settlement>
-        <repos>Colney Church</repos>
+    </msDesc>
+    <msDesc xml:id="Colney" type="monument">
+        <msIdentifier>
+            <settlement>Norfolk</settlement>
+            <repository>Colney Church</repository>
+        </msIdentifier>
         <desc>Tomb of Sir Thomas Bettys, A.D. 1481, no longer extant</desc>
-    </item>
-    <item xml:id="Garboldesham">
-        <settlement>Garboldesham, Norfolk</settlement>
-        <repos>Church of St. John the Baptist</repos>
+    </msDesc>
+    <msDesc xml:id="Garboldesham" type="architectural">
+        <msIdentifier>
+            <settlement>Garboldesham, Norfolk</settlement>
+            <repository>Church of St. John the Baptist</repository>
+        </msIdentifier>
         <desc/>
-    </item>
-    <item xml:id="None">
-        <settlement>No surviving witness</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="None" type="monument">
+        <msIdentifier>
+            <settlement>No surviving witness</settlement>
+            <repository/>
+        </msIdentifier>
         <desc/>
-    </item>
-    <item xml:id="Horley">
-        <settlement>Horley, Oxon</settlement>
-        <repos>parish church</repos>
+    </msDesc>
+    <msDesc xml:id="Horley" type="wallPainting">
+        <msIdentifier>
+            <settlement>Horley, Oxon</settlement>
+            <repository>parish church</repository>
+        </msIdentifier>
         <desc>mural on north wall, two scrolls</desc>
-    </item>
-    <item xml:id="Evans">
-        <settlement/>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Evans" type="object">
+        <msIdentifier>
+            <settlement/>
+            <repository/>
+        </msIdentifier>
         <desc>Sir Arthur Evans, a ring: Exhibition of Eng. Med. Art, London, 1930, Item 862</desc>
-    </item>
-    <item xml:id="StBride">
-        <settlement>London</settlement>
-        <repos>St. Bride's Church</repos>
+    </msDesc>
+    <msDesc xml:id="StBride" type="monument">
+        <msIdentifier>
+            <settlement>London</settlement>
+            <repository>St. Bride's Church</repository>
+        </msIdentifier>
         <desc>Tomb of William Wever, A.D. 1409</desc>
-    </item>
-    <item xml:id="Wever">
-        <settlement>London (demolished in 1634)</settlement>
-        <repos>St. Alban's, Wood Street</repos>
+    </msDesc>
+    <msDesc xml:id="Wever" type="monument">
+        <msIdentifier>
+            <settlement>London (demolished in 1634)</settlement>
+            <repository>St. Alban's, Wood Street</repository>
+        </msIdentifier>
         <desc>tomb epitaph of Sir Harry Wever and his wife Joan, ca. 1405</desc>
-    </item>
-    <item xml:id="Mercer">
-        <settlement>London</settlement>
-        <repos>Mercer's Chapel</repos>
-        <desc>Epitaph for Ambrose Cresacre, A.D. 1477<!--Check this--></desc>
-    </item>
-    <item xml:id="Atkinson">
-        <settlement>present location unknown</settlement>
-        <repos>olim Mrs Atkinson of Temple Sowerby</repos>
-        <desc>Inscription on a brooch<!--Check this--></desc>
-    </item>
-    <item xml:id="Mercers">
-        <settlement>London</settlement>
-        <repos>Mercer's Company</repos>
+    </msDesc>
+    <msDesc xml:id="Mercer" type="monument">
+        <msIdentifier>
+            <settlement>London</settlement>
+            <repository>Mercer's Chapel</repository>
+        </msIdentifier>
+        <desc>Epitaph for Ambrose Cresacre, A.D. 1477</desc>
+    </msDesc>
+    <msDesc xml:id="Atkinson" type="object">
+        <msIdentifier>
+            <settlement>present location unknown</settlement>
+            <repository>olim Mrs Atkinson of Temple Sowerby</repository>
+        </msIdentifier>
+        <desc>Inscription on a brooch</desc>
+    </msDesc>
+    <msDesc xml:id="Mercers" type="object">
+        <msIdentifier>
+            <settlement>London</settlement>
+            <repository>Mercer's Company</repository>
+        </msIdentifier>
         <desc>cup</desc>
-    </item>
-    <item xml:id="Almondbury">
-        <settlement>Yorkshire</settlement>
-        <repos>Almondbury Church</repos>
+    </msDesc>
+    <msDesc xml:id="Almondbury" type="architectural">
+        <msIdentifier>
+            <settlement>Yorkshire</settlement>
+            <repository>Almondbury Church</repository>
+        </msIdentifier>
         <desc>running around nave at tops of walls, below roof</desc>
-    </item>
-    <item xml:id="MagdaleneMalvern">
-        <settlement>Bath, Somerset</settlement>
-        <repos>Chapel of St Mary Magdalene in parish of Widcombe and Lyncombe</repos>
+    </msDesc>
+    <msDesc xml:id="MagdaleneMalvern" type="architectural">
+        <msIdentifier>
+            <settlement>Bath, Somerset</settlement>
+            <repository>Chapel of St Mary Magdalene in parish of Widcombe and Lyncombe</repository>
+        </msIdentifier>
         <desc>dedicatory lines inscribed in east side of the porch</desc>
-    </item>
-    <item xml:id="GreatMalvern">
-        <settlement>Malvern, Worcestershire</settlement>
-        <repos>Great Malvern Priory, St. Anne's Chapel</repos>
+    </msDesc>
+    <msDesc xml:id="GreatMalvern" type="architectural">
+        <msIdentifier>
+            <settlement>Malvern, Worcestershire</settlement>
+            <repository>Great Malvern Priory, St. Anne's Chapel</repository>
+        </msIdentifier>
         <desc>a tile fixed in a pillar near the west end of the nave</desc>
-    </item>
-    <item xml:id="Grafton">
-        <settlement>Grafton Manor, Worcestershire</settlement>
-        <repos>Inscription over parlor window</repos>
+    </msDesc>
+    <msDesc xml:id="Grafton" type="architectural">
+        <msIdentifier>
+            <settlement>Grafton Manor, Worcestershire</settlement>
+            <repository>Inscription over parlor window</repository>
+        </msIdentifier>
         <desc/>
-    </item>
-    <item xml:id="SalisburyMuseum">
-        <settlement>Salisbury, Wiltshire</settlement>
-        <repos>Salisbury and South Wiltshire Museum</repos>
+    </msDesc>
+    <msDesc xml:id="SalisburyMuseum" type="object">
+        <msIdentifier>
+            <settlement>Salisbury, Wiltshire</settlement>
+            <repository>Salisbury and South Wiltshire Museum</repository>
+        </msIdentifier>
         <desc>a tile</desc>
-    </item>
-    <item xml:id="Broughton">
-        <settlement>Broghton, Oxfordshire</settlement>
-        <repos>Broughton Church</repos>
+    </msDesc>
+    <msDesc xml:id="Broughton" type="wallPainting">
+        <msIdentifier>
+            <settlement>Broghton, Oxfordshire</settlement>
+            <repository>Broughton Church</repository>
+        </msIdentifier>
         <desc>wall paintings of Life of Virgin on chancel wall</desc>
-    </item>
-    <item xml:id="Pickering">
-        <settlement>London</settlement>
-        <repos>St Lawrence-in-Jewry Church</repos>
+    </msDesc>
+    <msDesc xml:id="Pickering" type="monument">
+        <msIdentifier>
+            <settlement>London</settlement>
+            <repository>St Lawrence-in-Jewry Church</repository>
+        </msIdentifier>
         <desc>tomb of Jon Pickering</desc>
-    </item>
-    <item xml:id="Drury">
-        <settlement>Wooburn, Buckinghamshire</settlement>
-        <repos>Church of St Paul's</repos>
+    </msDesc>
+    <msDesc xml:id="Drury" type="monument">
+        <msIdentifier>
+            <settlement>Wooburn, Buckinghamshire</settlement>
+            <repository>Church of St Paul's</repository>
+        </msIdentifier>
         <desc>tomb of Sir Robert Drury</desc>
-    </item>
-    <item xml:id="Emberton">
-        <settlement>Emberton, Buckinghamshire</settlement>
-        <repos>Emberton Church</repos>
+    </msDesc>
+    <msDesc xml:id="Emberton" type="monument">
+        <msIdentifier>
+            <settlement>Emberton, Buckinghamshire</settlement>
+            <repository>Emberton Church</repository>
+        </msIdentifier>
         <desc>epitaph</desc>
-    </item>
-    <item xml:id="Woode">
-        <settlement>?</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Woode" type="monument">
+        <msIdentifier>
+            <settlement>?</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>tomb of John Woode</desc>
-    </item>
-    <item xml:id="Notextant">
-        <settlement>No longer extant</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Notextant" type="monument">
+        <msIdentifier>
+            <settlement>No longer extant</settlement>
+            <repository/>
+        </msIdentifier>
         <desc/>
-    </item>
-    <item xml:id="Royston">
-        <settlement>Royston, Hertfordshire</settlement>
-        <repos>Church of St John the Baptist</repos>
+    </msDesc>
+    <msDesc xml:id="Royston" type="monument">
+        <msIdentifier>
+            <settlement>Royston, Hertfordshire</settlement>
+            <repository>Church of St John the Baptist</repository>
+        </msIdentifier>
         <desc>small rectangular brass on east wall of north aisle</desc>
-    </item>
-    <item xml:id="Street">
-        <settlement>olim London</settlement>
-        <repos>St Anthony's [Antlins] Church, Budge Row</repos>
+    </msDesc>
+    <msDesc xml:id="Street" type="monument">
+        <msIdentifier>
+            <settlement>olim London</settlement>
+            <repository>St Anthony's [Antlins] Church, Budge Row</repository>
+        </msIdentifier>
         <desc>epitaph of Simon and Agnes Street (d. 1440)</desc>
-    </item>
-    <item xml:id="Marsham">
-        <settlement>Norwich</settlement>
-        <repos>house on corner of St John Maddermarket and Charing Cross</repos>
+    </msDesc>
+    <msDesc xml:id="Marsham" type="architectural">
+        <msIdentifier>
+            <settlement>Norwich</settlement>
+            <repository>house on corner of St John Maddermarket and Charing Cross</repository>
+        </msIdentifier>
         <desc>No longer extant?</desc>
-    </item>
-    <item xml:id="Jug">
-        <settlement>London</settlement>
-        <repos>British Museum</repos>
+    </msDesc>
+    <msDesc xml:id="Jug" type="object">
+        <msIdentifier>
+            <settlement>London</settlement>
+            <repository>British Museum</repository>
+        </msIdentifier>
         <desc>copper jug, temp. Richard II</desc>
-    </item>
-    <item xml:id="Lakenheath">
-        <settlement>olim Lakenheath Grove, Norwich</settlement>
-        <repos>summerhouse</repos>
+    </msDesc>
+    <msDesc xml:id="Lakenheath" type="glazing">
+        <msIdentifier>
+            <settlement>olim Lakenheath Grove, Norwich</settlement>
+            <repository>summerhouse</repository>
+        </msIdentifier>
         <desc>fifteenth-century glass fitted to eighteenth-century building, surviving in 1932;
             possibly (?)originally from Duke of Norfolk's house in Newgate, Norwich</desc>
-    </item>
-    <item xml:id="Vaux">
-        <settlement>olim Cumberland</settlement>
-        <repos>Lanercost Church</repos>
+    </msDesc>
+    <msDesc xml:id="Vaux" type="monument">
+        <msIdentifier>
+            <settlement>olim Cumberland</settlement>
+            <repository>Lanercost Church</repository>
+        </msIdentifier>
         <desc>epitaph</desc>
-    </item>
-    <item xml:id="Gunwalloe">
-        <settlement>Gunwalloe (south of Helston), Cornwall</settlement>
-        <repos>Gunwalloe Church</repos>
+    </msDesc>
+    <msDesc xml:id="Gunwalloe" type="monument">
+        <msIdentifier>
+            <settlement>Gunwalloe (south of Helston), Cornwall</settlement>
+            <repository>Gunwalloe Church</repository>
+        </msIdentifier>
         <desc>epitaph</desc>
-    </item>
-    <item xml:id="Pembroke">
-        <settlement>Cambridge</settlement>
-        <repos>Pembroke College</repos>
+    </msDesc>
+    <msDesc xml:id="Pembroke" type="object">
+        <msIdentifier>
+            <settlement>Cambridge</settlement>
+            <repository>Pembroke College</repository>
+        </msIdentifier>
         <desc>drinking cup</desc>
-    </item>
-    <item xml:id="Melrose">
-        <settlement>Melrose, Scotland</settlement>
-        <repos>Melrose Abbey</repos>
+    </msDesc>
+    <msDesc xml:id="Melrose" type="architectural">
+        <msIdentifier>
+            <settlement>Melrose, Scotland</settlement>
+            <repository>Melrose Abbey</repository>
+        </msIdentifier>
         <desc>transept, well wall</desc>
-    </item>
-    <item xml:id="Brasyer">
-        <settlement>Norwich</settlement>
-        <repos>Guildhall Chapel</repos>
+    </msDesc>
+    <msDesc xml:id="Brasyer" type="architectural">
+        <msIdentifier>
+            <settlement>Norwich</settlement>
+            <repository>Guildhall Chapel</repository>
+        </msIdentifier>
         <desc>lectern inscription</desc>
-    </item>
-    <item xml:id="Thorold">
-        <settlement>New York, NY</settlement>
-        <repos>Metropolitan Museum of Art, Cloister Collections, 55.25</repos>
+    </msDesc>
+    <msDesc xml:id="Thorold" type="object">
+        <msIdentifier>
+            <settlement>New York, NY</settlement>
+            <repository>Metropolitan Museum of Art, Cloister Collections, 55.25</repository>
+        </msIdentifier>
         <desc>inscription on a mazer [formerly belonging (in 1930) to Major Thorold]</desc>
-    </item>
-    <item xml:id="CantCathMazer">
-        <settlement>Present location unknown</settlement>
-        <repos>olim Canterbury Cathedral</repos>
+    </msDesc>
+    <msDesc xml:id="CantCathMazer" type="object">
+        <msIdentifier>
+            <settlement>Present location unknown</settlement>
+            <repository>olim Canterbury Cathedral</repository>
+        </msIdentifier>
         <desc>inscription on a mazer</desc>
-    </item>
-    <item xml:id="CantCathMazer2">
-        <settlement>Present location unknown</settlement>
-        <repos>olim Canterbury Cathedral</repos>
+    </msDesc>
+    <msDesc xml:id="CantCathMazer2" type="object">
+        <msIdentifier>
+            <settlement>Present location unknown</settlement>
+            <repository>olim Canterbury Cathedral</repository>
+        </msIdentifier>
         <desc>inscription on a mazer</desc>
-    </item>
-    <item xml:id="Bontfant">
-        <settlement>Stone, Kent</settlement>
-        <repos>[Minster Church?]</repos>
+    </msDesc>
+    <msDesc xml:id="Bontfant" type="monument">
+        <msIdentifier>
+            <settlement>Stone, Kent</settlement>
+            <repository>[Minster Church?]</repository>
+        </msIdentifier>
         <desc>Epitaph of Richard Bontfant (1459)</desc>
-    </item>
-    <item xml:id="JCaxton">
-        <settlement>Canterbury, Kent</settlement>
-        <repos>St. Alphege Church</repos>
+    </msDesc>
+    <msDesc xml:id="JCaxton" type="monument">
+        <msIdentifier>
+            <settlement>Canterbury, Kent</settlement>
+            <repository>St. Alphege Church</repository>
+        </msIdentifier>
         <desc>Epitaph of John and Joane Caxton (1485)</desc>
-    </item>
-    <item xml:id="Palmer">
-        <settlement>Snodland, Kent</settlement>
-        <repos>church of Snodland</repos>
+    </msDesc>
+    <msDesc xml:id="Palmer" type="monument">
+        <msIdentifier>
+            <settlement>Snodland, Kent</settlement>
+            <repository>church of Snodland</repository>
+        </msIdentifier>
         <desc>Epitaph of Thomas and Mary Palmer (1407)</desc>
-    </item>
-    <item xml:id="Flint">
-        <settlement>Norwich</settlement>
-        <repos>St. Peter Maddermarket</repos>
+    </msDesc>
+    <msDesc xml:id="Flint" type="monument">
+        <msIdentifier>
+            <settlement>Norwich</settlement>
+            <repository>St. Peter Maddermarket</repository>
+        </msIdentifier>
         <desc>tomb of Ann Flint, d. 1525 (no longer extant)</desc>
-    </item>
-    <item xml:id="Brigge">
-        <settlement>Salle, Norfolk</settlement>
-        <repos>Church of SS Peter and Paul</repos>
+    </msDesc>
+    <msDesc xml:id="Brigge" type="monument">
+        <msIdentifier>
+            <settlement>Salle, Norfolk</settlement>
+            <repository>Church of SS Peter and Paul</repository>
+        </msIdentifier>
         <desc>Brass of John Brigge (d. 1454) ('an emaciated figure in a shroud')</desc>
-    </item>
-    <item xml:id="Barber">
-        <settlement>Abingdon, Berkshire</settlement>
-        <repos>Christ's Hospital, Governor's Archives</repos>
+    </msDesc>
+    <msDesc xml:id="Barber" type="object">
+        <msIdentifier>
+            <settlement>Abingdon, Berkshire</settlement>
+            <repository>Christ's Hospital, Governor's Archives</repository>
+        </msIdentifier>
         <desc>Object 13 (MS), 'Forman's Monument'</desc>
-    </item>
-    <item xml:id="Payne">
-        <settlement>London</settlement>
-        <repos>St. Nicholas Acons Church</repos>
+    </msDesc>
+    <msDesc xml:id="Payne" type="monument">
+        <msIdentifier>
+            <settlement>London</settlement>
+            <repository>St. Nicholas Acons Church</repository>
+        </msIdentifier>
         <desc>epitaph of Richard Payne (1463)</desc>
-    </item>
-    <item xml:id="Burlton">
-        <settlement>Dartford, Kent</settlement>
-        <repos>Church of the Holy Trinity</repos>
+    </msDesc>
+    <msDesc xml:id="Burlton" type="monument">
+        <msIdentifier>
+            <settlement>Dartford, Kent</settlement>
+            <repository>Church of the Holy Trinity</repository>
+        </msIdentifier>
         <desc>epitaph (brass) on the tomb of Catherine Burlton and Richard, her husband (1496)</desc>
-    </item>
-    <item xml:id="Stokys">
-        <settlement>Hampton-in-Arden, Warwickshire</settlement>
-        <repos>church</repos>
+    </msDesc>
+    <msDesc xml:id="Stokys" type="monument">
+        <msIdentifier>
+            <settlement>Hampton-in-Arden, Warwickshire</settlement>
+            <repository>church</repository>
+        </msIdentifier>
         <desc>epitaph tomb of R. Stokys</desc>
-    </item>
-    <item xml:id="Acworth">
-        <settlement>Luton, Bedfordshire</settlement>
-        <repos>church</repos>
+    </msDesc>
+    <msDesc xml:id="Acworth" type="monument">
+        <msIdentifier>
+            <settlement>Luton, Bedfordshire</settlement>
+            <repository>church</repository>
+        </msIdentifier>
         <desc>Acworth brass (1513)</desc>
-    </item>
-    <item xml:id="Witney">
-        <settlement>Witney, Oxfordshire</settlement>
-        <repos>church</repos>
+    </msDesc>
+    <msDesc xml:id="Witney" type="monument">
+        <msIdentifier>
+            <settlement>Witney, Oxfordshire</settlement>
+            <repository>church</repository>
+        </msIdentifier>
         <desc>epitaph on the tomb of Richard Waynman</desc>
-    </item>
-    <item xml:id="Busby">
-        <settlement>Great Tew, Oxfordshire</settlement>
-        <repos>church</repos>
+    </msDesc>
+    <msDesc xml:id="Busby" type="monument">
+        <msIdentifier>
+            <settlement>Great Tew, Oxfordshire</settlement>
+            <repository>church</repository>
+        </msIdentifier>
         <desc>Brass epitaph for William Bosby (1513)</desc>
-    </item>
-    <item xml:id="Brightwell">
-        <settlement>Brightwell, Oxfordshire</settlement>
-        <repos>Brightwell Church</repos>
+    </msDesc>
+    <msDesc xml:id="Brightwell" type="monument">
+        <msIdentifier>
+            <settlement>Brightwell, Oxfordshire</settlement>
+            <repository>Brightwell Church</repository>
+        </msIdentifier>
         <desc>Brass epitaph for John the Smith, mounted on the wall</desc>
-    </item>
-    <item xml:id="Yarnton">
-        <settlement>Yarnton, Oxfordshire</settlement>
-        <repos>Church. stained glass window (no longer extant)</repos>
+    </msDesc>
+    <msDesc xml:id="Yarnton" type="glazing">
+        <msIdentifier>
+            <settlement>Yarnton, Oxfordshire</settlement>
+            <repository>Church. stained glass window (no longer extant)</repository>
+        </msIdentifier>
         <desc/>
-    </item>
-    <item xml:id="Barrington">
-        <settlement>Barrington, Cambridgeshire</settlement>
-        <repos>Barrington Church</repos>
+    </msDesc>
+    <msDesc xml:id="Barrington" type="graffito">
+        <msIdentifier>
+            <settlement>Barrington, Cambridgeshire</settlement>
+            <repository>Barrington Church</repository>
+        </msIdentifier>
         <desc>a graffito</desc>
-    </item>
-    <item xml:id="Campsall">
-        <settlement>Campsall, Yorkshire</settlement>
-        <repos>church</repos>
+    </msDesc>
+    <msDesc xml:id="Campsall" type="architectural">
+        <msIdentifier>
+            <settlement>Campsall, Yorkshire</settlement>
+            <repository>church</repository>
+        </msIdentifier>
         <desc>wall inscription</desc>
-    </item>
-    <item xml:id="Cowling">
-        <settlement>nr. Cobham, Kent</settlement>
-        <repos>Cowling Castle</repos>
+    </msDesc>
+    <msDesc xml:id="Cowling" type="architectural">
+        <msIdentifier>
+            <settlement>nr. Cobham, Kent</settlement>
+            <repository>Cowling Castle</repository>
+        </msIdentifier>
         <desc>inscription on the eastern tower of the gateway</desc>
-    </item>
-    <item xml:id="Bristol">
-        <settlement>Bristol, England</settlement>
-        <repos>Bristol Mansion House</repos>
+    </msDesc>
+    <msDesc xml:id="Bristol" type="object">
+        <msIdentifier>
+            <settlement>Bristol, England</settlement>
+            <repository>Bristol Mansion House</repository>
+        </msIdentifier>
         <desc>The Pearl Sword, late fourteenth century</desc>
-    </item>
-    <item xml:id="Chamberleyn">
-        <settlement>London, England</settlement>
-        <repos>All-Hallows-the-Less Church (no longer extant)</repos>
+    </msDesc>
+    <msDesc xml:id="Chamberleyn" type="monument">
+        <msIdentifier>
+            <settlement>London, England</settlement>
+            <repository>All-Hallows-the-Less Church (no longer extant)</repository>
+        </msIdentifier>
         <desc>tomb of John Chamberleyn</desc>
-    </item>
-    <item xml:id="Taplow">
-        <settlement>Taplow, Buckinghamshire</settlement>
-        <repos>St. Nicholas Church, south-east corner or south chapel of chancel</repos>
+    </msDesc>
+    <msDesc xml:id="Taplow" type="monument">
+        <msIdentifier>
+            <settlement>Taplow, Buckinghamshire</settlement>
+            <repository>St. Nicholas Church, south-east corner or south chapel of chancel</repository>
+        </msIdentifier>
         <desc>brass tomb of Richard Manfeld, Isabelle Manfeld, and John Manfeld, A.D. 1455</desc>
-    </item>
-    <item xml:id="Wenlock">
-        <settlement>Luton, Bedforshire</settlement>
-        <repos>St. Mary's Church</repos>
+    </msDesc>
+    <msDesc xml:id="Wenlock" type="monument">
+        <msIdentifier>
+            <settlement>Luton, Bedforshire</settlement>
+            <repository>St. Mary's Church</repository>
+        </msIdentifier>
         <desc>tomb of William (Wyvell) Wenlock (d. 1391)</desc>
-    </item>
-    <item xml:id="Skipwith">
-        <settlement>St Alban's, Hertfordshire</settlement>
-        <repos>St.Peter's Church</repos>
+    </msDesc>
+    <msDesc xml:id="Skipwith" type="monument">
+        <msIdentifier>
+            <settlement>St Alban's, Hertfordshire</settlement>
+            <repository>St.Peter's Church</repository>
+        </msIdentifier>
         <desc>tomb of Richard Skipwith (d. 1416)</desc>
-    </item>
-    <item xml:id="Smarmore">
-        <settlement>Dublin, Ireland</settlement>
-        <repos>National Museum</repos>
+    </msDesc>
+    <msDesc xml:id="Smarmore" type="object">
+        <msIdentifier>
+            <settlement>Dublin, Ireland</settlement>
+            <repository>National Museum</repository>
+        </msIdentifier>
         <desc> No. 1961.8: slate discovered at Smarmore, Co. Louth</desc>
-    </item>
-    <item xml:id="Sittingbourne">
-        <settlement>Sittingbourne, Kent</settlement>
-        <repos>parish church</repos>
+    </msDesc>
+    <msDesc xml:id="Sittingbourne" type="monument">
+        <msIdentifier>
+            <settlement>Sittingbourne, Kent</settlement>
+            <repository>parish church</repository>
+        </msIdentifier>
         <desc>epitaph, A.D. 1458</desc>
-    </item>
-    <item xml:id="Coventry">
-        <settlement>Coventry, Warwickshire</settlement>
-        <repos>Trinity Church</repos>
+    </msDesc>
+    <msDesc xml:id="Coventry" type="glazing">
+        <msIdentifier>
+            <settlement>Coventry, Warwickshire</settlement>
+            <repository>Trinity Church</repository>
+        </msIdentifier>
         <desc>stained glass window</desc>
-    </item>
-    <item xml:id="Gaunt">
-        <settlement>Bedford, Bedfordshire</settlement>
-        <repos>Doctor's Commons</repos>
+    </msDesc>
+    <msDesc xml:id="Gaunt" type="architectural">
+        <msIdentifier>
+            <settlement>Bedford, Bedfordshire</settlement>
+            <repository>Doctor's Commons</repository>
+        </msIdentifier>
         <desc>inscription over arches</desc>
-    </item>
-    <item xml:id="Romford">
-        <settlement>Romford, Essex</settlement>
-        <repos>St Edward the Confessor, Romford Church</repos>
+    </msDesc>
+    <msDesc xml:id="Romford" type="monument">
+        <msIdentifier>
+            <settlement>Romford, Essex</settlement>
+            <repository>St Edward the Confessor, Romford Church</repository>
+        </msIdentifier>
         <desc>Tomb of Piers and Elizabeth Jon</desc>
-    </item>
-    <item xml:id="Spenser">
-        <settlement>olim London</settlement>
-        <repos>St Anthony's [Antlins] Church, Budge Row</repos>
+    </msDesc>
+    <msDesc xml:id="Spenser" type="monument">
+        <msIdentifier>
+            <settlement>olim London</settlement>
+            <repository>St Anthony's [Antlins] Church, Budge Row</repository>
+        </msIdentifier>
         <desc>epitaph of Joan Spenser (d. 1407)</desc>
-    </item>
-    <item xml:id="Wentworth">
-        <settlement>London</settlement>
-        <repos>olim St Michael, Crooked Lane</repos>
+    </msDesc>
+    <msDesc xml:id="Wentworth" type="monument">
+        <msIdentifier>
+            <settlement>London</settlement>
+            <repository>olim St Michael, Crooked Lane</repository>
+        </msIdentifier>
         <desc>tomb of William Wentworth, mayor of London, d. 1383</desc>
-    </item>
-    <item xml:id="Banknot">
-        <settlement>Stone, Kent</settlement>
-        <repos>Church of St Mary the Virgin</repos>
+    </msDesc>
+    <msDesc xml:id="Banknot" type="monument">
+        <msIdentifier>
+            <settlement>Stone, Kent</settlement>
+            <repository>Church of St Mary the Virgin</repository>
+        </msIdentifier>
         <desc>tomb of William and Anne Banknot, d. 1400</desc>
-    </item>
-    <item xml:id="Stubbe">
-        <settlement>Buxton, Norfolk</settlement>
-        <repos>Church</repos>
+    </msDesc>
+    <msDesc xml:id="Stubbe" type="monument">
+        <msIdentifier>
+            <settlement>Buxton, Norfolk</settlement>
+            <repository>Church</repository>
+        </msIdentifier>
         <desc>tomb of Walter Stubbe, d. 1528, no longer extant</desc>
-    </item>
-    <item xml:id="Hunt">
-        <settlement>Great Linford, Buckinghamshire</settlement>
-        <repos>St Andrews Church</repos>
+    </msDesc>
+    <msDesc xml:id="Hunt" type="monument">
+        <msIdentifier>
+            <settlement>Great Linford, Buckinghamshire</settlement>
+            <repository>St Andrews Church</repository>
+        </msIdentifier>
         <desc>brass tomb of Roger and Johanne Hunt, d. 1473</desc>
-    </item>
-    <item xml:id="Wilton">
-        <settlement>Norwich, Norfolk</settlement>
-        <repos>Church St Peter Mancroft</repos>
+    </msDesc>
+    <msDesc xml:id="Wilton" type="monument">
+        <msIdentifier>
+            <settlement>Norwich, Norfolk</settlement>
+            <repository>Church St Peter Mancroft</repository>
+        </msIdentifier>
         <desc>tomb of Henry and Margaret Wilton, d. 1507 and 1500, no longer extant</desc>
-    </item>
-    <item xml:id="Willoughby">
-        <settlement>Raveningham, Norfolk</settlement>
-        <repos>St Andrew, Raveningham</repos>
+    </msDesc>
+    <msDesc xml:id="Willoughby" type="monument">
+        <msIdentifier>
+            <settlement>Raveningham, Norfolk</settlement>
+            <repository>St Andrew, Raveningham</repository>
+        </msIdentifier>
         <desc>epitaph for Margaret Willoughby, A.D. 1483</desc>
-    </item>
-    <item xml:id="deHem">
-        <settlement>Norwich, Norfolk</settlement>
-        <repos>Church of St Miles</repos>
+    </msDesc>
+    <msDesc xml:id="deHem" type="monument">
+        <msIdentifier>
+            <settlement>Norwich, Norfolk</settlement>
+            <repository>Church of St Miles</repository>
+        </msIdentifier>
         <desc>tomb of Anna de Hem, d. 1503, no longer extant</desc>
-    </item>
-    <item xml:id="Sheef">
-        <settlement>Norwich, Norfolk</settlement>
-        <repos>St. George, Tombland</repos>
+    </msDesc>
+    <msDesc xml:id="Sheef" type="monument">
+        <msIdentifier>
+            <settlement>Norwich, Norfolk</settlement>
+            <repository>St. George, Tombland</repository>
+        </msIdentifier>
         <desc>tomb of Thomas and Marion Sheef, 1483, no longer extant</desc>
-    </item>
-    <item xml:id="Robinson">
-        <settlement>London</settlement>
-        <repos>Victoria and Albert Museum, 217-1879</repos>
+    </msDesc>
+    <msDesc xml:id="Robinson" type="object">
+        <msIdentifier>
+            <settlement>London</settlement>
+            <repository>Victoria and Albert Museum, 217-1879</repository>
+        </msIdentifier>
         <desc>inscription on a fourteenth-century jug (olim manor house in Norfolk; Robinson
             Collection)</desc>
-    </item>
-    <item xml:id="Maners">
-        <settlement>olim Warwick</settlement>
-        <repos>Collegiate Church of St Mary</repos>
+    </msDesc>
+    <msDesc xml:id="Maners" type="monument">
+        <msIdentifier>
+            <settlement>olim Warwick</settlement>
+            <repository>Collegiate Church of St Mary</repository>
+        </msIdentifier>
         <desc>floor of nave, tomb of John Maners, d. 1492</desc>
-    </item>
-    <item xml:id="Ormsby">
-        <settlement>Great Ormsby, Norfolk</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Ormsby" type="monument">
+        <msIdentifier>
+            <settlement>Great Ormsby, Norfolk</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>brass tomb, A. D. 1440</desc>
-    </item>
-    <item xml:id="Edmonton">
-        <settlement>London</settlement>
-        <repos>Edmonton church</repos>
+    </msDesc>
+    <msDesc xml:id="Edmonton" type="monument">
+        <msIdentifier>
+            <settlement>London</settlement>
+            <repository>Edmonton church</repository>
+        </msIdentifier>
         <desc>[a Mandevill or Dacier tomb?]</desc>
-    </item>
-    <item xml:id="Foster">
-        <settlement>olim London</settlement>
-        <repos>Ludgate Chapel</repos>
+    </msDesc>
+    <msDesc xml:id="Foster" type="monument">
+        <msIdentifier>
+            <settlement>olim London</settlement>
+            <repository>Ludgate Chapel</repository>
+        </msIdentifier>
         <desc>copper plate</desc>
-    </item>
-    <item xml:id="Middleton">
-        <settlement>Middleton, Suffolk</settlement>
-        <repos>Church of the Holy Trinity</repos>
+    </msDesc>
+    <msDesc xml:id="Middleton" type="architectural">
+        <msIdentifier>
+            <settlement>Middleton, Suffolk</settlement>
+            <repository>Church of the Holy Trinity</repository>
+        </msIdentifier>
         <desc>baptismal font</desc>
-    </item>
-    <item xml:id="Streatham">
-        <settlement>Streatham, Surrey</settlement>
-        <repos>[Saint Leonard's?] Church</repos>
+    </msDesc>
+    <msDesc xml:id="Streatham" type="monument">
+        <msIdentifier>
+            <settlement>Streatham, Surrey</settlement>
+            <repository>[Saint Leonard's?] Church</repository>
+        </msIdentifier>
         <desc>tomb of Margaret Cantelowe</desc>
-    </item>
-    <item xml:id="Hedon">
-        <settlement>Hedon, Yorkshire</settlement>
-        <repos>St Austin's Church</repos>
+    </msDesc>
+    <msDesc xml:id="Hedon" type="architectural">
+        <msIdentifier>
+            <settlement>Hedon, Yorkshire</settlement>
+            <repository>St Austin's Church</repository>
+        </msIdentifier>
         <desc>picture once hanging on wall</desc>
-    </item>
-    <item xml:id="Dalusse">
-        <settlement>London</settlement>
-        <repos>St Martin's Church</repos>
+    </msDesc>
+    <msDesc xml:id="Dalusse" type="monument">
+        <msIdentifier>
+            <settlement>London</settlement>
+            <repository>St Martin's Church</repository>
+        </msIdentifier>
         <desc>Epitaph, A.D. 1469, for Robert Dalusse</desc>
-    </item>
-    <item xml:id="Bowf">
-        <settlement>Pakefield, Norfolk</settlement>
-        <repos>Church of All Saints and St Margaret</repos>
+    </msDesc>
+    <msDesc xml:id="Bowf" type="monument">
+        <msIdentifier>
+            <settlement>Pakefield, Norfolk</settlement>
+            <repository>Church of All Saints and St Margaret</repository>
+        </msIdentifier>
         <desc>brass tomb of John Bowf mounted on north wall</desc>
-    </item>
-    <item xml:id="Pickering2">
-        <settlement>Pickering, North Yorkshire</settlement>
-        <repos>Church of Sts Peter and Paul</repos>
+    </msDesc>
+    <msDesc xml:id="Pickering2" type="wallPainting">
+        <msIdentifier>
+            <settlement>Pickering, North Yorkshire</settlement>
+            <repository>Church of Sts Peter and Paul</repository>
+        </msIdentifier>
         <desc>wall painting of martyrdom of St Edmund on eastern end of northern wall of nave</desc>
-    </item>
-    <item xml:id="Knolles">
-        <settlement>London</settlement>
-        <repos>St. Antholin's(?), Budge Row (demolished 1874)</repos>
+    </msDesc>
+    <msDesc xml:id="Knolles" type="monument">
+        <msIdentifier>
+            <settlement>London</settlement>
+            <repository>St. Antholin's(?), Budge Row (demolished 1874)</repository>
+        </msIdentifier>
         <desc>Tomb of Thomas Knolles</desc>
-    </item>
-    <item xml:id="Hereford">
-        <settlement>Hereford</settlement>
-        <repos>Hereford Cathedral</repos>
+    </msDesc>
+    <msDesc xml:id="Hereford" type="architectural">
+        <msIdentifier>
+            <settlement>Hereford</settlement>
+            <repository>Hereford Cathedral</repository>
+        </msIdentifier>
         <desc>Not extant; formerly at entrance to great west door</desc>
-    </item>
-    <item xml:id="Higham">
-        <settlement>Higham, Kent</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Higham" type="monument">
+        <msIdentifier>
+            <settlement>Higham, Kent</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Monumental brass for Robert Hylton, yeoman of guard to Henry VIII, 1523</desc>
-    </item>
-    <item xml:id="StokeDAbernon">
-        <settlement>Stoke D'Abernon, Surrey</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="StokeDAbernon" type="monument">
+        <msIdentifier>
+            <settlement>Stoke D'Abernon, Surrey</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Monumental brass inscription in 8 English black letter verses for John Pynnoke, first priest of the chantry founded by Sir John Norbury, 1521</desc>
-    </item>
-    <item xml:id="Puddletown">
-        <settlement>Puddletown, Dorset</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Puddletown" type="monument">
+        <msIdentifier>
+            <settlement>Puddletown, Dorset</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Monumental brass inscription for Sir William Martyn, 1524</desc>
-    </item>
-    <item xml:id="Hornsey">
-        <settlement>Hornsey, Middlesex</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Hornsey" type="monument">
+        <msIdentifier>
+            <settlement>Hornsey, Middlesex</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>A chrysom brass inscribed with 2 English verses</desc>
-    </item>
-    <item xml:id="Weare">
-        <settlement>Weare, Somerset</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Weare" type="monument">
+        <msIdentifier>
+            <settlement>Weare, Somerset</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Monumental brass effigy in civilian dress with foot inscription in three lines of English verse, not dated but c. 1505</desc>
-    </item>
-    <item xml:id="Quorndon">
-        <settlement>Quorndon, Leicestershire</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Quorndon" type="monument">
+        <msIdentifier>
+            <settlement>Quorndon, Leicestershire</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Incised slab to William Farnham (d. 1548)</desc>
-    </item>
-    <item xml:id="Wodford">
-        <settlement>Ashby Folville, Leicestershire</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Wodford" type="monument">
+        <msIdentifier>
+            <settlement>Ashby Folville, Leicestershire</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Alabaster slab for Ralph Wodford esq (d. 1498)</desc>
-    </item>
-    <item xml:id="Were">
-        <settlement>Milbrook, Bedfordshire</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Were" type="monument">
+        <msIdentifier>
+            <settlement>Milbrook, Bedfordshire</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Not extant; monumental brass for priest in mass vestments with inscription in 4 English verses; c. 1430</desc>
-    </item>
-    <item xml:id="Norwich1535">
-        <settlement>Norwich</settlement>
-        <repos>Guildhall, Mayoral Council Chamber</repos>
+    </msDesc>
+    <msDesc xml:id="Norwich1535" type="glazing">
+        <msIdentifier>
+            <settlement>Norwich</settlement>
+            <repository>Guildhall, Mayoral Council Chamber</repository>
+        </msIdentifier>
         <desc>1535; 1. Window glazed at expense of Robert Ferrour, mayor of Norwich in 1526 and 1536, and Robert Jannys, mayor of Norwich in 1517 and 1524</desc>
-    </item>
-    <item xml:id="Axbridge">
-        <settlement>olim Axbridge, Somerset</settlement>
-        <repos>Formerly in townhall (now in Axbridge Museum)</repos>
+    </msDesc>
+    <msDesc xml:id="Axbridge" type="glazing">
+        <msIdentifier>
+            <settlement>olim Axbridge, Somerset</settlement>
+            <repository>Formerly in townhall (now in Axbridge Museum)</repository>
+        </msIdentifier>
         <desc>Stained glass roundel with nimbed dove descending in a glory with a scroll; (early sixteenth century?)</desc>
-    </item>
-    <item xml:id="Tickhill">
-        <settlement>Tickhill, Yorkshire</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Tickhill" type="glazing">
+        <msIdentifier>
+            <settlement>Tickhill, Yorkshire</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Not extant; dedicatory inscription in east window of south (Lady) chapel; n.d. (probably fifteenth century)</desc>
-    </item>
-    <item xml:id="Criston">
-        <settlement>Titchmarsh, Northamptonshire</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Criston" type="glazing">
+        <msIdentifier>
+            <settlement>Titchmarsh, Northamptonshire</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Eastern window of south aisle over  the portrait of a person praying</desc>
-    </item>
-    <item xml:id="Thornhill">
-        <settlement>Thornhill, Yorkshire</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Thornhill" type="monument">
+        <msIdentifier>
+            <settlement>Thornhill, Yorkshire</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Carved inscription around wooden tomb of Sir John Savile, (d. 1505), and his two wives Alice (Vernon) (d. 1493) and Elizabeth (Paston), who was a second cousin of King Henry VII; 1529</desc>
-    </item>
-    <item xml:id="Barnborough">
-        <settlement>Barnborough, Yorkshire</settlement>
-        <repos>Barnborough Church</repos>
+    </msDesc>
+    <msDesc xml:id="Barnborough" type="monument">
+        <msIdentifier>
+            <settlement>Barnborough, Yorkshire</settlement>
+            <repository>Barnborough Church</repository>
+        </msIdentifier>
         <desc>Tomb of Alice Cresacre</desc>
-    </item>
-    <item xml:id="Bexley">
-        <settlement>Bexley, Kent</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Bexley" type="monument">
+        <msIdentifier>
+            <settlement>Bexley, Kent</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Palimpsest monumental brass appropriated for Thomas Sparrow, d. 1513; effigy of man in civilian dress with 3-line Latin foot inscription; English couplet in prayer scroll</desc>
-    </item>
-    <item xml:id="Rouclyff">
-        <settlement>Cowthorpe, Yorkshire</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Rouclyff" type="monument">
+        <msIdentifier>
+            <settlement>Cowthorpe, Yorkshire</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Monumental brass for Brian Rouclyff (d. 1494) &amp; Joanne his wife</desc>
-    </item>
-    <item xml:id="Wryght">
-        <settlement>Ketteringham, Norfolk</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Wryght" type="monument">
+        <msIdentifier>
+            <settlement>Ketteringham, Norfolk</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Monumental brass for Sir Richard Wryght (1515)</desc>
-    </item>
-    <item xml:id="Clarrell">
-        <settlement>Rawmarsh, Yorkshire</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Clarrell" type="monument">
+        <msIdentifier>
+            <settlement>Rawmarsh, Yorkshire</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Probably a monumental brass for William Clarrell and wife Margaret; 1460</desc>
-    </item>
-    <item xml:id="Middletone">
-        <settlement>Spofforth, Yorkshire</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Middletone" type="monument">
+        <msIdentifier>
+            <settlement>Spofforth, Yorkshire</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Monumental brass for Thomas Middleton of Kirkby Overblow, brother of Nicholas Midleton  and wife Joan, (daughter of Sir William Plumpton)</desc>
-    </item>
-    <item xml:id="Marshall">
-        <settlement>Fishlake, Yorkshire</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Marshall" type="monument">
+        <msIdentifier>
+            <settlement>Fishlake, Yorkshire</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Probably a monumental brass (1505)</desc>
-    </item>
-    <item xml:id="Godstow">
-        <settlement>Godstow Oxfordshire (excavated at the Benedictine nunnery at Godstow, Oxfordshire, before 1868)</settlement>
-        <repos>British Museum (MME AF 1075)</repos>
+    </msDesc>
+    <msDesc xml:id="Godstow" type="object">
+        <msIdentifier>
+            <settlement>Godstow Oxfordshire (excavated at the Benedictine nunnery at Godstow, Oxfordshire, before 1868)</settlement>
+            <repository>British Museum (MME AF 1075)</repository>
+        </msIdentifier>
         <desc>A broad hoop engraved on the outer side with flowers and leaves. Within this are lozenge-shaped panels, engraved with the Trinity, the Virgin and Child, and a bearded male saint</desc>
-    </item>
-    <item xml:id="EvansJ">
-        <settlement>Unknown</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="EvansJ" type="object">
+        <msIdentifier>
+            <settlement>Unknown</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Black letter inscription on the inner surface. From the uncatalogued collection of Joan Evans</desc>
-    </item>
-    <item xml:id="Godard">
-        <settlement>Addlethorpe, Lincolnshire</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Godard" type="monument">
+        <msIdentifier>
+            <settlement>Addlethorpe, Lincolnshire</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Carved memorial in church porch; late fifteenth century</desc>
-    </item>
-    <item xml:id="Shavelocke">
-        <settlement>olim Boston, Lincolnshire</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Shavelocke" type="monument">
+        <msIdentifier>
+            <settlement>olim Boston, Lincolnshire</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Transcription in BL, MS Add. 36295, f.17r [MS owned by John Anstis, antiquarian (1669 –1744)]</desc>
-    </item>
-    <item xml:id="Tylney">
-        <settlement>olim Lincoln Cathedral</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Tylney" type="monument">
+        <msIdentifier>
+            <settlement>olim Lincoln Cathedral</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Not extant; monumental brass for Sir Philip Tilney, husband of Isabel, daughter and coheiress of Sir Edmund Thorp of Ashwellthorpe, Norfolk.  After her death he became a secular canon and was admitted to St Botolph's prebend in Lincoln Cathedral where he was buried in 1453</desc>
-    </item>
-    <item xml:id="Ballotts">
-        <settlement>Strubby, Lincolnshire</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Ballotts" type="monument">
+        <msIdentifier>
+            <settlement>Strubby, Lincolnshire</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Small incised slab</desc>
-    </item>
-    <item xml:id="Todenham">
-        <settlement>St John Maddermarket, Norwich</settlement>
-        <repos/>
+    </msDesc>
+    <msDesc xml:id="Todenham" type="monument">
+        <msIdentifier>
+            <settlement>St John Maddermarket, Norwich</settlement>
+            <repository/>
+        </msIdentifier>
         <desc>Monumental brass for John Toddenham, c. 1450</desc>
-    </item>
-    <item xml:id="Liverpool">
-        <settlement>Liverpool</settlement>
-        <repos>Walker Gallery</repos>
+    </msDesc>
+    <msDesc xml:id="Liverpool" type="glazing">
+        <msIdentifier>
+            <settlement>Liverpool</settlement>
+            <repository>Walker Gallery</repository>
+        </msIdentifier>
         <desc>Stained glass panel; provenance unknown; probably early sixteenth century</desc>
-    </item>
-    <item xml:id="Liverpool2">
-        <settlement>Liverpool</settlement>
-        <repos>Walker Gallery</repos>
+    </msDesc>
+    <msDesc xml:id="Liverpool2" type="glazing">
+        <msIdentifier>
+            <settlement>Liverpool</settlement>
+            <repository>Walker Gallery</repository>
+        </msIdentifier>
         <desc>Stained glass panel; provenance unknown; probably early sixteenth century</desc>
-    </item>
-    <item xml:id="Liverpool3">
-        <settlement>Liverpool</settlement>
-        <repos>Walker Gallery</repos>
+    </msDesc>
+    <msDesc xml:id="Liverpool3" type="glazing">
+        <msIdentifier>
+            <settlement>Liverpool</settlement>
+            <repository>Walker Gallery</repository>
+        </msIdentifier>
         <desc>Stained glass panel; provenance unknown; probably early sixteenth century</desc>
-    </item>
-    <item xml:id="Liverpool4">
-        <settlement>Liverpool</settlement>
-        <repos>Walker Gallery</repos>
+    </msDesc>
+    <msDesc xml:id="Liverpool4" type="glazing">
+        <msIdentifier>
+            <settlement>Liverpool</settlement>
+            <repository>Walker Gallery</repository>
+        </msIdentifier>
         <desc>Stained glass panel; provenance unknown; probably early sixteenth century</desc>
-    </item>
-    <item xml:id="SteepleBumpstead">
-        <settlement>Essex</settlement>
-        <repos>Steeple Bumpstead church</repos>
+    </msDesc>
+    <msDesc xml:id="SteepleBumpstead" type="architectural">
+        <msIdentifier>
+            <settlement>Essex</settlement>
+            <repository>Steeple Bumpstead church</repository>
+        </msIdentifier>
         <desc>On the third pier of the south arcade</desc>
-    </item>
-    <item xml:id="Warkworth">
-        <settlement>Banbury</settlement>
-        <repos>St. Mary's Church, Warkworth</repos>
+    </msDesc>
+    <msDesc xml:id="Warkworth" type="architectural">
+        <msIdentifier>
+            <settlement>Banbury</settlement>
+            <repository>St. Mary's Church, Warkworth</repository>
+        </msIdentifier>
         <desc>Inscription in wood on the south side of the chancel</desc>
-    </item>
-</list>
+    </msDesc>
+</listBibl>
