@@ -13,6 +13,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - `data/Bibliography.rdf`: RDF backup of DIMEV's Zotero Group Library (#23; 31aaf5e4bfb0421381662d4e507713b366fd199d..096b968132d227795d9a08dbbb6f1324253e05c1)
 - `data/form-terms.xml`, `data/language-terms.xml`, and `data/subject-terms.xml`: XML files to control vocabularies for verse forms, languages, and subjects (f88d584f889a9aac6aaf8afaeb6c1361e2056a71..139e1c85173c6a9dcfed7f6e7c8677f3546cc4fd)
 - `schemas/terms.xsd`: XML Schema to validate `data/form-terms.xml`, `data/language-terms.xml`, and `data/subject-terms.xml` (f88d584f889a9aac6aaf8afaeb6c1361e2056a71..e1ea9ec979e2234ca1de57fbda5dfedfb8e2019a)
+- `schemas/xml.xsd`: local copy of the canonical W3C schema for the XML namespace, so xmllint can resolve `xml:id` and compile the schemas (7faf2d9a4ddb4d790892f1c98a9ff416861f9ea5)
 - `scripts/formatter.py`: Python script to pretty-print XML files with four-space indentation (9214e65479f174ecfe512e8c3175f046a1d093ea..b6234398b60502a231b9bab28346a09939ea4be2)
 - `CHANGELOG.md`: This change log
 
@@ -121,6 +122,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - `printedbooks.xsd`: rewrite as a restricted profile of TEI `listBibl` and `biblStruct` (9bfa34205ad3819cc1efeaa3c2d65efc6b6e178d)
 - `manuscripts.xsd`: provide for the disaggregated `msIdentifier`, `head`, `history`, and `additional` content model (#36; 4442a79aeb71c83e19765d44a2aad755806c6c41, 63f489983ba5d913bd4e65d9a8b6f5fba6662936)
 - `inscriptions.xsd`: rewrite on model of rewritten `manuscripts.xsd` (#63; 9d68a24d45dd1c9b86af09d29cd2d5f2cc243f1a, 62b732db5d62c40199ae8f2c715722ae86690d92)
+- All schemas: give the XML-namespace `import` a `schemaLocation` pointing at the local `schemas/xml.xsd`, so xmllint can compile them for structural validation (7faf2d9a4ddb4d790892f1c98a9ff416861f9ea5)
 
 #### Documentation
 
