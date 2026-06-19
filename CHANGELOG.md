@@ -14,6 +14,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - `data/form-terms.xml`, `data/language-terms.xml`, and `data/subject-terms.xml`: XML files to control vocabularies for verse forms, languages, and subjects (f88d584f889a9aac6aaf8afaeb6c1361e2056a71..139e1c85173c6a9dcfed7f6e7c8677f3546cc4fd)
 - `schemas/terms.xsd`: XML Schema to validate `data/form-terms.xml`, `data/language-terms.xml`, and `data/subject-terms.xml` (f88d584f889a9aac6aaf8afaeb6c1361e2056a71..e1ea9ec979e2234ca1de57fbda5dfedfb8e2019a)
 - `schemas/xml.xsd`: local copy of the canonical W3C schema for the XML namespace, so xmllint can resolve `xml:id` and compile the schemas (7faf2d9a4ddb4d790892f1c98a9ff416861f9ea5)
+- `schemas/common.xsd`: shared phrase-level and cross-reference types for `manuscripts.xsd` and `inscriptions.xsd`, factored out of the two (previously duplicated verbatim) and included by each via `xs:include` (e941379f39567361ca7dbc161d4a5f54fa0d4c0c)
 - `scripts/formatter.py`: Python script to pretty-print XML files with four-space indentation (9214e65479f174ecfe512e8c3175f046a1d093ea..b6234398b60502a231b9bab28346a09939ea4be2)
 - `CHANGELOG.md`: This change log
 
@@ -73,6 +74,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Establish `Manuscripts.xml` as the project's single source of truth for manuscripts materials (#11, #21; 574cf0b3c0faacb0242b10b9b35c3bc99767c2a9, 08cf30f52f3f6fda112c9337d87f10444681dc81)
 - Restructure as TEI `listBibl` and `msDesc`; declare the TEI namespace (#36; 5c9dd0a059024eb5a9a30c785e826ac14b3a1175, 23fd37db6d9b5d8ec4c8e0907c8c6bd1bd420a11, 4442a79aeb71c83e19765d44a2aad755806c6c41, 852d25a2e44403c8ee983bc47bb7535ec50bfd65, 63f489983ba5d913bd4e65d9a8b6f5fba6662936). Conformance is not complete, however: `lang` elements and some administrative and editorial notes remain non-TEI.
+- Set a required attribute `type` to identify each record as manuscript or printed (95b5d6cb40ca2b08e3d27a8d5f1d9def593a8b03)
 - Add `country`; regularize `settlement` and `repository` names per the issue #36 style guide (#36; 4442a79aeb71c83e19765d44a2aad755806c6c41, 852d25a2e44403c8ee983bc47bb7535ec50bfd65)
 - Regularize recording of items in private collections, items untraced, and items on deposit (852d25a2e44403c8ee983bc47bb7535ec50bfd65)
 - Remove the abbreviation "MS" from most shelfmarks (852d25a2e44403c8ee983bc47bb7535ec50bfd65)
@@ -117,12 +119,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 #### Schemas
 
+- All schemas: give the XML-namespace `import` a `schemaLocation` pointing at the local `schemas/xml.xsd`, so xmllint can compile them for structural validation (7faf2d9a4ddb4d790892f1c98a9ff416861f9ea5)
 - All schemas: tighten, restructure, and align with changes to XML file structures; add some inline documentation
 - `records.xsd`: provide for `crossRefs` block (not yet implemented in `Records.xml`) (c28f6af4a0962a5c41552352eafc787c21cec453)
 - `printedbooks.xsd`: rewrite as a restricted profile of TEI `listBibl` and `biblStruct` (9bfa34205ad3819cc1efeaa3c2d65efc6b6e178d)
-- `manuscripts.xsd`: provide for the disaggregated `msIdentifier`, `head`, `history`, and `additional` content model (#36; 4442a79aeb71c83e19765d44a2aad755806c6c41, 63f489983ba5d913bd4e65d9a8b6f5fba6662936)
+- `manuscripts.xsd`: provide for the disaggregated `msIdentifier`, `head`, `history`, and `additional` content model (#36; 4442a79aeb71c83e19765d44a2aad755806c6c41, 63f489983ba5d913bd4e65d9a8b6f5fba6662936); make `msDesc/@type` required and restrict it to the controlled vocabulary {`manuscript`, `printed`} (e941379f39567361ca7dbc161d4a5f54fa0d4c0c)
 - `inscriptions.xsd`: rewrite on model of rewritten `manuscripts.xsd` (#63; 9d68a24d45dd1c9b86af09d29cd2d5f2cc243f1a, 62b732db5d62c40199ae8f2c715722ae86690d92)
-- All schemas: give the XML-namespace `import` a `schemaLocation` pointing at the local `schemas/xml.xsd`, so xmllint can compile them for structural validation (7faf2d9a4ddb4d790892f1c98a9ff416861f9ea5)
+- `manuscripts.xsd`, `inscriptions.xsd`: factor the verbatim-shared phrase-level and cross-reference types into `common.xsd`, included by both via `xs:include` (e941379f39567361ca7dbc161d4a5f54fa0d4c0c)
 
 #### Documentation
 
