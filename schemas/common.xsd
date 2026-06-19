@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0" targetNamespace="http://www.tei-c.org/ns/1.0" elementFormDefault="qualified">
+    <xs:annotation>
+        <xs:documentation>Shared types for DIMEV's restricted profile of TEI listBibl/msDesc.
+
+Included (via xs:include) by both manuscripts.xsd and inscriptions.xsd, which share an identical content model except for two deliberate divergences kept in those files: the manuscripts-only lang element, and the file-specific msDesc/@type controlled vocabularies.
+
+This file holds only the phrase-level markup and cross-reference types common to both profiles, formerly duplicated verbatim in each schema.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType name="msCrossRef">
+        <xs:attribute name="key" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="bibRef">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="key" type="xs:string" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="highlighted">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="rend" type="xs:string" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="refBibl">
+        <xs:sequence>
+            <xs:element name="ref">
+                <xs:complexType>
+                    <xs:attribute name="target" type="xs:anyURI" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="inlineText" mixed="true">
+        <xs:annotation>
+            <xs:documentation>Phrase-level text that may carry inline TEI hi/bibl/mss markup.</xs:documentation>
+        </xs:annotation>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="hi" type="tei:highlighted"/>
+            <xs:element name="mss" type="tei:msCrossRef"/>
+            <xs:element name="bibl" type="tei:bibRef"/>
+        </xs:choice>
+    </xs:complexType>
+</xs:schema>

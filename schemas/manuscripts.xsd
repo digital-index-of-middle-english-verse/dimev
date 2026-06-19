@@ -7,9 +7,12 @@ The bulk of each msDesc follows the TEI content model: msIdentifier (country, se
 
 It is NOT yet valid against TEI P5 (tei_all). Two transitional concessions remain:
   - lang: the LALME/LAEME dialect-localization data, deferred for separate handling
-  - adminInfo/note elements (catalogue queries, inter-item relations, extent/date remarks) are residue awaiting a later curation pass.</xs:documentation>
+  - adminInfo/note elements (catalogue queries, inter-item relations, extent/date remarks) are residue awaiting a later curation pass.
+
+The phrase-level and cross-reference types shared with inscriptions.xsd are factored into common.xsd, included below.</xs:documentation>
     </xs:annotation>
     <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+    <xs:include schemaLocation="common.xsd"/>
     <xs:element name="listBibl">
         <xs:complexType>
             <xs:sequence>
@@ -180,10 +183,16 @@ It is NOT yet valid against TEI P5 (tei_all). Two transitional concessions remai
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
-                        <xs:attribute name="type" type="xs:string" use="optional">
+                        <xs:attribute name="type" use="required">
                             <xs:annotation>
-                                <xs:documentation>type="printed" marks an item that is a copy of a printed book rather than a manuscript.</xs:documentation>
+                                <xs:documentation>The witness medium. Controlled vocabulary: "manuscript" for a manuscript copy (the usual case); "printed" for a copy in a printed book.</xs:documentation>
                             </xs:annotation>
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="manuscript"/>
+                                    <xs:enumeration value="printed"/>
+                                </xs:restriction>
+                            </xs:simpleType>
                         </xs:attribute>
                         <xs:attribute ref="xml:id" use="required"/>
                     </xs:complexType>
@@ -191,40 +200,4 @@ It is NOT yet valid against TEI P5 (tei_all). Two transitional concessions remai
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:complexType name="msCrossRef">
-        <xs:attribute name="key" type="xs:string" use="required"/>
-    </xs:complexType>
-    <xs:complexType name="bibRef">
-        <xs:simpleContent>
-            <xs:extension base="xs:string">
-                <xs:attribute name="key" type="xs:string" use="required"/>
-            </xs:extension>
-        </xs:simpleContent>
-    </xs:complexType>
-    <xs:complexType name="highlighted">
-        <xs:simpleContent>
-            <xs:extension base="xs:string">
-                <xs:attribute name="rend" type="xs:string" use="optional"/>
-            </xs:extension>
-        </xs:simpleContent>
-    </xs:complexType>
-    <xs:complexType name="refBibl">
-        <xs:sequence>
-            <xs:element name="ref">
-                <xs:complexType>
-                    <xs:attribute name="target" type="xs:anyURI" use="required"/>
-                </xs:complexType>
-            </xs:element>
-        </xs:sequence>
-    </xs:complexType>
-    <xs:complexType name="inlineText" mixed="true">
-        <xs:annotation>
-            <xs:documentation>Phrase-level text that may carry inline TEI hi/bibl/mss markup.</xs:documentation>
-        </xs:annotation>
-        <xs:choice minOccurs="0" maxOccurs="unbounded">
-            <xs:element name="hi" type="tei:highlighted"/>
-            <xs:element name="mss" type="tei:msCrossRef"/>
-            <xs:element name="bibl" type="tei:bibRef"/>
-        </xs:choice>
-    </xs:complexType>
 </xs:schema>

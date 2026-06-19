@@ -8,9 +8,12 @@ Every record is a non-manuscript inscribed object, so msDesc/@type is REQUIRED h
 The content model mirrors Manuscripts.xml: msIdentifier (country, settlement, repository, idno, msName, altIdentifier), head, history/provenance, and additional (adminInfo, surrogates, listBibl). The lang element is omitted (no dialect-localization data is recorded for inscriptions).
 
 It is NOT yet valid against TEI P5 (tei_all). Transitional concessions:
-  - adminInfo/note: editorial residue awaiting a later curation pass.</xs:documentation>
+  - adminInfo/note: editorial residue awaiting a later curation pass.
+
+The phrase-level and cross-reference types shared with manuscripts.xsd are factored into common.xsd, included below.</xs:documentation>
     </xs:annotation>
     <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+    <xs:include schemaLocation="common.xsd"/>
     <xs:element name="listBibl">
         <xs:complexType>
             <xs:sequence>
@@ -168,41 +171,4 @@ It is NOT yet valid against TEI P5 (tei_all). Transitional concessions:
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <!-- shared types lifted verbatim from manuscripts.xsd -->
-    <xs:complexType name="msCrossRef">
-        <xs:attribute name="key" type="xs:string" use="required"/>
-    </xs:complexType>
-    <xs:complexType name="bibRef">
-        <xs:simpleContent>
-            <xs:extension base="xs:string">
-                <xs:attribute name="key" type="xs:string" use="required"/>
-            </xs:extension>
-        </xs:simpleContent>
-    </xs:complexType>
-    <xs:complexType name="highlighted">
-        <xs:simpleContent>
-            <xs:extension base="xs:string">
-                <xs:attribute name="rend" type="xs:string" use="optional"/>
-            </xs:extension>
-        </xs:simpleContent>
-    </xs:complexType>
-    <xs:complexType name="refBibl">
-        <xs:sequence>
-            <xs:element name="ref">
-                <xs:complexType>
-                    <xs:attribute name="target" type="xs:anyURI" use="required"/>
-                </xs:complexType>
-            </xs:element>
-        </xs:sequence>
-    </xs:complexType>
-    <xs:complexType name="inlineText" mixed="true">
-        <xs:annotation>
-            <xs:documentation>Phrase-level text that may carry inline TEI hi/bibl/mss markup.</xs:documentation>
-        </xs:annotation>
-        <xs:choice minOccurs="0" maxOccurs="unbounded">
-            <xs:element name="hi" type="tei:highlighted"/>
-            <xs:element name="mss" type="tei:msCrossRef"/>
-            <xs:element name="bibl" type="tei:bibRef"/>
-        </xs:choice>
-    </xs:complexType>
 </xs:schema>
