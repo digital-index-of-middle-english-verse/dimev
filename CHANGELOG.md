@@ -82,10 +82,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 #### `Inscriptions.xml`
 
-- Rename root as `list` (2882d3205bf044a5039952c3748008e322d326d3)
-- Rename the element `loc` as `settlement` (2882d3205bf044a5039952c3748008e322d326d3)
-- Strip in-line italics from text content (2882d3205bf044a5039952c3748008e322d326d3)
-- Strip final punctuation from the text content of `settlement`, `repos`, and `desc` (2882d3205bf044a5039952c3748008e322d326d3)
+- Restructure as TEI `listBibl` and `msDesc`; declare the TEI namespace (#63; 9d68a24d45dd1c9b86af09d29cd2d5f2cc243f1a, 62b732db5d62c40199ae8f2c715722ae86690d92)
+- Style: strip final punctuation and in-line italics from text content (2882d3205bf044a5039952c3748008e322d326d3)
 
 #### `PrintedBooks.xml`
 
@@ -122,6 +120,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - `records.xsd`: provide for `crossRefs` block (not yet implemented in `Records.xml`) (c28f6af4a0962a5c41552352eafc787c21cec453)
 - `printedbooks.xsd`: rewrite as a restricted profile of TEI `listBibl` and `biblStruct` (9bfa34205ad3819cc1efeaa3c2d65efc6b6e178d)
 - `manuscripts.xsd`: provide for the disaggregated `msIdentifier`, `head`, `history`, and `additional` content model (#36; 4442a79aeb71c83e19765d44a2aad755806c6c41, 63f489983ba5d913bd4e65d9a8b6f5fba6662936)
+- `inscriptions.xsd`: rewrite on model of rewritten `manuscripts.xsd` (#63; 9d68a24d45dd1c9b86af09d29cd2d5f2cc243f1a, 62b732db5d62c40199ae8f2c715722ae86690d92)
 
 #### Documentation
 
@@ -181,6 +180,11 @@ remove item "SpecParis1510" as a duplicate of "Rolle1510" (7c30b0b5829d66d1cd52d
 #### `Manuscripts.xml`
 
 - PierpontAcc10360: correct the call number (7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6)
+- Misc. content correction (4442a79aeb71c83e19765d44a2aad755806c6c41)
+
+#### `Inscriptions.xml`
+
+- Misc. content correction (62b732db5d62c40199ae8f2c715722ae86690d92)
 
 #### `PrintedBooks.xml`
 
@@ -196,6 +200,7 @@ remove item "SpecParis1510" as a duplicate of "Rolle1510" (7c30b0b5829d66d1cd52d
 - 3171: Harley 1706 is not a ghost; add the manuscript as witness (#27; 14345568f9052090677b5920cbbc41e4701240f9)
 - 5029: correct extent, range, lastlines (#5; 14345568f9052090677b5920cbbc41e4701240f9)
 - 5143: move subjects misplaced in the `titles` element (72e56e266e712a26e7fc05d63e7160c495ab9e22)
+- Misc. content correction
 
 #### All XML files
 
