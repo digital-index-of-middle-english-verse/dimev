@@ -1284,11 +1284,8 @@ The content model is identical with that of `Manuscripts.xml`, with the followin
 
 - `msDesc` elements carry an obligatory attribute `type`, recording inscription type.
   (In `Manuscripts.xml` this attribute is optional.)
-  Values are "monument", "glazing", "wallPainting", "graffito", "architectural", "object".
+  Values are "monument", "glazing", "graffito", "architectural", "object".
 - There is no `lang` element
-- `desc`: a legacy container for item descriptions or identifiers.
-  Occurs as a child of `msDesc`.
-  Content will be disaggregated and migrated to TEI containers in a later curation pass.
 
 # `PrintedBooks.xml`
 

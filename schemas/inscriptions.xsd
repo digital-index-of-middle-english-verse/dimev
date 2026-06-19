@@ -1,15 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0" targetNamespace="http://www.tei-c.org/ns/1.0" elementFormDefault="qualified">
     <xs:annotation>
-        <xs:documentation>INTERIM schema for DIMEV's restricted profile of TEI listBibl/msDesc, applied to Inscriptions.xml (restructure migrating the legacy list/item structure to the model adopted for Manuscripts.xml; see issue #36).
+        <xs:documentation>INTERIM schema for DIMEV's restricted profile of TEI listBibl/msDesc, applied to Inscriptions.xml (restructure migrating the legacy list/item structure to the model adopted for Manuscripts.xml; see issue #63).
 
 Every record is a non-manuscript inscribed object, so msDesc/@type is REQUIRED here (unlike Manuscripts.xml, where it is optional and flags only the exceptional printed copy). Its value is drawn from a controlled vocabulary of inscription genres.
 
-The content model mirrors Manuscripts.xml: msIdentifier (country, settlement, repository, idno, msName, altIdentifier), head, history/provenance, and additional (adminInfo, surrogates, listBibl). The lang element is omitted (no dialect-localization data applies to inscriptions).
+The content model mirrors Manuscripts.xml: msIdentifier (country, settlement, repository, idno, msName, altIdentifier), head, history/provenance, and additional (adminInfo, surrogates, listBibl). The lang element is omitted (no dialect-localization data is recorded for inscriptions).
 
 It is NOT yet valid against TEI P5 (tei_all). Transitional concessions:
-  - desc: the legacy free-text description, carried verbatim on records not yet decomposed into head / @type / availability.
-  - adminInfo/note: editorial residue (position-within-fabric, catalogue queries) awaiting a later curation pass.</xs:documentation>
+  - adminInfo/note: editorial residue awaiting a later curation pass.</xs:documentation>
     </xs:annotation>
     <xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xs:element name="listBibl">
@@ -21,7 +20,7 @@ It is NOT yet valid against TEI P5 (tei_all). Transitional concessions:
                             <xs:element name="msIdentifier">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="country" type="xs:string" minOccurs="0">
+                                        <xs:element name="country" type="xs:string">
                                             <xs:annotation>
                                                 <xs:documentation>The country in which the object is located (mostly UK; also Ireland, USA). Optional.</xs:documentation>
                                             </xs:annotation>
@@ -77,11 +76,6 @@ It is NOT yet valid against TEI P5 (tei_all). Transitional concessions:
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="desc" type="tei:inlineText" minOccurs="0">
-                                <xs:annotation>
-                                    <xs:documentation>TRANSITIONAL. The legacy free-text description, carried verbatim on records not yet decomposed into head / @type / availability.</xs:documentation>
-                                </xs:annotation>
-                            </xs:element>
                             <xs:element name="additional" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
@@ -94,7 +88,7 @@ It is NOT yet valid against TEI P5 (tei_all). Transitional concessions:
                                                         </xs:annotation>
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="p" type="tei:inlineText" maxOccurs="unbounded"/>
+                                                                <xs:element name="p" type="tei:inlineText" minOccurs="0" maxOccurs="unbounded"/>
                                                             </xs:sequence>
                                                             <xs:attribute name="status" type="xs:string" use="optional"/>
                                                         </xs:complexType>
@@ -162,7 +156,6 @@ It is NOT yet valid against TEI P5 (tei_all). Transitional concessions:
                                 <xs:restriction base="xs:string">
                                     <xs:enumeration value="monument"/>
                                     <xs:enumeration value="glazing"/>
-                                    <xs:enumeration value="wallPainting"/>
                                     <xs:enumeration value="graffito"/>
                                     <xs:enumeration value="architectural"/>
                                     <xs:enumeration value="object"/>
