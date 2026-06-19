@@ -114,9 +114,9 @@ It is NOT yet valid against TEI P5 (tei_all). Two transitional concessions remai
                                                         </xs:annotation>
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="p" type="tei:inlineText" maxOccurs="unbounded"/>
+                                                                <xs:element name="p" type="tei:inlineText" minOccurs="0" maxOccurs="unbounded"/>
                                                             </xs:sequence>
-                                                            <xs:attribute name="status" type="xs:string" use="optional"/>
+                                                            <xs:attribute name="status" type="xs:string" use="required"/>
                                                         </xs:complexType>
                                                     </xs:element>
                                                     <xs:element name="custodialHist" minOccurs="0">

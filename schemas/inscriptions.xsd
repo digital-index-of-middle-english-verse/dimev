@@ -90,7 +90,7 @@ It is NOT yet valid against TEI P5 (tei_all). Transitional concessions:
                                                             <xs:sequence>
                                                                 <xs:element name="p" type="tei:inlineText" minOccurs="0" maxOccurs="unbounded"/>
                                                             </xs:sequence>
-                                                            <xs:attribute name="status" type="xs:string" use="optional"/>
+                                                            <xs:attribute name="status" type="xs:string" use="required"/>
                                                         </xs:complexType>
                                                     </xs:element>
                                                     <xs:element name="custodialHist" minOccurs="0">
