@@ -3,7 +3,7 @@
     <xs:annotation>
         <xs:documentation>This schema describes DIMEV's restricted profile of TEI listBibl/biblStruct. The file is also valid against TEI P5 (tei_all).</xs:documentation>
     </xs:annotation>
-    <xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
     <xs:element name="listBibl">
         <xs:complexType>
             <xs:sequence>

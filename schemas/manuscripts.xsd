@@ -9,7 +9,7 @@ It is NOT yet valid against TEI P5 (tei_all). Two transitional concessions remai
   - lang: the LALME/LAEME dialect-localization data, deferred for separate handling
   - adminInfo/note elements (catalogue queries, inter-item relations, extent/date remarks) are residue awaiting a later curation pass.</xs:documentation>
     </xs:annotation>
-    <xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
     <xs:element name="listBibl">
         <xs:complexType>
             <xs:sequence>
