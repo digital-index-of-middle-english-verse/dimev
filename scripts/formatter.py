@@ -25,6 +25,7 @@ parser = etree.XMLParser(remove_blank_text=True)
 # Parse and rewrite
 
 for file in files_to_format:
+    if file.name == "xml.xsd": continue
     print(f'Formatting {file.name}...')
     tree = etree.parse(file, parser)
     etree.indent(tree, space= 4*' ', level=0)
