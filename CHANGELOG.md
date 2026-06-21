@@ -54,6 +54,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 #### `Documentation.md`
 
 - Add a section "Current Status" (907e3d224bb3d91fc3ade10c0018945ba3a7844b)
+- Add a section "Pointing and citation conventions" and align the `bibl`, `mss`, and `ptr` tag-library entries with it (#65; b3e2b2ecc0f33e021f3151294a69a350bdb1da46)
 - Add a tag library for each XML file (afa58ca9d21d87ada2cd836e9ca506f71abeeaea et seq.)
 - Add guidance on styling of content in `Manuscripts.xml` (852d25a2e44403c8ee983bc47bb7535ec50bfd65)
 
@@ -61,12 +62,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 #### Changes affecting multiple XML files
 
-- Move re-home textcarrier items: records of particular copies of printed books, cited for manuscript additions or binding fragments, go to `Manuscripts.xml` (from `PrintedBooks.xml`); a copy of a printed book cited for edition-level material (key: `BodArchGe35`) goes to `PrintedBooks.xml` (from `Manuscripts.xml`); a parchment broadsheet (key: `Barber`) goes to `Manuscripts.xml` (from `Inscriptions.xml`) (#11, #59; 08cf30f52f3f6fda112c9337d87f10444681dc81, 7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6, db7127fa0bf75a8bc6485586c75d5becf858a978)
-- Move records of full-manuscript on-line facsimiles from `Bibliography.xml` to `Manuscripts.xml` (#22, c23bebc9fb82c0768974db518b46fb9fd792c7b7)
-- Reduce key-strings to ASCII (08cf30f52f3f6fda112c9337d87f10444681dc81, 72e56e266e712a26e7fc05d63e7160c495ab9e22)
+- Replace numeric character entity references with Unicode; replace curly possessive apostrophes and single and double quotes with the corresponding non-directional characters (#1; 33b4b1f2637ebec794e7f39fd96b16f4bcd7a014)
 - Pretty-print and re-lineate all XML and XSD files (c0ea1006b5bf4ff1ad53493c11bd9914d5a444c0, 939b3568a29bcc3e7074fa31dca7154b0cec3fc7)
-- Replace numeric character entity references with Unicode (#1; 33b4b1f2637ebec794e7f39fd96b16f4bcd7a014)
-- Replace curly possessive apostrophes and single and double quotes with the corresponding non-directional characters (33b4b1f2637ebec794e7f39fd96b16f4bcd7a014)
+- Reduce xml:id values to ASCII (08cf30f52f3f6fda112c9337d87f10444681dc81, 72e56e266e712a26e7fc05d63e7160c495ab9e22)
+- Move records of full-manuscript on-line facsimiles from `Bibliography.xml` to `Manuscripts.xml` (#22, c23bebc9fb82c0768974db518b46fb9fd792c7b7)
+- Rationalize citation and cross-reference markup toward TEI P5 Chapter 17, "Linking, Segmentation, and Alignment": retire `ref` in favour of TEI `ptr` for all empty pointers, with internal targets recoded as `#`-fragments (`#` + an `xml:id`) and external targets as absolute URIs; retain `bibl`/`source`/`mss` `key` citations; and disambiguate the resource sense of `bibl` (a `ptr`-wrapper, without `key`, in `surrogates` and `listBibl`) (#65; b3e2b2ecc0f33e021f3151294a69a350bdb1da46)
+- Re-home textcarrier items: records of particular copies of printed books, cited for manuscript additions or binding fragments, go to `Manuscripts.xml` (from `PrintedBooks.xml`); a copy of a printed book cited for edition-level material (key: `BodArchGe35`) goes to `PrintedBooks.xml` (from `Manuscripts.xml`); a parchment broadsheet (key: `Barber`) goes to `Manuscripts.xml` (from `Inscriptions.xml`) (#11, #59; 08cf30f52f3f6fda112c9337d87f10444681dc81, 7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6, db7127fa0bf75a8bc6485586c75d5becf858a978)
 
 #### `Manuscripts.xml`
 
@@ -115,16 +116,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Use `pathlib` for cross-platform compatibility (8bf11f0c6ea9162255f5482a6aeb1bb1083f7c5e)
 - Declare dependencies using TOML to accommodate `uv run` (b6234398b60502a231b9bab28346a09939ea4be2)
 - Validate all XML files, unless a file path is specified as an argument (491c8ecd1f49accb2873946a0062e08ae1f009fc, 0bba2694d445432cbbb1af01bf98d8e9011b40fa, 8bf11f0c6ea9162255f5482a6aeb1bb1083f7c5e)
+- Resolve `ptr` targets in `Records.xml`: check internal `#`-fragment targets against the `xml:id` registry and skip absolute URIs, replacing the transitional Middle English Compendium special-case (#65; b3e2b2ecc0f33e021f3151294a69a350bdb1da46)
 
 #### Schemas
 
 - All schemas: give the XML-namespace `import` a `schemaLocation` pointing at the local `schemas/xml.xsd`, so xmllint can compile them for structural validation (7faf2d9a4ddb4d790892f1c98a9ff416861f9ea5)
 - All schemas: tighten, restructure, and align with changes to XML file structures; add some inline documentation
-- `records.xsd`: provide for `crossRefs` block (not yet implemented in `Records.xml`) (c28f6af4a0962a5c41552352eafc787c21cec453)
 - `printedbooks.xsd`: rewrite as a restricted profile of TEI `listBibl` and `biblStruct` (9bfa34205ad3819cc1efeaa3c2d65efc6b6e178d)
 - `manuscripts.xsd`: provide for the disaggregated `msIdentifier`, `head`, `history`, and `additional` content model (#36; 4442a79aeb71c83e19765d44a2aad755806c6c41, 63f489983ba5d913bd4e65d9a8b6f5fba6662936); make `msDesc/@type` required and restrict it to the controlled vocabulary {`manuscript`, `printed`} (e941379f39567361ca7dbc161d4a5f54fa0d4c0c)
 - `inscriptions.xsd`: rewrite on model of rewritten `manuscripts.xsd` (#63; 9d68a24d45dd1c9b86af09d29cd2d5f2cc243f1a, 62b732db5d62c40199ae8f2c715722ae86690d92)
 - `manuscripts.xsd`, `inscriptions.xsd`: factor the verbatim-shared phrase-level and cross-reference types into `common.xsd`, included by both via `xs:include` (e941379f39567361ca7dbc161d4a5f54fa0d4c0c)
+- `records.xsd`, `common.xsd`: define an empty `ptr` pointer type and retire `ref`; require internal `ptr` targets to be `#`-fragments; provide for the `ptr`-wrapper (resource) sense of `bibl` (#65; b3e2b2ecc0f33e021f3151294a69a350bdb1da46)
+- `records.xsd`: provide for `crossRefs` block (not yet implemented in `Records.xml`) (c28f6af4a0962a5c41552352eafc787c21cec453)
 
 #### Documentation
 
