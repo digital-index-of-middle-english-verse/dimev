@@ -10,9 +10,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 #### Files added
 
-- `data/Bibliography.rdf`: RDF backup of DIMEV's Zotero Group Library (#23; 31aaf5e4bfb0421381662d4e507713b366fd199d..096b968132d227795d9a08dbbb6f1324253e05c1)
+- `data/Bibliography.rdf`: RDF backup of DIMEV's Zotero Group Library (#23; 31aaf5e4bfb0421381662d4e507713b366fd199d et seq.)
 - `data/form-terms.xml`, `data/language-terms.xml`, and `data/subject-terms.xml`: XML files to control vocabularies for verse forms, languages, and subjects (f88d584f889a9aac6aaf8afaeb6c1361e2056a71..139e1c85173c6a9dcfed7f6e7c8677f3546cc4fd)
-- `schemas/terms.xsd`: XML Schema to validate `data/form-terms.xml`, `data/language-terms.xml`, and `data/subject-terms.xml` (f88d584f889a9aac6aaf8afaeb6c1361e2056a71..e1ea9ec979e2234ca1de57fbda5dfedfb8e2019a)
+- `schemas/terms.xsd`: XML Schema to validate `data/form-terms.xml`, `data/language-terms.xml`, and `data/subject-terms.xml` (f88d584f889a9aac6aaf8afaeb6c1361e2056a71 et seq.)
 - `schemas/xml.xsd`: local copy of the canonical W3C schema for the XML namespace, so xmllint can resolve `xml:id` and compile the schemas (7faf2d9a4ddb4d790892f1c98a9ff416861f9ea5)
 - `schemas/common.xsd`: shared phrase-level and cross-reference types for `manuscripts.xsd` and `inscriptions.xsd`, factored out of the two (previously duplicated verbatim) and included by each via `xs:include` (e941379f39567361ca7dbc161d4a5f54fa0d4c0c)
 - `scripts/formatter.py`: Python script to pretty-print XML files with four-space indentation (9214e65479f174ecfe512e8c3175f046a1d093ea..b6234398b60502a231b9bab28346a09939ea4be2)
@@ -24,10 +24,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 #### `Manuscripts.xml`: content added
 
-- Add links to some on-line facsimiles (#22; c23bebc9fb82c0768974db518b46fb9fd792c7b7)
-- Add further links to on-line facsimiles (#36; 4442a79aeb71c83e19765d44a2aad755806c6c41)
-- Add links to on-line catalogue records, in `additional`/`listBibl` (#36; 4442a79aeb71c83e19765d44a2aad755806c6c41)
 - Add some Summary Catalog numbers for Bodleian manuscripts (9cd87c72a67f74527ffde809044f9a96fec098ab)
+- Add links to on-line facsimiles and catalogue records (#22, #36, #64; c23bebc9fb82c0768974db518b46fb9fd792c7b7, 4442a79aeb71c83e19765d44a2aad755806c6c41, d0375f7a18513db0379a2845d3bf022fc1ce5fb7)
 
 #### `PrintedBooks.xml`: content added
 
@@ -56,16 +54,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 #### `Documentation.md`
 
 - Add a section "Current Status" (907e3d224bb3d91fc3ade10c0018945ba3a7844b)
-- Add a tag library for each XML file (afa58ca9d21d87ada2cd836e9ca506f71abeeaea)
+- Add a tag library for each XML file (afa58ca9d21d87ada2cd836e9ca506f71abeeaea et seq.)
 - Add guidance on styling of content in `Manuscripts.xml` (852d25a2e44403c8ee983bc47bb7535ec50bfd65)
 
 ### Changed
 
 #### Changes affecting multiple XML files
 
-- Move records of particular copies of printed books, cited for manuscript additions or binding fragments, from `PrintedBooks.xml` to `Manuscripts.xml` (#11, #59; 08cf30f52f3f6fda112c9337d87f10444681dc81, 7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6)
+- Move re-home textcarrier items: records of particular copies of printed books, cited for manuscript additions or binding fragments, go to `Manuscripts.xml` (from `PrintedBooks.xml`); a copy of a printed book cited for edition-level material (key: `BodArchGe35`) goes to `PrintedBooks.xml` (from `Manuscripts.xml`); a parchment broadsheet (key: `Barber`) goes to `Manuscripts.xml` (from `Inscriptions.xml`) (#11, #59; 08cf30f52f3f6fda112c9337d87f10444681dc81, 7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6, db7127fa0bf75a8bc6485586c75d5becf858a978)
 - Move records of full-manuscript on-line facsimiles from `Bibliography.xml` to `Manuscripts.xml` (#22, c23bebc9fb82c0768974db518b46fb9fd792c7b7)
-- Reduce key-string "Schøyen33" to ASCII (08cf30f52f3f6fda112c9337d87f10444681dc81, 72e56e266e712a26e7fc05d63e7160c495ab9e22)
+- Reduce key-strings to ASCII (08cf30f52f3f6fda112c9337d87f10444681dc81, 72e56e266e712a26e7fc05d63e7160c495ab9e22)
 - Pretty-print and re-lineate all XML and XSD files (c0ea1006b5bf4ff1ad53493c11bd9914d5a444c0, 939b3568a29bcc3e7074fa31dca7154b0cec3fc7)
 - Replace numeric character entity references with Unicode (#1; 33b4b1f2637ebec794e7f39fd96b16f4bcd7a014)
 - Replace curly possessive apostrophes and single and double quotes with the corresponding non-directional characters (33b4b1f2637ebec794e7f39fd96b16f4bcd7a014)
@@ -76,6 +74,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Restructure as TEI `listBibl` and `msDesc`; declare the TEI namespace (#36; 5c9dd0a059024eb5a9a30c785e826ac14b3a1175, 23fd37db6d9b5d8ec4c8e0907c8c6bd1bd420a11, 4442a79aeb71c83e19765d44a2aad755806c6c41, 852d25a2e44403c8ee983bc47bb7535ec50bfd65, 63f489983ba5d913bd4e65d9a8b6f5fba6662936). Conformance is not complete, however: `lang` elements and some administrative and editorial notes remain non-TEI.
 - Set a required attribute `type` to identify each record as manuscript or printed (95b5d6cb40ca2b08e3d27a8d5f1d9def593a8b03)
 - Add `country`; regularize `settlement` and `repository` names per the issue #36 style guide (#36; 4442a79aeb71c83e19765d44a2aad755806c6c41, 852d25a2e44403c8ee983bc47bb7535ec50bfd65)
+- Regularize Bodleian shelfmarks to catalogue form (941ac6ab3e6fec163891c4de49f9ffcebfdd8745)
 - Regularize recording of items in private collections, items untraced, and items on deposit (852d25a2e44403c8ee983bc47bb7535ec50bfd65)
 - Remove the abbreviation "MS" from most shelfmarks (852d25a2e44403c8ee983bc47bb7535ec50bfd65)
 - Rename the element `biblio` as `bibl` (5c9dd0a059024eb5a9a30c785e826ac14b3a1175)
@@ -86,7 +85,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 #### `Inscriptions.xml`
 
 - Restructure as TEI `listBibl` and `msDesc`; declare the TEI namespace (#63; 9d68a24d45dd1c9b86af09d29cd2d5f2cc243f1a, 62b732db5d62c40199ae8f2c715722ae86690d92)
-- Style: strip final punctuation and in-line italics from text content (2882d3205bf044a5039952c3748008e322d326d3)
+- Strip final punctuation and in-line italics from text content (2882d3205bf044a5039952c3748008e322d326d3)
 
 #### `PrintedBooks.xml`
 
@@ -97,12 +96,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 #### `Records.xml`
 
 - Cite IMEV, NIMEV, and Ringler in a new element `repertories`; this element also holds references to Whiting's *Proverbs, sentences*, Walther's *Proverbia* and *Initia*, and other repertories (#25, #46; b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9, 6da0898ac11bdf940c45161781ecf810cd64357f, 90911075eadbe57068ca460f128b107fd80fd3de)
-- Cite critical editions at record level (limited implimentation) (#3; 90911075eadbe57068ca460f128b107fd80fd3de)
+- Cite critical editions at record level (limited implementation) (#3; 90911075eadbe57068ca460f128b107fd80fd3de)
 - Restructure lists of bibliographic references (editions, facsimiles, ghosts) (90911075eadbe57068ca460f128b107fd80fd3de)
 - Restructure lists of keywords (subjects, verse-forms, languages) (72e56e266e712a26e7fc05d63e7160c495ab9e22)
 - Restructure `ref` elements and their content (#24, #48; 8e48f84731cfac8d8efc079693b7c344e9b0c260, 6da0898ac11bdf940c45161781ecf810cd64357f)
 - Convert the values of attributes "music" and "illust" to booleans (14345568f9052090677b5920cbbc41e4701240f9)
-- Rename the element `biblio` as `bibl` to align with TEI tag names (90911075eadbe57068ca460f128b107fd80fd3de)
+- Rename the element `biblio` as `bibl` (90911075eadbe57068ca460f128b107fd80fd3de)
 - Rename the element `insc` as `mss` for in-project consistency (90911075eadbe57068ca460f128b107fd80fd3de)
 - Change DIMEV item number 7684 to 5784; retain the mistaken identifier as a cross-reference (#20; b9aa6fe5c60591a435063c22e9e16b8195d49c55)
 - Revise subject terms (#29, #30, #34; b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
@@ -141,31 +140,37 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - `MSSIndex.xml`: remove file after merging data into `Manuscripts.xml` (#21; 574cf0b3c0faacb0242b10b9b35c3bc99767c2a9)
 - `mssindex.xsd`, `bibliography.xsd`, and `glossary.xsd`: remove schemas for removed XML files (5e25a7fa47fdace713bf7d613633ddcca855459f, 96bbe0745a4cdf4cdfc912b712601815163c2807, f992ee06e77519737a8f03e6220a3021fb0ca0e2)
 
+#### Content removed from multiple items
+
+- `Manuscripts.xml`, `PrintedBooks.xml`, `Inscriptions.xml`: remove duplicate items; remove items uncited elsewhere in project files
+(#38, #50;
+ac05c4db8693427507936153ac62af1b79473409,
+0aa70f77d77e098295e6388dc8d9832377b89ac9,
+08cf30f52f3f6fda112c9337d87f10444681dc81,
+5a66c4570a659429799c90b16574453f0d5c2b24,
+7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6,
+db7127fa0bf75a8bc6485586c75d5becf858a978)
+- Delete certain manuscript items cited only as bibliographic ghosts or else within `description` or `sourceNote` elements. Several are photographic facsimiles or post-medieval transcriptions. For each, replace the citation pointer with a keyboarded shelfmark and delete the item record from `Manuscripts.xml`. (General principle: maintain records only for text-carriers cited as witnesses to text-items, not for those merely *mentioned* elsewhere within records.) \(db7127fa0bf75a8bc6485586c75d5becf858a978)
+
 #### `Manuscripts.xml`: items and elements removed
 
-- Remove item with key "Atkinson" (ac05c4db8693427507936153ac62af1b79473409)
-- Remove item with key "Har27282" as an uncited duplicate (#50, 7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6)
-- Resolve and delete XML comments where possible; delete commented-out items with xml:ids unreferenced elsewhere in DIMEV data; delete commented-out items with xml:ids identical to an active item elsewhere in `Manuscrips.xml` (9cd87c72a67f74527ffde809044f9a96fec098ab)
+- Resolve and delete certain XML comments: delete commented-out items with xml:ids unreferenced elsewhere in DIMEV data; delete commented-out items with xml:ids identical to an active item elsewhere in `Manuscrips.xml` (9cd87c72a67f74527ffde809044f9a96fec098ab).
+(All remaining XML comments are dropped within re-structuring at db7127fa0bf75a8bc6485586c75d5becf858a978.)
 
 #### `PrintedBooks.xml`: items and elements removed
 
-- Remove the elements `loc` and `repos` (#11; dd623751f8888ce3ffd35665d9a90e621ff602ca, 08cf30f52f3f6fda112c9337d87f10444681dc81)
-- Remove the element `DIMEVCount` (bfb14aa4c8e8b01151e2b198f6c958f9a3ffd11d)
-- Remove the element `desc`; information unique to `desc` (printer names for STC 78 and STC 79, former STC numbers, a remark on the survival of copies) is retained in `publisher` text and in a new element, `note` (9238790fc29f12d7af93939362db50b0cb800746, 9bfa34205ad3819cc1efeaa3c2d65efc6b6e178d)
-- Remove items "ParisSydrac1486", "Schoyen615", "SchoyenPP," "STC19118" as uncited or duplicate (#38; 0aa70f77d77e098295e6388dc8d9832377b89ac9, 08cf30f52f3f6fda112c9337d87f10444681dc81, 7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6);
-remove item "Rastell1519" as duplicate of "STC20722" (#57; 5a66c4570a659429799c90b16574453f0d5c2b24);
-remove item "SpecParis1510" as a duplicate of "Rolle1510" (7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6)
+- Remove the elements `loc`, `repos`, and `DIMEVCount` (#11; dd623751f8888ce3ffd35665d9a90e621ff602ca, 08cf30f52f3f6fda112c9337d87f10444681dc81, bfb14aa4c8e8b01151e2b198f6c958f9a3ffd11d)
+- Remove the element `desc`; information unique to `desc` (printer names for STC 78 and STC 79, former STC numbers, a remark on the survival of copies) is retained in `publisher` text and in a new element, `note` for further curation (9238790fc29f12d7af93939362db50b0cb800746, 9bfa34205ad3819cc1efeaa3c2d65efc6b6e178d)
 - Remove item Rouen1516 as an edition-level record cited by us for copy-level material; the copy is recorded in `Manuscripts.xml` as YorkMinXIO28 (7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6)
 
 #### `Records.xml`: elements, items, and content removed
 
+- Remove blocks of commented-out witnesses and records; remove XML comments of the type "new number" (git history is project history) \(db7127fa0bf75a8bc6485586c75d5becf858a978, 8e48f84731cfac8d8efc079693b7c344e9b0c260, b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
 - Remove `gloss` tags as out of scope (#26; dcf295f8e7a037da6f13ecde3656a8890156a003)
-- Remove references to full-manuscript digital on-line facsimiles (these will be recorded within the corresponding item in `Manuscripts.xml`) (#39; dcf295f8e7a037da6f13ecde3656a8890156a003)
+- Remove references to full-manuscript digital on-line facsimiles (these are recorded within the corresponding item in `Manuscripts.xml`) (#39; dcf295f8e7a037da6f13ecde3656a8890156a003)
 - Remove the element `versePatterns` after merging content into `verseForms` (#42; 72e56e266e712a26e7fc05d63e7160c495ab9e22)
 - Remove empty `subjects` elements (72e56e266e712a26e7fc05d63e7160c495ab9e22)
 - Remove an unnumbered stub item as redundant with item 1293 (8e48f84731cfac8d8efc079693b7c344e9b0c260)
-- Remove certain commented-out records of items and witnesses (8e48f84731cfac8d8efc079693b7c344e9b0c260)
-- Remove XML comments of the type "new number" (b2e4df2b3c2b9a6aa6ebdfee6f5b36ceb44049f9)
 - Remove references to HuntingtonRB59135, StPaulBuxtaforius1616, Alliaco1480 (when referencing early printed books, reference either edition or copy, as appropriate, not both) (90911075eadbe57068ca460f128b107fd80fd3de)
 - Remove broken web links: partial digitization of Woodward1995; query on http://search.lib.cam.ac.uk/; TCC James catalog (90911075eadbe57068ca460f128b107fd80fd3de)
 - Remove the dummy record for cross-reference of 'yif' and 'if' (6da0898ac11bdf940c45161781ecf810cd64357f)
@@ -176,6 +181,10 @@ remove item "SpecParis1510" as a duplicate of "Rolle1510" (7c30b0b5829d66d1cd52d
 - Remove notes on "technical direction" for XML files (0840d3e6d53ca61c30f441d81a0ee91f498e3000)
 
 ### Fixed
+
+#### All XML files
+
+- Fix validation errors exposed by updated schema files
 
 #### Bibliography
 
@@ -206,10 +215,6 @@ remove item "SpecParis1510" as a duplicate of "Rolle1510" (7c30b0b5829d66d1cd52d
 - 5029: correct extent, range, lastlines (#5; 14345568f9052090677b5920cbbc41e4701240f9)
 - 5143: move subjects misplaced in the `titles` element (72e56e266e712a26e7fc05d63e7160c495ab9e22)
 - Misc. content correction
-
-#### All XML files
-
-- Fix validation errors exposed by updated schema files
 
 ## Version 1 [2025-01-01]
 
