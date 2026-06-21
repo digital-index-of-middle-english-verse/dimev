@@ -283,7 +283,10 @@ def check_bibl_refs(passing, textcarrier_ids, bibl_ids):
     for key in bibl_ids:
         if key not in referenced_bibl:
             unreferenced_bibl_keys.add(key)
-    print(f'Found {len(unreferenced_textcarrier_keys)} unreferenced textcarrier keys and {len(unreferenced_bibl_keys)} unreferenced keys to modern scholarly works')
+    if unreferenced_textcarrier_keys:
+        print(f'Found {len(unreferenced_textcarrier_keys)} unreferenced textcarrier key(s): {", ".join(sorted(unreferenced_textcarrier_keys))}')
+    if unreferenced_bibl_keys:
+        print(f'Found {len(unreferenced_bibl_keys)} unreferenced keys to modern scholarly works')
     print(f'Checks completed with {item_checks} checks and {error_count} errors.')
 
     return passing
