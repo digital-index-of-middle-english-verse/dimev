@@ -169,7 +169,10 @@
                 <xs:complexType>
                     <xs:choice>
                         <xs:sequence>
-                            <xs:element name="bibl" type="citation"/>
+                            <xs:choice>
+                                <xs:element name="bibl" type="citation"/>
+                                <xs:element name="ptr" type="pointer"/>
+                            </xs:choice>
                             <xs:element name="note" type="freeMix" minOccurs="0"/>
                         </xs:sequence>
                         <xs:element name="note" type="freeMix"/>
@@ -181,30 +184,34 @@
     <xs:complexType name="reflist">
         <xs:annotation>
             <xs:documentation>This complex type has the structure of
-		"listbibl" but contains `ref` elements.</xs:documentation>
+		"listbibl" but contains `ptr` elements.</xs:documentation>
         </xs:annotation>
         <xs:sequence>
             <xs:element name="item" maxOccurs="unbounded">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="ref" type="crossref"/>
+                        <xs:element name="ptr" type="pointer"/>
                         <xs:element name="note" type="freeMix" minOccurs="0"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
         </xs:sequence>
     </xs:complexType>
-    <xs:complexType name="crossref">
+    <xs:complexType name="pointer">
         <xs:annotation>
-            <xs:documentation>Cross references are always empty pointing
-                elements, without text content.</xs:documentation>
+            <xs:documentation>An empty pointing element (TEI `ptr`). The `target`
+		is either an internal fragment reference ("#" + the xml:id of a
+		`record` or `witness`) or an absolute URI to an external resource.
+		The internal/external distinction is syntactic -- a leading "#" --
+		and the resolution of internal targets against the id registry is
+		performed by scripts/validator.py.</xs:documentation>
         </xs:annotation>
-        <xs:attribute name="target" type="xs:string" use="required">
-            <xs:annotation>
-                <xs:documentation>The value of the `target` attribute is currently
-		validated externally. In a future update restrictions could be
-		written into this schema.</xs:documentation>
-            </xs:annotation>
+        <xs:attribute name="target" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:anyURI">
+                    <xs:pattern value="#[A-Za-z0-9_.\-]+|https?://.+"/>
+                </xs:restriction>
+            </xs:simpleType>
         </xs:attribute>
     </xs:complexType>
     <xs:complexType name="point-locator">
@@ -275,7 +282,7 @@
             <xs:element name="i" type="italic"/>
             <xs:element name="lb"/>
             <xs:element name="mss" type="citation"/>
-            <xs:element name="ref" type="crossref"/>
+            <xs:element name="ptr" type="pointer"/>
             <xs:element name="scribe" type="personName"/>
             <xs:element name="sic" type="xs:string"/>
             <xs:element name="sup" type="xs:string"/>

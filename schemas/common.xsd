@@ -25,8 +25,16 @@ This file holds only the phrase-level markup and cross-reference types common to
         </xs:simpleContent>
     </xs:complexType>
     <xs:complexType name="refBibl">
+        <xs:annotation>
+            <xs:documentation>A TEI `bibl` used as a resource pointer: a wrapper
+holding a single empty `ptr` to an external resource (a catalogue record or
+digital surrogate). This is the resource sense of `bibl`, distinct from the
+citation sense (bibRef), which carries a `key` and locator text. The two senses
+never mix: a `bibl` either has a `key` and text (citation) or contains a `ptr`
+(resource).</xs:documentation>
+        </xs:annotation>
         <xs:sequence>
-            <xs:element name="ref">
+            <xs:element name="ptr">
                 <xs:complexType>
                     <xs:attribute name="target" type="xs:anyURI" use="required"/>
                 </xs:complexType>

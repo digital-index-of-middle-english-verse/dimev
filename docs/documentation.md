@@ -115,6 +115,19 @@ Structures are documented in two forms:
 The Python script `validator.py` can be used to validate XML files against the corresponding XSD file.
 For instructions see the comment at the head of `validator.py`.
 
+## Pointing and citation conventions
+
+DIMEV's source data refer outward in four distinct ways. The markup keeps these roles in separate elements, following the principles of [TEI P5, Chapter 17, "Linking, Segmentation, and Alignment"](https://tei-c.org/release/doc/tei-p5-doc/en/html/SA.html): empty pointers use `ptr`; internal references use a `#`-fragment, external references an absolute URI; and references resolved against a controlled register use a `key`, in the manner of TEI's `att.canonical`.
+
+| Role | Element | Mechanism |
+|---|---|---|
+| Bibliographic citation | `bibl` | `key` names an entry in the [Zotero Group Library] (`Bibliography.rdf`); text content supplies a locator |
+| Text-carrier reference | `source` (with locator) / `mss` (inline) | `key` names the `xml:id` of an entry in `Manuscripts.xml`, `PrintedBooks.xml`, or `Inscriptions.xml` |
+| Pointer | `ptr` | `target` is `#` + an `xml:id` (internal, to a `record` or `witness`) or an absolute URI (external) |
+| Resource bibl | `bibl` wrapping a `ptr` | a TEI `bibl`, without `key`, in `surrogates` or `listBibl`, holding a single `ptr` to a catalogue record or digital surrogate |
+
+The two senses of `bibl` never mix: a `bibl` either carries a `key` and locator text (citation) or contains a `ptr` (resource), determined by the element's position. The internal-versus-external distinction for `ptr` is syntactic — a leading `#` marks an internal target — so `validator.py` resolves internal targets against the registry of `xml:id`s and leaves absolute URIs to verify by other means.
+
 # `Records.xml`
 
 ## Overview {#overview-records}
@@ -247,7 +260,7 @@ The XML structure makes an implicit distinction between two types of `record` it
   - `i`
   - `lb`
   - `mss`
-  - `ref`
+  - `ptr`
   - `scribe`
   - `sic`
   - `sup`
@@ -268,7 +281,7 @@ The XML structure makes an implicit distinction between two types of `record` it
   - `i`
   - `lb`
   - `mss`
-  - `ref`
+  - `ptr`
   - `scribe`
   - `sic`
   - `sup`
@@ -508,7 +521,7 @@ Scholars are advised to reference witnesses by manuscript shelfmarks, not the nu
   - `i`
   - `lb`
   - `mss`
-  - `ref`
+  - `ptr`
   - `scribe`
   - `sic`
   - `sup`
@@ -529,7 +542,7 @@ Scholars are advised to reference witnesses by manuscript shelfmarks, not the nu
   - `i`
   - `lb`
   - `mss`
-  - `ref`
+  - `ptr`
   - `scribe`
   - `sic`
   - `sup`
@@ -550,7 +563,7 @@ Scholars are advised to reference witnesses by manuscript shelfmarks, not the nu
   - `i`
   - `lb`
   - `mss`
-  - `ref`
+  - `ptr`
   - `scribe`
   - `sic`
   - `sup`
@@ -580,14 +593,14 @@ Scholars are advised to reference witnesses by manuscript shelfmarks, not the nu
   - `facsimiles`
 - **Must contain**
   Content depends on parent element:
-  - in `repertories`, `editions`, and `facsimiles`: either `bibl` with optional `note`, or `note` alone
-  - in `crossRefs`: `ref` with optional `note`
+  - in `repertories`, `editions`, and `facsimiles`: either `bibl` or `ptr` (with optional `note`), or `note` alone
+  - in `crossRefs`: `ptr` with optional `note`
   - in `ghosts`: either `mss` with optional `note`, or `note` alone
 
 ### `bibl`
 
 - **Description**
-  Bibliographical citation or reference
+  A bibliographical citation: a reference to an item in the [Zotero Group Library], by the `key` attribute, with the text content supplying a locator (a page number, item number, or the like). See [Pointing and citation conventions].
 - **Attributes**
   - `key` — required reference key, designating an item in the [Zotero Group Library].
 - **May occur within**
@@ -605,7 +618,7 @@ Scholars are advised to reference witnesses by manuscript shelfmarks, not the nu
 ### `mss`
 
 - **Description**
-  Manuscript citation or manuscript reference
+  An inline reference to a text-carrier (manuscript, printed book, or inscription), by the `key` attribute (the `xml:id` of an entry in `Manuscripts.xml`, `PrintedBooks.xml`, or `Inscriptions.xml`). Unlike `source`, it carries no locator structure. See [Pointing and citation conventions].
 - **Attributes**
   - `key` — required reference key
 - **May occur within**
@@ -620,12 +633,12 @@ Scholars are advised to reference witnesses by manuscript shelfmarks, not the nu
   - `i`
   - `sup`
 
-### `ref`
+### `ptr`
 
 - **Description**
-  Empty cross-reference pointing element
+  Empty pointing element (TEI `ptr`; see [Pointing and citation conventions]). Points either to another `record` or `witness` within `Records.xml`, by a `target` of the form `#` followed by the `xml:id` of the target, or to an external resource, by an absolute URI.
 - **Attributes**
-  - `target` — required target value
+  - `target` — required; an internal fragment reference (`#` + an `xml:id`) or an absolute URI
 - **May occur within**
   - `item`
   - `description`
@@ -652,7 +665,7 @@ Scholars are advised to reference witnesses by manuscript shelfmarks, not the nu
   - `i`
   - `lb`
   - `mss`
-  - `ref`
+  - `ptr`
   - `scribe`
   - `sic`
   - `sup`
@@ -1080,10 +1093,11 @@ Provenance information is recorded solely to aid identification of objects cited
 ### `bibl`
 
 - **Description**
-  Within `desc`, `lang`, `msName`, `head`, `provenance`, `note`, `p`, and `custEvent`, a citation of an item in DIMEV's Zotero Group Library.
-  Within `surrogates` and `listBibl`, `bibl` is instead used in its TEI sense, as a wrapper for a single `ref` pointing to an on-line resource.
+  The element `bibl` has two senses, never mixed (see [Pointing and citation conventions]).
+  Within `desc`, `lang`, `msName`, `head`, `provenance`, `note`, `p`, and `custEvent`, it is a *citation*: a reference to an item in DIMEV's Zotero Group Library, by the `key` attribute, with text content supplying a locator.
+  Within `surrogates` and `listBibl`, it is a *resource pointer*: a wrapper, without `key`, holding a single empty `ptr` to an on-line resource.
 - **Attributes**
-  - `key`: required citation key (in its citation sense; absent within `surrogates` and `listBibl`)
+  - `key`: required in the citation sense; absent in the resource-pointer sense (within `surrogates` and `listBibl`)
 - **May occur within**
   - `desc`
   - `lang`
@@ -1091,7 +1105,7 @@ Provenance information is recorded solely to aid identification of objects cited
   - `surrogates`
   - `listBibl`
 - **May contain**
-  Text only (`xs:string`) in its citation sense; a single `ref` within `surrogates` and `listBibl`
+  Text only (`xs:string`) in the citation sense; a single `ptr` in the resource-pointer sense
 
 ### `lang`
 
@@ -1247,7 +1261,7 @@ Provenance information is recorded solely to aid identification of objects cited
 - **Must occur within**
   - `additional`
 - **Must contain**
-  - `bibl` (one or more), each wrapping a single `ref`
+  - `bibl` (one or more), each wrapping a single `ptr`
 
 ### `listBibl`
 
@@ -1261,12 +1275,12 @@ Provenance information is recorded solely to aid identification of objects cited
 - **Must occur within**
   - `additional`
 - **Must contain**
-  - `bibl` (one or more), each wrapping a single `ref`
+  - `bibl` (one or more), each wrapping a single `ptr`
 
-### `ref`
+### `ptr`
 
 - **Description**
-  Reference to an on-line resource; its `target` is the resource's URL (an on-line facsimile within `surrogates`, a catalogue record within `listBibl`).
+  Empty pointing element (TEI `ptr`) to an on-line resource; its `target` is the resource's URL (an on-line facsimile within `surrogates`, a catalogue record within `listBibl`). See [Pointing and citation conventions].
 - **Attributes**
   - `target`: required URI target
 - **Must occur within**

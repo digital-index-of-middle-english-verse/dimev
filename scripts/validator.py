@@ -100,19 +100,26 @@ def get_valid_terms(domain):
 
 def check_crossrefs(passing, id_registry):
     filename = 'Records.xml'
-    print(f'\nChecking reference targets in {filename}')
+    print(f'\nChecking pointer targets in {filename}')
     item_checks = 0
     error_count = 0
     tree = etree.parse(data_dir / filename)
     root = tree.getroot()
-    for ref in root.iter('ref'):
-        target = ref.get('target')
-        if target not in id_registry:
+    # Pointers (`ptr`) carry either an internal fragment reference ("#" + the
+    # xml:id of a record or witness) or an absolute URI to an external resource.
+    # Only internal targets are resolved here; external URIs are left to verify
+    # by other means.
+    for ptr in root.iter('ptr'):
+        target = ptr.get('target')
+        if not target.startswith('#'):
+            continue  # external resource (absolute URI)
+        ref_id = target[1:]
+        if ref_id not in id_registry:
             print(f'WARNING: bad target value "{target}"')
             passing = False
             error_count += 1
         item_checks += 1
-    print(f'Checked {item_checks} ref elements. Found {error_count} errors.')
+    print(f'Checked {item_checks} internal ptr elements. Found {error_count} errors.')
     return passing
 
 def validate_bibl_ids(passing):
@@ -247,7 +254,6 @@ def check_bibl_refs(passing, textcarrier_ids, bibl_ids):
     print(f'\nChecking bibliographic and source references in {filename}...')
     error_count = 0
     item_checks = 0
-    bibl_ids.add('MECompendium') # NOTE: A special case
 
     # Check for bad outbound references in Records.xml
     referenced_textcarriers = set()
