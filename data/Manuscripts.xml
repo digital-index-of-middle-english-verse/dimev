@@ -1,19 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href='../schemas/manuscripts.xsd'?>
 <listBibl xmlns="http://www.tei-c.org/ns/1.0">
-    <msDesc xml:id="Bod80G40Med" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>80.G.40.Med</idno>
-        </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note>Now with Eng. poet. e.94</note>
-            </adminInfo>
-        </additional>
-    </msDesc>
     <msDesc xml:id="BodAddA11" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -22,17 +9,6 @@
             <idno>Addit. A.11</idno>
             <altIdentifier>
                 <idno>SC 28746</idno>
-            </altIdentifier>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BodAddA60" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Addit. A.60</idno>
-            <altIdentifier>
-                <idno>SC 30161</idno>
             </altIdentifier>
         </msIdentifier>
     </msDesc>
@@ -208,28 +184,7 @@
             </altIdentifier>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BodArchDd1" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Arch. Dd.1</idno>
-            <altIdentifier>
-                <idno>SC 31502</idno>
-            </altIdentifier>
-        </msIdentifier>
-        <head>Photographic facsimile (1893) of <mss key="BodDHumd2"/>
-        </head>
-    </msDesc>
-    <msDesc xml:id="BodArchGe35" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Arch. G.e 35</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BodArchGg39" type="manuscript">
+    <msDesc xml:id="BodArchGg39" type="printed">
         <msIdentifier>
             <country>UK</country>
             <settlement>Oxford</settlement>
@@ -314,17 +269,6 @@
             <idno>Arch. Selden B. 26</idno>
             <altIdentifier>
                 <idno>SC 3340</idno>
-            </altIdentifier>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BodArcSelC813" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Arch. Selden C. 813</idno>
-            <altIdentifier>
-                <idno>SC 12653</idno>
             </altIdentifier>
         </msIdentifier>
     </msDesc>
@@ -414,18 +358,17 @@
             <country>UK</country>
             <settlement>Oxford</settlement>
             <repository>Bodleian Library</repository>
-            <idno>Selden Supra 102</idno>
-            <altIdentifier>
-                <idno>SC 3490b</idno>
-            </altIdentifier>
+            <idno>Selden Supra 102*</idno>
         </msIdentifier>
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> 1.152 ('Language probably somewhat mixed, but
             clearly NE Midland and possibly of <place country="England" county="Rutland">Rutland</place>': ff. 15-16).</lang>
         <additional>
-            <adminInfo>
-                <note type="editorial">Ker Pastedowns 1744, Lewis &amp; McIntosh MV84</note>
-            </adminInfo>
+            <listBibl type="catalogue">
+                <bibl>
+                    <ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_9999"/>
+                </bibl>
+            </listBibl>
         </additional>
     </msDesc>
     <msDesc xml:id="BodAsh8" type="manuscript">
@@ -1305,17 +1248,6 @@
             </altIdentifier>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BodAsh1486III" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Ashmole 1486, Part III</idno>
-            <altIdentifier>
-                <idno>SC 7009</idno>
-            </altIdentifier>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BodAsh1487" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -1473,14 +1405,6 @@
             </altIdentifier>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="Bod2C" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Bodley 2C dep. C12930</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="Bod9" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -1611,17 +1535,6 @@
             <idno>Bodley 85</idno>
             <altIdentifier>
                 <idno>SC 2289</idno>
-            </altIdentifier>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="Bod88" type="printed">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Bodley 88</idno>
-            <altIdentifier>
-                <idno>SC 1873</idno>
             </altIdentifier>
         </msIdentifier>
     </msDesc>
@@ -1964,17 +1877,6 @@
             </altIdentifier>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="Bod534" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Bodley 534</idno>
-            <altIdentifier>
-                <idno>SC 2252</idno>
-            </altIdentifier>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="Bod546" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -2102,17 +2004,6 @@
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 6930; <langGrid>Grid 418 235</langGrid> (<place country="England" county="Gloucestershire">Gloucs</place>); <bibl key="LAEME">LAEME</bibl>
             <langGrid>Grid 418 235</langGrid> (NE <place country="England" county="Gloucestershire">Gloucs</place>).</lang>
-    </msDesc>
-    <msDesc xml:id="Bod678" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Bodley 678</idno>
-            <altIdentifier>
-                <idno>SC 2595</idno>
-            </altIdentifier>
-        </msIdentifier>
     </msDesc>
     <msDesc xml:id="Bod686" type="manuscript">
         <msIdentifier>
@@ -2464,14 +2355,6 @@
         </msIdentifier>
         <head>Facsimile of Lyme Hall</head>
     </msDesc>
-    <msDesc xml:id="BodDepd324" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Dep. d.324</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BodDig2" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -2666,23 +2549,6 @@
                 <idno>SC 1696</idno>
             </altIdentifier>
         </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BodDig99" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Digby 99</idno>
-            <altIdentifier>
-                <idno>SC 1700</idno>
-            </altIdentifier>
-        </msIdentifier>
-        <lang>
-            <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 4290; <langGrid>Grid 583 296</langGrid>
-            (Norfolk: ff, 8v-17v, 27v-78v, 117-125); LP 4289 (<place country="England" county="Lincolnshire">Lincs</place>: ff. 18-27); LP 4569; <langGrid>Grid 585
-                319</langGrid> (<place country="England" county="Norfolk">Norfolk</place>: ff. ff.
-            79-116v, ?126-156); 1.147 (<place country="England" county="Norfolk">Norfolk</place>: f.
-            125 seq.).</lang>
     </msDesc>
     <msDesc xml:id="BodDig102" type="manuscript">
         <msIdentifier>
@@ -3047,17 +2913,6 @@
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> 1.147 (<place country="England" county="Northamptonshire">Northants</place>).</lang>
     </msDesc>
-    <msDesc xml:id="BodDou65" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Douce 65</idno>
-            <altIdentifier>
-                <idno>SC 21639</idno>
-            </altIdentifier>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BodDou78" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -3283,17 +3138,6 @@
             <idno>Douce 169</idno>
             <altIdentifier>
                 <idno>SC 21743</idno>
-            </altIdentifier>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BodDou170" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Douce 170</idno>
-            <altIdentifier>
-                <idno>SC 21744</idno>
             </altIdentifier>
         </msIdentifier>
     </msDesc>
@@ -3694,14 +3538,6 @@
             </altIdentifier>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BodEngmiscc95" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Eng. misc. c.95</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BodEngmiscc291" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -3811,14 +3647,6 @@
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> 1.148 (<place country="England" county="Northern">NME</place>).</lang>
     </msDesc>
-    <msDesc xml:id="BodEngPoetd27" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Eng. poet. d.27</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BodEngPoetd45" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -3886,29 +3714,15 @@
             <country>UK</country>
             <settlement>Oxford</settlement>
             <repository>Bodleian Library</repository>
-            <idno>Eng. poet. e.94</idno>
-            <altIdentifier type="former">
-                <idno>80 G 40 Med</idno>
-            </altIdentifier>
+            <idno>Eng. poet. e. 94</idno>
         </msIdentifier>
         <additional>
             <adminInfo>
-                <note>Formerly in printed book 80 G 40 Med</note>
+                <custodialHist>
+                    <custEvent when="1967" type="reclass">Fols 3–4 formerly in the binding of printed book 8o G 40 Med (Thomas Bricot, Paris 1523). Removed and joined to the present shelfmark in 1967.</custEvent>
+                </custodialHist>
             </adminInfo>
         </additional>
-    </msDesc>
-    <msDesc xml:id="BodEngPoetf1" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Eng. poet. f.1</idno>
-            <altIdentifier>
-                <idno>SC 31360</idno>
-            </altIdentifier>
-        </msIdentifier>
-        <head>17th-century transcript of a fragment of the <hi rend="italic">South English Legendary</hi>
-        </head>
     </msDesc>
     <msDesc xml:id="BodEngPoetf2" type="manuscript">
         <msIdentifier>
@@ -3939,14 +3753,6 @@
             <idno>Eng. theol. e.1</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BodEngTheole15" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Eng. theol. e.15</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BodEngTheole16" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -3955,36 +3761,6 @@
             <idno>Eng. theol. e.16</idno>
             <altIdentifier>
                 <idno>SC 32216</idno>
-            </altIdentifier>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BodEngTheole17" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Eng. theol. e.17</idno>
-            <altIdentifier>
-                <idno>SC 32690</idno>
-            </altIdentifier>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BodEngTheole94" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Eng. theol. e.94</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BodEngTheole181" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Eng. theol. e.181</idno>
-            <altIdentifier>
-                <idno>SC 46118</idno>
             </altIdentifier>
         </msIdentifier>
     </msDesc>
@@ -3998,24 +3774,6 @@
                 <idno>Helmingham</idno>
             </altIdentifier>
         </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BodFacsd24" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Facs. d.24</idno>
-        </msIdentifier>
-        <head>Facsimile of Shrewsbury School 6</head>
-    </msDesc>
-    <msDesc xml:id="BodFacse23" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Facs. e.23</idno>
-        </msIdentifier>
-        <head>Facsimile of Harley 3909</head>
     </msDesc>
     <msDesc xml:id="BodFair3" type="manuscript">
         <msIdentifier>
@@ -4086,17 +3844,6 @@
         </msIdentifier>
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> 1.149 (<place country="England" county="Yorkshire, West Riding">WRY</place>).</lang>
-    </msDesc>
-    <msDesc xml:id="BodFird14" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Firth d.14</idno>
-            <altIdentifier>
-                <idno>NSC 46879</idno>
-            </altIdentifier>
-        </msIdentifier>
     </msDesc>
     <msDesc xml:id="BodGoughet4" type="manuscript">
         <msIdentifier>
@@ -4385,14 +4132,6 @@
             </surrogates>
         </additional>
     </msDesc>
-    <msDesc xml:id="BodHerD104" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Hearne's Diary 104</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BodHolkM39" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -4629,17 +4368,6 @@
             </altIdentifier>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BodLauLat114" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Laud Lat. 114</idno>
-            <altIdentifier>
-                <idno>SC 649</idno>
-            </altIdentifier>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BodLauMis23" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -4819,17 +4547,6 @@
             <idno>Laud misc. 416</idno>
             <altIdentifier>
                 <idno>SC 1479</idno>
-            </altIdentifier>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BodLauMis436" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Laud misc. 436</idno>
-            <altIdentifier>
-                <idno>SC ??</idno>
             </altIdentifier>
         </msIdentifier>
     </msDesc>
@@ -5141,17 +4858,6 @@
             <idno>Laud misc. 733</idno>
             <altIdentifier>
                 <idno>SC 1129</idno>
-            </altIdentifier>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BodLauMis734" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Laud misc. 734</idno>
-            <altIdentifier>
-                <idno>SC 854</idno>
             </altIdentifier>
         </msIdentifier>
     </msDesc>
@@ -5488,11 +5194,18 @@
             <country>UK</country>
             <settlement>Oxford</settlement>
             <repository>Bodleian Library</repository>
-            <idno>e Musaeo 198</idno>
+            <idno>e Mus. 198</idno>
             <altIdentifier>
                 <idno>SC 3712</idno>
             </altIdentifier>
         </msIdentifier>
+        <additional>
+            <listBibl type="catalogue">
+                <bibl>
+                    <ref target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_9110"/>
+                </bibl>
+            </listBibl>
+        </additional>
     </msDesc>
     <msDesc xml:id="BodeMus232" type="manuscript">
         <msIdentifier>
@@ -5525,14 +5238,6 @@
             <settlement>Oxford</settlement>
             <repository>Bodleian Library</repository>
             <idno>North C.80</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BodRaw4" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Rawlinson 4to 598 (10)</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="BodRawA273" type="manuscript">
@@ -5756,19 +5461,6 @@
             </altIdentifier>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BodRawC81" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Rawlinson C.81</idno>
-            <altIdentifier>
-                <idno>SC 11946</idno>
-            </altIdentifier>
-        </msIdentifier>
-        <lang>
-            <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 7841; <langGrid>Grid 395 245</langGrid> (<place country="England" county="Worcestershire">Worcs</place>).</lang>
-    </msDesc>
     <msDesc xml:id="BodRawC83" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -5777,17 +5469,6 @@
             <idno>Rawlinson C.83</idno>
             <altIdentifier>
                 <idno>SC 11948</idno>
-            </altIdentifier>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BodRawC85" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Rawlinson C.85</idno>
-            <altIdentifier>
-                <idno>SC 12145</idno>
             </altIdentifier>
         </msIdentifier>
     </msDesc>
@@ -6372,17 +6053,6 @@
             </altIdentifier>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BodRawPoe13" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Rawlinson poet. 13</idno>
-            <altIdentifier>
-                <idno>SC 14506</idno>
-            </altIdentifier>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BodRawPoe14" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -6808,17 +6478,6 @@
             </altIdentifier>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BodTan383" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Tanner 383</idno>
-            <altIdentifier>
-                <idno>SC 10210</idno>
-            </altIdentifier>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BodTan407" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -6841,17 +6500,6 @@
         </msIdentifier>
         <head>Bede, Tomus Tercius, 1521</head>
     </msDesc>
-    <msDesc xml:id="BodWoodB15" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Wood B.15</idno>
-            <altIdentifier>
-                <idno>SC 8586</idno>
-            </altIdentifier>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BodWoodD8" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -6866,17 +6514,6 @@
             <settlement>Oxford</settlement>
             <repository>Bodleian Library</repository>
             <idno>Wood D.18</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BodWoodE1" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Wood E.1</idno>
-            <altIdentifier>
-                <idno>SC 8505</idno>
-            </altIdentifier>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="BodWoodEmpt18" type="manuscript">
@@ -7069,17 +6706,6 @@
                 </bibl>
             </surrogates>
         </additional>
-    </msDesc>
-    <msDesc xml:id="OxBal695h6" type="printed">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Balliol College</repository>
-            <idno>695 h 6</idno>
-            <altIdentifier type="former">
-                <idno>575.g.6</idno>
-            </altIdentifier>
-        </msIdentifier>
     </msDesc>
     <msDesc xml:id="OxfBras9" type="manuscript">
         <msIdentifier>
@@ -7745,14 +7371,6 @@
             <settlement>Oxford</settlement>
             <repository>Queen's College</repository>
             <idno>383</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="OxfQueens389" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Queen's College</repository>
-            <idno>389</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="OxfQueens389B" type="manuscript">
@@ -8427,14 +8045,6 @@
         </msIdentifier>
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> 1.66 (<place country="England" county="Norfolk">Norfolk</place>).</lang>
-    </msDesc>
-    <msDesc xml:id="CULAdd4407e" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Cambridge</settlement>
-            <repository>Cambridge University Library</repository>
-            <idno>Addit. 4407 (27)</idno>
-        </msIdentifier>
     </msDesc>
     <msDesc xml:id="CULAdd4544" type="manuscript">
         <msIdentifier>
@@ -9374,26 +8984,6 @@
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://www.repository.cam.ac.uk/handle/1810/320613"/>
-                </bibl>
-            </listBibl>
-        </additional>
-    </msDesc>
-    <msDesc xml:id="CULFf127" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Cambridge</settlement>
-            <repository>Cambridge University Library</repository>
-            <idno>Ff.1.27</idno>
-        </msIdentifier>
-        <additional>
-            <surrogates>
-                <bibl>
-                    <ref target="https://cudl.lib.cam.ac.uk/view/MS-FF-00001-00027/1"/>
-                </bibl>
-            </surrogates>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://www.repository.cam.ac.uk/handle/1810/320625"/>
                 </bibl>
             </listBibl>
         </additional>
@@ -10933,21 +10523,6 @@
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://archive.org/details/adescriptivecat12librgoog/page/n18/mode/2up"/>
-                </bibl>
-            </listBibl>
-        </additional>
-    </msDesc>
-    <msDesc xml:id="CamClare7" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Cambridge</settlement>
-            <repository>Clare College</repository>
-            <idno>7</idno>
-        </msIdentifier>
-        <additional>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://archive.org/details/adescriptivecat12librgoog/page/n26/mode/2up"/>
                 </bibl>
             </listBibl>
         </additional>
@@ -13157,15 +12732,6 @@
             <idno>Pepys 2833</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="CamMagPepEx" type="printed">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Cambridge</settlement>
-            <repository>Magdalene College</repository>
-            <idno>Pepys, Example of Virtue</idno>
-        </msIdentifier>
-        <head>STC 12945</head>
-    </msDesc>
     <msDesc xml:id="CamMagPep1254" type="printed">
         <msIdentifier>
             <country>UK</country>
@@ -13432,14 +12998,6 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="CamPem312" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Cambridge</settlement>
-            <repository>Pembroke College</repository>
-            <idno>312</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="CamPem312C6" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -13450,16 +13008,6 @@
         <head>Piers Plowman (fragment)</head>
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> 1.64 (<place country="England" county="East Anglia">East Anglian</place>).</lang>
-    </msDesc>
-    <msDesc xml:id="CamPem313" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Cambridge</settlement>
-            <repository>Pembroke College</repository>
-            <idno>313</idno>
-        </msIdentifier>
-        <lang>
-            <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> 1.64 (<place country="England" county="Lincolnshire">Lincs</place> or <place country="England" county="Norfolk">Norfolk</place>).</lang>
     </msDesc>
     <msDesc xml:id="CamPem314" type="manuscript">
         <msIdentifier>
@@ -13770,21 +13318,6 @@
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://archive.org/details/descriptivecata00stjo/page/18/mode/2up"/>
-                </bibl>
-            </listBibl>
-        </additional>
-    </msDesc>
-    <msDesc xml:id="CamStJohn25" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Cambridge</settlement>
-            <repository>St John's College</repository>
-            <idno>B.3 (25)</idno>
-        </msIdentifier>
-        <additional>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://archive.org/details/descriptivecata00stjo/page/34/mode/2up"/>
                 </bibl>
             </listBibl>
         </additional>
@@ -14817,26 +14350,6 @@
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://mss-cat.trin.cam.ac.uk/Manuscript/O.5.8"/>
-                </bibl>
-            </listBibl>
-        </additional>
-    </msDesc>
-    <msDesc xml:id="CamTCCB1631" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Cambridge</settlement>
-            <repository>Trinity College</repository>
-            <idno>B.16.31 (394)</idno>
-        </msIdentifier>
-        <additional>
-            <surrogates>
-                <bibl>
-                    <ref target="https://mss-cat.trin.cam.ac.uk/Manuscript/B.16.31/UV"/>
-                </bibl>
-            </surrogates>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://mss-cat.trin.cam.ac.uk/Manuscript/B.16.31"/>
                 </bibl>
             </listBibl>
         </additional>
@@ -16107,15 +15620,6 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="CamTCCfrag" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Cambridge</settlement>
-            <repository>Trinity College</repository>
-            <idno>uncatalogued</idno>
-        </msIdentifier>
-        <head>binding fragments</head>
-    </msDesc>
     <msDesc xml:id="CamTCCVI182" type="printed">
         <msIdentifier>
             <country>UK</country>
@@ -16168,14 +15672,6 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="BLAdd113" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Addit. 113</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BLC15C7" type="printed">
         <msIdentifier>
             <country>UK</country>
@@ -16184,14 +15680,6 @@
             <idno>Printed Book C.15.C.7</idno>
         </msIdentifier>
         <head>Caxton, Golden Legend (STC 24877)</head>
-    </msDesc>
-    <msDesc xml:id="BLAdd2283" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Addit. 2283</idno>
-        </msIdentifier>
     </msDesc>
     <msDesc xml:id="BLAdd4900" type="manuscript">
         <msIdentifier>
@@ -16641,14 +16129,6 @@
             <settlement>London</settlement>
             <repository>British Library</repository>
             <idno>Addit. 17013</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BLAdd17102" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Addit. 17102</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="BLAdd17376" type="manuscript">
@@ -17121,14 +16601,6 @@
             <settlement>London</settlement>
             <repository>British Library</repository>
             <idno>Addit. 27924</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BLAdd27929" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Addit. 27929</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="BLAdd27944" type="manuscript">
@@ -17627,14 +17099,6 @@
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 465 (<place country="England" county="Northern">NME</place>).</lang>
     </msDesc>
-    <msDesc xml:id="BLAdd38178" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Addit. 38178</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BLAdd38179" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -17667,14 +17131,6 @@
             <settlement>London</settlement>
             <repository>British Library</repository>
             <idno>Addit. 38690</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BLAdd39196" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Addit. 39196</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="BLAdd39547" type="manuscript">
@@ -17738,14 +17194,6 @@
             <settlement>London</settlement>
             <repository>British Library</repository>
             <idno>Addit. 40166 C3</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BLAdd40166c6" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Addit. 40166 C6</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="BLAdd40673" type="manuscript">
@@ -17880,14 +17328,6 @@
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 7410; <langGrid>Grid 353 245</langGrid> (<place country="England" county="Herefordshire">Herefords</place>).</lang>
     </msDesc>
-    <msDesc xml:id="BLAdd47663" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Addit. 47663 M</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BLAdd47682" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -17920,17 +17360,6 @@
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 5300; <langGrid>Grid 384 159</langGrid> (<place country="England" county="Wiltshire">Wilts</place>).</lang>
     </msDesc>
-    <msDesc xml:id="BLAdd57335" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Addit. 57335</idno>
-        </msIdentifier>
-        <history>
-            <provenance>Sotheby's Sale Cat. 14 June 1971, lot 1524</provenance>
-        </history>
-    </msDesc>
     <msDesc xml:id="BLAdd59495" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -17960,22 +17389,6 @@
         </msIdentifier>
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> 1.103 (<place country="England" county="Hampshire">Hants</place>).</lang>
-    </msDesc>
-    <msDesc xml:id="BLAdd61901" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Addit. 61901</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BLAdd62998" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Addit. 62998</idno>
-        </msIdentifier>
     </msDesc>
     <msDesc xml:id="BLAddCh5960" type="manuscript">
         <msIdentifier>
@@ -18249,14 +17662,6 @@
             <altIdentifier type="former">
                 <idno>Ashburnham 27</idno>
             </altIdentifier>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BLCottAppVI" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Cotton App. VI</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="BLCottAppVII" type="manuscript">
@@ -18928,14 +18333,6 @@
             <idno>Cotton Vespasian A.XII</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BLCottVesAXVI" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Cotton Vespasian A.XVI</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BLCottVesAXXV" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -18961,16 +18358,6 @@
         </msIdentifier>
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 4686; <langGrid>Grid 415 255</langGrid> (<place country="England" county="Warwickshire">Warwicks</place>).</lang>
-    </msDesc>
-    <msDesc xml:id="BLCottVesDVII" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Cotton Vespasian D.VII</idno>
-        </msIdentifier>
-        <lang>
-            <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 364; <langGrid>Grid 383 463</langGrid> (<place country="England" county="Yorkshire, West Riding">WRY</place>).</lang>
     </msDesc>
     <msDesc xml:id="BLCottVesDVIII" type="manuscript">
         <msIdentifier>
@@ -19162,14 +18549,6 @@
         </msIdentifier>
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 210; <langGrid>Grid 495 415</langGrid> (<place country="England" county="Lincolnshire">Lincs</place>).</lang>
-    </msDesc>
-    <msDesc xml:id="BLEge665" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Egerton 665</idno>
-        </msIdentifier>
     </msDesc>
     <msDesc xml:id="BLEge833" type="manuscript">
         <msIdentifier>
@@ -19453,22 +18832,6 @@
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 13; <langGrid>Grid 410 556</langGrid> (<place country="England" county="Durham">Durham</place>).</lang>
     </msDesc>
-    <msDesc xml:id="BLEge3425" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Egerton 3425</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BLEge3537" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Egerton 3537</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BLGre35" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -19499,14 +18862,6 @@
             <settlement>London</settlement>
             <repository>British Library</repository>
             <idno>Harley 45</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BLHar51" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Harley 51</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="BLHar63" type="manuscript">
@@ -19557,14 +18912,6 @@
             <settlement>London</settlement>
             <repository>British Library</repository>
             <idno>Harley 153</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BLHar165" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Harley 165</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="BLHar172" type="manuscript">
@@ -19774,14 +19121,6 @@
             <idno>Harley 494</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BLHar505" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Harley 505</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BLHar525" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -19798,14 +19137,6 @@
                 </bibl>
             </surrogates>
         </additional>
-    </msDesc>
-    <msDesc xml:id="BLHar533" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Harley 533</idno>
-        </msIdentifier>
     </msDesc>
     <msDesc xml:id="BLHar536" type="manuscript">
         <msIdentifier>
@@ -19919,16 +19250,6 @@
             <repository>British Library</repository>
             <idno>Harley 667</idno>
         </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BLHar671" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Harley 671</idno>
-        </msIdentifier>
-        <lang>
-            <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> 1.110 (<place country="England" county="Lincolnshire">Lincs</place>).</lang>
     </msDesc>
     <msDesc xml:id="BLHar682" type="manuscript">
         <msIdentifier>
@@ -20398,14 +19719,6 @@
             <settlement>London</settlement>
             <repository>British Library</repository>
             <idno>Harley 1944</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BLHar1948" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Harley 1948</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="BLHar2013" type="manuscript">
@@ -21015,14 +20328,6 @@
         </msIdentifier>
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> 1.112 (<place country="England" county="Isle of Ely">Ely</place>).</lang>
-    </msDesc>
-    <msDesc xml:id="BLHar3376" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Harley 3376</idno>
-        </msIdentifier>
     </msDesc>
     <msDesc xml:id="BLHar3383" type="manuscript">
         <msIdentifier>
@@ -21920,14 +21225,6 @@
             </surrogates>
         </additional>
     </msDesc>
-    <msDesc xml:id="BLLan763" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Lansdowne 763</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BLLan793" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -21960,14 +21257,6 @@
             <settlement>London</settlement>
             <repository>British Library</repository>
             <idno>Lansdowne 1176</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BLLoaPor29" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Loan 29/333 (Portland)</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="BLRoy2Bx" type="manuscript">
@@ -22077,14 +21366,6 @@
             <settlement>London</settlement>
             <repository>British Library</repository>
             <idno>Royal 7 C.I</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BLRoy7Civ" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Royal 7 C.IV</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="BLRoy7Cix" type="manuscript">
@@ -22586,14 +21867,6 @@
             <idno>Royal 18 A.X</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BLRoy18Axii" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Royal 18 A.XII</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BLRoy18Axiii" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -23019,14 +22292,6 @@
             <idno>Sloane 686</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BLSl723" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Sloane 692</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BLSl1723" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -23367,14 +22632,6 @@
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 186; <langGrid>Grid 398 374</langGrid> (<place country="England" county="Cheshire">Cheshire</place>: ff. 150-183).</lang>
     </msDesc>
-    <msDesc xml:id="BLSl2352" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Sloane 2352</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BLSl2452" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -23415,14 +22672,6 @@
             <settlement>London</settlement>
             <repository>British Library</repository>
             <idno>Sloane 2532</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BLSl2577" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Sloane 2577</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="BLSl2578" type="manuscript">
@@ -23622,14 +22871,6 @@
             <idno>Stowe 69</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BLSto95" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Stowe 95</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BLSto393" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -23708,14 +22949,6 @@
             <idno>Stowe 982</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BLSto1055" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Stowe 1055</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BLYT13" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -23768,23 +23001,6 @@
         </msIdentifier>
         <head>IB.55041, IB.55040</head>
     </msDesc>
-    <msDesc xml:id="BLC39" type="printed">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Printed Book C.39.e.1</idno>
-        </msIdentifier>
-        <head>STC 22593</head>
-    </msDesc>
-    <msDesc xml:id="BLC39b17" type="printed">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Printed Book C.39.b.17</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BLIA3420" type="printed">
         <msIdentifier>
             <country>UK</country>
@@ -23809,15 +23025,6 @@
             <repository>British Library</repository>
             <idno>Printed Book 1379.a2(7)</idno>
         </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BLHuth32" type="printed">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Printed Book Huth 32</idno>
-        </msIdentifier>
-        <head>STC 106065</head>
     </msDesc>
     <msDesc xml:id="AbeSeis2" type="manuscript">
         <msIdentifier>
@@ -23914,21 +23121,6 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="NLW258" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Aberystwyth</settlement>
-            <repository>National Library of Wales</repository>
-            <idno>258</idno>
-        </msIdentifier>
-        <additional>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://discover.library.wales/permalink/44WHELF_NLW/6kpfmq/alma992146887302419"/>
-                </bibl>
-            </listBibl>
-        </additional>
-    </msDesc>
     <msDesc xml:id="NLW441C" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -24021,14 +23213,6 @@
                 </bibl>
             </listBibl>
         </additional>
-    </msDesc>
-    <msDesc xml:id="NLW21242" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Aberystwyth</settlement>
-            <repository>National Library of Wales</repository>
-            <idno>21242</idno>
-        </msIdentifier>
     </msDesc>
     <msDesc xml:id="NLW21608" type="manuscript">
         <msIdentifier>
@@ -24411,32 +23595,6 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="NLWPen393" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Aberystwyth</settlement>
-            <repository>National Library of Wales</repository>
-            <idno>Peniarth 393</idno>
-            <altIdentifier type="former">
-                <idno>Hengwrt 328</idno>
-            </altIdentifier>
-        </msIdentifier>
-        <lang>
-            <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> (part of)
-            LP 6400; <langGrid>Grid 532 183</langGrid> (<place town="London" country="England">London</place>).</lang>
-        <additional>
-            <surrogates>
-                <bibl>
-                    <ref target="https://viewer.library.wales/4398051"/>
-                </bibl>
-            </surrogates>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://discover.library.wales/permalink/44WHELF_NLW/6kpfmq/alma992161706002419"/>
-                </bibl>
-            </listBibl>
-        </additional>
-    </msDesc>
     <msDesc xml:id="NLWPen394" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -24639,14 +23797,6 @@
             <idno>Arundel-Harrington</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="ArunPrick" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Arundel Castle</settlement>
-            <repository>Duke of Norfolk</repository>
-        </msIdentifier>
-        <head>Prick of Conscience</head>
-    </msDesc>
     <msDesc xml:id="ArunLives" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -24662,24 +23812,6 @@
             <repository>Duke of Beaufort</repository>
             <idno>704.1.16</idno>
         </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BeeleighMirrour" type="manuscript">
-        <msIdentifier>
-            <country>unknown</country>
-            <settlement>unknown</settlement>
-            <repository>unknown</repository>
-            <altIdentifier type="former">
-                <idno>Huth</idno>
-            </altIdentifier>
-            <altIdentifier type="former">
-                <idno>Beeleigh Abbey (Christina Foyle)</idno>
-            </altIdentifier>
-        </msIdentifier>
-        <history>
-            <provenance>sold Christie's June 2000</provenance>
-        </history>
-        <lang>
-            <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> LP 6250; <langGrid>Grid 567 208</langGrid> (<place country="England" county="Essex">Essex</place>).</lang>
     </msDesc>
     <msDesc xml:id="BeeleighRolle" type="manuscript">
         <msIdentifier>
@@ -24723,14 +23855,6 @@
         </msIdentifier>
         <head>Fall of Princes</head>
     </msDesc>
-    <msDesc xml:id="Beverley" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Beverly, East Yorkshire</settlement>
-            <repository>Humberside County Record Office</repository>
-            <idno>DDHE 30, vol. 1, Section B</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="Blackburn" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -24762,14 +23886,6 @@
                 </bibl>
             </listBibl>
         </additional>
-    </msDesc>
-    <msDesc xml:id="BrechinWintoun" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Brechin Castle</settlement>
-            <repository>Earl of Dalhousie</repository>
-        </msIdentifier>
-        <head>Wintoun's Chronicle</head>
     </msDesc>
     <msDesc xml:id="BrechinSTC3215" type="printed">
         <msIdentifier>
@@ -24809,29 +23925,6 @@
                 </bibl>
             </listBibl>
         </additional>
-    </msDesc>
-    <msDesc xml:id="ButeConf" type="manuscript">
-        <msIdentifier>
-            <country>unknown</country>
-            <settlement>unknown</settlement>
-            <repository>Private collection</repository>
-            <altIdentifier type="former">
-                <idno>Marquess of Bute</idno>
-            </altIdentifier>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="Buteolim" type="manuscript">
-        <msIdentifier>
-            <country>unknown</country>
-            <settlement>unknown</settlement>
-            <repository>Private collection</repository>
-            <altIdentifier type="former">
-                <idno>Marquess of Bute</idno>
-            </altIdentifier>
-        </msIdentifier>
-        <history>
-            <provenance>Christie's Sale 13 June 1983</provenance>
-        </history>
     </msDesc>
     <msDesc xml:id="CantAdd68" type="manuscript">
         <msIdentifier>
@@ -25570,14 +24663,6 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="ESROGD112" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Edinburgh</settlement>
-            <repository>Scottish Record Office</repository>
-            <idno>GD 112/71/9</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="ESRORH13" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -25832,24 +24917,6 @@
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://archives.collections.ed.ac.uk/repositories/2/archival_objects/16179"/>
-                </bibl>
-            </listBibl>
-        </additional>
-    </msDesc>
-    <msDesc xml:id="EDULaiii514" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Edinburgh</settlement>
-            <repository>Edinburgh University Library</repository>
-            <idno>La.III.514</idno>
-            <altIdentifier type="former">
-                <idno>Laing 514</idno>
-            </altIdentifier>
-        </msIdentifier>
-        <additional>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://archives.collections.ed.ac.uk/repositories/2/archival_objects/16243"/>
                 </bibl>
             </listBibl>
         </additional>
@@ -26347,26 +25414,6 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="NLS3517" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Edinburgh</settlement>
-            <repository>National Library of Scotland</repository>
-            <idno>Advocates 35.1.7</idno>
-        </msIdentifier>
-        <additional>
-            <surrogates>
-                <bibl>
-                    <ref target="https://digital.nls.uk/early-manuscripts/browse/archive/217342500"/>
-                </bibl>
-            </surrogates>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://manuscripts.nls.uk/repositories/2/resources/16247"/>
-                </bibl>
-            </listBibl>
-        </additional>
-    </msDesc>
     <msDesc xml:id="NLS72127" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -26627,21 +25674,6 @@
         <history>
             <provenance>sold Keen, 1948</provenance>
         </history>
-    </msDesc>
-    <msDesc xml:id="GULFerg102" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Glasgow</settlement>
-            <repository>Glasgow University Library</repository>
-            <idno>Ferguson 102</idno>
-        </msIdentifier>
-        <additional>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://www.gla.ac.uk/collections/#/details?irn=265714&amp;catType=C&amp;gdcEvent=hierarchy_item_view"/>
-                </bibl>
-            </listBibl>
-        </additional>
     </msDesc>
     <msDesc xml:id="GULFerg147" type="manuscript">
         <msIdentifier>
@@ -27024,21 +26056,6 @@
             <idno>36</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="GlouPLPynson" type="printed">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Gloucester</settlement>
-            <repository>Gloucester Public Library</repository>
-        </msIdentifier>
-        <head>Dyuerse My[racles whi]che God hath shewed for the [Portion] of his precyous Blod in Hay[les], Pynson, ca. 1515 (STC 12973.5)</head>
-        <additional>
-            <adminInfo>
-                <custodialHist>
-                    <custEvent type="deposit">Deposit</custEvent>
-                </custodialHist>
-            </adminInfo>
-        </additional>
-    </msDesc>
     <msDesc xml:id="Gorhambury" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -27046,16 +26063,6 @@
             <repository>Earl of Verulam</repository>
             <idno>Orosius manuscript</idno>
         </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="Graham" type="manuscript">
-        <msIdentifier>
-            <country>unknown</country>
-            <settlement>unknown</settlement>
-            <repository>Graham (Private owner)</repository>
-        </msIdentifier>
-        <history>
-            <provenance>sold Sotheby's 12 Dec. 1966, lot 215; 10 July 1972, lot 22</provenance>
-        </history>
     </msDesc>
     <msDesc xml:id="HatCFEPS1" type="manuscript">
         <msIdentifier>
@@ -27085,14 +26092,6 @@
                 <note type="editorial">Shelfmark might be 281?</note>
             </adminInfo>
         </additional>
-    </msDesc>
-    <msDesc xml:id="HatCP297" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Hatfield House</settlement>
-            <repository>Marquess of Salisbury</repository>
-            <idno>C.P. 297</idno>
-        </msIdentifier>
     </msDesc>
     <msDesc xml:id="HelminghamLJii2" type="manuscript">
         <msIdentifier>
@@ -27303,26 +26302,6 @@
             </adminInfo>
         </additional>
     </msDesc>
-    <msDesc xml:id="LeedsBro10" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Leeds</settlement>
-            <repository>Leeds University Library</repository>
-            <idno>Brotherton 10</idno>
-        </msIdentifier>
-        <additional>
-            <surrogates>
-                <bibl>
-                    <ref target="https://explore.library.leeds.ac.uk/special-collections-explore/372692"/>
-                </bibl>
-            </surrogates>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://explore.library.leeds.ac.uk/special-collections-explore/372692"/>
-                </bibl>
-            </listBibl>
-        </additional>
-    </msDesc>
     <msDesc xml:id="LeedsBro500" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -27459,26 +26438,6 @@
                     <custEvent type="deposit">Deposit from Ripon Minster</custEvent>
                 </custodialHist>
             </adminInfo>
-        </additional>
-    </msDesc>
-    <msDesc xml:id="LeedsAppleby" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Leeds</settlement>
-            <repository>Yorkshire Archaeological Society</repository>
-            <idno>DD 121/109</idno>
-        </msIdentifier>
-        <additional>
-            <adminInfo>
-                <custodialHist>
-                    <custEvent type="deposit">Deposit from Appleby Castle</custEvent>
-                </custodialHist>
-            </adminInfo>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://explore.library.leeds.ac.uk/special-collections-explore/444474"/>
-                </bibl>
-            </listBibl>
         </additional>
     </msDesc>
     <msDesc xml:id="Leicester4" type="manuscript">
@@ -27928,14 +26887,6 @@
             <idno>Arundel 27</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="CollArmsAr41" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>College of Arms</repository>
-            <idno>Arundel 41</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="CollArmsAr45" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -27991,22 +26942,6 @@
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> 1.117 ('MS associated with <place town="Adlingfleet">Adlingfleet</place>, nr. Goole. <place country="England" county="Yorkshire, West Riding">WRY</place>).</lang>
     </msDesc>
-    <msDesc xml:id="CollArmsAr127" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>College of Arms</repository>
-            <idno>Arundel 127</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="CollArmsI7" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>College of Arms</repository>
-            <idno>I.7</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="CollArms316" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -28031,22 +26966,6 @@
             <idno>Vincent 25</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="CollArmsR25" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>College of Arms</repository>
-            <idno>R. 25</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="Guildhall3035" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>Corporation of London Records Office [formerly Guildhall]</repository>
-            <idno>3035</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="Guildhall3313" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -28061,14 +26980,6 @@
             <settlement>London</settlement>
             <repository>Corporation of London Records Office [formerly Guildhall]</repository>
             <idno>25125/32</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="GuildhallChron" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>Corporation of London Records Office [formerly Guildhall]</repository>
-            <idno>Great Chronicle</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="GuildhallHorn" type="manuscript">
@@ -28601,14 +27512,6 @@
             <idno>2 (107e)</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="LincInnH74" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>Lincoln's Inn</repository>
-            <idno>Hale 74</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="LincInnH84" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -28668,27 +27571,6 @@
             <altIdentifier type="former">
                 <idno>Class V, 46; or Misc. 46</idno>
             </altIdentifier>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="QuaritchHop" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>Quaritch (private collection)</repository>
-            <altIdentifier type="former">
-                <idno>Hopton Hall</idno>
-            </altIdentifier>
-        </msIdentifier>
-        <history>
-            <provenance>Sotheby's, Dec. 1989</provenance>
-        </history>
-    </msDesc>
-    <msDesc xml:id="PROTreasB28" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London (Kew)</settlement>
-            <repository>The National Archives</repository>
-            <idno>Treas. Receipt of Exchequer, B.2.8</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="PROC473415" type="manuscript">
@@ -28776,14 +27658,6 @@
             <idno>E 163/22/2/57</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="PROE163222" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London (Kew)</settlement>
-            <repository>The National Archives</repository>
-            <idno>E 163/22/2</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="PROExcheq" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -28855,14 +27729,6 @@
             <settlement>London (Kew)</settlement>
             <repository>The National Archives</repository>
             <idno>State Papers Henry VIII</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="PROHenVIIISP1232" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London (Kew)</settlement>
-            <repository>The National Archives</repository>
-            <idno>State Papers Henry VIII, SP1 232</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="LonPhys388" type="manuscript">
@@ -29320,14 +28186,6 @@
         <lang>
             <bibl key="LAEME">LAEME</bibl> Index # 174 ('text language not place [sic
             — too little to go on').</lang>
-    </msDesc>
-    <msDesc xml:id="WestmDiocH38" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>Westminster Diocesan Archives</repository>
-            <idno>H.38</idno>
-        </msIdentifier>
     </msDesc>
     <msDesc xml:id="WestmSch3" type="manuscript">
         <msIdentifier>
@@ -29852,14 +28710,6 @@
         <lang>
             <bibl key="LALME">LALME</bibl> and <bibl key="eLALME">eLALME</bibl> 1.139 (<place country="England" county="Northumberland">Northumberland</place>; <place country="England" county="Yorkshire, East Riding">ERY</place>).</lang>
     </msDesc>
-    <msDesc xml:id="Newcas259" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Newcastle</settlement>
-            <repository>Newcastle University Library</repository>
-            <idno>Sandesken 259</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="Northantsrobru" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -30021,17 +28871,6 @@
         </msIdentifier>
         <history>
             <provenance>sold 23 Apr. 1928, lot 7</provenance>
-        </history>
-    </msDesc>
-    <msDesc xml:id="Petworth103" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Petworth, West Sussex</settlement>
-            <repository>Petworth House and Park (National Trust)</repository>
-            <idno>103</idno>
-        </msIdentifier>
-        <history>
-            <provenance>sold 23 Apr. 1928</provenance>
         </history>
     </msDesc>
     <msDesc xml:id="Petworth99" type="manuscript">
@@ -30314,14 +29153,6 @@
             <settlement>Ushaw</settlement>
             <repository>St Cuthbert's College</repository>
             <idno>50</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="Warwicks" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Warwickshire</settlement>
-            <repository>Warwickshire Record Office</repository>
-            <idno>Z 155[L]</idno>
         </msIdentifier>
     </msDesc>
     <msDesc xml:id="Wells2" type="manuscript">
@@ -30781,7 +29612,7 @@
                 <idno>Phillipps 6750</idno>
             </altIdentifier>
         </msIdentifier>
-        <lang>The spellings are similar to those of <mss key="NLWPen393"/> and <mss key="HunEL26C9"/> with some additional evidence of the influence of Type IV <place country="England" town="London">London</place> English (see <bibl key="Mosser2010"/>)</lang>
+        <lang>The spellings are similar to those of Aberystwyth, National Library of Wales, MS Peniarth 393 and <mss key="HunEL26C9"/> with some additional evidence of the influence of Type IV <place country="England" town="London">London</place> English (see <bibl key="Mosser2010"/>)</lang>
         <additional>
             <surrogates>
                 <bibl>
@@ -31058,24 +29889,6 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="HarEng532" type="manuscript">
-        <msIdentifier>
-            <country>USA</country>
-            <settlement>Cambridge, MA</settlement>
-            <repository>Harvard University, Houghton Library</repository>
-            <idno>Eng. 532F</idno>
-        </msIdentifier>
-        <additional>
-            <adminInfo>
-                <note type="editorial">Nineteenth-century</note>
-            </adminInfo>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://id.lib.harvard.edu/alma/990097563300203941/catalog"/>
-                </bibl>
-            </listBibl>
-        </additional>
-    </msDesc>
     <msDesc xml:id="HarEng587" type="manuscript">
         <msIdentifier>
             <country>USA</country>
@@ -31092,26 +29905,6 @@
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://id.lib.harvard.edu/alma/990097400150203941/catalog"/>
-                </bibl>
-            </listBibl>
-        </additional>
-    </msDesc>
-    <msDesc xml:id="HarEng590" type="manuscript">
-        <msIdentifier>
-            <country>USA</country>
-            <settlement>Cambridge, MA</settlement>
-            <repository>Harvard University, Houghton Library</repository>
-            <idno>Eng. 590</idno>
-        </msIdentifier>
-        <additional>
-            <surrogates>
-                <bibl>
-                    <ref target="https://iiif.lib.harvard.edu/manifests/view/drs:7271430$1i"/>
-                </bibl>
-            </surrogates>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://id.lib.harvard.edu/alma/990097391550203941/catalog"/>
                 </bibl>
             </listBibl>
         </additional>
@@ -33418,13 +32211,6 @@
             </surrogates>
         </additional>
     </msDesc>
-    <msDesc xml:id="Edelstein" type="manuscript">
-        <msIdentifier>
-            <country>USA</country>
-            <settlement>New York, NY</settlement>
-            <repository>Sidney M. Edelstein (private collection)</repository>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="PhilFree304" type="manuscript">
         <msIdentifier>
             <country>USA</country>
@@ -34291,26 +33077,6 @@
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://catalog.princeton.edu/catalog/9933152473506421"/>
-                </bibl>
-            </listBibl>
-        </additional>
-    </msDesc>
-    <msDesc xml:id="HunEL1160" type="manuscript">
-        <msIdentifier>
-            <country>USA</country>
-            <settlement>San Marino, CA</settlement>
-            <repository>Huntington Library</repository>
-            <idno>EL 1160</idno>
-        </msIdentifier>
-        <additional>
-            <surrogates>
-                <bibl>
-                    <ref target="https://cdm16003.contentdm.oclc.org/digital/collection/p15150coll7/id/49307"/>
-                </bibl>
-            </surrogates>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://catalog.huntington.org/record=b1862043?_gl=1*172zjqu*_ga*MTEzMjYwMDM1MS4xNzY3MDQwNDg1*_ga_1BGEDHGTJ6*czE3NjcwNDA0ODUkbzEkZzEkdDE3NjcwNDQzMjUkajYwJGwwJGgw*_ga_K3S8LP16FY*czE3NjcwNDA0ODUkbzEkZzEkdDE3NjcwNDQzMjUkajYwJGwwJGgw"/>
                 </bibl>
             </listBibl>
         </additional>
@@ -35299,26 +34065,6 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="HunHM901" type="manuscript">
-        <msIdentifier>
-            <country>USA</country>
-            <settlement>San Marino, CA</settlement>
-            <repository>Huntington Library</repository>
-            <idno>HM 901</idno>
-        </msIdentifier>
-        <additional>
-            <surrogates>
-                <bibl>
-                    <ref target="https://cdm16003.contentdm.oclc.org/digital/collection/p15150coll7/id/52687"/>
-                </bibl>
-            </surrogates>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://catalog.huntington.org/record=b1862133?_gl=1*6jacdr*_ga*MTEzMjYwMDM1MS4xNzY3MDQwNDg1*_ga_1BGEDHGTJ6*czE3NjcwNDA0ODUkbzEkZzEkdDE3NjcwNDA4OTYkajYwJGwwJGgw*_ga_K3S8LP16FY*czE3NjcwNDA0ODUkbzEkZzEkdDE3NjcwNDA4OTYkajYwJGwwJGgw"/>
-                </bibl>
-            </listBibl>
-        </additional>
-    </msDesc>
     <msDesc xml:id="HunHM903" type="manuscript">
         <msIdentifier>
             <country>USA</country>
@@ -35596,22 +34342,6 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="HunRB14195" type="printed">
-        <msIdentifier>
-            <country>USA</country>
-            <settlement>San Marino, CA</settlement>
-            <repository>Huntington Library</repository>
-            <idno>Rare Books 14195</idno>
-        </msIdentifier>
-        <head>STC 10606</head>
-        <additional>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://catalog.huntington.org/record=b1498345"/>
-                </bibl>
-            </listBibl>
-        </additional>
-    </msDesc>
     <msDesc xml:id="HunPB82241" type="printed">
         <msIdentifier>
             <country>USA</country>
@@ -35713,24 +34443,6 @@
         <history>
             <provenance>Sotheby Sale Oct. 15, 1945, lot 1951</provenance>
         </history>
-    </msDesc>
-    <msDesc xml:id="Folger11862" type="manuscript">
-        <msIdentifier>
-            <country>USA</country>
-            <settlement>Washington, DC</settlement>
-            <repository>Folger Shakespeare Library</repository>
-            <idno>1186.2</idno>
-            <altIdentifier>
-                <idno>V.b.135</idno>
-            </altIdentifier>
-        </msIdentifier>
-        <additional>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://catalog.folger.edu/record/234760?ln=en"/>
-                </bibl>
-            </listBibl>
-        </additional>
     </msDesc>
     <msDesc xml:id="Folger12323" type="manuscript">
         <msIdentifier>
@@ -36103,21 +34815,6 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="CopenRoy1748" type="manuscript">
-        <msIdentifier>
-            <country>Denmark</country>
-            <settlement>Copenhagen</settlement>
-            <repository>Kongelige Bibliotek</repository>
-            <idno>Gl. kgl. S. 1748</idno>
-        </msIdentifier>
-        <additional>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://soeg.kb.dk/permalink/45KBDK_KGL/1pioq0f/alma99122957794905763"/>
-                </bibl>
-            </listBibl>
-        </additional>
-    </msDesc>
     <msDesc xml:id="CopenRoy3500" type="manuscript">
         <msIdentifier>
             <country>Denmark</country>
@@ -36235,21 +34932,6 @@
             <repository>Bibliothèque universitaire</repository>
             <idno>204</idno>
         </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="Mazar469" type="manuscript">
-        <msIdentifier>
-            <country>France</country>
-            <settlement>Paris</settlement>
-            <repository>Bibliothèque Mazarine</repository>
-            <idno>469</idno>
-        </msIdentifier>
-        <additional>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://calames.abes.fr/pub/mazarine.aspx#details?id=MAZA11212"/>
-                </bibl>
-            </listBibl>
-        </additional>
     </msDesc>
     <msDesc xml:id="Mazar514" type="manuscript">
         <msIdentifier>
@@ -37630,14 +36312,6 @@
             <provenance>sold Christie's 28 June 1973, lot 48</provenance>
         </history>
     </msDesc>
-    <msDesc xml:id="Leningrad" type="manuscript">
-        <msIdentifier>
-            <country>Russia</country>
-            <settlement>Saint Petersburg</settlement>
-            <repository>Saltykov-Schedrin Library</repository>
-            <idno>O.v.XIV.1</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="EscorIVa24" type="manuscript">
         <msIdentifier>
             <country>Spain</country>
@@ -37652,26 +36326,6 @@
             <surrogates>
                 <bibl>
                     <ref target="https://rbme.patrimonionacional.es/s/rbme/item/15082"/>
-                </bibl>
-            </surrogates>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://rbme.patrimonionacional.es/s/rbme/item/15082"/>
-                </bibl>
-            </listBibl>
-        </additional>
-    </msDesc>
-    <msDesc xml:id="EscorGII19" type="manuscript">
-        <msIdentifier>
-            <country>Spain</country>
-            <settlement>Madrid</settlement>
-            <repository>Real Biblioteca del Monasterio de El Escorial</repository>
-            <idno>g-II-19</idno>
-        </msIdentifier>
-        <additional>
-            <surrogates>
-                <bibl>
-                    <ref target="https://rbme.patrimonionacional.es/s/rbme/item/13591"/>
                 </bibl>
             </surrogates>
             <listBibl type="catalogue">
@@ -37930,20 +36584,6 @@
             </adminInfo>
         </additional>
     </msDesc>
-    <msDesc xml:id="Gray" type="manuscript">
-        <msIdentifier>
-            <country>unknown</country>
-            <settlement>unknown</settlement>
-            <repository>unknown</repository>
-            <idno>unknown</idno>
-            <altIdentifier type="former">
-                <idno>T. Gray</idno>
-            </altIdentifier>
-        </msIdentifier>
-        <history>
-            <provenance>Maggs cat. 456, item 184</provenance>
-        </history>
-    </msDesc>
     <msDesc xml:id="Huth1911" type="manuscript">
         <msIdentifier>
             <country>unknown</country>
@@ -38018,19 +36658,6 @@
                 <idno>Phillipps 58</idno>
             </altIdentifier>
         </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="Phillipps1936" type="manuscript">
-        <msIdentifier>
-            <country>unknown</country>
-            <settlement>unknown</settlement>
-            <repository>unknown</repository>
-            <altIdentifier type="former">
-                <idno>Phillipps</idno>
-            </altIdentifier>
-        </msIdentifier>
-        <history>
-            <provenance>Sotheby's Sale Cat., 29 June 1936, Lot 105</provenance>
-        </history>
     </msDesc>
     <msDesc xml:id="BodRawFrag" type="manuscript">
         <msIdentifier>
@@ -38147,17 +36774,6 @@
         <history>
             <provenance>Tregaskis Sale Cat., 1919</provenance>
         </history>
-    </msDesc>
-    <msDesc xml:id="Witten5It47" type="manuscript">
-        <msIdentifier>
-            <country>unknown</country>
-            <settlement>unknown</settlement>
-            <repository>unknown</repository>
-            <altIdentifier type="former">
-                <idno>Laurence Witten, New Haven, Cat. 5, Item 47</idno>
-            </altIdentifier>
-        </msIdentifier>
-        <head>Latin psalter</head>
     </msDesc>
     <msDesc xml:id="IllumMis" type="manuscript">
         <msIdentifier>
@@ -38385,14 +37001,6 @@
             </adminInfo>
         </additional>
     </msDesc>
-    <msDesc xml:id="FinchHatton323" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Northampton</settlement>
-            <repository>Record Office</repository>
-            <idno>Finch Hatton MS 323</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="Goldschmidt50" type="manuscript">
         <msIdentifier>
             <country>unknown</country>
@@ -38577,25 +37185,6 @@
                 </bibl>
             </listBibl>
         </additional>
-    </msDesc>
-    <msDesc xml:id="PROLancA23" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>London, Public Record Office</repository>
-            <idno>Duchy of Lancaster Records A.23</idno>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="Peacock" type="manuscript">
-        <msIdentifier>
-            <country>unknown</country>
-            <settlement>unknown</settlement>
-            <repository>unknown</repository>
-            <altIdentifier type="former">
-                <idno>Edward Peacock</idno>
-            </altIdentifier>
-        </msIdentifier>
-        <head>Calendar, ca. 1400</head>
     </msDesc>
     <msDesc xml:id="StaffordRODW1734" type="manuscript">
         <msIdentifier>
@@ -38794,21 +37383,6 @@
             <repository>National Library of Wales</repository>
             <idno>Cwrtmawr 11</idno>
         </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="NLWLan5" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Aberystwyth</settlement>
-            <repository>National Library of Wales</repository>
-            <idno>Llanstephan 5</idno>
-        </msIdentifier>
-        <additional>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://discover.library.wales/permalink/44WHELF_NLW/6kpfmq/alma992107736602419"/>
-                </bibl>
-            </listBibl>
-        </additional>
     </msDesc>
     <msDesc xml:id="NLWLan19" type="manuscript">
         <msIdentifier>
@@ -39522,14 +38096,6 @@
             <idno>Addit. 26746</idno>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="BLAdd33785" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <idno>Addit. 33785</idno>
-        </msIdentifier>
-    </msDesc>
     <msDesc xml:id="BLAdd70514" type="manuscript">
         <msIdentifier>
             <country>UK</country>
@@ -40037,26 +38603,6 @@
             </listBibl>
         </additional>
     </msDesc>
-    <msDesc xml:id="TokyoTak18" type="manuscript">
-        <msIdentifier>
-            <country>USA</country>
-            <settlement>New Haven, CT</settlement>
-            <repository>Beinecke Library</repository>
-            <idno>Takamiya 18</idno>
-        </msIdentifier>
-        <additional>
-            <surrogates>
-                <bibl>
-                    <ref target="https://collections.library.yale.edu/catalog/16371211"/>
-                </bibl>
-            </surrogates>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://search.library.yale.edu/catalog/11735896"/>
-                </bibl>
-            </listBibl>
-        </additional>
-    </msDesc>
     <msDesc xml:id="TokyoTak22" type="manuscript">
         <msIdentifier>
             <country>USA</country>
@@ -40371,26 +38917,6 @@
             <listBibl type="catalogue">
                 <bibl>
                     <ref target="https://search.library.yale.edu/catalog/99117791063408651"/>
-                </bibl>
-            </listBibl>
-        </additional>
-    </msDesc>
-    <msDesc xml:id="TokyoTak56" type="manuscript">
-        <msIdentifier>
-            <country>USA</country>
-            <settlement>New Haven, CT</settlement>
-            <repository>Beinecke Library</repository>
-            <idno>Takamiya 56</idno>
-        </msIdentifier>
-        <additional>
-            <surrogates>
-                <bibl>
-                    <ref target="https://collections.library.yale.edu/catalog/16371232"/>
-                </bibl>
-            </surrogates>
-            <listBibl type="catalogue">
-                <bibl>
-                    <ref target="https://search.library.yale.edu/catalog/11778631"/>
                 </bibl>
             </listBibl>
         </additional>
@@ -40846,9 +39372,9 @@
             <country>UK</country>
             <settlement>Oxford</settlement>
             <repository>Bodleian Library</repository>
-            <idno>Eng. theol. e.18</idno>
+            <idno>Eng. th. e. 17-18</idno>
             <altIdentifier>
-                <idno>SC 32218</idno>
+                <idno>SC 32217, 32218</idno>
             </altIdentifier>
         </msIdentifier>
     </msDesc>
@@ -40879,17 +39405,6 @@
             <idno>Laud misc. 511</idno>
             <altIdentifier>
                 <idno>SC 969</idno>
-            </altIdentifier>
-        </msIdentifier>
-    </msDesc>
-    <msDesc xml:id="BodLauMis533" type="manuscript">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Laud misc. 533</idno>
-            <altIdentifier>
-                <idno>SC 1493</idno>
             </altIdentifier>
         </msIdentifier>
     </msDesc>
@@ -41057,16 +39572,6 @@
             </altIdentifier>
         </msIdentifier>
     </msDesc>
-    <msDesc xml:id="Witten198" type="manuscript">
-        <msIdentifier>
-            <country>unknown</country>
-            <settlement>unknown</settlement>
-            <repository>unknown</repository>
-        </msIdentifier>
-        <history>
-            <provenance>Quaritch Sale, 1931, item 82; Cat. 609, 1943, Lot 500; then Witten Cat., 1983, no. 22</provenance>
-        </history>
-    </msDesc>
     <msDesc xml:id="PriO1" type="manuscript">
         <msIdentifier>
             <country>unknown</country>
@@ -41079,21 +39584,6 @@
         <history>
             <provenance>Sotheby's, 10 Dec. 1962, lot 145] 1165</provenance>
         </history>
-    </msDesc>
-    <msDesc xml:id="PriO2" type="manuscript">
-        <msIdentifier>
-            <country>unknown</country>
-            <settlement>unknown</settlement>
-            <repository>Private collection</repository>
-        </msIdentifier>
-        <history>
-            <provenance>R. C. Pearson, Cambridge, Cat. 13, 1953, item 219</provenance>
-        </history>
-        <additional>
-            <adminInfo>
-                <note>Once part of Beinecke Osborn fa. 1</note>
-            </adminInfo>
-        </additional>
     </msDesc>
     <msDesc xml:id="PriO3" type="manuscript">
         <msIdentifier>
@@ -41114,19 +39604,6 @@
         </msIdentifier>
         <history>
             <provenance>Sotheby's, 9 Dec. 1963, lot 120</provenance>
-        </history>
-    </msDesc>
-    <msDesc xml:id="PriO5" type="manuscript">
-        <msIdentifier>
-            <country>unknown</country>
-            <settlement>unknown</settlement>
-            <repository>Private collection</repository>
-            <altIdentifier type="former">
-                <idno>Marquis of Bute</idno>
-            </altIdentifier>
-        </msIdentifier>
-        <history>
-            <provenance>Sotheby's, 13 June 1983, lot 10] 2662</provenance>
         </history>
     </msDesc>
     <msDesc xml:id="PriO6" type="manuscript">
@@ -41283,5 +39760,14 @@
         <history>
             <provenance>A. Rosenthal, Sale Catalog 5 (1944), no. 11.</provenance>
         </history>
+    </msDesc>
+    <msDesc xml:id="Barber" type="manuscript">
+        <msIdentifier>
+            <country>UK</country>
+            <settlement>Abingdon, Berkshire</settlement>
+            <repository>Christ's Hospital, Governor's Archives</repository>
+            <idno>Object 13</idno>
+        </msIdentifier>
+        <head>A parchment broadsheet affixed to stretched canvas</head>
     </msDesc>
 </listBibl>

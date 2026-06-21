@@ -109,14 +109,6 @@
         </msIdentifier>
         <head>Large bronze ewer of the household of Richard II</head>
     </msDesc>
-    <msDesc xml:id="StratfordGuild" type="architectural">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Stratford-on-Avon, Warwickshire</settlement>
-            <repository>Guild Chapel, Chapel Lane</repository>
-        </msIdentifier>
-        <head>Mural, west wall</head>
-    </msDesc>
     <msDesc xml:id="Landwade" type="graffito">
         <msIdentifier>
             <country>UK</country>
@@ -320,14 +312,6 @@
         </msIdentifier>
         <head>Finger ring</head>
     </msDesc>
-    <msDesc xml:id="Amys" type="monument">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Barton Turf, Norfolk</settlement>
-            <repository>Church of St Michael &amp; All Angels</repository>
-        </msIdentifier>
-        <head>Brass tomb of Thomas and Margery Amys (d. 1445), on floor of the south chapel, beside the chancel (south-east corner of church)</head>
-    </msDesc>
     <msDesc xml:id="CarlisleChoir" type="architectural">
         <msIdentifier>
             <country>UK</country>
@@ -465,14 +449,6 @@
                 </custodialHist>
             </adminInfo>
         </additional>
-    </msDesc>
-    <msDesc xml:id="CarlislePriorsTower" type="architectural">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Carlisle, Cumbria</settlement>
-            <repository>Carlisle Cathedral</repository>
-        </msIdentifier>
-        <head>Prior's Tower, ceiling beams</head>
     </msDesc>
     <msDesc xml:id="Fortey" type="monument">
         <msIdentifier>
@@ -966,15 +942,6 @@
             <repository>Church of SS Peter and Paul</repository>
         </msIdentifier>
         <head>Brass tomb of John Brigge (d. 1454)</head>
-    </msDesc>
-    <msDesc xml:id="Barber" type="object">
-        <msIdentifier>
-            <country>UK</country>
-            <settlement>Abingdon, Berkshire</settlement>
-            <repository>Christ's Hospital, Governor's Archives</repository>
-            <idno>Object 13</idno>
-        </msIdentifier>
-        <head>A parchment broadsheet affixed to stretched canvas</head>
     </msDesc>
     <msDesc xml:id="Payne" type="monument">
         <msIdentifier>

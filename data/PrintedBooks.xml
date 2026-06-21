@@ -222,19 +222,6 @@
             </imprint>
         </monogr>
     </biblStruct>
-    <biblStruct xml:id="STC1378">
-        <monogr>
-            <author>Barbour, John</author>
-            <title level="m">Bruce</title>
-            <idno type="STC" subtype="2nd-ed">1378</idno>
-            <idno type="ESTC">S104479</idno>
-            <imprint>
-                <pubPlace>Edinburgh</pubPlace>
-                <publisher>Andro Hart</publisher>
-                <date when="1616">1616</date>
-            </imprint>
-        </monogr>
-    </biblStruct>
     <biblStruct xml:id="STC1536">
         <monogr>
             <author>Bartholomeus Anglicus</author>
@@ -638,32 +625,6 @@
             </imprint>
         </monogr>
     </biblStruct>
-    <biblStruct xml:id="STC3543">
-        <monogr>
-            <author>Brandon, Charles, Duke of Suffolk</author>
-            <title level="m">The Justes of Maye</title>
-            <idno type="STC" subtype="2nd-ed">3543</idno>
-            <idno type="ESTC">S111362</idno>
-            <imprint>
-                <pubPlace>London</pubPlace>
-                <publisher>Wynkyn de Worde</publisher>
-                <date when="1507" cert="medium">1507?</date>
-            </imprint>
-        </monogr>
-    </biblStruct>
-    <biblStruct xml:id="STC4115">
-        <monogr>
-            <author>Borough, John</author>
-            <title level="m">Pupilla oculi</title>
-            <idno type="STC" subtype="2nd-ed">4115</idno>
-            <idno type="ESTC">S106923</idno>
-            <imprint>
-                <pubPlace>London</pubPlace>
-                <publisher>Wolfgang Hopyl</publisher>
-                <date when="1510">1510</date>
-            </imprint>
-        </monogr>
-    </biblStruct>
     <biblStruct xml:id="STC4850">
         <monogr>
             <author/>
@@ -716,19 +677,6 @@
             </imprint>
         </monogr>
     </biblStruct>
-    <biblStruct xml:id="STC4921">
-        <monogr>
-            <author>Jacobus de Cessolis</author>
-            <title level="m">The Game and Playe of Chess</title>
-            <idno type="STC" subtype="2nd-ed">4921</idno>
-            <idno type="ESTC">S106603</idno>
-            <imprint>
-                <pubPlace>Westminster</pubPlace>
-                <publisher>William Caxton</publisher>
-                <date when="1483">1483</date>
-            </imprint>
-        </monogr>
-    </biblStruct>
     <biblStruct xml:id="STC5057">
         <monogr>
             <author>Chartier, Alain</author>
@@ -755,19 +703,6 @@
             </imprint>
         </monogr>
         <note>formerly STC 20120</note>
-    </biblStruct>
-    <biblStruct xml:id="STC5065">
-        <monogr>
-            <author/>
-            <title level="m">Chastysing of goddes chyldern</title>
-            <idno type="STC" subtype="2nd-ed">5065</idno>
-            <idno type="ESTC">S106568</idno>
-            <imprint>
-                <pubPlace>Westminster</pubPlace>
-                <publisher>Wynkyn de Worde</publisher>
-                <date when="1493">1493</date>
-            </imprint>
-        </monogr>
     </biblStruct>
     <biblStruct xml:id="STC5068">
         <monogr>
@@ -948,19 +883,6 @@
                 <pubPlace>Westminster</pubPlace>
                 <publisher>William Caxton</publisher>
                 <date when="1477" cert="medium">1477?</date>
-            </imprint>
-        </monogr>
-    </biblStruct>
-    <biblStruct xml:id="STC50915">
-        <monogr>
-            <author>Chaucer, Geoffrey</author>
-            <title level="m">Parliament of fowls</title>
-            <idno type="STC" subtype="2nd-ed">5091.5</idno>
-            <idno type="ESTC">S109748</idno>
-            <imprint>
-                <pubPlace>London</pubPlace>
-                <publisher>I. Rastell</publisher>
-                <date when="1525" cert="medium">1525?</date>
             </imprint>
         </monogr>
     </biblStruct>
@@ -1182,32 +1104,6 @@
                 <pubPlace>Westminster</pubPlace>
                 <publisher>Wynkyn de Worde</publisher>
                 <date when="1499">1499</date>
-            </imprint>
-        </monogr>
-    </biblStruct>
-    <biblStruct xml:id="STC5728">
-        <monogr>
-            <author>Copland, Robert</author>
-            <title level="m">The Complaynte of them that ben to late maryed</title>
-            <idno type="STC" subtype="2nd-ed">5728</idno>
-            <idno type="ESTC">S109112</idno>
-            <imprint>
-                <pubPlace>London</pubPlace>
-                <publisher>Wynkyn de Worde</publisher>
-                <date when="1506" cert="medium">1506?</date>
-            </imprint>
-        </monogr>
-    </biblStruct>
-    <biblStruct xml:id="STC5732">
-        <monogr>
-            <author>Copland, Robert</author>
-            <title level="m">The hye way to the spyttell hous</title>
-            <idno type="STC" subtype="2nd-ed">5732</idno>
-            <idno type="ESTC">S105073</idno>
-            <imprint>
-                <pubPlace>London</pubPlace>
-                <publisher>Robert Copland</publisher>
-                <date when="1536" cert="medium">1536?</date>
             </imprint>
         </monogr>
     </biblStruct>
@@ -3388,19 +3284,6 @@
             </imprint>
         </monogr>
     </biblStruct>
-    <biblStruct xml:id="STC17958">
-        <monogr>
-            <author>Mirk, John</author>
-            <title level="m">Festial</title>
-            <idno type="STC" subtype="2nd-ed">17958</idno>
-            <idno type="ESTC">S110149</idno>
-            <imprint>
-                <pubPlace>Oxford</pubPlace>
-                <publisher>Theodoric Rood and Thomas Hunte</publisher>
-                <date when="1486">1486</date>
-            </imprint>
-        </monogr>
-    </biblStruct>
     <biblStruct xml:id="STC17959">
         <monogr>
             <author>Mirk, John</author>
@@ -3427,32 +3310,6 @@
             </imprint>
         </monogr>
     </biblStruct>
-    <biblStruct xml:id="STC17961">
-        <monogr>
-            <author>Mirk, John</author>
-            <title level="m">The helpe and grace of almighty god</title>
-            <idno type="STC" subtype="2nd-ed">17961</idno>
-            <idno type="ESTC">S94185</idno>
-            <imprint>
-                <pubPlace>London</pubPlace>
-                <publisher>Richard Pynson</publisher>
-                <date when="1493">1493</date>
-            </imprint>
-        </monogr>
-    </biblStruct>
-    <biblStruct xml:id="STC17962">
-        <monogr>
-            <author>Mirk, John</author>
-            <title level="m">Festial</title>
-            <idno type="STC" subtype="2nd-ed">17962</idno>
-            <idno type="ESTC">S94186</idno>
-            <imprint>
-                <pubPlace>Westminster</pubPlace>
-                <publisher>Wynkyn de Worde</publisher>
-                <date when="1493">1493</date>
-            </imprint>
-        </monogr>
-    </biblStruct>
     <biblStruct xml:id="STC17963">
         <monogr>
             <author>Mirk, John</author>
@@ -3462,19 +3319,6 @@
             <imprint>
                 <pubPlace>Rouen</pubPlace>
                 <publisher>J. Ravynell</publisher>
-                <date when="1495">1495</date>
-            </imprint>
-        </monogr>
-    </biblStruct>
-    <biblStruct xml:id="STC17964">
-        <monogr>
-            <author>Mirk, John</author>
-            <title level="m">Festial</title>
-            <idno type="STC" subtype="2nd-ed">17964</idno>
-            <idno type="ESTC">S100718</idno>
-            <imprint>
-                <pubPlace>Paris</pubPlace>
-                <publisher>Wolfgang Hopyl</publisher>
                 <date when="1495">1495</date>
             </imprint>
         </monogr>
@@ -4636,19 +4480,6 @@
             </imprint>
         </monogr>
     </biblStruct>
-    <biblStruct xml:id="STC24875">
-        <monogr>
-            <author>Jacobus, de Voragine</author>
-            <title level="m">Legenda aurea</title>
-            <idno type="STC" subtype="2nd-ed">24875</idno>
-            <idno type="ESTC">S109642</idno>
-            <imprint>
-                <pubPlace>Westminster</pubPlace>
-                <publisher>Wynkyn de Worde</publisher>
-                <date when="1493">1493</date>
-            </imprint>
-        </monogr>
-    </biblStruct>
     <biblStruct xml:id="STC258233">
         <monogr>
             <author>Wimbledon, Thomas</author>
@@ -4828,6 +4659,19 @@
                 <pubPlace>London</pubPlace>
                 <publisher>John Day for Antony Kitson</publisher>
                 <date when="1558" cert="medium">1558?</date>
+            </imprint>
+        </monogr>
+    </biblStruct>
+    <biblStruct xml:id="BodArchGe35">
+        <monogr>
+            <author/>
+            <title level="m">To them that before this ymage off pyte</title>
+            <idno type="STC" subtype="2nd-ed">14077c.7</idno>
+            <idno type="ESTC">S93194</idno>
+            <imprint>
+                <pubPlace>Northern England</pubPlace>
+                <publisher>s.n.</publisher>
+                <date when="1490" cert="medium">ca. 1490</date>
             </imprint>
         </monogr>
     </biblStruct>
