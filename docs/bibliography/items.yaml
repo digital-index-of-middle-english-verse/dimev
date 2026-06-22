@@ -342,6 +342,22 @@ references:
   title-short: Handlist of Latin writers
   type: book
 
+- id: SharpeTitulusIdentifyingMedieval2003
+  author:
+    - family: Sharpe
+      given: Richard
+  citation-key: SharpeTitulusIdentifyingMedieval2003
+  ISBN: 978-2-503-51258-7
+  issued:
+    - year: 2003
+  language: en
+  number-of-pages: '316'
+  publisher: Brepols
+  source: Google Books
+  title: 'Titulus: identifying medieval Latin texts. An evidence-based approach'
+  title-short: Titulus
+  type: book
+
 - id: TEIConsortiumTEIP5Guidelines2024
   citation-key: TEIConsortiumTEIP5Guidelines2024
   edition: Version 4.8.0. Last updated on 2nd September 2024

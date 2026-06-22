@@ -17,84 +17,85 @@ thanks: The authors gratefully acknowledge the advice and support of Linne Moone
 [GitHub repository]: https://github.com/digital-index-of-middle-english-verse/dimev
 [Zenodo]: https://zenodo.org/
 [Zotero Group Library]: https://www.zotero.org/groups/6111344/dimev_bibliography
+[ESTC]: https://datb.cerl.org/estc/_search
 
 # General Introduction
 
-The *Digital Index of Middle English Verse* (DIMEV) is a comprehensive, open-access bibliographic database of the surviving English-language verse from the period 1200--1525.
+The *Digital Index of Middle English Verse* (DIMEV) is an open-access bibliographic database of the surviving English-language verse from the period *c.* 1200--1525.
 The aim is to record each surviving item of Middle English verse and the documentary sources by which it is transmitted, with transcriptions of at least the first two lines and last two lines of each copy.
 Copies after 1525 are recorded only if derived from an exemplar that no longer survives.
 References to modern scholarly transcriptions and critical editions are supplied where available; references to digital facsimiles have been added for some items.
-Other recorded metadata include author, scribe, verse form, subject-matter, standard bibliographic reference numbers, and linguistic descriptions of manuscript witness.
+Other recorded metadata include author, scribe, verse form, subject-matter, and standard bibliographic reference numbers.
 
 Like any finding aid or bibliographic register, DIMEV aims to keep the surviving historical record visible, verifiable, and accessible:
 we aim to enable students and researchers to identify, locate, and retrieve texts relevant to their research questions or areas of inquiry.
 The importance of DIMEV to its scholarly community is illustrated by a search for "DIMEV" on [Google Books](https://www.google.com/search?tbm=bks&q=dimev).
-Search results show that DIMEV is employed in scholarship on Middle English literature and culture as a standard way of identifying texts under discussion and as a launching point for deeper study.
-
-DIMEV has been live online at [dimev.net] since 2011, updated regularly to supply omissions, record newly identified items and witnesses, record newly published transcriptions, editions, and facsimiles, and correct error.
-**Updates of dimev.net ceased on 31 December 2024, to accommodate modernization of source data and maintenance practices.**
-
-In due course, the current DIMEV website will be replaced by a new one.
-Until such time, users who seek the most current authoritative record of Middle English verse should consult DIMEV's source data directly.
-
-Source data are maintained in a public [GitHub repository] and archived within [Zenodo], an open data repository.
-Zenodo supplies a DOI, suitable for citation: see @MooneyDigitalIndexMiddle2025.
-The document you are reading serves as a guide to the source data.
-Readers new to XML should consult an introductory grammar, for instance @TEIConsortiumTEIP5Guidelines2024, [A Gentle Introduction to XML](https://tei-c.org/release/doc/tei-p5-doc/en/html/SG.html).
+Search results show that DIMEV is employed in scholarship on late medieval English literature and culture as a standard way of identifying texts under discussion and as a launching point for deeper study.
 
 # History and responsibility
 
 DIMEV incorporates and extends a bibliographic tradition whose principal earlier efforts are @BrownRegisterMiddleEnglish1916, @BrownIndexMiddleEnglish1943, @RobbinsSupplementIndexMiddle1965, @HamerManuscriptIndexIndex1995, and @BoffeyNewIndexMiddle2005, and it shares a point of origin with the last of these.
-In 1993 Julia Boffey, A. S. G. Edwards, and Linne R. Mooney obtained funding to produce an updated index of Middle English verse, which would combine @BrownIndexMiddleEnglish1943 and @RobbinsSupplementIndexMiddle1965, correct error, and record materials that had come to light in the previous thirty years.
+In 1993 Julia Boffey, A. S. G. Edwards, and Linne R. Mooney obtained funding to produce an updated index of Middle English verse, which would combine the earlier indexes, correct error, and record materials that had come to light in the previous thirty years.
 In the first year of collaboration the team divided.
 DIMEV subsequently emerged as a distinct venture, distinguished in three respects from prior efforts in its tradition:
 
 1. Digital medium
 2. Return to primary sources
-3. Transcription of opening and closing lines of witnesses
+3. Transcriptions of opening and closing lines of each copy and of rubrics and author attributions where present
 
-Digital medium has shaped the project fundamentally:
-it allows for incremental updates and correction of error;
-it also removes constraints of space, allowing DIMEV to give much fuller attention to individual witnesses than was possible in print indexes.
-Transcriptions of opening and closing lines provide a snapshot of textual and linguistic variation among witnesses.
-They are a product of DIMEV's general survey method, returning to primary sources and verifying each reference anew.
-This survey method serves also to remove accreted error from the bibliographic tradition.
+Digital medium has shaped the project fundamentally.
+It allows for incremental updates, informed by DIMEV's return to primary sources.
+Digital medium also removes constraints of space, allowing us to implement what Richard Sharpe terms an "evidence-based approach" to bibliography [@SharpeTitulusIdentifyingMedieval2003].
+Whereas previous indexes of Middle English verse identify each verse item by an opening line, necessarily abstracted from the manuscript evidence, DIMEV adds transcriptions of opening and closing lines of each surveyed copy, and of rubrics and author attributions where present.[^sharpe]
+Transcriptions show how an item actually circulated in literary culture and they facilitate identification of copies previously unrecognized.
 The three distinctive features form a coherent working method.
+
+[^sharpe]: This approach contrasts with our treatment of the bibliographic details of early printed editions cited as witnesses.
+When citing an early printed edition we avoid title-page transcription, preferring to give a standard modern title, inferred publisher name and publication date, and the reference number assigned to the edition by the English Short Title Catalogue ([ESTC]), which has evidentiary responsibility in its domain.
+
 
 Mooney's initial work on DIMEV was assisted by Elizabeth Solopova and funded by a grant from the National Endowment for the Humanities (University of Maine, 1995--97).
 In 2004 Mooney was offered a position at the University of York, a post that enabled her to resume data collection in UK libraries.
 From 2007 onwards she has been aided by Daniel W. Mosser who became involved while in York on a Leverhulme Visiting Professorship (2007--9).
 Mosser provided the technical vision and contacts to serialize DIMEV data in XML.
-With assistance from Dave Radcliffe, DIMEV went live online in 2011.
+With assistance from Dave Radcliffe, DIMEV went live online at [dimev.net] in 2011.
 
 In 2012 Mooney obtained funding from the Modern Humanities Research Association to hire a part-time research assistant.
 In this position Deborah Thorpe continued DIMEV's survey of British Library manuscripts.
 The survey of British Library manuscripts was completed by Mooney in 2024, supported by an Emeritus Fellowship for two years from the Leverhulme Trust (awarded 2022).
 
 From 2007 to 2025 Mooney and Mosser served as co-editors of DIMEV, sharing responsibility for content.
-Mosser was technical editor, maintaining data files and pushing updates to [dimev.net].
+Mosser was technical editor, maintaining data files and pushing updates to dimev.net.
 In 2025 editorial responsibility passed to Ian Cornelius and Michael Johnston, joined by Charlotte Ross as post-doctoral fellow in the 2025--2026 academic year.
 Cornelius is technical editor and lead author of the documentation.
 
 # Present Status
 
-As stated in the [General Introduction], updates of dimev.net ceased on 31 December 2024, to accommodate modernization of source data and maintenance practices.
-On 1 January 2025 a snapshot of project data was archived in [Zenodo], a widely used public data repository [@MooneyDigitalIndexMiddle2025].
-Source files are maintained in DIMEV's public [GitHub repository], which includes a [README](https://github.com/digital-index-of-middle-english-verse/dimev?tab=readme-ov-file#dimev-on-github),
-[Changelog](https://github.com/digital-index-of-middle-english-verse/dimev/blob/main/CHANGELOG.md),
+**Updates of dimev.net ceased on 31 December 2024, to accommodate modernization of source data and maintenance practices.**
+This work is done in a public [GitHub repository], which includes a [README](https://github.com/digital-index-of-middle-english-verse/dimev?tab=readme-ov-file#dimev-on-github),
+[change log](https://github.com/digital-index-of-middle-english-verse/dimev/blob/main/CHANGELOG.md),
 and [working notes](https://github.com/digital-index-of-middle-english-verse/dimev/issues).
+Readers new to GitHub should consult [About GitHub and Git](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git).
 
-This present "Technical Introduction" is maintained within the same GitHub repository.
-The PDF version is built and published on [tagged releases](https://github.com/digital-index-of-middle-english-verse/dimev/releases) and thus lags behind the current state of data files.
-For a more current version, view the [Markdown source](https://github.com/digital-index-of-middle-english-verse/dimev/blob/main/docs/documentation.md) on the project's main branch.
+
+GitHub provides the infrastructure for project maintenance.
+An archival record is supplied by [Zenodo], an open data repository.
+At irregular intervals, snapshots of project data are archived to Zenodo, where they carry a DOI suitable for citation: see @MooneyDigitalIndexMiddle2025.
+The first snapshot was made on 1 January 2025.
+This and subsequent snapshots correspond to [tagged releases](https://github.com/digital-index-of-middle-english-verse/dimev/releases) of the GitHub repository, and thus lag behind the current state of data files.
+Tagged releases also yield new PDF versions of this present "Technical Introduction."
+
+In due course, the website at dimev.net will be replaced by a new one.
+
 
 # Data: Overview
 
 DIMEV data are contained in XML files and a Zotero Group Library.
+Readers new to XML should consult an introductory grammar, for instance @TEIConsortiumTEIP5Guidelines2024, [A Gentle Introduction to XML](https://tei-c.org/release/doc/tei-p5-doc/en/html/SG.html).
 
 ## Zotero Library
 
-DIMEV's [Zotero Group Library] records bibliographic details for modern transcriptions, editions, and facsimiles cited elsewhere in DIMEV data.
+DIMEV's [Zotero Group Library] records bibliographic details for modern transcriptions, editions, and facsimiles cited in DIMEV data.
 The library is periodically exported as Zotero RDF and logged in DIMEV's principal [GitHub repository], within the directory `data`.
 The RDF file is intended only as an archival backup.
 
@@ -112,8 +113,14 @@ Structures are documented in two forms:
 1. A human-readable specification, provided in the following subsections of this documentation
 1. Machine-readable schemas, written as XSD files and located in the directory `schemas`
 
-The Python script `validator.py` can be used to validate XML files against the corresponding XSD file.
-For instructions see the comment at the head of `validator.py`.
+The Python script `validator.py` validates XML files against the corresponding XSD file.
+For usage run
+
+``` {.bash}
+python validator.py --help
+```
+
+from the `scripts/` directory.
 
 ## Pointing and citation conventions
 
