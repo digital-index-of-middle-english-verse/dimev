@@ -87,6 +87,10 @@ Tagged releases also yield new PDF versions of this present "Technical Introduct
 
 In due course, the website at dimev.net will be replaced by a new one.
 
+Releases on the way to **DIMEV Version 2** carry pre-release designations that mark how far the restructuring has progressed.
+*Version 2.0-alpha* denotes a restructured and schema-validated data baseline: the bibliography migrated to Zotero, the text-carrier files (`Manuscripts.xml`, `Inscriptions.xml`, `PrintedBooks.xml`) recast as TEI, controlled vocabularies introduced, and citation markup aligned with TEI P5—but with `Records.xml` not yet recast as TEI (it still declares no namespace) and the data not yet atomized into per-item files.
+*Version 2.0-beta* is reserved for a release stable enough to support construction of the new front-end website.
+
 
 # Data: Overview
 
