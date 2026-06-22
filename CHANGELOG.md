@@ -117,6 +117,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Declare dependencies using TOML to accommodate `uv run` (b6234398b60502a231b9bab28346a09939ea4be2)
 - Validate all XML files, unless a file path is specified as an argument (491c8ecd1f49accb2873946a0062e08ae1f009fc, 0bba2694d445432cbbb1af01bf98d8e9011b40fa, 8bf11f0c6ea9162255f5482a6aeb1bb1083f7c5e)
 - Resolve `ptr` targets in `Records.xml`: check internal `#`-fragment targets against the `xml:id` registry and skip absolute URIs, replacing the transitional Middle English Compendium special-case (#65; b3e2b2ecc0f33e021f3151294a69a350bdb1da46)
+- Use the Python `logging` module for output and derive the run's pass/fail status from logged errors, replacing the success flag and error counters threaded through every check; adopt `argparse` for the optional single-file argument (c979466269c9133cd8c1ab73612b550eb0047484)
+- Extend the key and `ptr`-target checks to the text-carrier files (`Manuscripts.xml`, `Inscriptions.xml`, `PrintedBooks.xml`) in addition to `Records.xml`, so `bibl`/`source`/`mss` keys and internal pointer targets are validated wherever they occur; internal `ptr` targets continue to resolve against the record and witness `xml:id`s only (#65; a259a04fd68444ccbe2701c71f4ee5dc5f2db8c7)
 
 #### Schemas
 
@@ -218,6 +220,11 @@ db7127fa0bf75a8bc6485586c75d5becf858a978)
 - 5029: correct extent, range, lastlines (#5; 14345568f9052090677b5920cbbc41e4701240f9)
 - 5143: move subjects misplaced in the `titles` element (72e56e266e712a26e7fc05d63e7160c495ab9e22)
 - Misc. content correction
+
+#### `validator.py`
+
+- Fix a reference to an undefined variable that raised `NameError` instead of reporting the duplicate when a duplicate `xml:id` was found (c979466269c9133cd8c1ab73612b550eb0047484)
+- Fix a no-op comparison that let `xml:id`s duplicated across the record, text-carrier, and citation-key registries pass validation (c979466269c9133cd8c1ab73612b550eb0047484)
 
 ## Version 1 [2025-01-01]
 
