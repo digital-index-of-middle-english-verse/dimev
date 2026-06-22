@@ -48,6 +48,11 @@ TEXTCARRIER_FILES = {
     'Inscriptions.xml': TEI_NS + 'msDesc',
 }
 
+# Files that carry outbound bibliographic keys and pointer targets. Records.xml
+# is in no namespace; the text-carrier files are TEI-namespaced, so reference
+# checks match on local name (see `iter_elements`).
+REFERENCE_FILES = [RECORDS_FILE, *TEXTCARRIER_FILES]
+
 # Maps each controlled-vocabulary domain to the Records.xml element that holds
 # its terms.
 TERM_DOMAINS = {
@@ -231,30 +236,46 @@ def verify_id_uniqueness(*id_sets):
     logger.info(f'Completed with {len(seen)} unique ids checked.')
 
 
-def check_bibl_refs(textcarrier_ids, bibl_ids):
-    """Check that every outbound bibl/source/mss key in Records.xml resolves,
-    and report defined keys that go unreferenced."""
-    logger.info(f'\nChecking bibliographic and source references in {RECORDS_FILE}...')
-    root = etree.parse(DATA_DIR / RECORDS_FILE).getroot()
+def iter_elements(filename, *localnames):
+    """Yield ``(localname, element)`` for elements in `filename` whose local
+    name (namespace ignored) is one of `localnames`. Matching on local name
+    lets one check span the no-namespace Records.xml and the TEI-namespaced
+    text-carrier files."""
+    root = etree.parse(DATA_DIR / filename).getroot()
+    wanted = set(localnames)
+    for elem in root.iter():
+        tag = elem.tag
+        if not isinstance(tag, str):
+            continue  # skip comments and processing instructions
+        local = tag.rsplit('}', 1)[-1]
+        if local in wanted:
+            yield local, elem
 
+
+def check_bibl_refs(textcarrier_ids, bibl_ids):
+    """Check that every outbound bibl/source/mss key across Records.xml and the
+    text-carrier files resolves, and report defined keys that go unreferenced."""
+    logger.info('\nChecking bibliographic and source references...')
     referenced_bibl = set()
     referenced_textcarriers = set()
-    for elem in root.iter('bibl', 'source', 'mss'):
-        key = elem.get('key')
-        if key is None:
-            continue
-        if elem.tag == 'bibl':
-            referenced_bibl.add(key)
-            if key not in bibl_ids:
-                logger.error(f'Bibliography key {key} is referenced in {RECORDS_FILE} but not defined')
-        else:  # text carriers: source, mss
-            referenced_textcarriers.add(key)
-            if key not in textcarrier_ids:
-                logger.error(f'Source key {key} is referenced in {RECORDS_FILE} but not defined')
+    for filename in REFERENCE_FILES:
+        for local, elem in iter_elements(filename, 'bibl', 'source', 'mss'):
+            key = elem.get('key')
+            if key is None:
+                continue
+            if local == 'bibl':
+                referenced_bibl.add(key)
+                if key not in bibl_ids:
+                    logger.error(f'Bibliography key {key} is referenced in {filename} but not defined')
+            else:  # text carriers: source, mss
+                referenced_textcarriers.add(key)
+                if key not in textcarrier_ids:
+                    logger.error(f'Source key {key} is referenced in {filename} but not defined')
 
-    # Reporting unreferenced keys is informational only: it yields many false
-    # positives, since keys referenced solely from (e.g.) Manuscripts.xml are
-    # not seen here.
+    # References are now gathered from Records.xml and every text-carrier file,
+    # so unreferenced keys are a sound signal. It stays a warning rather than an
+    # error, since a key may legitimately be cited only in prose or by external
+    # tools.
     unreferenced_textcarriers = textcarrier_ids - referenced_textcarriers
     unreferenced_bibl = bibl_ids - referenced_bibl
     if unreferenced_textcarriers:
@@ -265,20 +286,23 @@ def check_bibl_refs(textcarrier_ids, bibl_ids):
 
 
 def check_crossrefs(record_ids):
-    """Check that internal pointer targets resolve to a known record or witness.
+    """Check internal pointer targets across Records.xml and the text-carrier
+    files.
 
-    Pointers (`ptr`) carry either an internal fragment reference ("#" + the
-    xml:id of a record or witness) or an absolute URI to an external resource.
-    Only internal targets are resolved here; external URIs are left to verify by
-    other means."""
-    logger.info(f'\nChecking pointer targets in {RECORDS_FILE}...')
-    root = etree.parse(DATA_DIR / RECORDS_FILE).getroot()
-    for ptr in root.iter('ptr'):
-        target = ptr.get('target')
-        if not target.startswith('#'):
-            continue  # external resource (absolute URI)
-        if target[1:] not in record_ids:
-            logger.error(f'bad target value "{target}"')
+    Pointers (`ptr`) carry either an internal fragment reference ("#" + an
+    xml:id) or an absolute URI to an external resource. Only internal targets
+    are resolved here; external URIs are left to verify by other means. Per the
+    project's pointing model (issue #65), an internal target names a record or
+    witness; text-carrier references travel through `source`/`mss @key`, not a
+    pointer, so the registry is the record + witness ids."""
+    logger.info('\nChecking pointer targets...')
+    for filename in REFERENCE_FILES:
+        for _, ptr in iter_elements(filename, 'ptr'):
+            target = ptr.get('target')
+            if target is None or not target.startswith('#'):
+                continue  # external resource (absolute URI) or no target
+            if target[1:] not in record_ids:
+                logger.error(f'bad target value "{target}" in {filename}')
 
 
 def validate_terms():
