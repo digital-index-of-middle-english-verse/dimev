@@ -35,8 +35,7 @@ Significant restructuring remains. In particular, `Records.xml` — the heart of
 
 - Add entries for printed books cited in `Records.xml` but previously unrecorded in `PrintedBooks.xml` (STC 17325, 17326, 22595, 22596); de-comment 4853 (#40; 82f0e80768bc4d6edd2acac91d3d79b69e754be2)
 - Add STC numbers to items that lack them, where available (08cf30f52f3f6fda112c9337d87f10444681dc81, 7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6)
-- Add ESTC numbers where available (7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6)
-- Add an ISTC number for an item not in ESTC (7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6)
+- Add ESTC numbers where available; add an ISTC number for an item not in ESTC (7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6)
 
 #### `Records.xml`: content added
 
@@ -47,8 +46,8 @@ Significant restructuring remains. In particular, `Records.xml` — the heart of
 #### Validation: functions added
 
 - Validate unique identifiers (`xml:id` and bibliographic citation keys) for uniqueness and well-formedness (#9, #33; 4d7de46398019a4788a129340a24f2f22661a3f3, af6d0739c10f458d3156175bb8309154a74d1bf3, 09be893ce6f940c6ccf3bb9ce64f6bb0fe888e66)
-- Validate key references in `Records.xml` against the sets of unique identifiers of text-carriers (manuscripts, early printed books, and inscriptions) and modern scholarly works (#33, #39, #40; ee36fb2e3a9ed656fd3bddd837b6cdbb072dacf4, 91801c136d2c0c94bcd5840b3a8da5c19af7b988)
-- Validate cross-references in `Records.xml` against `xml:id`s in `Records.xml` (#48; 3d22a3bebfb45586df92ba22c3a81eac31b1eed2, 43c7ddde4d231b3f01b98cddbb9edfa6d9ae5fe4, 702525a60500a6de7795e571cb1a0dc8bda4cab4)
+- Validate key references against unique identifiers of text-carriers (manuscripts, early printed books, and inscriptions) and modern scholarly works (#33, #39, #40, #65; ee36fb2e3a9ed656fd3bddd837b6cdbb072dacf4, 91801c136d2c0c94bcd5840b3a8da5c19af7b988, a259a04fd68444ccbe2701c71f4ee5dc5f2db8c7)
+- Validate cross-references against `xml:id`s in `Records.xml` (#48, #65; 3d22a3bebfb45586df92ba22c3a81eac31b1eed2, 43c7ddde4d231b3f01b98cddbb9edfa6d9ae5fe4, 702525a60500a6de7795e571cb1a0dc8bda4cab4, a259a04fd68444ccbe2701c71f4ee5dc5f2db8c7)
 - Validate subjects, verse-forms, and languages against controlled vocabularies (#53; e17f3f9a566bc3e1d94d9d5e14b350da919f0acc, 14345568f9052090677b5920cbbc41e4701240f9)
 
 #### README
@@ -71,7 +70,7 @@ Significant restructuring remains. In particular, `Records.xml` — the heart of
 - Reduce xml:id values to ASCII (08cf30f52f3f6fda112c9337d87f10444681dc81, 72e56e266e712a26e7fc05d63e7160c495ab9e22)
 - Move records of full-manuscript on-line facsimiles from `Bibliography.xml` to `Manuscripts.xml` (#22, c23bebc9fb82c0768974db518b46fb9fd792c7b7)
 - Rationalize citation and cross-reference markup toward TEI P5 Chapter 17, "Linking, Segmentation, and Alignment": retire `ref` in favour of TEI `ptr` for all empty pointers, with internal targets recoded as `#`-fragments (`#` + an `xml:id`) and external targets as absolute URIs; retain `bibl`/`source`/`mss` `key` citations; and disambiguate the resource sense of `bibl` (a `ptr`-wrapper, without `key`, in `surrogates` and `listBibl`) (#65; b3e2b2ecc0f33e021f3151294a69a350bdb1da46)
-- Re-home textcarrier items: records of particular copies of printed books, cited for manuscript additions or binding fragments, go to `Manuscripts.xml` (from `PrintedBooks.xml`); a copy of a printed book cited for edition-level material (key: `BodArchGe35`) goes to `PrintedBooks.xml` (from `Manuscripts.xml`); a parchment broadsheet (key: `Barber`) goes to `Manuscripts.xml` (from `Inscriptions.xml`) (#11, #59; 08cf30f52f3f6fda112c9337d87f10444681dc81, 7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6, db7127fa0bf75a8bc6485586c75d5becf858a978)
+- Re-home textcarrier items: records of particular copies of printed books, cited for manuscript additions or binding fragments, go to `Manuscripts.xml` (from `PrintedBooks.xml`); a copy of a printed book cited for edition-level material (key: `BodArchGe35`, formerly in `Manuscripts.xml`) goes to `PrintedBooks.xml`; a parchment broadsheet (key: `Barber`, formerly in `Inscriptions.xml`) goes to `Manuscripts.xml` (#11, #59; 08cf30f52f3f6fda112c9337d87f10444681dc81, 7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6, db7127fa0bf75a8bc6485586c75d5becf858a978)
 
 #### `Manuscripts.xml`
 
@@ -104,7 +103,7 @@ Significant restructuring remains. In particular, `Records.xml` — the heart of
 - Cite critical editions at record level (limited implementation) (#3; 90911075eadbe57068ca460f128b107fd80fd3de)
 - Restructure lists of bibliographic references (editions, facsimiles, ghosts) (90911075eadbe57068ca460f128b107fd80fd3de)
 - Restructure lists of keywords (subjects, verse-forms, languages) (72e56e266e712a26e7fc05d63e7160c495ab9e22)
-- Restructure `ref` elements and their content (#24, #48; 8e48f84731cfac8d8efc079693b7c344e9b0c260, 6da0898ac11bdf940c45161781ecf810cd64357f)
+- Restructure `ref` elements and their content (#24, #48, #65; 8e48f84731cfac8d8efc079693b7c344e9b0c260, 6da0898ac11bdf940c45161781ecf810cd64357f, b3e2b2ecc0f33e021f3151294a69a350bdb1da46)
 - Convert the values of attributes "music" and "illust" to booleans (14345568f9052090677b5920cbbc41e4701240f9)
 - Rename the element `biblio` as `bibl` (90911075eadbe57068ca460f128b107fd80fd3de)
 - Rename the element `insc` as `mss` for in-project consistency (90911075eadbe57068ca460f128b107fd80fd3de)
@@ -122,7 +121,6 @@ Significant restructuring remains. In particular, `Records.xml` — the heart of
 - Validate all XML files, unless a file path is specified as an argument (491c8ecd1f49accb2873946a0062e08ae1f009fc, 0bba2694d445432cbbb1af01bf98d8e9011b40fa, 8bf11f0c6ea9162255f5482a6aeb1bb1083f7c5e)
 - Resolve `ptr` targets in `Records.xml`: check internal `#`-fragment targets against the `xml:id` registry and skip absolute URIs, replacing the transitional Middle English Compendium special-case (#65; b3e2b2ecc0f33e021f3151294a69a350bdb1da46)
 - Use the Python `logging` module for output and derive the run's pass/fail status from logged errors, replacing the success flag and error counters threaded through every check; adopt `argparse` for the optional single-file argument (c979466269c9133cd8c1ab73612b550eb0047484)
-- Extend the key and `ptr`-target checks to the text-carrier files (`Manuscripts.xml`, `Inscriptions.xml`, `PrintedBooks.xml`) in addition to `Records.xml`, so `bibl`/`source`/`mss` keys and internal pointer targets are validated wherever they occur; internal `ptr` targets continue to resolve against the record and witness `xml:id`s only (#65; a259a04fd68444ccbe2701c71f4ee5dc5f2db8c7)
 
 #### Schemas
 
@@ -168,7 +166,7 @@ db7127fa0bf75a8bc6485586c75d5becf858a978)
 
 #### `PrintedBooks.xml`: items and elements removed
 
-- Remove the elements `loc`, `repos`, and `DIMEVCount` (#11; dd623751f8888ce3ffd35665d9a90e621ff602ca, 08cf30f52f3f6fda112c9337d87f10444681dc81, bfb14aa4c8e8b01151e2b198f6c958f9a3ffd11d)
+- Remove the elements `loc`, `repos`, and `DIMEVCount` (dd623751f8888ce3ffd35665d9a90e621ff602ca, 08cf30f52f3f6fda112c9337d87f10444681dc81, bfb14aa4c8e8b01151e2b198f6c958f9a3ffd11d)
 - Remove the element `desc`; information unique to `desc` (printer names for STC 78 and STC 79, former STC numbers, a remark on the survival of copies) is retained in `publisher` text and in a new element, `note` for further curation (9238790fc29f12d7af93939362db50b0cb800746, 9bfa34205ad3819cc1efeaa3c2d65efc6b6e178d)
 - Remove item Rouen1516 as an edition-level record cited by us for copy-level material; the copy is recorded in `Manuscripts.xml` as YorkMinXIO28 (7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6)
 
@@ -180,7 +178,7 @@ db7127fa0bf75a8bc6485586c75d5becf858a978)
 - Remove the element `versePatterns` after merging content into `verseForms` (#42; 72e56e266e712a26e7fc05d63e7160c495ab9e22)
 - Remove empty `subjects` elements (72e56e266e712a26e7fc05d63e7160c495ab9e22)
 - Remove an unnumbered stub item as redundant with item 1293 (8e48f84731cfac8d8efc079693b7c344e9b0c260)
-- Remove references to HuntingtonRB59135, StPaulBuxtaforius1616, Alliaco1480 (when referencing early printed books, reference either edition or copy, as appropriate, not both) (90911075eadbe57068ca460f128b107fd80fd3de)
+- Remove references to HuntingtonRB59135, StPaulBuxtaforius1616, Alliaco1480, Rouen1516 (when referencing early printed books, reference either edition or copy, as appropriate, not both) (90911075eadbe57068ca460f128b107fd80fd3de, 7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6)
 - Remove broken web links: partial digitization of Woodward1995; query on http://search.lib.cam.ac.uk/; TCC James catalog (90911075eadbe57068ca460f128b107fd80fd3de)
 - Remove the dummy record for cross-reference of 'yif' and 'if' (6da0898ac11bdf940c45161781ecf810cd64357f)
 - 5850: remove a bad reference to an edition (#49; 8e48f84731cfac8d8efc079693b7c344e9b0c260)
@@ -211,7 +209,7 @@ db7127fa0bf75a8bc6485586c75d5becf858a978)
 
 #### `PrintedBooks.xml`
 
-- Correct the STC numbers of items with xml:id STC12142, STC24267, STC5759a, STC15999, STC5086, STC127667 (#57; 5a66c4570a659429799c90b16574453f0d5c2b24, 7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6)
+- Correct the STC numbers of items with xml:id STC12142, STC24267, STC5759a, STC15999, STC5086, STC127667 (5a66c4570a659429799c90b16574453f0d5c2b24, 7c30b0b5829d66d1cd52d28eaaca1df8ea9d17f6)
 
 #### `Records.xml`
 
@@ -223,7 +221,7 @@ db7127fa0bf75a8bc6485586c75d5becf858a978)
 - 3171: Harley 1706 is not a ghost; add the manuscript as witness (#27; 14345568f9052090677b5920cbbc41e4701240f9)
 - 5029: correct extent, range, lastlines (#5; 14345568f9052090677b5920cbbc41e4701240f9)
 - 5143: move subjects misplaced in the `titles` element (72e56e266e712a26e7fc05d63e7160c495ab9e22)
-- Misc. content correction
+- Misc. content correction as recorded in individual commits touching this file
 
 #### `validator.py`
 
