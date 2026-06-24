@@ -545,37 +545,6 @@
         <dc:title>A Manual for the Study of Monumental Brasses</dc:title>
         <z:citationKey>Haines1848</z:citationKey>
     </bib:Book>
-    <bib:Book rdf:about="#item_28381">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Oxford</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Clarendon</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Skeat</foaf:surname>
-                        <foaf:givenName>Walter William</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dcterms:isReferencedBy rdf:resource="#item_31625"/>
-        <dc:date>1902</dc:date>
-        <dc:title>The Lay of Havelok the Dane</dc:title>
-        <z:citationKey>Skeat1902b</z:citationKey>
-    </bib:Book>
-    <bib:Memo rdf:about="#item_31625">
-        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;rev. as Skeat1915&lt;/p&gt;
-&lt;/div&gt;</rdf:value>
-    </bib:Memo>
     <bib:Article rdf:about="#item_28382">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
@@ -2983,32 +2952,6 @@
         <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;rev. ed. 1962&lt;/p&gt;
 &lt;/div&gt;</rdf:value>
     </bib:Memo>
-    <bib:Book rdf:about="#item_28468">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>J. Dodsley</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Percy</foaf:surname>
-                        <foaf:givenName>Thomas</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>1811</dc:date>
-        <dc:title>Reliques of Ancient English Poetry</dc:title>
-        <z:citationKey>Percy1811</z:citationKey>
-    </bib:Book>
     <bib:Book rdf:about="#item_28469">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -3129,32 +3072,6 @@
         <dc:title>Religious Verses from MS Arundel 292</dc:title>
         <z:citationKey>Garrett1912</z:citationKey>
     </bib:Article>
-    <bib:Book rdf:about="#item_28474">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Philological Society</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Murray</foaf:surname>
-                        <foaf:givenName>J. A. H.</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>1873</dc:date>
-        <dc:title>The Dialect of the Southern Counties of Scotland</dc:title>
-        <z:citationKey>Murray1873</z:citationKey>
-    </bib:Book>
     <bib:Book rdf:about="#item_28475">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -3948,33 +3865,6 @@
         <dc:title>Sir Orfeo</dc:title>
         <z:citationKey>BlissAJ1954</z:citationKey>
     </bib:Book>
-    <bib:Book rdf:about="https://sites.trinity.edu/akraebel/lament">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-               <foaf:name>Trinity University</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Kraebel</foaf:surname>
-                        <foaf:givenName>A. B.</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dc:subject>broken link</dc:subject>
-        <dc:identifier>
-            <dcterms:URI>
-               <rdf:value>https://sites.trinity.edu/akraebel/lament</rdf:value>
-            </dcterms:URI>
-        </dc:identifier>
-        <dc:date>2017</dc:date>
-        <dc:title>The Middle English Lament of St. Anselm: A Digital Edition by Trinity University English Students</dc:title>
-        <z:citationKey>PennCodex196Heuser1907a</z:citationKey>
-    </bib:Book>
     <bib:BookSection rdf:about="#item_28506">
         <z:itemType>bookSection</z:itemType>
         <dcterms:isPartOf>
@@ -4342,32 +4232,6 @@
         <dc:title>A Middle English Medical Manuscript from Norwich</dc:title>
         <z:citationKey>Buhler1961a</z:citationKey>
     </bib:BookSection>
-    <bib:Book rdf:about="#item_28520">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Hammersmith</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Kelmscott Press</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Ellis</foaf:surname>
-                        <foaf:givenName>Frederick Startridge</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dc:date>1895</dc:date>
-        <dc:title>Syr Percyvelle of Galles</dc:title>
-        <z:citationKey>EllisFS1895</z:citationKey>
-    </bib:Book>
     <bib:Book rdf:about="#item_28521">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -5147,38 +5011,6 @@
         <dc:date>1964</dc:date>
         <dc:title>Medieval English lyrics: a critical anthology</dc:title>
         <z:citationKey>Davies1964</z:citationKey>
-    </bib:Book>
-    <bib:Book rdf:about="#item_28550">
-        <z:itemType>book</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Series>
-                <dc:title>Roxburghe club</dc:title>
-                <dc:identifier>54</dc:identifier>
-            </bib:Series>
-        </dcterms:isPartOf>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>S. Bentley</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Stevenson</foaf:surname>
-                        <foaf:givenName>Joseph</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dc:date>1838</dc:date>
-        <dc:title>The Owl and the Nightingale, a Poem of the Twelfth or early Thirteenth Century</dc:title>
-        <z:citationKey>Stevenson1838</z:citationKey>
     </bib:Book>
     <bib:Book rdf:about="#item_28551">
         <z:itemType>book</z:itemType>
@@ -6759,7 +6591,7 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <prism:volume>5, no. 11</prism:volume>
+        <prism:volume>5</prism:volume>
         <dc:date>1944</dc:date>
         <dc:title>Sale Catalogue</dc:title>
         <z:citationKey>Rosenthal1944</z:citationKey>
@@ -8809,25 +8641,6 @@
         <dc:title>Introduction</dc:title>
         <z:citationKey>Norton-Smith1979</z:citationKey>
     </bib:BookSection>
-    <bib:Book rdf:about="#item_28686">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-           <foaf:Organization><foaf:name>London</foaf:name></foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Strutt</foaf:surname>
-                        <foaf:givenName>Joseph</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>1845 [1801]</dc:date>
-        <dc:title>The Sports and Pastimes of the People of England …</dc:title>
-        <z:citationKey>Strutt1845</z:citationKey>
-    </bib:Book>
     <bib:Book rdf:about="#item_28687">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -9387,33 +9200,6 @@
         <dc:title>The Annual Register, or a View of the History of Politics and Literature for the Year 1776</dc:title>
         <z:citationKey>AnnualReg1776</z:citationKey>
     </bib:Book>
-    <bib:Book rdf:about="#item_28707">
-        <z:itemType>book</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Series>
-                <dc:title>EETS o.s.</dc:title>
-                <dc:identifier>126-127</dc:identifier>
-            </bib:Series>
-        </dcterms:isPartOf>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Banks</foaf:surname>
-                        <foaf:givenName>Mary Macleod</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dcterms:isReferencedBy rdf:resource="#item_31412"/>
-        <dc:date>1905</dc:date>
-        <dc:title>An Alphabet of Tales: An English 15th-century translation of the Alphabetum Narrationum</dc:title>
-        <z:citationKey>Banks1904-05</z:citationKey>
-    </bib:Book>
-    <bib:Memo rdf:about="#item_31412">
-        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;repr. 1987 as one vol&lt;/p&gt;
-&lt;/div&gt;</rdf:value>
-    </bib:Memo>
     <bib:Book rdf:about="#item_28708">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -10503,31 +10289,6 @@
         <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;repr. Kraus, 1965&lt;/p&gt;
 &lt;/div&gt;</rdf:value>
     </bib:Memo>
-    <bib:Book rdf:about="#item_28750">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Glasgow</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Brown</foaf:surname>
-                        <foaf:givenName>John Thomas Toshach</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>1895</dc:date>
-        <dc:title>The Inquest of David</dc:title>
-        <z:citationKey>BrownJTT1895</z:citationKey>
-    </bib:Book>
     <bib:Book rdf:about="#item_28751">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -11564,32 +11325,6 @@
         <dc:title>The First English Pattern Poems</dc:title>
         <z:citationKey>Church1946</z:citationKey>
     </bib:Article>
-    <bib:Book rdf:about="#item_28790">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London and New York</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Macmillan</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Grove</foaf:surname>
-                        <foaf:givenName>George</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dc:date>1879-1895</dc:date>
-        <dc:title>A Dictionary of Music and Musicians (A.D. 1450-1889)</dc:title>
-        <z:citationKey>Grove1879</z:citationKey>
-    </bib:Book>
     <bib:Article rdf:about="#item_28791">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
@@ -12681,27 +12416,6 @@
         <dc:title>An Early Vernacular Service</dc:title>
         <z:citationKey>Kingdon1879</z:citationKey>
     </bib:Article>
-    <bib:Book rdf:about="#item_28832">
-        <z:itemType>book</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Series>
-               <dc:title>EETS, e.s.</dc:title><dc:identifier>60</dc:identifier>
-            </bib:Series>
-        </dcterms:isPartOf>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Cowper</foaf:surname>
-                        <foaf:givenName>J. M.</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dc:date>1875</dc:date>
-        <dc:title>Meditations on the Supper of our Lord, and the Hours of the Passion translated by Robert Manning of Brunne</dc:title>
-        <z:citationKey>Cowper1875</z:citationKey>
-    </bib:Book>
     <bib:Article rdf:about="#item_28833">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
@@ -13815,28 +13529,6 @@
         <dc:title>Two Fourteenth-Century Mystical Poems</dc:title>
         <z:citationKey>Robbins1940a</z:citationKey>
     </bib:Article>
-    <bib:Book rdf:about="#item_28877">
-        <z:itemType>book</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Series>
-               <dc:title>Rolls series</dc:title><dc:identifier>75</dc:identifier>
-            </bib:Series>
-        </dcterms:isPartOf>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Arnold</foaf:surname>
-                        <foaf:givenName>Thomas</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dc:date>1882-1885</dc:date>
-        <z:language>la</z:language>
-        <dc:title>Symeonis Monachi Opera Omnia</dc:title>
-        <z:citationKey>Arnold1882-85</z:citationKey>
-    </bib:Book>
     <bib:Article rdf:about="#item_28878">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
@@ -14339,28 +14031,6 @@
         <dc:date>1980</dc:date>
         <dc:title>The Index of Middle English Verse and Huntington Library Collections: A Checklist of Addenda</dc:title>
         <z:citationKey>Hanna1980</z:citationKey>
-    </bib:Article>
-    <bib:Article rdf:about="#item_28898">
-        <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Journal>
-               <prism:volume>49</prism:volume><dc:title>Academy</dc:title>
-            </bib:Journal>
-        </dcterms:isPartOf>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>James</foaf:surname>
-                        <foaf:givenName>Montague Rhodes</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <bib:pages>157</bib:pages>
-        <dc:date>1896</dc:date>
-        <dc:title>The Song of Wade</dc:title>
-        <z:citationKey>James1896</z:citationKey>
     </bib:Article>
     <bib:Book rdf:about="#item_28899">
         <z:itemType>book</z:itemType>
@@ -17210,28 +16880,6 @@
         <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;repr. as one volume, 1973&lt;/p&gt;
 &lt;/div&gt;</rdf:value>
     </bib:Memo>
-    <bib:Article rdf:about="#item_29005">
-        <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Journal>
-               <prism:volume>21</prism:volume><dc:title>Archaelogia</dc:title>
-            </bib:Journal>
-        </dcterms:isPartOf>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Conybeare</foaf:surname>
-                        <foaf:givenName>John Josias</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <bib:pages>88-91</bib:pages>
-        <dc:date>1827</dc:date>
-        <dc:title>Sarcastic Verses, written by an Adherent to the House of Lancaster, in the last year of the Reign of Richard the Second, A.D. 1399</dc:title>
-        <z:citationKey>Conybeare1827b</z:citationKey>
-    </bib:Article>
     <bib:Book rdf:about="#item_29006">
         <z:itemType>book</z:itemType>
         <dcterms:isPartOf>
@@ -17357,34 +17005,6 @@
 &lt;p&gt;&lt;a href=&quot;https://catalog.hathitrust.org/Record/000768085&quot; rel=&quot;noopener noreferrer nofollow&quot;&gt;https://catalog.hathitrust.org/Record/000768085&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;</rdf:value>
     </bib:Memo>
-    <bib:Book rdf:about="#item_29011">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Frowde</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Thompson</foaf:surname>
-                        <foaf:givenName>Edward Maunde</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <prism:edition>2</prism:edition>
-        <dc:date>1904</dc:date>
-        <z:language>la</z:language>
-        <dc:title>Chronicon Adae de Usk, A.D. 1377-1421</dc:title>
-        <z:citationKey>Thompson1904</z:citationKey>
-    </bib:Book>
     <bib:Book rdf:about="#item_29012">
         <z:itemType>book</z:itemType>
         <dcterms:isPartOf>
@@ -17699,38 +17319,6 @@
         <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;2nd ed. 1958&lt;/p&gt;
 &lt;/div&gt;</rdf:value>
     </bib:Memo>
-    <bib:Book rdf:about="#item_29024">
-        <z:itemType>book</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Series>
-                <dc:title>Scottish text society</dc:title>
-                <dc:identifier>44, 62</dc:identifier>
-            </bib:Series>
-        </dcterms:isPartOf>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Edinburgh and London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Blackwood</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Stevenson</foaf:surname>
-                        <foaf:givenName>John Holme</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dc:date>1901–1914</dc:date>
-        <dc:title>Gilbert of Haye’s Prose Manuscript (A.D. 1456)</dc:title>
-        <z:citationKey>StevensonJ1901-14</z:citationKey>
-    </bib:Book>
     <bib:Thesis rdf:about="#item_29025">
         <z:itemType>thesis</z:itemType>
         <dc:publisher>
@@ -19385,34 +18973,6 @@
         <dc:title>Linguarum Veterum Septentrionalium Thesaurus Grammatico-Criticus et Archaeologicus</dc:title>
         <z:citationKey>Hickes1705</z:citationKey>
     </bib:Book>
-    <bib:Thesis rdf:about="#item_29089">
-        <z:itemType>thesis</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Berlin</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Friedrich-Wilhelms Universität</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Nuck</foaf:surname>
-                        <foaf:givenName>Richard</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>1887</dc:date>
-        <z:type>phd</z:type>
-        <z:language>de</z:language>
-        <dc:title>Roberd of Cisyle</dc:title>
-        <z:citationKey>Nuck1887</z:citationKey>
-    </bib:Thesis>
     <bib:BookSection rdf:about="#item_29090">
         <z:itemType>bookSection</z:itemType>
         <dcterms:isPartOf>
@@ -22111,32 +21671,6 @@
         <dc:title>Die Musik in Geschichte und Gegenwart</dc:title>
         <z:citationKey>Blume1949-86</z:citationKey>
     </bib:Book>
-    <bib:Book rdf:about="#item_29190">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Richard Chiswell</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Gunton</foaf:surname>
-                        <foaf:givenName>Symon</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>1686</dc:date>
-        <dc:title>The History of the Church of Peterborough</dc:title>
-        <z:citationKey>Gunton1686</z:citationKey>
-    </bib:Book>
     <bib:Article rdf:about="#item_29191">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
@@ -22194,33 +21728,6 @@
         <dc:title>English Lyrics of the XIIIth Century</dc:title>
         <z:citationKey>WhitingBJ1934</z:citationKey>
     </bib:Article>
-    <bib:Book rdf:about="#item_29193">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Halle</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Karras</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Wülker</foaf:surname>
-                        <foaf:givenName>Richard Paul</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>1879-1882</dc:date>
-        <z:language>de</z:language>
-        <dc:title>Kleinere angelsächsische Dichtungen</dc:title>
-        <z:citationKey>Wulker1879-82</z:citationKey>
-    </bib:Book>
     <bib:Book rdf:about="#item_29194">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -22696,53 +22203,6 @@
         <dc:title>A Reproof to Lydgate</dc:title>
         <z:citationKey>Hammond1911a</z:citationKey>
     </bib:Article>
-    <bib:BookSection rdf:about="#item_29211">
-        <z:itemType>bookSection</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Book>
-                <dc:title>Anniversary papers by colleagues and pupils of George Lyman Kittredge, presented on the completion of his twenty-fifth year of teaching in Harvard University, June, MCMXIII</dc:title>
-            </bib:Book>
-        </dcterms:isPartOf>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Boston and London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Ginn</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>MacCracken</foaf:surname>
-                        <foaf:givenName>Henry Noble</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                       <foaf:surname>Robinson</foaf:surname>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                   <foaf:Person><foaf:surname>Sheldon</foaf:surname></foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                   <foaf:Person><foaf:surname>Neilson</foaf:surname></foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dc:date>1913</dc:date>
-        <z:language>en</z:language>
-        <dc:title>Vegetius in English: notes on the early translation</dc:title>
-        <z:citationKey>MacCracken1913a</z:citationKey>
-    </bib:BookSection>
     <bib:Book rdf:about="#item_29212">
         <z:itemType>book</z:itemType>
         <dcterms:isPartOf>
@@ -23686,33 +23146,6 @@
         <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;repr. Kraus, 1965&lt;/p&gt;
 &lt;/div&gt;</rdf:value>
     </bib:Memo>
-    <bib:Thesis rdf:about="#item_29245">
-        <z:itemType>thesis</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Cambridge, MA</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Harvard University</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:contributors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Clawson</foaf:surname>
-                        <foaf:givenName>William Hall</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:contributors>
-        <dc:date>1907</dc:date>
-        <z:type>phd</z:type>
-        <dc:title>Robin Hood Ballads</dc:title>
-        <z:citationKey>Clawson1907</z:citationKey>
-    </bib:Thesis>
     <bib:Article rdf:about="#item_29246">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
@@ -24331,37 +23764,6 @@
         <dc:title>Arthur</dc:title>
         <z:citationKey>Furnivall1864</z:citationKey>
     </bib:Book>
-    <bib:Book rdf:about="#item_29271">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>L. Upcott Gill</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Suffling</foaf:surname>
-                        <foaf:givenName>Ernest R.</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dcterms:isReferencedBy rdf:resource="#item_31408"/>
-        <dc:date>1910</dc:date>
-        <dc:title>English Church Brasses From the 13th to the 17th Century</dc:title>
-        <z:citationKey>Suffling1910</z:citationKey>
-    </bib:Book>
-    <bib:Memo rdf:about="#item_31408">
-        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;repr. Bath: Kingsnead, 1970&lt;/p&gt;
-&lt;/div&gt;</rdf:value>
-    </bib:Memo>
     <bib:Book rdf:about="#item_29272">
         <z:itemType>book</z:itemType>
         <dcterms:isPartOf>
@@ -32715,34 +32117,6 @@
         <dc:title>An Early Rudimentary Carol</dc:title>
         <z:citationKey>Robbins1959b</z:citationKey>
     </bib:Article>
-    <bib:Book rdf:about="#item_29586">
-        <z:itemType>book</z:itemType>
-        <dcterms:isPartOf>
-           <bib:Series><dc:title>Abbotsford club</dc:title></bib:Series>
-        </dcterms:isPartOf>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Edinburgh</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Sharp</foaf:surname>
-                        <foaf:givenName>Thomas</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>1837</dc:date>
-        <dc:title>Ancient Mysteries, from the Digby Manuscripts preserved in the Bodleian Library, Oxford</dc:title>
-        <z:citationKey>Sharp1837</z:citationKey>
-    </bib:Book>
     <bib:Book rdf:about="#item_29587">
         <z:itemType>book</z:itemType>
         <dcterms:isPartOf>
@@ -34593,37 +33967,6 @@
         <dc:title>A Stanzaic Life of Christ, from Harley MS. 3909</dc:title>
         <z:citationKey>Foster1926</z:citationKey>
     </bib:Book>
-    <bib:Book rdf:about="#item_29661">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>printed privately</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Halliwell-Phillipps</foaf:surname>
-                        <foaf:givenName>James Orchard</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dcterms:isReferencedBy rdf:resource="#item_31587"/>
-        <dc:date>1860</dc:date>
-        <dc:title>The Wyse Chylde and the Emperor Adrian, a dialogue resembling that of Salomon and Saturn, from the Unique Edition printed by Wynkyn de Worde</dc:title>
-        <z:citationKey>Halliwell1860b</z:citationKey>
-    </bib:Book>
-    <bib:Memo rdf:about="#item_31587">
-        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://www.google.com/books/edition/The_wyse_chylde_and_the_emperor_Adrian_a/Dv8CAAAAQAAJ&quot; rel=&quot;noopener noreferrer nofollow&quot;&gt;https://www.google.com/books/edition/The_wyse_chylde_and_the_emperor_Adrian_a/Dv8CAAAAQAAJ&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</rdf:value>
-    </bib:Memo>
     <bib:Book rdf:about="#item_29662">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -36844,26 +36187,6 @@
         <dc:title>Lydgate’s Complaint of the Black Knight: Text mit Einleitung und Anmerkungen</dc:title>
         <z:citationKey>Krausser1896</z:citationKey>
     </bib:Book>
-    <bib:Book rdf:about="#item_29745">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Aberdeen</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-            </foaf:Organization>
-        </dc:publisher>
-        <dcterms:isReferencedBy rdf:resource="#item_31514"/>
-        <dc:date>1711</dc:date>
-        <dc:title>The History of Sir Eger</dc:title>
-        <z:citationKey>Eger1711</z:citationKey>
-    </bib:Book>
-    <bib:Memo rdf:about="#item_31514">
-        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt; (“Douce” text)&lt;/p&gt;
-&lt;/div&gt;</rdf:value>
-    </bib:Memo>
     <bib:Article rdf:about="#item_29746">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
@@ -37850,32 +37173,6 @@
         <dc:title>The Burden in Carols</dc:title>
         <z:citationKey>Robbins1942a</z:citationKey>
     </bib:Article>
-    <bib:Book rdf:about="#item_29783">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Dilly</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Pinkerton</foaf:surname>
-                        <foaf:givenName>John</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>1797</dc:date>
-        <dc:title>The History of Scotland from the Accession of the House of Stuart to that of Mary</dc:title>
-        <z:citationKey>Pinkerton1797</z:citationKey>
-    </bib:Book>
     <bib:BookSection rdf:about="#item_29784">
         <z:itemType>bookSection</z:itemType>
         <dcterms:isPartOf>
@@ -39288,38 +38585,6 @@
         <dc:date>1921</dc:date>
         <dc:title>A Descriptive Catalogue of the Latin Manuscripts in the John Rylands Library at Manchester</dc:title>
         <z:citationKey>James1921</z:citationKey>
-    </bib:Book>
-    <bib:Book rdf:about="#item_29836">
-        <z:itemType>book</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Series>
-                <dc:title>Roxburghe club</dc:title>
-                <dc:identifier>118</dc:identifier>
-            </bib:Series>
-        </dcterms:isPartOf>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>privately printed</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Huth</foaf:surname>
-                        <foaf:givenName>Henry</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dc:date>1888</dc:date>
-        <dc:title>The Miroure of mans salvacionne</dc:title>
-        <z:citationKey>Huth1888</z:citationKey>
     </bib:Book>
     <bib:Article rdf:about="#item_29837">
         <z:itemType>journalArticle</z:itemType>
@@ -42036,38 +41301,6 @@
         <dc:title>Lydgate’s Troy Book</dc:title>
         <z:citationKey>Bergen1906-35</z:citationKey>
     </bib:Book>
-    <bib:Book rdf:about="#item_29936">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Davison, for Longman, et al</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Park</foaf:surname>
-                        <foaf:givenName>Thomas</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Griffth</foaf:surname>
-                        <foaf:givenName>Acton Frederick</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dc:date>1815</dc:date>
-        <dc:title>Bibliotheca Anglo-Poetica</dc:title>
-        <z:citationKey>Park1815</z:citationKey>
-    </bib:Book>
     <bib:Article rdf:about="#item_29937">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
@@ -44706,53 +43939,6 @@
         <dc:title>Eine mittelenglische Claudian-übersetzung (1445)</dc:title>
         <z:citationKey>Flugel1905</z:citationKey>
     </bib:Article>
-    <bib:Book rdf:about="#item_30035">
-        <z:itemType>book</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Series>
-                <dc:title>Roxburghe library</dc:title>
-                <dc:identifier>2</dc:identifier>
-            </bib:Series>
-        </dcterms:isPartOf>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Whittingham and Wilkins</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Browne</foaf:surname>
-                        <foaf:givenName>William</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Hazlitt</foaf:surname>
-                        <foaf:givenName>William Carew</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dcterms:isReferencedBy rdf:resource="#item_31561"/>
-        <dc:date>1868-1869 [1614]</dc:date>
-        <dc:title>The Shepheards Pipe</dc:title>
-        <z:citationKey>BrowneW1868-69</z:citationKey>
-    </bib:Book>
-    <bib:Memo rdf:about="#item_31561">
-        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;Orig. 1614 (STC 3917)&lt;/p&gt;
-&lt;/div&gt;</rdf:value>
-    </bib:Memo>
     <bib:Article rdf:about="#item_30036">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
@@ -49781,19 +48967,6 @@
         <dc:title>Gregorius auf dem Steine. Aus Ms. Vernon p. 44</dc:title>
         <z:citationKey>Horstmann1876a</z:citationKey>
     </bib:Article>
-    <bib:Article rdf:about="#item_30226">
-        <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Journal>
-                <prism:volume>30</prism:volume>
-                <dc:title>Journal of the British Archaeological Association</dc:title>
-            </bib:Journal>
-        </dcterms:isPartOf>
-        <bib:pages>218-236</bib:pages>
-        <dc:date>1874</dc:date>
-        <dc:title>Proceedings of the Congress</dc:title>
-        <z:citationKey>BritishArch1874</z:citationKey>
-    </bib:Article>
     <bib:Book rdf:about="#item_30227">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -49820,32 +48993,6 @@
         <z:language>fr</z:language>
         <dc:title>Les Fabulistes Latins</dc:title>
         <z:citationKey>Hervieux1884</z:citationKey>
-    </bib:Book>
-    <bib:Book rdf:about="#item_30228">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Flesher</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Twysden</foaf:surname>
-                        <foaf:givenName>Roger</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>1652</dc:date>
-        <dc:title>Historiae Anglicanae Scriptores X</dc:title>
-        <z:citationKey>Twysden1652</z:citationKey>
     </bib:Book>
     <bib:Article rdf:about="#item_30229">
         <z:itemType>journalArticle</z:itemType>
@@ -51110,33 +50257,6 @@
         <dc:title>I Syng of a Myden</dc:title>
         <z:citationKey>Manning1960</z:citationKey>
     </bib:Article>
-    <bib:Book rdf:about="#item_30275">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Hamburg</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Hofmann</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Oelrichs</foaf:surname>
-                        <foaf:givenName>Johann Carl Conrad</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>1798</dc:date>
-        <z:language>de</z:language>
-        <dc:title>Angelsächsische Chrestomathie…</dc:title>
-        <z:citationKey>Oelrichs1798</z:citationKey>
-    </bib:Book>
     <bib:Book rdf:about="#item_30276">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -51348,32 +50468,6 @@
         <dc:date>1867</dc:date>
         <dc:title>Catalogus codicum mss. Qui in bibliotheca Ædis Christi apud Oxonienses adservantur</dc:title>
         <z:citationKey>kitchin1867</z:citationKey>
-    </bib:Book>
-    <bib:Book rdf:about="#item_30283">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>[Toronto]</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>University of Toronto Library</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Clawson</foaf:surname>
-                        <foaf:givenName>William Hall</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dc:date>1909</dc:date>
-        <dc:title>The Gest of Robin Hood</dc:title>
-        <z:citationKey>Clawson1909</z:citationKey>
     </bib:Book>
     <bib:Book rdf:about="#item_30284">
         <z:itemType>book</z:itemType>
@@ -51930,25 +51024,6 @@
         <dc:title>Das stabreimende ABC des Aristotles</dc:title>
         <z:citationKey>Forster1900b</z:citationKey>
     </bib:Article>
-    <bib:Book rdf:about="#item_30303">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-           <foaf:Organization><foaf:name>London</foaf:name></foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Strutt</foaf:surname>
-                        <foaf:givenName>Joseph</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>1801</dc:date>
-        <dc:title>The Sports and Pastimes of the People of England …</dc:title>
-        <z:citationKey>Strutt1801</z:citationKey>
-    </bib:Book>
     <bib:Article rdf:about="#item_30304">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
@@ -52076,38 +51151,6 @@
         <dc:title>La Estorie de Euangelie</dc:title>
         <z:citationKey>Horstmann1885d</z:citationKey>
     </bib:Article>
-    <bib:Book rdf:about="#item_30309">
-        <z:itemType>book</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Series>
-                <dc:title>Roxburghe club</dc:title>
-                <dc:identifier>98</dc:identifier>
-            </bib:Series>
-        </dcterms:isPartOf>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Nichols</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Nichols</foaf:surname>
-                        <foaf:givenName>Robert Cradock</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>1873</dc:date>
-        <dc:title>A Fragment of Partonope of Blois from a manuscript at Vale Royal</dc:title>
-        <z:citationKey>NicholsRC1873</z:citationKey>
-    </bib:Book>
     <bib:Book rdf:about="#item_30310">
         <z:itemType>book</z:itemType>
         <dcterms:isPartOf>
@@ -52705,39 +51748,6 @@
         <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://www.google.com/books/edition/The_reliquary/JrhSAAAAcAAJ&quot; rel=&quot;noopener noreferrer nofollow&quot;&gt;https://www.google.com/books/edition/The_reliquary/JrhSAAAAcAAJ&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;</rdf:value>
     </bib:Memo>
-    <bib:Book rdf:about="#item_30333">
-        <z:itemType>book</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Series>
-                <dc:title>The Chaucer society, 1st ser.</dc:title>
-                <dc:identifier>94</dc:identifier>
-            </bib:Series>
-        </dcterms:isPartOf>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Trübner</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Furnivall</foaf:surname>
-                        <foaf:givenName>Frederick James</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dc:date>1900–1901</dc:date>
-        <z:language>en</z:language>
-        <dc:title>The Pardoner’s Prolog and Tale from the Hodson MS 39</dc:title>
-        <z:citationKey>Furnivall1901b</z:citationKey>
-    </bib:Book>
     <bib:Book rdf:about="#item_30334">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -53997,49 +53007,6 @@
         <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://www.google.com/books/edition/The_Bataile_of_Agyncourt_im_Lichte_gesch/B0QUAQAAIAAJ--&quot; rel=&quot;noopener noreferrer nofollow&quot;&gt;https://www.google.com/books/edition/The_Bataile_of_Agyncourt_im_Lichte_gesch/B0QUAQAAIAAJ--&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;</rdf:value>
     </bib:Memo>
-    <bib:BookSection rdf:about="https://archive.org/details/DerAnfangDesRomansAbdruckWarw">
-        <z:itemType>bookSection</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Book>
-                <dc:title>Programm der grossen Stadtschule zu Wismar als Einladung zur Michaelisprüfung</dc:title>
-            </bib:Book>
-        </dcterms:isPartOf>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Wismar</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Druck der Hinstorff'schen Rathsbuchdruckerei</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Herbing</foaf:surname>
-                        <foaf:givenName>G. A.</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dcterms:isReferencedBy rdf:resource="#item_31547"/>
-        <dc:identifier>
-            <dcterms:URI>
-                <rdf:value>https://archive.org/details/DerAnfangDesRomansAbdruckWarw</rdf:value>
-            </dcterms:URI>
-        </dc:identifier>
-        <bib:pages>[iii-iv], 1-16</bib:pages>
-        <dc:date>1872</dc:date>
-        <z:language>de</z:language>
-        <dc:title>Der Anfang des Romans von Guy de Warwick. Abdruck einer auf der herzoglichen Bibliothek zu Wolfenbüttel befindlichen Handschrift herausgegeben</dc:title>
-        <z:citationKey>Herbing1872</z:citationKey>
-    </bib:BookSection>
-    <bib:Memo rdf:about="#item_31547">
-        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;[Edition of Guy of Warwick from Wolfenbüttel MS Aug. 87, 4]&lt;/p&gt;
-&lt;/div&gt;</rdf:value>
-    </bib:Memo>
     <bib:Book rdf:about="#item_30378">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -54337,39 +53304,6 @@
         <dc:title>Das Frühmittelenglische Josephlied (MS Bodley 652)</dc:title>
         <z:citationKey>Heuser1905</z:citationKey>
     </bib:BookSection>
-    <bib:Book rdf:about="#item_30389">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Kassel</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Wigand</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Wülker</foaf:surname>
-                        <foaf:givenName>Richard Paul</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Grein</foaf:surname>
-                        <foaf:givenName>Christian Wilhelm Michael</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dc:date>1881-1897</dc:date>
-        <z:language>de</z:language>
-        <dc:title>Bibliothek der angelsächsischen Poesie</dc:title>
-        <z:citationKey>Wulker1881-97</z:citationKey>
-    </bib:Book>
     <bib:Book rdf:about="#item_30390">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -56131,42 +55065,6 @@
         <dc:title>Verse Introductions to Middle English Medical Treatises</dc:title>
         <z:citationKey>Keiser2003</z:citationKey>
     </bib:Article>
-    <bib:Book rdf:about="#item_30452">
-        <z:itemType>book</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Series>
-                <dc:title>Tudor facsimile texts, Macro plays</dc:title>
-                <dc:identifier>2</dc:identifier>
-            </bib:Series>
-        </dcterms:isPartOf>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London and Edinburgh</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Farmer</foaf:surname>
-                        <foaf:givenName>John Stephen</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dcterms:isReferencedBy rdf:resource="#item_31413"/>
-        <dc:date>1907</dc:date>
-        <dc:title>Wisdom or Mind, Will, and Understanding</dc:title>
-        <z:citationKey>Farmer1907b</z:citationKey>
-    </bib:Book>
-    <bib:Memo rdf:about="#item_31413">
-        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;2nd ed. Amersham, 1914&lt;/p&gt;
-&lt;/div&gt;</rdf:value>
-    </bib:Memo>
     <bib:Article rdf:about="#item_30453">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
@@ -56649,38 +55547,6 @@
         <dc:title>Lydgatiana</dc:title>
         <z:citationKey>MacCracken1913d</z:citationKey>
     </bib:Article>
-    <bib:Book rdf:about="#item_30472">
-        <z:itemType>book</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Series>
-                <dc:title>Chaucer society, 1st ser.</dc:title>
-                <dc:identifier>95, 96</dc:identifier>
-            </bib:Series>
-        </dcterms:isPartOf>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Trübner</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Furnivall</foaf:surname>
-                        <foaf:givenName>Frederick James</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dc:date>1902</dc:date>
-        <dc:title>The Cambridge MS. D. 4. 24 of Chaucer’s “Canterbury Tales”</dc:title>
-        <z:citationKey>Furnivall1902</z:citationKey>
-    </bib:Book>
     <bib:Book rdf:about="#item_30473">
         <z:itemType>book</z:itemType>
         <dcterms:isPartOf>
@@ -57410,32 +56276,6 @@
         <dc:date>1980</dc:date>
         <dc:title>The Commonplace Book of Robert Reynes of Acle: an edition of Tanner MS 407</dc:title>
         <z:citationKey>Louis1980</z:citationKey>
-    </bib:Book>
-    <bib:Book rdf:about="#item_30501">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Ormerod</foaf:surname>
-                        <foaf:givenName>G.</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <prism:edition>2</prism:edition>
-        <dc:date>1882</dc:date>
-        <dc:title>The History of the County Palatine and City of Chester</dc:title>
-        <z:citationKey>Ormerod1882</z:citationKey>
     </bib:Book>
     <bib:Book rdf:about="#item_30502">
         <z:itemType>book</z:itemType>
@@ -58692,35 +57532,6 @@
         <dc:title>Visio Willi de Petro Plouhman, item Visiones ejusdem de Dowel, Dobet et &lt;span class=&quot;nocase&quot;&gt;Dobest…printed&lt;/span&gt; from a MS. contemporary with the author…</dc:title>
         <z:citationKey>Whitaker1814</z:citationKey>
     </bib:Book>
-    <bib:Article rdf:about="#item_30549">
-        <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Journal>
-                <prism:volume>6</prism:volume>
-                <prism:number>3</prism:number>
-                <dc:title>Proceedings and Communications of the Cambridge Antiquarian Society</dc:title>
-            </bib:Journal>
-        </dcterms:isPartOf>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Skeat</foaf:surname>
-                        <foaf:givenName>Walter William</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dcterms:isReferencedBy rdf:resource="#item_31550"/>
-        <bib:pages>331-335</bib:pages>
-        <dc:date>1890</dc:date>
-        <dc:title>Report Presented to the Cambridge Antiquarian Society at its 47th Annual General Meeting 24 May, 1887</dc:title>
-        <z:citationKey>Skeat1890b</z:citationKey>
-    </bib:Article>
-    <bib:Memo rdf:about="#item_31550">
-        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;See &lt;a href=&quot;https://archaeologydataservice.ac.uk/library/browse/details.xhtml?recordId=3198797&quot; rel=&quot;noopener noreferrer nofollow&quot;&gt;https://archaeologydataservice.ac.uk/library/browse/details.xhtml?recordId=3198797&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</rdf:value>
-    </bib:Memo>
     <bib:Book rdf:about="#item_30550">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -60190,38 +59001,6 @@
         <dc:title>Introduction</dc:title>
         <z:citationKey>Rastall1973</z:citationKey>
     </bib:BookSection>
-    <bib:Book rdf:about="#item_30604">
-        <z:itemType>book</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Series>
-                <dc:title>Roxburghe club</dc:title>
-                <dc:identifier>21</dc:identifier>
-            </bib:Series>
-        </dcterms:isPartOf>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Bensley</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Markland</foaf:surname>
-                        <foaf:givenName>James Heywood</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>1818</dc:date>
-        <dc:title>Chester Mysteries</dc:title>
-        <z:citationKey>Markland1818</z:citationKey>
-    </bib:Book>
     <bib:BookSection rdf:about="#item_30605">
         <z:itemType>bookSection</z:itemType>
         <dcterms:isPartOf>
@@ -62786,31 +61565,6 @@
         <dc:title>The Brasses of Middlesex — Part 18: Hornsey (including Highgate)</dc:title>
         <z:citationKey>Cameron1977</z:citationKey>
     </bib:Article>
-    <bib:Book rdf:about="#item_30698">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Liverpool</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Wright</foaf:surname>
-                        <foaf:givenName>Thomas</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dc:date>1857</dc:date>
-        <dc:title>A Volume of Vocabularies</dc:title>
-        <z:citationKey>Wright1857</z:citationKey>
-    </bib:Book>
     <bib:Book rdf:about="#item_30699">
         <z:itemType>book</z:itemType>
         <dcterms:isPartOf>
@@ -65196,31 +63950,6 @@
         <dc:title>A Sermon on the Lord’s Prayer</dc:title>
         <z:citationKey>Patterson1916b</z:citationKey>
     </bib:Article>
-    <bib:Article rdf:about="#item_30785">
-        <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Journal>
-                <prism:volume>30</prism:volume>
-                <dc:title>Anglia (Halle an der Saale)</dc:title>
-                <dcterms:alternative>Anglia</dcterms:alternative>
-            </bib:Journal>
-        </dcterms:isPartOf>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Heuser</foaf:surname>
-                        <foaf:givenName>Wilhelm</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <bib:pages>306-319</bib:pages>
-        <dc:date>1907</dc:date>
-        <z:language>de</z:language>
-        <dc:title>Das interludium de clerico et Puella und das Fabliau von Dame Siriz</dc:title>
-        <z:citationKey>Heuser1907c</z:citationKey>
-    </bib:Article>
     <bib:Article rdf:about="#item_30786">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
@@ -67251,38 +65980,6 @@
         <dc:title>Die mittelenglisch Tale of Berin</dc:title>
         <z:citationKey>Behrend1921</z:citationKey>
     </bib:Book>
-    <bib:Book rdf:about="#item_30865">
-        <z:itemType>book</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Series>
-                <dc:title>Chaucer society, 1st ser.</dc:title>
-                <dc:identifier>82</dc:identifier>
-            </bib:Series>
-        </dcterms:isPartOf>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Trübner</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Furnivall</foaf:surname>
-                        <foaf:givenName>Frederick James</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dc:date>1911</dc:date>
-        <dc:title>The Romaunt of the Rose, from Thynne’s edition of 1532</dc:title>
-        <z:citationKey>Furnivall1911</z:citationKey>
-    </bib:Book>
     <bib:Book rdf:about="http://www.lib.rochester.edu/camelot/teams/hahn.htm">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -67375,27 +66072,6 @@
         <dc:title>Representative English Comedies…</dc:title>
         <z:citationKey>Gayley1912</z:citationKey>
     </bib:Book>
-    <bib:Book rdf:about="#item_30869">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Glasgow</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Sanders</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <dcterms:isReferencedBy rdf:resource="#item_31526"/>
-        <dc:date>1687</dc:date>
-        <dc:title>The History of Sir Eger</dc:title>
-        <z:citationKey>Eger1687</z:citationKey>
-    </bib:Book>
-    <bib:Memo rdf:about="#item_31526">
-        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;(?1687) (“Huntington” text; Wing 2140)&lt;/p&gt;
-&lt;/div&gt;</rdf:value>
-    </bib:Memo>
     <bib:Article rdf:about="https://www.esah1852.org.uk/library/files/T2170000.pdf">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
@@ -68000,30 +66676,6 @@
         <dc:title>The Age of Chaucer, 1215-1500</dc:title>
         <z:citationKey>Stobart1906</z:citationKey>
     </bib:Book>
-    <bib:Article rdf:about="#item_30892">
-        <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Journal>
-                <prism:volume>50</prism:volume>
-                <dc:title>Archaeologia or Miscellaneous Tracts Relating to Antiquity Published by the Society of Antiquaries of London</dc:title>
-                <dcterms:alternative>Archaeologia</dcterms:alternative>
-            </bib:Journal>
-        </dcterms:isPartOf>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Hope</foaf:surname>
-                        <foaf:givenName>W. H. St. John</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <bib:pages>129-193</bib:pages>
-        <dc:date>1897</dc:date>
-        <dc:title>On the English medieval drinking cups called Mazers</dc:title>
-        <z:citationKey>Hope1897</z:citationKey>
-    </bib:Article>
     <bib:Book rdf:about="#item_30893">
         <z:itemType>book</z:itemType>
         <dcterms:isPartOf>
@@ -68081,36 +66733,6 @@
         <dc:title>John Awdelays Gedicht &quot;De tribus regibus mortuis&quot;</dc:title>
         <z:citationKey>Storck1910-11</z:citationKey>
     </bib:Article>
-    <bib:Book rdf:about="#item_30895">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Rhodes</foaf:surname>
-                        <foaf:givenName>Hugh</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dcterms:isReferencedBy rdf:resource="#item_31531"/>
-        <dc:date>1550</dc:date>
-        <dc:title>The Boke of Nurture</dc:title>
-        <z:citationKey>Rhodes1577</z:citationKey>
-    </bib:Book>
-    <bib:Memo rdf:about="#item_31531">
-        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;(STC 20954); London: H. Jackson, 1577&lt;/p&gt;
-&lt;/div&gt;</rdf:value>
-    </bib:Memo>
     <bib:Book rdf:about="#item_30896">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -72861,38 +71483,6 @@
         <dc:title>The medieval stained glass of Lancashire</dc:title>
         <z:citationKey>HebginBarnes2009</z:citationKey>
     </bib:Book>
-    <bib:Book rdf:about="#item_31075">
-        <z:itemType>book</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Series>
-                <dc:title>Bannatyne club</dc:title>
-                <dc:identifier>115</dc:identifier>
-            </bib:Series>
-        </dcterms:isPartOf>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Edinburgh</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Constable</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Laing</foaf:surname>
-                        <foaf:givenName>David</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>1867</dc:date>
-        <dc:title>Adversaria</dc:title>
-        <z:citationKey>Laing1867</z:citationKey>
-    </bib:Book>
     <bib:Book rdf:about="#item_31076">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -74373,27 +72963,6 @@
         <dc:title>The Leyden &quot;Lydgate Manuscript&quot;</dc:title>
         <z:citationKey>vanDorsten1960</z:citationKey>
     </bib:Article>
-    <bib:Book rdf:about="#item_31129">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Glasgow</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Robert Sanders</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <dcterms:isReferencedBy rdf:resource="#item_31525"/>
-        <dc:date>1669</dc:date>
-        <dc:title>The History of Sir Eger</dc:title>
-        <z:citationKey>Eger1669</z:citationKey>
-    </bib:Book>
-    <bib:Memo rdf:about="#item_31525">
-        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;Wing 2139&lt;/p&gt;
-&lt;/div&gt;</rdf:value>
-    </bib:Memo>
     <bib:Article rdf:about="#item_31130">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
@@ -75222,35 +73791,6 @@
         <dc:title>Das frühmittelenglische Poema Morale</dc:title>
         <z:citationKey>Marcus1934</z:citationKey>
     </bib:Book>
-    <bib:Article rdf:about="#item_31162">
-        <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Journal>
-                <prism:volume>12</prism:volume>
-                <dc:title>Scottish Antiquary, or Northern Notes and Queries</dc:title>
-            </bib:Journal>
-        </dcterms:isPartOf>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Brown</foaf:surname>
-                        <foaf:givenName>John Thomas Toshach</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dcterms:isReferencedBy rdf:resource="#item_31560"/>
-        <bib:pages>5-12</bib:pages>
-        <dc:date>1897</dc:date>
-        <dc:title>The poems of David Rate, confessor of King James the First of Scotland</dc:title>
-        <z:citationKey>BrownJTT1897</z:citationKey>
-    </bib:Article>
-    <bib:Memo rdf:about="#item_31560">
-        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;Uncited in DIMEV records. This is a sequel to an article published by Brown in vol. 11&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.google.com/books/edition/The_Scottish_Antiquary_Or_Northern_Notes/0d5ZAAAAIAAJ&quot; rel=&quot;noopener noreferrer nofollow&quot;&gt;https://www.google.com/books/edition/The_Scottish_Antiquary_Or_Northern_Notes/0d5ZAAAAIAAJ&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</rdf:value>
-    </bib:Memo>
     <bib:Book rdf:about="#item_31163">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -75871,27 +74411,6 @@
         <dc:title>The Wakefield Pageants in the Towneley Cycle</dc:title>
         <z:citationKey>Cawley1958</z:citationKey>
     </bib:Book>
-    <bib:Book rdf:about="#item_31187">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Edinburgh</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Waldegrave</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <dcterms:isReferencedBy rdf:resource="#item_31520"/>
-        <dc:date>1603</dc:date>
-        <dc:title>The Whole Prophesie of Scotland, England, &amp; some part of France, and Denmark</dc:title>
-        <z:citationKey>Waldegrave1603</z:citationKey>
-    </bib:Book>
-    <bib:Memo rdf:about="#item_31520">
-        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;STC 17841.7&lt;/p&gt;
-&lt;/div&gt;</rdf:value>
-    </bib:Memo>
     <bib:Book rdf:about="#item_31188">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -76240,32 +74759,6 @@
         <dc:title>A Middle English Fragment from the First Book of Kilkenny</dc:title>
         <z:citationKey>Richardson1962</z:citationKey>
     </bib:Article>
-    <bib:Book rdf:about="#item_31200">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>Reeves and Turner</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Hazlitt</foaf:surname>
-                        <foaf:givenName>William Carew</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dc:date>1895</dc:date>
-        <dc:title>Early popular poetry of Scotland and the northern border</dc:title>
-        <z:citationKey>Hazlitt1895</z:citationKey>
-    </bib:Book>
     <bib:Book rdf:about="#item_31201">
         <z:itemType>book</z:itemType>
         <dcterms:isPartOf>
@@ -76895,44 +75388,6 @@
         <dc:title>The Poems of Robert Henryson</dc:title>
         <z:citationKey>Kindrick1997</z:citationKey>
     </bib:Book>
-    <bib:Book rdf:about="#item_31226">
-        <z:itemType>book</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>London and New York</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>G.P. Putnam</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Ward</foaf:surname>
-                        <foaf:givenName>Adolphus William</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Waller</foaf:surname>
-                        <foaf:givenName>Alfred Rayney</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <dcterms:isReferencedBy rdf:resource="#item_31409"/>
-        <dc:date>1907, 1908</dc:date>
-        <z:numberOfVolumes>2</z:numberOfVolumes>
-        <dc:title>The Cambridge History of English Literature</dc:title>
-        <z:citationKey>Ward1907-08</z:citationKey>
-    </bib:Book>
-    <bib:Memo rdf:about="#item_31409">
-        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;repr. New York, 1933&lt;/p&gt;
-&lt;/div&gt;</rdf:value>
-    </bib:Memo>
     <bib:Book rdf:about="#item_31227">
         <z:itemType>book</z:itemType>
         <dc:publisher>
@@ -79956,4 +78411,89 @@
         <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;DIMEV 3993 at 124-29&lt;/p&gt;
 &lt;/div&gt;</rdf:value>
     </bib:Memo>
+    <bib:Book rdf:about="#item_32430">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>London</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Board of Education</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:contributors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Maclagan</foaf:surname>
+                        <foaf:givenName>Eric</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:contributors>
+        <dc:date>1930</dc:date>
+        <dc:description>OCLC: 62994588</dc:description>
+        <z:libraryCatalog>Open WorldCat</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Exhibition of English Mediaeval art [Catalogue of the exhibition held at the Victoria and Albert Museum]</dc:title>
+        <z:citationKey>ExhibitionEnglishMediaeval1930</z:citationKey>
+    </bib:Book>
+    <bib:BookSection rdf:about="urn:isbn:978-0-8122-5390-0">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dcterms:isPartOf>
+                    <bib:Series>
+                       <dc:title>Middle Ages series</dc:title>
+                    </bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>ISBN 978-0-8122-5390-0</dc:identifier>
+                <dc:title>What kind of a thing is a Middle English lyric?</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Philadelphia</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>University of Pennsylvania Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cervone</foaf:surname>
+                        <foaf:givenName>Cristina Maria</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Watson</foaf:surname>
+                        <foaf:givenName>Nicholas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kumler</foaf:surname>
+                        <foaf:givenName>Aden</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:pages>182-217, 433-442</bib:pages>
+        <dc:date>2022</dc:date>
+        <z:libraryCatalog>luc.primo.exlibrisgroup.com</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Lyric vessels</dc:title>
+        <z:citationKey>KumlerLyricVessels2022</z:citationKey>
+    </bib:BookSection>
 </rdf:RDF>
