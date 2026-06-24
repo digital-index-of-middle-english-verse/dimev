@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## Version 2.0-alpha [Unreleased]
+## Version 2.0-alpha [2026-06-24]
 
 This is a transitional release: a milestone on the way to **DIMEV Version 2**, not its arrival. It consolidates a broad campaign of clean-up and restructuring — migrating the bibliography to Zotero, establishing `Manuscripts.xml` as the single source of truth for manuscript materials, recasting `Manuscripts.xml`, `Inscriptions.xml`, and `PrintedBooks.xml` as TEI, introducing controlled vocabularies, and rationalizing citation and cross-reference markup toward TEI P5 — together with the validation and documentation needed to sustain that work.
 
