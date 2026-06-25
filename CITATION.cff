@@ -7,8 +7,7 @@ title:  >-
   The Digital Index of Middle English Verse: data files and documentation
 abstract: Source data and documentation for the Digital Index of Middle English Verse (DIMEV), an open-access bibliographic register of the surviving English-language verse from the period *c.* 1200--1525.
 type: dataset
-version: 2.0-alpha+1
-url: https://zenodo.org/records/14585961 # version 1.0
+version: 2.0-alpha.1
 authors: 
   - family-names: Mooney
     given-names: Linne R.
