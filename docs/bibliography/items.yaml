@@ -213,13 +213,13 @@ references:
   issued:
     - year: 2026
       month: 6
-      day: 24
+      day: 25
   language: en
   publisher: Zenodo
   source: Zenodo
   title: 'The Digital Index of Middle English Verse: data files and documentation'
   type: dataset
-  version: 2.0-alpha
+  version: 2.0-alpha.1
 
 - id: PollardShorttitleCatalogueBooks1976
   author:
