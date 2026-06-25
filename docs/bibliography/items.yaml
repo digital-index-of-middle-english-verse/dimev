@@ -40,12 +40,12 @@ references:
   type: book
 
 - id: BrownIndexMiddleEnglish1943
-  citation-key: BrownIndexMiddleEnglish1943
-  editor:
+  author:
     - family: Brown
       given: Carleton
     - family: Robbins
       given: Rossell Hope
+  citation-key: BrownIndexMiddleEnglish1943
   issued:
     - year: 1943
   number-of-pages: '785'
@@ -207,6 +207,8 @@ references:
       given: Deborah
     - family: Hatfield
       given: Len
+    - family: Ross
+      given: Charlotte E.
   DOI: 10.5281/zenodo.14585960
   issued:
     - year: 2026
@@ -217,7 +219,6 @@ references:
   source: Zenodo
   title: 'The Digital Index of Middle English Verse: data files and documentation'
   type: dataset
-  URL: https://zenodo.org/records/14585960
   version: 2.0-alpha
 
 - id: PollardShorttitleCatalogueBooks1976
