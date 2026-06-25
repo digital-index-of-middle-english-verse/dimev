@@ -4,6 +4,26 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## Version 2.0-alpha.1 [2026-06-25]
+
+This release comprises minor changes to project metadata and documentation.
+It is prompted by the failure of version 2.0-alpha to archive on Zenodo (error "401 Bad credentials", fixed by revoking and re-linking accounts).
+
+### Added
+
+- `CITATION.cff`: citation metadata in Citation File Format (095302006ddf5252b05768e10847d9dd118648b7)
+- `CONTRIBUTING.md`: a message to contributors (formerly in `README.md`) (c0ee0bb54e058fe3f4a2fb9c2351f121c1e916ca)
+
+### Changed
+
+- `README.md`: move information for contributors to `CONTRIBUTING.md`; rewrite (c0ee0bb54e058fe3f4a2fb9c2351f121c1e916ca)
+- `LICENSE`: update title to improve rendering on GitHub (6a0dcab142da9e59f717567059994380e8f684f1)
+
+### Fixed
+
+- `bibliography/items.yaml`: citation details for this project and the 1943 Index (c081fc7bd2fb8202572ffbce5fa8273fcf6dc458)
+
+
 ## Version 2.0-alpha [2026-06-24]
 
 This is a transitional release: a milestone on the way to **DIMEV Version 2**, not its arrival. It consolidates a broad campaign of clean-up and restructuring — migrating the bibliography to Zotero, establishing `Manuscripts.xml` as the single source of truth for manuscript materials, recasting `Manuscripts.xml`, `Inscriptions.xml`, and `PrintedBooks.xml` as TEI, introducing controlled vocabularies, and rationalizing citation and cross-reference markup toward TEI P5 — together with the validation and documentation needed to sustain that work.
