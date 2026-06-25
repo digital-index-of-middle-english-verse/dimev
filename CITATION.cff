@@ -1,0 +1,84 @@
+# This CITATION.cff file was generated with Zotero.
+
+cff-version: 1.2.0
+message: >-
+  If you use this dataset, please cite it using the metadata from this file.
+title:  >-
+  The Digital Index of Middle English Verse: data files and documentation
+abstract: Source data and documentation for the Digital Index of Middle English Verse (DIMEV), an open-access bibliographic register of the surviving English-language verse from the period *c.* 1200--1525.
+type: dataset
+version: 2.0-alpha+1
+url: https://zenodo.org/records/14585961 # version 1.0
+authors: 
+  - family-names: Mooney
+    given-names: Linne R.
+  - family-names: Mosser
+    given-names: Daniel W.
+  - family-names: Cornelius
+    given-names: Ian
+    orcid: https://orcid.org/0000-0003-4985-582X
+  - family-names: Johnston
+    given-names: Michael
+    orcid: https://orcid.org/0009-0000-5333-9284
+date-released: 2026-06-25
+keywords:
+  - English poetry
+  - Middle English, 1100-1500
+  - Bibliography
+  - Indexes
+identifiers: 
+  - type: doi
+    value: 10.5281/zenodo.14585960
+    description: The concept DOI for the collection containing all versions of this work
+license: "CC-BY-4.0"
+repository-code: https://github.com/digital-index-of-middle-english-verse/dimev
+# This CITATION.cff reference content was generated from Zotero, edited to validate against CFF schema version 1.2.0 (with cffconvert 2.0.0 as validator)
+references:
+  - title: >-
+      A new index of Middle English verse
+    type: book
+    isbn: 978-0-7123-4831-7
+    publisher: # must be an object
+        city: London
+        name: British Library
+    authors: 
+      - family-names: Boffey
+        given-names: Julia
+      - family-names: Edwards
+        given-names: A. S. G.
+    date-published: 2005-01-01 # must be YYYY-MM-DD
+  - title: >-
+      A manuscript index to the "Index of Middle English Verse"
+    type: book
+    isbn: 0-7123-0387-1
+    publisher:
+        city: London
+        name: British Library
+    authors: 
+      - family-names: Hamer
+        given-names: R. F. S.
+    date-published: 1995-01-01
+  - title: >-
+      Supplement to the "Index of Middle English Verse"
+    type: book
+    publisher:
+        city: Lexington
+        name: University of Kentucky Press
+    authors: 
+      - family-names: Robbins
+        given-names: Rossell Hope
+      - family-names: Cutler
+        given-names: John L.
+    date-published: 1965-01-01
+  - title: >-
+      The index of Middle English verse
+    type: book
+    publisher:
+        city: New York
+        name: Columbia University Press
+    authors: 
+      - family-names: Brown
+        given-names: Carleton
+      - family-names: Robbins
+        given-names: Rossell Hope
+    date-published: 1943-01-01
